@@ -1,2 +1,2 @@
-# patternode-foundation
-The Fountation solution architecture.
+# ai-platform-architecture
+Fountational architecture for AI platforms.
