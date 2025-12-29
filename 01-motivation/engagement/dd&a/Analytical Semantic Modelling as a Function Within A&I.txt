@@ -1,0 +1,317 @@
+
+
+Current State A&I Report Development
+Example
+A business requirement has been received which asks for a new report showing customer contacts for each of our campaigns.
+It’s estimated that it will take one Insights Analyst one month to complete this task.
+
+Note: Data engineers have already created the assets required to build this report which sit as a set of tables in Hadoop.
+Investigation (1 Day) 
+The Insights Analyst does some investigation into what tables are available, where they are located, how they relate to each other, and whether they meet the level of detail required to meet the business need.
+Data Wrangling (2 - 3 Weeks)
+The Insights Analyst creates the underlying data model required by building a set of SQL tables in Hadoop which they think meets the needs of the business, setting up any scheduled refreshes for those new tables and creating a data model that holds the logic that fills the business requirement.
+Report Development (1 Week)
+The Insights Analyst works with the report requester to create a set of visuals that meets their needs and sets up the security groups required to deliver the report to the wider audience.
+Report Delivery (1 Day)
+The Insights Analyst delivers the report by publishing it to a shared workspace where users can access the report securely.
+Concerns with the Current Process
+
+Underlying Data is Fragmented
+
+
+
+
+
+
+
+
+
+Report data is often developed for that specific requirement, making it difficult to reuse across teams.
+
+Inefficiencies in Report Development
+Analysts must repeatedly shape same data for each report, increasing time-toinsight and reducing scalability.
+
+	Limited Support for New Use Cases	Limited Capabilities for Future Security Needs
+The current setup does not easily 	The increased security compliance support integration with tools like 	requirements for future data systems Copilot, which require structured 	(e.g. Snowflake) demands a level of semantic models for natural 	governance which the current 
+	language querying.	fragmented approach cannot reliably 
+support.
+The challenges in the current process stem from inconsistent semantic modelling practices, largely due to a high number of insights analysts working independently. It shows there are limitations in how we are structured and highlights the need for a centralized approach to improve efficiency, governance, and reuse.
+Current Direction for Future State Analytics 
+Plan
+Move towards a modern analytics platform with centralized data governance
+Goal
+Deliver trusted, secure, and centralized data analytics solutions that empower the business.
+Why
+To better support today’s analytical needs and uphold regulatory requirements.
+How
+Building a modular architecture 
+Providing strong data governance controls
+Assuring seamless integration between platforms (Snowflake, Power BI)
+Key Issue
+The future state solution currently does not integrate Snowflake and Power BI effectively.
+Notes
+Security is intended to sit in the Snowflake layer, but this causes performance, cost and development issues.
+	Planned Approach	Concern	Why
+
+Reports will be slow to load	The round trip journey for data retrieval (steps 1 – 7) is very long. Initial tests put load times at around  20.7 seconds. Even if we halved that to around 10 seconds it would still be too long.
+
+Longer report delivery 	To convert a DAX query in Power BI into a SQL query for timeframes	Snowflake (step 2) there are limitations on how you write DAX. 
+These limitations require building workarounds which prolong development.
+
+Report functionality restricted
+To facilitate retrieving data in this way, Microsoft recommends:
+1. Limiting report functionality (e.g. less visuals on a page)
+2. Limiting interactivity (e.g. no cross filtering between visuals) 3.	Not using tables in reports
+
+Tech debt will be high for A&I
+There is a hard limit of 1M rows for the amount of data that’s retrieved from Snowflake (step 5). This means each report will need it’s own bespoke aggregated model to reduce it’s row count, which in turn reduces each models reuse which increases tech debt as more models need to be built.
+
+Reports may break unexpectedly
+Because of the 1M row limit mentioned above, as data volumes increase over time, a report may inadvertently hit this limit and break unexpectedly.
+
+Poor Copilot experience
+A data model built in this way needs to be aggregated so as to be under the 1M row limit. This aggregated data would fail to answer most of the questions asked of Copilot as these sorts of questions often require more detailed data in the underlying model.
+
+Inconsistent or conflicting numbers across reports
+Because of the need for bespoke aggregated models described above, business metrics will also need to be hard coded which increases the risk of the same metric being calculated differently across reports.
+
+Difficult to manage Snowflake Snowflake costs increase as report traffic increases and reducing compute costs	report traffic is difficult.
+A technical solution has been endorsed for how reports will retrieve data from Snowflake using a connection type called Direct Query. There are many concerns with this approach which have been outlined.
+1. Report consumer opens a report which then requests data 
+from a data model 
+2. The data model converts the request into a set of SQL queries
+3. The SQL queries get sent to Snowflake via a gateway
+4. Snowflake runs the queries 
+5. The data gets sent back via a gateway
+6. Power BI converts the data back
+7. Data is visualized in report
+Proposed Approach
+	This proposed technical approach eliminates all 	
+
+Reports delivered in faster 	Data is retrieved in a similar way to our current approach, and timeframes. 	centralization of semantic models means we can deliver 
+content to the business faster (see slide 16).
+
+Report functionality stays the same Microsoft recommends this data retrieval approach as there are no associated limitations or design restrictions.
+
+Reports load times will stay the 
+same
+Report load times stay the same as this is similar to our current reporting solution.
+
+Tech debt is low
+Because there is no row limit for data retrieval (discussed in the previous slide), large semantic models can be built which facilitate reuse reducing our overall tech debt. (see slide 8).
+
+Reports are reliable
+The 1M row limit for data retrieval (discussed in the previous slide) is lifted meaning there is no risk of reports breaking unexpectedly.
+
+Consistent metrics across reports
+With the opportunity to build larger more reusable semantic models, metric logic will be centralized making it consistent across all reports (see slide 8, 16, 17).
+
+Good Copilot experience
+With a set of large centralized semantic models, the Copilot experience is easy to use and consistent. A user should be able to connect to a single model and ask a wide range of questions (see slide 8, 16, 18).
+
+Snowflake compute and cost is reduced significantly
+Data is retrieved once from Snowflake on a schedule and reused in Power BI. There is no further retrieval of data from the Snowflake platform which reduces costs significantly.
+                                                                         Improvement	Why concerns from the previous slide and improves on the current ways of working within A&I.
+2. A centralized Semantic Model receives the request for data.
+3. The report loads the data.
+Note: Data is retrieved from Snowflake on a schedule; the scheduling frequency is based on business requirements.
+Considerations for the Proposed Approach
+Security Management in Power BI
+All access controls must be implemented within Power BI and align with the access controls in 
+Snowflake, ensuring sensitive data is protected in the analytics platform and compliance standards are met.
+Minimize Data Duplication & Maximize Reuse
+We will need to avoid unnecessary duplication of data by designing semantic models for maximum reuse across the wider analytics platform.
+Monitor Data Traffic & Model Access
+We will need to implement monitoring tools to track who is accessing what data. This will help identify usage patterns and ensure accountability.
+Some Business Cases Still Require Near-Real-Time Data
+Some reports will still require near-real-time reporting, therefore near-real-time data retrieval still needs to be considered in the final state solution
+What is a Semantic Model?
+A New Strategic Asset in DD&A
+Definition
+A semantic model is a structured representation of business data that sits between data engineered tables and reporting tools. It translates technical data into business-friendly formats and centralizes business logic so that it’s consistent across tools.
+Core Functions
+Reusability: Enables reuse across dashboards, reports, LLMs and any future business tools.
+Data Abstraction: Simplifies complex data into understandable business terms. 
+Tool Support: Improves accuracy of tools like Copilot through semantic naming conventions and meta data.
+Governance: Embeds security, compliance, and version control into the asset.
+Strategic Importance
+Moves semantic modeling from an afterthought to a core data asset.
+Supports CI/CD pipelines for automated testing, deployment, and continuous improvement.
+Enhances collaboration between data engineers and analysts.
+What is the Semantic Layer?
+A New Strategic Layer in DD&A
+The Enterprise Semantic Layer is a structured and governed framework that organizes semantic assets across the entire organization. It serves as a foundational abstraction layer that transform complex data structures into meaningful, reusable, and interoperable components. This layer supports a wide range of enterprise use cases—not limited to analytics—but also encompassing operational, regulatory, strategic, and automation needs.
+The Analytics part of that Enterprise Semantic Layer is a structured data abstraction that sits between enterprise data products and the analytics platform. This layer is primarily focused on enabling business users—especially analysts—to access well-modeled, pre-aggregated data that reflects shared definitions and logic. It bridges the gap between data engineering and analytics by centralizing semantic model development and applying engineering rigor to ensure consistency, scalability, and compliance.
+What is Analytics Engineering?
+A New Strategic Function in DD&A
+A specialized function that bridges the gap between data engineering and data analytics. 
+Focused on building and maintaining the Business Data Products and Semantic Models and ensuring that data is reusable, governed, and scalable.
+
+Focus Area
+Responsibilities
+EDP > Semantic Model Transformation
+One of their core focuses is to take the cleaned, standardized data from the EDP layer and apply business logic to create the final Analytical Semantic Model layer.
+Semantic Modelling
+Designing and building the semantic models that are optimized for query performance and analytical consumption.
+Defining and coding key business metrics (e.g., Monthly Recurring Revenue, Customer Lifetime Value). This ensures all 
+Metric Definition reports and dashboards use the exact same calculation.
+Implementing rigorous data quality tests on the outputs in the BDP layer to ensure data is accurate, complete, and reliable 
+Quality and Testing before it's consumed by BI tools.
+Documenting the definitions, transformations, and lineage using tools like Confluence and Alation so analysts understand 
+Documentation
+the source and logic of the data they are using.
+How Do These Things Fit Together?
+Semantic Models, Semantic Layers & Analytics Engineers
+The Semantic Layer is a term that groups all Enterprise Semantic Layer Semantic Assets together.
+Analytics Semantic Layer
+
+Power BI 
+Semantic Models
+
+Snowflake 
+Semantic Views
+
+Other Analytical Semantic Assets
+
+Other Semantic Assets e.g. 
+Graph DB
+A Semantic Model is a type of Semantic Data Asset which sits under the Semantic Layer. (Other semantic data assets might include excel 
+extracts and other types of analytical data models)
+Analytics Engineering is a new function within A&I that owns the Semantic layer (and BDP layer)
+
+	Owners: 	Owners: 
+	Analytics Engineering	TBD
+Clarifying Different Terms
+
+
+Feature
+Primary 
+Output
+Format Focus
+Key Role
+Enterprise Data Product
+Enterprise Semantic Layer
+Curated Data (Star/Snowflake Schemas)
+A governed collection of broadly scoped semantic assets.
+Optimized tables (e.g. in a data warehouse or data lakehouse)
+Varying formats and platforms 
+based on the specific enterprise need
+Enterprise-wide semantic consistency, reuse, governance, 
+Data Structure and Optimization and support for both analytics and for BI Tools
+non-analytics use cases (e.g., automation, compliance).
+Acts as the semantic backbone of the organization, enabling scalable 
+Provides the Source of Truth as data modeling, cross-domain tables integration, and intelligent 
+Analytics Semantic Model
+KPIs, Semantic Hierarchies, 
+Dynamic Calculations related to Data Analytics
+Virtual layer or pre-aggregated structure (Tabular Model, Cube, In-Memory Model)
+Meaning, Dynamic Aggregations 
+(KPIs etc), and Performance for End-Users
+Provides the Context of Truth 
+(e.g., defines what “Total 
+Transaction Amount” means)
+
+automation.
+
+How Do They Fit Into Our Future State Architecture?
+A&I Future State Workflow
+
+Note: In the transition to future state, and while there is no EDP layer, we can use BDPs to create Dimension and Fact tables for the Analytics Semantic Layer. The future state goal will be to fully migrate away from these BDPs over to EDPs.
+Azure DevOps & GitHub Copilot
+Supporting Tools in Semantic Model and Report Development
+Azure DevOps (ADO)
+A suite of cloud-based services from Microsoft that supports the entire software development lifecycle, focusing on Continuous Integration (CI) and Continuous Delivery (CD).
+How Azure DevOps Enhances Power BI Development
+The core value of ADO with Power BI is enabling version control, automation, and governance for the code that builds your data assets.
+GitHub Copilot
+Powered by OpenAI, acts as an AI pair programmer, providing real-time code suggestions in IDEs like VS Code.
+How Copilot Enhances Semantic Model & Report Design
+Copilot accelerates development for code-heavy BI components such as data transformations and complex calculations.
+Future State Platforms
+Snowflake > Power BI
+
+Products Supporting Power BI Development
+Azure DevOps
+GitHub Copilot
+VS Code
+New
+Note: In the transition to future state, and while there is no EDP layer, we can use BDPs to create Dimension and Fact tables for the Analytics Semantic Layer. The future state goal will be to fully migrate away from these BDPs over to EDPs.
+Future State A&I Report Development
+Example:
+Using the same use case as before (A business requirement has been received which asks for a new report showing customer contacts for each of our campaigns).
+Under the new workflow, it’s estimated that it will take one Insights Analyst around one week to complete this task.
+
+Semantic Model 
+Development 
+(Immediate)
+
+
+Semantic Model Development (Immediate):
+While working on previous business requests, Analytics Engineers have already built the required data into a Customer Engagement Semantic Model.
+Investigation (0.5 Days)
+The Insights Analyst checks the Customer Engagement Semantic Model for the data. By design, a semantic model is easier to understand than Hadoop due to its natural language naming convention and drag-and-drop functionality. Also, using Power BI Copilot, the model can be interrogated much more efficiently by asking questions of the underlying meta data.
+Copilot (Immediate)
+The Customer Engagement Semantic Model has been built specifically with Copilot in mind and is considered another data consumer of the semantic layer. Business users can use Copilot immediately to get the KPIs they require while the enterprise reporting layer is being built.
+Report Development (1 Week)
+The Insights Analyst works with the report requester to create a set of visuals that meets their needs and setup the security groups required to deliver to the business.
+Report Delivery (1 Day)
+The Insights Analyst delivers the report by publishing it to a shared space where users can access the report within a secure environment.
+Benefits for Future-State
+
+Efficiency Gains
+Speeds up the analytics process and report creation by providing analysts with pre-modeled, governed data.
+
+Reusability Across Projects
+Semantic models are standardized and reusable across departments and use cases.
+Increases accuracy of reports and trust across the business as business logic is centralized for business tools.
+
+Reliable Analytics Development
+CI/CD pipelines ensure semantic models are versioned, tested, and continuously improved.
+Enables faster, more reliable analytics for informed decisionmaking.
+
+Stronger Data Governance
+Centralizes security and compliance requirements at the semantic layer.
+Supports advanced governance needs, aligning with Snowflake’s security standards.
+
+Benefits for Future-State (Continued)
+
+Improved Collaboration
+Bridges the gap between data engineers and analysts with a dedicated semantic modeling team.
+Improves alignment of A&I teams on business definitions and requirements.
+
+Support for Emerging Tooling
+            Builds on best practice architecture 	principals which future tools expect.
+
+Scalability and Strategic Alignment
+Aligns with strategic business goals and significantly improves operational efficiency.
+Provides a scalable foundation for future data initiatives and advanced use cases.
+
+AI Enablement
+Democratizes deeper insights across the organization.
+Centralizes meta data which improves LLM response accuracy.
+
+Who We Have Engaged Up to This Point
+Analytics & Insights Leadership:
+	Alex_Dickson@bnz.co.nz  	 
+Data Design:
+General Manager Analytics & Insights (Endorsed)
+	Yi-Jing_Chung@bnz.co.nz  	 
+Lead Data Designer (Reviewed)
+	Dandan_Cai@bnz.co.nz 	 	 
+Accenture:
+Principal Data Designer (Reviewed)
+duncan.gillies@accenture.com  
+Analytics & Insights:
+External Consultant (Reviewed)
+	Cherise_Stevens@bnz.co.nz 	 
+Head of Analytics (Reviewed)
+	Lydia_Bandzo@bnz.co.nz  	 
+Head of Analytics (Reviewed)
+	Danny_Mwiinga@bnz.co.nz 	 
+Head of Analytics (Reviewed)
+	Vinay_Badigar@bnz.co.nz  	 
+Head of Analytics (Reviewed)
+	Francis_Loh@bnz.co.nz 	 	 
+Head of Analytics (Reviewed)
+	David_H_Grant@bnz.co.nz 	 
+Head of Analytics (Reviewed)

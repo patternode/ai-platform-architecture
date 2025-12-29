@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Channels 2" id="channels-2">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Main Container: Channels 2 -->
+        <mxCell id="chan2-001" value="Channels 2" style="swimlane;startSize=30;fillColor=#b3e5fc;strokeColor=#666666;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="290" height="780" as="geometry" />
+        </mxCell>
+        
+        <!-- Channel Specific Container -->
+        <mxCell id="cs-001" value="Channel Specific" style="swimlane;startSize=30;fillColor=#80cbc4;strokeColor=#666666;fontStyle=1;" vertex="1" parent="chan2-001">
+          <mxGeometry x="10" y="40" width="270" height="250" as="geometry" />
+        </mxCell>
+        
+        <!-- Channel Specific Service Domains -->
+        <mxCell id="cs-002" value="ATM Network Operations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="cs-001">
+          <mxGeometry x="10" y="40" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cs-003" value="Branch Location Operations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="cs-001">
+          <mxGeometry x="10" y="70" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cs-004" value="Advanced Voice Services Operations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="cs-001">
+          <mxGeometry x="10" y="100" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cs-005" value="eBranch Operations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="cs-001">
+          <mxGeometry x="10" y="130" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cs-006" value="Financial Gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="cs-001">
+          <mxGeometry x="10" y="160" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cs-007" value="Card Terminal Administration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="cs-001">
+          <mxGeometry x="10" y="190" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cs-008" value="Card Terminal Operation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="cs-001">
+          <mxGeometry x="10" y="220" width="250" height="25" as="geometry" />
+        </mxCell>
+        
+        <!-- Servicing Container -->
+        <mxCell id="serv-001" value="Servicing" style="swimlane;startSize=30;fillColor=#80cbc4;strokeColor=#666666;fontStyle=1;" vertex="1" parent="chan2-001">
+          <mxGeometry x="10" y="300" width="270" height="250" as="geometry" />
+        </mxCell>
+        
+        <!-- Servicing Service Domains -->
+        <mxCell id="serv-002" value="Service Directory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="serv-001">
+          <mxGeometry x="10" y="40" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="serv-003" value="Contact Center Operations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="serv-001">
+          <mxGeometry x="10" y="70" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="serv-004" value="Point of Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="serv-001">
+          <mxGeometry x="10" y="100" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="serv-005" value="Interactive Help" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="serv-001">
+          <mxGeometry x="10" y="130" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="serv-006" value="Servicing Issue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="serv-001">
+          <mxGeometry x="10" y="160" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="serv-007" value="Servicing Event History" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="serv-001">
+          <mxGeometry x="10" y="190" width="250" height="25" as="geometry" />
+        </mxCell>
+        
+        <!-- Distribution Container -->
+        <mxCell id="dist-001" value="Distribution" style="swimlane;startSize=30;fillColor=#80cbc4;strokeColor=#666666;fontStyle=1;" vertex="1" parent="chan2-001">
+          <mxGeometry x="10" y="560" width="270" height="130" as="geometry" />
+        </mxCell>
+        
+        <!-- Distribution Service Domains -->
+        <mxCell id="dist-002" value="Product Inventory Distribution" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="dist-001">
+          <mxGeometry x="10" y="40" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="dist-003" value="Branch Currency Distribution" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="dist-001">
+          <mxGeometry x="10" y="70" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="dist-004" value="Correspondence" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="dist-001">
+          <mxGeometry x="10" y="100" width="250" height="25" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

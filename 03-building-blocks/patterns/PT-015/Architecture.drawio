@@ -1,0 +1,290 @@
+<mxfile host="app.diagrams.net" modified="2025-12-05T00:00:00.000Z" agent="AI" version="24.0.0">
+  <diagram name="PT-015-Architecture" id="pt015-architecture">
+    <mxGraphModel dx="2400" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1800" background="#FFFFFF">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Title -->
+        <mxCell id="title" value="PT-015: Event-Driven Architecture for AI/ML - Architecture Overview" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="2300" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Pattern Boundary Container -->
+        <mxCell id="pattern-boundary" value="Event-Driven Architecture Pattern" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#003087;strokeWidth=3;verticalAlign=top;fontSize=20;fontStyle=1;fontColor=#003087;dashed=1;dashPattern=8 8;arcSize=5;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="100" y="140" width="2200" height="1460" as="geometry"/>
+        </mxCell>
+
+        <!-- Event Producers Section -->
+        <mxCell id="producers-label" value="Event Producers" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="150" y="180" width="200" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Core Banking System -->
+        <mxCell id="producer-core-banking" value="Core Banking System&#xa;&#xa;Transaction Events&#xa;(5-10M/day)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#333333;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="150" y="230" width="220" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- Web/Mobile Apps -->
+        <mxCell id="producer-web-mobile" value="Web/Mobile Apps&#xa;&#xa;User Action Events&#xa;(50-100M/day)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#333333;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="150" y="380" width="220" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- Account Management -->
+        <mxCell id="producer-account-mgmt" value="Account Management&#xa;&#xa;Profile Change Events&#xa;(100K/day)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#333333;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="150" y="530" width="220" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- Document Management -->
+        <mxCell id="producer-doc-mgmt" value="Document Management&#xa;&#xa;Document Events&#xa;(500K/day)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#333333;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="150" y="680" width="220" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- Event Producer Adapters -->
+        <mxCell id="producer-adapter-1" value="Event Producer&#xa;Adapter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB399;strokeColor=#FF6B35;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#333333;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="420" y="250" width="130" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="producer-adapter-2" value="Event Producer&#xa;Adapter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB399;strokeColor=#FF6B35;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#333333;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="420" y="400" width="130" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="producer-adapter-3" value="Event Producer&#xa;Adapter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB399;strokeColor=#FF6B35;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#333333;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="420" y="550" width="130" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="producer-adapter-4" value="Event Producer&#xa;Adapter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB399;strokeColor=#FF6B35;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#333333;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="420" y="700" width="130" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrows from Producers to Adapters -->
+        <mxCell id="arrow-prod1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=2;dashed=1;dashPattern=5 5;endArrow=classic;endFill=1;" edge="1" parent="1" source="producer-core-banking" target="producer-adapter-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="arrow-prod2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=2;dashed=1;dashPattern=5 5;endArrow=classic;endFill=1;" edge="1" parent="1" source="producer-web-mobile" target="producer-adapter-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="arrow-prod3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=2;dashed=1;dashPattern=5 5;endArrow=classic;endFill=1;" edge="1" parent="1" source="producer-account-mgmt" target="producer-adapter-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="arrow-prod4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=2;dashed=1;dashPattern=5 5;endArrow=classic;endFill=1;" edge="1" parent="1" source="producer-doc-mgmt" target="producer-adapter-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Event Broker (Kafka) - Central Component -->
+        <mxCell id="event-broker" value="Event Broker&#xa;(Apache Kafka)&#xa;&#xa;Topics:&#xa;• transactions&#xa;• user-actions&#xa;• account-changes&#xa;• documents&#xa;&#xa;Retention: 7 days&#xa;Throughput: 100M+ events/day" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#003087;strokeWidth=3;fontSize=14;fontStyle=1;fontColor=#FFFFFF;arcSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="700" y="350" width="280" height="260" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrows from Adapters to Event Broker -->
+        <mxCell id="arrow-adapter1-broker" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=2;dashed=1;dashPattern=5 5;endArrow=classic;endFill=1;" edge="1" parent="1" source="producer-adapter-1" target="event-broker">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="arrow-adapter2-broker" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=2;dashed=1;dashPattern=5 5;endArrow=classic;endFill=1;" edge="1" parent="1" source="producer-adapter-2" target="event-broker">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="arrow-adapter3-broker" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=2;dashed=1;dashPattern=5 5;endArrow=classic;endFill=1;" edge="1" parent="1" source="producer-adapter-3" target="event-broker">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="arrow-adapter4-broker" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=2;dashed=1;dashPattern=5 5;endArrow=classic;endFill=1;" edge="1" parent="1" source="producer-adapter-4" target="event-broker">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Schema Registry -->
+        <mxCell id="schema-registry" value="Schema Registry&#xa;&#xa;Avro Schemas&#xa;Version Control" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB399;strokeColor=#FF6B35;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#333333;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="735" y="180" width="210" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow from Schema Registry to Event Broker -->
+        <mxCell id="arrow-schema-broker" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;dashed=1;dashPattern=5 5;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="1" source="schema-registry" target="event-broker">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Stream Processing Engine -->
+        <mxCell id="stream-processor" value="Stream Processing Engine&#xa;(Kafka Streams / Flink)&#xa;&#xa;• Event Filtering&#xa;• Event Enrichment&#xa;• Event Transformation&#xa;• Feature Engineering&#xa;&#xa;Latency: &lt;50ms p99" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#003087;strokeWidth=3;fontSize=14;fontStyle=1;fontColor=#FFFFFF;arcSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="350" width="280" height="260" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow from Event Broker to Stream Processor -->
+        <mxCell id="arrow-broker-processor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=3;dashed=1;dashPattern=5 5;endArrow=classic;endFill=1;endSize=10;" edge="1" parent="1" source="event-broker" target="stream-processor">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Feature Store (supporting component) -->
+        <mxCell id="feature-store" value="Feature Store&#xa;&#xa;Real-Time Features&#xa;for Enrichment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#333333;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="180" width="210" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow from Feature Store to Stream Processor -->
+        <mxCell id="arrow-feature-processor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;dashed=1;dashPattern=5 5;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="1" source="feature-store" target="stream-processor">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Event Consumers Section -->
+        <mxCell id="consumers-label" value="Event Consumers (AI/ML Services)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="180" width="350" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Consumer Framework boxes -->
+        <mxCell id="consumer-fraud" value="Fraud Detection&#xa;&#xa;Real-time scoring&#xa;&lt;100ms" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#333333;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="230" width="180" height="100" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="consumer-personalization" value="Personalization&#xa;&#xa;User behavior&#xa;analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#333333;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="230" width="180" height="100" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="consumer-security" value="Security AI&#xa;&#xa;Threat detection&#xa;monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#333333;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="230" width="180" height="100" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="consumer-analytics" value="Analytics Platform&#xa;&#xa;Real-time&#xa;dashboards" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#333333;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="360" width="180" height="100" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="consumer-audit" value="Audit &amp; Compliance&#xa;&#xa;Regulatory&#xa;logging" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#333333;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="360" width="180" height="100" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="consumer-payment-disputes" value="Payment Disputes&#xa;&#xa;Risk assessment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#333333;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="360" width="180" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrows from Stream Processor to Consumers -->
+        <mxCell id="arrow-proc-fraud" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=2;dashed=1;dashPattern=5 5;endArrow=classic;endFill=1;" edge="1" parent="1" source="stream-processor" target="consumer-fraud">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="arrow-proc-personalization" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=2;dashed=1;dashPattern=5 5;endArrow=classic;endFill=1;" edge="1" parent="1" source="stream-processor" target="consumer-personalization">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="arrow-proc-security" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=2;dashed=1;dashPattern=5 5;endArrow=classic;endFill=1;" edge="1" parent="1" source="stream-processor" target="consumer-security">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="arrow-proc-analytics" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=2;dashed=1;dashPattern=5 5;endArrow=classic;endFill=1;" edge="1" parent="1" source="stream-processor" target="consumer-analytics">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="arrow-proc-audit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=2;dashed=1;dashPattern=5 5;endArrow=classic;endFill=1;" edge="1" parent="1" source="stream-processor" target="consumer-audit">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="arrow-proc-disputes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=2;dashed=1;dashPattern=5 5;endArrow=classic;endFill=1;" edge="1" parent="1" source="stream-processor" target="consumer-payment-disputes">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Event Store -->
+        <mxCell id="event-store" value="Event Store&#xa;&#xa;Persistent Event Log&#xa;Retention:&#xa;• Hot: 7 days&#xa;• Warm: 90 days&#xa;• Cold: 7 years&#xa;&#xa;Event Replay&#xa;Audit Trail" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#FFB399;strokeColor=#FF6B35;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="750" y="880" width="180" height="220" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow from Event Broker to Event Store -->
+        <mxCell id="arrow-broker-store" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=2;dashed=1;dashPattern=5 5;endArrow=classic;endFill=1;" edge="1" parent="1" source="event-broker" target="event-store">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Dead Letter Queue -->
+        <mxCell id="dead-letter-queue" value="Dead Letter Queue&#xa;&#xa;Failed Events&#xa;Retry Logic&#xa;Manual Review" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#CC0000;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#333333;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="950" width="210" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow from Stream Processor to DLQ -->
+        <mxCell id="arrow-proc-dlq" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#CC0000;strokeWidth=2;dashed=1;dashPattern=5 5;endArrow=classic;endFill=1;" edge="1" parent="1" source="stream-processor" target="dead-letter-queue">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Cross-Cutting Concerns Section -->
+        <mxCell id="crosscutting-label" value="Cross-Cutting Services" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="150" y="880" width="280" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Observability Platform -->
+        <mxCell id="observability" value="Observability Platform&#xa;&#xa;• Event lag monitoring&#xa;• Throughput metrics&#xa;• Error rates&#xa;• Consumer health" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#003087;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#333333;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="150" y="940" width="200" height="140" as="geometry"/>
+        </mxCell>
+
+        <!-- Security & Identity -->
+        <mxCell id="security-identity" value="Security &amp; Identity&#xa;&#xa;• Authentication&#xa;• Authorization&#xa;• Encryption (TLS)&#xa;• Event audit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#003087;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#333333;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1120" width="200" height="140" as="geometry"/>
+        </mxCell>
+
+        <!-- AI Governance Platform -->
+        <mxCell id="ai-governance" value="AI Governance Platform&#xa;&#xa;• Compliance tracking&#xa;• Risk management&#xa;• Audit trail&#xa;• Policy enforcement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#003087;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#333333;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1300" width="200" height="140" as="geometry"/>
+        </mxCell>
+
+        <!-- Performance Metrics Box -->
+        <mxCell id="metrics-box" value="Performance Targets&#xa;&#xa;• Event Publication: &lt;10ms p99&#xa;• Stream Processing: &lt;50ms p99&#xa;• End-to-End: &lt;100ms p99&#xa;• Throughput: 100M+ events/day&#xa;• Consumer Lag: &lt;1s normal, &lt;10s spike" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#00A651;strokeWidth=2;fontSize=12;fontStyle=0;fontColor=#333333;arcSize=10;align=left;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="530" width="400" height="160" as="geometry"/>
+        </mxCell>
+
+        <!-- Use Cases Box -->
+        <mxCell id="usecases-box" value="BNZ Use Cases&#xa;&#xa;• UC-006: HyperPersonalization&#xa;• UC-008: Security AI&#xa;• UC-013: Fraud Ops&#xa;• UC-019: Payment Disputes&#xa;• UC-024: App Personalisation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#003087;strokeWidth=2;fontSize=12;fontStyle=0;fontColor=#333333;arcSize=10;align=left;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="530" width="330" height="160" as="geometry"/>
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="legend-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;arcSize=5;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="1320" width="400" height="240" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="1330" width="100" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Legend items -->
+        <mxCell id="legend-integration" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#003087;strokeWidth=2;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="1370" width="60" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-integration-text" value="Integration ABBs (Event Broker, Stream Processor)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="1370" width="300" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-adapter" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB399;strokeColor=#FF6B35;strokeWidth=2;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="1410" width="60" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-adapter-text" value="Producer/Consumer Adapters &amp; Event Store" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="1410" width="300" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-systems" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="1450" width="60" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-systems-text" value="Source Systems &amp; AI/ML Consumers" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="1450" width="300" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-crosscutting" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#003087;strokeWidth=2;arcSize=10;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="1490" width="60" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-crosscutting-text" value="Cross-Cutting Services &amp; Supporting Components" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="1490" width="300" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-event-flow" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#FF6B35;strokeWidth=2;dashed=1;dashPattern=5 5;endArrow=classic;endFill=1;fontFamily=Helvetica;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1910" y="1540" as="sourcePoint"/>
+            <mxPoint x="1970" y="1540" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="legend-event-flow-text" value="Event Flow (Asynchronous)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="1525" width="300" height="30" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

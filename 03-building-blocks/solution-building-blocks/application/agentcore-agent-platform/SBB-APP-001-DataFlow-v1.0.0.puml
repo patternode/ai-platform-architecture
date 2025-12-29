@@ -1,0 +1,139 @@
+@startuml SBB-APP-001-DataFlow
+!define BNZ_NAVY #003087
+!define BNZ_ORANGE #FF6B35
+!define BNZ_LIGHTBLUE #50E6FF
+!define BNZ_TEAL #00A651
+!define BNZ_DARKGRAY #333333
+!define BNZ_MEDIUMGRAY #666666
+!define BNZ_LIGHTGRAY #CCCCCC
+
+title SBB-APP-001: AWS Bedrock AgentCore - Data Flow Implementation
+
+skinparam backgroundColor white
+skinparam defaultFontName Helvetica
+skinparam defaultFontSize 11
+skinparam defaultFontColor BNZ_DARKGRAY
+
+skinparam actor {
+    BackgroundColor BNZ_LIGHTBLUE
+    BorderColor BNZ_MEDIUMGRAY
+    BorderThickness 2
+    FontColor BNZ_DARKGRAY
+    FontStyle bold
+}
+
+skinparam participant {
+    BackgroundColor BNZ_NAVY
+    BorderColor BNZ_DARKGRAY
+    BorderThickness 2
+    FontColor white
+    FontStyle bold
+}
+
+skinparam database {
+    BackgroundColor BNZ_LIGHTGRAY
+    BorderColor BNZ_MEDIUMGRAY
+    BorderThickness 2
+    FontColor BNZ_DARKGRAY
+    FontStyle bold
+}
+
+skinparam sequence {
+    ArrowColor BNZ_NAVY
+    ArrowThickness 2
+    LifeLineBorderColor BNZ_MEDIUMGRAY
+    LifeLineBackgroundColor white
+}
+
+actor User as user
+participant "API Gateway\n//Regional Endpoint//" as gateway BNZ_LIGHTBLUE
+participant "AgentCore Runtime\n//Firecracker microVM//" as runtime BNZ_NAVY
+database "AgentCore Memory\n//DynamoDB + In-Memory//" as memory BNZ_LIGHTGRAY
+participant "Amazon Bedrock\n//Foundation Model API//" as bedrock #00A651
+participant "AgentCore Gateway\n//MCP Tool Router//" as mcp BNZ_ORANGE
+participant "External API\n//(e.g. Salesforce)//" as external #CC0000
+participant "Observability\n//CloudWatch / X-Ray//" as obs BNZ_MEDIUMGRAY
+
+== User Request ==
+user -> gateway: **1:** POST /agents/{id}/invoke\n{query, context}
+activate gateway BNZ_LIGHTBLUE
+
+gateway -> gateway: **2:** Authenticate (IAM)
+activate gateway BNZ_NAVY
+
+gateway -> runtime: **3:** Route request\n(HTTPS + JWT)
+activate runtime BNZ_NAVY
+
+== Context Loading ==
+runtime -> memory: **4:** Load conversation context
+activate memory BNZ_LIGHTGRAY
+memory --> runtime: **5:** Return context + memory
+deactivate memory
+
+== First Model Invocation ==
+runtime -> bedrock: **6:** InvokeModel\n(AWS SDK, JSON)
+activate bedrock #00A651
+bedrock --> runtime: **7:** Model response + tool calls
+deactivate bedrock
+
+== Tool Execution ==
+runtime -> mcp: **8:** Invoke tool\n(MCP over HTTPS)
+activate mcp BNZ_ORANGE
+
+mcp -> external: **9:** Forward to API\n(REST/gRPC)
+activate external #CC0000
+external --> mcp: **10:** API response
+deactivate external
+
+mcp --> runtime: **11:** Tool result
+deactivate mcp
+
+== Second Model Invocation (with tool results) ==
+runtime -> bedrock: **12:** InvokeModel\n(with tool results)
+activate bedrock #00A651
+bedrock --> runtime: **13:** Final response
+deactivate bedrock
+
+== Memory Update ==
+runtime -> memory: **14:** Store updated context
+activate memory BNZ_LIGHTGRAY
+memory --> runtime: **15:** ACK
+deactivate memory
+
+== Response to User ==
+runtime -> gateway: **16:** Forward response (JSON)
+deactivate runtime
+
+gateway -> user: **17:** 200 OK\n{response}
+deactivate gateway
+deactivate gateway
+
+== Telemetry (Async) ==
+runtime ->> obs: **18:** Emit telemetry\n(async, OpenTelemetry)
+activate obs BNZ_MEDIUMGRAY
+deactivate obs
+
+note right of obs
+  **Sequence Summary:**
+  • 18 steps total
+  • 2 model invocations
+  • 1 tool call
+  • Protocols: HTTPS, AWS SDK, MCP, REST/gRPC
+  • Observability: OpenTelemetry → CloudWatch/X-Ray
+end note
+
+legend right
+  **Color Coding:**
+  • <color:BNZ_NAVY>Navy Blue</color> = Core AgentCore Components
+  • <color:BNZ_LIGHTBLUE>Light Blue</color> = AWS Infrastructure
+  • <color:#00A651>Teal/Green</color> = Foundation Model Service
+  • <color:BNZ_ORANGE>Orange</color> = Tool Integration Layer
+  • <color:#CC0000>Red</color> = External Systems
+  • <color:BNZ_MEDIUMGRAY>Gray</color> = Observability
+  
+  **Notation:** UML 2.5 Sequence Diagram
+  **Document:** SBB-APP-001 v1.0.0
+  **Organization:** BNZ Enterprise Architecture
+endlegend
+
+@enduml

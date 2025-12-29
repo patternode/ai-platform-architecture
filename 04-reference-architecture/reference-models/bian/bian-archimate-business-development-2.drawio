@@ -1,0 +1,170 @@
+<mxfile host="app.diagrams.net" modified="2025-10-18T00:00:00.000Z" agent="5.0" version="21.0.0" etag="generated" type="device">
+  <diagram name="BIAN Business Development 2 ArchiMate" id="bian-business-dev2-archimate">
+    <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1480" pageHeight="590" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Main Container -->
+        <mxCell id="main-container" value="Business Development 2" style="swimlane;startSize=30;fillColor=#b3b3b3;strokeColor=#666666;fontSize=14;fontStyle=1;fontColor=#000000;swimlaneFillColor=#cccccc;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="1460" height="570" as="geometry" />
+        </mxCell>
+        
+        <!-- Marketing And Development Container -->
+        <mxCell id="mad-container" value="Marketing And Development" style="swimlane;startSize=25;fillColor=#808080;strokeColor=#666666;fontSize=12;fontStyle=1;fontColor=#ffffff;swimlaneFillColor=#999999;" vertex="1" parent="main-container">
+          <mxGeometry x="20" y="50" width="680" height="500" as="geometry" />
+        </mxCell>
+        
+        <!-- MAD Elements - Row 1 -->
+        <mxCell id="mad-1" value="Business Development" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="mad-container">
+          <mxGeometry x="10" y="40" width="320" height="45" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="mad-2" value="Market Research" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="mad-container">
+          <mxGeometry x="345" y="40" width="320" height="45" as="geometry" />
+        </mxCell>
+        
+        <!-- MAD Elements - Row 2 -->
+        <mxCell id="mad-3" value="Customer Portfolio" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="mad-container">
+          <mxGeometry x="10" y="95" width="320" height="45" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="mad-4" value="Market Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="mad-container">
+          <mxGeometry x="345" y="95" width="320" height="45" as="geometry" />
+        </mxCell>
+        
+        <!-- MAD Elements - Row 3 -->
+        <mxCell id="mad-5" value="Contribution Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="mad-container">
+          <mxGeometry x="10" y="150" width="320" height="45" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="mad-6" value="Competitor Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="mad-container">
+          <mxGeometry x="345" y="150" width="320" height="45" as="geometry" />
+        </mxCell>
+        
+        <!-- MAD Elements - Row 4 -->
+        <mxCell id="mad-7" value="Segment Direction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="mad-container">
+          <mxGeometry x="10" y="205" width="320" height="45" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="mad-8" value="Customer Campaign Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="mad-container">
+          <mxGeometry x="345" y="205" width="320" height="45" as="geometry" />
+        </mxCell>
+        
+        <!-- MAD Elements - Row 5 -->
+        <mxCell id="mad-9" value="Brand Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="mad-container">
+          <mxGeometry x="10" y="260" width="320" height="45" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="mad-10" value="Customer Campaign Design" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="mad-container">
+          <mxGeometry x="345" y="260" width="320" height="45" as="geometry" />
+        </mxCell>
+        
+        <!-- MAD Elements - Row 6 -->
+        <mxCell id="mad-11" value="Sales Planning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="mad-container">
+          <mxGeometry x="10" y="315" width="320" height="45" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="mad-12" value="Prospect Campaign Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="mad-container">
+          <mxGeometry x="345" y="315" width="320" height="45" as="geometry" />
+        </mxCell>
+        
+        <!-- MAD Elements - Row 7 -->
+        <mxCell id="mad-13" value="Advertising" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="mad-container">
+          <mxGeometry x="10" y="370" width="320" height="45" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="mad-14" value="Prospect Campaign Design" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="mad-container">
+          <mxGeometry x="345" y="370" width="320" height="45" as="geometry" />
+        </mxCell>
+        
+        <!-- MAD Elements - Row 8 -->
+        <mxCell id="mad-15" value="Promotional Events" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="mad-container">
+          <mxGeometry x="10" y="425" width="320" height="45" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="mad-16" value="Customer Surveys" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="mad-container">
+          <mxGeometry x="345" y="425" width="320" height="45" as="geometry" />
+        </mxCell>
+        
+        <!-- Channel Management Container -->
+        <mxCell id="cm-container" value="Channel Management" style="swimlane;startSize=25;fillColor=#808080;strokeColor=#666666;fontSize=12;fontStyle=1;fontColor=#ffffff;swimlaneFillColor=#999999;" vertex="1" parent="main-container">
+          <mxGeometry x="720" y="50" width="720" height="500" as="geometry" />
+        </mxCell>
+        
+        <!-- CM Elements - Row 1 -->
+        <mxCell id="cm-1" value="Channel Portfolio" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="cm-container">
+          <mxGeometry x="10" y="40" width="340" height="45" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="cm-2" value="Branch Location Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="cm-container">
+          <mxGeometry x="365" y="40" width="340" height="45" as="geometry" />
+        </mxCell>
+        
+        <!-- CM Elements - Row 2 -->
+        <mxCell id="cm-3" value="Branch Portfolio" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="cm-container">
+          <mxGeometry x="10" y="95" width="340" height="45" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="cm-4" value="ATM Network Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="cm-container">
+          <mxGeometry x="365" y="95" width="340" height="45" as="geometry" />
+        </mxCell>
+        
+        <!-- CM Elements - Row 3 -->
+        <mxCell id="cm-5" value="Contact Center Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="cm-container">
+          <mxGeometry x="10" y="150" width="340" height="45" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="cm-6" value="Branch Network Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="cm-container">
+          <mxGeometry x="365" y="150" width="340" height="45" as="geometry" />
+        </mxCell>
+        
+        <!-- CM Elements - Row 4 -->
+        <mxCell id="cm-7" value="Servicing Activity Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="cm-container">
+          <mxGeometry x="10" y="205" width="340" height="45" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="cm-8" value="Advanced Voice Services Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="cm-container">
+          <mxGeometry x="365" y="205" width="340" height="45" as="geometry" />
+        </mxCell>
+        
+        <!-- CM Elements - Row 5 -->
+        <mxCell id="cm-9" value="Financial Message Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="cm-container">
+          <mxGeometry x="10" y="260" width="340" height="45" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="cm-10" value="eBranch Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="cm-container">
+          <mxGeometry x="365" y="260" width="340" height="45" as="geometry" />
+        </mxCell>
+        
+        <!-- CM Elements - Row 6 -->
+        <mxCell id="cm-11" value="Channel Activity Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="cm-container">
+          <mxGeometry x="10" y="315" width="340" height="45" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="cm-12" value="Product Inventory Item Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="cm-container">
+          <mxGeometry x="365" y="315" width="340" height="45" as="geometry" />
+        </mxCell>
+        
+        <!-- CM Elements - Row 7 -->
+        <mxCell id="cm-13" value="Information Provider Administration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="cm-container">
+          <mxGeometry x="10" y="370" width="340" height="45" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="cm-14" value="Central Cash Handling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="cm-container">
+          <mxGeometry x="365" y="370" width="340" height="45" as="geometry" />
+        </mxCell>
+        
+        <!-- CM Elements - Row 8 -->
+        <mxCell id="cm-15" value="Market Data Switch Administration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="cm-container">
+          <mxGeometry x="10" y="425" width="340" height="45" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="cm-16" value="Branch Currency Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=11;align=center;" vertex="1" parent="cm-container">
+          <mxGeometry x="365" y="425" width="340" height="45" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

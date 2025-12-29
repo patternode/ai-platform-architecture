@@ -1,0 +1,268 @@
+<mxfile host="65bd71144e">
+    <diagram name="Platform Capability Model" id="platform-capability-model">
+        <mxGraphModel dx="2067" dy="1336" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="experience-header" value="EXPERIENCE PLATFORMS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#002f6b, #91badc);strokeColor=none;fontColor=#FFFFFF;align=right;spacingRight=10;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="-1165" y="-713" width="140" height="94" as="geometry"/>
+                </mxCell>
+                <mxCell id="channels-label" value="Channels" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#c2dfe4, #354d5b);strokeColor=none;fontColor=#000000;fontStyle=1;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="-1018.5" y="-713" width="104" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p01-customer-digital" value="P01 Customer Digital" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#c2dfe4, #354d5b);strokeColor=none;fontColor=#000000;fontSize=12;align=center;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="-904" y="-713" width="218.5" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p02-colleague-digital" value="P02 Colleague Digital" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#c2dfe4, #354d5b);strokeColor=none;fontColor=#000000;fontSize=12;align=center;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="-678" y="-713" width="223" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p03-conversational-banking" value="P03 Conversational Banking" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#c2dfe4, #354d5b);strokeColor=none;fontColor=#000000;fontSize=12;align=center;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="-452" y="-713" width="217" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p04-physical-experiences" value="P04 Physical Experiences" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#c2dfe4, #354d5b);strokeColor=none;fontColor=#000000;fontSize=12;align=center;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="-226" y="-713" width="222" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="enablers-label" value="Enablers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#c2dfe4, #354d5b);strokeColor=none;fontColor=#000000;fontStyle=1;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="-1018.5" y="-663" width="104" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p05-customer-iam" value="P05 Customer Identity &amp;amp; Access Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#c2dfe4, #121212);strokeColor=none;fontColor=light-dark(#121212,#121212);fontSize=12;align=center;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="-904" y="-663" width="290" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p06-colleague-iam" value="P06 Colleague Identity &amp;amp; Access Mgt" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#c2dfe4, #121212);strokeColor=none;fontColor=#000000;fontSize=12;align=center;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="-601" y="-663" width="294" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p07-banking-apis" value="P07 Open &amp;amp; Proprietary Banking APIs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#c2dfe4, #121212);strokeColor=none;fontColor=#000000;fontSize=12;align=center;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="-300" y="-663" width="296" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="customer-mgmt-label" value="Customer&#xa;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #5e9bd3);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontStyle=0;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-1018.5" y="-611" width="104" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="p08-customer-lifecycle" value="P08 Customer &amp;amp; Party&lt;br&gt;Lifecycle Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #5e9bd3);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-904" y="-608" width="139" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="p09-customer-master" value="P09 Customer &amp;amp; Party&lt;br&gt;Master" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #5e9bd3);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-752" y="-608" width="139" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="p10-customer-analytics" value="P10 Customer Financial&lt;br&gt;Analytics" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #5e9bd3);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-601" y="-608" width="139" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="p11-customer-engagement" value="P11 Customer Engagement" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #5e9bd3);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-454" y="-608" width="149" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="p12-marketing-campaign" value="P12 Marketing &amp;amp; Campaign&lt;br&gt;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #5e9bd3);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-295" y="-608" width="141" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="p13-loyalty-rewards" value="P13 Loyalty Offers &amp;amp;&lt;br&gt;Rewards" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #5e9bd3);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-149" y="-608" width="145" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="product-orig-label" value="Product&#xa;Origination&#xa;&amp;amp; Maintenance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #5e9bd3);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontStyle=0;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-1018.5" y="-557" width="104" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="p14-product-origination" value="P14 Product Origination" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #121212);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-904" y="-557" width="291" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="p15-product-master" value="P15 Product Master" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #5e9bd3);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-645" y="-512" width="123" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p16-lending-origination" value="P16 Lending Origination" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #121212);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-604" y="-557" width="301" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="p17-credit-modelling" value="P17 Credit Modelling, Pricing &amp;amp; Decisioning" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #121212);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-294" y="-557" width="290" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="account-mgmt-label" value="Account Mgmt&#xa;&amp;amp; Servicing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #5e9bd3);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontStyle=0;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-1018.5" y="-512" width="104" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p18-core-ledger" value="P18 Core Ledger" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #5e9bd3);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-904" y="-512" width="124" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p19-collateral-mgmt" value="P19 Collateral&lt;br&gt;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #5e9bd3);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-773" y="-512" width="123" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p20-investment-wealth" value="P20 Investment &amp;amp; Private&lt;br&gt;Wealth" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #5e9bd3);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-516.5" y="-512" width="123" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p21-card-issuing" value="P21 Card Issuing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #5e9bd3);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-387" y="-512" width="123" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p22-merchant-acquiring" value="P22 Merchant Acquiring" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #5e9bd3);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-259" y="-512" width="125" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p23-money-market" value="P23 Money Market" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #5e9bd3);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-127" y="-512" width="123" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="payments-label" value="Payments" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #5e9bd3);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontStyle=0;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-1018.5" y="-463" width="104" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p24-international-payments" value="P24 International Payments" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #5e9bd3);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-904" y="-463" width="294" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p25-domestic-payments" value="P25 Domestic Payments" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #5e9bd3);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-601" y="-463" width="296" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p26-transaction-switch" value="P26 - Transaction Switch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#005e92, #5e9bd3);strokeColor=none;fontColor=light-dark(#CCE5FF,#121212);fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-300" y="-463" width="296" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="enabling-services-label" value="Enabling&#xa;Services" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#002f6b, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-1018.5" y="-409" width="104" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p27-collections-hardship" value="P27 Collections &amp;amp; Hardship" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#002f6b, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-904" y="-409" width="445" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p28-financial-crime-fraud" value="P28 - Financial Crime &amp;amp; Fraud" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#002f6b, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-451" y="-409" width="447" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="enterprise-services-label" value="Enterprise&#xa;Services" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#002f6b, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-1018.5" y="-359" width="104" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="p29-group-credit-risk" value="P29 Group Credit Risk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#002f6b, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-904" y="-359" width="102" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="p30-treasury-risk" value="P30 Treasury Risk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#002f6b, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-796" y="-359" width="112" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="p31-governance-risk" value="P31 Governance, Op&amp;nbsp;Risk, Compliance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#002f6b, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-680" y="-359" width="107" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="p32-regulatory-reporting" value="P32 Regulatory&lt;br&gt;Reporting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#002f6b, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-566" y="-359" width="105" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="p33-enterprise-info-mgmt" value="P33 Enterprise&lt;br&gt;Information&lt;br&gt;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#002f6b, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-454" y="-359" width="108" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="p34-people-culture" value="P34 People &amp;amp; Culture" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#002f6b, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-341" y="-359" width="108" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="p35-finance" value="P35 Finance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#002f6b, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-226" y="-359" width="106" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="p36-procurement" value="P36 Procurement" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#002f6b, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-116" y="-359" width="112" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="enterprise-data-label" value="Enterprise Data&#xa;&amp;amp; Analytics" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#002f6b, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-1018.5" y="-311" width="104" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="p37-data-analytics" value="P37 Data &amp;amp; Analytics" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#002f6b, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-904" y="-311" width="295" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="p38-enterprise-reporting" value="P38 Enterprise Reporting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#002f6b, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-603" y="-311" width="298" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="p39-artificial-intelligence" value="Artificial Intelligence" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#5b1d58, #5E9BD3);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=left;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="-917" y="108" width="725" height="113" as="geometry"/>
+                </mxCell>
+                <mxCell id="enterprise-security-label" value="Enterprise&#xa;Security" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-1018.5" y="-257" width="104" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p40-data-protection" value="P40 Data &amp;amp; Information Protection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-904" y="-257" width="296" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p41-cyber-threat" value="P41 Cyber Threat Intelligence, Detection &amp;amp; Response" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-601" y="-257" width="296" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p50-app-infrastructure" value="P50 Application &amp;amp; Infrastructure Protection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-298" y="-257" width="294" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="enabling-tech-label" value="Enabling&#xa;Technologies" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-1018.5" y="-207" width="104" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="p42-enterprise-interfaces" value="P42 Enterprise Interfaces&lt;br&gt;API, Events &amp;amp;&lt;br&gt;Integration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #a495b1);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-904" y="-207" width="95" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="p43-engineering-automation" value="P43 Engineering &amp;amp;&amp;nbsp;Automation&lt;br&gt;Software" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #a495b1);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-803" y="-207" width="98" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="p44-workplace-technology" value="P44 Workplace&lt;br&gt;Technology" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #a495b1);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-703" y="-207" width="97" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="p45-process-workflow" value="P45 Process, Workflow&lt;br&gt;&amp;amp; Workforce&lt;br&gt;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #a495b1);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-603" y="-207" width="95" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="p46-infrastructure" value="P46 Infrastructure&lt;br&gt;Foundations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #a495b1);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-500" y="-207" width="96" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="p47-delivery-mgmt" value="P47 Delivery&lt;br&gt;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #a495b1);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-401" y="-207" width="93" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="p48-operational-observability" value="P48 Operational&lt;br&gt;Observability" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #a495b1);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-300" y="-207" width="92" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="p49-core-network" value="P49 Core Network&lt;br&gt;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #a495b1);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-200" y="-207" width="92" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="p51-it-asset" value="P51 IT Asset, Assurance&lt;br&gt;&amp;amp; Service&lt;br&gt;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #a495b1);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-99" y="-207" width="95" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;CUSTOMER&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;SERVING&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;PLATFORMS&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#002f6b, #91badc);strokeColor=none;fontColor=#FFFFFF;align=right;spacingRight=10;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="-1165" y="-611" width="140" height="192" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;BUSINESS&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;ENABLEMENT&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;PLATFORMS&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#002f6b, #91badc);strokeColor=none;fontColor=#FFFFFF;align=right;spacingRight=10;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="-1165" y="-410" width="140" height="145" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;CORE&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;TECHNOLOGY&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;PLATFORMS&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#002f6b, #91badc);strokeColor=none;fontColor=#FFFFFF;align=right;spacingRight=10;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="-1165" y="-257" width="140" height="107" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="EXPERIENCE PLATFORMS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#002f6b, #91badc);strokeColor=none;fontColor=#FFFFFF;align=center;spacingRight=10;fontSize=12;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="-914.5" y="18" width="552.5" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Process, Workflow&amp;nbsp;&amp;amp; Workforce&amp;nbsp;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #a495b1);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-914.5" y="69" width="722.5" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Enterprise Security" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=12;align=center;rotation=-90;" parent="1" vertex="1">
+                    <mxGeometry x="-1094.25" y="147.25" width="300.5" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Enterprise Data &amp;amp; Analytics" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#002f6b, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=12;align=center;rotation=90;" parent="1" vertex="1">
+                    <mxGeometry x="-311" y="145.25" width="297.75" height="47.88" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Enabling&#xa;Technologies" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #5e9bd3);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=12;align=left;spacing=5;" parent="1" vertex="1">
+                    <mxGeometry x="-914.5" y="261" width="721.5" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Enterprise Interfaces API, Events &amp;amp;&amp;nbsp;Integration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #a495b1);strokeColor=none;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-914.5" y="226" width="721.5" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Engineering &amp;amp;&amp;nbsp;Automation Software" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #a495b1);strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-646" y="271.5" width="125" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Workplace&lt;br&gt;Technology" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #a495b1);strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=left;spacing=5;" parent="1" vertex="1">
+                    <mxGeometry x="-359" y="17.5" width="166" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Infrastructure&lt;br&gt;Foundations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #a495b1);strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-381" y="271.5" width="82" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Delivery&lt;br&gt;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #a495b1);strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-734" y="271.5" width="81" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Operational&lt;br&gt;Observability" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #a495b1);strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-821" y="271.5" width="80" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Core Network&lt;br&gt;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #a495b1);strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-292" y="271.5" width="87" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="IT Asset, Assurance&amp;nbsp;&amp;amp; Service&amp;nbsp;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#001835, #a495b1);strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-513" y="271.5" width="124" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Workplace AI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#5b1d58, #5E9BD3);strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="-280" y="27" width="77.5" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Embedded AI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#5b1d58, #5E9BD3);strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="-905.5" y="27.5" width="102.5" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Models" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#5b1d58, #5E9BD3);strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="-699.5" y="128" width="77.5" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Agents" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#5b1d58, #5E9BD3);strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="-613" y="128" width="77.5" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Governance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#5b1d58, #5E9BD3);strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="-528.5" y="128" width="77.5" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Knowledge" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#5b1d58, #5E9BD3);strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="-699.5" y="169" width="249.5" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Low Code AI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#5b1d58, #5E9BD3);strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="-905.5" y="73" width="102.5" height="23" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

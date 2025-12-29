@@ -1,0 +1,36 @@
+Element_ID,Element_Name,Element_Type,Stereotype,Parent_Category,Level,Hierarchy_Path
+bd2-001,Business Development 2,Container,Grouping,Root,1,Business Development 2
+mad-001,Marketing And Development,Container,Grouping,Business Development 2,2,Business Development 2 > Marketing And Development
+mad-002,Business Development,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development 2 > Marketing And Development > Business Development
+mad-003,Market Research,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development 2 > Marketing And Development > Market Research
+mad-004,Customer Portfolio,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development 2 > Marketing And Development > Customer Portfolio
+mad-005,Market Analysis,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development 2 > Marketing And Development > Market Analysis
+mad-006,Contribution Analysis,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development 2 > Marketing And Development > Contribution Analysis
+mad-007,Competitor Analysis,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development 2 > Marketing And Development > Competitor Analysis
+mad-008,Segment Direction,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development 2 > Marketing And Development > Segment Direction
+mad-009,Customer Campaign Management,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development 2 > Marketing And Development > Customer Campaign Management
+mad-010,Brand Management,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development 2 > Marketing And Development > Brand Management
+mad-011,Customer Campaign Design,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development 2 > Marketing And Development > Customer Campaign Design
+mad-012,Sales Planning,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development 2 > Marketing And Development > Sales Planning
+mad-013,Prospect Campaign Management,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development 2 > Marketing And Development > Prospect Campaign Management
+mad-014,Advertising,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development 2 > Marketing And Development > Advertising
+mad-015,Prospect Campaign Design,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development 2 > Marketing And Development > Prospect Campaign Design
+mad-016,Promotional Events,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development 2 > Marketing And Development > Promotional Events
+mad-017,Customer Surveys,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development 2 > Marketing And Development > Customer Surveys
+cm-001,Channel Management,Container,Grouping,Business Development 2,2,Business Development 2 > Channel Management
+cm-002,Channel Portfolio,ServiceDomain,ServiceDomain,Channel Management,3,Business Development 2 > Channel Management > Channel Portfolio
+cm-003,Branch Location Management,ServiceDomain,ServiceDomain,Channel Management,3,Business Development 2 > Channel Management > Branch Location Management
+cm-004,Branch Portfolio,ServiceDomain,ServiceDomain,Channel Management,3,Business Development 2 > Channel Management > Branch Portfolio
+cm-005,ATM Network Management,ServiceDomain,ServiceDomain,Channel Management,3,Business Development 2 > Channel Management > ATM Network Management
+cm-006,Contact Center Management,ServiceDomain,ServiceDomain,Channel Management,3,Business Development 2 > Channel Management > Contact Center Management
+cm-007,Branch Network Management,ServiceDomain,ServiceDomain,Channel Management,3,Business Development 2 > Channel Management > Branch Network Management
+cm-008,Servicing Activity Analysis,ServiceDomain,ServiceDomain,Channel Management,3,Business Development 2 > Channel Management > Servicing Activity Analysis
+cm-009,Advanced Voice Services Management,ServiceDomain,ServiceDomain,Channel Management,3,Business Development 2 > Channel Management > Advanced Voice Services Management
+cm-010,Financial Message Analysis,ServiceDomain,ServiceDomain,Channel Management,3,Business Development 2 > Channel Management > Financial Message Analysis
+cm-011,eBranch Management,ServiceDomain,ServiceDomain,Channel Management,3,Business Development 2 > Channel Management > eBranch Management
+cm-012,Channel Activity Analysis,ServiceDomain,ServiceDomain,Channel Management,3,Business Development 2 > Channel Management > Channel Activity Analysis
+cm-013,Product Inventory Item Management,ServiceDomain,ServiceDomain,Channel Management,3,Business Development 2 > Channel Management > Product Inventory Item Management
+cm-014,Information Provider Administration,ServiceDomain,ServiceDomain,Channel Management,3,Business Development 2 > Channel Management > Information Provider Administration
+cm-015,Central Cash Handling,ServiceDomain,ServiceDomain,Channel Management,3,Business Development 2 > Channel Management > Central Cash Handling
+cm-016,Market Data Switch Administration,ServiceDomain,ServiceDomain,Channel Management,3,Business Development 2 > Channel Management > Market Data Switch Administration
+cm-017,Branch Currency Management,ServiceDomain,ServiceDomain,Channel Management,3,Business Development 2 > Channel Management > Branch Currency Management

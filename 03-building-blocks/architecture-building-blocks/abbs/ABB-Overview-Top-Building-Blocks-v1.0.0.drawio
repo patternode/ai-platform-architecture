@@ -1,0 +1,310 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Top Architecture Building Blocks" id="top-abbs-overview">
+    <mxGraphModel dx="2037" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="abb1-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;arcSize=8;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="20" y="80" width="360" height="219.97371879106439" as="geometry" />
+        </mxCell>
+        <mxCell id="abb1-header" value="AB-096 | Observability Platform" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#f1a8b1, #121212);fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="30" y="89.7766097240473" width="280" height="29.32982917214191" as="geometry" />
+        </mxCell>
+        <mxCell id="abb1-badge" value="37" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="264.7766097240473" width="40" height="26.885676741130087" as="geometry" />
+        </mxCell>
+        <mxCell id="abb1-desc" value="Centralized platform for metrics, logs, and traces across all AI systems. Provides unified monitoring, alerting, and distributed tracing." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="30" y="131.77266754270698" width="340" height="85.54533508541392" as="geometry" />
+        </mxCell>
+        <mxCell id="abb1-stats" value="16 Use Cases | 21 Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#50E6FF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="30" y="265.9994480946123" width="220" height="24.44" as="geometry" />
+        </mxCell>
+        <mxCell id="abb2-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;arcSize=8;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="400" y="80" width="360" height="219.97371879106439" as="geometry" />
+        </mxCell>
+        <mxCell id="abb2-header" value="AB-050 | Large Language Model Service" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#f1a8b1, #121212);fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="410" y="89.78" width="340" height="29.33" as="geometry" />
+        </mxCell>
+        <mxCell id="abb2-badge" value="30" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="264.7766097240473" width="40" height="26.885676741130087" as="geometry" />
+        </mxCell>
+        <mxCell id="abb2-desc" value="Foundation LLM service for text generation. Enterprise access to large language models for NLU, generation, and reasoning." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="410" y="131.77266754270698" width="340" height="85.54533508541392" as="geometry" />
+        </mxCell>
+        <mxCell id="abb2-stats" value="24 Use Cases | 6 Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#50E6FF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="410" y="265.9994480946123" width="220" height="24.44" as="geometry" />
+        </mxCell>
+        <mxCell id="abb3-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;arcSize=8;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="780" y="80" width="360" height="219.97371879106439" as="geometry" />
+        </mxCell>
+        <mxCell id="abb3-header" value="AB-051 | Vector Database" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#f1a8b1, #121212);fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="790" y="89.7766097240473" width="290" height="29.32982917214191" as="geometry" />
+        </mxCell>
+        <mxCell id="abb3-badge" value="24" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="264.7766097240473" width="40" height="26.885676741130087" as="geometry" />
+        </mxCell>
+        <mxCell id="abb3-desc" value="Vector storage for embeddings and similarity search. Enables semantic retrieval, RAG applications, and knowledge discovery." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="790" y="131.77266754270698" width="340" height="85.54533508541392" as="geometry" />
+        </mxCell>
+        <mxCell id="abb3-stats" value="18 Use Cases | 6 Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#50E6FF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="790" y="265.9994480946123" width="210" height="24.44" as="geometry" />
+        </mxCell>
+        <mxCell id="abb4-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;arcSize=8;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="80" width="360" height="219.97371879106439" as="geometry" />
+        </mxCell>
+        <mxCell id="abb4-header" value="AB-065 | Audit Trail and Logging" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#f1a8b1, #121212);fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="89.7766097240473" width="290" height="29.32982917214191" as="geometry" />
+        </mxCell>
+        <mxCell id="abb4-badge" value="21" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="264.7766097240473" width="40" height="26.885676741130087" as="geometry" />
+        </mxCell>
+        <mxCell id="abb4-desc" value="Comprehensive audit logging for AI system activities. Immutable records for compliance, debugging, and governance." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="131.77266754270698" width="340" height="85.54533508541392" as="geometry" />
+        </mxCell>
+        <mxCell id="abb4-stats" value="17 Use Cases | 4 Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#50E6FF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="265.9994480946123" width="210" height="24.44" as="geometry" />
+        </mxCell>
+        <mxCell id="abb5-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;arcSize=8;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1540" y="80" width="360" height="219.97371879106439" as="geometry" />
+        </mxCell>
+        <mxCell id="abb5-header" value="AB-052 | Semantic Search Engine" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#f1a8b1, #121212);fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="89.7766097240473" width="290" height="29.32982917214191" as="geometry" />
+        </mxCell>
+        <mxCell id="abb5-badge" value="20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1850" y="264.7766097240473" width="40" height="26.885676741130087" as="geometry" />
+        </mxCell>
+        <mxCell id="abb5-desc" value="Semantic search across knowledge bases. Meaning-based retrieval using natural language queries and embedding similarity." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="131.77266754270698" width="340" height="85.54533508541392" as="geometry" />
+        </mxCell>
+        <mxCell id="abb5-stats" value="15 Use Cases | 5 Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#50E6FF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="265.9994480946123" width="200" height="24.44" as="geometry" />
+        </mxCell>
+        <mxCell id="abb6-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;arcSize=8;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="20" y="312.19448094612346" width="360" height="219.97371879106439" as="geometry" />
+        </mxCell>
+        <mxCell id="abb6-header" value="AB-060 | AI Model Registry" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#f1a8b1, #121212);fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="30" y="321.9710906701708" width="280" height="29.32982917214191" as="geometry" />
+        </mxCell>
+        <mxCell id="abb6-badge" value="20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="492.9710906701708" width="40" height="26.885676741130087" as="geometry" />
+        </mxCell>
+        <mxCell id="abb6-desc" value="Central registry for AI/ML models with metadata, versioning, and lifecycle management. Single source of truth for deployed models." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="30" y="360.96714848883045" width="340" height="85.54533508541392" as="geometry" />
+        </mxCell>
+        <mxCell id="abb6-stats" value="0 Use Cases | 20 Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#50E6FF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="30" y="494.1939290407358" width="260" height="24.44" as="geometry" />
+        </mxCell>
+        <mxCell id="abb7-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;arcSize=8;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="400" y="312.19448094612346" width="360" height="219.97371879106439" as="geometry" />
+        </mxCell>
+        <mxCell id="abb7-header" value="AB-112 | Data Encryption Service" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#f1a8b1, #121212);fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="410" y="321.9710906701708" width="290" height="29.32982917214191" as="geometry" />
+        </mxCell>
+        <mxCell id="abb7-badge" value="20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="492.9710906701708" width="40" height="26.885676741130087" as="geometry" />
+        </mxCell>
+        <mxCell id="abb7-desc" value="Encryption services for data at rest and in transit. Protects sensitive data and model artifacts using enterprise-grade cryptography." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="410" y="360.96714848883045" width="340" height="85.54533508541392" as="geometry" />
+        </mxCell>
+        <mxCell id="abb7-stats" value="0 Use Cases | 20 Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#50E6FF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="410" y="494.1939290407358" width="210" height="24.44" as="geometry" />
+        </mxCell>
+        <mxCell id="abb8-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;arcSize=8;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="780" y="312.19448094612346" width="360" height="219.97371879106439" as="geometry" />
+        </mxCell>
+        <mxCell id="abb8-header" value="AB-072 | Inference Engine" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#f1a8b1, #121212);fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="790" y="321.9710906701708" width="290" height="29.32982917214191" as="geometry" />
+        </mxCell>
+        <mxCell id="abb8-badge" value="18" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="492.9710906701708" width="40" height="26.885676741130087" as="geometry" />
+        </mxCell>
+        <mxCell id="abb8-desc" value="Core inference execution engine for ML model predictions. Optimized runtime for serving models with low latency and high throughput." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="790" y="360.96714848883045" width="340" height="85.54533508541392" as="geometry" />
+        </mxCell>
+        <mxCell id="abb8-stats" value="18 Use Cases | 0 Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#50E6FF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="790" y="494.1939290407358" width="210" height="24.44" as="geometry" />
+        </mxCell>
+        <mxCell id="abb9-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;arcSize=8;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="312.19448094612346" width="360" height="219.97371879106439" as="geometry" />
+        </mxCell>
+        <mxCell id="abb9-header" value="AB-097 | Data Drift Detector" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#f1a8b1, #121212);fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="321.9710906701708" width="290" height="29.32982917214191" as="geometry" />
+        </mxCell>
+        <mxCell id="abb9-badge" value="14" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="492.9710906701708" width="40" height="26.885676741130087" as="geometry" />
+        </mxCell>
+        <mxCell id="abb9-desc" value="Detects drift in input data distributions over time. Monitors for statistical changes impacting model performance and triggers alerts." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="360.96714848883045" width="340" height="85.54533508541392" as="geometry" />
+        </mxCell>
+        <mxCell id="abb9-stats" value="12 Use Cases | 2 Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#50E6FF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="494.1939290407358" width="210" height="24.44" as="geometry" />
+        </mxCell>
+        <mxCell id="abb10-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;arcSize=8;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1540" y="312.19448094612346" width="360" height="219.97371879106439" as="geometry" />
+        </mxCell>
+        <mxCell id="abb10-header" value="AB-001 | Agent Orchestrator" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#f1a8b1, #121212);fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="321.9710906701708" width="290" height="29.32982917214191" as="geometry" />
+        </mxCell>
+        <mxCell id="abb10-badge" value="13" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1850" y="492.9710906701708" width="40" height="26.885676741130087" as="geometry" />
+        </mxCell>
+        <mxCell id="abb10-desc" value="Coordinates agent collaboration and task execution. Manages multi-step workflows, tool invocation, and inter-agent communication." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="360.96714848883045" width="340" height="85.54533508541392" as="geometry" />
+        </mxCell>
+        <mxCell id="abb10-stats" value="10 Use Cases | 3 Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#50E6FF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="494.1939290407358" width="200" height="24.44" as="geometry" />
+        </mxCell>
+        <mxCell id="abb11-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;arcSize=8;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="20" y="544.3889618922469" width="360" height="219.97371879106439" as="geometry" />
+        </mxCell>
+        <mxCell id="abb11-header" value="AB-074 | Event Broker" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#f1a8b1, #121212);fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="30" y="554.1655716162943" width="280" height="29.32982917214191" as="geometry" />
+        </mxCell>
+        <mxCell id="abb11-badge" value="12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="724.1655716162943" width="40" height="26.885676741130087" as="geometry" />
+        </mxCell>
+        <mxCell id="abb11-desc" value="Central event broker for async communication. Enables real-time event streaming, pub/sub messaging, and decoupled integration." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="30" y="596.161629434954" width="340" height="85.54533508541392" as="geometry" />
+        </mxCell>
+        <mxCell id="abb11-stats" value="5 Use Cases | 7 Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#50E6FF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="30" y="725.3876478318002" width="180" height="24.44152431011826" as="geometry" />
+        </mxCell>
+        <mxCell id="abb12-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;arcSize=8;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="400" y="544.3889618922469" width="360" height="219.97371879106439" as="geometry" />
+        </mxCell>
+        <mxCell id="abb12-header" value="AB-095 | NLP Extraction Engine" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#f1a8b1, #121212);fontFamily=Calibri;" vertex="1" parent="1">
+          <mxGeometry x="410" y="554.1655716162943" width="290" height="29.32982917214191" as="geometry" />
+        </mxCell>
+        <mxCell id="abb12-badge" value="12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="724.1655716162943" width="40" height="26.885676741130087" as="geometry" />
+        </mxCell>
+        <mxCell id="abb12-desc" value="Extracts entities and relationships from text. Enables structured data extraction from unstructured documents and conversations." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="410" y="596.161629434954" width="340" height="85.54533508541392" as="geometry" />
+        </mxCell>
+        <mxCell id="abb12-stats" value="11 Use Cases | 1 Pattern" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#50E6FF;fontFamily=Calibri;" vertex="1" parent="1">
+          <mxGeometry x="410" y="725.3884099868593" width="220" height="24.44" as="geometry" />
+        </mxCell>
+        <mxCell id="abb13-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;arcSize=8;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="780" y="544.3889618922469" width="360" height="219.97371879106439" as="geometry" />
+        </mxCell>
+        <mxCell id="abb13-header" value="AB-075 | Stream Processing Engine" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#f1a8b1, #121212);fontFamily=Calibri;" vertex="1" parent="1">
+          <mxGeometry x="787" y="554.17" width="300" height="29.33" as="geometry" />
+        </mxCell>
+        <mxCell id="abb13-badge" value="11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="724.1655716162943" width="40" height="26.885676741130087" as="geometry" />
+        </mxCell>
+        <mxCell id="abb13-desc" value="Processes streaming data in real-time. Enables continuous data processing, aggregation, and transformation for AI features." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="790" y="596.161629434954" width="340" height="85.54533508541392" as="geometry" />
+        </mxCell>
+        <mxCell id="abb13-stats" value="10 Use Cases | 1 Pattern" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#50E6FF;fontFamily=Calibri;" vertex="1" parent="1">
+          <mxGeometry x="790" y="725.3884099868593" width="210" height="24.44" as="geometry" />
+        </mxCell>
+        <mxCell id="abb14-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;arcSize=8;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="544.3889618922469" width="360" height="219.97371879106439" as="geometry" />
+        </mxCell>
+        <mxCell id="abb14-header" value="AB-088 | Model Deployment Orchestrator" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#f1a8b1, #121212);fontFamily=Calibri;" vertex="1" parent="1">
+          <mxGeometry x="1166" y="554.17" width="360" height="29.33" as="geometry" />
+        </mxCell>
+        <mxCell id="abb14-badge" value="9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="724.1655716162943" width="40" height="26.885676741130087" as="geometry" />
+        </mxCell>
+        <mxCell id="abb14-desc" value="Automates model deployment workflows. Manages CI/CD pipelines for ML models including testing, staging, and production rollout." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="596.161629434954" width="340" height="85.54533508541392" as="geometry" />
+        </mxCell>
+        <mxCell id="abb14-stats" value="6 Use Cases | 3 Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#50E6FF;fontFamily=Calibri;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="725.3876478318002" width="180" height="24.44152431011826" as="geometry" />
+        </mxCell>
+        <mxCell id="abb15-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;arcSize=8;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="544.3889618922469" width="360" height="219.97371879106439" as="geometry" />
+        </mxCell>
+        <mxCell id="abb15-header" value="AB-038 | Data Lake" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#f1a8b1, #121212);fontFamily=Calibri;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="554.1655716162943" width="290" height="29.32982917214191" as="geometry" />
+        </mxCell>
+        <mxCell id="abb15-badge" value="7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="724.1655716162943" width="40" height="26.885676741130087" as="geometry" />
+        </mxCell>
+        <mxCell id="abb15-desc" value="Scalable storage for structured and unstructured data. Central repository for raw data used in ML training and analytics workloads." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="596.161629434954" width="340" height="85.54533508541392" as="geometry" />
+        </mxCell>
+        <mxCell id="abb15-stats" value="3 Use Cases | 4 Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#50E6FF;fontFamily=Calibri;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="725.3876478318002" width="180" height="24.44152431011826" as="geometry" />
+        </mxCell>
+        <mxCell id="abb16-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;arcSize=8;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="20" y="776.5834428383705" width="360" height="219.97371879106439" as="geometry" />
+        </mxCell>
+        <mxCell id="abb16-header" value="AB-103 | Business Metrics Tracker" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#f1a8b1, #121212);fontFamily=Calibri;" vertex="1" parent="1">
+          <mxGeometry x="30" y="786.36" width="310" height="29.33" as="geometry" />
+        </mxCell>
+        <mxCell id="abb16-badge" value="7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="960.3600525624179" width="40" height="26.885676741130087" as="geometry" />
+        </mxCell>
+        <mxCell id="abb16-desc" value="Links model performance to business outcomes. Tracks KPIs, ROI metrics, and business value delivered by AI systems." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="30" y="825.3561103810774" width="340" height="85.54533508541392" as="geometry" />
+        </mxCell>
+        <mxCell id="abb16-stats" value="6 Use Cases | 1 Pattern" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#50E6FF;fontFamily=Calibri;" vertex="1" parent="1">
+          <mxGeometry x="30" y="961.5821287779238" width="180" height="24.44152431011826" as="geometry" />
+        </mxCell>
+        <mxCell id="abb17-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;arcSize=8;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="400" y="776.5834428383705" width="360" height="219.97371879106439" as="geometry" />
+        </mxCell>
+        <mxCell id="abb17-header" value="AB-037 | Feature Store" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#f1a8b1, #121212);fontFamily=Calibri;" vertex="1" parent="1">
+          <mxGeometry x="410" y="786.3600525624179" width="290" height="29.32982917214191" as="geometry" />
+        </mxCell>
+        <mxCell id="abb17-badge" value="6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="960.3600525624179" width="40" height="26.885676741130087" as="geometry" />
+        </mxCell>
+        <mxCell id="abb17-desc" value="Centralized repository for ML features. Manages feature engineering, versioning, and serving for training/inference consistency." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="410" y="825.3561103810774" width="340" height="85.54533508541392" as="geometry" />
+        </mxCell>
+        <mxCell id="abb17-stats" value="3 Use Cases | 3 Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#50E6FF;fontFamily=Calibri;" vertex="1" parent="1">
+          <mxGeometry x="410" y="961.5821287779238" width="180" height="24.44152431011826" as="geometry" />
+        </mxCell>
+        <mxCell id="abb18-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;arcSize=8;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="780" y="776.5834428383705" width="360" height="219.97371879106439" as="geometry" />
+        </mxCell>
+        <mxCell id="abb18-header" value="AB-054 | Hybrid Search Engine" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#f1a8b1, #121212);fontFamily=Calibri;" vertex="1" parent="1">
+          <mxGeometry x="790" y="786.3600525624179" width="290" height="29.32982917214191" as="geometry" />
+        </mxCell>
+        <mxCell id="abb18-badge" value="6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="960.3600525624179" width="40" height="26.885676741130087" as="geometry" />
+        </mxCell>
+        <mxCell id="abb18-desc" value="Combines keyword and semantic search for optimal retrieval. Leverages both lexical matching and vector similarity for RAG." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="790" y="825.3561103810774" width="340" height="85.54533508541392" as="geometry" />
+        </mxCell>
+        <mxCell id="abb18-stats" value="1 Use Case | 5 Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#50E6FF;fontFamily=Calibri;" vertex="1" parent="1">
+          <mxGeometry x="790" y="961.5821287779238" width="180" height="24.44152431011826" as="geometry" />
+        </mxCell>
+        <mxCell id="abb19-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#003087, #16a55c);strokeColor=#00A651;arcSize=8;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="776.5834428383705" width="360" height="219.97371879106439" as="geometry" />
+        </mxCell>
+        <mxCell id="abb19-header" value="AB-080 | Knowledge Base" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=light-dark(#f1a8b1, #121212);fontFamily=Calibri;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="786.3600525624179" width="290" height="29.32982917214191" as="geometry" />
+        </mxCell>
+        <mxCell id="abb19-badge" value="5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="960.3600525624179" width="40" height="26.885676741130087" as="geometry" />
+        </mxCell>
+        <mxCell id="abb19-desc" value="Structured knowledge storage for AI including graph databases. Stores entities, relationships, and facts for knowledge-enhanced reasoning." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="825.3561103810774" width="340" height="85.54533508541392" as="geometry" />
+        </mxCell>
+        <mxCell id="abb19-stats" value="1 Use Case | 4 Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="961.5821287779238" width="180" height="24.44152431011826" as="geometry" />
+        </mxCell>
+        <mxCell id="summary-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;arcSize=8;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1540" y="776.5834428383705" width="360" height="219.97371879106439" as="geometry" />
+        </mxCell>
+        <mxCell id="summary-header" value="+ 110 Additional ABBs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="782.3600525624179" width="340" height="29.32982917214191" as="geometry" />
+        </mxCell>
+        <mxCell id="summary-desc" value="Additional building blocks covering:&#xa;• Agentic AI (tools, memory, planning)&#xa;• Document Processing (OCR, classification)&#xa;• Conversational AI (intent, sentiment)&#xa;• MLOps (training, testing, monitoring)&#xa;• Security &amp;amp; Privacy (PII, access control)&#xa;• Batch Processing &amp;amp; Champion/Challenger" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Calibri;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="810.3561103810774" width="340" height="134.42838370565048" as="geometry" />
+        </mxCell>
+        <mxCell id="summary-stats" value="78 UC refs | 153 PT refs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#50E6FF;fontFamily=Calibri;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="969.8948751642575" width="180" height="24.44152431011826" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-line" value="" style="line;strokeWidth=1;strokeColor=#CCCCCC;fillColor=none;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="20" y="1008.7779237844941" width="1880" height="1.2220762155059133" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

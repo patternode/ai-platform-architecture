@@ -1,0 +1,142 @@
+<mxfile host="65bd71144e">
+    <diagram id="bian-nested-boxes" name="BIAN Service Landscape - Nested View">
+        <mxGraphModel dx="2364" dy="1238" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;fillColor=light-dark(#004049, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="9" y="7" width="1894" height="1059" as="geometry"/>
+                </mxCell>
+                <mxCell id="ba-2" value="Reference Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#33666d, #392f3f);strokeColor=none;fontSize=20;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;strokeWidth=3;arcSize=8;fontColor=light-dark(#73ca90, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="1300.52" y="729.47" width="582.48" height="311.53" as="geometry"/>
+                </mxCell>
+                <mxCell id="ba-5" value="Business Support" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#33666d, #ededed);strokeColor=none;fontSize=20;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;strokeWidth=3;arcSize=8;fontColor=light-dark(#73ca90, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="35" y="729.47" width="1233.07" height="311.53" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-2-1" value="Party" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="1340.3" y="801.7176470588236" width="190.06673529411762" height="62.82352941176472" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-2-2" value="External Agency" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="1554.3403676470587" y="801.7176470588236" width="258.2096323529412" height="62.82352941176472" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-2-3" value="Market Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="1340.3" y="891.2411764705884" width="190.06673529411762" height="62.82352941176472" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-2-4" value="Product Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="1554.3403676470587" y="891.2411764705884" width="258.2096323529412" height="62.82352941176472" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-5-1" value="IT Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="101.33823529411764" y="801.7176470588236" width="250.62585294117645" height="62.82352941176472" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-5-2" value="Non-IT / HR&lt;br&gt;Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="365.24264705882354" y="801.7176470588236" width="237.76398529411762" height="62.82352941176472" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-5-3" value="Buildings&#xa;Equipment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="613.7017058823528" y="801.7176470588236" width="215.45711764705882" height="62.82352941176472" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-5-4" value="Business&#xa;Command" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="839.7561546840959" y="801.7176470588236" width="190.34041394335512" height="62.82352941176472" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-5-5" value="Finance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="1040.8101617647058" y="801.7176470588236" width="182.81630882352943" height="62.82352941176472" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-5-6" value="Human&#xa;Resources" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="104.11617647058823" y="891.2411764705884" width="230.56911764705882" height="62.82352941176472" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-5-7" value="Knowledge&#xa;&amp;amp; IP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="362.4647058823529" y="891.2411764705884" width="209.98457352941176" height="62.82352941176472" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-5-8" value="Corporate&#xa;Relations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="591.4905228758172" y="891.2411764705884" width="190.34041394335512" height="62.82352941176472" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-5-9" value="Business&#xa;Direction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="800.8649782135076" y="891.2411764705884" width="190.34041394335512" height="62.82352941176472" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-5-10" value="Document&#xa;Mgmt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="1010.2528088235293" y="891.2411764705884" width="213.3736617647059" height="62.82352941176472" as="geometry"/>
+                </mxCell>
+                <mxCell id="ba-3" value="Operations and Execution" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#33666d, #392f3f);strokeColor=none;fontSize=20;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;strokeWidth=3;arcSize=6;fontColor=light-dark(#73ca90, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="36" y="355" width="1844" height="321.07" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-3-1" value="Product Specific&#xa;Fulfillment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="105.30672268907564" y="456.18823529411765" width="222.23529411764702" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-3-2" value="Loans and&#xa;Deposits" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="359.28991596638645" y="456.18823529411765" width="222.23529411764702" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-3-3" value="Investment&#xa;Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="613.2850147058822" y="456.18823529411765" width="265.87675" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-3-4" value="Trade Banking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="906.9411764705881" y="456.18823529411765" width="182.53851470588233" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-3-5" value="Wholesale&#xa;Trading" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="1121.2394957983195" y="456.18823529411765" width="222.23529411764702" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-3-6" value="Cards" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="1375.2187205882353" y="456.18823529411765" width="170.64892647058824" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-3-7" value="Market&#xa;Operations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="1573.6470588235295" y="456.18823529411765" width="246.04224999999994" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-3-8" value="Corporate Financing&#xa;&amp;amp; Advisory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="105.30672268907564" y="566.1294117647059" width="222.23529411764702" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-3-9" value="Consumer&#xa;Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="342.630205882353" y="566.1294117647059" width="203.17861764705881" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-3-10" value="Cross Product&#xa;Operations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="563.2820735294117" y="566.1294117647059" width="265.87675" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-3-11" value="Payments" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="837.4926470588235" y="566.1294117647059" width="210.31792647058822" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-3-12" value="Account&#xa;Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="1059.7279411764705" y="566.1294117647059" width="242.0697941176471" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-3-13" value="Operational&#xa;Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="1316.885924369748" y="566.1294117647059" width="222.23529411764702" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-3-14" value="Collateral&#xa;Administration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="1556.9794117647054" y="566.1294117647059" width="273.8216617647058" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="ba-1" value="Sales and Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#33666d, #392f3f);strokeColor=none;fontSize=20;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;strokeWidth=3;arcSize=7;fontColor=light-dark(#73ca90, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="32" y="34" width="935.56" height="302.83" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-1-1" value="Channel Specific" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="109.65353921568627" y="116.94117647058825" width="266.53419607843136" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-1-2" value="Cross Channel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="392.8461225490196" y="116.94117647058825" width="266.53419607843136" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-1-3" value="Marketing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="676.0387058823529" y="116.94117647058825" width="266.53419607843136" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-1-4" value="Sales" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="109.65353921568627" y="219.02941176470588" width="266.53419607843136" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-1-5" value="Customer Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="392.8461225490196" y="219.02941176470588" width="266.53419607843136" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-1-6" value="Servicing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="676.0387058823529" y="219.02941176470588" width="266.53419607843136" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="ba-4" value="Risk and Compliance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#33666d, #392f3f);strokeColor=none;fontSize=20;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;strokeWidth=3;arcSize=6;fontColor=light-dark(#73ca90, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="1013.34" y="34" width="866.66" height="302.82" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-4-1" value="Bank Portfolio&#xa;and Treasury" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="1041.4840697167754" y="116.94117647058825" width="375.1084836601306" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-4-2" value="Business Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="1447.851593681917" y="116.94117647058825" width="375.1084836601306" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-4-3" value="Regulations and&#xa;Compliance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="1041.4840697167754" y="226.8823529411765" width="375.1084836601306" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-4-4" value="Models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=14;strokeWidth=2;spacingLeft=2;spacingBottom=2;spacingRight=2;spacingTop=2;fontColor=light-dark(#33666d, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="1447.851593681917" y="226.8823529411765" width="375.1084836601306" height="78.52941176470588" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

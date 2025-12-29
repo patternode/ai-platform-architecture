@@ -1,0 +1,283 @@
+step_id,scenario_id,use_case_id,use_case_name,sequence_step,from_component,to_component,action_description,message_type,interface_id,solution_interface_id,is_sync,notes,primary_pattern_id,primary_pattern_name,pattern_step_context
+1,SCN-001,1,FrontLine - Partnership Banking,1,RM Dashboard,Notification Service,RM opens dashboard and requests customer insights,Query,101,12,Sync,,PT-005,Self-Reflective RAG,Initial query step
+2,SCN-001,1,FrontLine - Partnership Banking,2,Knowledge Management,Vector Database,System retrieves customer knowledge documents,Data Request,1,1,Sync,,PT-005,Self-Reflective RAG,RAG retrieval step
+3,SCN-001,1,FrontLine - Partnership Banking,3,Vector Database,LLM Integration,Semantic search for relevant customer information,Search Query,2,2,Sync,,PT-005,Self-Reflective RAG,Vector search step
+4,SCN-001,1,FrontLine - Partnership Banking,4,LLM Integration,LLM API,Generate contextual customer insights,Inference Request,3,3,Sync,,PT-005,Self-Reflective RAG,LLM synthesis step
+5,SCN-001,1,FrontLine - Partnership Banking,5,Feature Store,ML Model Serving,Retrieve features for predictive model,Feature Vector,4,4,Sync,,PT-005,Self-Reflective RAG,Feature retrieval for context
+6,SCN-001,1,FrontLine - Partnership Banking,6,ML Model Serving,Analytics Platform,Execute next best action prediction,Prediction,5,5,Sync,,PT-005,Self-Reflective RAG,Prediction enhancement step
+7,SCN-001,1,FrontLine - Partnership Banking,7,Analytics Platform,Prompt Engineering,Provide analytics for prompt enhancement,Analytics Data,6,6,Sync,,PT-005,Self-Reflective RAG,Prompt refinement step
+8,SCN-001,1,FrontLine - Partnership Banking,8,Prompt Engineering,Content Templates,Map prompt to content template,Template Request,7,7,Sync,,PT-005,Self-Reflective RAG,Template mapping step
+9,SCN-001,1,FrontLine - Partnership Banking,9,LLM API,Content Templates,Generate meeting brief content,Generated Content,8,8,Sync,,PT-005,Self-Reflective RAG,Content generation step
+10,SCN-001,1,FrontLine - Partnership Banking,10,Stream Processing,ML Model Serving,Stream real-time customer events,Event Stream,9,9,Async,,PT-005,Self-Reflective RAG,Real-time context update
+11,SCN-001,1,FrontLine - Partnership Banking,11,ML Model Serving,Notification Service,Trigger relationship health alert,Alert,10,10,Async,,PT-005,Self-Reflective RAG,Alert generation step
+12,SCN-001,1,FrontLine - Partnership Banking,12,Content Templates,Notification Service,Format and deliver notification,Notification,11,11,Async,,PT-005,Self-Reflective RAG,Notification delivery step
+13,SCN-002,2,Finance,1,Visualization Service,Agent Framework,User requests financial visualization,Visualization Request,102,14,Sync,,PT-007,Agentic AI Pattern,Agent orchestration step
+14,SCN-002,2,Finance,2,Data Catalog,API Gateway,Query data product metadata,Metadata Query,12,1,Sync,,PT-007,Agentic AI Pattern,Data discovery step
+15,SCN-002,2,Finance,3,API Gateway,Agent Framework,Route request to AI agent,API Request,13,2,Sync,,PT-007,Agentic AI Pattern,Agent routing step
+16,SCN-002,2,Finance,4,Agent Framework,LLM API,Agent requests financial analysis,Analysis Request,14,3,Sync,,PT-007,Agentic AI Pattern,Planning step
+17,SCN-002,2,Finance,5,LLM API,NLG Engine,Generate financial narratives,Narrative Request,15,4,Sync,,PT-007,Agentic AI Pattern,Tool execution step
+18,SCN-002,2,Finance,6,Financial Templates,NLG Engine,Provide report template structure,Template,16,5,Sync,,PT-007,Agentic AI Pattern,Template selection step
+19,SCN-002,2,Finance,7,Data Quality Framework,ML Model Serving,Send quality metrics for anomaly check,Quality Metrics,17,6,Sync,,PT-007,Agentic AI Pattern,Quality validation step
+20,SCN-002,2,Finance,8,ML Model Serving,Alert Engine,Trigger anomaly alert if detected,Anomaly Alert,18,7,Sync,,PT-007,Agentic AI Pattern,Alert generation step
+21,SCN-002,2,Finance,9,NLG Engine,Report Engine,Provide narratives for report,Report Narratives,19,8,Sync,,PT-007,Agentic AI Pattern,Content synthesis step
+22,SCN-002,2,Finance,10,Template Manager,Report Engine,Supply report templates,Report Templates,20,9,Sync,,PT-007,Agentic AI Pattern,Template assembly step
+23,SCN-002,2,Finance,11,NLG,Report Engine,Generate summary text,Summary Text,21,10,Sync,,PT-007,Agentic AI Pattern,Summarization step
+24,SCN-002,2,Finance,12,Report Engine,BI Connector,Send report data for visualization,Report Data,22,11,Sync,,PT-007,Agentic AI Pattern,Data formatting step
+25,SCN-002,2,Finance,13,BI Connector,Data API,Request visualization data,BI Data Request,23,12,Sync,,PT-007,Agentic AI Pattern,Visualization preparation step
+26,SCN-002,2,Finance,14,Data API,Visualization Service,Deliver formatted visualization data,Visualization Data,24,13,Sync,,PT-007,Agentic AI Pattern,Result delivery step
+27,SCN-003,3,Analytics and Reporting,1,Analytics Dashboard,Insight Templates,User submits natural language query,NL Query,103,18,Sync,,PT-005,Self-Reflective RAG,Initial query step
+28,SCN-003,3,Analytics and Reporting,2,LLM API,Query Translation,Interpret natural language question,NL Understanding,25,1,Sync,,PT-005,Self-Reflective RAG,Query understanding step
+29,SCN-003,3,Analytics and Reporting,3,Query Translation,SQL Generation,Translate to structured query,Query Structure,26,2,Sync,,PT-005,Self-Reflective RAG,Query translation step
+30,SCN-003,3,Analytics and Reporting,4,SQL Generation,Data Virtualization,Execute generated SQL,SQL Query,27,3,Sync,,PT-005,Self-Reflective RAG,Data retrieval step
+31,SCN-003,3,Analytics and Reporting,5,Metadata Management,Data Virtualization,Provide business metadata context,Metadata Context,28,4,Sync,,PT-005,Self-Reflective RAG,Context enrichment step
+32,SCN-003,3,Analytics and Reporting,6,Business Glossary,Query Translation,Supply business terminology,Business Terms,29,5,Sync,,PT-005,Self-Reflective RAG,Semantic understanding step
+33,SCN-003,3,Analytics and Reporting,7,Feature Engineering,ML Model Registry,Register feature definitions,Feature Metadata,30,6,Sync,,PT-005,Self-Reflective RAG,Feature registration step
+34,SCN-003,3,Analytics and Reporting,8,ML Model Registry,Model Serving,Deploy prediction model,Model Deployment,31,7,Sync,,PT-005,Self-Reflective RAG,Model deployment step
+35,SCN-003,3,Analytics and Reporting,9,Feature Engineering,Model Serving,Provide computed features,Feature Values,32,8,Sync,,PT-005,Self-Reflective RAG,Feature computation step
+36,SCN-003,3,Analytics and Reporting,10,AutoML Framework,Model Training,Configure training parameters,Training Config,33,9,Sync,,PT-005,Self-Reflective RAG,Model configuration step
+37,SCN-003,3,Analytics and Reporting,11,Model Training,Experiment Tracking,Log training metrics,Training Metrics,34,10,Sync,,PT-005,Self-Reflective RAG,Experiment tracking step
+38,SCN-003,3,Analytics and Reporting,12,Experiment Tracking,ML Model Registry,Register successful model,Model Registration,35,11,Sync,,PT-005,Self-Reflective RAG,Model registration step
+39,SCN-003,3,Analytics and Reporting,13,Model Serving,Analytics Engine,Deliver predictions,Prediction Results,36,12,Sync,,PT-005,Self-Reflective RAG,Prediction delivery step
+40,SCN-003,3,Analytics and Reporting,14,Analytics Engine,LLM API,Request insight generation,Insight Request,37,13,Sync,,PT-005,Self-Reflective RAG,LLM synthesis step
+41,SCN-003,3,Analytics and Reporting,15,Insight Templates,LLM API,Provide template context,Template Context,38,14,Sync,,PT-005,Self-Reflective RAG,Template contextualization step
+42,SCN-003,3,Analytics and Reporting,16,ETL/ELT Connector,Data Pipeline,Ingest source data,Data Ingestion,39,15,Sync,,PT-005,Self-Reflective RAG,Data ingestion step
+43,SCN-003,3,Analytics and Reporting,17,Data Pipeline,Orchestration,Report pipeline status,Pipeline Status,40,16,Sync,,PT-005,Self-Reflective RAG,Pipeline orchestration step
+44,SCN-003,3,Analytics and Reporting,18,Orchestration,Data Pipeline,Control workflow execution,Workflow Control,41,17,Sync,,PT-005,Self-Reflective RAG,Workflow control step
+45,SCN-004,4,Credit Risk,1,Credit Decision Interface,Credit Templates,Credit officer initiates assessment,Assessment Request,104,19,Sync,,PT-009,Real-Time ML Scoring,Request initiation step
+46,SCN-004,4,Credit Risk,2,ML Model Serving,Risk Models,Serve credit risk models,Model Inference,42,1,Sync,,PT-009,Real-Time ML Scoring,Real-time inference step
+47,SCN-004,4,Credit Risk,3,Risk Models,Score Calculation,Calculate credit score,Risk Score Input,43,2,Sync,,PT-009,Real-Time ML Scoring,Score calculation step
+48,SCN-004,4,Credit Risk,4,Data Enrichment,External Data Sources,Request alternative data,Enrichment Request,44,3,Sync,,PT-009,Real-Time ML Scoring,Data enrichment step
+49,SCN-004,4,Credit Risk,5,External Data Sources,Analytics Platform,Deliver alternative data,Alternative Data,45,4,Sync,,PT-009,Real-Time ML Scoring,External data integration
+50,SCN-004,4,Credit Risk,6,Analytics Platform,Risk Models,Provide enhanced features,Enhanced Features,46,5,Sync,,PT-009,Real-Time ML Scoring,Feature retrieval step
+51,SCN-004,4,Credit Risk,7,Score Calculation,LLM API,Request narrative generation,Decision Context,47,6,Sync,,PT-009,Real-Time ML Scoring,Explanation generation step
+52,SCN-004,4,Credit Risk,8,LLM API,Document Generation,Generate credit narrative,Credit Narrative,48,7,Sync,,PT-009,Real-Time ML Scoring,Narrative generation step
+53,SCN-004,4,Credit Risk,9,Credit Templates,Document Generation,Provide document templates,Document Templates,49,8,Sync,,PT-009,Real-Time ML Scoring,Template application step
+54,SCN-004,4,Credit Risk,10,Stream Processing,Event Processing,Stream loan events,Loan Events,50,9,Sync,,PT-009,Real-Time ML Scoring,Event streaming step
+55,SCN-004,4,Credit Risk,11,Event Processing,Real-time Analytics,Process credit events,Processed Events,51,10,Sync,,PT-009,Real-Time ML Scoring,Real-time processing step
+56,SCN-004,4,Credit Risk,12,Real-time Analytics,ML Model Serving,Feed monitoring data,Monitoring Data,52,11,Sync,,PT-009,Real-Time ML Scoring,Model monitoring step
+57,SCN-004,4,Credit Risk,13,Risk Models,ML Ensemble Framework,Send model predictions,Model Predictions,53,12,Sync,,PT-009,Real-Time ML Scoring,Ensemble prediction step
+58,SCN-004,4,Credit Risk,14,ML Ensemble Framework,Model Combination,Combine ensemble predictions,Ensemble Input,54,13,Sync,,PT-009,Real-Time ML Scoring,Model combination step
+59,SCN-004,4,Credit Risk,15,Model Combination,Risk Aggregation,Deliver combined predictions,Combined Predictions,55,14,Sync,,PT-009,Real-Time ML Scoring,Risk aggregation step
+60,SCN-004,4,Credit Risk,16,Risk Aggregation,Real-time Analytics,Send portfolio risk metrics,Portfolio Risk,56,15,Sync,,PT-009,Real-Time ML Scoring,Portfolio scoring step
+61,SCN-004,4,Credit Risk,17,Score Calculation,XAI Framework,Request score explanation,Explanation Request,57,16,Sync,,PT-009,Real-Time ML Scoring,Explainability request step
+62,SCN-004,4,Credit Risk,18,XAI Framework,Model Interpretation,Analyze model interpretation,Interpretation,58,17,Sync,,PT-009,Real-Time ML Scoring,Model interpretation step
+63,SCN-004,4,Credit Risk,19,Model Interpretation,Compliance Reporting,Provide explanation results,Explanation Results,59,18,Sync,,PT-009,Real-Time ML Scoring,Compliance reporting step
+64,SCN-005,5,Lending Ops,1,OCR Service,Document Processing,Extract text from documents,Text Extraction,60,1,Sync,,PT-011,Intelligent Document Processing,Document extraction step
+65,SCN-005,5,Lending Ops,2,Document Processing,Text Extraction,Identify document structure,Document Structure,61,2,Sync,,PT-011,Intelligent Document Processing,Structure identification step
+66,SCN-005,5,Lending Ops,3,Text Extraction,NLP Framework,Send extracted text for NLP,Extracted Text,62,3,Sync,,PT-011,Intelligent Document Processing,Text processing step
+67,SCN-005,5,Lending Ops,4,NLP Framework,Classification Models,Request document classification,Classification Request,63,4,Sync,,PT-011,Intelligent Document Processing,Classification step
+68,SCN-005,5,Lending Ops,5,Classification Models,NER Service,Provide classification for NER,Classification Results,64,5,Sync,,PT-011,Intelligent Document Processing,Entity recognition step
+69,SCN-005,5,Lending Ops,6,NER Service,Validation Framework,Deliver extracted entities,Extracted Entities,65,6,Sync,,PT-011,Intelligent Document Processing,Entity extraction step
+70,SCN-005,5,Lending Ops,7,Validation Framework,Data Quality ML,Request ML quality assessment,Validation Request,66,7,Sync,,PT-011,Intelligent Document Processing,Validation step
+71,SCN-005,5,Lending Ops,8,Data Quality ML,Rule Engine,Provide quality assessment,Quality Assessment,67,8,Sync,,PT-011,Intelligent Document Processing,Quality assessment step
+72,SCN-005,5,Lending Ops,9,Rule Engine,LLM API,Send validated data for summarization,Validated Data,68,9,Sync,,PT-011,Intelligent Document Processing,Data validation step
+73,SCN-005,5,Lending Ops,10,LLM API,Summarization,Request document summary,Summarization Request,69,10,Sync,,PT-011,Intelligent Document Processing,Summarization step
+74,SCN-005,5,Lending Ops,11,Summarization,Compliance Templates,Deliver summary output,Summary Output,70,11,Sync,,PT-011,Intelligent Document Processing,Summary delivery step
+75,SCN-005,5,Lending Ops,12,Compliance Templates,RPA Platform,Provide template data for RPA,Template Data,71,12,Sync,,PT-011,Intelligent Document Processing,Template application step
+76,SCN-005,5,Lending Ops,13,RPA Platform,Workflow Engine,Trigger RPA tasks,RPA Tasks,72,13,Sync,,PT-011,Intelligent Document Processing,Automation trigger step
+77,SCN-005,5,Lending Ops,14,Workflow Engine,Process Automation,Orchestrate process workflow,Workflow Orchestration,73,14,Sync,,PT-011,Intelligent Document Processing,Workflow orchestration step
+78,SCN-005,5,Lending Ops,15,Process Automation,Workflow Routing,Report automation status,Automation Status,74,15,Sync,,PT-011,Intelligent Document Processing,Process automation step
+79,SCN-005,5,Lending Ops,16,Workflow Routing,Human Task Management,Route exception cases,Exception Cases,75,16,Sync,,PT-011,Intelligent Document Processing,Exception routing step
+80,SCN-005,5,Lending Ops,17,Human Task Management,Exception Queue,Assign human task,Task Assignment,76,17,Sync,,PT-011,Intelligent Document Processing,Human-in-loop step
+81,SCN-005,5,Lending Ops,18,Exception Queue,Workflow Engine,Update workflow with resolution,Resolution Update,77,18,Sync,,PT-011,Intelligent Document Processing,Resolution update step
+82,SCN-006,6,HyperPersonalization,1,Customer Portal,Personalization Engine,Customer accesses portal,Customer Interaction,105,24,Sync,,PT-006,Multi-Model Routing,Request initiation step
+83,SCN-006,6,HyperPersonalization,2,CDP,Customer 360,Sync customer data,Customer Data Sync,78,1,Sync,,PT-006,Multi-Model Routing,Data synchronization step
+84,SCN-006,6,HyperPersonalization,3,Customer 360,Data Integration,Request customer profile,Profile Request,79,2,Sync,,PT-006,Multi-Model Routing,Profile retrieval step
+85,SCN-006,6,HyperPersonalization,4,Data Integration,Recommendation Engine,Provide customer context,Customer Context,80,3,Sync,,PT-006,Multi-Model Routing,Context provision step
+86,SCN-006,6,HyperPersonalization,5,Recommendation Engine,Collaborative Filtering,Request CF recommendations,Recommendation Request,81,4,Sync,,PT-006,Multi-Model Routing,Model routing step
+87,SCN-006,6,HyperPersonalization,6,Collaborative Filtering,Deep Learning,Provide CF results for enhancement,CF Results,82,5,Sync,,PT-006,Multi-Model Routing,Model chaining step
+88,SCN-006,6,HyperPersonalization,7,Deep Learning,Recommendation Engine,Deliver DL recommendations,DL Recommendations,83,6,Sync,,PT-006,Multi-Model Routing,Deep learning inference step
+89,SCN-006,6,HyperPersonalization,8,Recommendation Engine,LLM API,Send personalization context,Personalization Context,84,7,Sync,,PT-006,Multi-Model Routing,LLM routing step
+90,SCN-006,6,HyperPersonalization,9,LLM API,Content Generation,Request content generation,Generation Request,85,8,Sync,,PT-006,Multi-Model Routing,Content generation step
+91,SCN-006,6,HyperPersonalization,10,Content Generation,Personalization Engine,Deliver generated content,Generated Content,86,9,Sync,,PT-006,Multi-Model Routing,Content delivery step
+92,SCN-006,6,HyperPersonalization,11,Personalization Engine,Decisioning Engine,Send personalized offers,Personalized Offers,87,10,Sync,,PT-006,Multi-Model Routing,Decision routing step
+93,SCN-006,6,HyperPersonalization,12,Decisioning Engine,Event Processing,Request real-time decision,Decision Request,88,11,Sync,,PT-006,Multi-Model Routing,Real-time decision step
+94,SCN-006,6,HyperPersonalization,13,Event Processing,Context Evaluation,Provide event context,Event Context,89,12,Sync,,PT-006,Multi-Model Routing,Context evaluation step
+95,SCN-006,6,HyperPersonalization,14,Context Evaluation,Multi-Armed Bandit,Send context for optimization,Context Score,90,13,Sync,,PT-006,Multi-Model Routing,Optimization routing step
+96,SCN-006,6,HyperPersonalization,15,Multi-Armed Bandit,Offer Optimization,Provide bandit selection,Bandit Selection,91,14,Sync,,PT-006,Multi-Model Routing,Bandit model execution step
+97,SCN-006,6,HyperPersonalization,16,Offer Optimization,Experiment Design,Deliver optimization results,Optimization Results,92,15,Sync,,PT-006,Multi-Model Routing,Optimization delivery step
+98,SCN-006,6,HyperPersonalization,17,Experiment Design,Journey Orchestration,Assign experiment,Experiment Assignment,93,16,Sync,,PT-006,Multi-Model Routing,Experiment assignment step
+99,SCN-006,6,HyperPersonalization,18,Journey Orchestration,Campaign Management,Execute journey,Journey Execution,94,17,Sync,,PT-006,Multi-Model Routing,Journey orchestration step
+100,SCN-006,6,HyperPersonalization,19,Campaign Management,Channel Coordination,Distribute campaign,Campaign Distribution,95,18,Sync,,PT-006,Multi-Model Routing,Campaign distribution step
+101,SCN-006,6,HyperPersonalization,20,Channel Coordination,Personalization Engine,Report delivery feedback,Delivery Feedback,96,19,Sync,,PT-006,Multi-Model Routing,Feedback collection step
+102,SCN-006,6,HyperPersonalization,21,Personalization Engine,A/B Testing,Send test variants,Test Variants,97,20,Sync,,PT-006,Multi-Model Routing,A/B test routing step
+103,SCN-006,6,HyperPersonalization,22,A/B Testing,Experiment Management,Manage test execution,Test Execution,98,21,Sync,,PT-006,Multi-Model Routing,Test management step
+104,SCN-006,6,HyperPersonalization,23,Experiment Management,Statistical Analysis,Provide test results,Test Results,99,22,Sync,,PT-006,Multi-Model Routing,Statistical analysis step
+105,SCN-006,6,HyperPersonalization,24,Statistical Analysis,Offer Optimization,Feed analysis insights,Analysis Insights,100,23,Sync,,PT-006,Multi-Model Routing,Insight feedback step
+106,SCN-007,7,Contact Centre,1,Agent Interface,Context Retrieval,User initiates request via Agent Interface,Request,106,1,Sync,,PT-013,Conversational AI Pattern,Conversation initiation step
+107,SCN-007,7,Contact Centre,2,Context Retrieval,LLM API,Request AI processing: LLM API,AI Request,124,2,Sync,,PT-013,Conversational AI Pattern,Context retrieval step
+108,SCN-007,7,Contact Centre,3,Documentation,NLP Framework,Request AI processing: NLP Framework,AI Request,125,3,Sync,,PT-013,Conversational AI Pattern,NLP processing step
+109,SCN-007,7,Contact Centre,4,Documentation,Emotion Detection,Request AI processing: Emotion Detection,AI Request,126,4,Sync,,PT-013,Conversational AI Pattern,Emotion detection step
+110,SCN-007,7,Contact Centre,5,LLM API,NLP Framework,LLM API to NLP Framework,Processing,127,5,Sync,,PT-013,Conversational AI Pattern,Language understanding step
+111,SCN-007,7,Contact Centre,6,NLP Framework,Emotion Detection,NLP Framework to Emotion Detection,Processing,128,6,Sync,,PT-013,Conversational AI Pattern,Sentiment analysis step
+112,SCN-007,7,Contact Centre,7,Emotion Detection,Sentiment Scoring,Emotion Detection to Sentiment Scoring,Processing,129,7,Sync,,PT-013,Conversational AI Pattern,Sentiment scoring step
+113,SCN-007,7,Contact Centre,8,Knowledge Management,LLM API,Provide data from Knowledge Management,Data,130,8,Sync,,PT-013,Conversational AI Pattern,Knowledge retrieval step
+114,SCN-007,7,Contact Centre,9,Call Summarization,Documentation,Return results to Documentation,Response,131,9,Sync,,PT-013,Conversational AI Pattern,Conversation summarization step
+115,SCN-007,7,Contact Centre,10,Documentation,Agent Interface,Display results in Agent Interface,UI Update,132,10,Sync,,PT-013,Conversational AI Pattern,Response presentation step
+116,SCN-008,8,Security AI,1,Security Dashboard,Event Correlation,User initiates request via Security Dashboard,Request,107,1,Sync,,PT-009,Real-Time ML Scoring,Security event initiation
+117,SCN-008,8,Security AI,2,Event Correlation,ML Ensemble,Request AI processing: ML Ensemble,AI Request,133,2,Sync,,PT-009,Real-Time ML Scoring,Real-time inference step
+118,SCN-008,8,Security AI,3,Playbook Engine,Behavioral Baselines,Request AI processing: Behavioral Baselines,AI Request,134,3,Sync,,PT-009,Real-Time ML Scoring,Baseline comparison step
+119,SCN-008,8,Security AI,4,Automation Engine,Anomaly Scoring,Request AI processing: Anomaly Scoring,AI Request,135,4,Sync,,PT-009,Real-Time ML Scoring,Anomaly scoring step
+120,SCN-008,8,Security AI,5,ML Ensemble,Behavioral Baselines,ML Ensemble to Behavioral Baselines,Processing,136,5,Sync,,PT-009,Real-Time ML Scoring,Ensemble processing step
+121,SCN-008,8,Security AI,6,Behavioral Baselines,Anomaly Scoring,Behavioral Baselines to Anomaly Scoring,Processing,137,6,Sync,,PT-009,Real-Time ML Scoring,Behavior analysis step
+122,SCN-008,8,Security AI,7,Anomaly Scoring,User & Entity Behavior Analytics (UEBA),Anomaly Scoring to User & Entity Behavior Analytics (UEBA),Processing,138,7,Sync,,PT-009,Real-Time ML Scoring,UEBA scoring step
+123,SCN-008,8,Security AI,8,Threat Intelligence,ML Ensemble,Provide data from Threat Intelligence,Data,139,8,Sync,,PT-009,Real-Time ML Scoring,Threat intelligence enrichment
+124,SCN-008,8,Security AI,9,Intelligence Feeds,Event Correlation,External integration via Intelligence Feeds,Integration,140,9,Sync,,PT-009,Real-Time ML Scoring,External feed integration
+125,SCN-008,8,Security AI,10,Peer Group Analysis,Orchestration,Return results to Orchestration,Response,141,10,Sync,,PT-009,Real-Time ML Scoring,Peer analysis step
+126,SCN-008,8,Security AI,11,Orchestration,Security Dashboard,Display results in Security Dashboard,UI Update,142,11,Sync,,PT-009,Real-Time ML Scoring,Result presentation step
+127,SCN-009,9,Data Products,1,Lineage Graph,Quality Rules,User initiates request via Lineage Graph,Request,108,1,Sync,,PT-012,Data Mesh Pattern,Data product discovery step
+128,SCN-009,9,Data Products,2,Quality Rules,API Spec Generation,Request AI processing: API Spec Generation,AI Request,143,2,Sync,,PT-012,Data Mesh Pattern,API spec generation step
+129,SCN-009,9,Data Products,3,Validation Engine,Auto-generation,Request AI processing: Auto-generation,AI Request,144,3,Sync,,PT-012,Data Mesh Pattern,Auto-generation step
+130,SCN-009,9,Data Products,4,Quality Metrics,Auto-tagging,Request AI processing: Auto-tagging,AI Request,145,4,Sync,,PT-012,Data Mesh Pattern,Auto-tagging step
+131,SCN-009,9,Data Products,5,API Spec Generation,Auto-generation,API Spec Generation to Auto-generation,Processing,146,5,Sync,,PT-012,Data Mesh Pattern,Specification processing step
+132,SCN-009,9,Data Products,6,Auto-generation,Auto-tagging,Auto-generation to Auto-tagging,Processing,147,6,Sync,,PT-012,Data Mesh Pattern,Metadata generation step
+133,SCN-009,9,Data Products,7,Auto-tagging,Recommendation Engine,Auto-tagging to Recommendation Engine,Processing,148,7,Sync,,PT-012,Data Mesh Pattern,Semantic enrichment step
+134,SCN-009,9,Data Products,8,Data Catalog,API Spec Generation,Provide data from Data Catalog,Data,149,8,Sync,,PT-012,Data Mesh Pattern,Catalog integration step
+135,SCN-009,9,Data Products,9,Context Understanding,Impact Analysis,Return results to Impact Analysis,Response,150,9,Sync,,PT-012,Data Mesh Pattern,Impact analysis step
+136,SCN-009,9,Data Products,10,Impact Analysis,Lineage Graph,Display results in Lineage Graph,UI Update,151,10,Sync,,PT-012,Data Mesh Pattern,Lineage visualization step
+137,SCN-010,10,SDLC,1,Developer Portal,Review Automation,User initiates request via Developer Portal,Request,109,1,Sync,,PT-007,Agentic AI Pattern,Agent orchestration step
+138,SCN-010,10,SDLC,2,Review Automation,Code Analysis,Request AI processing: Code Analysis,AI Request,152,2,Sync,,PT-007,Agentic AI Pattern,Code analysis agent step
+139,SCN-010,10,SDLC,3,Vulnerability Scanning,Pattern Recognition,Request AI processing: Pattern Recognition,AI Request,153,3,Sync,,PT-007,Agentic AI Pattern,Pattern recognition agent step
+140,SCN-010,10,SDLC,4,Threat Modeling,Test Generation,Request AI processing: Test Generation,AI Request,154,4,Sync,,PT-007,Agentic AI Pattern,Test generation agent step
+141,SCN-010,10,SDLC,5,Code Analysis,Pattern Recognition,Code Analysis to Pattern Recognition,Processing,155,5,Sync,,PT-007,Agentic AI Pattern,Agent coordination step
+142,SCN-010,10,SDLC,6,Pattern Recognition,Test Generation,Pattern Recognition to Test Generation,Processing,156,6,Sync,,PT-007,Agentic AI Pattern,Multi-agent workflow step
+143,SCN-010,10,SDLC,7,Test Generation,Test Optimization,Test Generation to Test Optimization,Processing,157,7,Sync,,PT-007,Agentic AI Pattern,Optimization agent step
+144,SCN-010,10,SDLC,8,Refactoring Suggestions,Deployment Automation,Return results to Deployment Automation,Response,158,8,Sync,,PT-007,Agentic AI Pattern,Deployment agent step
+145,SCN-010,10,SDLC,9,Deployment Automation,Developer Portal,Display results in Developer Portal,UI Update,159,9,Sync,,PT-007,Agentic AI Pattern,Result aggregation step
+146,SCN-011,11,Fincrime,1,Collaboration Tools,Alert Generation,User initiates request via Collaboration Tools,Request,110,1,Sync,,PT-009,Real-Time ML Scoring,Alert initiation step
+147,SCN-011,11,Fincrime,2,Alert Generation,Transaction Monitoring,Request AI processing: Transaction Monitoring,AI Request,160,2,Sync,,PT-009,Real-Time ML Scoring,Real-time monitoring step
+148,SCN-011,11,Fincrime,3,Alert Prioritization,Pattern Detection,Request AI processing: Pattern Detection,AI Request,161,3,Sync,,PT-009,Real-Time ML Scoring,Pattern detection step
+149,SCN-011,11,Fincrime,4,Compliance Templates,Risk Scoring,Request AI processing: Risk Scoring,AI Request,162,4,Sync,,PT-009,Real-Time ML Scoring,Real-time inference step
+150,SCN-011,11,Fincrime,5,Transaction Monitoring,Pattern Detection,Transaction Monitoring to Pattern Detection,Processing,163,5,Sync,,PT-009,Real-Time ML Scoring,Transaction analysis step
+151,SCN-011,11,Fincrime,6,Pattern Detection,Risk Scoring,Pattern Detection to Risk Scoring,Processing,164,6,Sync,,PT-009,Real-Time ML Scoring,Risk scoring step
+152,SCN-011,11,Fincrime,7,Risk Scoring,False Positive Reduction,Risk Scoring to False Positive Reduction,Processing,165,7,Sync,,PT-009,Real-Time ML Scoring,False positive filtering step
+153,SCN-011,11,Fincrime,8,Network Analysis,Transaction Monitoring,Provide data from Network Analysis,Data,166,8,Sync,,PT-009,Real-Time ML Scoring,Network enrichment step
+154,SCN-011,11,Fincrime,9,Narrative Generation,Evidence Collection,Return results to Evidence Collection,Response,167,9,Sync,,PT-009,Real-Time ML Scoring,Evidence generation step
+155,SCN-011,11,Fincrime,10,Evidence Collection,Collaboration Tools,Display results in Collaboration Tools,UI Update,168,10,Sync,,PT-009,Real-Time ML Scoring,Result presentation step
+156,SCN-012,12,QA/QC,1,Quality Dashboard,Test Execution,User initiates request via Quality Dashboard,Request,111,1,Sync,,PT-014,Batch Prediction Pattern,Batch request initiation
+157,SCN-012,12,QA/QC,2,Test Execution,Defect Prediction,Request AI processing: Defect Prediction,AI Request,169,2,Sync,,PT-014,Batch Prediction Pattern,Batch prediction step
+158,SCN-012,12,QA/QC,3,Result Analysis,Risk Assessment,Request AI processing: Risk Assessment,AI Request,170,3,Sync,,PT-014,Batch Prediction Pattern,Batch risk assessment step
+159,SCN-012,12,QA/QC,4,Test Reporting,Anomaly Detection,Request AI processing: Anomaly Detection,AI Request,171,4,Sync,,PT-014,Batch Prediction Pattern,Batch anomaly detection step
+160,SCN-012,12,QA/QC,5,Defect Prediction,Risk Assessment,Defect Prediction to Risk Assessment,Processing,172,5,Sync,,PT-014,Batch Prediction Pattern,Batch processing step
+161,SCN-012,12,QA/QC,6,Risk Assessment,Anomaly Detection,Risk Assessment to Anomaly Detection,Processing,173,6,Sync,,PT-014,Batch Prediction Pattern,Batch analysis step
+162,SCN-012,12,QA/QC,7,Anomaly Detection,Behavioral Analysis,Anomaly Detection to Behavioral Analysis,Processing,174,7,Sync,,PT-014,Batch Prediction Pattern,Batch behavior analysis step
+163,SCN-012,12,QA/QC,8,Metric Collection,Defect Prediction,Provide data from Metric Collection,Data,175,8,Sync,,PT-014,Batch Prediction Pattern,Batch data collection step
+164,SCN-012,12,QA/QC,9,LLM API,Alert Engine,Return results to Alert Engine,Response,176,9,Sync,,PT-014,Batch Prediction Pattern,Batch result generation step
+165,SCN-012,12,QA/QC,10,Alert Engine,Quality Dashboard,Display results in Quality Dashboard,UI Update,177,10,Sync,,PT-014,Batch Prediction Pattern,Batch result presentation step
+166,SCN-013,13,Fraud Ops,1,Fraud Investigation Dashboard,Rule Engine,User initiates request via Fraud Investigation Dashboard,Request,112,1,Sync,,PT-009,Real-Time ML Scoring,Fraud detection initiation
+167,SCN-013,13,Fraud Ops,2,Rule Engine,Fraud Detection,Request AI processing: Fraud Detection,AI Request,178,2,Sync,,PT-009,Real-Time ML Scoring,Real-time inference step
+168,SCN-013,13,Fraud Ops,3,Investigation Support,ML Scoring,Request AI processing: ML Scoring,AI Request,179,3,Sync,,PT-009,Real-Time ML Scoring,Real-time scoring step
+169,SCN-013,13,Fraud Ops,4,Alert Management,Behavioral Biometrics,Request AI processing: Behavioral Biometrics,AI Request,180,4,Sync,,PT-009,Real-Time ML Scoring,Biometric scoring step
+170,SCN-013,13,Fraud Ops,5,Fraud Detection,ML Scoring,Fraud Detection to ML Scoring,Processing,181,5,Sync,,PT-009,Real-Time ML Scoring,Fraud scoring step
+171,SCN-013,13,Fraud Ops,6,ML Scoring,Behavioral Biometrics,ML Scoring to Behavioral Biometrics,Processing,182,6,Sync,,PT-009,Real-Time ML Scoring,Behavioral analysis step
+172,SCN-013,13,Fraud Ops,7,Behavioral Biometrics,Device Fingerprinting,Behavioral Biometrics to Device Fingerprinting,Processing,183,7,Sync,,PT-009,Real-Time ML Scoring,Device fingerprinting step
+173,SCN-013,13,Fraud Ops,8,Graph Analytics,Fraud Detection,Provide data from Graph Analytics,Data,184,8,Sync,,PT-009,Real-Time ML Scoring,Graph enrichment step
+174,SCN-013,13,Fraud Ops,9,ML Prioritization,Workload Distribution,Return results to Workload Distribution,Response,185,9,Sync,,PT-009,Real-Time ML Scoring,Prioritization step
+175,SCN-013,13,Fraud Ops,10,Workload Distribution,Fraud Investigation Dashboard,Display results in Fraud Investigation Dashboard,UI Update,186,10,Sync,,PT-009,Real-Time ML Scoring,Result presentation step
+176,SCN-014,14,Onboarding,1,Onboarding Portal,AML Screening,User initiates request via Onboarding Portal,Request,113,1,Sync,,PT-011,Intelligent Document Processing,Onboarding initiation step
+177,SCN-014,14,Onboarding,2,AML Screening,Identity Verification,Request AI processing: Identity Verification,AI Request,187,2,Sync,,PT-011,Intelligent Document Processing,Identity verification step
+178,SCN-014,14,Onboarding,3,Compliance Validation,Document Verification,Request AI processing: Document Verification,AI Request,188,3,Sync,,PT-011,Intelligent Document Processing,Document extraction step
+179,SCN-014,14,Onboarding,4,Regulatory Checks,Liveness Detection,Request AI processing: Liveness Detection,AI Request,189,4,Sync,,PT-011,Intelligent Document Processing,Liveness detection step
+180,SCN-014,14,Onboarding,5,Identity Verification,Document Verification,Identity Verification to Document Verification,Processing,190,5,Sync,,PT-011,Intelligent Document Processing,Document processing step
+181,SCN-014,14,Onboarding,6,Document Verification,Liveness Detection,Document Verification to Liveness Detection,Processing,191,6,Sync,,PT-011,Intelligent Document Processing,Validation step
+182,SCN-014,14,Onboarding,7,Liveness Detection,Biometric Authentication,Liveness Detection to Biometric Authentication,Processing,192,7,Sync,,PT-011,Intelligent Document Processing,Biometric verification step
+183,SCN-014,14,Onboarding,8,KYC Automation,Audit Logging,Return results to Audit Logging,Response,193,8,Sync,,PT-011,Intelligent Document Processing,KYC automation step
+184,SCN-014,14,Onboarding,9,Audit Logging,Onboarding Portal,Display results in Onboarding Portal,UI Update,194,9,Sync,,PT-011,Intelligent Document Processing,Result presentation step
+185,SCN-015,15,Risk Functions,1,Risk Dashboard,Scenario Analysis,User initiates request via Risk Dashboard,Request,114,1,Sync,,PT-004,ML Model Explainability,Risk analysis initiation
+186,SCN-015,15,Risk Functions,2,Scenario Analysis,Risk Calculation,Request AI processing: Risk Calculation,AI Request,195,2,Sync,,PT-004,ML Model Explainability,Model prediction step
+187,SCN-015,15,Risk Functions,3,Event Monitoring,Loss Prediction,Request AI processing: Loss Prediction,AI Request,196,3,Sync,,PT-004,ML Model Explainability,Loss prediction step
+188,SCN-015,15,Risk Functions,4,Alert Generation,Incident Detection,Request AI processing: Incident Detection,AI Request,197,4,Sync,,PT-004,ML Model Explainability,Incident detection step
+189,SCN-015,15,Risk Functions,5,Risk Calculation,Loss Prediction,Risk Calculation to Loss Prediction,Processing,198,5,Sync,,PT-004,ML Model Explainability,Risk calculation step
+190,SCN-015,15,Risk Functions,6,Loss Prediction,Incident Detection,Loss Prediction to Incident Detection,Processing,199,6,Sync,,PT-004,ML Model Explainability,Prediction analysis step
+191,SCN-015,15,Risk Functions,7,Incident Detection,LLM API,Incident Detection to LLM API,Processing,200,7,Sync,,PT-004,ML Model Explainability,Explanation generation step
+192,SCN-015,15,Risk Functions,8,Narrative Generation,Trend Analysis,Return results to Trend Analysis,Response,201,8,Sync,,PT-004,ML Model Explainability,Narrative explanation step
+193,SCN-015,15,Risk Functions,9,Trend Analysis,Risk Dashboard,Display results in Risk Dashboard,UI Update,202,9,Sync,,PT-004,ML Model Explainability,Explainability presentation step
+194,SCN-016,16,IT Ops,1,Operations Dashboard,Capacity Planning,User initiates request via Operations Dashboard,Request,115,1,Sync,,PT-007,Agentic AI Pattern,Agent orchestration step
+195,SCN-016,16,IT Ops,2,Capacity Planning,Log Analysis,Request AI processing: Log Analysis,AI Request,203,2,Sync,,PT-007,Agentic AI Pattern,Log analysis agent step
+196,SCN-016,16,IT Ops,3,Runbook Automation,Anomaly Detection,Request AI processing: Anomaly Detection,AI Request,204,3,Sync,,PT-007,Agentic AI Pattern,Anomaly detection agent step
+197,SCN-016,16,IT Ops,4,Self-Healing,Root Cause Analysis,Request AI processing: Root Cause Analysis,AI Request,205,4,Sync,,PT-007,Agentic AI Pattern,Root cause agent step
+198,SCN-016,16,IT Ops,5,Log Analysis,Anomaly Detection,Log Analysis to Anomaly Detection,Processing,206,5,Sync,,PT-007,Agentic AI Pattern,Agent coordination step
+199,SCN-016,16,IT Ops,6,Anomaly Detection,Root Cause Analysis,Anomaly Detection to Root Cause Analysis,Processing,207,6,Sync,,PT-007,Agentic AI Pattern,Multi-agent analysis step
+200,SCN-016,16,IT Ops,7,Root Cause Analysis,Incident Prediction,Root Cause Analysis to Incident Prediction,Processing,208,7,Sync,,PT-007,Agentic AI Pattern,Predictive agent step
+201,SCN-016,16,IT Ops,8,Optimization Recommendations,Metric Analysis,Return results to Metric Analysis,Response,209,8,Sync,,PT-007,Agentic AI Pattern,Optimization agent step
+202,SCN-016,16,IT Ops,9,Metric Analysis,Operations Dashboard,Display results in Operations Dashboard,UI Update,210,9,Sync,,PT-007,Agentic AI Pattern,Result aggregation step
+203,SCN-017,17,FrontLine CIB,1,CIB Banker Portal,Document Retrieval,User initiates request via CIB Banker Portal,Request,116,1,Sync,,PT-005,Self-Reflective RAG,Initial query step
+204,SCN-017,17,FrontLine CIB,2,Document Retrieval,ML Model Serving,Request AI processing: ML Model Serving,AI Request,211,2,Sync,,PT-005,Self-Reflective RAG,RAG retrieval step
+205,SCN-017,17,FrontLine CIB,3,Content Personalization,Deal Scoring,Request AI processing: Deal Scoring,AI Request,212,3,Sync,,PT-005,Self-Reflective RAG,Context enrichment step
+206,SCN-017,17,FrontLine CIB,4,Content Personalization,LLM API,Request AI processing: LLM API,AI Request,213,4,Sync,,PT-005,Self-Reflective RAG,LLM synthesis step
+207,SCN-017,17,FrontLine CIB,5,ML Model Serving,Deal Scoring,ML Model Serving to Deal Scoring,Processing,214,5,Sync,,PT-005,Self-Reflective RAG,Deal scoring step
+208,SCN-017,17,FrontLine CIB,6,Deal Scoring,LLM API,Deal Scoring to LLM API,Processing,215,6,Sync,,PT-005,Self-Reflective RAG,Context integration step
+209,SCN-017,17,FrontLine CIB,7,LLM API,Presentation Generation,LLM API to Presentation Generation,Processing,216,7,Sync,,PT-005,Self-Reflective RAG,Content generation step
+210,SCN-017,17,FrontLine CIB,8,Knowledge Management,ML Model Serving,Provide data from Knowledge Management,Data,217,8,Sync,,PT-005,Self-Reflective RAG,Knowledge retrieval step
+211,SCN-017,17,FrontLine CIB,9,Stakeholder Analysis,Content Personalization,Return results to Content Personalization,Response,218,9,Sync,,PT-005,Self-Reflective RAG,Analysis integration step
+212,SCN-017,17,FrontLine CIB,10,Content Personalization,CIB Banker Portal,Display results in CIB Banker Portal,UI Update,219,10,Sync,,PT-005,Self-Reflective RAG,Result presentation step
+213,SCN-018,18,Procurement,1,Procurement Portal,Agentic AI Orchestration,User initiates request via Procurement Portal,Request,117,1,Sync,,PT-008,Multi-Agent Orchestration,Multi-agent orchestration step
+214,SCN-018,18,Procurement,2,Agentic AI Orchestration,Vendor Matching,Request AI processing: Vendor Matching,AI Request,220,2,Sync,,PT-008,Multi-Agent Orchestration,Vendor matching agent step
+215,SCN-018,18,Procurement,3,Agent Coordination,Requirement Analysis,Request AI processing: Requirement Analysis,AI Request,221,3,Sync,,PT-008,Multi-Agent Orchestration,Requirement analysis agent step
+216,SCN-018,18,Procurement,4,Workflow Automation,Vendor Recommendation,Request AI processing: Vendor Recommendation,AI Request,222,4,Sync,,PT-008,Multi-Agent Orchestration,Recommendation agent step
+217,SCN-018,18,Procurement,5,Vendor Matching,Requirement Analysis,Vendor Matching to Requirement Analysis,Processing,223,5,Sync,,PT-008,Multi-Agent Orchestration,Agent coordination step
+218,SCN-018,18,Procurement,6,Requirement Analysis,Vendor Recommendation,Requirement Analysis to Vendor Recommendation,Processing,224,6,Sync,,PT-008,Multi-Agent Orchestration,Multi-agent workflow step
+219,SCN-018,18,Procurement,7,Vendor Recommendation,OCR Service,Vendor Recommendation to OCR Service,Processing,225,7,Sync,,PT-008,Multi-Agent Orchestration,Document processing agent step
+220,SCN-018,18,Procurement,8,Spend Analytics,Vendor Matching,Provide data from Spend Analytics,Data,226,8,Sync,,PT-008,Multi-Agent Orchestration,Analytics agent step
+221,SCN-018,18,Procurement,9,Savings Identification,Category Analysis,Return results to Category Analysis,Response,227,9,Sync,,PT-008,Multi-Agent Orchestration,Savings identification agent step
+222,SCN-018,18,Procurement,10,Category Analysis,Procurement Portal,Display results in Procurement Portal,UI Update,228,10,Sync,,PT-008,Multi-Agent Orchestration,Result aggregation step
+223,SCN-019,19,Payment Disputes,1,Disputes Dashboard,Priority Assignment,User initiates request via Disputes Dashboard,Request,118,1,Sync,,PT-007,Agentic AI Pattern,Agent orchestration step
+224,SCN-019,19,Payment Disputes,2,Priority Assignment,Dispute Classification,Request AI processing: Dispute Classification,AI Request,229,2,Sync,,PT-007,Agentic AI Pattern,Classification agent step
+225,SCN-019,19,Payment Disputes,3,Routing Logic,Evidence Analysis,Request AI processing: Evidence Analysis,AI Request,230,3,Sync,,PT-007,Agentic AI Pattern,Evidence analysis agent step
+226,SCN-019,19,Payment Disputes,4,Chargeback Processing,Document Understanding,Request AI processing: Document Understanding,AI Request,231,4,Sync,,PT-007,Agentic AI Pattern,Document understanding agent step
+227,SCN-019,19,Payment Disputes,5,Dispute Classification,Evidence Analysis,Dispute Classification to Evidence Analysis,Processing,232,5,Sync,,PT-007,Agentic AI Pattern,Agent coordination step
+228,SCN-019,19,Payment Disputes,6,Evidence Analysis,Document Understanding,Evidence Analysis to Document Understanding,Processing,233,6,Sync,,PT-007,Agentic AI Pattern,Multi-agent workflow step
+229,SCN-019,19,Payment Disputes,7,Document Understanding,Outcome Prediction,Document Understanding to Outcome Prediction,Processing,234,7,Sync,,PT-007,Agentic AI Pattern,Prediction agent step
+230,SCN-019,19,Payment Disputes,8,Card Network Integration,Priority Assignment,External integration via Card Network Integration,Integration,235,8,Sync,,PT-007,Agentic AI Pattern,Integration agent step
+231,SCN-019,19,Payment Disputes,9,Letter Generation,Escalation Management,Return results to Escalation Management,Response,236,9,Sync,,PT-007,Agentic AI Pattern,Generation agent step
+232,SCN-019,19,Payment Disputes,10,Escalation Management,Disputes Dashboard,Display results in Disputes Dashboard,UI Update,237,10,Sync,,PT-007,Agentic AI Pattern,Result aggregation step
+233,SCN-020,20,Controls Testing,1,Testing Dashboard,Coverage Analysis,User initiates request via Testing Dashboard,Request,119,1,Sync,,PT-007,Agentic AI Pattern,Agent orchestration step
+234,SCN-020,20,Controls Testing,2,Coverage Analysis,Test Generation,Request AI processing: Test Generation,AI Request,238,2,Sync,,PT-007,Agentic AI Pattern,Test generation agent step
+235,SCN-020,20,Controls Testing,3,Test Execution,Risk-based Testing,Request AI processing: Risk-based Testing,AI Request,239,3,Sync,,PT-007,Agentic AI Pattern,Risk assessment agent step
+236,SCN-020,20,Controls Testing,4,Result Validation,LLM API,Request AI processing: LLM API,AI Request,240,4,Sync,,PT-007,Agentic AI Pattern,Validation agent step
+237,SCN-020,20,Controls Testing,5,Test Generation,Risk-based Testing,Test Generation to Risk-based Testing,Processing,241,5,Sync,,PT-007,Agentic AI Pattern,Agent coordination step
+238,SCN-020,20,Controls Testing,6,Risk-based Testing,LLM API,Risk-based Testing to LLM API,Processing,242,6,Sync,,PT-007,Agentic AI Pattern,Multi-agent workflow step
+239,SCN-020,20,Controls Testing,7,LLM API,Finding Documentation,LLM API to Finding Documentation,Processing,243,7,Sync,,PT-007,Agentic AI Pattern,Documentation agent step
+240,SCN-020,20,Controls Testing,8,GRC System Integration,Coverage Analysis,External integration via GRC System Integration,Integration,244,8,Sync,,PT-007,Agentic AI Pattern,Integration agent step
+241,SCN-020,20,Controls Testing,9,Finding Documentation,Compliance Reporting,Return results to Compliance Reporting,Response,245,9,Sync,,PT-007,Agentic AI Pattern,Reporting agent step
+242,SCN-020,20,Controls Testing,10,Compliance Reporting,Testing Dashboard,Display results in Testing Dashboard,UI Update,246,10,Sync,,PT-007,Agentic AI Pattern,Result aggregation step
+243,SCN-021,21,Wholesale Underwriting,1,Underwriting Workstation,Ratio Calculation,User initiates request via Underwriting Workstation,Request,120,1,Sync,,PT-011,Intelligent Document Processing,Underwriting initiation step
+244,SCN-021,21,Wholesale Underwriting,2,Ratio Calculation,Credit Scoring ML,Request AI processing: Credit Scoring ML,AI Request,247,2,Sync,,PT-011,Intelligent Document Processing,Financial extraction step
+245,SCN-021,21,Wholesale Underwriting,3,Trend Analysis,Risk Models,Request AI processing: Risk Models,AI Request,248,3,Sync,,PT-011,Intelligent Document Processing,Risk analysis step
+246,SCN-021,21,Wholesale Underwriting,4,Deal Modeling,Financial Analysis,Request AI processing: Financial Analysis,AI Request,249,4,Sync,,PT-011,Intelligent Document Processing,Document analysis step
+247,SCN-021,21,Wholesale Underwriting,5,Credit Scoring ML,Risk Models,Credit Scoring ML to Risk Models,Processing,250,5,Sync,,PT-011,Intelligent Document Processing,Credit scoring step
+248,SCN-021,21,Wholesale Underwriting,6,Risk Models,Financial Analysis,Risk Models to Financial Analysis,Processing,251,6,Sync,,PT-011,Intelligent Document Processing,Financial processing step
+249,SCN-021,21,Wholesale Underwriting,7,Financial Analysis,OCR Service,Financial Analysis to OCR Service,Processing,252,7,Sync,,PT-011,Intelligent Document Processing,Document extraction step
+250,SCN-021,21,Wholesale Underwriting,8,Portfolio Analysis,Credit Scoring ML,Provide data from Portfolio Analysis,Data,253,8,Sync,,PT-011,Intelligent Document Processing,Portfolio data integration
+251,SCN-021,21,Wholesale Underwriting,9,Optimization,Approval Process,Return results to Approval Process,Response,254,9,Sync,,PT-011,Intelligent Document Processing,Optimization step
+252,SCN-021,21,Wholesale Underwriting,10,Approval Process,Underwriting Workstation,Display results in Underwriting Workstation,UI Update,255,10,Sync,,PT-011,Intelligent Document Processing,Result presentation step
+253,SCN-022,22,Learning Content,1,Learning Portal,Personalization Engine,User initiates request via Learning Portal,Request,121,1,Sync,,PT-007,Agentic AI Pattern,Agent orchestration step
+254,SCN-022,22,Learning Content,2,Personalization Engine,Content Generation,Request AI processing: Content Generation,AI Request,256,2,Sync,,PT-007,Agentic AI Pattern,Content generation agent step
+255,SCN-022,22,Learning Content,3,Localization,Instructional Design,Request AI processing: Instructional Design,AI Request,257,3,Sync,,PT-007,Agentic AI Pattern,Design agent step
+256,SCN-022,22,Learning Content,4,Quality Assurance,Multimedia Creation,Request AI processing: Multimedia Creation,AI Request,258,4,Sync,,PT-007,Agentic AI Pattern,Multimedia agent step
+257,SCN-022,22,Learning Content,5,Content Generation,Instructional Design,Content Generation to Instructional Design,Processing,259,5,Sync,,PT-007,Agentic AI Pattern,Agent coordination step
+258,SCN-022,22,Learning Content,6,Instructional Design,Multimedia Creation,Instructional Design to Multimedia Creation,Processing,260,6,Sync,,PT-007,Agentic AI Pattern,Multi-agent workflow step
+259,SCN-022,22,Learning Content,7,Multimedia Creation,Assessment Generation,Multimedia Creation to Assessment Generation,Processing,261,7,Sync,,PT-007,Agentic AI Pattern,Assessment agent step
+260,SCN-022,22,Learning Content,8,Question Banks,Content Generation,Provide data from Question Banks,Data,262,8,Sync,,PT-007,Agentic AI Pattern,Question bank agent step
+261,SCN-022,22,Learning Content,9,Translation Service,Quality Assurance,Return results to Quality Assurance,Response,263,9,Sync,,PT-007,Agentic AI Pattern,Translation agent step
+262,SCN-022,22,Learning Content,10,Quality Assurance,Learning Portal,Display results in Learning Portal,UI Update,264,10,Sync,,PT-007,Agentic AI Pattern,Result aggregation step
+263,SCN-023,23,Collection Management,1,Collections Dashboard,Channel Selection,User initiates request via Collections Dashboard,Request,122,1,Sync,,PT-009,Real-Time ML Scoring,Collection initiation step
+264,SCN-023,23,Collection Management,2,Channel Selection,Debtor Segmentation,Request AI processing: Debtor Segmentation,AI Request,265,2,Sync,,PT-009,Real-Time ML Scoring,Real-time segmentation step
+265,SCN-023,23,Collection Management,3,Message Personalization,Behavioral Clustering,Request AI processing: Behavioral Clustering,AI Request,266,3,Sync,,PT-009,Real-Time ML Scoring,Behavioral scoring step
+266,SCN-023,23,Collection Management,4,Workflow Automation,Risk Stratification,Request AI processing: Risk Stratification,AI Request,267,4,Sync,,PT-009,Real-Time ML Scoring,Real-time inference step
+267,SCN-023,23,Collection Management,5,Debtor Segmentation,Behavioral Clustering,Debtor Segmentation to Behavioral Clustering,Processing,268,5,Sync,,PT-009,Real-Time ML Scoring,Clustering analysis step
+268,SCN-023,23,Collection Management,6,Behavioral Clustering,Risk Stratification,Behavioral Clustering to Risk Stratification,Processing,269,6,Sync,,PT-009,Real-Time ML Scoring,Risk scoring step
+269,SCN-023,23,Collection Management,7,Risk Stratification,Payment Prediction,Risk Stratification to Payment Prediction,Processing,270,7,Sync,,PT-009,Real-Time ML Scoring,Payment prediction step
+270,SCN-023,23,Collection Management,8,Tone Adaptation,Escalation Logic,Return results to Escalation Logic,Response,271,8,Sync,,PT-009,Real-Time ML Scoring,Escalation scoring step
+271,SCN-023,23,Collection Management,9,Escalation Logic,Collections Dashboard,Display results in Collections Dashboard,UI Update,272,9,Sync,,PT-009,Real-Time ML Scoring,Result presentation step
+272,SCN-024,24,Front-end App Personalisation,1,UI Personalization,Feature Prioritization,User initiates request via UI Personalization,Request,123,1,Sync,,PT-006,Multi-Model Routing,Request initiation step
+273,SCN-024,24,Front-end App Personalisation,2,Feature Prioritization,Preference Learning,Request AI processing: Preference Learning,AI Request,273,2,Sync,,PT-006,Multi-Model Routing,Preference model routing step
+274,SCN-024,24,Front-end App Personalisation,3,A/B Testing,Recommendation Engine,Request AI processing: Recommendation Engine,AI Request,274,3,Sync,,PT-006,Multi-Model Routing,Recommendation routing step
+275,SCN-024,24,Front-end App Personalisation,4,Experiment Design,Collaborative Filtering,Request AI processing: Collaborative Filtering,AI Request,275,4,Sync,,PT-006,Multi-Model Routing,CF model routing step
+276,SCN-024,24,Front-end App Personalisation,5,Preference Learning,Recommendation Engine,Preference Learning to Recommendation Engine,Processing,276,5,Sync,,PT-006,Multi-Model Routing,Model chaining step
+277,SCN-024,24,Front-end App Personalisation,6,Recommendation Engine,Collaborative Filtering,Recommendation Engine to Collaborative Filtering,Processing,277,6,Sync,,PT-006,Multi-Model Routing,Multi-model processing step
+278,SCN-024,24,Front-end App Personalisation,7,Collaborative Filtering,Content Ranking,Collaborative Filtering to Content Ranking,Processing,278,7,Sync,,PT-006,Multi-Model Routing,Ranking model step
+279,SCN-024,24,Front-end App Personalisation,8,User Profiling,Preference Learning,Provide data from User Profiling,Data,279,8,Sync,,PT-006,Multi-Model Routing,Profile enrichment step
+280,SCN-024,24,Front-end App Personalisation,9,Mobile SDK Integration,Feature Prioritization,External integration via Mobile SDK Integration,Integration,280,9,Sync,,PT-006,Multi-Model Routing,Mobile integration step
+281,SCN-024,24,Front-end App Personalisation,10,Context Understanding,Performance Optimization,Return results to Performance Optimization,Response,281,10,Sync,,PT-006,Multi-Model Routing,Context optimization step
+282,SCN-024,24,Front-end App Personalisation,11,Performance Optimization,UI Personalization,Display results in UI Personalization,UI Update,282,11,Sync,,PT-006,Multi-Model Routing,Result presentation step

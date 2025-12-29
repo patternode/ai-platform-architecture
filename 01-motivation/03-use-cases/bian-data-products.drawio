@@ -1,0 +1,272 @@
+<mxfile host="app.diagrams.net" modified="2025-12-08T00:00:00.000Z" agent="5.0" etag="bian-data-products" version="24.0.0" type="device">
+  <diagram id="bian-data-products-diagram" name="BIAN Data Products by Business Area">
+    <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="&lt;b&gt;BIAN 13.0 Data Products Required for AI Use Cases&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:10px&quot;&gt;Service Domains (Data Products) by Business Area | 24 Use Cases | 63 Unique Data Products&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#003087;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="460" y="10" width="1000" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- SALES AND SERVICE -->
+        <mxCell id="ba-sales" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#003087;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="620" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-sales-title" value="&lt;b&gt;SALES AND SERVICE&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:9px&quot;&gt;28 mappings | 6 domains | 19 data products&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontColor=#FFFFFF;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="30" y="70" width="600" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Customer Management -->
+        <mxCell id="dom-custmgmt" value="&lt;b&gt;Customer Management&lt;/b&gt; (7 UCs)" style="text;html=1;strokeColor=none;fillColor=#CC0000;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="30" y="115" width="180" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-custmgmt" value="• Customer Relationship Management&#xa;• Customer Behavior Insights&#xa;• Customer Agreement&#xa;• Customer Proposition&#xa;• Account Recovery" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="30" y="140" width="180" height="75" as="geometry" />
+        </mxCell>
+
+        <!-- Servicing -->
+        <mxCell id="dom-servicing" value="&lt;b&gt;Servicing&lt;/b&gt; (6 UCs)" style="text;html=1;strokeColor=none;fillColor=#FF6B35;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="220" y="115" width="180" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-servicing" value="• Customer Case Management&#xa;• Customer Case&#xa;• Card Case" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="180" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Cross Channel -->
+        <mxCell id="dom-cross" value="&lt;b&gt;Cross Channel&lt;/b&gt; (5 UCs)" style="text;html=1;strokeColor=none;fillColor=#FF6B35;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="410" y="115" width="180" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-cross" value="• Contact Center Operations&#xa;• Contact Routing&#xa;• Session Dialogue&#xa;• Point of Service" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="410" y="140" width="180" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Sales -->
+        <mxCell id="dom-sales" value="&lt;b&gt;Sales&lt;/b&gt; (5 UCs)" style="text;html=1;strokeColor=none;fillColor=#FF6B35;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="30" y="225" width="180" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-sales" value="• Lead and Opportunity Management&#xa;• Underwriting&#xa;• Party Lifecycle Management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="30" y="250" width="180" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Marketing -->
+        <mxCell id="dom-marketing" value="&lt;b&gt;Marketing&lt;/b&gt; (3 UCs)" style="text;html=1;strokeColor=none;fillColor=#FFA500;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="220" y="225" width="180" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-marketing" value="• Customer Campaign Management&#xa;• Customer Campaign Design&#xa;• Customer Campaign Execution" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="250" width="190" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Channel Specific -->
+        <mxCell id="dom-channel" value="&lt;b&gt;Channel Specific&lt;/b&gt; (2 UCs)" style="text;html=1;strokeColor=none;fillColor=#50E6FF;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#333333;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="410" y="225" width="180" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-channel" value="• Contact Center Management&#xa;• eBranch Operations" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="410" y="250" width="180" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- RISK AND COMPLIANCE -->
+        <mxCell id="ba-risk" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#CC0000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="60" width="620" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-risk-title" value="&lt;b&gt;RISK AND COMPLIANCE&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:9px&quot;&gt;18 mappings | 4 domains | 14 data products&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#CC0000;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontColor=#FFFFFF;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="660" y="70" width="600" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Regulations and Compliance -->
+        <mxCell id="dom-regs" value="&lt;b&gt;Regulations and Compliance&lt;/b&gt; (7 UCs)" style="text;html=1;strokeColor=none;fillColor=#CC0000;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="660" y="115" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-regs" value="• Regulatory Compliance&#xa;• Fraud Resolution&#xa;• Guideline Compliance&#xa;• Compliance Reporting" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="660" y="140" width="180" height="65" as="geometry" />
+        </mxCell>
+
+        <!-- Models -->
+        <mxCell id="dom-models" value="&lt;b&gt;Models&lt;/b&gt; (5 UCs)" style="text;html=1;strokeColor=none;fillColor=#FF6B35;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="900" y="115" width="180" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-models" value="• Credit Risk Models&#xa;• Credit and Margin Management&#xa;• Fraud Model&#xa;• Operational Risk Models&#xa;• Business Risk Models" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="900" y="140" width="180" height="75" as="geometry" />
+        </mxCell>
+
+        <!-- Business Analysis -->
+        <mxCell id="dom-bizanalysis" value="&lt;b&gt;Business Analysis&lt;/b&gt; (4 UCs)" style="text;html=1;strokeColor=none;fillColor=#FFA500;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="660" y="225" width="180" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-bizanalysis" value="• Market Analysis&#xa;• Customer Portfolio&#xa;• Product Portfolio&#xa;• Contribution Analysis&#xa;• Gap Analysis" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="660" y="250" width="180" height="75" as="geometry" />
+        </mxCell>
+
+        <!-- Bank Portfolio and Treasury -->
+        <mxCell id="dom-bankport" value="&lt;b&gt;Bank Portfolio and Treasury&lt;/b&gt; (2 UCs)" style="text;html=1;strokeColor=none;fillColor=#50E6FF;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#333333;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="900" y="225" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-bankport" value="• Bank Portfolio Analysis" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="900" y="250" width="180" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- BUSINESS SUPPORT -->
+        <mxCell id="ba-support" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5FF;strokeColor=#003087;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="60" width="620" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-support-title" value="&lt;b&gt;BUSINESS SUPPORT&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:9px&quot;&gt;21 mappings | 7 domains | 17 data products&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontColor=#FFFFFF;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="70" width="600" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- IT Management -->
+        <mxCell id="dom-it" value="&lt;b&gt;IT Management&lt;/b&gt; (6 UCs)" style="text;html=1;strokeColor=none;fillColor=#FF6B35;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="115" width="180" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-it" value="• System Development&#xa;• System Deployment&#xa;• Production Release&#xa;• Systems Operations&#xa;• Systems Help Desk&#xa;• Systems Assurance&#xa;• Systems Administration&#xa;• Platform Operations" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="140" width="150" height="115" as="geometry" />
+        </mxCell>
+
+        <!-- Non-IT Services -->
+        <mxCell id="dom-nonit" value="&lt;b&gt;Non-IT and Non-HR Enterprise Services&lt;/b&gt; (5 UCs)" style="text;html=1;strokeColor=none;fillColor=#FF6B35;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="115" width="280" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-nonit" value="• Security Assurance&#xa;• Security Advisory&#xa;• Internal Audit&#xa;• Procurement&#xa;• Approved Supplier Directory" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="140" width="180" height="75" as="geometry" />
+        </mxCell>
+
+        <!-- Knowledge and IP -->
+        <mxCell id="dom-knowledge" value="&lt;b&gt;Knowledge and Intellectual Property&lt;/b&gt; (3 UCs)" style="text;html=1;strokeColor=none;fillColor=#FFA500;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="265" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-knowledge" value="• Knowledge Exchange&#xa;• Management Manual" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="290" width="150" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Finance, HR, etc. -->
+        <mxCell id="dom-finance" value="&lt;b&gt;Finance&lt;/b&gt; (2), &lt;b&gt;HR&lt;/b&gt; (1), &lt;b&gt;Command&lt;/b&gt; (2), &lt;b&gt;Buildings&lt;/b&gt; (1)" style="text;html=1;strokeColor=none;fillColor=#50E6FF;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontColor=#333333;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="265" width="290" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-finance" value="• Financial Statements, Financial Control&#xa;• Workforce Training&#xa;• Business Unit Financial Analysis, Mgmt&#xa;• Equipment Maintenance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="290" width="220" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- OPERATIONS AND EXECUTION -->
+        <mxCell id="ba-ops" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5FFF5;strokeColor=#00A651;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="390" width="930" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-ops-title" value="&lt;b&gt;OPERATIONS AND EXECUTION&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:9px&quot;&gt;15 mappings | 9 domains | 11 data products&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#00A651;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontColor=#FFFFFF;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="30" y="400" width="910" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Loans and Deposits -->
+        <mxCell id="dom-loans" value="&lt;b&gt;Loans and Deposits&lt;/b&gt; (3 UCs)" style="text;html=1;strokeColor=none;fillColor=#FFA500;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="30" y="445" width="180" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-loans" value="• Consumer Loan&#xa;• Mortgage Loan&#xa;• Loan" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="30" y="470" width="140" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Account Management -->
+        <mxCell id="dom-acct" value="&lt;b&gt;Account Management&lt;/b&gt; (2 UCs)" style="text;html=1;strokeColor=none;fillColor=#50E6FF;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#333333;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="180" y="445" width="180" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-acct" value="• Fraud Evaluation&#xa;• Fraud Diagnosis" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="180" y="470" width="140" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Corporate Financing -->
+        <mxCell id="dom-corpfin" value="&lt;b&gt;Corporate Financing&lt;/b&gt; (2 UCs)" style="text;html=1;strokeColor=none;fillColor=#50E6FF;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#333333;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="330" y="445" width="180" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-corpfin" value="• Corporate Finance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="330" y="470" width="140" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Collateral Admin -->
+        <mxCell id="dom-collateral" value="&lt;b&gt;Collateral Administration&lt;/b&gt; (2 UCs)" style="text;html=1;strokeColor=none;fillColor=#50E6FF;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#333333;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="480" y="445" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-collateral" value="• Collections&#xa;• Collateral Asset Admin" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="480" y="470" width="140" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Cards -->
+        <mxCell id="dom-cards" value="&lt;b&gt;Cards&lt;/b&gt; (2 UCs)" style="text;html=1;strokeColor=none;fillColor=#50E6FF;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#333333;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="650" y="445" width="120" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-cards" value="• Card Authorization" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="650" y="470" width="120" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Other Ops domains -->
+        <mxCell id="dom-other-ops" value="&lt;b&gt;Payments&lt;/b&gt; (1), &lt;b&gt;Trade Banking&lt;/b&gt; (1), &lt;b&gt;Consumer Svc&lt;/b&gt; (1), &lt;b&gt;Operational Svc&lt;/b&gt; (1)" style="text;html=1;strokeColor=none;fillColor=#E6F0FF;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontColor=#003087;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="30" y="530" width="450" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-other-ops" value="• Payment Order &nbsp;• Credit Management &nbsp;• Consumer Advisory Services &nbsp;• Delinquent Account Handling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="30" y="555" width="550" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- REFERENCE DATA -->
+        <mxCell id="ba-ref" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFAF0;strokeColor=#FFA500;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="960" y="390" width="340" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-ref-title" value="&lt;b&gt;REFERENCE DATA&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:9px&quot;&gt;4 mappings | 2 domains | 4 data products&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#FFA500;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontColor=#FFFFFF;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="970" y="400" width="320" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Party -->
+        <mxCell id="dom-party" value="&lt;b&gt;Party&lt;/b&gt; (2 UCs)" style="text;html=1;strokeColor=none;fillColor=#50E6FF;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#333333;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="970" y="445" width="140" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-party" value="• Party Routing Profile&#xa;• Legal Entity Directory" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="970" y="470" width="150" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- External Agency -->
+        <mxCell id="dom-external" value="&lt;b&gt;External Agency&lt;/b&gt; (2 UCs)" style="text;html=1;strokeColor=none;fillColor=#50E6FF;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#333333;fontFamily=Helvetica;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="445" width="160" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dp-external" value="• Information Provider Admin&#xa;• Contractor and Supplier Agreement" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="470" width="200" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="390" width="280" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" value="&lt;b&gt;Legend - Use Case Count&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#003087;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="395" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-high" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC0000;strokeColor=#990000;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="420" width="20" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-high-t" value="7 use cases (Critical)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="420" width="120" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-med-high" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#E85A2B;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="440" width="20" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-med-high-t" value="5-6 use cases (High)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="440" width="120" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-med" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA500;strokeColor=#CC8400;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="460" width="20" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-med-t" value="3-4 use cases (Medium)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="460" width="130" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-low" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#40B8CC;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="480" width="20" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-low-t" value="1-2 use cases (Low)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="480" width="120" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-note" value="&lt;span style=&quot;font-size:8px&quot;&gt;Data products = BIAN Service Domains&lt;br&gt;Source: BIAN Service Landscape 13.0&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="505" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Footer -->
+        <mxCell id="footer" value="BNZ AI Platform Architecture | BIAN 13.0 Service Landscape | Data Mesh Pattern (PT-012) | December 2025" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#666666;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="560" y="610" width="800" height="18" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

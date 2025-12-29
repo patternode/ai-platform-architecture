@@ -1,0 +1,95 @@
+use_case_id,use_case_name,business_category,bian_business_area,bian_business_domain,bian_service_domain,domain_relevance,bian_link
+UC-001,FrontLine Partnership Banking,Customer & Relationship Management,Sales and Service,Customer Management,Customer Relationship Management,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_87719.html
+UC-001,FrontLine Partnership Banking,Customer & Relationship Management,Sales and Service,Customer Management,Customer Behavior Insights,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_87729.html
+UC-001,FrontLine Partnership Banking,Customer & Relationship Management,Sales and Service,Sales,Lead and Opportunity Management,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_87695.html
+UC-001,FrontLine Partnership Banking,Customer & Relationship Management,Sales and Service,Servicing,Customer Case Management,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_87749.html
+UC-001,FrontLine Partnership Banking,Customer & Relationship Management,Reference Data,Party,Party Routing Profile,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_87769.html
+UC-002,Finance,Finance & Accounting,Business Support,Finance,Financial Statements,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88273.html
+UC-002,Finance,Finance & Accounting,Business Support,Finance,Financial Control,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88275.html
+UC-002,Finance,Finance & Accounting,Business Support,Business Command and Control,Business Unit Accounting,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_88265.html
+UC-002,Finance,Finance & Accounting,Risk and Compliance,Business Analysis,Contribution Analysis,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_88131.html
+UC-003,Analytics and Reporting,Data & Analytics,Business Support,Business Command and Control,Business Unit Financial Analysis,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88261.html
+UC-003,Analytics and Reporting,Data & Analytics,Risk and Compliance,Business Analysis,Market Analysis,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88129.html
+UC-003,Analytics and Reporting,Data & Analytics,Risk and Compliance,Business Analysis,Customer Portfolio,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88141.html
+UC-003,Analytics and Reporting,Data & Analytics,Risk and Compliance,Business Analysis,Product Portfolio,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_88143.html
+UC-004,Credit Risk,Risk Management,Risk and Compliance,Models,Credit Risk Models,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88179.html
+UC-004,Credit Risk,Risk Management,Risk and Compliance,Models,Credit and Margin Management,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88171.html
+UC-004,Credit Risk,Risk Management,Risk and Compliance,Bank Portfolio and Treasury,Bank Portfolio Analysis,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_88119.html
+UC-004,Credit Risk,Risk Management,Operations and Execution,Loans and Deposits,Loan,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_87841.html
+UC-005,Lending Ops,Lending & Credit Operations,Operations and Execution,Loans and Deposits,Consumer Loan,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_87849.html
+UC-005,Lending Ops,Lending & Credit Operations,Operations and Execution,Loans and Deposits,Mortgage Loan,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_87859.html
+UC-005,Lending Ops,Lending & Credit Operations,Operations and Execution,Consumer Services,Consumer Advisory Services,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_88009.html
+UC-005,Lending Ops,Lending & Credit Operations,Sales and Service,Sales,Underwriting,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_87703.html
+UC-006,HyperPersonalization,Marketing & Personalization,Sales and Service,Marketing,Customer Campaign Management,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_87681.html
+UC-006,HyperPersonalization,Marketing & Personalization,Sales and Service,Marketing,Customer Campaign Design,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_87683.html
+UC-006,HyperPersonalization,Marketing & Personalization,Sales and Service,Customer Management,Customer Behavior Insights,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_87729.html
+UC-006,HyperPersonalization,Marketing & Personalization,Sales and Service,Customer Management,Customer Proposition,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_87737.html
+UC-006,HyperPersonalization,Marketing & Personalization,Sales and Service,Cross Channel,Session Dialogue,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_87657.html
+UC-007,Contact Centre,Customer Service & Support,Sales and Service,Cross Channel,Contact Center Operations,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_87623.html
+UC-007,Contact Centre,Customer Service & Support,Sales and Service,Cross Channel,Contact Routing,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_87655.html
+UC-007,Contact Centre,Customer Service & Support,Sales and Service,Cross Channel,Session Dialogue,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_87657.html
+UC-007,Contact Centre,Customer Service & Support,Sales and Service,Servicing,Customer Case Management,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_87749.html
+UC-007,Contact Centre,Customer Service & Support,Sales and Service,Channel Specific,Contact Center Management,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_87613.html
+UC-008,Security AI,Cybersecurity & Threat Detection,Business Support,IT Management,Systems Assurance,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88197.html
+UC-008,Security AI,Cybersecurity & Threat Detection,Business Support,Non-IT and Non-HR Enterprise Services,Security Assurance,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88223.html
+UC-008,Security AI,Cybersecurity & Threat Detection,Business Support,Non-IT and Non-HR Enterprise Services,Security Advisory,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_88225.html
+UC-009,Data Products,Data & Analytics,Business Support,Business Command and Control,Business Unit Management,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88259.html
+UC-009,Data Products,Data & Analytics,Business Support,IT Management,Systems Administration,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_88199.html
+UC-009,Data Products,Data & Analytics,Risk and Compliance,Business Analysis,Market Analysis,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_88129.html
+UC-010,SDLC,Software Development & Engineering,Business Support,IT Management,System Development,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88201.html
+UC-010,SDLC,Software Development & Engineering,Business Support,IT Management,System Deployment,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88203.html
+UC-010,SDLC,Software Development & Engineering,Business Support,IT Management,Production Release,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88205.html
+UC-010,SDLC,Software Development & Engineering,Business Support,Knowledge and Intellectual Property,Knowledge Exchange,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_88311.html
+UC-011,Fincrime,Compliance & Financial Crime,Risk and Compliance,Regulations and Compliance,Regulatory Compliance,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88151.html
+UC-011,Fincrime,Compliance & Financial Crime,Risk and Compliance,Models,Fraud Model,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88189.html
+UC-011,Fincrime,Compliance & Financial Crime,Risk and Compliance,Regulations and Compliance,Fraud Resolution,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88155.html
+UC-011,Fincrime,Compliance & Financial Crime,Reference Data,External Agency,Information Provider Administration,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_87775.html
+UC-012,QA/QC,Quality Assurance & Compliance,Risk and Compliance,Regulations and Compliance,Guideline Compliance,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88153.html
+UC-012,QA/QC,Quality Assurance & Compliance,Risk and Compliance,Regulations and Compliance,Compliance Reporting,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88159.html
+UC-012,QA/QC,Quality Assurance & Compliance,Business Support,Non-IT and Non-HR Enterprise Services,Internal Audit,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_88231.html
+UC-013,Fraud Ops,Fraud Detection & Prevention,Risk and Compliance,Models,Fraud Model,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88189.html
+UC-013,Fraud Ops,Fraud Detection & Prevention,Risk and Compliance,Regulations and Compliance,Fraud Resolution,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88155.html
+UC-013,Fraud Ops,Fraud Detection & Prevention,Operations and Execution,Account Management,Fraud Evaluation,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88053.html
+UC-013,Fraud Ops,Fraud Detection & Prevention,Operations and Execution,Account Management,Fraud Diagnosis,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_88055.html
+UC-013,Fraud Ops,Fraud Detection & Prevention,Operations and Execution,Cards,Card Authorization,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_87945.html
+UC-014,Onboarding,Customer Onboarding & KYC,Sales and Service,Sales,Party Lifecycle Management,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_87693.html
+UC-014,Onboarding,Customer Onboarding & KYC,Sales and Service,Customer Management,Customer Agreement,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_87723.html
+UC-014,Onboarding,Customer Onboarding & KYC,Risk and Compliance,Regulations and Compliance,Regulatory Compliance,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88151.html
+UC-014,Onboarding,Customer Onboarding & KYC,Reference Data,Party,Legal Entity Directory,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_87771.html
+UC-015,Risk Functions,Risk Management,Risk and Compliance,Models,Operational Risk Models,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88167.html
+UC-015,Risk Functions,Risk Management,Risk and Compliance,Models,Business Risk Models,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88173.html
+UC-015,Risk Functions,Risk Management,Risk and Compliance,Bank Portfolio and Treasury,Bank Portfolio Analysis,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88119.html
+UC-015,Risk Functions,Risk Management,Risk and Compliance,Business Analysis,Gap Analysis,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_88187.html
+UC-016,IT Ops,IT Operations & Service Management,Business Support,IT Management,Systems Operations,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88195.html
+UC-016,IT Ops,IT Operations & Service Management,Business Support,IT Management,Systems Help Desk,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88217.html
+UC-016,IT Ops,IT Operations & Service Management,Business Support,IT Management,Platform Operations,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_88207.html
+UC-016,IT Ops,IT Operations & Service Management,Business Support,Buildings Equipment and Facilities,Equipment Maintenance,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_88251.html
+UC-017,FrontLine - CIB,Customer & Relationship Management,Sales and Service,Customer Management,Customer Relationship Management,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_87719.html
+UC-017,FrontLine - CIB,Customer & Relationship Management,Sales and Service,Sales,Lead and Opportunity Management,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_87695.html
+UC-017,FrontLine - CIB,Customer & Relationship Management,Operations and Execution,Corporate Financing and Advisory Services,Corporate Finance,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_87993.html
+UC-017,FrontLine - CIB,Customer & Relationship Management,Operations and Execution,Trade Banking,Credit Management,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_87889.html
+UC-018,Procurement,Procurement & Supply Chain,Business Support,Non-IT and Non-HR Enterprise Services,Procurement,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88227.html
+UC-018,Procurement,Procurement & Supply Chain,Business Support,Non-IT and Non-HR Enterprise Services,Approved Supplier Directory,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88237.html
+UC-018,Procurement,Procurement & Supply Chain,Reference Data,External Agency,Contractor and Supplier Agreement,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_87791.html
+UC-019,Payment Disputes,Payments & Dispute Resolution,Operations and Execution,Payments,Payment Order,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88017.html
+UC-019,Payment Disputes,Payments & Dispute Resolution,Sales and Service,Servicing,Customer Case,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_87753.html
+UC-019,Payment Disputes,Payments & Dispute Resolution,Operations and Execution,Cards,Card Authorization,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_87945.html
+UC-019,Payment Disputes,Payments & Dispute Resolution,Sales and Service,Servicing,Card Case,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_87755.html
+UC-020,Controls Testing,Audit & Controls Testing,Business Support,Non-IT and Non-HR Enterprise Services,Internal Audit,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88231.html
+UC-020,Controls Testing,Audit & Controls Testing,Risk and Compliance,Regulations and Compliance,Guideline Compliance,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88153.html
+UC-020,Controls Testing,Audit & Controls Testing,Risk and Compliance,Regulations and Compliance,Compliance Reporting,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_88159.html
+UC-021,Wholesale Underwriting,Lending & Credit Operations,Sales and Service,Sales,Underwriting,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_87703.html
+UC-021,Wholesale Underwriting,Lending & Credit Operations,Operations and Execution,Corporate Financing and Advisory Services,Corporate Finance,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_87993.html
+UC-021,Wholesale Underwriting,Lending & Credit Operations,Risk and Compliance,Models,Credit Risk Models,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88179.html
+UC-021,Wholesale Underwriting,Lending & Credit Operations,Operations and Execution,Collateral Administration,Collateral Asset Administration,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_88107.html
+UC-022,Learning Content,Learning & Development,Business Support,Human Resource Management,Workforce Training,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88283.html
+UC-022,Learning Content,Learning & Development,Business Support,Knowledge and Intellectual Property,Knowledge Exchange,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88311.html
+UC-022,Learning Content,Learning & Development,Business Support,Knowledge and Intellectual Property,Management Manual,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_88309.html
+UC-023,Collection Management,Collections & Recovery,Operations and Execution,Collateral Administration,Collections,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88101.html
+UC-023,Collection Management,Collections & Recovery,Operations and Execution,Operational Services,Delinquent Account Handling,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_88083.html
+UC-023,Collection Management,Collections & Recovery,Sales and Service,Customer Management,Account Recovery,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_87733.html
+UC-023,Collection Management,Collections & Recovery,Sales and Service,Servicing,Customer Case Management,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_87749.html
+UC-024,Front-end App Personalisation,Marketing & Personalization,Sales and Service,Cross Channel,Point of Service,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_87651.html
+UC-024,Front-end App Personalisation,Marketing & Personalization,Sales and Service,Marketing,Customer Campaign Execution,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_87697.html
+UC-024,Front-end App Personalisation,Marketing & Personalization,Sales and Service,Customer Management,Customer Proposition,Primary,https://bian.org/servicelandscape-13-0-0/elements/id_87737.html
+UC-024,Front-end App Personalisation,Marketing & Personalization,Sales and Service,Channel Specific,eBranch Operations,Secondary,https://bian.org/servicelandscape-13-0-0/elements/id_87627.html

@@ -1,0 +1,172 @@
+@startuml SBB-APP-001-Deployment
+!define BNZ_NAVY #003087
+!define BNZ_ORANGE #FF6B35
+!define BNZ_LIGHTBLUE #50E6FF
+!define BNZ_TEAL #00A651
+!define BNZ_DARKGRAY #333333
+!define BNZ_MEDIUMGRAY #666666
+!define BNZ_LIGHTGRAY #CCCCCC
+!define BNZ_BACKGROUND #F5F5F5
+
+!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v18.0/dist
+!include AWSPuml/AWSCommon.puml
+!include AWSPuml/General/all.puml
+!include AWSPuml/Compute/all.puml
+!include AWSPuml/Database/all.puml
+!include AWSPuml/NetworkingContentDelivery/all.puml
+!include AWSPuml/SecurityIdentityCompliance/all.puml
+!include AWSPuml/ManagementGovernance/all.puml
+!include AWSPuml/MachineLearning/all.puml
+
+title SBB-APP-001: AWS Bedrock AgentCore - Physical Deployment
+
+skinparam backgroundColor white
+skinparam defaultFontName Helvetica
+skinparam defaultFontSize 11
+skinparam defaultFontColor BNZ_DARKGRAY
+
+skinparam rectangle {
+    BackgroundColor BNZ_BACKGROUND
+    BorderColor BNZ_ORANGE
+    BorderThickness 2
+    FontColor BNZ_NAVY
+    FontStyle bold
+}
+
+skinparam cloud {
+    BackgroundColor BNZ_LIGHTBLUE
+    BorderColor BNZ_MEDIUMGRAY
+    BorderThickness 2
+}
+
+skinparam node {
+    BackgroundColor white
+    BorderColor BNZ_ORANGE
+    BorderThickness 2
+}
+
+' Primary Region: ap-southeast-2 (Sydney)
+rectangle "AWS Region: ap-southeast-2 (Sydney - Primary)" as primary_region #FFF2CC {
+    
+    ' Availability Zone 2a
+    rectangle "AZ: ap-southeast-2a" as az_2a #E1F5FE {
+        APIGateway(api_gw_2a, "API Gateway", "Regional endpoint")
+        Lambda(runtime_2a, "AgentCore Runtime", "Firecracker microVMs")
+        Lambda(gateway_2a, "AgentCore Gateway", "MCP Tool Orchestration")
+        SecretsManager(identity_2a, "AgentCore Identity", "OAuth 2.0 / SAML")
+        CloudWatch(obs_2a, "Observability", "CloudWatch Integration")
+    }
+    
+    ' Availability Zone 2b
+    rectangle "AZ: ap-southeast-2b" as az_2b #E8F5E9 {
+        DynamoDB(memory_2b, "AgentCore Memory", "Short-term & Long-term")
+        Lambda(browser_2b, "Browser Tool", "Web Automation")
+        Lambda(code_2b, "Code Interpreter", "Sandboxed Python")
+    }
+    
+    ' Availability Zone 2c
+    rectangle "AZ: ap-southeast-2c" as az_2c #FFF9C4 {
+        CloudWatch(cloudwatch_2c, "CloudWatch", "Logs & Metrics")
+        XRay(xray_2c, "X-Ray", "Distributed Tracing")
+        SecretsManager(secrets_2c, "Secrets Manager", "Credentials & Keys")
+    }
+    
+    ' VPC
+    rectangle "VPC: BNZ AI Platform VPC\nPrivate Subnets with NAT Gateway" as vpc_primary #EEEEEE <<VPC>>
+}
+
+' DR Region: us-west-2 (Oregon)
+rectangle "AWS Region: us-west-2 (Oregon - DR)" as dr_region #FFE6E6 {
+    
+    ' Availability Zone us-west-2a
+    rectangle "AZ: us-west-2a (Standby)" as az_west_2a #FFEBEE {
+        General(dr_stack_a, "AgentCore Stack", "Standby Configuration")
+    }
+    
+    ' Availability Zone us-west-2b
+    rectangle "AZ: us-west-2b (Standby)" as az_west_2b #FFEBEE {
+        General(dr_stack_b, "AgentCore Stack", "All Services Replicated")
+    }
+    
+    note right of dr_stack_a
+        **DR Configuration:**
+        All AgentCore Services
+        CloudWatch / X-Ray
+        Memory Replication
+        Manual Failover
+    end note
+    
+    ' VPC DR
+    rectangle "VPC: BNZ AI Platform VPC (DR)\nPrivate Subnets with NAT Gateway" as vpc_dr #EEEEEE <<VPC>>
+}
+
+' External Services (Global)
+cloud "External Services (Global)" as external_services {
+    Bedrock(bedrock, "Amazon Bedrock", "Foundation Models")
+    Cognito(cognito, "Amazon Cognito", "User Pools")
+    SimpleStorageService(s3, "Amazon S3", "Artifacts & Logs")
+    General(entra, "Microsoft Entra ID", "Enterprise SSO")
+    General(salesforce, "Salesforce", "CRM Integration")
+    General(servicenow, "ServiceNow", "ITSM Integration")
+}
+
+' Relationships
+primary_region -[#E57373,thickness=3,dashed]-> dr_region : **Cross-Region Replication**\nMemory Data & Configuration
+
+runtime_2a -down-> memory_2b
+runtime_2a -down-> gateway_2a
+gateway_2a -down-> browser_2b
+gateway_2a -down-> code_2b
+runtime_2a -down-> identity_2a
+runtime_2a ..> obs_2a : telemetry
+obs_2a -down-> cloudwatch_2c
+obs_2a -down-> xray_2c
+
+primary_region -down-> bedrock : Foundation Model API
+primary_region -down-> cognito : Authentication
+primary_region -down-> s3 : Storage
+primary_region -down-> entra : SSO Federation
+gateway_2a -down-> salesforce : CRM APIs
+gateway_2a -down-> servicenow : ITSM APIs
+
+dr_region .up.> bedrock : Standby Access
+dr_region .up.> cognito : Standby Access
+dr_region .up.> s3 : Cross-Region Replication
+
+' Notes
+note right of primary_region
+    **Primary Region:**
+    ap-southeast-2 (Sydney)
+    3 Availability Zones
+    Multi-AZ High Availability
+    99.95% Availability (Preview)
+end note
+
+note right of dr_region
+    **DR Region:**
+    us-west-2 (Oregon)
+    2 Availability Zones
+    Standby Configuration
+    Manual Failover (RTO: 15 min)
+end note
+
+legend right
+    **Deployment Summary:**
+    2 AWS Regions
+    5 Availability Zones
+    7 AgentCore Components
+    Multi-AZ High Availability
+    99.95% Availability (Preview)
+    
+    **Infrastructure:**
+    Serverless (Lambda + Firecracker)
+    VPC Private Subnets
+    Cross-Region Replication
+    Manual DR Failover
+    
+    **Notation:** AWS Architecture Diagram
+    **Document:** SBB-APP-001 v1.0.0
+    **Organization:** BNZ Enterprise Architecture
+endlegend
+
+@enduml

@@ -1,0 +1,8 @@
+use_case_id,use_case_name,l0_capability,l1_capability,l2_capability,capability_id
+UC-001,Partnership Banking,Customer Management,Relationship Management,Customer Insights,CAP-CM-RM-01
+UC-001,Partnership Banking,Customer Management,Relationship Management,Meeting Preparation,CAP-CM-RM-02
+UC-004,Credit Risk,Risk Management,Credit Risk,Credit Assessment,CAP-RM-CR-01
+UC-004,Credit Risk,Risk Management,Credit Risk,Portfolio Monitoring,CAP-RM-CR-02
+UC-009,Data Products,Data & Analytics,Data Management,Data Product Creation,CAP-DA-DM-01
+UC-011,Fincrime,Risk Management,Financial Crime,Transaction Monitoring,CAP-RM-FC-01
+UC-011,Fincrime,Risk Management,Financial Crime,KYC/AML,CAP-RM-FC-02

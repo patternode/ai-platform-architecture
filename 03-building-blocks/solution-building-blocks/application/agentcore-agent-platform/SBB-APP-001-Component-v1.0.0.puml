@@ -1,0 +1,292 @@
+@startuml SBB-APP-001-Component
+!define BNZ_NAVY #003087
+!define BNZ_ORANGE #FF6B35
+!define BNZ_LIGHTBLUE #50E6FF
+!define BNZ_TEAL #00A651
+!define BNZ_DARKGRAY #333333
+!define BNZ_MEDIUMGRAY #666666
+!define BNZ_LIGHTGRAY #CCCCCC
+!define BNZ_BACKGROUND #F5F5F5
+
+title SBB-APP-001: AWS Bedrock AgentCore - Component Implementation
+
+skinparam backgroundColor white
+skinparam defaultFontName Helvetica
+skinparam defaultFontSize 11
+skinparam defaultFontColor BNZ_DARKGRAY
+
+skinparam package {
+    BackgroundColor BNZ_BACKGROUND
+    BorderColor BNZ_ORANGE
+    BorderThickness 3
+    FontStyle bold
+    FontSize 14
+    FontColor BNZ_NAVY
+}
+
+skinparam component {
+    BackgroundColor white
+    BorderColor BNZ_ORANGE
+    BorderThickness 2
+    FontColor BNZ_DARKGRAY
+    FontStyle bold
+}
+
+skinparam node {
+    BackgroundColor BNZ_LIGHTBLUE
+    BorderColor BNZ_MEDIUMGRAY
+    BorderThickness 2
+    FontColor BNZ_DARKGRAY
+    FontStyle bold
+}
+
+skinparam database {
+    BackgroundColor BNZ_LIGHTGRAY
+    BorderColor BNZ_MEDIUMGRAY
+    BorderThickness 2
+    FontColor BNZ_DARKGRAY
+}
+
+skinparam cloud {
+    BackgroundColor BNZ_TEAL
+    BorderColor #00875A
+    BorderThickness 2
+    FontColor white
+}
+
+skinparam arrow {
+    Color BNZ_NAVY
+    Thickness 2
+}
+
+package "AWS Bedrock AgentCore Platform" as platform {
+    
+    package "Agent Application (Customer Code)" as app_layer {
+        
+        component "Agent Implementation" as agent_impl <<Python 3.11+>> {
+            LangGraph 0.2.40+
+            LangChain (optional)
+            CrewAI (optional)
+            ====
+            **Capabilities:**
+            Multi-agent orchestration
+            Custom reasoning logic
+            Tool integration
+        }
+        
+        component "Agent Configuration" as agent_config {
+            Model selection (Bedrock)
+            Memory configuration
+            Tool bindings
+            Security policies
+            Observability settings
+        }
+        
+        component "Custom Tools" as custom_tools {
+            Business logic tools
+            API wrappers
+            Data access tools
+            Integration adapters
+            MCP-compliant tools
+        }
+        
+        component "Deployment Package" as deployment {
+            Docker container
+            CDK/Terraform IaC
+            CI/CD pipeline
+        }
+    }
+    
+    package "AgentCore Managed Components" as agentcore_layer #FFF2CC {
+        
+        component "1. AgentCore Runtime" as runtime <<Firecracker microVMs>> {
+            **Function:** Agent execution
+            ====
+            **Features:**
+            Isolated execution
+            Fast startup (125ms)
+            Resource controls
+            Multi-tenancy safe
+        }
+        
+        database "2. AgentCore Memory" as memory {
+            **Tech:** Dual architecture
+            Short-term: In-memory
+            Long-term: DynamoDB
+            ====
+            **Function:** Context management
+            ====
+            **Features:**
+            Conversation history
+            State persistence
+            Vector search (KNN)
+        }
+        
+        component "3. AgentCore Gateway" as gateway <<MCP server + client>> {
+            **Function:** Tool orchestration
+            ====
+            **Features:**
+            MCP protocol support
+            Tool discovery
+            Request routing
+            Result aggregation
+        }
+        
+        component "4. AgentCore Identity" as identity <<IAM + OAuth 2.0>> {
+            AWS IAM integration
+            SAML 2.0 support
+            ====
+            **Function:** AuthN/AuthZ
+            ====
+            **Features:**
+            Enterprise IdP
+            RBAC policies
+            Session management
+        }
+        
+        component "5. Browser Tool" as browser <<Headless browser>> {
+            Chromium-based
+            Sandboxed execution
+            ====
+            **Function:** Web automation
+            ====
+            **Features:**
+            Page rendering
+            JavaScript execution
+            Screenshot capture
+        }
+        
+        component "6. Code Interpreter" as code_interp <<Python sandbox>> {
+            Isolated runtime
+            NumPy, Pandas, etc.
+            ====
+            **Function:** Code execution
+            ====
+            **Features:**
+            Dynamic scripting
+            Data analysis
+            File processing
+        }
+        
+        component "7. AgentCore Observability" as observability <<OpenTelemetry>> {
+            CloudWatch Logs
+            CloudWatch Metrics
+            X-Ray Tracing
+            ====
+            **Function:** Monitoring
+            ====
+            **Features:**
+            Distributed tracing
+            Performance metrics
+            Log aggregation
+            Custom dashboards
+        }
+        
+        node "AgentCore Control Plane" as control_plane {
+            Lifecycle management
+            Resource provisioning
+            Configuration updates
+            Health monitoring
+            Auto-scaling
+        }
+    }
+    
+    package "External Services & Integrations" as external_layer #F3E5F5 {
+        cloud "Amazon Bedrock" as bedrock BNZ_TEAL {
+            Foundation Models
+            (Claude, GPT-4, etc.)
+        }
+        
+        cloud "Enterprise IdP" as idp {
+            Entra ID / Okta
+        }
+        
+        cloud "External APIs" as external_apis {
+            Salesforce
+            ServiceNow
+        }
+        
+        database "Data Sources" as data_sources {
+            S3, RDS
+            DynamoDB
+        }
+        
+        cloud "Monitoring Stack" as monitoring {
+            CloudWatch
+            X-Ray
+        }
+    }
+}
+
+' Relationships - Application to AgentCore
+agent_impl -down-> runtime : deploys to
+agent_config -down-> runtime : configures
+custom_tools -down-> gateway : registers with
+
+' Relationships - AgentCore Internal
+runtime -right-> memory : stores/retrieves
+runtime -down-> gateway : invokes tools via
+runtime -right-> identity : authenticates via
+runtime ..> observability : telemetry
+gateway -down-> browser : routes to
+gateway -down-> code_interp : routes to
+control_plane .up.> runtime : manages
+control_plane .up.> memory : provisions
+control_plane .up.> gateway : configures
+
+' Relationships - AgentCore to External
+runtime -down-> bedrock : calls
+gateway -down-> external_apis : integrates with
+identity -down-> idp : federates with
+memory -down-> data_sources : persists to
+observability -down-> monitoring : exports to
+
+' Notes
+note right of runtime
+  **Core Component**
+  Executes agent code in
+  isolated Firecracker microVMs
+  with 125ms cold start
+end note
+
+note right of gateway
+  **MCP Protocol**
+  Model Context Protocol
+  for standardized tool
+  invocation and discovery
+end note
+
+note bottom of platform
+  **Implementation Summary:**
+  • 7 AgentCore Components
+  • Python 3.11+ | LangGraph 0.2.40+
+  • Firecracker microVMs for isolation
+  • MCP Protocol for tool integration
+note bottom of platform
+  **Implementation Summary:**
+  7 AgentCore Components
+  Python 3.11+ | LangGraph 0.2.40+
+  Firecracker microVMs for isolation
+  MCP Protocol for tool integration
+  OpenTelemetry for observability
+  AWS Bedrock for foundation models
+  Multi-framework support (LangChain, CrewAI)
+  
+  **Notation:** C4 Container Diagram
+  **Document:** SBB-APP-001 v1.0.0
+  **Organization:** BNZ Enterprise Architecture
+end note
+
+legend right
+  **Color Coding:**
+  Light Blue = Customer Application Layer
+  Orange = AgentCore Managed Components
+  Teal = External Services
+  Gray = Data Storage
+  
+  **Deployment Model:**
+  Serverless execution on AWS
+  Auto-scaling based on load
+  Multi-region support (ap-southeast-2, us-west-2)
+  High availability (99.9% SLA)
+endlegend

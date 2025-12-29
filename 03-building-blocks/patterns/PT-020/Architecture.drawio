@@ -1,0 +1,386 @@
+<mxfile host="Electron" agent="Claude Code" version="24.0.0">
+  <diagram name="PT-020-PathRAG-Architecture" id="pathrag-arch">
+    <mxGraphModel dx="1800" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="PT-020: PathRAG - Architecture Overview" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="20" y="10" width="600" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Pattern Boundary -->
+        <mxCell id="pattern-boundary" value="PathRAG Pattern Boundary" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#003087;strokeWidth=3;verticalAlign=top;align=left;fontSize=18;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;dashed=1;arcSize=3;spacingLeft=20;" parent="1" vertex="1">
+          <mxGeometry x="20" y="50" width="1560" height="830" as="geometry" />
+        </mxCell>
+
+        <!-- Data Sources Layer -->
+        <mxCell id="sources-layer" value="Data Sources" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6699CC;strokeColor=none;strokeWidth=2;verticalAlign=top;align=left;fontSize=16;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;arcSize=10;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="350" height="160" as="geometry" />
+        </mxCell>
+
+        <mxCell id="policy-docs" value="Policy&#xa;Documents&#xa;(PDF, DOCX)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=11;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="55" y="115" width="75" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="regulations" value="Regulatory&#xa;Documents&#xa;(Citations)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=11;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="145" y="115" width="75" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="procedures" value="Procedures&#xa;&amp; Standards&#xa;(References)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=11;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="235" y="115" width="75" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="audit-docs" value="Audit &amp;&#xa;Compliance&#xa;Documents" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=11;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="55" y="180" width="75" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- Document Processing Pipeline -->
+        <mxCell id="doc-pipeline" value="Document Processing Pipeline&#xa;(AB-057)&#xa;&#xa;Parsing | Cleaning | Chunking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=none;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="420" y="80" width="280" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Citation Extraction -->
+        <mxCell id="citation-extraction" value="Citation &amp; Reference Extractor&#xa;&#xa;Regex | NER | LLM-based Extraction&#xa;Document IDs | Section References" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=none;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="720" y="80" width="280" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Relationship Mapping -->
+        <mxCell id="relationship-mapping" value="Relationship Mapper&#xa;&#xa;Types: cites | supersedes | implements&#xa;Context Extraction | Bidirectional Links" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=none;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="420" y="180" width="280" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Embedding Generation -->
+        <mxCell id="embedding-gen" value="Embedding Generator&#xa;&#xa;text-embedding-3-large&#xa;Document Chunk Vectors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=none;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="720" y="180" width="280" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Knowledge Storage -->
+        <mxCell id="relationship-store" value="Document Relationship Store&#xa;(AB-080)&#xa;&#xa;Neo4j | PostgreSQL&#xa;Document Graph | Metadata | Citation Paths&#xa;Bidirectional Relationships" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="420" y="300" width="280" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Vector Store -->
+        <mxCell id="vector-store" value="Vector Database&#xa;(AB-051)&#xa;&#xa;Pinecone | Weaviate | Qdrant&#xa;Document Embeddings&#xa;Metadata Filtering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="720" y="300" width="280" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Query Processing Layer -->
+        <mxCell id="query-layer" value="Query Processing &amp; Path Planning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=none;strokeWidth=2;verticalAlign=top;align=left;fontSize=16;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;arcSize=5;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="300" width="350" height="240" as="geometry" />
+        </mxCell>
+
+        <mxCell id="query-analyzer" value="Query Analyzer&#xa;&#xa;Intent Detection&#xa;Complexity Assessment&#xa;Required Depth" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="55" y="335" width="155" height="75" as="geometry" />
+        </mxCell>
+
+        <mxCell id="path-planner" value="Path Strategy Planner&#xa;(AB-059)&#xa;&#xa;Starting Points&#xa;Relationship Types&#xa;Max Depth | Pruning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="220" y="335" width="155" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="path-validator" value="Path Validator&#xa;&#xa;Cycle Detection&#xa;Access Control Check&#xa;Completeness Validation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="55" y="420" width="155" height="85" as="geometry" />
+        </mxCell>
+
+        <mxCell id="path-cache" value="Path Cache&#xa;(Redis)&#xa;&#xa;Frequent Paths&#xa;Path Patterns" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=11;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="220" y="435" width="155" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Retrieval Layer -->
+        <mxCell id="retrieval-layer" value="Multi-Hop Retrieval &amp; Path Assembly" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=none;strokeWidth=2;verticalAlign=top;align=left;fontSize=16;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;arcSize=5;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="560" width="960" height="150" as="geometry" />
+        </mxCell>
+
+        <mxCell id="seed-retriever" value="Seed Document Retriever&#xa;(AB-052)&#xa;&#xa;Semantic Search&#xa;Find Starting Points" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="55" y="600" width="170" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="multi-hop" value="Multi-Hop Retriever&#xa;(AB-054)&#xa;&#xa;Follow Relationships&#xa;Iterative Retrieval&#xa;Relevance Scoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="245" y="600" width="180" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="path-assembler" value="Path Assembler&#xa;&#xa;Document Ordering&#xa;Relationship Context&#xa;Path Summarization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="445" y="600" width="170" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="reranker" value="Path Reranker&#xa;(AB-055)&#xa;&#xa;Cross-Encoder&#xa;Path Scoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="635" y="600" width="150" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="citation-gen" value="Path Citation&#xa;Generator (AB-058)&#xa;&#xa;Evidence Chain&#xa;Source Attribution" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="805" y="600" width="170" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Response Generation -->
+        <mxCell id="llm-layer" value="Response Generation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=none;strokeWidth=2;verticalAlign=top;align=left;fontSize=16;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;arcSize=5;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="560" width="540" height="150" as="geometry" />
+        </mxCell>
+
+        <mxCell id="context-builder" value="Path Context Builder&#xa;&#xa;Structured Prompting&#xa;Relationship Context&#xa;Document Ordering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1035" y="600" width="170" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="llm-service" value="LLM Service&#xa;(AB-050)&#xa;&#xa;GPT-4o | Claude 3.5&#xa;Path-Aware Generation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1225" y="600" width="160" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="self-critique" value="Self-Critique&#xa;(AB-056)&#xa;&#xa;Path Completeness&#xa;Faithfulness Check" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1405" y="600" width="140" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Cross-Cutting Concerns -->
+        <mxCell id="cross-cutting" value="Cross-Cutting Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;verticalAlign=top;align=left;fontSize=16;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;arcSize=5;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="80" width="540" height="460" as="geometry" />
+        </mxCell>
+
+        <mxCell id="governance" value="AI Governance&#xa;(AB-060)&#xa;&#xa;Compliance | Risk | Audit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=none;strokeWidth=2;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="120" width="150" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="security" value="Security &amp; Identity&#xa;(AB-112)&#xa;&#xa;OAuth | RBAC&#xa;Path-Level Access" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=none;strokeWidth=2;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="120" width="160" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="observability" value="Observability&#xa;(AB-096)&#xa;&#xa;Path Metrics&#xa;Logs | Traces" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=none;strokeWidth=2;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1390" y="120" width="150" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="quality-monitor" value="GenAI Quality Monitor&#xa;(AB-105)&#xa;&#xa;Path Relevance&#xa;Path Completeness&#xa;Response Faithfulness" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=none;strokeWidth=2;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="210" width="240" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="path-visualizer" value="Path Visualizer&#xa;&#xa;Graph Rendering&#xa;D3.js | Cytoscape&#xa;Interactive Exploration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=none;strokeWidth=2;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="210" width="240" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="path-analytics" value="Path Analytics&#xa;&#xa;Common Paths&#xa;Path Quality Metrics&#xa;Usage Patterns" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=none;strokeWidth=2;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="320" width="240" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="relationship-validator" value="Relationship Validator&#xa;&#xa;Quality Checks&#xa;Staleness Detection&#xa;Version Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=none;strokeWidth=2;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="320" width="240" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Consumers -->
+        <mxCell id="consumers-layer" value="Consumer Applications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6699CC;strokeColor=none;strokeWidth=2;verticalAlign=bottom;align=left;fontSize=16;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;arcSize=10;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="730" width="1520" height="140" as="geometry" />
+        </mxCell>
+
+        <mxCell id="risk-consumer" value="Risk Functions&#xa;(UC-015)&#xa;&#xa;Regulatory Research" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F0FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="55" y="765" width="130" height="65" as="geometry" />
+        </mxCell>
+
+        <mxCell id="compliance-consumer" value="Compliance&#xa;(UC-020)&#xa;&#xa;Controls Testing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F0FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="200" y="765" width="130" height="65" as="geometry" />
+        </mxCell>
+
+        <mxCell id="credit-consumer" value="Credit Risk&#xa;(UC-004)&#xa;&#xa;Policy Navigation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F0FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="345" y="765" width="130" height="65" as="geometry" />
+        </mxCell>
+
+        <mxCell id="fincrime-consumer" value="FinCrime&#xa;(UC-011)&#xa;&#xa;Rule Traceability" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F0FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="490" y="765" width="130" height="65" as="geometry" />
+        </mxCell>
+
+        <mxCell id="lending-consumer" value="Lending Ops&#xa;(UC-005)&#xa;&#xa;Policy Dependencies" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F0FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="635" y="765" width="130" height="65" as="geometry" />
+        </mxCell>
+
+        <mxCell id="audit-consumer" value="Audit Teams&#xa;&#xa;Evidence Chains" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F0FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="780" y="765" width="130" height="65" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legal-consumer" value="Legal Teams&#xa;&#xa;Regulatory Mapping" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F0FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="925" y="765" width="130" height="65" as="geometry" />
+        </mxCell>
+
+        <mxCell id="research-consumer" value="Research Teams&#xa;&#xa;Literature Navigation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F0FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="765" width="150" height="65" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows -->
+        <mxCell id="arrow-src-doc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=classic;endFill=1;" parent="1" source="policy-docs" target="doc-pipeline" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-doc-cite" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=classic;endFill=1;" parent="1" source="doc-pipeline" target="citation-extraction" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-cite-rel" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=classic;endFill=1;" parent="1" source="citation-extraction" target="relationship-mapping" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="170" />
+              <mxPoint x="560" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow-doc-embed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=classic;endFill=1;" parent="1" source="doc-pipeline" target="embedding-gen" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="170" />
+              <mxPoint x="860" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow-rel-store" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=classic;endFill=1;" parent="1" source="relationship-mapping" target="relationship-store" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-embed-vector" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=classic;endFill=1;" parent="1" source="embedding-gen" target="vector-store" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-query-plan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=classic;endFill=1;" parent="1" source="query-analyzer" target="path-planner" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-plan-seed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=classic;endFill=1;" parent="1" source="path-planner" target="seed-retriever" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="297" y="550" />
+              <mxPoint x="140" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow-seed-multi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=classic;endFill=1;" parent="1" source="seed-retriever" target="multi-hop" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-multi-assemble" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=classic;endFill=1;" parent="1" source="multi-hop" target="path-assembler" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-assemble-rerank" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=classic;endFill=1;" parent="1" source="path-assembler" target="reranker" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-rerank-cite" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=classic;endFill=1;" parent="1" source="reranker" target="citation-gen" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-cite-context" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=classic;endFill=1;" parent="1" source="citation-gen" target="context-builder" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-context-llm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=classic;endFill=1;" parent="1" source="context-builder" target="llm-service" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-llm-critique" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=classic;endFill=1;" parent="1" source="llm-service" target="self-critique" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-response-consumers" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=3;endArrow=classic;endFill=1;" parent="1" source="self-critique" target="risk-consumer" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1475" y="720" />
+              <mxPoint x="120" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow-multi-rel" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00A651;strokeWidth=2;endArrow=classic;endFill=1;dashed=1;" parent="1" source="multi-hop" target="relationship-store" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="550" />
+              <mxPoint x="560" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow-seed-vector" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00A651;strokeWidth=2;endArrow=classic;endFill=1;dashed=1;" parent="1" source="seed-retriever" target="vector-store" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="550" />
+              <mxPoint x="860" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="765" width="310" height="95" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="772" width="100" height="18" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6699CC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="795" width="20" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="legend1-text" value="Sources/Consumers" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="792" width="90" height="18" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="812" width="20" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="legend2-text" value="Processing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="809" width="70" height="18" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="829" width="20" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="legend3-text" value="Storage" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="826" width="70" height="18" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="846" width="20" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="legend4-text" value="Query/Path" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="843" width="70" height="18" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1375" y="795" width="20" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="legend5-text" value="Cross-Cutting" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="792" width="80" height="18" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-arrow1" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1375" y="818" as="sourcePoint" />
+            <mxPoint x="1395" y="818" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-arrow1-text" value="Data Flow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="809" width="60" height="18" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-arrow2" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=2;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1375" y="835" as="sourcePoint" />
+            <mxPoint x="1395" y="835" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-arrow2-text" value="Retrieval" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="826" width="60" height="18" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-arrow3" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=3;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1375" y="852" as="sourcePoint" />
+            <mxPoint x="1395" y="852" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-arrow3-text" value="Response" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="843" width="60" height="18" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
+
+
+
+

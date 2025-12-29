@@ -1,0 +1,5 @@
+use_case_id,use_case_name,metric,period,target,actual,variance_pct,status,notes
+UC-004,Credit Risk,Decision time reduction,2025-Q4,40%,35%,-12.5,Yellow,Ramping up adoption
+UC-004,Credit Risk,Default rate improvement,2025-Q4,5%,4.2%,-16,Yellow,Early stage measurement
+UC-009,Data Products,Data product delivery time,2025-Q4,50%,55%,10,Green,Exceeding target
+UC-009,Data Products,Data quality score,2025-Q4,95%,96.2%,1.3,Green,Strong performance

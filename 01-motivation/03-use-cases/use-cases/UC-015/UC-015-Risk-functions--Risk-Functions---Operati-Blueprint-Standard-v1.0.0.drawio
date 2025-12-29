@@ -1,0 +1,476 @@
+<mxfile host="AI Blueprint Generator" agent="Python Script" version="24.0.0">
+  <diagram name="UC-015 Risk functions- Risk Functions - Operational Risk, Market Risk, Liquidity Risk,Model Risk, Compliance Risk Assessment, Tech Risk, Risk Assurance, Enterprise Risk Blueprint" id="uc015-blueprint">
+    <mxGraphModel dx="1765" dy="1034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cell-1001" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=none;strokeWidth=0;" parent="1" vertex="1">
+      <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+    </mxCell><mxCell id="cell-1002" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=none;strokeWidth=0;" parent="1" vertex="1">
+      <mxGeometry x="0" y="0" width="1920" height="80" as="geometry" />
+    </mxCell><mxCell id="cell-1003" value="Use Case Blueprint: UC-015 Risk functions- Risk Functions - Operational Risk, Market Risk, Liquidity Risk,Model Risk, Compliance Risk Assessment, Tech Risk, Risk Assurance, Enterprise Risk" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="30" y="20" width="900" height="40" as="geometry" />
+    </mxCell><mxCell id="cell-1004" value="Enterprise risk management platform that predicts risk events, detects anomalies" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=0;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1520" y="25" width="370" height="30" as="geometry" />
+    </mxCell><mxCell id="cell-1005" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="30" y="110" width="580" height="280" as="geometry" />
+    </mxCell><mxCell id="cell-1006" value="Use Case Summary" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="50" y="125" width="540" height="30" as="geometry" />
+    </mxCell><mxCell id="cell-1007" value="ID: UC-015" style="text;html=1;strokeColor=none;fillColor=#6699CC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="50" y="165" width="120" height="25" as="geometry" />
+    </mxCell><mxCell id="cell-1008" value="Category: Risk Management" style="text;html=1;strokeColor=none;fillColor=#6699CC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="185" y="165" width="200" height="25" as="geometry" />
+    </mxCell><mxCell id="cell-1009" value="Value: High" style="text;html=1;strokeColor=none;fillColor=#E6F7ED;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#00A651;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="400" y="165" width="100" height="25" as="geometry" />
+    </mxCell><mxCell id="cell-1010" value="" style="text;html=1;strokeColor=#FF6B35;fillColor=#FFE5DC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#FF6B35;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="515" y="165" width="75" height="25" as="geometry" />
+    </mxCell><mxCell id="cell-1011" value="Description:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="50" y="200" width="540" height="20" as="geometry" />
+    </mxCell><mxCell id="cell-1012" value="AI reduces Operational Risk by identifying anomalies, streamlining investigations, and improving the accuracy of risk assessments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="50" y="220" width="540" height="50" as="geometry" />
+    </mxCell><mxCell id="cell-1013" value="Anticipated Benefits:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="50" y="275" width="540" height="20" as="geometry" />
+    </mxCell><mxCell id="cell-1014" value="• Improved risk detection reducing losses&#xa;• Faster risk assessment and response times&#xa;• Enhanced regulatory compliance and capital optimization&#xa;• Reduced manual effort&#xa;• Better enterprise-wide risk visibility and management." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="50" y="295" width="540" height="75" as="geometry" />
+    </mxCell><mxCell id="cell-1015" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="30" y="410" width="285" height="140" as="geometry" />
+    </mxCell><mxCell id="cell-1016" value="Key Metrics &amp; Dependencies" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="45" y="425" width="255" height="25" as="geometry" />
+    </mxCell><mxCell id="cell-1017" value="&lt;b&gt;Platform:&lt;/b&gt; Governance, Op Risk, Compliance&#xa;Treasury&#xa;&lt;b&gt;Data:&lt;/b&gt; Loss event data, control test results, m&#xa;&lt;b&gt;AI:&lt;/b&gt; &#xa;&lt;b&gt;Deployment:&lt;/b&gt; &#xa;&lt;b&gt;Users:&lt;/b&gt; 0+ users" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="45" y="455" width="255" height="80" as="geometry" />
+    </mxCell><mxCell id="cell-1018" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="325" y="410" width="285" height="140" as="geometry" />
+    </mxCell><mxCell id="cell-1019" value="Governance &amp; Compliance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#9C27B0;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="340" y="425" width="255" height="25" as="geometry" />
+    </mxCell><mxCell id="cell-1020" value="&lt;b&gt;Data Residency:&lt;/b&gt; New Zealand/Australia&#xa;&lt;b&gt;Privacy:&lt;/b&gt; Privacy Act compliance&#xa;&lt;b&gt;Model Governance:&lt;/b&gt; Automated monitoring&#xa;&lt;b&gt;Audit:&lt;/b&gt; Full interaction logging&#xa;&lt;b&gt;Security:&lt;/b&gt; Zero Trust, MFA, encryption at rest and &#xa;&lt;b&gt;Explainability:&lt;/b&gt; Audit trail" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="340" y="455" width="255" height="80" as="geometry" />
+    </mxCell><mxCell id="cell-1021" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="30" y="570" width="285" height="150" as="geometry" />
+    </mxCell><mxCell id="cell-1022" value="Change Impact &amp; Readiness" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF6B35;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="45" y="585" width="255" height="25" as="geometry" />
+    </mxCell><mxCell id="cell-1023" value="&lt;b&gt;Organizational Impact:&lt;/b&gt; Low - Minimal changes&#xa;&lt;b&gt;Training:&lt;/b&gt; 10-15 hrs per user&#xa;&lt;b&gt;User Resistance Risk:&lt;/b&gt; Low - Incremental adoption&#xa;&#xa;&lt;b&gt;Technical Readiness:&lt;/b&gt; Medium&#xa;• Data quality improvement needed&#xa;• System upgrades may be required" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="45" y="615" width="255" height="90" as="geometry" />
+    </mxCell><mxCell id="cell-1024" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="325" y="570" width="285" height="150" as="geometry" />
+    </mxCell><mxCell id="cell-1025" value="Decision Factors" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#00A651;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="340" y="585" width="255" height="25" as="geometry" />
+    </mxCell><mxCell id="cell-1026" value="&lt;b&gt;Strengths (Go):&lt;/b&gt;&#xa;• Business value identified&#xa;• Technology available&#xa;• Clear success metrics&#xa;• Stakeholder support" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="340" y="615" width="255" height="45" as="geometry" />
+    </mxCell><mxCell id="cell-1027" value="&lt;b&gt;Concerns (Mitigate):&lt;/b&gt;&#xa;• Risk level: Medium&#xa;• Data dependencies&#xa;• Change management&#xa;• Regulatory considerations" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="340" y="665" width="255" height="45" as="geometry" />
+    </mxCell><mxCell id="cell-1028" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="640" y="110" width="840" height="640" as="geometry" />
+    </mxCell><mxCell id="cell-1029" value="Solution Architecture - ABBs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="660" y="125" width="800" height="30" as="geometry" />
+    </mxCell><mxCell id="cell-1030" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6699CC;strokeColor=#003087;strokeWidth=1;arcSize=10;dashed=1;" parent="1" vertex="1">
+      <mxGeometry x="660" y="170" width="800" height="110" as="geometry" />
+    </mxCell><mxCell id="cell-1031" value="Presentation Layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="670" y="175" width="200" height="20" as="geometry" />
+    </mxCell><mxCell id="abb-235" value="Risk Dashboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="670" y="200" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-236" value="Metric Visualization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="825" y="200" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="cell-1032" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;strokeWidth=1;arcSize=10;dashed=1;" parent="1" vertex="1">
+      <mxGeometry x="660" y="295" width="800" height="110" as="geometry" />
+    </mxCell><mxCell id="cell-1033" value="Application Services Layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#9C27B0;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="670" y="300" width="200" height="20" as="geometry" />
+    </mxCell><mxCell id="abb-224" value="Scenario Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="670" y="325" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-227" value="Event Monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="825" y="325" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-228" value="Alert Generation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="980" y="325" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-229" value="Regulatory Reporting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1135" y="325" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-230" value="Report Generation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1290" y="325" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-231" value="Compliance Tracking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="670" y="380" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-234" value="Risk Templates" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="825" y="380" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-237" value="Trend Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="980" y="380" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="cell-1034" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB399;strokeColor=#FF6B35;strokeWidth=1;arcSize=10;dashed=1;" parent="1" vertex="1">
+      <mxGeometry x="660" y="420" width="800" height="110" as="geometry" />
+    </mxCell><mxCell id="cell-1035" value="AI/ML Services Layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#FF6B35;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="670" y="425" width="200" height="20" as="geometry" />
+    </mxCell><mxCell id="abb-223" value="Risk Calculation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="670" y="450" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-225" value="Loss Prediction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="825" y="450" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-226" value="Incident Detection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="980" y="450" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-232" value="LLM API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1135" y="450" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-233" value="Narrative Generation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1290" y="450" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="cell-1036" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F7ED;strokeColor=#00A651;strokeWidth=1;arcSize=10;dashed=1;" parent="1" vertex="1">
+      <mxGeometry x="660" y="545" width="800" height="110" as="geometry" />
+    </mxCell><mxCell id="cell-1037" value="Data &amp; Knowledge Layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#00A651;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="670" y="550" width="200" height="20" as="geometry" />
+    </mxCell><mxCell id="abb-399" value="Risk Data Repository" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="670" y="575" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="cell-1038" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-235" target="abb-224" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="200" as="sourcePoint" />
+            <mxPoint x="670" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1039" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#003087;fontFamily=Helvetica;" parent="cell-1038" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1040" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-224" target="abb-223" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="325" as="sourcePoint" />
+            <mxPoint x="670" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1041" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#003087;fontFamily=Helvetica;" parent="cell-1040" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1042" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-227" target="abb-225" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825" y="325" as="sourcePoint" />
+            <mxPoint x="825" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1043" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#003087;fontFamily=Helvetica;" parent="cell-1042" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1044" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-228" target="abb-226" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="325" as="sourcePoint" />
+            <mxPoint x="980" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1045" value="4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#003087;fontFamily=Helvetica;" parent="cell-1044" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1046" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-223" target="abb-225" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="450" as="sourcePoint" />
+            <mxPoint x="825" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1047" value="5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#FF6B35;fontFamily=Helvetica;" parent="cell-1046" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1048" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-225" target="abb-226" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825" y="450" as="sourcePoint" />
+            <mxPoint x="980" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1049" value="6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#FF6B35;fontFamily=Helvetica;" parent="cell-1048" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1050" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-226" target="abb-232" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="450" as="sourcePoint" />
+            <mxPoint x="1135" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1051" value="7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#FF6B35;fontFamily=Helvetica;" parent="cell-1050" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1052" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-233" target="abb-237" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="450" as="sourcePoint" />
+            <mxPoint x="980" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1053" value="8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#FF6B35;fontFamily=Helvetica;" parent="cell-1052" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1054" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-237" target="abb-235" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="380" as="sourcePoint" />
+            <mxPoint x="670" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1055" value="9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#003087;fontFamily=Helvetica;" parent="cell-1054" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1056" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#FFA000;strokeWidth=1;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="1050" y="680" width="130" height="55" as="geometry" />
+    </mxCell><mxCell id="cell-1057" value="External Systems" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1058" y="683" width="114" height="12" as="geometry" />
+    </mxCell><mxCell id="cell-1058" value="• Governance&#xa;• Op Risk&#xa;• Compliance&#xa;Treasury Risk&#xa;Group Credit Risk&#xa;Regulatory Reporting" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1058" y="698" width="114" height="35" as="geometry" />
+    </mxCell><mxCell id="cell-1059" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#0288D1;strokeWidth=1;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="1200" y="680" width="110" height="55" as="geometry" />
+    </mxCell><mxCell id="cell-1060" value="Data Volume" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1208" y="683" width="94" height="12" as="geometry" />
+    </mxCell><mxCell id="cell-1061" value="• 100K records&#xa;• 10M transactions/yr&#xa;• 500GB data&#xa;• 5K interactions/day" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=0;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1208" y="698" width="94" height="35" as="geometry" />
+    </mxCell><mxCell id="cell-1062" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;strokeWidth=1;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="1320" y="680" width="120" height="55" as="geometry" />
+    </mxCell><mxCell id="cell-1063" value="Performance Targets" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1328" y="683" width="104" height="12" as="geometry" />
+    </mxCell><mxCell id="cell-1064" value="• &lt;2s response time&#xa;• 99.5% uptime&#xa;• 200 concurrent users&#xa;• &lt;500ms latency (p95)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=0;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1328" y="698" width="104" height="35" as="geometry" />
+    </mxCell><mxCell id="cell-1065" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;arcSize=10;dashed=1;" parent="1" vertex="1">
+      <mxGeometry x="850" y="680" width="180" height="55" as="geometry" />
+    </mxCell><mxCell id="cell-1066" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="858" y="683" width="164" height="12" as="geometry" />
+    </mxCell><mxCell id="cell-1067" value="Presentation    Data Sources&#xa;AI Services       Bidirectional&#xa;Data &amp; Knowledge  Unidirectional" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="858" y="698" width="164" height="35" as="geometry" />
+    </mxCell><mxCell id="cell-1068" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="30" y="740" width="580" height="310" as="geometry" />
+    </mxCell><mxCell id="cell-1069" value="Interface Catalogue" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#00A651;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="50" y="755" width="540" height="30" as="geometry" />
+    </mxCell><mxCell id="cell-1070" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6699CC;strokeColor=#00A651;strokeWidth=1;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="50" y="795" width="540" height="25" as="geometry" />
+    </mxCell><mxCell id="cell-1071" value="ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="53" y="798" width="24" height="20" as="geometry" />
+    </mxCell><mxCell id="cell-1072" value="From" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="83" y="798" width="114" height="20" as="geometry" />
+    </mxCell><mxCell id="cell-1073" value="To" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="203" y="798" width="114" height="20" as="geometry" />
+    </mxCell><mxCell id="cell-1074" value="Description" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="323" y="798" width="354" height="20" as="geometry" />
+    </mxCell><mxCell id="cell-1075" value="Datasets" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="683" y="798" width="304" height="20" as="geometry" />
+    </mxCell><mxCell id="cell-1076" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="53" y="820" width="24" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1077" value="Risk Dashboard" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="83" y="820" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1078" value="Scenario Analysis" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="203" y="820" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1079" value="Risk analysts interact with dashboard to perform scenario analysis" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="323" y="820" width="354" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1080" value="Scenario parameters, Risk metrics, Analysis requests, Report configurations" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="683" y="820" width="304" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1081" value="2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="53" y="846" width="24" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1082" value="Scenario Analysis" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="83" y="846" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1083" value="Risk Calculation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="203" y="846" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1084" value="Request AI processing: Risk Calculation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="323" y="846" width="354" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1085" value="AI Request data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="683" y="846" width="304" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1086" value="3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="53" y="872" width="24" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1087" value="Event Monitoring" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="83" y="872" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1088" value="Loss Prediction" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="203" y="872" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1089" value="Request AI processing: Loss Prediction" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="323" y="872" width="354" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1090" value="AI Request data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="683" y="872" width="304" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1091" value="4" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="53" y="898" width="24" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1092" value="Alert Generation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="83" y="898" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1093" value="Incident Detection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="203" y="898" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1094" value="Request AI processing: Incident Detection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="323" y="898" width="354" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1095" value="AI Request data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="683" y="898" width="304" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1096" value="5" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="53" y="924" width="24" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1097" value="Risk Calculation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="83" y="924" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1098" value="Loss Prediction" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="203" y="924" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1099" value="Chain processing: Risk Calculation to Loss Prediction" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="323" y="924" width="354" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1100" value="Processing data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="683" y="924" width="304" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1101" value="6" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="53" y="950" width="24" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1102" value="Loss Prediction" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="83" y="950" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1103" value="Incident Detection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="203" y="950" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1104" value="Chain processing: Loss Prediction to Incident Detection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="323" y="950" width="354" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1105" value="Processing data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="683" y="950" width="304" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1106" value="7" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="53" y="976" width="24" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1107" value="Incident Detection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="83" y="976" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1108" value="LLM API" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="203" y="976" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1109" value="Chain processing: Incident Detection to LLM API" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="323" y="976" width="354" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1110" value="Processing data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="683" y="976" width="304" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1111" value="8" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="53" y="1002" width="24" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1112" value="Narrative Generati" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="83" y="1002" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1113" value="Trend Analysis" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="203" y="1002" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1114" value="Return AI results to Trend Analysis" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="323" y="1002" width="354" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1115" value="Response data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="683" y="1002" width="304" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1116" value="9" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="53" y="1028" width="24" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1117" value="Trend Analysis" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="83" y="1028" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1118" value="Risk Dashboard" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="203" y="1028" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1119" value="Display results in Risk Dashboard" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="323" y="1028" width="354" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1120" value="UI Update data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="683" y="1028" width="304" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1121" value="10" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="53" y="1054" width="24" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1122" value="Incident Detection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="83" y="1054" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1123" value="Loss Prediction" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="203" y="1054" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1124" value="Chain processing: Risk Calculation to Loss Prediction" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="323" y="1054" width="354" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1125" value="Processing data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="683" y="1054" width="304" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1126" value="11" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="53" y="1080" width="24" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1127" value="LLM API" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="83" y="1080" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1128" value="Trend Analysis" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="203" y="1080" width="114" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1129" value="Return AI results to Trend Analysis" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="323" y="1080" width="354" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1130" value="Response data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="683" y="1080" width="304" height="26" as="geometry" />
+    </mxCell><mxCell id="cell-1131" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="1510" y="110" width="380" height="190" as="geometry" />
+    </mxCell><mxCell id="cell-1132" value="Components &amp; Technologies" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#FF6B35;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="125" width="340" height="30" as="geometry" />
+    </mxCell><mxCell id="cell-1133" value="&lt;b&gt;Operational Risk ML Models&lt;/b&gt; - Calculates operational risk using ML models. &lt;font color=&quot;#FF6B35&quot;&gt;&lt;i&gt;Various technologies&lt;/i&gt;&lt;/font&gt;." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="165" width="340" height="50" as="geometry" />
+    </mxCell><mxCell id="cell-1134" value="&lt;b&gt;Incident Detection&lt;/b&gt; - Detects operational risk incidents in real-time. &lt;font color=&quot;#FF6B35&quot;&gt;&lt;i&gt;Various technologies&lt;/i&gt;&lt;/font&gt;." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="220" width="340" height="50" as="geometry" />
+    </mxCell><mxCell id="cell-1135" value="&lt;b&gt;Automated Reporting&lt;/b&gt; - Generates regulatory risk reports automatically. &lt;font color=&quot;#FF6B35&quot;&gt;&lt;i&gt;Custom Reporting, Compliance Reporting Tools&lt;/i&gt;&lt;/font&gt;." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="275" width="340" height="50" as="geometry" />
+    </mxCell><mxCell id="cell-1136" value="&lt;b&gt;GenAI Risk Narratives&lt;/b&gt; - Generates risk narratives and explanations using AI. &lt;font color=&quot;#FF6B35&quot;&gt;&lt;i&gt;AWS Bedrock API, AWS Bedrock API, Anthropic API&lt;/i&gt;&lt;/font&gt;." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="330" width="340" height="50" as="geometry" />
+    </mxCell><mxCell id="cell-1137" value="&lt;b&gt;Risk Visualization&lt;/b&gt; - Visualizes operational risk metrics and trends. &lt;font color=&quot;#FF6B35&quot;&gt;&lt;i&gt;Various technologies&lt;/i&gt;&lt;/font&gt;." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="385" width="340" height="50" as="geometry" />
+    </mxCell><mxCell id="cell-1138" value="&lt;b&gt;Risk Knowledge Base&lt;/b&gt; - Stores operational risk indicators, loss events, KRIs, and scenario data for risk assessment and reporting. &lt;font color=&quot;#FF6B35&quot;&gt;&lt;i&gt;Various technologies&lt;/i&gt;&lt;/font&gt;." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="440" width="340" height="50" as="geometry" />
+    </mxCell><mxCell id="cell-1139" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CC0000;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="1510" y="320" width="380" height="210" as="geometry" />
+    </mxCell><mxCell id="cell-1140" value="Risk Assessment" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#CC0000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="326" width="340" height="25" as="geometry" />
+    </mxCell><mxCell id="cell-1141" value="Technical Risks:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="356" width="340" height="20" as="geometry" />
+    </mxCell><mxCell id="cell-1142" value="• Data quality and availability (Medium)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=0;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="376" width="340" height="45" as="geometry" />
+    </mxCell><mxCell id="cell-1143" value="Business Risks:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="426" width="340" height="20" as="geometry" />
+    </mxCell><mxCell id="cell-1144" value="• User adoption resistance (Medium)&#xa;• Regulatory considerations (Medium)&#xa;• ROI realization timeline (Medium)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=0;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="446" width="340" height="45" as="geometry" />
+    </mxCell><mxCell id="cell-1145" value="Key Mitigations:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="496" width="340" height="20" as="geometry" />
+    </mxCell><mxCell id="cell-1146" value="• Establish model governance and monitoring&#xa;• Phased rollout with pilot group" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=0;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="516" width="340" height="35" as="geometry" />
+    </mxCell><mxCell id="cell-1147" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="1510" y="550" width="380" height="200" as="geometry" />
+    </mxCell><mxCell id="cell-1148" value="Success Metrics &amp; KPIs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#00A651;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="565" width="340" height="25" as="geometry" />
+    </mxCell><mxCell id="cell-1149" value="Business Metrics:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="595" width="340" height="20" as="geometry" />
+    </mxCell><mxCell id="cell-1150" value="• Improved risk detection reducing losses&#xa;• Faster risk assessment and response times&#xa;• Enhanced regulatory compliance and capital optimization&#xa;• Reduced manual effort&#xa;• Better enterprise-wide risk visibility and management." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=0;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="615" width="340" height="55" as="geometry" />
+    </mxCell><mxCell id="cell-1151" value="Technical Metrics:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="675" width="340" height="20" as="geometry" />
+    </mxCell><mxCell id="cell-1152" value="• System response time: &lt;2s (p95)&#xa;• Model accuracy: &gt;85%&#xa;• System availability: 99.5% uptime&#xa;• User adoption: &gt;80% within 6 months" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=0;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="695" width="340" height="55" as="geometry" />
+    </mxCell><mxCell id="cell-1153" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="640" y="770" width="420" height="280" as="geometry" />
+    </mxCell><mxCell id="cell-1154" value="Implementation Roadmap" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FF6B35;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="660" y="785" width="380" height="25" as="geometry" />
+    </mxCell><mxCell id="cell-1155" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6699CC;strokeColor=#003087;strokeWidth=1;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="660" y="820" width="180" height="85" as="geometry" />
+    </mxCell><mxCell id="cell-1156" value="Phase 1: Setup &amp; Development" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="670" y="825" width="160" height="20" as="geometry" />
+    </mxCell><mxCell id="cell-1157" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=1;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="670" y="845" width="70" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1158" value="Months 1-2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="670" y="845" width="70" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1159" value="• Infrastructure&#xa;• Development&#xa;• Integration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="670" y="865" width="160" height="35" as="geometry" />
+    </mxCell><mxCell id="cell-1160" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6699CC;strokeColor=#003087;strokeWidth=1;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="855" y="820" width="180" height="85" as="geometry" />
+    </mxCell><mxCell id="cell-1161" value="Phase 2: Testing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="865" y="825" width="160" height="20" as="geometry" />
+    </mxCell><mxCell id="cell-1162" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=1;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="865" y="845" width="70" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1163" value="Months 3-4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="865" y="845" width="70" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1164" value="• Testing&#xa;• UAT&#xa;• Refinement" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="865" y="865" width="160" height="35" as="geometry" />
+    </mxCell><mxCell id="cell-1165" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6699CC;strokeColor=#003087;strokeWidth=1;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="660" y="920" width="180" height="85" as="geometry" />
+    </mxCell><mxCell id="cell-1166" value="Phase 3: Deployment" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="670" y="925" width="160" height="20" as="geometry" />
+    </mxCell><mxCell id="cell-1167" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=1;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="670" y="945" width="70" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1168" value="Months 5-6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="670" y="945" width="70" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1169" value="• Rollout&#xa;• Training&#xa;• Support" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="670" y="965" width="160" height="35" as="geometry" />
+    </mxCell><mxCell id="cell-1170" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="1080" y="770" width="410" height="280" as="geometry" />
+    </mxCell><mxCell id="cell-1171" value="Resource Requirements" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#9C27B0;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1100" y="785" width="370" height="25" as="geometry" />
+    </mxCell><mxCell id="cell-1172" value="Core Team (FTE):" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1100" y="815" width="370" height="20" as="geometry" />
+    </mxCell><mxCell id="cell-1173" value="&lt;b&gt;Solution Architect:&lt;/b&gt; 1 FTE&#xa;&lt;b&gt;ML Engineers:&lt;/b&gt; 1 FTE&#xa;&lt;b&gt;Data Engineers:&lt;/b&gt; 2 FTE&#xa;&lt;b&gt;Full Stack Developers:&lt;/b&gt; 2-3 FTE&#xa;&lt;b&gt;QA Engineers:&lt;/b&gt; 1-2 FTE&#xa;&lt;b&gt;DevOps Engineers:&lt;/b&gt; 1 FTE&#xa;&lt;b&gt;Product Owner:&lt;/b&gt; 1 FTE&#xa;&lt;b&gt;Change Manager:&lt;/b&gt; 0.5 FTE" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=0;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1100" y="835" width="370" height="105" as="geometry" />
+    </mxCell><mxCell id="cell-1174" value="Critical Skills:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1100" y="945" width="370" height="20" as="geometry" />
+    </mxCell><mxCell id="cell-1175" value="• AWS Cloud Services&#xa;• ML/AI Development&#xa;• Integration &amp; APIs&#xa;• Banking domain knowledge" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=0;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1100" y="965" width="370" height="70" as="geometry" />
+    </mxCell><mxCell id="cell-1176" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=1;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="1510" y="770" width="380" height="280" as="geometry" />
+    </mxCell><mxCell id="cell-1177" value="Costing &amp; Prioritization" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="780" width="340" height="25" as="geometry" />
+    </mxCell><mxCell id="cell-1178" value="Estimated Cost:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="810" width="120" height="18" as="geometry" />
+    </mxCell><mxCell id="cell-1179" value="$50K - $50K" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#CC0000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1660" y="810" width="210" height="18" as="geometry" />
+    </mxCell><mxCell id="cell-1180" value="Timeline:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="833" width="120" height="18" as="geometry" />
+    </mxCell><mxCell id="cell-1181" value="3-6 months" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1660" y="833" width="210" height="18" as="geometry" />
+    </mxCell><mxCell id="cell-1182" value="Complexity:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="856" width="120" height="18" as="geometry" />
+    </mxCell><mxCell id="cell-1183" value="Low" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1660" y="856" width="210" height="18" as="geometry" />
+    </mxCell><mxCell id="cell-1184" value="Priority Score:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="879" width="120" height="18" as="geometry" />
+    </mxCell><mxCell id="cell-1185" value="16/100" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#00A651;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1660" y="879" width="210" height="18" as="geometry" />
+    </mxCell><mxCell id="cell-1186" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=none;strokeWidth=1;arcSize=10;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="902" width="340" height="20" as="geometry" />
+    </mxCell><mxCell id="cell-1187" value="Infrastructure 30% | Licensing 35% | Development 25% | Change Mgmt 10%" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="902" width="340" height="20" as="geometry" />
+    </mxCell><mxCell id="cell-1188" value="Key Dependencies:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="927" width="340" height="18" as="geometry" />
+    </mxCell><mxCell id="cell-1189" value="• Cloud infrastructure &amp; licensing&#xa;• Data quality &amp; availability&#xa;• System integration readiness&#xa;• Skilled resources" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=0;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="947" width="340" height="55" as="geometry" />
+    </mxCell><mxCell id="cell-1190" value="WSJF Score:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="1007" width="120" height="18" as="geometry" />
+    </mxCell><mxCell id="cell-1191" value="BV: 9 | TC: 3 | RR: 4 | JS: 11 -&gt; 1.45" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1660" y="1007" width="210" height="22" as="geometry" />
+    </mxCell><mxCell id="cell-1192" value="Stakeholders:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1530" y="1032" width="120" height="18" as="geometry" />
+    </mxCell><mxCell id="cell-1193" value="Owner: GAP" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1660" y="1032" width="210" height="18" as="geometry" />
+    </mxCell><mxCell id="cell-1194" value="Blueprint Version: 1.0.0 | Created: Dec 2024 | Classification: Internal | Owner: GAP | Compliant with BNZ Visual Design Standards v2.0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=0;fontColor=#666666;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="30" y="1055" width="1860" height="20" as="geometry" />
+    </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

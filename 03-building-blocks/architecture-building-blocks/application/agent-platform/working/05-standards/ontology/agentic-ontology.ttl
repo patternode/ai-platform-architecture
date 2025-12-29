@@ -1,0 +1,600 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix agentic: <https://patternode.com/agentic/> .
+
+# ========================================
+# ONTOLOGY METADATA
+# ========================================
+
+agentic: a owl:Ontology ;
+    dcterms:title "Agentic AI Ontology" ;
+    dcterms:description "A comprehensive ontology for describing agentic AI frameworks, platforms, architectural paradigms, and their relationships" ;
+    dcterms:creator "Patternode Standards" ;
+    dcterms:created "2024-01-15"^^xsd:date ;
+    dcterms:modified "2024-01-15"^^xsd:date ;
+    owl:versionInfo "1.0.0" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    rdfs:comment "This ontology defines the semantic vocabulary for the agentic AI ecosystem, including frameworks, platforms, architectural paradigms, protocols, and delivery models." .
+
+# ========================================
+# CORE CLASSES
+# ========================================
+
+## Architectural Paradigms
+agentic:ArchitecturalParadigm a owl:Class ;
+    rdfs:label "Architectural Paradigm" ;
+    rdfs:comment "A fundamental approach to organizing and coordinating agentic AI workflows" ;
+    rdfs:subClassOf schema:Intangible .
+
+agentic:ChainBasedArchitecture a owl:Class ;
+    rdfs:label "Chain-Based Architecture" ;
+    rdfs:comment "Sequential flow of linked operations with modular components" ;
+    rdfs:subClassOf agentic:ArchitecturalParadigm .
+
+agentic:GraphBasedArchitecture a owl:Class ;
+    rdfs:label "Graph-Based Architecture" ;
+    rdfs:comment "Stateful directed graphs with explicit workflow control" ;
+    rdfs:subClassOf agentic:ArchitecturalParadigm .
+
+agentic:ConversationalArchitecture a owl:Class ;
+    rdfs:label "Conversational Architecture" ;
+    rdfs:comment "Asynchronous, event-driven agent conversations" ;
+    rdfs:subClassOf agentic:ArchitecturalParadigm .
+
+agentic:RoleBasedArchitecture a owl:Class ;
+    rdfs:label "Role-Based Architecture" ;
+    rdfs:comment "Specialized team members with defined roles and responsibilities" ;
+    rdfs:subClassOf agentic:ArchitecturalParadigm .
+
+agentic:ModelFirstArchitecture a owl:Class ;
+    rdfs:label "Model-First Architecture" ;
+    rdfs:comment "Production-focused with LLM-driven autonomous reasoning" ;
+    rdfs:subClassOf agentic:ArchitecturalParadigm .
+
+agentic:LightweightArchitecture a owl:Class ;
+    rdfs:label "Lightweight Architecture" ;
+    rdfs:comment "Minimal primitives with explicit handoffs" ;
+    rdfs:subClassOf agentic:ArchitecturalParadigm .
+
+agentic:EnterpriseArchitecture a owl:Class ;
+    rdfs:label "Enterprise Architecture" ;
+    rdfs:comment "Plugin-based with enterprise integration focus" ;
+    rdfs:subClassOf agentic:ArchitecturalParadigm .
+
+agentic:DataNativeArchitecture a owl:Class ;
+    rdfs:label "Data-Native Architecture" ;
+    rdfs:comment "Agents operating directly within data platforms" ;
+    rdfs:subClassOf agentic:ArchitecturalParadigm .
+
+agentic:ConsultingLedArchitecture a owl:Class ;
+    rdfs:label "Consulting-Led Architecture" ;
+    rdfs:comment "Enterprise-grade with comprehensive lifecycle management" ;
+    rdfs:subClassOf agentic:ArchitecturalParadigm .
+
+## Frameworks and Platforms
+agentic:AgenticFramework a owl:Class ;
+    rdfs:label "Agentic Framework" ;
+    rdfs:comment "A software development framework for building agentic AI applications" ;
+    rdfs:subClassOf schema:SoftwareApplication .
+
+agentic:AgenticPlatform a owl:Class ;
+    rdfs:label "Agentic Platform" ;
+    rdfs:comment "A cloud-based or managed platform for deploying and running agentic AI applications" ;
+    rdfs:subClassOf schema:SoftwareApplication .
+
+## Protocols
+agentic:CommunicationProtocol a owl:Class ;
+    rdfs:label "Communication Protocol" ;
+    rdfs:comment "A standardized protocol for agent-to-agent or agent-to-tool communication" ;
+    rdfs:subClassOf schema:Protocol .
+
+agentic:ModelContextProtocol a owl:Class ;
+    rdfs:label "Model Context Protocol" ;
+    rdfs:comment "Protocol for standardized tool integration interfaces" ;
+    rdfs:subClassOf agentic:CommunicationProtocol .
+
+agentic:AgentToAgentProtocol a owl:Class ;
+    rdfs:label "Agent-to-Agent Protocol" ;
+    rdfs:comment "Protocol for direct agent-to-agent communication" ;
+    rdfs:subClassOf agentic:CommunicationProtocol .
+
+## Delivery Models
+agentic:DeliveryModel a owl:Class ;
+    rdfs:label "Delivery Model" ;
+    rdfs:comment "A model describing how agentic AI systems are delivered and supported" ;
+    rdfs:subClassOf schema:Intangible .
+
+agentic:OpenSourceDelivery a owl:Class ;
+    rdfs:label "Open Source Delivery" ;
+    rdfs:comment "Community-driven development with public source code access" ;
+    rdfs:subClassOf agentic:DeliveryModel .
+
+agentic:ClosedSourceDelivery a owl:Class ;
+    rdfs:label "Closed Source Delivery" ;
+    rdfs:comment "Proprietary development with commercial support" ;
+    rdfs:subClassOf agentic:DeliveryModel .
+
+agentic:ConsultancySourceDelivery a owl:Class ;
+    rdfs:label "Consultancy Source Delivery" ;
+    rdfs:comment "Professional services-led implementation and delivery" ;
+    rdfs:subClassOf agentic:DeliveryModel .
+
+## Canonical Architectures
+agentic:CanonicalArchitecture a owl:Class ;
+    rdfs:label "Canonical Architecture" ;
+    rdfs:comment "A reference architecture defining universal design principles" ;
+    rdfs:subClassOf schema:Intangible .
+
+agentic:xAgentFramework a owl:Class ;
+    rdfs:label "xAgentFramework" ;
+    rdfs:comment "Canonical framework architecture for agent development" ;
+    rdfs:subClassOf agentic:CanonicalArchitecture .
+
+agentic:xAgentPlatform a owl:Class ;
+    rdfs:label "xAgentPlatform" ;
+    rdfs:comment "Canonical platform architecture for agent deployment" ;
+    rdfs:subClassOf agentic:CanonicalArchitecture .
+
+## Components and Capabilities
+agentic:FrameworkComponent a owl:Class ;
+    rdfs:label "Framework Component" ;
+    rdfs:comment "A functional component within an agentic framework" ;
+    rdfs:subClassOf schema:SoftwareApplication .
+
+agentic:PlatformComponent a owl:Class ;
+    rdfs:label "Platform Component" ;
+    rdfs:comment "A service or capability within an agentic platform" ;
+    rdfs:subClassOf schema:SoftwareApplication .
+
+agentic:ArchitecturalLayer a owl:Class ;
+    rdfs:label "Architectural Layer" ;
+    rdfs:comment "A logical layer in a canonical architecture" ;
+    rdfs:subClassOf schema:Intangible .
+
+## Compatibility and Integration
+agentic:CompatibilityLevel a owl:Class ;
+    rdfs:label "Compatibility Level" ;
+    rdfs:comment "The degree of integration support between frameworks and platforms" ;
+    rdfs:subClassOf schema:Intangible .
+
+agentic:IntegrationPattern a owl:Class ;
+    rdfs:label "Integration Pattern" ;
+    rdfs:comment "A pattern for integrating frameworks with platforms" ;
+    rdfs:subClassOf schema:Intangible .
+
+# ========================================
+# OBJECT PROPERTIES
+# ========================================
+
+## Implementation and Relationship Properties
+agentic:implements a owl:ObjectProperty ;
+    rdfs:label "implements" ;
+    rdfs:comment "Indicates that a framework implements an architectural paradigm" ;
+    rdfs:domain agentic:AgenticFramework ;
+    rdfs:range agentic:ArchitecturalParadigm .
+
+agentic:supports a owl:ObjectProperty ;
+    rdfs:label "supports" ;
+    rdfs:comment "Indicates that a framework or platform supports a protocol" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( agentic:AgenticFramework agentic:AgenticPlatform ) ] ;
+    rdfs:range agentic:CommunicationProtocol .
+
+agentic:supportsFramework a owl:ObjectProperty ;
+    rdfs:label "supports framework" ;
+    rdfs:comment "Indicates that a platform supports a framework" ;
+    rdfs:domain agentic:AgenticPlatform ;
+    rdfs:range agentic:AgenticFramework .
+
+agentic:hasCompatibilityLevel a owl:ObjectProperty ;
+    rdfs:label "has compatibility level" ;
+    rdfs:comment "Describes the level of compatibility between a platform and framework" ;
+    rdfs:domain agentic:AgenticPlatform ;
+    rdfs:range agentic:CompatibilityLevel .
+
+agentic:usesDeliveryModel a owl:ObjectProperty ;
+    rdfs:label "uses delivery model" ;
+    rdfs:comment "Indicates the delivery model used by a framework or platform" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( agentic:AgenticFramework agentic:AgenticPlatform ) ] ;
+    rdfs:range agentic:DeliveryModel .
+
+## Component and Structure Properties
+agentic:hasComponent a owl:ObjectProperty ;
+    rdfs:label "has component" ;
+    rdfs:comment "Indicates that an entity has a specific component" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( agentic:AgenticFramework agentic:AgenticPlatform agentic:CanonicalArchitecture agentic:ArchitecturalLayer ) ] ;
+    rdfs:range [ a owl:Class ; owl:unionOf ( agentic:FrameworkComponent agentic:PlatformComponent ) ] .
+
+agentic:hasLayer a owl:ObjectProperty ;
+    rdfs:label "has layer" ;
+    rdfs:comment "Indicates that a canonical architecture has an architectural layer" ;
+    rdfs:domain agentic:CanonicalArchitecture ;
+    rdfs:range agentic:ArchitecturalLayer .
+
+agentic:belongsToLayer a owl:ObjectProperty ;
+    rdfs:label "belongs to layer" ;
+    rdfs:comment "Indicates that a component belongs to an architectural layer" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( agentic:FrameworkComponent agentic:PlatformComponent ) ] ;
+    rdfs:range agentic:ArchitecturalLayer .
+
+## Organizational and Vendor Properties
+agentic:developedBy a owl:ObjectProperty ;
+    rdfs:label "developed by" ;
+    rdfs:comment "Indicates the organization that developed a framework or platform" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( agentic:AgenticFramework agentic:AgenticPlatform ) ] ;
+    rdfs:range foaf:Organization .
+
+agentic:competsWith a owl:ObjectProperty ;
+    rdfs:label "competes with" ;
+    rdfs:comment "Indicates competitive relationship between frameworks or platforms" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( agentic:AgenticFramework agentic:AgenticPlatform ) ] ;
+    rdfs:range [ a owl:Class ; owl:unionOf ( agentic:AgenticFramework agentic:AgenticPlatform ) ] ;
+    a owl:SymmetricProperty .
+
+agentic:complementsWith a owl:ObjectProperty ;
+    rdfs:label "complements with" ;
+    rdfs:comment "Indicates complementary relationship between frameworks or platforms" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( agentic:AgenticFramework agentic:AgenticPlatform ) ] ;
+    rdfs:range [ a owl:Class ; owl:unionOf ( agentic:AgenticFramework agentic:AgenticPlatform ) ] ;
+    a owl:SymmetricProperty .
+
+## Evolution and Succession Properties
+agentic:evolvesFrom a owl:ObjectProperty ;
+    rdfs:label "evolves from" ;
+    rdfs:comment "Indicates that a framework evolves from another framework" ;
+    rdfs:domain agentic:AgenticFramework ;
+    rdfs:range agentic:AgenticFramework .
+
+agentic:supersedes a owl:ObjectProperty ;
+    rdfs:label "supersedes" ;
+    rdfs:comment "Indicates that a framework supersedes another framework" ;
+    rdfs:domain agentic:AgenticFramework ;
+    rdfs:range agentic:AgenticFramework .
+
+## Target and Usage Properties
+agentic:targetsAudience a owl:ObjectProperty ;
+    rdfs:label "targets audience" ;
+    rdfs:comment "Indicates the target audience for a framework or platform" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( agentic:AgenticFramework agentic:AgenticPlatform ) ] ;
+    rdfs:range agentic:TargetAudience .
+
+agentic:suitableForUseCase a owl:ObjectProperty ;
+    rdfs:label "suitable for use case" ;
+    rdfs:comment "Indicates use cases suitable for a framework or platform" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( agentic:AgenticFramework agentic:AgenticPlatform ) ] ;
+    rdfs:range agentic:UseCase .
+
+# ========================================
+# DATATYPE PROPERTIES
+# ========================================
+
+## Basic Properties
+agentic:philosophy a owl:DatatypeProperty ;
+    rdfs:label "philosophy" ;
+    rdfs:comment "The underlying philosophy of an architectural paradigm" ;
+    rdfs:domain agentic:ArchitecturalParadigm ;
+    rdfs:range xsd:string .
+
+agentic:coordinationModel a owl:DatatypeProperty ;
+    rdfs:label "coordination model" ;
+    rdfs:comment "The coordination model used by an architectural paradigm" ;
+    rdfs:domain agentic:ArchitecturalParadigm ;
+    rdfs:range xsd:string .
+
+agentic:stateManagement a owl:DatatypeProperty ;
+    rdfs:label "state management" ;
+    rdfs:comment "The state management approach of an architectural paradigm" ;
+    rdfs:domain agentic:ArchitecturalParadigm ;
+    rdfs:range xsd:string .
+
+agentic:complexityHandling a owl:DatatypeProperty ;
+    rdfs:label "complexity handling" ;
+    rdfs:comment "How an architectural paradigm handles complexity" ;
+    rdfs:domain agentic:ArchitecturalParadigm ;
+    rdfs:range xsd:string .
+
+## Framework and Platform Properties
+agentic:multiAgentSupport a owl:DatatypeProperty ;
+    rdfs:label "multi-agent support" ;
+    rdfs:comment "The level of multi-agent support provided" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( agentic:AgenticFramework agentic:AgenticPlatform ) ] ;
+    rdfs:range xsd:string .
+
+agentic:memoryManagement a owl:DatatypeProperty ;
+    rdfs:label "memory management" ;
+    rdfs:comment "The memory management capabilities" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( agentic:AgenticFramework agentic:AgenticPlatform ) ] ;
+    rdfs:range xsd:string .
+
+agentic:productionReadiness a owl:DatatypeProperty ;
+    rdfs:label "production readiness" ;
+    rdfs:comment "Whether the framework or platform is production-ready" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( agentic:AgenticFramework agentic:AgenticPlatform ) ] ;
+    rdfs:range xsd:boolean .
+
+agentic:primaryFocus a owl:DatatypeProperty ;
+    rdfs:label "primary focus" ;
+    rdfs:comment "The primary focus area of a platform" ;
+    rdfs:domain agentic:AgenticPlatform ;
+    rdfs:range xsd:string .
+
+agentic:coreIntegration a owl:DatatypeProperty ;
+    rdfs:label "core integration" ;
+    rdfs:comment "The core integration approach of a platform" ;
+    rdfs:domain agentic:AgenticPlatform ;
+    rdfs:range xsd:string .
+
+agentic:securityModel a owl:DatatypeProperty ;
+    rdfs:label "security model" ;
+    rdfs:comment "The security model employed by a platform" ;
+    rdfs:domain agentic:AgenticPlatform ;
+    rdfs:range xsd:string .
+
+agentic:targetAudience a owl:DatatypeProperty ;
+    rdfs:label "target audience" ;
+    rdfs:comment "The intended target audience" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( agentic:AgenticFramework agentic:AgenticPlatform ) ] ;
+    rdfs:range xsd:string .
+
+## Programming and Technical Properties
+agentic:programmingLanguage a owl:DatatypeProperty ;
+    rdfs:label "programming language" ;
+    rdfs:comment "Programming languages supported by the framework" ;
+    rdfs:domain agentic:AgenticFramework ;
+    rdfs:range xsd:string .
+
+agentic:operatingSystem a owl:DatatypeProperty ;
+    rdfs:label "operating system" ;
+    rdfs:comment "Operating system requirements or preferences" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( agentic:AgenticFramework agentic:AgenticPlatform ) ] ;
+    rdfs:range xsd:string .
+
+agentic:deploymentModel a owl:DatatypeProperty ;
+    rdfs:label "deployment model" ;
+    rdfs:comment "Available deployment models" ;
+    rdfs:domain agentic:AgenticPlatform ;
+    rdfs:range xsd:string .
+
+## Quality and Assessment Properties
+agentic:enterpriseConsiderations a owl:DatatypeProperty ;
+    rdfs:label "enterprise considerations" ;
+    rdfs:comment "Important considerations for enterprise adoption" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( agentic:AgenticFramework agentic:AgenticPlatform ) ] ;
+    rdfs:range xsd:string .
+
+agentic:strength a owl:DatatypeProperty ;
+    rdfs:label "strength" ;
+    rdfs:comment "A key strength or advantage" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( agentic:AgenticFramework agentic:AgenticPlatform ) ] ;
+    rdfs:range xsd:string .
+
+agentic:limitation a owl:DatatypeProperty ;
+    rdfs:label "limitation" ;
+    rdfs:comment "A limitation or constraint" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( agentic:AgenticFramework agentic:AgenticPlatform ) ] ;
+    rdfs:range xsd:string .
+
+agentic:bestUseCase a owl:DatatypeProperty ;
+    rdfs:label "best use case" ;
+    rdfs:comment "Recommended use cases for optimal results" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( agentic:AgenticFramework agentic:AgenticPlatform ) ] ;
+    rdfs:range xsd:string .
+
+agentic:uniqueCapability a owl:DatatypeProperty ;
+    rdfs:label "unique capability" ;
+    rdfs:comment "Unique capabilities that differentiate from alternatives" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( agentic:AgenticFramework agentic:AgenticPlatform ) ] ;
+    rdfs:range xsd:string .
+
+## Compatibility Properties
+agentic:compatibilityLevel a owl:DatatypeProperty ;
+    rdfs:label "compatibility level" ;
+    rdfs:comment "The level of compatibility (Full, Native, Limited, etc.)" ;
+    rdfs:domain agentic:CompatibilityLevel ;
+    rdfs:range xsd:string .
+
+agentic:compatibilityDescription a owl:DatatypeProperty ;
+    rdfs:label "compatibility description" ;
+    rdfs:comment "Description of what the compatibility level means" ;
+    rdfs:domain agentic:CompatibilityLevel ;
+    rdfs:range xsd:string .
+
+## Delivery Model Properties
+agentic:characteristic a owl:DatatypeProperty ;
+    rdfs:label "characteristic" ;
+    rdfs:comment "A characteristic of a delivery model" ;
+    rdfs:domain agentic:DeliveryModel ;
+    rdfs:range xsd:string .
+
+agentic:challenge a owl:DatatypeProperty ;
+    rdfs:label "challenge" ;
+    rdfs:comment "A challenge associated with a delivery model" ;
+    rdfs:domain agentic:DeliveryModel ;
+    rdfs:range xsd:string .
+
+# ========================================
+# COMPATIBILITY LEVEL INDIVIDUALS
+# ========================================
+
+agentic:FullCompatibility a agentic:CompatibilityLevel ;
+    rdfs:label "Full Compatibility" ;
+    agentic:compatibilityLevel "Full" ;
+    agentic:compatibilityDescription "Complete, production-ready integration with comprehensive feature support" .
+
+agentic:NativeCompatibility a agentic:CompatibilityLevel ;
+    rdfs:label "Native Compatibility" ;
+    agentic:compatibilityLevel "Native" ;
+    agentic:compatibilityDescription "Framework specifically designed for or developed by the platform provider" .
+
+agentic:PrimaryCompatibility a agentic:CompatibilityLevel ;
+    rdfs:label "Primary Compatibility" ;
+    agentic:compatibilityLevel "Primary" ;
+    agentic:compatibilityDescription "Platform's preferred or recommended framework integration" .
+
+agentic:StandardCompatibility a agentic:CompatibilityLevel ;
+    rdfs:label "Standard Compatibility" ;
+    agentic:compatibilityLevel "Compatible" ;
+    agentic:compatibilityDescription "Works well through standard APIs and integration patterns" .
+
+agentic:LimitedCompatibility a agentic:CompatibilityLevel ;
+    rdfs:label "Limited Compatibility" ;
+    agentic:compatibilityLevel "Limited" ;
+    agentic:compatibilityDescription "Partial support with some restrictions or limitations" .
+
+agentic:BridgeCompatibility a agentic:CompatibilityLevel ;
+    rdfs:label "Bridge Compatibility" ;
+    agentic:compatibilityLevel "Bridge" ;
+    agentic:compatibilityDescription "Integration possible through intermediate layers or third-party connectors" .
+
+agentic:AdapterCompatibility a agentic:CompatibilityLevel ;
+    rdfs:label "Adapter Compatibility" ;
+    agentic:compatibilityLevel "Adapter" ;
+    agentic:compatibilityDescription "Custom integration layer required to connect framework with platform" .
+
+agentic:ExternalCompatibility a agentic:CompatibilityLevel ;
+    rdfs:label "External Compatibility" ;
+    agentic:compatibilityLevel "External" ;
+    agentic:compatibilityDescription "Integration occurs through external APIs or services" .
+
+agentic:ExperimentalCompatibility a agentic:CompatibilityLevel ;
+    rdfs:label "Experimental Compatibility" ;
+    agentic:compatibilityLevel "Experimental" ;
+    agentic:compatibilityDescription "Early-stage integration with limited production support" .
+
+agentic:CustomCompatibility a agentic:CompatibilityLevel ;
+    rdfs:label "Custom Compatibility" ;
+    agentic:compatibilityLevel "Custom" ;
+    agentic:compatibilityDescription "Integration requires custom development work" .
+
+agentic:ConsultingCompatibility a agentic:CompatibilityLevel ;
+    rdfs:label "Consulting Compatibility" ;
+    agentic:compatibilityLevel "Consulting" ;
+    agentic:compatibilityDescription "Integration available through professional services" .
+
+agentic:APIOnlyCompatibility a agentic:CompatibilityLevel ;
+    rdfs:label "API-Only Compatibility" ;
+    agentic:compatibilityLevel "API-only" ;
+    agentic:compatibilityDescription "Integration limited to REST API or similar external interfaces" .
+
+agentic:DataSharingCompatibility a agentic:CompatibilityLevel ;
+    rdfs:label "Data Sharing Compatibility" ;
+    agentic:compatibilityLevel "Data sharing" ;
+    agentic:compatibilityDescription "Integration primarily focused on data exchange" .
+
+agentic:MultiCloudCompatibility a agentic:CompatibilityLevel ;
+    rdfs:label "Multi-Cloud Compatibility" ;
+    agentic:compatibilityLevel "Multi-cloud" ;
+    agentic:compatibilityDescription "Framework supports platform as part of multi-cloud strategy" .
+
+agentic:NoCompatibility a agentic:CompatibilityLevel ;
+    rdfs:label "No Compatibility" ;
+    agentic:compatibilityLevel "None" ;
+    agentic:compatibilityDescription "No integration support available" .
+
+# ========================================
+# TARGET AUDIENCE CLASSES
+# ========================================
+
+agentic:TargetAudience a owl:Class ;
+    rdfs:label "Target Audience" ;
+    rdfs:comment "A category of users or organizations that a framework or platform is designed for" ;
+    rdfs:subClassOf schema:Audience .
+
+agentic:CitizenDeveloper a agentic:TargetAudience ;
+    rdfs:label "Citizen Developer" ;
+    rdfs:comment "Business users who create applications using low-code/no-code tools" .
+
+agentic:BusinessUser a agentic:TargetAudience ;
+    rdfs:label "Business User" ;
+    rdfs:comment "End users focused on business process automation and productivity" .
+
+agentic:SoftwareDeveloper a agentic:TargetAudience ;
+    rdfs:label "Software Developer" ;
+    rdfs:comment "Professional developers building applications with frameworks" .
+
+agentic:AIEngineer a agentic:TargetAudience ;
+    rdfs:label "AI Engineer" ;
+    rdfs:comment "Specialists in AI/ML system design and implementation" .
+
+agentic:EnterpriseArchitect a agentic:TargetAudience ;
+    rdfs:label "Enterprise Architect" ;
+    rdfs:comment "Architects designing enterprise-scale systems and governance" .
+
+agentic:DataScientist a agentic:TargetAudience ;
+    rdfs:label "Data Scientist" ;
+    rdfs:comment "Professionals focused on data analysis and machine learning" .
+
+agentic:MLEngineer a agentic:TargetAudience ;
+    rdfs:label "ML Engineer" ;
+    rdfs:comment "Engineers specializing in machine learning operations and deployment" .
+
+# ========================================
+# USE CASE CLASSES
+# ========================================
+
+agentic:UseCase a owl:Class ;
+    rdfs:label "Use Case" ;
+    rdfs:comment "A specific application scenario for agentic AI systems" ;
+    rdfs:subClassOf schema:Intangible .
+
+agentic:DocumentProcessing a agentic:UseCase ;
+    rdfs:label "Document Processing" ;
+    rdfs:comment "Automated processing and analysis of documents" .
+
+agentic:BusinessProcessAutomation a agentic:UseCase ;
+    rdfs:label "Business Process Automation" ;
+    rdfs:comment "Automation of business workflows and processes" .
+
+agentic:CustomerService a agentic:UseCase ;
+    rdfs:label "Customer Service" ;
+    rdfs:comment "AI-powered customer support and interaction" .
+
+agentic:DataAnalysis a agentic:UseCase ;
+    rdfs:label "Data Analysis" ;
+    rdfs:comment "Intelligent analysis and insights from data" .
+
+agentic:KnowledgeManagement a agentic:UseCase ;
+    rdfs:label "Knowledge Management" ;
+    rdfs:comment "Organization and retrieval of knowledge assets" .
+
+agentic:IndustrialAutomation a agentic:UseCase ;
+    rdfs:label "Industrial Automation" ;
+    rdfs:comment "Automation of industrial processes and operations" .
+
+agentic:ResearchAndDevelopment a agentic:UseCase ;
+    rdfs:label "Research and Development" ;
+    rdfs:comment "AI-assisted research and experimental workflows" .
+
+agentic:EnterpriseIntegration a agentic:UseCase ;
+    rdfs:label "Enterprise Integration" ;
+    rdfs:comment "Integration of AI capabilities into enterprise systems" .
+
+# ========================================
+# ADDITIONAL CONSTRAINTS AND RULES
+# ========================================
+
+# Each framework should implement exactly one primary architectural paradigm
+[] a owl:Restriction ;
+    owl:onProperty agentic:implements ;
+    owl:onClass agentic:ArchitecturalParadigm ;
+    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+    rdfs:comment "Each framework implements exactly one primary architectural paradigm" .
+
+# Platforms must support at least one framework
+[] a owl:Restriction ;
+    owl:onProperty agentic:supportsFramework ;
+    owl:onClass agentic:AgenticFramework ;
+    owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+    rdfs:comment "Platforms must support at least one framework" .
+
+# Framework and platform must have a creator
+[] a owl:Restriction ;
+    owl:onProperty agentic:developedBy ;
+    owl:onClass foaf:Organization ;
+    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+    rdfs:comment "Each framework and platform must have exactly one developing organization" .

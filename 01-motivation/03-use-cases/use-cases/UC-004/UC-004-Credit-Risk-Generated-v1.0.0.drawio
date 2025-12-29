@@ -1,0 +1,536 @@
+<mxfile host="AI Blueprint Generator" agent="Python Script" version="24.0.0">
+  <diagram name="UC-004 Credit-Risk" id="uc004-blueprint">
+    <mxGraphModel dx="1765" dy="1034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cell-1001" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=none;strokeWidth=0;arcSize=0;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell><mxCell id="cell-1002" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=none;strokeWidth=0;arcSize=0;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="80" as="geometry" />
+        </mxCell><mxCell id="cell-1003" value="Use Case Blueprint: UC-004 Credit Risk" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="30" y="20" width="1200" height="40" as="geometry" />
+        </mxCell><mxCell id="cell-1004" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="30" y="110" width="840" height="640" as="geometry" />
+        </mxCell><mxCell id="cell-1005" value="Solution Architecture - ABBs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="50" y="125" width="800" height="30" as="geometry" />
+        </mxCell><mxCell id="cell-1006" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6699CC;strokeColor=#003087;strokeWidth=1;arcSize=10;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="170" width="800" height="110" as="geometry" />
+        </mxCell><mxCell id="cell-1007" value="Presentation Layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="60" y="175" width="200" height="20" as="geometry" />
+        </mxCell><mxCell id="abb-380" value="Credit Decision Interface" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="200" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="cell-1008" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;strokeWidth=1;arcSize=10;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="295" width="800" height="110" as="geometry" />
+        </mxCell><mxCell id="cell-1009" value="Application Services Layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#9C27B0;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="60" y="300" width="200" height="20" as="geometry" />
+        </mxCell><mxCell id="abb-53" value="Credit Templates" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="325" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-54" value="Document Generation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="215" y="325" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-60" value="Risk Aggregation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="370" y="325" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-63" value="Compliance Reporting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="525" y="325" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="cell-1010" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB399;strokeColor=#FF6B35;strokeWidth=1;arcSize=10;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="420" width="800" height="110" as="geometry" />
+        </mxCell><mxCell id="cell-1011" value="AI/ML Services Layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#FF6B35;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="60" y="425" width="200" height="20" as="geometry" />
+        </mxCell><mxCell id="abb-46" value="ML Model Serving" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="450" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-47" value="Risk Models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="215" y="450" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-48" value="Score Calculation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="370" y="450" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-52" value="LLM API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="525" y="450" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-58" value="ML Ensemble Framework" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="680" y="450" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-59" value="Model Combination" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="505" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-61" value="XAI Framework" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="215" y="505" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-62" value="Model Interpretation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="370" y="505" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="cell-1012" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F7ED;strokeColor=#00A651;strokeWidth=1;arcSize=10;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="545" width="800" height="110" as="geometry" />
+        </mxCell><mxCell id="cell-1013" value="Data &amp; Knowledge Layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#00A651;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="60" y="550" width="200" height="20" as="geometry" />
+        </mxCell><mxCell id="abb-49" value="Data Enrichment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="575" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-51" value="Analytics Platform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="215" y="575" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-57" value="Real-time Analytics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="370" y="575" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="cell-1014" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4E6;strokeColor=#FF6B35;strokeWidth=1;arcSize=10;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="670" width="800" height="110" as="geometry" />
+        </mxCell><mxCell id="cell-1015" value="Integration Layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#FF6B35;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="60" y="675" width="200" height="20" as="geometry" />
+        </mxCell><mxCell id="abb-50" value="External Data Sources" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="700" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-55" value="Stream Processing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="215" y="700" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="abb-56" value="Event Processing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="370" y="700" width="140" height="45" as="geometry" />
+        </mxCell><mxCell id="cell-1016" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-46" target="abb-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="450" as="sourcePoint" />
+            <mxPoint x="215" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1017" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#FF6B35;fontFamily=Helvetica;" parent="cell-1016" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1018" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-47" target="abb-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="450" as="sourcePoint" />
+            <mxPoint x="370" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1019" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#FF6B35;fontFamily=Helvetica;" parent="cell-1018" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1020" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-49" target="abb-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="575" as="sourcePoint" />
+            <mxPoint x="60" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1021" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#00A651;fontFamily=Helvetica;" parent="cell-1020" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1022" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-50" target="abb-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="700" as="sourcePoint" />
+            <mxPoint x="215" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1023" value="4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#FF6B35;fontFamily=Helvetica;" parent="cell-1022" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1024" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=0.5;exitY=0.0;exitDx=0;exitDy=0;entryX=0.5;entryY=1.0;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-51" target="abb-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="575" as="sourcePoint" />
+            <mxPoint x="215" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1025" value="5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#00A651;fontFamily=Helvetica;" parent="cell-1024" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1026" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-48" target="abb-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="450" as="sourcePoint" />
+            <mxPoint x="525" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1027" value="6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#FF6B35;fontFamily=Helvetica;" parent="cell-1026" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1028" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-52" target="abb-54" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="450" as="sourcePoint" />
+            <mxPoint x="215" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1029" value="7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#FF6B35;fontFamily=Helvetica;" parent="cell-1028" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1030" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-53" target="abb-54" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="325" as="sourcePoint" />
+            <mxPoint x="215" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1031" value="8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#003087;fontFamily=Helvetica;" parent="cell-1030" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1032" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-55" target="abb-56" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="700" as="sourcePoint" />
+            <mxPoint x="370" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1033" value="9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#FF6B35;fontFamily=Helvetica;" parent="cell-1032" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1034" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=0.5;exitY=0.0;exitDx=0;exitDy=0;entryX=0.5;entryY=1.0;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-56" target="abb-57" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="700" as="sourcePoint" />
+            <mxPoint x="370" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1035" value="10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#FF6B35;fontFamily=Helvetica;" parent="cell-1034" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1036" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-57" target="abb-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="575" as="sourcePoint" />
+            <mxPoint x="60" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1037" value="11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#00A651;fontFamily=Helvetica;" parent="cell-1036" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1038" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-47" target="abb-58" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="450" as="sourcePoint" />
+            <mxPoint x="680" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1039" value="12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#FF6B35;fontFamily=Helvetica;" parent="cell-1038" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1040" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-58" target="abb-59" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="450" as="sourcePoint" />
+            <mxPoint x="60" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1041" value="13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#FF6B35;fontFamily=Helvetica;" parent="cell-1040" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1042" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-59" target="abb-60" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="505" as="sourcePoint" />
+            <mxPoint x="370" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1043" value="14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#FF6B35;fontFamily=Helvetica;" parent="cell-1042" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1044" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-60" target="abb-57" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="325" as="sourcePoint" />
+            <mxPoint x="370" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1045" value="15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#003087;fontFamily=Helvetica;" parent="cell-1044" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1046" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-48" target="abb-61" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="450" as="sourcePoint" />
+            <mxPoint x="215" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1047" value="16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#FF6B35;fontFamily=Helvetica;" parent="cell-1046" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1048" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-61" target="abb-62" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="505" as="sourcePoint" />
+            <mxPoint x="370" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1049" value="17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#FF6B35;fontFamily=Helvetica;" parent="cell-1048" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1050" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=0.5;exitY=0.0;exitDx=0;exitDy=0;entryX=0.5;entryY=1.0;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-62" target="abb-63" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="505" as="sourcePoint" />
+            <mxPoint x="525" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1051" value="18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#FF6B35;fontFamily=Helvetica;" parent="cell-1050" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1052" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=1.5;fontFamily=Helvetica;curved=1;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="abb-380" target="abb-53" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="200" as="sourcePoint" />
+            <mxPoint x="60" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1053" value="19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;fontStyle=1;backgroundColor=#FFFFFF;borderColor=#003087;fontFamily=Helvetica;" parent="cell-1052" vertex="1" connectable="0">
+            <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell><mxCell id="cell-1054" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="900" y="110" width="380" height="600" as="geometry" />
+        </mxCell><mxCell id="cell-1055" value="Components &amp; Technologies" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#FF6B35;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="920" y="125" width="340" height="30" as="geometry" />
+        </mxCell><mxCell id="cell-1056" value="&lt;b&gt;Credit Scoring ML&lt;/b&gt; - Deploys credit scoring models that calculate probability of default for loan applications. &lt;font color=&quot;#FF6B35&quot;&gt;&lt;i&gt;AWS SageMaker&lt;/i&gt;&lt;/font&gt;." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="920" y="165" width="340" height="50" as="geometry" />
+        </mxCell><mxCell id="cell-1057" value="&lt;b&gt;Alternative Data Analytics&lt;/b&gt; - Enhances credit assessment by incorporating non-traditional data sources. &lt;font color=&quot;#FF6B35&quot;&gt;&lt;i&gt;Experian, Equifax, D&amp;B&lt;/i&gt;&lt;/font&gt;." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="920" y="220" width="340" height="50" as="geometry" />
+        </mxCell><mxCell id="cell-1058" value="&lt;b&gt;GenAI Credit Narratives&lt;/b&gt; - Generates explanatory credit decision narratives for transparency and compliance. &lt;font color=&quot;#FF6B35&quot;&gt;&lt;i&gt;Custom Credit Templates, Regulatory Compliant Templates&lt;/i&gt;&lt;/font&gt;." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="920" y="275" width="340" height="50" as="geometry" />
+        </mxCell><mxCell id="cell-1059" value="&lt;b&gt;Streaming Analytics&lt;/b&gt; - Monitors loan portfolio in real-time for early detection of credit deterioration. &lt;font color=&quot;#FF6B35&quot;&gt;&lt;i&gt;Apache Kafka Streams, Amazon Kinesis Analytics, AWS Kinesis Analytics&lt;/i&gt;&lt;/font&gt;." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="920" y="330" width="340" height="50" as="geometry" />
+        </mxCell><mxCell id="cell-1060" value="&lt;b&gt;Ensemble ML Models&lt;/b&gt; - Combines multiple models for more robust portfolio risk aggregation. &lt;font color=&quot;#FF6B35&quot;&gt;&lt;i&gt;Scikit-learn Ensemble, XGBoost, Custom Ensemble Framework&lt;/i&gt;&lt;/font&gt;." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="920" y="385" width="340" height="50" as="geometry" />
+        </mxCell><mxCell id="cell-1061" value="&lt;b&gt;Explainable AI (XAI)&lt;/b&gt; - Explains credit decisions in human-understandable terms for regulatory compliance. &lt;font color=&quot;#FF6B35&quot;&gt;&lt;i&gt;Custom Compliance Reports, Model Risk Reports&lt;/i&gt;&lt;/font&gt;." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="920" y="440" width="340" height="50" as="geometry" />
+        </mxCell><mxCell id="cell-1062" value="&lt;b&gt;Decision Interface&lt;/b&gt; - Displays credit scores and explanations to credit officers. &lt;font color=&quot;#FF6B35&quot;&gt;&lt;i&gt;Various technologies&lt;/i&gt;&lt;/font&gt;." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="920" y="495" width="340" height="50" as="geometry" />
+        </mxCell><mxCell id="cell-1063" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="900" y="730" width="980" height="320" as="geometry" />
+        </mxCell><mxCell id="cell-1064" value="Interface Catalogue" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#00A651;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="920" y="745" width="940" height="30" as="geometry" />
+        </mxCell><mxCell id="cell-1065" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6699CC;strokeColor=#00A651;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="920" y="785" width="940" height="25" as="geometry" />
+        </mxCell><mxCell id="cell-1066" value="ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="788" width="24" height="20" as="geometry" />
+        </mxCell><mxCell id="cell-1067" value="From" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="788" width="114" height="20" as="geometry" />
+        </mxCell><mxCell id="cell-1068" value="To" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="788" width="114" height="20" as="geometry" />
+        </mxCell><mxCell id="cell-1069" value="Description" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="788" width="354" height="20" as="geometry" />
+        </mxCell><mxCell id="cell-1070" value="Datasets" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="788" width="304" height="20" as="geometry" />
+        </mxCell><mxCell id="cell-1071" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="810" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1072" value="ML Model Serving" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="810" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1073" value="Risk Models" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="810" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1074" value="Serves risk models for probability of default calculation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="810" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1075" value="Credit application data, Borrower profile, Financial data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="810" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1076" value="2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="836" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1077" value="Risk Models" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="836" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1078" value="Score Calculation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="836" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1079" value="Provides model outputs for credit score calculation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="836" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1080" value="Risk probabilities, Model outputs, Feature importance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="836" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1081" value="3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="862" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1082" value="Data Enrichment" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="862" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1083" value="External Data Sour" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="862" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1084" value="Requests alternative data from external sources" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="862" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1085" value="Data requests, Entity identifiers, Query parameters" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="862" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1086" value="4" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="888" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1087" value="External Data Sour" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="888" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1088" value="Analytics Platform" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="888" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1089" value="Delivers alternative data for risk assessment analytics" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="888" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1090" value="Utility payments, Rent history, Social data, Employment data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="888" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1091" value="5" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="914" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1092" value="Analytics Platform" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="914" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1093" value="Risk Models" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="914" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1094" value="Provides enriched features for improved risk assessment" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="914" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1095" value="Enriched borrower data, Alternative signals, Risk indicators" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="914" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1096" value="6" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="940" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1097" value="Score Calculation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="940" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1098" value="LLM API" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="940" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1099" value="Provides credit score context for narrative generation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="940" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1100" value="Credit scores, Risk ratings, Decision factors" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="940" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1101" value="7" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="966" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1102" value="LLM API" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="966" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1103" value="Document Generatio" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="966" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1104" value="Delivers AI-generated credit decision narratives" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="966" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1105" value="Narrative text, Explanations, Regulatory disclosures" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="966" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1106" value="8" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="992" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1107" value="Credit Templates" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="992" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1108" value="Document Generatio" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="992" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1109" value="Provides credit decision document templates" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="992" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1110" value="Template definitions, Format specs, Compliance requirements" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="992" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1111" value="9" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="1018" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1112" value="Stream Processing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="1018" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1113" value="Event Processing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="1018" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1114" value="Streams loan portfolio events for real-time processing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="1018" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1115" value="Transaction events, Payment data, Account changes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="1018" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1116" value="10" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="1044" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1117" value="Event Processing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="1044" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1118" value="Real-time Analytic" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="1044" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1119" value="Delivers processed credit events for analytics" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="1044" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1120" value="Aggregated events, Risk signals, Portfolio metrics" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="1044" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1121" value="11" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="1070" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1122" value="Real-time Analytic" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="1070" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1123" value="ML Model Serving" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="1070" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1124" value="Provides portfolio health data for early warning models" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="1070" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1125" value="Portfolio metrics, Trend data, Risk indicators" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="1070" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1126" value="12" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="1096" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1127" value="Risk Models" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="1096" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1128" value="ML Ensemble Framew" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="1096" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1129" value="Sends individual model predictions for ensemble aggregation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="1096" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1130" value="Model outputs, Confidence scores, Prediction metadata" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="1096" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1131" value="13" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="1122" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1132" value="ML Ensemble Framew" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="1122" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1133" value="Model Combination" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="1122" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1134" value="Provides framework output for model combination" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="1122" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1135" value="Ensemble predictions, Weights, Model contributions" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="1122" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1136" value="14" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="1148" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1137" value="Model Combination" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="1148" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1138" value="Risk Aggregation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="1148" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1139" value="Delivers combined model predictions for risk aggregation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="1148" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1140" value="Blended predictions, Uncertainty estimates, Confidence intervals" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="1148" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1141" value="15" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="1174" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1142" value="Risk Aggregation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="1174" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1143" value="Real-time Analytic" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="1174" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1144" value="Sends aggregated portfolio risk metrics to analytics" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="1174" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1145" value="Total exposure, Risk-weighted assets, Concentration metrics" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="1174" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1146" value="16" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="1200" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1147" value="Score Calculation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="1200" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1148" value="XAI Framework" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="1200" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1149" value="Requests explanation for credit score calculation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="1200" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1150" value="Credit score, Input features, Model ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="1200" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1151" value="17" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="1226" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1152" value="XAI Framework" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="1226" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1153" value="Model Interpretati" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="1226" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1154" value="Analyzes model to generate human-understandable explanations" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="1226" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1155" value="SHAP values, Feature importance, Decision paths" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="1226" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1156" value="18" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="1252" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1157" value="Model Interpretati" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="1252" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1158" value="Compliance Reporti" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="1252" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1159" value="Provides model explanations for compliance reporting" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="1252" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1160" value="Explanation text, Feature contributions, Decision rationale" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="1252" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1161" value="19" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="1278" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1162" value="Credit Decision In" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="1278" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1163" value="Credit Templates" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="1278" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1164" value="Credit officers use interface to generate credit decision documents from templates" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="1278" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1165" value="Decision inputs, Borrower data, Template selections, Officer comments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="1278" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1166" value="20" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="1304" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1167" value="Credit Templates" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="1304" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1168" value="Risk Models" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="1304" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1169" value="Serve credit risk models" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="1304" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1170" value="Model Inference data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="1304" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1171" value="21" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="1330" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1172" value="Score Calculation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="1330" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1173" value="External Data Sour" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="1330" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1174" value="Request alternative data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="1330" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1175" value="Enrichment Request data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="1330" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1176" value="22" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="1356" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1177" value="Risk Models" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="1356" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1178" value="LLM API" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="1356" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1179" value="Request narrative generation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="1356" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1180" value="Decision Context data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="1356" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1181" value="23" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="1382" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1182" value="Document Generatio" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="1382" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1183" value="Document Generatio" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="1382" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1184" value="Provide document templates" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="1382" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1185" value="Document Templates data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="1382" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1186" value="24" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="1408" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1187" value="Document Generatio" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="1408" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1188" value="Event Processing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="1408" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1189" value="Stream loan events" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="1408" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1190" value="Loan Events data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="1408" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1191" value="25" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="923" y="1434" width="24" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1192" value="ML Model Serving" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="953" y="1434" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1193" value="ML Ensemble Framew" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="1434" width="114" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1194" value="Send model predictions" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="1434" width="354" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1195" value="Model Predictions data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="1434" width="304" height="26" as="geometry" />
+        </mxCell><mxCell id="cell-1196" value="Blueprint v1.0.0 | UC-004" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=0;fontColor=#666666;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="30" y="1055" width="1860" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

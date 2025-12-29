@@ -1,0 +1,67 @@
+Category,Component,Unit,Current Price (USD),Region,Last Updated,Notes
+AgentCore Runtime,CPU Usage,per vCPU-second,$0.0000248611,us-east-1,2024-12-01,Consumption-based billing only for active processing
+AgentCore Runtime,Memory Usage,per GB-second,$0.00000262500,us-east-1,2024-12-01,Peak memory consumed per second billing
+AgentCore Browser,CPU Usage,per vCPU-second,$0.0000248611,us-east-1,2024-12-01,Same as Runtime pricing
+AgentCore Browser,Memory Usage,per GB-second,$0.00000262500,us-east-1,2024-12-01,Same as Runtime pricing
+AgentCore Code Interpreter,CPU Usage,per vCPU-second,$0.0000248611,us-east-1,2024-12-01,Same as Runtime pricing
+AgentCore Code Interpreter,Memory Usage,per GB-second,$0.00000262500,us-east-1,2024-12-01,Same as Runtime pricing
+AgentCore Gateway,MCP Operations,per operation,$0.001000,us-east-1,2024-12-01,ListTools CallTool Ping operations
+AgentCore Gateway,Search Queries,per query,$0.001000,us-east-1,2024-12-01,Semantic search functionality
+AgentCore Gateway,Tool Indexing,per tool indexed,$0.001000,us-east-1,2024-12-01,One-time indexing cost
+AgentCore Observability,Data Ingestion,per GB,$0.50,us-east-1,2024-12-01,CloudWatch Logs ingestion
+AgentCore Observability,Data Storage,per GB-month,$0.03,us-east-1,2024-12-01,CloudWatch Logs storage
+AgentCore Observability,Queries,per 1000 queries,$0.005,us-east-1,2024-12-01,Log analysis queries
+Bedrock Claude 3.5 Sonnet,Input Tokens,per 1K tokens,$0.003000,us-east-1,2024-12-01,Text generation input
+Bedrock Claude 3.5 Sonnet,Output Tokens,per 1K tokens,$0.015000,us-east-1,2024-12-01,Text generation output
+Bedrock Claude 3.5 Haiku,Input Tokens,per 1K tokens,$0.000250,us-east-1,2024-12-01,Lightweight model
+Bedrock Claude 3.5 Haiku,Output Tokens,per 1K tokens,$0.001250,us-east-1,2024-12-01,Lightweight model
+Bedrock Claude 3 Opus,Input Tokens,per 1K tokens,$0.015000,us-east-1,2024-12-01,Most capable model
+Bedrock Claude 3 Opus,Output Tokens,per 1K tokens,$0.075000,us-east-1,2024-12-01,Most capable model
+Bedrock Llama 3.1 70B,Input Tokens,per 1K tokens,$0.00099,us-east-1,2024-12-01,Open source model
+Bedrock Llama 3.1 70B,Output Tokens,per 1K tokens,$0.00099,us-east-1,2024-12-01,Open source model
+Bedrock Llama 3.1 8B,Input Tokens,per 1K tokens,$0.00022,us-east-1,2024-12-01,Smaller open source
+Bedrock Llama 3.1 8B,Output Tokens,per 1K tokens,$0.00022,us-east-1,2024-12-01,Smaller open source
+EC2 t3.micro,Instance Hour,per hour,$0.0104,us-east-1,2024-12-01,Burstable performance
+EC2 t3.small,Instance Hour,per hour,$0.0208,us-east-1,2024-12-01,Burstable performance
+EC2 t3.medium,Instance Hour,per hour,$0.0416,us-east-1,2024-12-01,Burstable performance
+EC2 t3.large,Instance Hour,per hour,$0.0832,us-east-1,2024-12-01,Burstable performance
+EC2 t3.xlarge,Instance Hour,per hour,$0.1664,us-east-1,2024-12-01,Burstable performance
+EC2 t4g.micro,Instance Hour,per hour,$0.0084,us-east-1,2024-12-01,ARM-based Graviton2
+EC2 t4g.small,Instance Hour,per hour,$0.0168,us-east-1,2024-12-01,ARM-based Graviton2
+EC2 t4g.medium,Instance Hour,per hour,$0.0336,us-east-1,2024-12-01,ARM-based Graviton2
+EC2 t4g.large,Instance Hour,per hour,$0.0672,us-east-1,2024-12-01,ARM-based Graviton2
+EC2 m5.large,Instance Hour,per hour,$0.096,us-east-1,2024-12-01,General purpose
+EC2 m5.xlarge,Instance Hour,per hour,$0.192,us-east-1,2024-12-01,General purpose
+EC2 m5.2xlarge,Instance Hour,per hour,$0.384,us-east-1,2024-12-01,General purpose
+EC2 c5.large,Instance Hour,per hour,$0.085,us-east-1,2024-12-01,Compute optimized
+EC2 c5.xlarge,Instance Hour,per hour,$0.17,us-east-1,2024-12-01,Compute optimized
+EC2 c5.2xlarge,Instance Hour,per hour,$0.34,us-east-1,2024-12-01,Compute optimized
+Lambda Requests,Requests,per 1M requests,$0.20,us-east-1,2024-12-01,First 1M free monthly
+Lambda Duration x86,GB-seconds,per GB-second,$0.0000166667,us-east-1,2024-12-01,First 400K GB-s free
+Lambda Duration ARM,GB-seconds,per GB-second,$0.0000133334,us-east-1,2024-12-01,Graviton2 ARM processors
+S3 Standard Storage,Storage,per GB-month,$0.023,us-east-1,2024-12-01,First 50TB pricing tier
+S3 Standard-IA Storage,Storage,per GB-month,$0.0125,us-east-1,2024-12-01,Infrequent access
+S3 GET Requests,Requests,per 1K requests,$0.0004,us-east-1,2024-12-01,Data retrieval
+S3 PUT Requests,Requests,per 1K requests,$0.005,us-east-1,2024-12-01,Data upload
+DynamoDB On-Demand,Read Request Units,per 1M RRUs,$0.25,us-east-1,2024-12-01,Pay per request
+DynamoDB On-Demand,Write Request Units,per 1M WRUs,$1.25,us-east-1,2024-12-01,Pay per request
+DynamoDB On-Demand,Storage,per GB-month,$0.25,us-east-1,2024-12-01,Data storage
+CloudWatch Custom Metrics,Metrics,per metric-month,$0.30,us-east-1,2024-12-01,First 10K free
+CloudWatch Log Ingestion,Data Ingestion,per GB,$0.50,us-east-1,2024-12-01,First 5GB free monthly
+CloudWatch Log Storage,Data Storage,per GB-month,$0.03,us-east-1,2024-12-01,Compressed storage
+CloudWatch Dashboards,Dashboard,per dashboard-month,$3.00,us-east-1,2024-12-01,Up to 50 metrics
+VPC NAT Gateway,Instance Hours,per hour,$0.045,us-east-1,2024-12-01,Highly available NAT
+VPC NAT Gateway,Data Processing,per GB,$0.045,us-east-1,2024-12-01,Data processed
+Data Transfer Same AZ,Data Transfer,per GB,$0.00,us-east-1,2024-12-01,Free within same AZ
+Data Transfer Inter-AZ,Data Transfer,per GB,$0.01,us-east-1,2024-12-01,Between AZs same region
+Data Transfer Inter-Region,Data Transfer,per GB,$0.02,us-east-1,2024-12-01,US East to US West
+Data Transfer Internet Out 0-1GB,Data Transfer,per GB,$0.00,us-east-1,2024-12-01,First 1GB free monthly
+Data Transfer Internet Out 1GB-10TB,Data Transfer,per GB,$0.09,us-east-1,2024-12-01,Next 9.999TB
+Data Transfer Internet Out 10TB-50TB,Data Transfer,per GB,$0.085,us-east-1,2024-12-01,Next 40TB
+Data Transfer Internet Out 50TB-150TB,Data Transfer,per GB,$0.07,us-east-1,2024-12-01,Next 100TB
+Data Transfer Internet Out 150TB+,Data Transfer,per GB,$0.05,us-east-1,2024-12-01,Over 150TB
+SageMaker Notebook ml.t3.medium,Instance Hour,per hour,$0.0464,us-east-1,2024-12-01,Jupyter notebooks
+SageMaker Notebook ml.t3.large,Instance Hour,per hour,$0.0928,us-east-1,2024-12-01,Jupyter notebooks
+SageMaker Training ml.m5.large,Instance Hour,per hour,$0.115,us-east-1,2024-12-01,Model training
+SageMaker Training ml.m5.xlarge,Instance Hour,per hour,$0.23,us-east-1,2024-12-01,Model training
+SageMaker Inference ml.t2.medium,Instance Hour,per hour,$0.065,us-east-1,2024-12-01,Real-time inference

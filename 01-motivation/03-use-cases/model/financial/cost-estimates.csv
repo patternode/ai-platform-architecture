@@ -1,0 +1,6 @@
+use_case_id,use_case_name,platform_cost,development_cost,integration_cost,operational_cost_annual,total_implementation,contingency_pct,total_with_contingency,estimate_date,confidence
+UC-001,Partnership Banking,150000,300000,100000,75000,550000,20,660000,2025-11-01,Medium
+UC-004,Credit Risk,200000,400000,150000,100000,750000,15,862500,2025-11-01,High
+UC-006,HyperPersonalization,150000,350000,100000,80000,600000,20,720000,2025-11-01,Medium
+UC-009,Data Products,300000,250000,100000,120000,650000,15,747500,2025-11-01,High
+UC-011,Fincrime,200000,350000,150000,90000,700000,15,805000,2025-11-01,High

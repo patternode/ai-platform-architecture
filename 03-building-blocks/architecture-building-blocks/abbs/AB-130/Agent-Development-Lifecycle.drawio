@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2025-12-12T00:00:00.000Z" agent="Claude Code" version="21.0.0" type="device">
+  <diagram name="Agent Development Lifecycle" id="agent-dev-lifecycle">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Background -->
+        <mxCell id="bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="140" width="1600" height="600" as="geometry"/>
+        </mxCell>
+
+        <!-- Title -->
+        <mxCell id="title" value="Agent Development Lifecycle" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=28;fontStyle=1;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="1600" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Horizontal line under title -->
+        <mxCell id="titleLine" value="" style="line;strokeWidth=2;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#FF6B35;" vertex="1" parent="1">
+          <mxGeometry x="200" y="210" width="1520" height="10" as="geometry"/>
+        </mxCell>
+
+        <!-- Phase 1: DEFINE -->
+        <mxCell id="phase1-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="320" height="380" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase1-num" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6B35;strokeColor=#FF6B35;fontColor=#FFFFFF;fontSize=24;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="300" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase1-title" value="DEFINE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=22;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="320" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase1-items" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="410" width="280" height="230" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase1-item1" value="🎯 Goal Definition" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="280" y="430" width="240" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase1-item2" value="🔧 Tool Selection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="280" y="475" width="240" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase1-item3" value="💾 Memory Configuration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="280" y="520" width="240" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase1-item4" value="🛡️ Guardrails Setup" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="280" y="565" width="240" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow 1-2 -->
+        <mxCell id="arrow12" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#FF6B35;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="470" as="sourcePoint"/>
+            <mxPoint x="610" y="470" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Phase 2: DEVELOP -->
+        <mxCell id="phase2-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="280" width="320" height="380" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase2-num" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6B35;strokeColor=#FF6B35;fontColor=#FFFFFF;fontSize=24;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="755" y="300" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase2-title" value="DEVELOP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=22;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="620" y="360" width="320" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase2-items" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="410" width="280" height="230" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase2-item1" value="📝 Prompt Engineering" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="660" y="430" width="240" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase2-item2" value="🔨 Tool Integration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="660" y="475" width="240" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase2-item3" value="🔄 Workflow Design" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="660" y="520" width="240" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase2-item4" value="✅ Unit Tests" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="660" y="565" width="240" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow 2-3 -->
+        <mxCell id="arrow23" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#FF6B35;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="470" as="sourcePoint"/>
+            <mxPoint x="990" y="470" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Phase 3: TEST -->
+        <mxCell id="phase3-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="280" width="320" height="380" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase3-num" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6B35;strokeColor=#FF6B35;fontColor=#FFFFFF;fontSize=24;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="300" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase3-title" value="TEST" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=22;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="360" width="320" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase3-items" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="410" width="280" height="230" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase3-item1" value="🧪 Unit Testing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="430" width="240" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase3-item2" value="🔗 Integration Testing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="475" width="240" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase3-item3" value="🌐 End-to-End Testing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="520" width="240" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase3-item4" value="🔒 Security Testing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="565" width="240" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow 3-4 -->
+        <mxCell id="arrow34" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#FF6B35;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1330" y="470" as="sourcePoint"/>
+            <mxPoint x="1370" y="470" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Phase 4: DEPLOY -->
+        <mxCell id="phase4-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="280" width="320" height="380" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase4-num" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6B35;strokeColor=#FF6B35;fontColor=#FFFFFF;fontSize=24;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1515" y="300" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase4-title" value="DEPLOY" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=22;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="360" width="320" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase4-items" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="410" width="280" height="230" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase4-item1" value="📦 Container Packaging" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="430" width="240" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase4-item2" value="🗂️ Registry Push" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="475" width="240" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase4-item3" value="🚀 Platform Deploy" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="520" width="240" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="phase4-item4" value="📊 Monitor &amp; Observe" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="565" width="240" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="760" width="1600" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-title" value="Legend:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="200" y="775" width="70" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-phase" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="280" y="780" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-phase-text" value="= Phase Container" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="320" y="775" width="120" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-num" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6B35;strokeColor=#FF6B35;" vertex="1" parent="1">
+          <mxGeometry x="460" y="778" width="24" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-num-text" value="= Phase Number" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="494" y="775" width="120" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-arrow" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF6B35;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="790" as="sourcePoint"/>
+            <mxPoint x="690" y="790" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-arrow-text" value="= Flow Direction" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="700" y="775" width="120" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-activities" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="840" y="780" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-activities-text" value="= Activities List" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="880" y="775" width="120" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- ABB Reference -->
+        <mxCell id="abb-ref" value="AB-130 AI Agent | Version 1.0.0" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="775" width="240" height="30" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

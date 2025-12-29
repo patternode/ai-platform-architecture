@@ -1,0 +1,226 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram id="use-cases-overview" name="AI Use Cases Overview">
+    <mxGraphModel dx="3530" dy="2068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uc001" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="30" y="90" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc001-title" value="UC-001: FrontLine - Partnership Banking" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="38.19383259911894" y="101.66666666666666" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc001-desc" value="GenAI-driven RM solutions provide banks with a competitive edge by deepening banker-customer relationships, thereby optimizing customer interactions, improving engagement, and streamlining service delivery." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="38.19383259911894" y="145" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc002" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="341.36563876651985" y="90" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc002-title" value="UC-002: Finance" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="349.5594713656388" y="101.66666666666666" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc002-desc" value="Transform raw financial data into well-structured reports (e.g., P&amp;amp;L, balance sheets, variance analysis)." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="349.5594713656388" y="145" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc003" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="652.7312775330397" y="90" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc003-title" value="UC-003: Analytics and Reporting" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="660.9251101321586" y="101.66666666666666" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc003-desc" value="AI builds on BI by turning historical data into proactive guidance, predictions, and optimisation." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="660.9251101321586" y="145" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc004" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="964.0969162995596" y="90" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc004-title" value="UC-004: Credit Risk" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="972.2907488986785" y="101.66666666666666" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc004-desc" value="GenAI-driven Credit Risk solutions empower banks with data-driven decision-making, operational efficiency, and risk-optimized lending. By integrating AI into credit risk processes banks can accelerate approvals, improve risk monitoring and credit portfolio management thereby driving profitability while ensuring compliance and customer-centric services." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="972.2907488986785" y="145" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc005" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1275.4625550660794" y="90" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc005-title" value="UC-005: Lending Ops" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1283.6563876651983" y="101.66666666666666" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc005-desc" value="AI Document Processing for Loan Applications &amp;amp; Compliance, credit assesment post settlement checks." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1283.6563876651983" y="145" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc006" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#666666;strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1586.8281938325993" y="90" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc006-title" value="UC-006: HyperPersonalization" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1595.0220264317181" y="101.66666666666666" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc006-desc" value="Generative AI enables new customer relevance through a reinvention of marketing, sales, and service experiences." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1595.0220264317181" y="145" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc007" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="30" y="323.3333333333333" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc007-title" value="UC-007: Contact Centre" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="38.19383259911894" y="335" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc007-desc" value="Generate a call summary, using the captured transcription of each call. Agent-assist features, surfacing relevent knowlege and customer information, based on the realtime call. Customer-assist self-service features, enabling an natural and open conversaitons using a Conversational AI tool." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="38.19383259911894" y="378.3333333333333" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc008" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="341.36563876651985" y="323.3333333333333" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc008-title" value="UC-008: Security AI" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="349.5594713656388" y="335" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc008-desc" value="Use of AI to identify threats earlier with higher accuracy." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="349.5594713656388" y="378.3333333333333" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc009" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="652.7312775330397" y="323.3333333333333" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc009-title" value="UC-009: Data Products" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="660.9251101321586" y="335" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc009-desc" value="Extend GenAI intervention to accelerate data product creation." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="660.9251101321586" y="378.3333333333333" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc010" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="964.0969162995596" y="323.3333333333333" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc010-title" value="UC-010: SDLC" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="972.2907488986785" y="335" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc010-desc" value="GenAI can automate key SDLC tasks, enhancing productivity, and reducing costs. By integrating GenAI, banks can accelerate time-to-market, improve code quality, enhance security, and reduce development overhead." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="972.2907488986785" y="378.3333333333333" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc011" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1275.4625550660794" y="323.3333333333333" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc011-title" value="UC-011: Fincrime" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1283.6563876651983" y="335" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc011-desc" value="Name screening, OCDD, ECDD and TM narrative writing." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1283.6563876651983" y="378.3333333333333" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc012" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#666666;strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1586.8281938325993" y="323.3333333333333" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc012-title" value="UC-012: QA / QC" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1595.0220264317181" y="335" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc012-desc" value="Automate data validation, detecting errors, and ensuring compliance with regulatory standards. Prioritizes high-risk cases, generates audit-ready reports, and provides real-time feedback to analysts, reducing manual effort and improving accuracy." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1595.0220264317181" y="378.3333333333333" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc013" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="30" y="556.6666666666666" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc013-title" value="UC-013: Fraud Ops" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="38.19383259911894" y="568.3333333333333" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc013-desc" value="AI can support case officers y Summarising customer history, Highlighting suspicious patterns, Automatically pulling evidence from multiple systems." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="38.19383259911894" y="611.6666666666666" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc014" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="341.36563876651985" y="556.6666666666666" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc014-title" value="UC-014: Onboarding" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="349.5594713656388" y="568.3333333333333" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc014-desc" value="AI streamlines onboarding by automating ID verification, KYC checks, and risk assessment for faster, safer customer activation." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="349.5594713656388" y="611.6666666666666" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc015" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="652.7312775330397" y="556.6666666666666" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc015-title" value="UC-015: Risk Functions" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="660.9251101321586" y="568.3333333333333" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc015-desc" value="Operational Risk, Market Risk, Liquidity Risk, Model Risk, Compliance Risk Assessment, Tech Risk, Risk Assurance, Enterprise Risk. AI reduces Operational Risk by identifying anomalies, streamlining investigations, and improving the accuracy of risk assessments." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="660.9251101321586" y="611.6666666666666" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc016" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="964.0969162995596" y="556.6666666666666" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc016-title" value="UC-016: IT Operations" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="972.2907488986785" y="568.3333333333333" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc016-desc" value="Evolution of the Ticketing Process and Smart Routing - Incident / Service / Problem Management, Security, Analytics, Identity and Access Management, Helpdesk, BCM." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="972.2907488986785" y="611.6666666666666" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc017" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1275.4625550660794" y="556.6666666666666" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc017-title" value="UC-017: FrontLine - CIB" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1283.6563876651983" y="568.3333333333333" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc017-desc" value="GenAI-driven RM solutions provide banks with a competitive edge by deepening banker-customer relationships, thereby optimizing customer interactions, improving engagement, and streamlining service delivery." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1283.6563876651983" y="611.6666666666666" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc018" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#666666;strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1586.8281938325993" y="556.6666666666666" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc018-title" value="UC-018: Procurement" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1595.0220264317181" y="568.3333333333333" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc018-desc" value="Multi-Agent System for the End-to-end Procurement process optimization, from planning to goods receipt and invoicing, enhancing operational efficiency and realtime decision-making." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1595.02" y="611.67" width="265.78" height="138.33" as="geometry" />
+        </mxCell>
+        <mxCell id="uc019" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="30" y="790" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc019-title" value="UC-019: Payment disputes" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="38.19383259911894" y="801.6666666666666" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc019-desc" value="Automate and orchestrate the end-to-end lifecycle of card payment disputes across two recurrent scenarios: Commercial Dispute and Fraud." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="38.19383259911894" y="845" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc020" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="341.36563876651985" y="790" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc020-title" value="UC-020: Controls testing" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="349.5594713656388" y="801.6666666666666" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc020-desc" value="Controls testing - IT and business." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="349.5594713656388" y="845" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc021" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="652.7312775330397" y="790" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc021-title" value="UC-021: Wholesale underwriting transformation - CIB" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="660.9251101321586" y="801.6666666666666" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc021-desc" value="End-to-end transformation of CIB Risk Underwring process, including: Data Collection + Rating Calculation + Financial Program + Deal Approval + Continuous monitoring." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="660.9251101321586" y="845" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc022" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="964.0969162995596" y="790" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc022-title" value="UC-022: Learning content production" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="972.2907488986785" y="801.6666666666666" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc022-desc" value="AI accelerates content creation by generating lessons, quizzes, and summaries tailored to specific roles and needs." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="972.2907488986785" y="845" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc023" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1275.4625550660794" y="790" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc023-title" value="UC-023: Collection Management" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1283.6563876651983" y="801.6666666666666" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc023-desc" value="AI optimises collections by predicting payment likelihood, prioritising accounts, and recommending the best recovery actions." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1283.6563876651983" y="845" width="278.59030837004406" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc024" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#666666;strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1586.83" y="790" width="294.98" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="uc024-title" value="UC-024: Front-end app personalisation" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;spacing=0;" parent="1" vertex="1">
+          <mxGeometry x="1618.02" y="791" width="233.98" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uc024-desc" value="Use of GenAI in the mobile app to drive hyper personalisation across 3 main areas in order to create an Uber like experinece: 1) automation of process using GenAI to determine message and campaign strategy for different micro segements 2) use of GenAI to automate creation of message content, including varients of each message for different subsegments and personas 3) to identify the right images assocuated to each message within the image library, however over time extended to include generation of personalised and bespoke images." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1599.02" y="815" width="270.98" height="175" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

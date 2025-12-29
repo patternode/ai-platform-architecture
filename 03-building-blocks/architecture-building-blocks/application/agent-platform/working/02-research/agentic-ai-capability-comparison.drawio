@@ -1,0 +1,280 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram name="Agentic AI Capability Comparison" id="capability-comparison">
+    <mxGraphModel dx="1713" dy="1178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="header-capability" value="Capability" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;strokeColor=#000000;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="header-definition" value="Capability Definition" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;strokeColor=#000000;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="160" y="20" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="header-code-first" value="Code first (Build option)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E3A8A;strokeColor=#000000;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="300" y="20" width="680" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="header-low-code" value="Low Code / No Code (Buy option)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7C2D92;strokeColor=#000000;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="980" y="20" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="subheader-bedrock" value="AWS Bedrock AgentCore (IaaS/PaaS)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E3A8A;strokeColor=#000000;fontColor=#FFFFFF;fontSize=10;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="300" y="50" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="subheader-databricks" value="Databricks Mosaic AI Agent Framework with MLflow (SaaS)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E3A8A;strokeColor=#000000;fontColor=#FFFFFF;fontSize=10;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="470" y="50" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="subheader-azure" value="Azure AI Foundry (PaaS) / Co-pilot Studio (SaaS)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E3A8A;strokeColor=#000000;fontColor=#FFFFFF;fontSize=10;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="640" y="50" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="subheader-agent-force" value="AgentBricks by Databricks (SaaS)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E3A8A;strokeColor=#000000;fontColor=#FFFFFF;fontSize=10;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="810" y="50" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="subheader-agentforce1" value="AgentForce by Salesforce (SaaS)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7C2D92;strokeColor=#000000;fontColor=#FFFFFF;fontSize=10;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="980" y="50" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="subheader-agentforce2" value="AgentForce by Salesforce (SaaS)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7C2D92;strokeColor=#000000;fontColor=#FFFFFF;fontSize=10;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="50" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1" value="Autonomous execution" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="20" y="80" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="def1" value="Ability for agents to run autonomously, interpreting prompts and executing action loops that set up and complete tasks independently." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="160" y="80" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bedrock1" value="Excellent - supports secure, scalable deployment of autonomous agents, with long-running task support that can run and asynchronous workflows for complex tasks." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="300" y="80" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="databricks1" value="Excellent - Focuses on ML and GenAI governance and packaging, which provides full feature on model, model packaging, evaluation, experimental tracing. Code-based agent construction is supported through MLflow and agent libraries, or third-party framework e.g. LangGraph." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="470" y="80" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="azure1" value="Good - provides pre-made domain agents with enhanced reasoning, but limited control over the flow of execution." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="640" y="80" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentbricks1" value="Good - builds agents optimised for specific tasks from enterprise data, with synthetic data for training data. Some flexibility on workflow choices and systems for conversation. Better training and connectivity to be enhanced." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="810" y="80" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentforce1a" value="Low - focus on agents for specific business tasks as part of the overall CRM and Salesforce tools in a suite. Accenture has built on Salesforce&#39;s proprietary AI models. Limited autonomous use of LLM and the Atlas Reasoning Engine." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="980" y="80" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentforce1b" value="Low - focus on agents for specific business tasks as part of the overall CRM and Salesforce tools in a suite. Accenture has built on Salesforce&#39;s proprietary AI models. Limited autonomous use of LLM and the Atlas Reasoning Engine." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="80" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2" value="Agent Evaluation Framework" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="20" y="160" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="def2" value="Tools for assessing agent reliability, cost, and latency of Agentic applications, monitoring potential accuracy and inefficiencies and determining their root causes." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="160" y="160" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bedrock2" value="Low - opensource SDK requiring localised implementation." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="300" y="160" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="databricks2" value="Excellent - can ingest telemetry from external frameworks to do real-time and observability checks. This includes the continual evaluation of Agent flows." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="470" y="160" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="azure2" value="Low - Azure AI Evaluation SDK can be run in a localised implementation." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="640" y="160" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentbricks2" value="Excellent - Leverages Mosaic AI Agent Framework within the scope of the use cases supported by the platform." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="810" y="160" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentforce2a" value="Good - Capability exists within the platform, however all closed system." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="980" y="160" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentforce2b" value="Good - Capability exists within the platform, however all closed system." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="160" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3" value="Monitoring and Observability" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="20" y="240" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="def3" value="Tools for tracking agent performance, debugging, and optimising operations." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="160" y="240" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bedrock3" value="Excellent - AgentCore Observability provides real-time visibility, debugging, and compliance support, emitting telemetry data in standardised OpenTelemetry (OTEL) compatible format." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="300" y="240" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="databricks3" value="Excellent - Agent Evaluation helps developers evaluate the quality, costs, and latency of agentic AI applications with support with OpenTelemetry (OTEL) compatible format." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="470" y="240" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="azure3" value="Good - includes tracing, monitoring, evaluations, and customisable enterprise setup configurations." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="640" y="240" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentbricks3" value="Good - mentions custom evaluation tools, but specific observability features are not detailed." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="810" y="240" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentforce3a" value="Good - AgentForce Command Center offers complete observability for managing and optimising agents. Limited support for externalising telemetry." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="980" y="240" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentforce3b" value="Good - AgentForce Command Center offers complete observability for managing and optimising agents. Limited support for externalising telemetry." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="240" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cap4" value="Memory (Short-term and long-term)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="20" y="320" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="def4" value="System&#39;s ability to store and recall past experiences to improve decision-making, context and overall performance." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="160" y="320" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bedrock4" value="Excellent - AgentCore Memory is a stand-alone capability that can be interacted using API&#39;s and a SDK. This can be retrieved from within the platform or outside." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="300" y="320" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="databricks4" value="Low - Short-term memory stored temporarily with long-term memory persisted in an external database." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="470" y="320" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="azure4" value="Low - Basic Memory Operations with Memo and Azure AI Search." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="640" y="320" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentbricks4" value="Low - Short-term memory stored temporarily with long-term memory persisted in an external database." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="810" y="320" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentforce4a" value="Good - The Salesforce data cloud unites all customer data and metadata across platforms to real-time, enabling AgentForce to operate with complete context and precision. However this memory is not accessible outside of the Salesforce boundary." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="980" y="320" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentforce4b" value="Good - The Salesforce data cloud unites all customer data and metadata across platforms to real-time, enabling AgentForce to operate with complete context and precision. However this memory is not accessible outside of the Salesforce boundary." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="320" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5" value="Identity and Access Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="20" y="400" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="def5" value="Supports impersonation flow where agents can access resources using credentials provided to them or perform actions on behalf of users while maintaining audit of users while controls." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="160" y="400" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bedrock5" value="Excellent - AgentCore Identity supports two primary authentication patterns: User delegated access (OAuth2.0 authorization code grant with user consent and Machine-to-machine authentication methods for bot and services). This does allow to verify each request independently, requiring explicit verification for all access attempts regardless of source." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="300" y="400" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="databricks5" value="Good - supports OAuth, authenticate as user, service and token federation." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="470" y="400" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="azure5" value="Excellent - supports both API key-based access and RBAC for fine-grained control, with a clear separation between control plane (resource management and data plane (model and data access) operations." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="640" y="400" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentbricks5" value="Good - Leverages databricks now identity and access management features, focusing on improved authentication and automated provisioning at a workspace boundary." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="810" y="400" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentforce5a" value="Excellent - support OAuth2.0 for fine grain authorisation with the NAB SSO, comprehensive for step up authentication." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="980" y="400" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentforce5b" value="Excellent - support OAuth2.0 for fine grain authorisation with the NAB SSO, comprehensive for step up authentication." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="400" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cap6" value="Integration and Connectivity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="20" y="480" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="def6" value="Capacity to connect with diverse data sources, APIs, and application ecosystem through standardised interfaces." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="160" y="480" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bedrock6" value="Excellent - AgentCore runs in NAB VPC&#39;s, with a gateway for connections to external tools, supporting any agent framework via both MCP and AGA." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="300" y="480" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="databricks6" value="Low - operates outside of NAB boundaries, where inbound integration to on-prem as noted requires the implementation of reverse proxies / private links." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="470" y="480" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="azure6" value="Excellent - unified platform with prebuilt models and APIs, leveraging Azure/OpenAI record support." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="640" y="480" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentbricks6" value="Excellent - integrates deeply with enterprise data for model creation, training, and AI platform." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="810" y="480" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentforce6a" value="Low - integration is seamless within the Salesforce ecosystem, including Data Cloud, and MCP/Einstein for cross platforms interactions." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="980" y="480" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentforce6b" value="Low - integration is seamless within the Salesforce ecosystem, including Data Cloud, and MCP/Einstein for cross platforms interactions." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="480" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cap7" value="Security and Compliance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="20" y="560" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="def7" value="Measures for data protection, encryption, and adherence to governance standards." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="160" y="560" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bedrock7" value="Excellent - features session isolation, secure access controls, and compliance with encryption strategies and enterprise readiness for production deployment where within NAB." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="300" y="560" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="databricks7" value="Good - operates outside of NAB boundaries, requiring longer running tasks access, and NA." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="470" y="560" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="azure7" value="Excellent - includes safety filters, secure controls, and enterprise readiness for production deployment within NAB operations." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="640" y="560" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentbricks7" value="Good - inherits Databricks security features, but operates outside of NAB boundaries, requiring specific observability features are not detailed." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="810" y="560" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentforce7a" value="Low - no code approach for building domain-specific agents and AI assistant for optimization." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="980" y="560" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentforce7b" value="Low - pre-built skills and actions, with Agent Builder not relying on APIs using Salesforce tools." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="560" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cap8" value="Agent authoring using BYO Open Source frameworks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="20" y="640" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="def8" value="Ability to author agents for specific agent logic use cases using open source frameworks." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="160" y="640" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bedrock8" value="Excellent - supports any open-source framework and model, offering flexibility for diverse use cases." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="300" y="640" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="databricks8" value="Excellent - supports any open-source framework and model, offering flexibility for diverse use cases." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="470" y="640" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="azure8" value="Good - others PMG, fine-tuning, and distillation for customisation, with a rich model catalog." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="640" y="640" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentbricks8" value="Low - no code approach for building domain-specific agents and AI assistant for optimization." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="810" y="640" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentforce8a" value="Low - pre-built skills and actions, with Agent Builder not relying on APIs using Salesforce tools." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="980" y="640" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentforce8b" value="Low - pre-built skills and actions, with Agent Builder not relying on APIs using Salesforce tools." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="640" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cap9" value="Agent integration with other Open Source frameworks (LangGraph)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="20" y="720" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="def9" value="Ability to interoperate with other agents that use different and diverse open source frameworks." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="160" y="720" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bedrock9" value="Excellent - supports integration with open source orchestration frameworks like LangGraph, Crew AI, and Llamaindex." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="300" y="720" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="databricks9" value="Excellent - supports integration with open source orchestration frameworks like LangGraph, CrewAI, and Llamaindex." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="470" y="720" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="azure9" value="Excellent - integrates with popular agent orchestration frameworks like LangGraph, Azure OpenAI, CrewAI, and Llamaindex." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="640" y="720" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentbricks9" value="Excellent - supports authoring agents using third-party libraries like LangGraph, LangChain, Llamaindex, and custom implementations." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="810" y="720" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentforce9a" value="Excellent - supports connecting external agent frameworks like LangGraph, AutoGen, CrewAI through out-of-the-box Frameworks like LangGraph, AutoGen, CrewAI, Llamaindex through MCP (via Multisoft)." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="980" y="720" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="agentforce9b" value="Excellent - supports connecting external agent frameworks like LangGraph, AutoGen, CrewAI through out-of-the-box Frameworks like LangGraph, AutoGen, CrewAI, Llamaindex through MCP (via Multisoft)." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#000000;fontSize=9;verticalAlign=top;align=left;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="720" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="border-top" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="20" as="sourcePoint" />
+            <mxPoint x="1400" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="border-bottom" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="800" as="sourcePoint" />
+            <mxPoint x="1400" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="border-left" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="20" as="sourcePoint" />
+            <mxPoint x="20" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="border-right" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1400" y="20" as="sourcePoint" />
+            <mxPoint x="1400" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

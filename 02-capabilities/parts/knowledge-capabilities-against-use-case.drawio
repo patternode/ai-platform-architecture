@@ -1,0 +1,136 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Knowledge Capabilities Overview" id="knowledge-capabilities">
+    <mxGraphModel dx="2353" dy="1378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="20" y="40" width="1560" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="uc001-box" value="UC001&#xa;Te Kete" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#000099;strokeWidth=2;fontSize=11;fontColor=#5A1E58;fontFamily=Arial;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="190" y="60" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uc002-box" value="UC002&#xa;M365 Copilot" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#000099;strokeWidth=2;fontSize=11;fontColor=#5A1E58;fontFamily=Arial;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="315" y="60" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uc004-box" value="UC004&#xa;Power BI Copilot" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#000099;strokeWidth=2;fontSize=11;fontColor=#5A1E58;fontFamily=Arial;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="440" y="60" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uc005-box" value="UC005&#xa;A&amp;I Chatbot" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#000099;strokeWidth=2;fontSize=11;fontColor=#5A1E58;fontFamily=Arial;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="565" y="60" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uc007-box" value="UC007&#xa;Markets RBNZ" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#000099;strokeWidth=2;fontSize=11;fontColor=#5A1E58;fontFamily=Arial;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="690" y="60" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-box" value="" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6E6E6;strokeColor=#999999;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="70" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" value="Priority Legend" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=13;fontColor=#5A1E58;fontFamily=Arial;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="75" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-critical" value="● Critical Priority" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#E95160;fontFamily=Arial;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1235" y="76" width="180" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-high" value="● High Priority" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#ED6B06;fontFamily=Arial;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="76" width="180" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-low" value="● Low Priority" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#AC8FAC;fontFamily=Arial;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="76" width="80" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-header" value="1. KNOWLEDGE CAPTURE &amp; INGESTION" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#5A1E58;strokeColor=#5A1E58;fontColor=#FFFFFF;fontStyle=1;fontSize=14;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="40" y="120" width="470" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub1" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;1.1 Data Source Integration&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001, UC002&#xa;&#xa;Connect to multiple enterprise systems, applications, and external sources for data extraction" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="175" width="226" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub2" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;1.2 Document Processing&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001, UC007&#xa;&#xa;Extract structured information from unstructured documents including text, tables, and images" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="281" y="175" width="226" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub3" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;1.3 Metadata Enrichment&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001, UC002, UC007&#xa;&#xa;Enhance captured knowledge with contextual information, classifications, and semantic annotations" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="348" width="226" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub4" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;1.4 Real-Time Streaming&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC002&#xa;&#xa;Capture and process knowledge as created or modified for immediate availability" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="281" y="348" width="226" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-header" value="2. KNOWLEDGE ORGANIZATION &amp; MODELING" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#5A1E58;strokeColor=#5A1E58;fontColor=#FFFFFF;fontStyle=1;fontSize=14;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="530" y="120" width="495" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-sub1" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;2.1 Knowledge Graph&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001, UC002, UC007&#xa;&#xa;Build and maintain enterprise knowledge graphs with entities, relationships, and attributes" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="530" y="175" width="265" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-sub2" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;2.2 Ontology Management&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001, UC002&#xa;&#xa;Define and govern formal ontologies establishing common vocabularies and semantic relationships" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="810" y="175" width="215" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-sub3" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;2.3 Entity Resolution&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001, UC007&#xa;&#xa;Identify when different references represent the same entity and link them together" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="530" y="348" width="170" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-sub4" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;2.4 Relationship Modeling&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001, UC007&#xa;&#xa;Identify, classify, and model relationships between entities" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="710" y="348" width="145" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-sub5" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;2.5 Taxonomy &amp;amp; Classification&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001, UC002, UC004&#xa;&#xa;Organize knowledge into hierarchical categories" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="870" y="348" width="155" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-header" value="3. KNOWLEDGE STORAGE &amp; RETRIEVAL" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#5A1E58;strokeColor=#5A1E58;fontColor=#FFFFFF;fontStyle=1;fontSize=14;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="120" width="540" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub1" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;3.1 Vector Database&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001, UC002, UC007&#xa;&#xa;Store, index, and retrieve high-dimensional vector embeddings" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="175" width="170" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub2" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;3.2 Graph Database&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001, UC007&#xa;&#xa;Store and query graph-structured knowledge" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="175" width="170" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub3" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;3.3 Embedding Generation&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001, UC002, UC007&#xa;&#xa;Generate, version, and manage vector embeddings" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="175" width="180" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub4" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;3.4 Hybrid Storage&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001, UC004&#xa;&#xa;Combine multiple storage technologies optimally" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="348" width="160" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub5" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;3.5 Knowledge Versioning&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001&#xa;&#xa;Track changes over time and enable rollback" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1215" y="348" width="175" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap4-header" value="4. KNOWLEDGE ACCESS &amp; DELIVERY" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#5A1E58;strokeColor=#5A1E58;fontColor=#FFFFFF;fontStyle=1;fontSize=14;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="40" y="525" width="690" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap4-sub1" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;4.1 Semantic Search&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001, UC002, UC004, UC005&#xa;&#xa;Natural language search using semantic understanding" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="580" width="212" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="cap4-sub2" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;4.2 RAG (Retrieval Augmented Generation)&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001, UC002, UC005, UC007&#xa;&#xa;Ground LLM responses in enterprise knowledge" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="266.5" y="580" width="212" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="cap4-sub3" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;4.3 Knowledge APIs&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001, UC002, UC004, UC005&#xa;&#xa;Expose knowledge through well-designed APIs" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="491.5" y="583.5" width="238.5" height="143.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cap4-sub4" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;4.4 Context Assembly&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001, UC002, UC007&#xa;&#xa;Intelligently select and rank knowledge fragments" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="735" width="210" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="cap4-sub5" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;4.5 Multi-Modal Access&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001, UC007&#xa;&#xa;Access knowledge across text, images, audio, video" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="266.5" y="735" width="203.5" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-header" value="5. KNOWLEDGE GOVERNANCE &amp; QUALITY" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#5A1E58;strokeColor=#5A1E58;fontColor=#FFFFFF;fontStyle=1;fontSize=14;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="745" y="525" width="825" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-sub1" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;5.1 Knowledge Curation&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001, UC002, UC007&#xa;&#xa;Systematically review, validate, and improve quality" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="745" y="580" width="140" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-sub2" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;5.2 Data Quality Management&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001, UC002, UC004&#xa;&#xa;Measure and improve quality across all dimensions" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="900" y="580" width="145" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-sub3" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;5.3 Access Control&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001, UC002, UC004, UC005&#xa;&#xa;Secure knowledge through authentication and authorization" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="580" width="135" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-sub4" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;5.4 Compliance &amp;amp; Audit&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001, UC002, UC007&#xa;&#xa;Ensure regulatory compliance and comprehensive audit trails" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="580" width="150" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-sub5" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;5.5 Lifecycle Management&lt;/font&gt;&lt;/b&gt;&#xa;Priority: Low&#xa;Use Cases: UC001&#xa;&#xa;Manage knowledge from creation through retirement" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#AC8FAC;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1375" y="580" width="195" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="BNZ AI Platform - Knowledge Capability Area | Version 1.1 | October 2025 | Owner: Technology Strategy &amp;amp; Architecture" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#5A5A5A;fontFamily=Arial;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="630" y="850" width="935" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2" value="AI Use Cases" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="44" y="70" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

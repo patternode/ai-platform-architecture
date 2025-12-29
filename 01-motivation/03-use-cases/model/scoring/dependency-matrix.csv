@@ -1,0 +1,10 @@
+use_case_id,depends_on_uc,dependency_type,strength,notes
+UC-001,UC-009,data,strong,Requires data products for customer features
+UC-004,UC-009,data,strong,Requires data products for credit features
+UC-006,UC-001,feature,medium,Leverages partnership banking insights
+UC-006,UC-009,data,strong,Requires real-time customer features
+UC-011,UC-004,model,medium,Uses credit risk scoring outputs
+UC-011,UC-009,data,strong,Requires transaction data products
+UC-007,UC-001,feature,weak,Can use customer context from partnership
+UC-003,UC-009,data,strong,Built on data product foundation
+UC-002,UC-009,data,strong,Financial data products required

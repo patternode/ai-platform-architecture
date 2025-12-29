@@ -1,0 +1,9 @@
+use_case_id,use_case_name,benefit_type,year_1,year_2,year_3,npv_3yr,measurement_method,confidence,assumptions
+UC-001,Partnership Banking,Revenue,500000,1500000,2500000,3800000,CRM attribution,Medium,10% conversion improvement
+UC-001,Partnership Banking,Cost Reduction,100000,200000,250000,470000,Time tracking,High,30% prep time reduction
+UC-004,Credit Risk,Risk Reduction,1000000,2000000,3000000,5100000,Loss analysis,High,15% default reduction
+UC-004,Credit Risk,Cost Reduction,200000,400000,500000,940000,Process efficiency,High,40% faster decisions
+UC-006,HyperPersonalization,Revenue,300000,900000,1500000,2300000,Campaign attribution,Medium,15% conversion lift
+UC-009,Data Products,Cost Reduction,400000,800000,1000000,1880000,Engineering efficiency,High,50% faster data delivery
+UC-011,Fincrime,Risk Reduction,800000,1500000,2000000,3650000,Regulatory fines avoided,High,Compliance improvement
+UC-011,Fincrime,Cost Reduction,300000,500000,600000,1190000,Investigation efficiency,High,40% faster investigations

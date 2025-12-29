@@ -1,0 +1,705 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@base": "https://patternode.com/ontology/agentic-ai/",
+    "@vocab": "https://patternode.com/ontology/agentic-ai/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "schema": "http://schema.org/",
+    "arch": "https://patternode.com/ontology/architecture-patterns/",
+    "agentic": "https://patternode.com/ontology/agentic-ai/"
+  },
+  "@graph": [
+    {
+      "@id": "agentic:AgenticAIOntology",
+      "@type": "owl:Ontology",
+      "dcterms:title": "Agentic AI Ontology",
+      "dcterms:description": "A comprehensive formal ontology for defining agentic AI systems, frameworks, platforms, and their architectural patterns derived from enterprise analysis",
+      "dcterms:created": "2025-01-27",
+      "dcterms:creator": "Patternode Standards Initiative",
+      "owl:versionInfo": "1.0",
+      "owl:imports": "https://patternode.com/ontology/architecture-patterns/",
+      "dcterms:license": "https://creativecommons.org/licenses/by/4.0/",
+      "rdfs:seeAlso": "https://patternode.com/standards/agentic-ai/"
+    },
+    {
+      "@id": "agentic:AgenticArchitecturePattern",
+      "@type": "owl:Class",
+      "@rdfs:label": "Agentic Architecture Pattern",
+      "rdfs:comment": "An architecture pattern specifically designed for agentic AI systems, defining how AI agents are organized, coordinated, and deployed",
+      "rdfs:subClassOf": "arch:ArchitecturePattern"
+    },
+    {
+      "@id": "agentic:ChainBasedArchitecture",
+      "@type": "owl:Class",
+      "rdfs:label": "Chain-Based Architecture",
+      "rdfs:comment": "Sequential flow of linked operations with modular components, ideal for linear processing workflows",
+      "rdfs:subClassOf": "agentic:AgenticArchitecturePattern"
+    },
+    {
+      "@id": "agentic:GraphBasedArchitecture",
+      "@type": "owl:Class",
+      "rdfs:label": "Graph-Based Architecture",
+      "rdfs:comment": "Stateful directed graphs with explicit workflow control, supporting conditional branching and loops",
+      "rdfs:subClassOf": "agentic:AgenticArchitecturePattern"
+    },
+    {
+      "@id": "agentic:ConversationalArchitecture",
+      "@type": "owl:Class",
+      "rdfs:label": "Conversational Architecture",
+      "rdfs:comment": "Asynchronous, event-driven agent conversations enabling emergent collaboration",
+      "rdfs:subClassOf": "agentic:AgenticArchitecturePattern"
+    },
+    {
+      "@id": "agentic:RoleBasedArchitecture",
+      "@type": "owl:Class",
+      "rdfs:label": "Role-Based Architecture",
+      "rdfs:comment": "Specialized team members with defined roles and responsibilities",
+      "rdfs:subClassOf": "agentic:AgenticArchitecturePattern"
+    },
+    {
+      "@id": "agentic:ModelFirstArchitecture",
+      "@type": "owl:Class",
+      "rdfs:label": "Model-First Architecture",
+      "rdfs:comment": "Production-focused with LLM-driven autonomous reasoning and minimal orchestration code",
+      "rdfs:subClassOf": "agentic:AgenticArchitecturePattern"
+    },
+    {
+      "@id": "agentic:LightweightArchitecture",
+      "@type": "owl:Class",
+      "rdfs:label": "Lightweight Architecture",
+      "rdfs:comment": "Minimal primitives with explicit handoffs and simplicity over sophistication",
+      "rdfs:subClassOf": "agentic:AgenticArchitecturePattern"
+    },
+    {
+      "@id": "agentic:EnterpriseArchitecture",
+      "@type": "owl:Class",
+      "rdfs:label": "Enterprise Architecture",
+      "rdfs:comment": "Plugin-based with enterprise integration focus and structured patterns for enterprise complexity",
+      "rdfs:subClassOf": "agentic:AgenticArchitecturePattern"
+    },
+    {
+      "@id": "agentic:DataNativeArchitecture",
+      "@type": "owl:Class",
+      "rdfs:label": "Data-Native Architecture",
+      "rdfs:comment": "Agents operating directly within data platforms with data-centric workflows",
+      "rdfs:subClassOf": "agentic:AgenticArchitecturePattern"
+    },
+    {
+      "@id": "agentic:ConsultingLedArchitecture",
+      "@type": "owl:Class",
+      "rdfs:label": "Consulting-Led Architecture",
+      "rdfs:comment": "Enterprise-grade with comprehensive lifecycle management and professional services guidance",
+      "rdfs:subClassOf": "agentic:AgenticArchitecturePattern"
+    },
+    {
+      "@id": "agentic:AgenticFramework",
+      "@type": "owl:Class",
+      "rdfs:label": "Agentic Framework",
+      "rdfs:comment": "A software development framework specifically designed for building AI agent systems and workflows",
+      "rdfs:subClassOf": "schema:SoftwareApplication"
+    },
+    {
+      "@id": "agentic:LangChain",
+      "@type": "owl:Class",
+      "rdfs:label": "LangChain",
+      "rdfs:comment": "Modular, composable toolkit for LLM applications with extensive ecosystem support",
+      "rdfs:subClassOf": "agentic:AgenticFramework"
+    },
+    {
+      "@id": "agentic:LangGraph",
+      "@type": "owl:Class",
+      "rdfs:label": "LangGraph",
+      "rdfs:comment": "Stateful directed graphs for complex workflow control with enterprise-ready observability",
+      "rdfs:subClassOf": "agentic:AgenticFramework"
+    },
+    {
+      "@id": "agentic:AutoGen",
+      "@type": "owl:Class",
+      "rdfs:label": "AutoGen",
+      "rdfs:comment": "Asynchronous, event-driven agent conversations for emergent collaboration",
+      "rdfs:subClassOf": "agentic:AgenticFramework"
+    },
+    {
+      "@id": "agentic:CrewAI",
+      "@type": "owl:Class",
+      "rdfs:label": "CrewAI",
+      "rdfs:comment": "Specialized team members with defined roles for intuitive development",
+      "rdfs:subClassOf": "agentic:AgenticFramework"
+    },
+    {
+      "@id": "agentic:StrandsAgents",
+      "@type": "owl:Class",
+      "rdfs:label": "Strands Agents",
+      "rdfs:comment": "Production-focused with LLM-driven autonomous reasoning optimized for AWS",
+      "rdfs:subClassOf": "agentic:AgenticFramework"
+    },
+    {
+      "@id": "agentic:OpenAIAgentsSDK",
+      "@type": "owl:Class",
+      "rdfs:label": "OpenAI Agents SDK",
+      "rdfs:comment": "Minimal primitives with explicit handoffs for simple agent workflows",
+      "rdfs:subClassOf": "agentic:AgenticFramework"
+    },
+    {
+      "@id": "agentic:SemanticKernel",
+      "@type": "owl:Class",
+      "rdfs:label": "Microsoft Semantic Kernel",
+      "rdfs:comment": "Plugin-based with enterprise integration focus for Microsoft ecosystem",
+      "rdfs:subClassOf": "agentic:AgenticFramework"
+    },
+    {
+      "@id": "agentic:LlamaIndex",
+      "@type": "owl:Class",
+      "rdfs:label": "LlamaIndex",
+      "rdfs:comment": "Data orchestration framework for generative AI with advanced data integration",
+      "rdfs:subClassOf": "agentic:AgenticFramework"
+    },
+    {
+      "@id": "agentic:SnowflakeCortexAgents",
+      "@type": "owl:Class",
+      "rdfs:label": "Snowflake Cortex Agents",
+      "rdfs:comment": "Agents operating directly within data platforms for data-native operations",
+      "rdfs:subClassOf": "agentic:AgenticFramework"
+    },
+    {
+      "@id": "agentic:AccentureDistillerFramework",
+      "@type": "owl:Class",
+      "rdfs:label": "Accenture Distiller Framework",
+      "rdfs:comment": "Enterprise-grade with comprehensive lifecycle management and consulting support",
+      "rdfs:subClassOf": "agentic:AgenticFramework"
+    },
+    {
+      "@id": "agentic:AgenticPlatform",
+      "@type": "owl:Class",
+      "rdfs:label": "Agentic Platform",
+      "rdfs:comment": "A managed, cloud-based service providing secure, scalable infrastructure for production deployment of AI agents",
+      "rdfs:subClassOf": "schema:SoftwareApplication"
+    },
+    {
+      "@id": "agentic:AWSBedrockAgentCore",
+      "@type": "owl:Class",
+      "rdfs:label": "AWS Bedrock AgentCore",
+      "rdfs:comment": "Modular, composable service design with comprehensive components for AWS ecosystem",
+      "rdfs:subClassOf": "agentic:AgenticPlatform"
+    },
+    {
+      "@id": "agentic:DatabricksMosaicAI",
+      "@type": "owl:Class",
+      "rdfs:label": "Databricks Mosaic AI Agent Framework",
+      "rdfs:comment": "Integrated with Data Intelligence Platform for data-centric organizations",
+      "rdfs:subClassOf": "agentic:AgenticPlatform"
+    },
+    {
+      "@id": "agentic:AzureAIFoundry",
+      "@type": "owl:Class",
+      "rdfs:label": "Azure AI Foundry",
+      "rdfs:comment": "Enterprise-grade platform for professional developers and AI engineers",
+      "rdfs:subClassOf": "agentic:AgenticPlatform"
+    },
+    {
+      "@id": "agentic:MicrosoftCopilotStudio",
+      "@type": "owl:Class",
+      "rdfs:label": "Microsoft Copilot Studio",
+      "rdfs:comment": "Low-code platform for business users and citizen developers",
+      "rdfs:subClassOf": "agentic:AgenticPlatform"
+    },
+    {
+      "@id": "agentic:SalesforceAgentForce",
+      "@type": "owl:Class",
+      "rdfs:label": "Salesforce AgentForce",
+      "rdfs:comment": "CRM-centric platform with Atlas Reasoning Engine for Salesforce ecosystem",
+      "rdfs:subClassOf": "agentic:AgenticPlatform"
+    },
+    {
+      "@id": "agentic:SnowflakeCortexPlatform",
+      "@type": "owl:Class",
+      "rdfs:label": "Snowflake Cortex AI Platform",
+      "rdfs:comment": "Data-centric AI platform embedded within Snowflake's cloud data platform",
+      "rdfs:subClassOf": "agentic:AgenticPlatform"
+    },
+    {
+      "@id": "agentic:AccentureAIRefinery",
+      "@type": "owl:Class",
+      "rdfs:label": "Accenture AI Refinery™ Platform",
+      "rdfs:comment": "Enterprise-grade platform for building, deploying, and scaling advanced AI agents with consulting support",
+      "rdfs:subClassOf": "agentic:AgenticPlatform"
+    },
+    {
+      "@id": "agentic:AgentComponent",
+      "@type": "owl:Class",
+      "rdfs:label": "Agent Component",
+      "rdfs:comment": "A fundamental component within agentic AI systems that provides specific capabilities",
+      "rdfs:subClassOf": "arch:ArchitecturalComponent"
+    },
+    {
+      "@id": "agentic:AIAgent",
+      "@type": "owl:Class",
+      "rdfs:label": "AI Agent",
+      "rdfs:comment": "A dynamic entity capable of perceiving environment, reasoning, planning, and taking autonomous actions",
+      "rdfs:subClassOf": "agentic:AgentComponent"
+    },
+    {
+      "@id": "agentic:AgentOrchestrator",
+      "@type": "owl:Class",
+      "rdfs:label": "Agent Orchestrator",
+      "rdfs:comment": "Component responsible for coordinating and managing interactions between multiple agents",
+      "rdfs:subClassOf": "agentic:AgentComponent"
+    },
+    {
+      "@id": "agentic:MemoryManager",
+      "@type": "owl:Class",
+      "rdfs:label": "Memory Manager",
+      "rdfs:comment": "Component that handles storage and retrieval of agent state and knowledge",
+      "rdfs:subClassOf": "agentic:AgentComponent"
+    },
+    {
+      "@id": "agentic:ToolRegistry",
+      "@type": "owl:Class",
+      "rdfs:label": "Tool Registry",
+      "rdfs:comment": "Component that catalogs and manages available tools and external integrations",
+      "rdfs:subClassOf": "agentic:AgentComponent"
+    },
+    {
+      "@id": "agentic:ReasoningEngine",
+      "@type": "owl:Class",
+      "rdfs:label": "Reasoning Engine",
+      "rdfs:comment": "Component that provides decision-making and problem-solving capabilities",
+      "rdfs:subClassOf": "agentic:AgentComponent"
+    },
+    {
+      "@id": "agentic:AgenticConnector",
+      "@type": "owl:Class",
+      "rdfs:label": "Agentic Connector",
+      "rdfs:comment": "Specialized connector for agent-to-agent communication and coordination",
+      "rdfs:subClassOf": "arch:Connector"
+    },
+    {
+      "@id": "agentic:MessagePassing",
+      "@type": "owl:Class",
+      "rdfs:label": "Message Passing",
+      "rdfs:comment": "Communication mechanism enabling structured agent-to-agent message exchange",
+      "rdfs:subClassOf": "agentic:AgenticConnector"
+    },
+    {
+      "@id": "agentic:HandoffMechanism",
+      "@type": "owl:Class",
+      "rdfs:label": "Handoff Mechanism",
+      "rdfs:comment": "Connector enabling directed task delegation between agents",
+      "rdfs:subClassOf": "agentic:AgenticConnector"
+    },
+    {
+      "@id": "agentic:EventBus",
+      "@type": "owl:Class",
+      "rdfs:label": "Event Bus",
+      "rdfs:comment": "Asynchronous message distribution system for agent coordination",
+      "rdfs:subClassOf": "agentic:AgenticConnector"
+    },
+    {
+      "@id": "agentic:ModelContextProtocol",
+      "@type": "owl:Class",
+      "rdfs:label": "Model Context Protocol",
+      "rdfs:comment": "Standardized tool integration interface for agent-tool communication",
+      "rdfs:subClassOf": "agentic:AgenticConnector"
+    },
+    {
+      "@id": "agentic:AgenticQualityAttribute",
+      "@type": "owl:Class",
+      "rdfs:label": "Agentic Quality Attribute",
+      "rdfs:comment": "Quality attributes specific to agentic AI systems and their performance characteristics",
+      "rdfs:subClassOf": "arch:QualityAttribute"
+    },
+    {
+      "@id": "agentic:Autonomy",
+      "@type": "owl:Class",
+      "rdfs:label": "Autonomy",
+      "rdfs:comment": "The degree to which agents can operate independently without human intervention",
+      "rdfs:subClassOf": "agentic:AgenticQualityAttribute"
+    },
+    {
+      "@id": "agentic:Coordination",
+      "@type": "owl:Class",
+      "rdfs:label": "Coordination",
+      "rdfs:comment": "The effectiveness of multi-agent collaboration and workflow orchestration",
+      "rdfs:subClassOf": "agentic:AgenticQualityAttribute"
+    },
+    {
+      "@id": "agentic:Adaptability",
+      "@type": "owl:Class",
+      "rdfs:label": "Adaptability",
+      "rdfs:comment": "The ability of agents to adjust behavior based on changing conditions",
+      "rdfs:subClassOf": "agentic:AgenticQualityAttribute"
+    },
+    {
+      "@id": "agentic:Observability",
+      "@type": "owl:Class",
+      "rdfs:label": "Observability",
+      "rdfs:comment": "The ability to monitor, trace, and understand agent behavior and system state",
+      "rdfs:subClassOf": "agentic:AgenticQualityAttribute"
+    },
+    {
+      "@id": "agentic:Governance",
+      "@type": "owl:Class",
+      "rdfs:label": "Governance",
+      "rdfs:comment": "The enforcement of policies, compliance, and ethical operation of agents",
+      "rdfs:subClassOf": "agentic:AgenticQualityAttribute"
+    },
+    {
+      "@id": "agentic:DeliveryModel",
+      "@type": "owl:Class",
+      "rdfs:label": "Delivery Model",
+      "rdfs:comment": "Approach for delivering and implementing agentic AI solutions in organizations",
+      "rdfs:subClassOf": "schema:Intangible"
+    },
+    {
+      "@id": "agentic:OpenSourceDelivery",
+      "@type": ["owl:NamedIndividual", "agentic:DeliveryModel"],
+      "rdfs:label": "Open Source Delivery",
+      "rdfs:comment": "Delivery model based on open source frameworks with community support"
+    },
+    {
+      "@id": "agentic:ClosedSourceDelivery",
+      "@type": ["owl:NamedIndividual", "agentic:DeliveryModel"],
+      "rdfs:label": "Closed Source Delivery",
+      "rdfs:comment": "Delivery model based on proprietary platforms with vendor support"
+    },
+    {
+      "@id": "agentic:ConsultingSourceDelivery",
+      "@type": ["owl:NamedIndividual", "agentic:DeliveryModel"],
+      "rdfs:label": "Consulting Source Delivery",
+      "rdfs:comment": "Delivery model combining technology platforms with professional consulting services"
+    },
+    {
+      "@id": "agentic:UseCase",
+      "@type": "owl:Class",
+      "rdfs:label": "Use Case",
+      "rdfs:comment": "Specific application or scenario where agentic AI systems provide value",
+      "rdfs:subClassOf": "schema:Intangible"
+    },
+    {
+      "@id": "agentic:FinancialServices",
+      "@type": ["owl:NamedIndividual", "agentic:UseCase"],
+      "rdfs:label": "Financial Services",
+      "rdfs:comment": "Multi-agent investment research and financial analysis applications"
+    },
+    {
+      "@id": "agentic:Healthcare",
+      "@type": ["owl:NamedIndividual", "agentic:UseCase"],
+      "rdfs:label": "Healthcare",
+      "rdfs:comment": "Clinical decision support and medical workflow automation"
+    },
+    {
+      "@id": "agentic:Manufacturing",
+      "@type": ["owl:NamedIndividual", "agentic:UseCase"],
+      "rdfs:label": "Manufacturing",
+      "rdfs:comment": "Predictive maintenance and quality control using physical AI"
+    },
+    {
+      "@id": "agentic:BusinessIntelligence",
+      "@type": ["owl:NamedIndividual", "agentic:UseCase"],
+      "rdfs:label": "Business Intelligence",
+      "rdfs:comment": "Data-driven decision support and conversational BI interfaces"
+    },
+    {
+      "@id": "agentic:TargetAudience",
+      "@type": "owl:Class",
+      "rdfs:label": "Target Audience",
+      "rdfs:comment": "Specific groups or organizations that benefit from particular agentic AI solutions",
+      "rdfs:subClassOf": "schema:Audience"
+    },
+    {
+      "@id": "agentic:EnterpriseUsers",
+      "@type": ["owl:NamedIndividual", "agentic:TargetAudience"],
+      "rdfs:label": "Enterprise Users",
+      "rdfs:comment": "Large organizations requiring enterprise-grade governance and compliance"
+    },
+    {
+      "@id": "agentic:Developers",
+      "@type": ["owl:NamedIndividual", "agentic:TargetAudience"],
+      "rdfs:label": "Developers",
+      "rdfs:comment": "Software developers building custom agentic applications"
+    },
+    {
+      "@id": "agentic:BusinessUsers",
+      "@type": ["owl:NamedIndividual", "agentic:TargetAudience"],
+      "rdfs:label": "Business Users",
+      "rdfs:comment": "Business professionals and citizen developers using low-code platforms"
+    },
+    {
+      "@id": "agentic:DataScientists",
+      "@type": ["owl:NamedIndividual", "agentic:TargetAudience"],
+      "rdfs:label": "Data Scientists",
+      "rdfs:comment": "Data professionals working with data-centric agentic applications"
+    },
+    {
+      "@id": "agentic:implements",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "implements",
+      "rdfs:comment": "Indicates that a framework implements a specific agentic architecture pattern",
+      "rdfs:domain": "agentic:AgenticFramework",
+      "rdfs:range": "agentic:AgenticArchitecturePattern"
+    },
+    {
+      "@id": "agentic:supports",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "supports",
+      "rdfs:comment": "Indicates that a platform supports a specific framework",
+      "rdfs:domain": "agentic:AgenticPlatform",
+      "rdfs:range": "agentic:AgenticFramework"
+    },
+    {
+      "@id": "agentic:hasComponent",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "has component",
+      "rdfs:comment": "Indicates that an agentic system includes a specific agent component",
+      "rdfs:domain": ["agentic:AgenticFramework", "agentic:AgenticPlatform"],
+      "rdfs:range": "agentic:AgentComponent"
+    },
+    {
+      "@id": "agentic:usesConnector",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "uses connector",
+      "rdfs:comment": "Indicates that an agent component uses a specific connector",
+      "rdfs:domain": "agentic:AgentComponent",
+      "rdfs:range": "agentic:AgenticConnector"
+    },
+    {
+      "@id": "agentic:targetsAudience",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "targets audience",
+      "rdfs:comment": "Indicates that a framework or platform is designed for a specific target audience",
+      "rdfs:domain": ["agentic:AgenticFramework", "agentic:AgenticPlatform"],
+      "rdfs:range": "agentic:TargetAudience"
+    },
+    {
+      "@id": "agentic:suitableForUseCase",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "suitable for use case",
+      "rdfs:comment": "Indicates that a framework or platform is suitable for a specific use case",
+      "rdfs:domain": ["agentic:AgenticFramework", "agentic:AgenticPlatform"],
+      "rdfs:range": "agentic:UseCase"
+    },
+    {
+      "@id": "agentic:followsDeliveryModel",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "follows delivery model",
+      "rdfs:comment": "Indicates that a framework or platform follows a specific delivery model",
+      "rdfs:domain": ["agentic:AgenticFramework", "agentic:AgenticPlatform"],
+      "rdfs:range": "agentic:DeliveryModel"
+    },
+    {
+      "@id": "agentic:competsWith",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "competes with",
+      "rdfs:comment": "Indicates competitive relationship between frameworks or platforms",
+      "rdfs:domain": ["agentic:AgenticFramework", "agentic:AgenticPlatform"],
+      "rdfs:range": ["agentic:AgenticFramework", "agentic:AgenticPlatform"]
+    },
+    {
+      "@id": "agentic:complementsWith",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "complements with",
+      "rdfs:comment": "Indicates complementary relationship where systems work well together",
+      "rdfs:domain": ["agentic:AgenticFramework", "agentic:AgenticPlatform"],
+      "rdfs:range": ["agentic:AgenticFramework", "agentic:AgenticPlatform"]
+    },
+    {
+      "@id": "agentic:evolvesFrom",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "evolves from",
+      "rdfs:comment": "Indicates evolutionary relationship where one system evolved from another",
+      "rdfs:domain": ["agentic:AgenticFramework", "agentic:AgenticPlatform"],
+      "rdfs:range": ["agentic:AgenticFramework", "agentic:AgenticPlatform"]
+    },
+    {
+      "@id": "agentic:frameworkName",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "framework name",
+      "rdfs:comment": "The name of the agentic framework",
+      "rdfs:domain": "agentic:AgenticFramework",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "agentic:platformName",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "platform name",
+      "rdfs:comment": "The name of the agentic platform",
+      "rdfs:domain": "agentic:AgenticPlatform",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "agentic:architecturalParadigm",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "architectural paradigm",
+      "rdfs:comment": "The primary architectural paradigm implemented by the framework",
+      "rdfs:domain": "agentic:AgenticFramework",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "agentic:corePhilosophy",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "core philosophy",
+      "rdfs:comment": "The fundamental design philosophy or approach of the framework",
+      "rdfs:domain": "agentic:AgenticFramework",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "agentic:multiAgentSupport",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "multi-agent support",
+      "rdfs:comment": "Whether the framework supports multi-agent coordination",
+      "rdfs:domain": "agentic:AgenticFramework",
+      "rdfs:range": "xsd:boolean"
+    },
+    {
+      "@id": "agentic:memoryManagement",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "memory management",
+      "rdfs:comment": "Description of memory management capabilities",
+      "rdfs:domain": ["agentic:AgenticFramework", "agentic:AgenticPlatform"],
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "agentic:languageSupport",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "language support",
+      "rdfs:comment": "Programming languages supported by the framework",
+      "rdfs:domain": "agentic:AgenticFramework",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "agentic:productionReadiness",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "production readiness",
+      "rdfs:comment": "Assessment of production readiness and maturity",
+      "rdfs:domain": ["agentic:AgenticFramework", "agentic:AgenticPlatform"],
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "agentic:keyDifferentiator",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "key differentiator",
+      "rdfs:comment": "Primary distinguishing feature or capability",
+      "rdfs:domain": ["agentic:AgenticFramework", "agentic:AgenticPlatform"],
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "agentic:strengths",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "strengths",
+      "rdfs:comment": "Key strengths and advantages of the framework or platform",
+      "rdfs:domain": ["agentic:AgenticFramework", "agentic:AgenticPlatform"],
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "agentic:limitations",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "limitations",
+      "rdfs:comment": "Known limitations or constraints of the framework or platform",
+      "rdfs:domain": ["agentic:AgenticFramework", "agentic:AgenticPlatform"],
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "agentic:bestUseCases",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "best use cases",
+      "rdfs:comment": "Scenarios where the framework or platform performs optimally",
+      "rdfs:domain": ["agentic:AgenticFramework", "agentic:AgenticPlatform"],
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "agentic:enterpriseConsiderations",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "enterprise considerations",
+      "rdfs:comment": "Factors important for enterprise adoption and deployment",
+      "rdfs:domain": ["agentic:AgenticFramework", "agentic:AgenticPlatform"],
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "agentic:primaryFocus",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "primary focus",
+      "rdfs:comment": "The main area of focus or specialization of the platform",
+      "rdfs:domain": "agentic:AgenticPlatform",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "agentic:coreIntegration",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "core integration",
+      "rdfs:comment": "Primary systems or services the platform integrates with",
+      "rdfs:domain": "agentic:AgenticPlatform",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "agentic:securityModel",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "security model",
+      "rdfs:comment": "Security approach and features provided by the platform",
+      "rdfs:domain": "agentic:AgenticPlatform",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "agentic:targetUseCase",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "target use case",
+      "rdfs:comment": "Primary use cases the platform is designed to address",
+      "rdfs:domain": "agentic:AgenticPlatform",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "agentic:coordinationModel",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "coordination model",
+      "rdfs:comment": "How agents are coordinated within the architectural pattern",
+      "rdfs:domain": "agentic:AgenticArchitecturePattern",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "agentic:stateManagement",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "state management",
+      "rdfs:comment": "How state is managed within the architectural pattern",
+      "rdfs:domain": "agentic:AgenticArchitecturePattern",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "agentic:complexityHandling",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "complexity handling",
+      "rdfs:comment": "How the pattern handles complex scenarios and workflows",
+      "rdfs:domain": "agentic:AgenticArchitecturePattern",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "agentic:timeToValue",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "time to value",
+      "rdfs:comment": "Expected time to achieve value with the delivery model",
+      "rdfs:domain": "agentic:DeliveryModel",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "agentic:scalingCharacteristics",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "scaling characteristics",
+      "rdfs:comment": "How the delivery model scales with organizational growth",
+      "rdfs:domain": "agentic:DeliveryModel",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "agentic:totalCostOfOwnership",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "total cost of ownership",
+      "rdfs:comment": "Overall cost considerations for the delivery model",
+      "rdfs:domain": "agentic:DeliveryModel",
+      "rdfs:range": "xsd:string"
+    }
+  ]
+}
+
+

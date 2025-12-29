@@ -1,0 +1,42 @@
+Element_ID,Element_Name,Element_Type,Stereotype,Parent_Category,Level,Hierarchy_Path
+cust-001,Customers,Container,Grouping,Root,1,Customers
+pr-001,Party Reference,Container,Grouping,Customers,2,Customers > Party Reference
+pr-002,Legal Entity Directory,ServiceDomain,ServiceDomain,Party Reference,3,Customers > Party Reference > Legal Entity Directory
+pr-003,Party Reference Data Directory,ServiceDomain,ServiceDomain,Party Reference,3,Customers > Party Reference > Party Reference Data Directory
+pr-004,Location Data Management,ServiceDomain,ServiceDomain,Party Reference,3,Customers > Party Reference > Location Data Management
+is-001,Investment Services,Container,Grouping,Customers,2,Customers > Investment Services
+is-002,Consumer Investments,ServiceDomain,ServiceDomain,Investment Services,3,Customers > Investment Services > Consumer Investments
+is-003,eTrading Workbench,ServiceDomain,ServiceDomain,Investment Services,3,Customers > Investment Services > eTrading Workbench
+is-004,Investment Portfolio Planning,ServiceDomain,ServiceDomain,Investment Services,3,Customers > Investment Services > Investment Portfolio Planning
+is-005,Investment Portfolio Analysis,ServiceDomain,ServiceDomain,Investment Services,3,Customers > Investment Services > Investment Portfolio Analysis
+is-006,Investment Portfolio Management,ServiceDomain,ServiceDomain,Investment Services,3,Customers > Investment Services > Investment Portfolio Management
+rm-001,Relationship Management,Container,Grouping,Customers,2,Customers > Relationship Management
+rm-002,Customer Relationship Management,ServiceDomain,ServiceDomain,Relationship Management,3,Customers > Relationship Management > Customer Relationship Management
+rm-003,Customer Behavior Insights,ServiceDomain,ServiceDomain,Relationship Management,3,Customers > Relationship Management > Customer Behavior Insights
+rm-004,Customer Credit Rating,ServiceDomain,ServiceDomain,Relationship Management,3,Customers > Relationship Management > Customer Credit Rating
+rm-005,Customer Agreement,ServiceDomain,ServiceDomain,Relationship Management,3,Customers > Relationship Management > Customer Agreement
+rm-006,Sales Product Agreement,ServiceDomain,ServiceDomain,Relationship Management,3,Customers > Relationship Management > Sales Product Agreement
+rm-007,Customer Product and Service Eligibility,ServiceDomain,ServiceDomain,Relationship Management,3,Customers > Relationship Management > Customer Product and Service Eligibility
+rm-008,Customer Proposition,ServiceDomain,ServiceDomain,Relationship Management,3,Customers > Relationship Management > Customer Proposition
+rm-009,Customer Event History,ServiceDomain,ServiceDomain,Relationship Management,3,Customers > Relationship Management > Customer Event History
+rm-010,Customer Product and Service Relationship,ServiceDomain,ServiceDomain,Relationship Management,3,Customers > Relationship Management > Customer Product and Service Relationship
+rm-011,Loan Syndication,ServiceDomain,ServiceDomain,Relationship Management,3,Customers > Relationship Management > Loan Syndication
+rm-012,Party Authentication,ServiceDomain,ServiceDomain,Relationship Management,3,Customers > Relationship Management > Party Authentication
+rm-013,Customer Financial Insights,ServiceDomain,ServiceDomain,Relationship Management,3,Customers > Relationship Management > Customer Financial Insights
+cust2-001,Customers,Container,Grouping,Root,1,Customers
+sales-001,Sales,Container,Grouping,Customers,2,Customers > Sales
+sales-002,Customer Campaign Execution,ServiceDomain,ServiceDomain,Sales,3,Customers > Sales > Customer Campaign Execution
+sales-003,Lead and Opportunity Management,ServiceDomain,ServiceDomain,Sales,3,Customers > Sales > Lead and Opportunity Management
+sales-004,Prospect Campaign Execution,ServiceDomain,ServiceDomain,Sales,3,Customers > Sales > Prospect Campaign Execution
+sales-005,Party Lifecycle Management,ServiceDomain,ServiceDomain,Sales,3,Customers > Sales > Party Lifecycle Management
+sales-006,Product Sales Support,ServiceDomain,ServiceDomain,Sales,3,Customers > Sales > Product Sales Support
+sales-007,Product Expert Sales Support,ServiceDomain,ServiceDomain,Sales,3,Customers > Sales > Product Expert Sales Support
+sales-008,Product Matching,ServiceDomain,ServiceDomain,Sales,3,Customers > Sales > Product Matching
+sales-009,Customer Offer,ServiceDomain,ServiceDomain,Sales,3,Customers > Sales > Customer Offer
+sales-010,Special Pricing Conditions,ServiceDomain,ServiceDomain,Sales,3,Customers > Sales > Special Pricing Conditions
+cc-001,Customer Care,Container,Grouping,Customers,2,Customers > Customer Care
+cc-002,Servicing Mandate,ServiceDomain,ServiceDomain,Customer Care,3,Customers > Customer Care > Servicing Mandate
+cc-003,Servicing Order,ServiceDomain,ServiceDomain,Customer Care,3,Customers > Customer Care > Servicing Order
+cc-004,Customer Case Management,ServiceDomain,ServiceDomain,Customer Care,3,Customers > Customer Care > Customer Case Management
+cc-005,Customer Case,ServiceDomain,ServiceDomain,Customer Care,3,Customers > Customer Care > Customer Case
+cc-006,Card Case,ServiceDomain,ServiceDomain,Customer Care,3,Customers > Customer Care > Card Case

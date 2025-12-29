@@ -1,0 +1,41 @@
+Element_ID,Element_Name,Element_Type,Stereotype,Parent_Category,Level,Hierarchy_Path
+chan-001,Channels,Container,Grouping,Root,1,Channels
+ip-001,Information Providers,Container,Grouping,Channels,2,Channels > Information Providers
+ip-002,Public Reference Data Management,ServiceDomain,ServiceDomain,Information Providers,3,Channels > Information Providers > Public Reference Data Management
+ip-003,Financial Instrument Reference Data Management,ServiceDomain,ServiceDomain,Information Providers,3,Channels > Information Providers > Financial Instrument Reference Data Management
+ip-004,Financial Market Research,ServiceDomain,ServiceDomain,Information Providers,3,Channels > Information Providers > Financial Market Research
+ip-005,Competitor Analysis,ServiceDomain,ServiceDomain,Information Providers,3,Channels > Information Providers > Competitor Analysis
+ip-006,Financial Market Analysis,ServiceDomain,ServiceDomain,Information Providers,3,Channels > Information Providers > Financial Market Analysis
+ip-007,Market Information Management,ServiceDomain,ServiceDomain,Information Providers,3,Channels > Information Providers > Market Information Management
+ip-008,Market Data Switch Operation,ServiceDomain,ServiceDomain,Information Providers,3,Channels > Information Providers > Market Data Switch Operation
+ip-009,Information Provider Operation,ServiceDomain,ServiceDomain,Information Providers,3,Channels > Information Providers > Information Provider Operation
+xc-001,Cross Channel,Container,Grouping,Channels,2,Channels > Cross Channel
+xc-002,Customer Workbench,ServiceDomain,ServiceDomain,Cross Channel,3,Channels > Cross Channel > Customer Workbench
+xc-003,Contact Handler,ServiceDomain,ServiceDomain,Cross Channel,3,Channels > Cross Channel > Contact Handler
+xc-004,Session Dialogue,ServiceDomain,ServiceDomain,Cross Channel,3,Channels > Cross Channel > Session Dialogue
+xc-005,Party Routing Profile,ServiceDomain,ServiceDomain,Cross Channel,3,Channels > Cross Channel > Party Routing Profile
+xc-006,User Authentication,ServiceDomain,ServiceDomain,Cross Channel,3,Channels > Cross Channel > User Authentication
+xc-007,Customer Access Entitlement,ServiceDomain,ServiceDomain,Cross Channel,3,Channels > Cross Channel > Customer Access Entitlement
+xc-008,Transaction Authorization,ServiceDomain,ServiceDomain,Cross Channel,3,Channels > Cross Channel > Transaction Authorization
+xc-009,Channel Activity History,ServiceDomain,ServiceDomain,Cross Channel,3,Channels > Cross Channel > Channel Activity History
+xc-010,Processing Order,ServiceDomain,ServiceDomain,Cross Channel,3,Channels > Cross Channel > Processing Order
+chan2-001,Channels,Container,Grouping,Root,1,Channels
+cs-001,Channel Specific,Container,Grouping,Channels,2,Channels > Channel Specific
+cs-002,ATM Network Operations,ServiceDomain,ServiceDomain,Channel Specific,3,Channels > Channel Specific > ATM Network Operations
+cs-003,Branch Location Operations,ServiceDomain,ServiceDomain,Channel Specific,3,Channels > Channel Specific > Branch Location Operations
+cs-004,Advanced Voice Services Operations,ServiceDomain,ServiceDomain,Channel Specific,3,Channels > Channel Specific > Advanced Voice Services Operations
+cs-005,eBranch Operations,ServiceDomain,ServiceDomain,Channel Specific,3,Channels > Channel Specific > eBranch Operations
+cs-006,Financial Gateway,ServiceDomain,ServiceDomain,Channel Specific,3,Channels > Channel Specific > Financial Gateway
+cs-007,Card Terminal Administration,ServiceDomain,ServiceDomain,Channel Specific,3,Channels > Channel Specific > Card Terminal Administration
+cs-008,Card Terminal Operation,ServiceDomain,ServiceDomain,Channel Specific,3,Channels > Channel Specific > Card Terminal Operation
+serv-001,Servicing,Container,Grouping,Channels,2,Channels > Servicing
+serv-002,Service Directory,ServiceDomain,ServiceDomain,Servicing,3,Channels > Servicing > Service Directory
+serv-003,Contact Center Operations,ServiceDomain,ServiceDomain,Servicing,3,Channels > Servicing > Contact Center Operations
+serv-004,Point of Service,ServiceDomain,ServiceDomain,Servicing,3,Channels > Servicing > Point of Service
+serv-005,Interactive Help,ServiceDomain,ServiceDomain,Servicing,3,Channels > Servicing > Interactive Help
+serv-006,Servicing Issue,ServiceDomain,ServiceDomain,Servicing,3,Channels > Servicing > Servicing Issue
+serv-007,Servicing Event History,ServiceDomain,ServiceDomain,Servicing,3,Channels > Servicing > Servicing Event History
+dist-001,Distribution,Container,Grouping,Channels,2,Channels > Distribution
+dist-002,Product Inventory Distribution,ServiceDomain,ServiceDomain,Distribution,3,Channels > Distribution > Product Inventory Distribution
+dist-003,Branch Currency Distribution,ServiceDomain,ServiceDomain,Distribution,3,Channels > Distribution > Branch Currency Distribution
+dist-004,Correspondence,ServiceDomain,ServiceDomain,Distribution,3,Channels > Distribution > Correspondence

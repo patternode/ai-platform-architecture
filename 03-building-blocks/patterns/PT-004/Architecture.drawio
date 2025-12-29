@@ -1,0 +1,296 @@
+<mxfile host="app.diagrams.net" modified="2025-12-05T00:00:00.000Z" agent="Claude Code" version="24.0.0">
+  <diagram name="PT-004-Explainability-Architecture" id="pt004-arch">
+    <mxGraphModel dx="2400" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1800" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="PT-004: ML Model Explainability - Architecture Overview" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=28;fontFamily=Helvetica;fontStyle=1;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="2300" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Subtitle -->
+        <mxCell id="subtitle" value="Pattern Category: Governance | Version: 1.0.0 | Status: Approved" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="50" y="110" width="2300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Pattern Boundary Container -->
+        <mxCell id="pattern-boundary" value="ML Model Explainability Pattern Boundary" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00A651;strokeWidth=3;fillColor=none;fontSize=16;fontFamily=Helvetica;fontStyle=1;fontColor=#00A651;dashed=1;dashPattern=8 8;align=left;verticalAlign=top;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="2200" height="1400" as="geometry" />
+        </mxCell>
+
+        <!-- External ML Model Prediction Service (Outside Pattern) -->
+        <mxCell id="ml-model-service" value="ML Model&#xa;Prediction Service&#xa;&#xa;(XGBoost, LightGBM,&#xa;Neural Network)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;strokeWidth=2;fillColor=#E6F0FF;fontSize=14;fontFamily=Helvetica;fontStyle=1;fontColor=#003087;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="240" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Explainability Engine (Core Component) -->
+        <mxCell id="explainability-engine" value="&lt;b&gt;AB-063&lt;/b&gt;&#xa;ML Model Explainability Engine&#xa;&#xa;• SHAP Explainers&#xa;  - TreeExplainer (XGBoost/RF)&#xa;  - KernelExplainer (Black-box)&#xa;  - LinearExplainer (Logistic Reg)&#xa;• LIME Explainer&#xa;• Explanation Selection Logic" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00A651;strokeWidth=3;fillColor=#E6F5EC;fontSize=13;fontFamily=Helvetica;fontStyle=0;fontColor=#003087;align=left;verticalAlign=top;spacing=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="580" y="240" width="340" height="200" as="geometry" />
+        </mxCell>
+
+        <!-- Model Registry -->
+        <mxCell id="model-registry" value="&lt;b&gt;AB-073&lt;/b&gt;&#xa;Model Registry&#xa;&#xa;• Model Artifacts&#xa;• Feature Schemas&#xa;• Explainer Config" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00A651;strokeWidth=2;fillColor=#E6F5EC;fontSize=13;fontFamily=Helvetica;fontStyle=0;fontColor=#003087;align=left;verticalAlign=top;spacing=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="500" width="240" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Counterfactual Generator -->
+        <mxCell id="counterfactual-gen" value="&lt;b&gt;AB-065&lt;/b&gt;&#xa;Counterfactual&#xa;Generator&#xa;&#xa;• DiCE Engine&#xa;• Alibi Engine&#xa;• What-If Scenarios" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00A651;strokeWidth=2;fillColor=#E6F5EC;fontSize=13;fontFamily=Helvetica;fontStyle=0;fontColor=#003087;align=left;verticalAlign=top;spacing=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="580" y="500" width="340" height="160" as="geometry" />
+        </mxCell>
+
+        <!-- Explanation Store - Hot Storage -->
+        <mxCell id="explanation-store-hot" value="&lt;b&gt;AB-064&lt;/b&gt;&#xa;Explanation Store&#xa;(Hot Storage)&#xa;&#xa;• PostgreSQL / DynamoDB&#xa;• Last 90 days&#xa;• Fast retrieval&#xa;• SHAP values (JSONB)&#xa;• Narratives&#xa;• Counterfactuals" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00A651;strokeWidth=3;fillColor=#E6F5EC;fontSize=13;fontFamily=Helvetica;fontStyle=0;fontColor=#003087;align=left;verticalAlign=top;spacing=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="240" width="300" height="200" as="geometry" />
+        </mxCell>
+
+        <!-- Explanation Store - Cold Storage -->
+        <mxCell id="explanation-store-cold" value="&lt;b&gt;AB-064&lt;/b&gt;&#xa;Explanation Store&#xa;(Cold Storage)&#xa;&#xa;• S3 Glacier / Amazon S3&#xa;• 7+ years retention&#xa;• Regulatory compliance&#xa;• Immutable audit trail" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00A651;strokeWidth=2;fillColor=#E6F5EC;fontSize=13;fontFamily=Helvetica;fontStyle=0;fontColor=#003087;align=left;verticalAlign=top;spacing=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="500" width="300" height="160" as="geometry" />
+        </mxCell>
+
+        <!-- Visualization Layer -->
+        <mxCell id="visualization-layer" value="&lt;b&gt;AB-128&lt;/b&gt;&#xa;Explanation Visualization Layer&#xa;&#xa;• SHAP Waterfall Plots&#xa;• Force Plots&#xa;• Feature Importance Charts&#xa;• Beeswarm Plots&#xa;• Decision Path Diagrams&#xa;• PDF Report Generator" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00A651;strokeWidth=3;fillColor=#E6F5EC;fontSize=13;fontFamily=Helvetica;fontStyle=0;fontColor=#003087;align=left;verticalAlign=top;spacing=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="240" width="340" height="200" as="geometry" />
+        </mxCell>
+
+        <!-- NLG Engine -->
+        <mxCell id="nlg-engine" value="&lt;b&gt;AB-094&lt;/b&gt;&#xa;Natural Language&#xa;Generation Engine&#xa;&#xa;• Template-based NLG&#xa;• LLM-based (GPT-4)&#xa;• SHAP → Plain English&#xa;• Audience-specific" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00A651;strokeWidth=2;fillColor=#E6F5EC;fontSize=13;fontFamily=Helvetica;fontStyle=0;fontColor=#003087;align=left;verticalAlign=top;spacing=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="500" width="340" height="160" as="geometry" />
+        </mxCell>
+
+        <!-- Fairness Monitoring Engine -->
+        <mxCell id="fairness-monitor" value="&lt;b&gt;AB-046&lt;/b&gt;&#xa;Fairness Monitoring&#xa;Engine&#xa;&#xa;• Demographic Analysis&#xa;• Bias Detection&#xa;• Disparity Reports" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00A651;strokeWidth=2;fillColor=#E6F5EC;fontSize=13;fontFamily=Helvetica;fontStyle=0;fontColor=#003087;align=left;verticalAlign=top;spacing=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="740" width="300" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- AI Governance Platform -->
+        <mxCell id="governance-platform" value="&lt;b&gt;AB-060&lt;/b&gt;&#xa;AI Governance Platform&#xa;&#xa;• Quality Metrics&#xa;• Compliance Attestations&#xa;• Model Risk Management" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;strokeWidth=2;fillColor=#E6F0FF;fontSize=13;fontFamily=Helvetica;fontStyle=0;fontColor=#003087;align=left;verticalAlign=top;spacing=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="740" width="240" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Observability Platform -->
+        <mxCell id="observability-platform" value="&lt;b&gt;AB-096&lt;/b&gt;&#xa;Observability Platform&#xa;&#xa;• Latency Monitoring&#xa;• Error Rate Tracking&#xa;• Storage Growth" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;strokeWidth=2;fillColor=#E6F0FF;fontSize=13;fontFamily=Helvetica;fontStyle=0;fontColor=#003087;align=left;verticalAlign=top;spacing=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="580" y="740" width="340" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- User Interfaces (Outside Pattern) -->
+        <mxCell id="customer-portal" value="Customer Portal&#xa;&#xa;• Explanation View&#xa;• Adverse Action Notice&#xa;• Appeal Request" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#50E6FF;strokeWidth=2;fillColor=#E6F9FF;fontSize=13;fontFamily=Helvetica;fontStyle=1;fontColor=#003087;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="240" width="260" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="regulator-portal" value="Regulator Portal&#xa;&#xa;• Compliance Reports&#xa;• Audit Trail Access&#xa;• SAR Explanations" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#50E6FF;strokeWidth=2;fillColor=#E6F9FF;fontSize=13;fontFamily=Helvetica;fontStyle=1;fontColor=#003087;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="390" width="260" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="internal-dashboard" value="Internal Dashboard&#xa;&#xa;• Model Monitoring&#xa;• Drift Detection&#xa;• Feature Importance" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#50E6FF;strokeWidth=2;fillColor=#E6F9FF;fontSize=13;fontFamily=Helvetica;fontStyle=1;fontColor=#003087;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="540" width="260" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Data Flows / Arrows -->
+
+        <!-- ML Model to Explainability Engine -->
+        <mxCell id="arrow-model-to-engine" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=3;endArrow=classic;endFill=1;" edge="1" parent="1" source="ml-model-service" target="explainability-engine">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-model-to-engine-label" value="Prediction + Features&#xa;(JSON/Avro)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontFamily=Helvetica;fontColor=#FF6B35;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="310" width="140" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Model Registry to Explainability Engine -->
+        <mxCell id="arrow-registry-to-engine" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="model-registry" target="explainability-engine">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-registry-to-engine-label" value="Model Metadata&#xa;Explainer Config" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="470" y="460" width="110" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Explainability Engine to Hot Storage -->
+        <mxCell id="arrow-engine-to-hot" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=3;endArrow=classic;endFill=1;" edge="1" parent="1" source="explainability-engine" target="explanation-store-hot">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-engine-to-hot-label" value="SHAP Values&#xa;Base Value&#xa;Metadata" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontFamily=Helvetica;fontColor=#FF6B35;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="300" width="100" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Explainability Engine to Counterfactual Generator -->
+        <mxCell id="arrow-engine-to-cf" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00A651;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="explainability-engine" target="counterfactual-gen">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-engine-to-cf-label" value="SHAP Values +&#xa;Feature Vector" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=#00A651;" vertex="1" parent="1">
+          <mxGeometry x="720" y="450" width="100" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Counterfactual to Hot Storage -->
+        <mxCell id="arrow-cf-to-hot" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00A651;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="counterfactual-gen" target="explanation-store-hot">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-cf-to-hot-label" value="Counterfactuals&#xa;(JSON Array)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=#00A651;" vertex="1" parent="1">
+          <mxGeometry x="930" y="540" width="100" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Hot Storage to Cold Storage -->
+        <mxCell id="arrow-hot-to-cold" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="explanation-store-hot" target="explanation-store-cold">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-hot-to-cold-label" value="Archive&#xa;(after 90 days)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="450" width="90" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Hot Storage to Visualization Layer -->
+        <mxCell id="arrow-hot-to-viz" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=3;endArrow=classic;endFill=1;" edge="1" parent="1" source="explanation-store-hot" target="visualization-layer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-hot-to-viz-label" value="Retrieve&#xa;Explanations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontFamily=Helvetica;fontColor=#FF6B35;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="300" width="100" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Visualization Layer to NLG Engine -->
+        <mxCell id="arrow-viz-to-nlg" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00A651;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="visualization-layer" target="nlg-engine">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-viz-to-nlg-label" value="SHAP Values +&#xa;Metadata" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=#00A651;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="450" width="100" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Visualization to Customer Portal -->
+        <mxCell id="arrow-viz-to-customer" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#50E6FF;strokeWidth=3;endArrow=classic;endFill=1;" edge="1" parent="1" source="visualization-layer" target="customer-portal">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-viz-to-customer-label" value="Charts +&#xa;Plots" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontFamily=Helvetica;fontColor=#50E6FF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="260" width="80" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- NLG to Regulator Portal -->
+        <mxCell id="arrow-nlg-to-regulator" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#50E6FF;strokeWidth=3;endArrow=classic;endFill=1;" edge="1" parent="1" source="nlg-engine" target="regulator-portal">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-nlg-to-regulator-label" value="Compliance&#xa;Narratives" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontFamily=Helvetica;fontColor=#50E6FF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="420" width="90" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Visualization to Internal Dashboard -->
+        <mxCell id="arrow-viz-to-dashboard" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#50E6FF;strokeWidth=3;endArrow=classic;endFill=1;" edge="1" parent="1" source="visualization-layer" target="internal-dashboard">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-viz-to-dashboard-label" value="Feature&#xa;Importance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontFamily=Helvetica;fontColor=#50E6FF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="560" width="90" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Hot Storage to Fairness Monitor -->
+        <mxCell id="arrow-hot-to-fairness" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="explanation-store-hot" target="fairness-monitor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-hot-to-fairness-label" value="Aggregate by&#xa;Demographics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="660" width="100" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Explainability Engine to Observability -->
+        <mxCell id="arrow-engine-to-obs" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="explainability-engine" target="observability-platform">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-engine-to-obs-label" value="Metrics&#xa;(latency, errors)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="720" y="680" width="100" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Fairness Monitor to Governance -->
+        <mxCell id="arrow-fairness-to-gov" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="fairness-monitor" target="governance-platform">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-fairness-to-gov-label" value="Bias Reports&#xa;Attestations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="450" y="800" width="100" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Explanation Types Box -->
+        <mxCell id="explanation-types-box" value="&lt;b&gt;Explanation Types&lt;/b&gt;&#xa;&#xa;• Global Feature Importance&#xa;• Local Feature Contribution&#xa;• Counterfactual Scenarios&#xa;• Example-Based Explanations" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6B35;strokeWidth=2;fillColor=#FFF4F0;fontSize=12;fontFamily=Helvetica;fontStyle=0;fontColor=#003087;align=left;verticalAlign=top;spacing=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1000" width="340" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- SHAP Explainers Box -->
+        <mxCell id="shap-explainers-box" value="&lt;b&gt;SHAP Explainer Selection&lt;/b&gt;&#xa;&#xa;• TreeExplainer: XGBoost/RF (&lt;10ms)&#xa;• KernelExplainer: Black-box (200-500ms)&#xa;• LinearExplainer: Linear models (&lt;1ms)&#xa;• DeepExplainer: Neural nets (50-200ms)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6B35;strokeWidth=2;fillColor=#FFF4F0;fontSize=12;fontFamily=Helvetica;fontStyle=0;fontColor=#003087;align=left;verticalAlign=top;spacing=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1000" width="340" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Storage Retention Box -->
+        <mxCell id="storage-retention-box" value="&lt;b&gt;Storage Retention&lt;/b&gt;&#xa;&#xa;• Hot (PostgreSQL): 90 days - Fast retrieval&#xa;• Cold (S3 Glacier): 7+ years - Compliance&#xa;• Immutable audit trail&#xa;• Regulatory requirement" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6B35;strokeWidth=2;fillColor=#FFF4F0;fontSize=12;fontFamily=Helvetica;fontStyle=0;fontColor=#003087;align=left;verticalAlign=top;spacing=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1000" width="300" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Compliance Box -->
+        <mxCell id="compliance-box" value="&lt;b&gt;Regulatory Compliance&lt;/b&gt;&#xa;&#xa;• GDPR Article 22: Right to explanation&#xa;• RBNZ Model Risk Management&#xa;• AML/CFT Act (NZ): SAR explanations&#xa;• Fair Lending (ECOA): Adverse actions" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6B35;strokeWidth=2;fillColor=#FFF4F0;fontSize=12;fontFamily=Helvetica;fontStyle=0;fontColor=#003087;align=left;verticalAlign=top;spacing=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1000" width="340" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Use Cases Box -->
+        <mxCell id="use-cases-box" value="&lt;b&gt;Primary Use Cases&lt;/b&gt;&#xa;&#xa;• UC-004: Credit Risk Assessment&#xa;• UC-011: Fincrime (AML Detection)&#xa;• UC-013: Fraud Operations&#xa;• UC-014: Customer Onboarding&#xa;• UC-021: Wholesale Underwriting" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6B35;strokeWidth=2;fillColor=#FFF4F0;fontSize=12;fontFamily=Helvetica;fontStyle=0;fontColor=#003087;align=left;verticalAlign=top;spacing=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1000" width="340" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;strokeWidth=2;fillColor=#FFFFFF;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="1300" width="350" height="240" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-title" value="&lt;b&gt;Legend&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=14;fontFamily=Helvetica;fontStyle=1;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1310" width="310" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Legend Items -->
+        <mxCell id="legend-abb-primary" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00A651;strokeWidth=3;fillColor=#E6F5EC;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1350" width="40" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-abb-primary-text" value="Primary ABB (Governance)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="1350" width="250" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-abb-supporting" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00A651;strokeWidth=2;fillColor=#E6F5EC;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1385" width="40" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-abb-supporting-text" value="Supporting ABB" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="1385" width="250" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-cross-cutting" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;strokeWidth=2;fillColor=#E6F0FF;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1420" width="40" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-cross-cutting-text" value="Cross-Cutting ABB" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="1420" width="250" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-external" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#50E6FF;strokeWidth=2;fillColor=#E6F9FF;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1455" width="40" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-external-text" value="External Interface / UI" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="1455" width="250" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-primary-flow" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#FF6B35;strokeWidth=3;endArrow=classic;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1920" y="1497" as="sourcePoint" />
+            <mxPoint x="1960" y="1497" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-primary-flow-text" value="Primary Data Flow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="1485" width="250" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-secondary-flow" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#003087;strokeWidth=2;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1920" y="1520" as="sourcePoint" />
+            <mxPoint x="1960" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-secondary-flow-text" value="Metadata / Control Flow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="1508" width="250" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Footer -->
+        <mxCell id="footer" value="BNZ AI Platform Architecture | Pattern: PT-004 ML Model Explainability | Category: Governance | Mandatory for Financial Services (2025)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1620" width="2200" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

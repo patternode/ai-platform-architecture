@@ -1,0 +1,112 @@
+<mxfile host="65bd71144e">
+    <diagram name="BIAN Finance And Risk Management ArchiMate" id="bian-finance-risk-archimate">
+        <mxGraphModel dx="779" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="210" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="main-container" value="Finance And Risk Management" style="swimlane;startSize=25;fillColor=#b3b3b3;strokeColor=#666666;fontSize=12;fontStyle=1;fontColor=#000000;swimlaneFillColor=#cccccc;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="10" width="1480" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="fc-container" value="Financial Control" style="swimlane;startSize=20;fillColor=#808080;strokeColor=#666666;fontSize=10;fontStyle=1;fontColor=#ffffff;swimlaneFillColor=#999999;" parent="main-container" vertex="1">
+                    <mxGeometry x="10" y="35" width="415" height="145" as="geometry"/>
+                </mxCell>
+                <mxCell id="fc-1" value="Financial Control" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="fc-container" vertex="1">
+                    <mxGeometry x="10" y="30" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="fc-2" value="Company Billing and Payments" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="fc-container" vertex="1">
+                    <mxGeometry x="215" y="30" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="fc-3" value="Financial Compliance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="fc-container" vertex="1">
+                    <mxGeometry x="10" y="65" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="fc-4" value="Approved Supplier Directory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="fc-container" vertex="1">
+                    <mxGeometry x="215" y="65" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="fc-5" value="Financial Statements" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="fc-container" vertex="1">
+                    <mxGeometry x="10" y="100" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="fc-6" value="Enterprise Tax Administration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="fc-container" vertex="1">
+                    <mxGeometry x="215" y="100" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="or-container" value="Operational Risk" style="swimlane;startSize=20;fillColor=#808080;strokeColor=#666666;fontSize=10;fontStyle=1;fontColor=#ffffff;swimlaneFillColor=#999999;" parent="main-container" vertex="1">
+                    <mxGeometry x="435" y="35" width="200" height="145" as="geometry"/>
+                </mxCell>
+                <mxCell id="or-1" value="Business Risk Models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="or-container" vertex="1">
+                    <mxGeometry x="10" y="30" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="or-2" value="Operational Risk Models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="or-container" vertex="1">
+                    <mxGeometry x="10" y="65" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="or-3" value="Production Risk Models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="or-container" vertex="1">
+                    <mxGeometry x="10" y="100" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="gt-container" value="Group Treasury" style="swimlane;startSize=20;fillColor=#808080;strokeColor=#666666;fontSize=10;fontStyle=1;fontColor=#ffffff;swimlaneFillColor=#999999;" parent="main-container" vertex="1">
+                    <mxGeometry x="645" y="35" width="210" height="205" as="geometry"/>
+                </mxCell>
+                <mxCell id="gt-1" value="Corporate Treasury" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="gt-container" vertex="1">
+                    <mxGeometry x="10" y="30" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="gt-2" value="Corporate Treasury Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="gt-container" vertex="1">
+                    <mxGeometry x="10" y="65" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="gt-3" value="Bank Portfolio Administration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="gt-container" vertex="1">
+                    <mxGeometry x="10" y="100" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="gt-4" value="Bank Portfolio Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="gt-container" vertex="1">
+                    <mxGeometry x="10" y="135" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="gt-5" value="Asset Securitization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="gt-container" vertex="1">
+                    <mxGeometry x="10" y="170" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="mr-container" value="Market Risk" style="swimlane;startSize=20;fillColor=#808080;strokeColor=#666666;fontSize=10;fontStyle=1;fontColor=#ffffff;swimlaneFillColor=#999999;" parent="main-container" vertex="1">
+                    <mxGeometry x="865" y="35" width="210" height="205" as="geometry"/>
+                </mxCell>
+                <mxCell id="mr-1" value="Credit Risk Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="mr-container" vertex="1">
+                    <mxGeometry x="10" y="30" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="mr-2" value="Gap Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="mr-container" vertex="1">
+                    <mxGeometry x="10" y="65" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="mr-3" value="Limit and Exposure Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="mr-container" vertex="1">
+                    <mxGeometry x="10" y="100" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="mr-4" value="Position Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="mr-container" vertex="1">
+                    <mxGeometry x="10" y="135" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="mr-5" value="Economic Capital" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="mr-container" vertex="1">
+                    <mxGeometry x="10" y="170" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="cr-container" value="Credit Risk" style="swimlane;startSize=20;fillColor=#808080;strokeColor=#666666;fontSize=10;fontStyle=1;fontColor=#ffffff;swimlaneFillColor=#999999;" parent="main-container" vertex="1">
+                    <mxGeometry x="1085" y="35" width="200" height="205" as="geometry"/>
+                </mxCell>
+                <mxCell id="cr-1" value="Credit Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="cr-container" vertex="1">
+                    <mxGeometry x="10" y="30" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="cr-2" value="Counterparty Risk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="cr-container" vertex="1">
+                    <mxGeometry x="10" y="65" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="cr-3" value="Fraud Resolution" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="cr-container" vertex="1">
+                    <mxGeometry x="10" y="100" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="comp-container" value="Compliance" style="swimlane;startSize=20;fillColor=#808080;strokeColor=#666666;fontSize=10;fontStyle=1;fontColor=#ffffff;swimlaneFillColor=#999999;" parent="main-container" vertex="1">
+                    <mxGeometry x="1295" y="35" width="175" height="205" as="geometry"/>
+                </mxCell>
+                <mxCell id="comp-1" value="Regulatory and Legal Authority" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="comp-container" vertex="1">
+                    <mxGeometry x="10" y="30" width="155" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="comp-2" value="Regulatory Compliance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="comp-container" vertex="1">
+                    <mxGeometry x="10" y="65" width="155" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="comp-3" value="Regulatory Reporting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="comp-container" vertex="1">
+                    <mxGeometry x="10" y="100" width="155" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="comp-4" value="Guideline Compliance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="comp-container" vertex="1">
+                    <mxGeometry x="10" y="135" width="155" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="comp-5" value="Compliance Reporting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="comp-container" vertex="1">
+                    <mxGeometry x="10" y="170" width="155" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

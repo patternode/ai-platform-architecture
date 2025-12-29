@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Operations 2" id="operations-2">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Main Container: Operations 2 -->
+        <mxCell id="ops2-001" value="Operations 2" style="swimlane;startSize=30;fillColor=#b3e5fc;strokeColor=#666666;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="610" height="630" as="geometry" />
+        </mxCell>
+        
+        <!-- Operational Services Container -->
+        <mxCell id="os-001" value="Operational Services" style="swimlane;startSize=30;fillColor=#808080;strokeColor=#666666;fontColor=#ffffff;fontStyle=1;" vertex="1" parent="ops2-001">
+          <mxGeometry x="10" y="40" width="590" height="300" as="geometry" />
+        </mxCell>
+        
+        <!-- Operational Services Service Domains - Left Column -->
+        <mxCell id="os-002" value="Customer Billing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="os-001">
+          <mxGeometry x="10" y="40" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="os-003" value="Disbursement" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="os-001">
+          <mxGeometry x="10" y="80" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="os-004" value="Open Item Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="os-001">
+          <mxGeometry x="10" y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="os-005" value="Delinquent Account Handling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="os-001">
+          <mxGeometry x="10" y="160" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="os-006" value="Card Collections" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="os-001">
+          <mxGeometry x="10" y="200" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="os-007" value="Term Deposit Framework Agreement" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="os-001">
+          <mxGeometry x="10" y="240" width="280" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Operational Services Service Domains - Right Column -->
+        <mxCell id="os-008" value="Product Combination" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="os-001">
+          <mxGeometry x="300" y="40" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="os-009" value="Reward Points Awards And Redemption" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="os-001">
+          <mxGeometry x="300" y="80" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="os-010" value="Issued Device Administration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="os-001">
+          <mxGeometry x="300" y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="os-011" value="Issued Device Tracking" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="os-001">
+          <mxGeometry x="300" y="160" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="os-012" value="Card Transaction Switch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="os-001">
+          <mxGeometry x="300" y="200" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="os-013" value="Internal Bank Account" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="os-001">
+          <mxGeometry x="300" y="240" width="280" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- External Agency Container -->
+        <mxCell id="ea-001" value="External Agency" style="swimlane;startSize=30;fillColor=#808080;strokeColor=#666666;fontColor=#ffffff;fontStyle=1;" vertex="1" parent="ops2-001">
+          <mxGeometry x="10" y="350" width="590" height="260" as="geometry" />
+        </mxCell>
+        
+        <!-- External Agency Service Domains - Left Column -->
+        <mxCell id="ea-002" value="Interbank Relationship Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="ea-001">
+          <mxGeometry x="10" y="40" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ea-003" value="Correspondent Bank Relationship Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="ea-001">
+          <mxGeometry x="10" y="80" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ea-004" value="Syndicate Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="ea-001">
+          <mxGeometry x="10" y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ea-005" value="Product Service Agency" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="ea-001">
+          <mxGeometry x="10" y="160" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ea-006" value="Service Provider Operations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="ea-001">
+          <mxGeometry x="10" y="200" width="280" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- External Agency Service Domains - Right Column -->
+        <mxCell id="ea-007" value="Product Broker Agreement" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="ea-001">
+          <mxGeometry x="300" y="40" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ea-008" value="Sub Custodian Agreement" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="ea-001">
+          <mxGeometry x="300" y="80" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ea-009" value="Commission Agreement" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="ea-001">
+          <mxGeometry x="300" y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ea-010" value="Contractor and Supplier Agreement" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="ea-001">
+          <mxGeometry x="300" y="160" width="280" height="30" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,120 @@
+<mxfile host="app.diagrams.net" modified="2025-11-28T00:00:00.000Z" agent="GitHub Copilot" version="22.1.0" etag="ABB-APP-001-DataFlow-BNZ" type="device">
+  <diagram id="ABB-APP-001-DataFlow" name="Gane-Sarson Data Flow Diagram">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Title -->
+        <mxCell id="title" value="ABB-APP-001: Agentic AI Agent - Data Flow Diagram" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="460" y="40" width="1000" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- External Entities -->
+        <mxCell id="entity-user" value="End User" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#666666;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="200" y="300" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="entity-llm" value="Foundation Model" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#666666;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="entity-tools" value="External Tools" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#666666;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="700" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Processes -->
+        <mxCell id="process1" value="1.0&lt;br&gt;&lt;b&gt;Parse Input&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#333333;strokeWidth=2;fontSize=12;fontColor=#FFFFFF;fontFamily=Helvetica;arcSize=15;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="180" height="120" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="process2" value="2.0&lt;br&gt;&lt;b&gt;Analyze Intent&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#333333;strokeWidth=2;fontSize=12;fontColor=#FFFFFF;fontFamily=Helvetica;arcSize=15;" vertex="1" parent="1">
+          <mxGeometry x="780" y="280" width="180" height="120" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="process3" value="3.0&lt;br&gt;&lt;b&gt;Generate Plan&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#333333;strokeWidth=2;fontSize=12;fontColor=#FFFFFF;fontFamily=Helvetica;arcSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="280" width="180" height="120" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="process4" value="4.0&lt;br&gt;&lt;b&gt;Execute Actions&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#333333;strokeWidth=2;fontSize=12;fontColor=#FFFFFF;fontFamily=Helvetica;arcSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="480" width="180" height="120" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="process5" value="5.0&lt;br&gt;&lt;b&gt;Format Response&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#333333;strokeWidth=2;fontSize=12;fontColor=#FFFFFF;fontFamily=Helvetica;arcSize=15;" vertex="1" parent="1">
+          <mxGeometry x="780" y="480" width="180" height="120" as="geometry" />
+        </mxCell>
+        
+        <!-- Data Stores -->
+        <mxCell id="store-context" value="D1: Conversation Context" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=2;fontSize=12;fontColor=#333333;fontFamily=Helvetica;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="150" width="260" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="store-memory" value="D2: Agent Memory" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=2;fontSize=12;fontColor=#333333;fontFamily=Helvetica;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="150" width="260" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="store-knowledge" value="D3: Knowledge Base" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=2;fontSize=12;fontColor=#333333;fontFamily=Helvetica;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="340" width="260" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Data Flows -->
+        <mxCell id="flow1" value="User Query" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;fontSize=11;fontColor=#333333;fontFamily=Helvetica;" edge="1" parent="1" source="entity-user" target="process1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="flow2" value="Parsed Request" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;fontSize=11;fontColor=#333333;fontFamily=Helvetica;" edge="1" parent="1" source="process1" target="process2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="flow3" value="Intent" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;fontSize=11;fontColor=#333333;fontFamily=Helvetica;" edge="1" parent="1" source="process2" target="process3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="flow4" value="Plan" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;fontSize=11;fontColor=#333333;fontFamily=Helvetica;" edge="1" parent="1" source="process3" target="process4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="flow5" value="Results" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;fontSize=11;fontColor=#333333;fontFamily=Helvetica;" edge="1" parent="1" source="process4" target="process5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="flow6" value="Response" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;fontSize=11;fontColor=#333333;fontFamily=Helvetica;" edge="1" parent="1" source="process5" target="entity-user">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="flow7" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=2;dashed=1;dashPattern=5 5;" edge="1" parent="1" source="process2" target="store-context">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="flow8" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=2;dashed=1;dashPattern=5 5;" edge="1" parent="1" source="store-context" target="process3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="flow9" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=2;dashed=1;dashPattern=5 5;" edge="1" parent="1" source="process3" target="store-memory">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="flow10" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=2;dashed=1;dashPattern=5 5;" edge="1" parent="1" source="process4" target="store-knowledge">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="flow11" value="LLM Request" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=2;fontSize=11;fontColor=#333333;fontFamily=Helvetica;" edge="1" parent="1" source="process3" target="entity-llm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="flow12" value="Tool Call" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=2;fontSize=11;fontColor=#333333;fontFamily=Helvetica;" edge="1" parent="1" source="process4" target="entity-tools">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Notation -->
+        <mxCell id="notation" value="Notation: Gane-Sarson DFD | ABB-APP-001 v1.0.0 | BNZ Enterprise Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="1020" width="480" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

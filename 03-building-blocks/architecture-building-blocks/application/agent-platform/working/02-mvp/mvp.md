@@ -1,0 +1,1 @@
+See [TechCouncil #2](01-strategy\technology-alignment\nab-alignment\tech-council-02\Agenda 2_AgenticAI Platform & Guardrails.pdf).

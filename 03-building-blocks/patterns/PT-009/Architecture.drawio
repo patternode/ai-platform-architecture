@@ -1,0 +1,313 @@
+<mxfile host="app.diagrams.net" modified="2025-12-05T00:00:00.000Z" agent="Claude Code" version="24.0.0">
+  <diagram name="PT-009-Architecture" id="architecture-overview">
+    <mxGraphModel dx="2400" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="PT-009: Real-Time ML Scoring - Architecture Overview" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;fontStyle=1;fontFamily=Calibri;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="2300" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Pattern Boundary Container -->
+        <mxCell id="pattern-boundary" value="Real-Time ML Scoring Pattern Boundary" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#003087;strokeWidth=3;dashed=1;dashPattern=8 8;fontSize=16;fontFamily=Calibri;fontColor=#003087;align=left;verticalAlign=top;spacingLeft=20;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="100" y="150" width="2200" height="1350" as="geometry" />
+        </mxCell>
+
+        <!-- External Application (Left Side) -->
+        <mxCell id="external-app" value="Application&#xa;(Client Request)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=14;fontFamily=Calibri;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="180" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Event/Request Ingestion -->
+        <mxCell id="event-ingestion" value="Event Ingestion&#xa;&amp; Validation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=14;fontFamily=Calibri;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="600" width="180" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Feature Engineering Pipeline -->
+        <mxCell id="feature-engineering" value="Feature Engineering Pipeline&#xa;(AB-048)&#xa;&#xa;• Real-time computation&#xa;• Feature transformation&#xa;• Latency: &lt;5ms" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=13;fontFamily=Calibri;fontColor=#000000;align=left;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="500" y="550" width="240" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Online Feature Store -->
+        <mxCell id="online-feature-store" value="Online Feature Store&#xa;(AB-047)&#xa;&#xa;• Redis/Feast&#xa;• &lt;10ms retrieval&#xa;• User profiles&#xa;• Precomputed aggregates" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=13;fontFamily=Calibri;fontColor=#000000;align=left;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="500" y="780" width="240" height="160" as="geometry" />
+        </mxCell>
+
+        <!-- Prediction Cache -->
+        <mxCell id="prediction-cache" value="Prediction Cache&#xa;(AB-024)&#xa;&#xa;• Redis&#xa;• Cache hit: 30-50%&#xa;• TTL: 5-60 min&#xa;• Key: hash(model, features)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#FF6B35;strokeWidth=2;fontSize=13;fontFamily=Calibri;fontColor=#000000;align=left;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="900" y="400" width="240" height="160" as="geometry" />
+        </mxCell>
+
+        <!-- Model Serving Infrastructure -->
+        <mxCell id="model-serving" value="Model Serving Infrastructure&#xa;(AB-082)&#xa;&#xa;• TensorFlow Serving / Triton&#xa;• gRPC protocol&#xa;• Inference: &lt;100ms (p99)&#xa;• Auto-scaling&#xa;• Load balancing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=13;fontFamily=Calibri;fontColor=#FFFFFF;align=left;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="900" y="730" width="240" height="180" as="geometry" />
+        </mxCell>
+
+        <!-- Model Fallback Logic -->
+        <mxCell id="fallback-logic" value="Model Fallback Logic&#xa;(AB-083)&#xa;&#xa;• Rule-based engine&#xa;• Circuit breaker&#xa;• Default decisions&#xa;• Graceful degradation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#FF6B35;strokeWidth=2;fontSize=13;fontFamily=Calibri;fontColor=#000000;align=left;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="900" y="990" width="240" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Response/Decision -->
+        <mxCell id="response-decision" value="Response&#xa;(Decision/Score)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=14;fontFamily=Calibri;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="600" width="180" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Cross-Cutting Concerns Section -->
+        <mxCell id="cross-cutting-label" value="Cross-Cutting Concerns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Calibri;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="250" width="600" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Observability Platform -->
+        <mxCell id="observability" value="Observability Platform&#xa;(AB-096)&#xa;&#xa;• Latency monitoring (p50/p95/p99)&#xa;• Feature staleness tracking&#xa;• Cache hit rate metrics&#xa;• Distributed tracing&#xa;• Alerting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCF5E1;strokeColor=#00A651;strokeWidth=2;fontSize=12;fontFamily=Calibri;fontColor=#000000;align=left;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="300" width="280" height="180" as="geometry" />
+        </mxCell>
+
+        <!-- AI Governance Platform -->
+        <mxCell id="governance" value="AI Governance Platform&#xa;(AB-060)&#xa;&#xa;• Compliance monitoring&#xa;• Audit trail&#xa;• Model registry&#xa;• Risk management&#xa;• Policy enforcement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCF5E1;strokeColor=#00A651;strokeWidth=2;fontSize=12;fontFamily=Calibri;fontColor=#000000;align=left;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="300" width="280" height="180" as="geometry" />
+        </mxCell>
+
+        <!-- Security & Identity -->
+        <mxCell id="security" value="Security &amp; Identity&#xa;(AB-112)&#xa;&#xa;• Authentication / Authorization&#xa;• API key management&#xa;• Encryption (TLS/at-rest)&#xa;• Data protection&#xa;• PII handling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCF5E1;strokeColor=#00A651;strokeWidth=2;fontSize=12;fontFamily=Calibri;fontColor=#000000;align=left;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="520" width="280" height="180" as="geometry" />
+        </mxCell>
+
+        <!-- Audit Log / Data Lake -->
+        <mxCell id="audit-log" value="Prediction Audit Log&#xa;(Data Lake)&#xa;&#xa;• All predictions logged&#xa;• Parquet / Delta Lake&#xa;• 7-year retention&#xa;• Lineage tracking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=12;fontFamily=Calibri;fontColor=#000000;align=left;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="520" width="280" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Offline Feature Store (Supporting) -->
+        <mxCell id="offline-feature-store" value="Offline Feature Store&#xa;(AB-049)&#xa;&#xa;• Historical features&#xa;• Training datasets&#xa;• Point-in-time correctness" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#003087;strokeWidth=2;dashed=1;fontSize=12;fontFamily=Calibri;fontColor=#003087;align=left;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="750" width="280" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Stream Processing (Optional) -->
+        <mxCell id="stream-processing" value="Stream Processing&#xa;(AB-126)&#xa;&#xa;• Kafka / Flink&#xa;• High-throughput (&gt;10K TPS)&#xa;• Event-driven features" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#003087;strokeWidth=2;dashed=1;fontSize=12;fontFamily=Calibri;fontColor=#003087;align=left;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="750" width="280" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Latency Annotation -->
+        <mxCell id="latency-box" value="End-to-End Latency Target: &lt;200-300ms&#xa;&#xa;Breakdown:&#xa;• Event ingestion: &lt;5ms&#xa;• Feature retrieval: &lt;10ms&#xa;• Model inference: &lt;100ms (p99)&#xa;• Network/overhead: ~85-185ms" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4E6;strokeColor=#FF6B35;strokeWidth=2;fontSize=12;fontFamily=Calibri;fontColor=#000000;align=left;spacingLeft=10;spacingTop=5;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="920" width="600" height="180" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows - Request Flow -->
+        <mxCell id="arrow1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="external-app" target="event-ingestion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1-label" value="1. Request&#xa;(REST/gRPC)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Calibri;fontColor=#003087;fontStyle=1;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow1">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="10" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=3;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="event-ingestion" target="feature-engineering">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2-label" value="2. Event Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Calibri;fontColor=#003087;fontStyle=1;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow2">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="10" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#50E6FF;strokeWidth=3;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="feature-engineering" target="online-feature-store">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow3-label" value="3. Retrieve Features&#xa;&lt;10ms" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Calibri;fontColor=#003087;fontStyle=1;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow3">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="40" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=3;endArrow=block;endFill=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="feature-engineering" target="prediction-cache">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="592" />
+              <mxPoint x="800" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow4-label" value="4. Check Cache" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Calibri;fontColor=#003087;fontStyle=1;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow4">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=3;endArrow=block;endFill=1;dashed=1;dashPattern=5 5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="prediction-cache" target="model-serving">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow5-label" value="5. Cache MISS&#xa;→ Inference" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Calibri;fontColor=#FF6B35;fontStyle=1;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow5">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="40" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#50E6FF;strokeWidth=3;endArrow=block;endFill=1;exitX=1;exitY=0.7;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;" edge="1" parent="1" source="online-feature-store" target="model-serving">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="892" />
+              <mxPoint x="800" y="784" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow6-label" value="6. Feature Vector" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Calibri;fontColor=#003087;fontStyle=1;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow6">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="10" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=3;endArrow=block;endFill=1;dashed=1;dashPattern=5 5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="model-serving" target="fallback-logic">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow7-label" value="On Failure&#xa;→ Fallback" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Calibri;fontColor=#FF6B35;fontStyle=1;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow7">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="35" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=3;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="model-serving" target="response-decision">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="820" />
+              <mxPoint x="1200" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow8-label" value="7. Prediction&#xa;Score + Decision" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Calibri;fontColor=#003087;fontStyle=1;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow8">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="20" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00A651;strokeWidth=2;endArrow=block;endFill=1;dashed=1;dashPattern=3 3;exitX=1;exitY=0.2;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="model-serving" target="observability">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1500" y="766" />
+              <mxPoint x="1500" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow9-label" value="Metrics" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Calibri;fontColor=#00A651;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow9">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="10" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00A651;strokeWidth=2;endArrow=block;endFill=1;dashed=1;dashPattern=3 3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="model-serving" target="audit-log">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1500" y="820" />
+              <mxPoint x="1500" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow10-label" value="Audit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Calibri;fontColor=#00A651;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow10">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="10" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00A651;strokeWidth=3;endArrow=block;endFill=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="prediction-cache" target="response-decision">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="448" />
+              <mxPoint x="1200" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow11-label" value="Cache HIT&#xa;→ Return cached" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Calibri;fontColor=#00A651;fontStyle=1;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow11">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="20" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#50E6FF;strokeWidth=2;endArrow=block;endFill=1;dashed=1;dashPattern=3 3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="online-feature-store" target="offline-feature-store">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="970" />
+              <mxPoint x="1400" y="970" />
+              <mxPoint x="1400" y="720" />
+              <mxPoint x="1740" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow12-label" value="Sync features" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Calibri;fontColor=#003087;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow12">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="30" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Cache store arrow -->
+        <mxCell id="arrow13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=2;endArrow=block;endFill=1;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="model-serving" target="prediction-cache">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow13-label" value="Store prediction" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Calibri;fontColor=#FF6B35;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow13">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="-50" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="legend-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;fontSize=12;fontFamily=Calibri;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="1200" width="380" height="270" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontFamily=Calibri;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1210" width="100" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Legend items -->
+        <mxCell id="legend-item1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-label1" value="Application / Core Processing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Calibri;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="1250" width="270" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-item2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-label2" value="Data / Feature Storage" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Calibri;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="1290" width="270" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-item3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#FF6B35;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-label3" value="Cache / Optimization" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Calibri;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="1330" width="270" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-item4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCF5E1;strokeColor=#00A651;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-label4" value="Cross-Cutting Concerns" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Calibri;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="1370" width="270" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-item5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#003087;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-label5" value="Optional / Supporting Components" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Calibri;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="1410" width="270" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow legend -->
+        <mxCell id="legend-arrow1" value="" style="endArrow=block;html=1;strokeColor=#003087;strokeWidth=3;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1920" y="1455" as="sourcePoint" />
+            <mxPoint x="1980" y="1455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-arrow1-label" value="Synchronous Request Flow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Calibri;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="1445" width="270" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

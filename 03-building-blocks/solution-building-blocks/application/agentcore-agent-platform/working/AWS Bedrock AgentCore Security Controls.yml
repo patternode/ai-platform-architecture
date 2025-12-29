@@ -1,0 +1,137 @@
+---
+# AWS Bedrock AgentCore Security Controls
+# Version: Version 1.0 - November 2025
+# Technology: AWS Bedrock AgentCore
+
+controls:
+- section: Bedrock AgentCore
+  sub_section: Governance & Compliance
+  trax_mitigation_id: AWSBAC-MI-01
+  configuration_recommendation: Ensure only AWS Bedrock AgentCore agent runtime and Identity are enabled
+  benchmark: "During the cloud service enablement process, all cloud services are assessed and approved before they can be used in our organisation.\\n\\nAgent runtime and Identity features are the only in scope features.\\n\\nMemory, Gateways and Built-in Tools are not within endorsed use-cases. "
+  nab_setting: "AWSBAC-GV01A\\nSCP MUST only allow Bedrock AgentCore Agent runtime and Identity features"
+  deviation: N
+  remediation_procedure: "CPS TEAM\\nRemediate from AWS CLI:\\n1. Identify the Organization root ID\\naws organizations list-roots --query \"Roots[0].Id\" --output text\\n\\n2. Create a JSON file with deny code interpreter creation\\n{   \"Version\": \"2012-10-17\",   \"Statement\": [     {      \"Sid\": \"DenyBedrockAgentCoreFeatures\",       \"Effect\": \"Deny\",       \"Action\": [ \"bedrock-agentcore:CreateCodeInterpreter\" ], \"Resource\": [ \"*\" ] } ] }\\n\\n3. Create the SCP\\naws organizations create-policy --content file://DenyBedrockAgentCoreFeaturesSCP.json --description \"Deny Bedrock AgentCore features\" --name \"DenyBedrockAgentCoreFeatures\" --type SERVICE_CONTROL_POLICY\\n\\n4. Attach the SCP to the root\\naws organizations attach-policy --policy-id <PolicyId> --target-id <RootId>"
+  nab_criticality: High
+  girp_section: "Compliance\\n2.1: Assessing compliance"
+  notes_comments: Memory, Gateway and Built-in tools deemed out of scope
+
+- section: Bedrock AgentCore
+  sub_section: Governance & Compliance
+  trax_mitigation_id: AWSBAC-MI-02
+  configuration_recommendation: Ensure AWS Bedrock AgentCore usage is restricted to only approved teams
+  benchmark: The Bedrock AgentCore service use cases are restricted and only applicable to the ADA team. This control ensures the service is used only by ADA team for functionality and must not be leveraged by any other teams.
+  nab_setting: "AWSBRA-GV04A\\nSCP MUST restrict Bedrock AgentCore usage to only endorsed accounts"
+  deviation: N
+  remediation_procedure: "CPS TEAM\\nRemediate from AWS CLI:\\n1. Get the current policy content and save it to a file\\naws organizations describe-policy  --policy-id p-123456  --query \"Policy.Content\" --output text > my-scp-to-fix.json\\n2. Remove any additional non-endorsed accounts from the allowed list.\\n3. Apply the updated policy\\naws organizations update-policy  --policy-id p-123456 --content file://my-scp-to-fix.json\\n "
+  nab_criticality: High
+  girp_section: "Compliance\\n2.1: Assessing compliance"
+  notes_comments: As the service is still undergoing major change as per AWS's guidance and this will be updated in 3-4 weeks. As there is limited ability to restrict public access to the service, it is strongly suggested to restrict usage to only endorsed teams until that change has been made Generally Available.
+
+- section: Bedrock AgentCore
+  sub_section: Governance & Compliance
+  trax_mitigation_id: AWSBAC-MI-03
+  configuration_recommendation: Ensure AWS Bedrock AgentCore resources are deployed in only authorised regions.
+  benchmark: Cloud services are restricted to ensure data is stored and processed within the authorised regions only in accordance with relevant geographical region's data sovereignty guidelines.
+  nab_setting: "AWSBAC-CP01A\\nSCP MUST restrict the creation of Bedrock AgentCore resources to endorsed regions"
+  deviation: N
+  remediation_procedure: "CPS TEAM\\nRemediate from AWS CLI:\\n1. Get the Organization root ID\\naws organizations list-roots --query \"Roots[0].Id\" --output text\\nRetrieve the Organization root ID for policy attachment\\n\\n2. Save the SCP JSON with approved region list\\nN/A - File creation\\nCreate RegionRestrictionSCP.json with your approved region list\\n\\n3. Create the SCP\\naws organizations create-policy --content file://RegionRestrictionSCP.json --description \"Restrict resource creation to authorized regions only\" --name \"RestrictRegions\" --type SERVICE_CONTROL_POLICY\\nCreate Service Control Policy to restrict AWS services to authorized regions\\n\\n4. Attach the SCP to the Organization root\\naws organizations attach-policy --policy-id <PolicyId> --target-id <RootId>\\nApply the region restriction policy to the Organization root"
+  nab_criticality: High
+  girp_section: "Compliance\\n2.1: Assessing compliance"
+  notes_comments: ''
+
+- section: Bedrock AgentCore
+  sub_section: Identity & Access Management
+  trax_mitigation_id: AWSBAC-MI-04
+  configuration_recommendation: Ensure Bedrock AgentCore access follows least privilege principle
+  benchmark: "Access rights and responsibilities are limited to the minimum necessary for individuals to perform their job functions (Principle of Least Privilege).\\n\\nData Plane and Control Plane MUST be separated wherever practical.\\n\\nControl Plane MUST be reserved for pre-defined provisioning roles.\\n\\nControl Plane Operations:\\nâ¦\tcreate-agent-runtime\\nâ¦\tcreate-agent-runtime-endpoint\\nâ¦\tcreate-api-key-credential-provider\\nâ¦\tcreate-browser\\nâ¦\tcreate-oauth2-credential-provider\\nâ¦\tcreate-workload-identity\\nâ¦\tdelete-agent-runtime\\nâ¦\tdelete-agent-runtime-endpoint\\nâ¦\tdelete-api-key-credential-provider\\nâ¦\tdelete-browser\\nâ¦\tdelete-oauth2-credential-provider\\nâ¦\tdelete-workload-identity\\nâ¦\tget-agent-runtime\\nâ¦\tget-agent-runtime-endpoint\\nâ¦\tget-api-key-credential-provider\\nâ¦\tget-browser\\nâ¦\tget-oauth2-credential-provider\\nâ¦\tget-token-vault\\nâ¦\tget-workload-identity\\nâ¦\tlist-agent-runtime-endpoints\\nâ¦\tlist-agent-runtime-versions\\nâ¦\tlist-agent-runtimes\\\
+    nâ¦\tlist-api-key-credential-providers\\nâ¦\tlist-browsers\\nâ¦\tlist-oauth2-credential-providers\\nâ¦\tlist-tags-for-resource\\nâ¦\tlist-workload-identities\\nâ¦\tset-token-vault-cmk\\nâ¦\tsynchronize-gateway-targets\\nâ¦\ttag-resource\\nâ¦\tuntag-resource\\nâ¦\tupdate-agent-runtime\\nâ¦\tupdate-agent-runtime-endpoint\\nâ¦\tupdate-api-key-credential-provider\\nâ¦\tupdate-oauth2-credential-provider\\nâ¦\tupdate-workload-identity\\nâ¦\twait\\n\\nData Plane Operations:\\nâ¦\tcomplete-resource-token-auth\\nâ¦\tcreate-event\\nâ¦\tdelete-event\\nâ¦\tget-agent-card\\nâ¦\tget-browser-session\\nâ¦\tget-event\\nâ¦\tget-resource-api-key\\nâ¦\tget-resource-oauth2-token\\nâ¦\tget-workload-access-token\\nâ¦\tget-workload-access-token-for-jwt\\nâ¦\tget-workload-access-token-for-user-id\\nâ¦\tinvoke-agent-runtime\\nâ¦\tlist-actors\\nâ¦\tlist-browser-sessions\\nâ¦\tlist-events\\nâ¦\tlist-sessions\\nâ¦\tstart-browser-session\\nâ¦\tstop-browser-session\\nâ¦\tstop-runtime-session\\nâ¦\tupdate-browser-stream"
+  nab_setting: "AWSBAC-IM01A1\\nWiz: \"Bedrock AgentCore IAM access MUST follow the principle of least privilege\" "
+  deviation: N
+  remediation_procedure: "CPS TEAM\\nRemediate from AWS CLI:\\n1. Get the policy's default version ID:\\n aws iam get-policy --policy-arn <POLICY_ARN>\\n\\n2. Get the current policy document:\\naws iam get-policy-version --policy-arn <POLICY_ARN> --version-id <DEFAULT_VERSION_ID>\\n\\n3. Edit the policy:\\nCopy the JSON Document from the output of the previous command.\\nSave it to a local file (e.g., policy-new.json).\\nManually edit policy-new.json to remove the unwanted Bedrock AgentCore action (e.g., remove \"bedrock-agentcore:CreateMemory\" from the \"Action\" list in the relevant Statement).\\n\\n4. Create the new, corrected policy version:\\naws iam create-policy-version \\\\n    --policy-arn <POLICY_ARN> \\\\n    --policy-document file://policy-new.json \\\\n    --set-as-default\\n \\nOption 2: Remediate an Inline Policy\\n \\n1. This process involves overwriting the existing inline policy with a new document.\\naws iam get-role-policy --role-name <YOUR_ROLE_NAME> --policy-name <INLINE_POLICY_NAME>\\\
+    n\\n\\n2. Edit the policy:\\nCopy the JSON Policy Document from the output.\\nSave it to a local file (e.g., inline-policy-new.json).\\nManually edit inline-policy-new.json to remove the unwanted Bedrock AgentCore action.\\n\\n3. Update the inline policy:\\naws iam put-role-policy \\\\n    --role-name <YOUR_ROLE_NAME> \\\\n    --policy-name <INLINE_POLICY_NAME> \\\\n    --policy-document file://inline-policy-new.json"
+  nab_criticality: High
+  girp_section: "Access Control\\n2.1.2: User Access Management"
+  notes_comments: "Wiz is not supported.\\n\\nMitigation: AWS Config detective policies to be created until resource is supported in Wiz\\n\\nControl Plane reference: https://docs.aws.amazon.com/cli/latest/reference/bedrock-agentcore-control/\\n\\nData Plane reference: https://docs.aws.amazon.com/cli/latest/reference/bedrock-agentcore/"
+
+- section: Bedrock AgentCore
+  sub_section: Identity & Access Management
+  trax_mitigation_id: AWSBAC-MI-05
+  configuration_recommendation: Ensure Bedrock AgentCore IAM policies must avoid using wildcard permissions.
+  benchmark: Use Cloud Platform based IAM capabilities to restrict access and permissions to cloud resources.
+  nab_setting: "AWSBAC-IM01A2 \\nWiz: \"Bedrock AgentCore wild card IAM permissions MUST NOT be used\""
+  deviation: N
+  remediation_procedure: "ASSET TEAM\\nRemediate from AWS CLI\\n1. Detach wider policies from the role\\naws iam detach-role-policy \\\\n  --role-name AppRole \\\\n  --policy-arn arn:aws:iam::111122223333:policy/TooBroadBedRockAgentCorePolicy\\n\\n2. Attach the revised least-privilege policy\\naws iam attach-role-policy \\\\n  --role-name AppRole \\\\n  --policy-arn arn:aws:iam::111122223333:policy/LeastPrivBedRockAgentCore\""
+  nab_criticality: High
+  girp_section: "Access Control\\n2.1.2: User Access Management"
+  notes_comments: "Wiz is not supported.\\n\\nMitigation: AWS Config detective policies to be created until resource is supported in Wiz"
+
+- section: Bedrock AgentCore
+  sub_section: Identity & Access Management
+  trax_mitigation_id: AWSBAC-MI-06
+  configuration_recommendation: Ensure Bedrock AgentCore Service Role follows least privilege principle
+  benchmark: Access rights and responsibilities are limited to the minimum necessary for individuals to perform their job functions (Principle of Least Privilege). Segregation of duties is established to prevent any single individual from having the capability to compromise critical processes or systems.
+  nab_setting: "AWSBAC-IM02A\\nWiz: \"Bedrock AgentCore service role MUST NOT have the BedrockAgentCoreFullAccess managed policy attached\""
+  deviation: N
+  remediation_procedure: "ASSET TEAM\\nRemediate from AWS CLI\\n1. Detach overly permissive policy from the role\\naws iam detach-role-policy     --role-name RoleName     --policy-arn arn:aws:iam::aws:policy/BedrockAgentCoreFullAccess\\n2. Create your new policy\\naws iam create-policy \\\\n    --policy-name MyNewAgentCoreLeastPrivilegePolicy \\\\n    --policy-document file://my-new-policy.json\\n \\n3. Then, attach your new policy to the role\\naws iam attach-role-policy \\\\n    --role-name RoleName \\\\n    --policy-arn arn:aws:iam::YOUR_ACCOUNT_ID:policy/MyNewAgentCoreLeastPrivilegePolicy"
+  nab_criticality: High
+  girp_section: "Access Control\\n2.1.2: User Access Management"
+  notes_comments: "Wiz is not supported.\\n\\nMitigation: AWS Config detective policies to be created until resource is supported in Wiz"
+
+- section: Bedrock AgentCore
+  sub_section: Identity & Access Management
+  trax_mitigation_id: AWSBAC-MI-07
+  configuration_recommendation: Ensure service-linked role trust policies only allow AgentCore service principals
+  benchmark: If the cloud platform supports the use of AWS IAM service role (i.e custom IAM Roles + Service linked roles) for service to service authentication and authorisation, then make sure that the permissions are not transferred to another user or role.
+  nab_setting: "AWSBAC-IM02C: \\nWiz: Only Service principals MUST be allowed to assume AWSServiceRoleForBedrockAgentCoreNetwork and AWSServiceRoleForBedrockAgentCoreRuntimeIdentity"
+  deviation: N
+  remediation_procedure: "ASSET TEAM\\nRemediate from AWS CLI\\n1. Detach wider policies from the role\\naws iam detach-role-policy \\\\n  --role-name RoleName \\\\n  --policy-arn arn:aws:iam::111122223333:policy/BedrockAgentCoreFullAccess\\n2. Attach the revised least-privilege policy\\naws iam attach-role-policy \\\\n  --role-name AppRole \\\\n  --policy-arn arn:aws:iam::111122223333:policy/LeastPrivBedrockAgentCore\""
+  nab_criticality: High
+  girp_section: "Access Control\\n2.1.2: User Access Management"
+  notes_comments: "Wiz is not supported.\\n\\nMitigation: AWS Config detective policies to be created until resource is supported in Wiz"
+
+- section: Bedrock AgentCore
+  sub_section: Network Security
+  trax_mitigation_id: AWSBAC-MI-08
+  configuration_recommendation: Ensure AWS Bedrock AgentCore is not publicly available
+  benchmark: Deny internet inbound access wherever it is possible.
+  nab_setting: "AWSBAC-NS01A\\nWiz: \"AgentCore Runtime MUST be configured with VPC network mode and appropriate subnets/security groups\""
+  deviation: N
+  remediation_procedure: "ASSET TEAM \\nRemediate via AWS CLI\\n1. Create AgentCore Runtime deployment within VPC\\n aws bedrock-agentcore create-runtime --runtime-name <RuntimeName> --network-configuration '{\"networkMode\":\"VPC\",\"networkModeConfig\":{\"subnets\":[\"<SubnetId1>\",\"<SubnetId2>\"],\"securityGroups\":[\"<SecurityGroupId>\"]}}' --execution-role-arn <RoleArn>"
+  nab_criticality: Critical
+  girp_section: "Network Security\\n5.1.2: Internet Access Control"
+  notes_comments: "Wiz is not supported.\\n\\nMitigation: AWS Config detective policies to be created until resource is supported in Wiz.\\n\\nAs a preventative control is not possible at present within AWS to restrict the deployment to only VPC network modes, therefore, there is the possibility of the service being deployed with public access. \\n\\nTherefore, the requirement to restrict the service to only endorsed teams until the major service change is made Generally available by AWS."
+
+- section: Bedrock AgentCore
+  sub_section: Network Security
+  trax_mitigation_id: AWSBAC-MI-09
+  configuration_recommendation: Ensure VPC Endpoints are configured for AWS Bedrock AgentCore
+  benchmark: Business data must be routed private. This must be achieved by integrating cloud services within virtual network (VPC/VNET).
+  nab_setting: "AWSBAC-NS02A\\nWiz: \"VPC Endpoints MUST be configured for AWS Bedrock AgentCore\""
+  deviation: N
+  remediation_procedure: "CPS TEAM \\nRemediate via AWS CLI \\n1. Create VPC Endpoint\\naws ec2 create-vpc-endpoint --vpc-id <VpcId> --service-name com.amazonaws.ap-southeast-2.bedrock-agentcore --vpc-endpoint-type Interface --subnet-ids <SubnetId> --security-group-ids <SecurityGroupId>"
+  nab_criticality: High
+  girp_section: "Network Security\\n3.1.2"
+  notes_comments: "Wiz is not supported.\\n\\nMitigation: AWS Config detective policies to be created until resource is supported in Wiz.\\n\\n"
+
+- section: Bedrock AgentCore
+  sub_section: Configuration Management
+  trax_mitigation_id: AWSBAC-MI-10
+  configuration_recommendation: Ensure AWS Bedrock AgentCore runtimes are only deployed via ECR containers
+  benchmark: To ensure a secure, auditable, and verifiable software supply chain for our AI agents, all AWS Bedrock AgentCore Runtimes must be deployed exclusively from approved and scanned container images stored in our Amazon ECR (Elastic Container Registry) repositories. This standard is critical for mitigating the risk of unauthorised or vulnerable code execution within our AI infrastructure.
+  nab_setting: "AWSBAC-CM01A\\nWiz: \"AWS Bedrock AgentCore agents MUST only be deployed via ECR containers\""
+  deviation: N
+  remediation_procedure: "ASSET TEAM\\nRemediate via AWS CLI \\n1. Create ECR repository\\naws ecr create-repository --repository-name bedrock-agentcore-runtime/<RuntimeName> --region ap-southeast-2\\n\\n2. Build and push container image\\naws ecr get-login-password --region ap-southeast-2 | docker login --username AWS --password-stdin <AccountId>.dkr.ecr.ap-southeast-2.amazonaws.com\\ndocker build -t bedrock-agentcore-runtime/<RuntimeName>:latest .\\ndocker tag bedrock-agentcore-runtime/<RuntimeName>:latest <AccountId>.dkr.ecr.ap-southeast-2.amazonaws.com/bedrock-agentcore-runtime/<RuntimeName>:latest\\ndocker push <AccountId>.dkr.ecr.ap-southeast-2.amazonaws.com/bedrock-agentcore-runtime/<RuntimeName>:latest\\n\\n3. Delete existing runtime with direct code deployment\\naws bedrock-agentcore delete-runtime --runtime-id <RuntimeId> --region ap-southeast-2\\n\\n4. Create new runtime using ECR image\\naws bedrock-agentcore create-runtime --runtime-name <RuntimeName> --image-uri <AccountId>.dkr.ecr.ap-southeast-2.amazonaws.com/bedrock-agentcore-runtime/<RuntimeName>:latest\
+    \ --execution-role-arn arn:aws:iam::<AccountId>:role/<RuntimeExecutionRole> --network-configuration '{\"networkMode\":\"VPC\",\"networkModeConfig\":{\"subnets\":[\"<SubnetId1>\",\"<SubnetId2>\"],\"securityGroups\":[\"<SecurityGroupId>\"]}}' --region ap-southeast-2\\n\\n5. Update IAM role for ECR access\\naws iam put-role-policy --role-name <RuntimeExecutionRole> --policy-name AgentCoreECRAccess --policy-document '{\"Version\":\"2012-10-17\",\"Statement\":[{\"Effect\":\"Allow\",\"Action\":[\"ecr:GetAuthorizationToken\",\"ecr:BatchCheckLayerAvailability\",\"ecr:GetDownloadUrlForLayer\",\"ecr:BatchGetImage\"],\"Resource\":\"arn:aws:ecr:ap-southeast-2:<AccountId>:repository/bedrock-agentcore-runtime/*\"}]}'"
+  nab_criticality: High
+  girp_section: "Compliance\\n2.1: Assessing compliance"
+  notes_comments: "Wiz is not supported.\\n\\nMitigation: AWS Config detective policies to be created until resource is supported in Wiz.\\n\\n"
+summary:
+  total_controls: 10
+  high_criticality: 9
+  high_criticality_percentage: 90
+  control_categories:
+    identity_access_management: 4
+    governance_compliance: 3
+    network_security: 2
+    configuration_management: 1

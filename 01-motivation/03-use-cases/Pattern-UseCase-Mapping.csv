@@ -1,0 +1,177 @@
+Pattern ID,Pattern Name,Pattern Category,Maturity Level,Priority,Use Case ID,Use Case Name,Role
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC01,FrontLine - Partnership Banking,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC02,Finance,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC03,Analytics and Reporting,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC04,Credit Risk,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC05,Lending Ops,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC06,HyperPersonalization,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC07,Contact Centre,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC08,Security AI,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC09,Data Products,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC10,SDLC,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC11,Fincrime,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC12,QA/QC,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC13,Fraud Ops,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC14,Onboarding,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC15,Risk Functions,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC16,IT Ops,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC17,FrontLine - CIB,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC18,Procurement,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC19,Payment Disputes,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC20,Controls Testing,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC21,Wholesale Underwriting,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC22,Learning Content,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC23,Collection Management,Cross-Cutting
+PT-001,Enterprise AI Governance Platform,Governance,Emerging,CRITICAL,UC24,Front-end App Personalisation,Cross-Cutting
+PT-002,MLOps Level 2+ with Governance,Governance,Mature,CRITICAL,UC02,Finance,Cross-Cutting
+PT-002,MLOps Level 2+ with Governance,Governance,Mature,CRITICAL,UC04,Credit Risk,Cross-Cutting
+PT-002,MLOps Level 2+ with Governance,Governance,Mature,CRITICAL,UC06,HyperPersonalization,Cross-Cutting
+PT-002,MLOps Level 2+ with Governance,Governance,Mature,CRITICAL,UC08,Security AI,Cross-Cutting
+PT-002,MLOps Level 2+ with Governance,Governance,Mature,CRITICAL,UC11,Fincrime,Cross-Cutting
+PT-002,MLOps Level 2+ with Governance,Governance,Mature,CRITICAL,UC13,Fraud Ops,Cross-Cutting
+PT-002,MLOps Level 2+ with Governance,Governance,Mature,CRITICAL,UC14,Onboarding,Cross-Cutting
+PT-002,MLOps Level 2+ with Governance,Governance,Mature,CRITICAL,UC15,Risk Functions,Cross-Cutting
+PT-002,MLOps Level 2+ with Governance,Governance,Mature,CRITICAL,UC19,Payment Disputes,Cross-Cutting
+PT-002,MLOps Level 2+ with Governance,Governance,Mature,CRITICAL,UC21,Wholesale Underwriting,Cross-Cutting
+PT-002,MLOps Level 2+ with Governance,Governance,Mature,CRITICAL,UC23,Collection Management,Cross-Cutting
+PT-002,MLOps Level 2+ with Governance,Governance,Mature,CRITICAL,UC24,Front-end App Personalisation,Cross-Cutting
+PT-003,Feature Store (Dual-Store),Data,Mature,CRITICAL,UC01,FrontLine - Partnership Banking,Supporting
+PT-003,Feature Store (Dual-Store),Data,Mature,CRITICAL,UC04,Credit Risk,Primary
+PT-003,Feature Store (Dual-Store),Data,Mature,CRITICAL,UC06,HyperPersonalization,Primary
+PT-003,Feature Store (Dual-Store),Data,Mature,CRITICAL,UC08,Security AI,Supporting
+PT-003,Feature Store (Dual-Store),Data,Mature,CRITICAL,UC09,Data Products,Primary
+PT-003,Feature Store (Dual-Store),Data,Mature,CRITICAL,UC11,Fincrime,Primary
+PT-003,Feature Store (Dual-Store),Data,Mature,CRITICAL,UC13,Fraud Ops,Primary
+PT-003,Feature Store (Dual-Store),Data,Mature,CRITICAL,UC14,Onboarding,Supporting
+PT-003,Feature Store (Dual-Store),Data,Mature,CRITICAL,UC15,Risk Functions,Primary
+PT-003,Feature Store (Dual-Store),Data,Mature,CRITICAL,UC17,FrontLine - CIB,Supporting
+PT-003,Feature Store (Dual-Store),Data,Mature,CRITICAL,UC18,Procurement,Supporting
+PT-003,Feature Store (Dual-Store),Data,Mature,CRITICAL,UC19,Payment Disputes,Primary
+PT-003,Feature Store (Dual-Store),Data,Mature,CRITICAL,UC21,Wholesale Underwriting,Supporting
+PT-003,Feature Store (Dual-Store),Data,Mature,CRITICAL,UC22,Learning Content,Supporting
+PT-003,Feature Store (Dual-Store),Data,Mature,CRITICAL,UC23,Collection Management,Primary
+PT-003,Feature Store (Dual-Store),Data,Mature,CRITICAL,UC24,Front-end App Personalisation,Primary
+PT-004,ML Model Explainability (SHAP/LIME),Governance,Mature,CRITICAL,UC04,Credit Risk,Primary
+PT-004,ML Model Explainability (SHAP/LIME),Governance,Mature,CRITICAL,UC06,HyperPersonalization,Supporting
+PT-004,ML Model Explainability (SHAP/LIME),Governance,Mature,CRITICAL,UC08,Security AI,Supporting
+PT-004,ML Model Explainability (SHAP/LIME),Governance,Mature,CRITICAL,UC11,Fincrime,Primary
+PT-004,ML Model Explainability (SHAP/LIME),Governance,Mature,CRITICAL,UC13,Fraud Ops,Primary
+PT-004,ML Model Explainability (SHAP/LIME),Governance,Mature,CRITICAL,UC14,Onboarding,Supporting
+PT-004,ML Model Explainability (SHAP/LIME),Governance,Mature,CRITICAL,UC15,Risk Functions,Supporting
+PT-004,ML Model Explainability (SHAP/LIME),Governance,Mature,CRITICAL,UC19,Payment Disputes,Supporting
+PT-004,ML Model Explainability (SHAP/LIME),Governance,Mature,CRITICAL,UC21,Wholesale Underwriting,Primary
+PT-005,Retrieval-Augmented Generation (Self-Reflective RAG),GenAI,Mature,HIGH,UC01,FrontLine - Partnership Banking,Primary
+PT-005,Retrieval-Augmented Generation (Self-Reflective RAG),GenAI,Mature,HIGH,UC03,Analytics and Reporting,Primary
+PT-005,Retrieval-Augmented Generation (Self-Reflective RAG),GenAI,Mature,HIGH,UC04,Credit Risk,Supporting
+PT-005,Retrieval-Augmented Generation (Self-Reflective RAG),GenAI,Mature,HIGH,UC05,Lending Ops,Primary
+PT-005,Retrieval-Augmented Generation (Self-Reflective RAG),GenAI,Mature,HIGH,UC07,Contact Centre,Primary
+PT-005,Retrieval-Augmented Generation (Self-Reflective RAG),GenAI,Mature,HIGH,UC09,Data Products,Supporting
+PT-005,Retrieval-Augmented Generation (Self-Reflective RAG),GenAI,Mature,HIGH,UC16,IT Ops,Supporting
+PT-005,Retrieval-Augmented Generation (Self-Reflective RAG),GenAI,Mature,HIGH,UC17,FrontLine - CIB,Primary
+PT-005,Retrieval-Augmented Generation (Self-Reflective RAG),GenAI,Mature,HIGH,UC21,Wholesale Underwriting,Primary
+PT-005,Retrieval-Augmented Generation (Self-Reflective RAG),GenAI,Mature,HIGH,UC22,Learning Content,Primary
+PT-006,Multi-Model Routing,GenAI,Emerging,HIGH,UC01,FrontLine - Partnership Banking,Primary
+PT-006,Multi-Model Routing,GenAI,Emerging,HIGH,UC02,Finance,Supporting
+PT-006,Multi-Model Routing,GenAI,Emerging,HIGH,UC03,Analytics and Reporting,Supporting
+PT-006,Multi-Model Routing,GenAI,Emerging,HIGH,UC06,HyperPersonalization,Supporting
+PT-006,Multi-Model Routing,GenAI,Emerging,HIGH,UC07,Contact Centre,Primary
+PT-006,Multi-Model Routing,GenAI,Emerging,HIGH,UC08,Security AI,Supporting
+PT-006,Multi-Model Routing,GenAI,Emerging,HIGH,UC09,Data Products,Supporting
+PT-006,Multi-Model Routing,GenAI,Emerging,HIGH,UC10,SDLC,Primary
+PT-006,Multi-Model Routing,GenAI,Emerging,HIGH,UC11,Fincrime,Supporting
+PT-006,Multi-Model Routing,GenAI,Emerging,HIGH,UC12,QA/QC,Primary
+PT-006,Multi-Model Routing,GenAI,Emerging,HIGH,UC13,Fraud Ops,Supporting
+PT-006,Multi-Model Routing,GenAI,Emerging,HIGH,UC15,Risk Functions,Supporting
+PT-006,Multi-Model Routing,GenAI,Emerging,HIGH,UC16,IT Ops,Supporting
+PT-006,Multi-Model Routing,GenAI,Emerging,HIGH,UC17,FrontLine - CIB,Primary
+PT-006,Multi-Model Routing,GenAI,Emerging,HIGH,UC18,Procurement,Supporting
+PT-006,Multi-Model Routing,GenAI,Emerging,HIGH,UC19,Payment Disputes,Supporting
+PT-006,Multi-Model Routing,GenAI,Emerging,HIGH,UC20,Controls Testing,Supporting
+PT-006,Multi-Model Routing,GenAI,Emerging,HIGH,UC22,Learning Content,Primary
+PT-006,Multi-Model Routing,GenAI,Emerging,HIGH,UC23,Collection Management,Supporting
+PT-006,Multi-Model Routing,GenAI,Emerging,HIGH,UC24,Front-end App Personalisation,Supporting
+PT-007,Agentic AI Pattern,Agent,Emerging,HIGH,UC01,FrontLine - Partnership Banking,Primary
+PT-007,Agentic AI Pattern,Agent,Emerging,HIGH,UC02,Finance,Primary
+PT-007,Agentic AI Pattern,Agent,Emerging,HIGH,UC05,Lending Ops,Supporting
+PT-007,Agentic AI Pattern,Agent,Emerging,HIGH,UC07,Contact Centre,Supporting
+PT-007,Agentic AI Pattern,Agent,Emerging,HIGH,UC10,SDLC,Primary
+PT-007,Agentic AI Pattern,Agent,Emerging,HIGH,UC12,QA/QC,Supporting
+PT-007,Agentic AI Pattern,Agent,Emerging,HIGH,UC16,IT Ops,Supporting
+PT-007,Agentic AI Pattern,Agent,Emerging,HIGH,UC17,FrontLine - CIB,Primary
+PT-007,Agentic AI Pattern,Agent,Emerging,HIGH,UC18,Procurement,Primary
+PT-007,Agentic AI Pattern,Agent,Emerging,HIGH,UC19,Payment Disputes,Supporting
+PT-007,Agentic AI Pattern,Agent,Emerging,HIGH,UC20,Controls Testing,Primary
+PT-007,Agentic AI Pattern,Agent,Emerging,HIGH,UC22,Learning Content,Supporting
+PT-008,Multi-Agent Orchestration,Agent,Early,HIGH,UC02,Finance,Primary
+PT-008,Multi-Agent Orchestration,Agent,Early,HIGH,UC10,SDLC,Primary
+PT-008,Multi-Agent Orchestration,Agent,Early,HIGH,UC18,Procurement,Primary
+PT-008,Multi-Agent Orchestration,Agent,Early,HIGH,UC20,Controls Testing,Primary
+PT-009,Real-Time ML Scoring Pattern,ML Prediction,Mature,HIGH,UC04,Credit Risk,Primary
+PT-009,Real-Time ML Scoring Pattern,ML Prediction,Mature,HIGH,UC06,HyperPersonalization,Primary
+PT-009,Real-Time ML Scoring Pattern,ML Prediction,Mature,HIGH,UC08,Security AI,Primary
+PT-009,Real-Time ML Scoring Pattern,ML Prediction,Mature,HIGH,UC11,Fincrime,Primary
+PT-009,Real-Time ML Scoring Pattern,ML Prediction,Mature,HIGH,UC13,Fraud Ops,Primary
+PT-009,Real-Time ML Scoring Pattern,ML Prediction,Mature,HIGH,UC14,Onboarding,Supporting
+PT-009,Real-Time ML Scoring Pattern,ML Prediction,Mature,HIGH,UC19,Payment Disputes,Primary
+PT-009,Real-Time ML Scoring Pattern,ML Prediction,Mature,HIGH,UC21,Wholesale Underwriting,Supporting
+PT-009,Real-Time ML Scoring Pattern,ML Prediction,Mature,HIGH,UC23,Collection Management,Supporting
+PT-009,Real-Time ML Scoring Pattern,ML Prediction,Mature,HIGH,UC24,Front-end App Personalisation,Primary
+PT-010,Champion/Challenger Testing Pattern,Governance,Mature,HIGH,UC04,Credit Risk,Supporting
+PT-010,Champion/Challenger Testing Pattern,Governance,Mature,HIGH,UC06,HyperPersonalization,Supporting
+PT-010,Champion/Challenger Testing Pattern,Governance,Mature,HIGH,UC11,Fincrime,Supporting
+PT-010,Champion/Challenger Testing Pattern,Governance,Mature,HIGH,UC13,Fraud Ops,Supporting
+PT-010,Champion/Challenger Testing Pattern,Governance,Mature,HIGH,UC21,Wholesale Underwriting,Supporting
+PT-010,Champion/Challenger Testing Pattern,Governance,Mature,HIGH,UC24,Front-end App Personalisation,Supporting
+PT-011,Intelligent Document Processing (IDP),Document Intelligence,Mature,MEDIUM,UC05,Lending Ops,Primary
+PT-011,Intelligent Document Processing (IDP),Document Intelligence,Mature,MEDIUM,UC12,QA/QC,Primary
+PT-011,Intelligent Document Processing (IDP),Document Intelligence,Mature,MEDIUM,UC14,Onboarding,Primary
+PT-011,Intelligent Document Processing (IDP),Document Intelligence,Mature,MEDIUM,UC18,Procurement,Primary
+PT-011,Intelligent Document Processing (IDP),Document Intelligence,Mature,MEDIUM,UC20,Controls Testing,Primary
+PT-011,Intelligent Document Processing (IDP),Document Intelligence,Mature,MEDIUM,UC21,Wholesale Underwriting,Primary
+PT-011,Intelligent Document Processing (IDP),Document Intelligence,Mature,MEDIUM,UC23,Collection Management,Primary
+PT-012,Data Mesh Pattern,Data,Emerging,MEDIUM,UC02,Finance,Supporting
+PT-012,Data Mesh Pattern,Data,Emerging,MEDIUM,UC03,Analytics and Reporting,Supporting
+PT-012,Data Mesh Pattern,Data,Emerging,MEDIUM,UC09,Data Products,Primary
+PT-012,Data Mesh Pattern,Data,Emerging,MEDIUM,UC12,QA/QC,Supporting
+PT-012,Data Mesh Pattern,Data,Emerging,MEDIUM,UC15,Risk Functions,Supporting
+PT-013,Conversational AI Pattern,GenAI,Mature,HIGH,UC03,Analytics and Reporting,Primary
+PT-013,Conversational AI Pattern,GenAI,Mature,HIGH,UC07,Contact Centre,Primary
+PT-013,Conversational AI Pattern,GenAI,Mature,HIGH,UC14,Onboarding,Primary
+PT-014,Batch Prediction Pattern,ML Prediction,Mature,MEDIUM,UC02,Finance,Primary
+PT-014,Batch Prediction Pattern,ML Prediction,Mature,MEDIUM,UC03,Analytics and Reporting,Supporting
+PT-014,Batch Prediction Pattern,ML Prediction,Mature,MEDIUM,UC12,QA/QC,Supporting
+PT-014,Batch Prediction Pattern,ML Prediction,Mature,MEDIUM,UC15,Risk Functions,Primary
+PT-014,Batch Prediction Pattern,ML Prediction,Mature,MEDIUM,UC16,IT Ops,Primary
+PT-014,Batch Prediction Pattern,ML Prediction,Mature,MEDIUM,UC17,FrontLine - CIB,Supporting
+PT-014,Batch Prediction Pattern,ML Prediction,Mature,MEDIUM,UC20,Controls Testing,Supporting
+PT-014,Batch Prediction Pattern,ML Prediction,Mature,MEDIUM,UC22,Learning Content,Supporting
+PT-014,Batch Prediction Pattern,ML Prediction,Mature,MEDIUM,UC23,Collection Management,Primary
+PT-015,Event-Driven Architecture,Real-Time,Mature,HIGH,UC01,FrontLine - Partnership Banking,Supporting
+PT-015,Event-Driven Architecture,Real-Time,Mature,HIGH,UC06,HyperPersonalization,Primary
+PT-015,Event-Driven Architecture,Real-Time,Mature,HIGH,UC08,Security AI,Primary
+PT-015,Event-Driven Architecture,Real-Time,Mature,HIGH,UC13,Fraud Ops,Primary
+PT-015,Event-Driven Architecture,Real-Time,Mature,HIGH,UC16,IT Ops,Primary
+PT-015,Event-Driven Architecture,Real-Time,Mature,HIGH,UC19,Payment Disputes,Primary
+PT-015,Event-Driven Architecture,Real-Time,Mature,HIGH,UC24,Front-end App Personalisation,Primary
+PT-016,Stream Processing Pattern,Real-Time,Mature,MEDIUM,UC03,Analytics and Reporting,Supporting
+PT-016,Stream Processing Pattern,Real-Time,Mature,MEDIUM,UC04,Credit Risk,Supporting
+PT-016,Stream Processing Pattern,Real-Time,Mature,MEDIUM,UC06,HyperPersonalization,Supporting
+PT-016,Stream Processing Pattern,Real-Time,Mature,MEDIUM,UC08,Security AI,Primary
+PT-016,Stream Processing Pattern,Real-Time,Mature,MEDIUM,UC24,Front-end App Personalisation,Primary
+PT-017,Observability and Monitoring Pattern,Cross-Cutting,Mature,CRITICAL,UC07,Contact Centre,Cross-Cutting
+PT-017,Observability and Monitoring Pattern,Cross-Cutting,Mature,CRITICAL,UC08,Security AI,Cross-Cutting
+PT-017,Observability and Monitoring Pattern,Cross-Cutting,Mature,CRITICAL,UC09,Data Products,Cross-Cutting
+PT-017,Observability and Monitoring Pattern,Cross-Cutting,Mature,CRITICAL,UC10,SDLC,Cross-Cutting
+PT-017,Observability and Monitoring Pattern,Cross-Cutting,Mature,CRITICAL,UC12,QA/QC,Cross-Cutting
+PT-017,Observability and Monitoring Pattern,Cross-Cutting,Mature,CRITICAL,UC15,Risk Functions,Cross-Cutting
+PT-017,Observability and Monitoring Pattern,Cross-Cutting,Mature,CRITICAL,UC16,IT Ops,Cross-Cutting
+PT-017,Observability and Monitoring Pattern,Cross-Cutting,Mature,CRITICAL,UC17,FrontLine - CIB,Cross-Cutting
+PT-017,Observability and Monitoring Pattern,Cross-Cutting,Mature,CRITICAL,UC18,Procurement,Cross-Cutting
+PT-017,Observability and Monitoring Pattern,Cross-Cutting,Mature,CRITICAL,UC20,Controls Testing,Cross-Cutting
+PT-017,Observability and Monitoring Pattern,Cross-Cutting,Mature,CRITICAL,UC22,Learning Content,Cross-Cutting
+PT-017,Observability and Monitoring Pattern,Cross-Cutting,Mature,CRITICAL,UC23,Collection Management,Cross-Cutting
+PT-018,Security and Privacy Pattern,Cross-Cutting,Mature,CRITICAL,UC05,Lending Ops,Cross-Cutting
+PT-018,Security and Privacy Pattern,Cross-Cutting,Mature,CRITICAL,UC08,Security AI,Supporting
+PT-018,Security and Privacy Pattern,Cross-Cutting,Mature,CRITICAL,UC09,Data Products,Cross-Cutting
+PT-018,Security and Privacy Pattern,Cross-Cutting,Mature,CRITICAL,UC11,Fincrime,Cross-Cutting
+PT-018,Security and Privacy Pattern,Cross-Cutting,Mature,CRITICAL,UC14,Onboarding,Cross-Cutting

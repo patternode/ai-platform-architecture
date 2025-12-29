@@ -1,0 +1,225 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "https://schema.org/",
+    "agentic": "https://patternode.com/agentic/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    
+    "id": "@id",
+    "type": "@type",
+    
+    "name": "https://schema.org/name",
+    "description": "https://schema.org/description",
+    "version": "https://schema.org/version",
+    "date_published": {
+      "@id": "https://schema.org/datePublished",
+      "@type": "xsd:date"
+    },
+    "context_file": "agentic:contextFile",
+    "title": "https://schema.org/headline",
+    
+    "creator": {
+      "@id": "https://schema.org/creator",
+      "@type": "@id"
+    },
+    "programming_languages": {
+      "@id": "https://schema.org/programmingLanguage",
+      "@container": "@set"
+    },
+    "operating_system": "https://schema.org/operatingSystem",
+    "keywords": {
+      "@id": "https://schema.org/keywords",
+      "@container": "@set"
+    },
+    
+    "architectural_paradigm": {
+      "@id": "agentic:architecturalParadigm",
+      "@type": "@id"
+    },
+    "philosophy": "agentic:philosophy",
+    "coordination_model": "agentic:coordinationModel",
+    "state_management": "agentic:stateManagement",
+    "complexity_handling": "agentic:complexityHandling",
+    "primary_frameworks": {
+      "@id": "agentic:primaryFrameworks",
+      "@container": "@set",
+      "@type": "@id"
+    },
+    
+    "multi_agent_support": "agentic:multiAgentSupport",
+    "memory_management": "agentic:memoryManagement",
+    "production_readiness": {
+      "@id": "agentic:productionReadiness",
+      "@type": "xsd:boolean"
+    },
+    "components": {
+      "@id": "agentic:hasComponent",
+      "@container": "@set"
+    },
+    "strengths": {
+      "@id": "agentic:strengths",
+      "@container": "@set"
+    },
+    "limitations": {
+      "@id": "agentic:limitations",
+      "@container": "@set"
+    },
+    "best_use_cases": {
+      "@id": "agentic:bestUseCases",
+      "@container": "@set"
+    },
+    "enterprise_considerations": "agentic:enterpriseConsiderations",
+    
+    "primary_focus": "agentic:primaryFocus",
+    "core_integration": "agentic:coreIntegration",
+    "security_model": "agentic:securityModel",
+    "target_audience": "agentic:targetAudience",
+    "supported_frameworks": {
+      "@id": "agentic:supportedFrameworks",
+      "@container": "@set",
+      "@context": {
+        "framework_id": {
+          "@id": "agentic:frameworkId",
+          "@type": "@id"
+        },
+        "compatibility_level": "agentic:compatibilityLevel"
+      }
+    },
+    "unique_capabilities": {
+      "@id": "agentic:uniqueCapabilities",
+      "@container": "@set"
+    },
+    "deployment_models": {
+      "@id": "agentic:deploymentModels",
+      "@container": "@set"
+    },
+    
+    "category": "https://schema.org/category",
+    "characteristics": {
+      "@id": "agentic:characteristics",
+      "@container": "@set"
+    },
+    "challenges": {
+      "@id": "agentic:challenges",
+      "@container": "@set"
+    },
+    "representative_frameworks": {
+      "@id": "agentic:representativeFrameworks",
+      "@container": "@set",
+      "@type": "@id"
+    },
+    "representative_systems": {
+      "@id": "agentic:representativeSystems",
+      "@container": "@set",
+      "@type": "@id"
+    },
+    
+    "sub_components": {
+      "@id": "agentic:subComponents",
+      "@container": "@set"
+    },
+    "coordination_patterns": {
+      "@id": "agentic:coordinationPatterns",
+      "@container": "@set"
+    },
+    "memory_types": {
+      "@id": "agentic:memoryTypes",
+      "@container": "@set"
+    },
+    "layers": {
+      "@id": "agentic:layers",
+      "@container": "@set",
+      "@context": {
+        "id": "@id",
+        "name": "https://schema.org/name",
+        "components": {
+          "@id": "agentic:hasComponent",
+          "@container": "@set"
+        }
+      }
+    },
+    
+    "framework_to_paradigm": {
+      "@id": "agentic:frameworkToParadigm",
+      "@container": "@set",
+      "@context": {
+        "framework": {
+          "@id": "agentic:framework",
+          "@type": "@id"
+        },
+        "paradigm": {
+          "@id": "agentic:paradigm",
+          "@type": "@id"
+        },
+        "relationship_type": "agentic:relationshipType"
+      }
+    },
+    "protocol_support": {
+      "@id": "agentic:protocolSupport",
+      "@container": "@set",
+      "@context": {
+        "framework": {
+          "@id": "agentic:framework",
+          "@type": "@id"
+        },
+        "protocol": {
+          "@id": "agentic:protocol",
+          "@type": "@id"
+        },
+        "relationship_type": "agentic:relationshipType"
+      }
+    },
+    
+    "compatibility_levels": {
+      "@id": "agentic:compatibilityLevels",
+      "@context": {
+        "definitions": {
+          "@id": "agentic:definitions",
+          "@container": "@index"
+        }
+      }
+    },
+    
+    "metadata": {
+      "@id": "agentic:metadata",
+      "@context": {
+        "title": "https://schema.org/headline",
+        "version": "https://schema.org/version",
+        "date_published": {
+          "@id": "https://schema.org/datePublished",
+          "@type": "xsd:date"
+        },
+        "context_file": "agentic:contextFile",
+        "description": "https://schema.org/description"
+      }
+    },
+    
+    "architectural_paradigms": {
+      "@id": "agentic:architecturalParadigms",
+      "@container": "@set"
+    },
+    "frameworks": {
+      "@id": "agentic:frameworks",
+      "@container": "@set"
+    },
+    "platforms": {
+      "@id": "agentic:platforms",
+      "@container": "@set"
+    },
+    "protocols": {
+      "@id": "agentic:protocols",
+      "@container": "@set"
+    },
+    "delivery_models": {
+      "@id": "agentic:deliveryModels",
+      "@container": "@set"
+    },
+    "canonical_architectures": {
+      "@id": "agentic:canonicalArchitectures",
+      "@container": "@set"
+    },
+    "relationships": {
+      "@id": "agentic:relationships"
+    }
+  }
+}

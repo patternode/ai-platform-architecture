@@ -1,0 +1,127 @@
+Level,Domain_Type,Domain_Code,Domain_Name,Description,Parent_Domain
+1,Business Domain,BD01,Customer Management,Managing customer relationships and customer data across all touchpoints and channels,
+1,Business Domain,BD02,Product & Service Management,Defining and managing banking products and services throughout their lifecycle,
+1,Business Domain,BD03,Operations,Core operational processes that deliver banking services to customers,
+1,Business Domain,BD04,Support,Supporting functions that enable banking operations and customer service,
+1,Business Domain,BD05,Control,Risk management and compliance functions ensuring regulatory adherence,
+1,Business Domain,BD06,Direction,Strategic planning and corporate governance functions,
+2,Business Capability,BC01,Customer Relationship Management,Establishing and maintaining relationships with customers,BD01
+2,Business Capability,BC02,Customer Data Management,Managing customer information and maintaining data quality,BD01
+2,Business Capability,BC03,Customer Onboarding,Processing new customer applications and account opening,BD01
+2,Business Capability,BC04,Product Development,Developing new banking products and services,BD02
+2,Business Capability,BC05,Product Portfolio Management,Managing the complete portfolio of banking products,BD02
+2,Business Capability,BC06,Pricing Management,Setting and managing pricing strategies for products and services,BD02
+2,Business Capability,BC07,Channel Management,Managing all customer interaction channels,BD03
+2,Business Capability,BC08,Transaction Processing,Processing customer transactions and payments,BD03
+2,Business Capability,BC09,Account Management,Managing customer accounts and account-related services,BD03
+2,Business Capability,BC10,Credit Management,Managing credit processes and credit risk,BD03
+2,Business Capability,BC11,Collections Management,Managing debt collection and recovery processes,BD03
+2,Business Capability,BC12,Human Resources,Managing workforce and HR-related functions,BD04
+2,Business Capability,BC13,Technology Services,Providing IT infrastructure and technology support,BD04
+2,Business Capability,BC14,Facilities Management,Managing physical facilities and infrastructure,BD04
+2,Business Capability,BC15,Risk Management,Identifying and managing various types of risk,BD05
+2,Business Capability,BC16,Compliance,Ensuring adherence to regulatory requirements,BD05
+2,Business Capability,BC17,Audit,Conducting internal and external audits,BD05
+2,Business Capability,BC18,Strategic Planning,Developing corporate strategy and business planning,BD06
+2,Business Capability,BC19,Corporate Governance,Ensuring proper corporate governance and oversight,BD06
+2,Business Capability,BC20,Financial Management,Managing corporate finances and budgeting,BD06
+3,Service Domain,SD001,Party Data Management,Central repository and management of party (customer/prospect) data,BC02
+3,Service Domain,SD002,Customer Relationship Management,Managing ongoing customer relationships and interactions,BC01
+3,Service Domain,SD003,Customer Workbench,Unified workspace for customer service representatives,BC01
+3,Service Domain,SD004,Customer Case Management,Managing customer issues and case resolution,BC01
+3,Service Domain,SD005,Customer Offer Management,Managing product offers and recommendations to customers,BC01
+3,Service Domain,SD006,Product Directory,Central catalog of all banking products and services,BC05
+3,Service Domain,SD007,Product Design,Designing and configuring banking products,BC04
+3,Service Domain,SD008,Product Deployment,Deploying new products to market,BC04
+3,Service Domain,SD009,Current Account,Managing checking/current account services,BC09
+3,Service Domain,SD010,Savings Account,Managing savings account services,BC09
+3,Service Domain,SD011,Credit/Charge Card,Managing credit and charge card services,BC09
+3,Service Domain,SD012,Consumer Loan,Managing consumer lending services,BC10
+3,Service Domain,SD013,Mortgage Loan,Managing mortgage lending services,BC10
+3,Service Domain,SD014,Corporate Loan,Managing corporate lending services,BC10
+3,Service Domain,SD015,Deposit Account,Managing deposit account services,BC09
+3,Service Domain,SD016,Investment Account,Managing investment account services,BC09
+3,Service Domain,SD017,Payment Execution,Executing payment transactions,BC08
+3,Service Domain,SD018,Payment Order,Managing payment orders and instructions,BC08
+3,Service Domain,SD019,Payment Initiation,Initiating payment transactions,BC08
+3,Service Domain,SD020,Customer Agreement,Managing customer agreements and contracts,BC09
+3,Service Domain,SD021,Customer Campaign Management,Managing marketing campaigns targeting customers,BC01
+3,Service Domain,SD022,Customer Portfolio,Managing customer portfolios and segments,BC01
+3,Service Domain,SD023,Servicing Order,Managing service requests and orders,BC07
+3,Service Domain,SD024,Servicing Activity Analysis,Analyzing customer servicing activities,BC07
+3,Service Domain,SD025,Channel Activity Analysis,Analyzing channel performance and usage,BC07
+3,Service Domain,SD026,Interactive Help,Providing interactive customer assistance,BC07
+3,Service Domain,SD027,Contact Center Operations,Managing contact center operations,BC07
+3,Service Domain,SD028,Contact Center Management,Managing contact center resources and performance,BC07
+3,Service Domain,SD029,Branch Operations,Managing branch banking operations,BC07
+3,Service Domain,SD030,Branch Currency Management,Managing currency operations at branches,BC07
+3,Service Domain,SD031,ATM Network Operations,Managing ATM network operations,BC07
+3,Service Domain,SD032,Card Network Participant Facility,Managing card network participation,BC08
+3,Service Domain,SD033,Card Terminal Operations,Managing card terminal operations,BC08
+3,Service Domain,SD034,Card Collections,Managing card payment collections,BC11
+3,Service Domain,SD035,Consumer Collections,Managing consumer debt collections,BC11
+3,Service Domain,SD036,Corporate Collections,Managing corporate debt collections,BC11
+3,Service Domain,SD037,Credit Risk Operations,Managing credit risk assessment and monitoring,BC15
+3,Service Domain,SD038,Credit Management,Managing credit processes and decisions,BC10
+3,Service Domain,SD039,Underwriting,Managing loan underwriting processes,BC10
+3,Service Domain,SD040,Collateral Management,Managing loan collateral,BC10
+3,Service Domain,SD041,Asset and Liability Management,Managing bank's assets and liabilities,BC20
+3,Service Domain,SD042,Investment Portfolio Management,Managing investment portfolios,BC20
+3,Service Domain,SD043,Trading Book,Managing trading activities and positions,BC20
+3,Service Domain,SD044,Market Data Management,Managing market data feeds and distribution,BC13
+3,Service Domain,SD045,Position Management,Managing financial positions,BC20
+3,Service Domain,SD046,Customer Behavior Analysis,Analyzing customer behavior patterns,BC02
+3,Service Domain,SD047,Customer Credit Rating,Managing customer credit ratings,BC15
+3,Service Domain,SD048,Customer Tax Handling,Managing customer tax-related processes,BC16
+3,Service Domain,SD049,Regulatory Compliance,Managing regulatory compliance requirements,BC16
+3,Service Domain,SD050,Regulatory Reporting,Managing regulatory reporting obligations,BC16
+3,Service Domain,SD051,Knowledge Exchange,Managing knowledge sharing and expertise,BC13
+3,Service Domain,SD052,Information Provider Administration,Managing information provider relationships,BC13
+3,Service Domain,SD053,Information Provider Operations,Operating information provider services,BC13
+3,Service Domain,SD054,Document Services,Managing document creation and handling,BC13
+3,Service Domain,SD055,Archive Services,Managing document archival and retrieval,BC13
+3,Service Domain,SD056,System Administration,Managing IT system administration,BC13
+3,Service Domain,SD057,IT Standards and Guidelines,Managing IT standards and guidelines,BC13
+3,Service Domain,SD058,Platform Operations,Managing technology platform operations,BC13
+3,Service Domain,SD059,Production Release,Managing software releases to production,BC13
+3,Service Domain,SD060,Software Development Project,Managing software development projects,BC13
+3,Service Domain,SD061,Unit Trust Administration,Managing unit trust operations,BC09
+3,Service Domain,SD062,Mutual Fund Administration,Managing mutual fund operations,BC09
+3,Service Domain,SD063,Hedge Fund Administration,Managing hedge fund operations,BC09
+3,Service Domain,SD064,Pension Administration,Managing pension fund operations,BC09
+3,Service Domain,SD065,Insurance Administration,Managing insurance product operations,BC09
+3,Service Domain,SD066,Financial Accounting,Managing financial accounting processes,BC20
+3,Service Domain,SD067,Management Accounting,Managing management accounting and reporting,BC20
+3,Service Domain,SD068,Corporate Tax Advisory,Managing corporate tax advisory services,BC16
+3,Service Domain,SD069,Corporate Treasury,Managing corporate treasury operations,BC20
+3,Service Domain,SD070,Corporate Current Account,Managing corporate current accounts,BC09
+3,Service Domain,SD071,Corporate Deposits,Managing corporate deposit accounts,BC09
+3,Service Domain,SD072,Cash Management and Account Services,Managing cash management services,BC09
+3,Service Domain,SD073,Trade Finance,Managing trade finance operations,BC10
+3,Service Domain,SD074,Letter of Credit,Managing letter of credit services,BC10
+3,Service Domain,SD075,Bank Guarantee,Managing bank guarantee services,BC10
+3,Service Domain,SD076,Documentary Credit,Managing documentary credit services,BC10
+3,Service Domain,SD077,Factoring,Managing factoring services,BC10
+3,Service Domain,SD078,Leasing,Managing leasing services,BC10
+3,Service Domain,SD079,Project Finance,Managing project finance services,BC10
+3,Service Domain,SD080,Syndicated Loan,Managing syndicated loan services,BC10
+3,Service Domain,SD081,Correspondent Banking,Managing correspondent banking relationships,BC08
+3,Service Domain,SD082,Correspondent Bank Data Management,Managing correspondent bank data,BC08
+3,Service Domain,SD083,ACH Operations,Managing ACH payment operations,BC08
+3,Service Domain,SD084,Wire Transfer Operations,Managing wire transfer operations,BC08
+3,Service Domain,SD085,SWIFT Network,Managing SWIFT messaging operations,BC08
+3,Service Domain,SD086,Card Authorization,Managing card authorization processes,BC08
+3,Service Domain,SD087,Card Capture,Managing card capture and settlement,BC08
+3,Service Domain,SD088,Card Settlement,Managing card settlement processes,BC08
+3,Service Domain,SD089,Financial Market Research,Conducting financial market research,BC18
+3,Service Domain,SD090,Economic Capital Management,Managing economic capital allocation,BC15
+3,Service Domain,SD091,Market Risk Management,Managing market risk exposure,BC15
+3,Service Domain,SD092,Operational Risk Management,Managing operational risk,BC15
+3,Service Domain,SD093,Fraud Diagnosis,Detecting and analyzing fraudulent activities,BC15
+3,Service Domain,SD094,Fraud Resolution,Resolving fraud cases and incidents,BC15
+3,Service Domain,SD095,Financial Statement Assurance,Providing financial statement assurance,BC17
+3,Service Domain,SD096,Audit Portfolio Management,Managing audit portfolio and planning,BC17
+3,Service Domain,SD097,Internal Audit,Conducting internal audit activities,BC17
+3,Service Domain,SD098,External Audit,Managing external audit processes,BC17
+3,Service Domain,SD099,Business Development,Managing business development activities,BC18
+3,Service Domain,SD100,Strategic Planning,Conducting strategic planning processes,BC18

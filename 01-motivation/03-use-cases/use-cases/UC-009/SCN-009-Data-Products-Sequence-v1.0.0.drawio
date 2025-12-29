@@ -1,0 +1,172 @@
+<mxfile host="AI Blueprint Generator" agent="Python Script" version="24.0.0">
+  <diagram name="Sequence-SCN-009" id="seq-009">
+    <mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cell-1001" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=none;" parent="1" vertex="1">
+      <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+    </mxCell><mxCell id="cell-1002" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=none;" parent="1" vertex="1">
+      <mxGeometry x="0" y="0" width="1920" height="160" as="geometry" />
+    </mxCell><mxCell id="cell-1003" value="Sequence Diagram: Data Product Publishing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="50" y="15" width="1820" height="30" as="geometry" />
+    </mxCell><mxCell id="cell-1004" value="UC-009 | Data Products | Actor: Data Engineer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=0;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="50" y="50" width="1820" height="20" as="geometry" />
+    </mxCell><mxCell id="cell-1005" value="Data team publishes a new data product with automated quality checks, lineage tracking, metadata generation, and consumer discoverability." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="50" y="75" width="1820" height="30" as="geometry" />
+    </mxCell><mxCell id="cell-1006" value="Trigger: Data product creation request submitted | Outcome: Data product published with quality validation and discoverable by consumers" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="50" y="110" width="1820" height="40" as="geometry" />
+    </mxCell><mxCell id="cell-1007" value="Lineage Graph" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+      <mxGeometry x="131" y="170" width="140" height="60" as="geometry" />
+    </mxCell><mxCell id="cell-1008" value="" style="endArrow=none;html=1;strokeColor=#333333;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;" parent="1" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="201" y="240" as="sourcePoint" />
+        <mxPoint x="201" y="790" as="targetPoint" />
+      </mxGeometry>
+    </mxCell><mxCell id="cell-1009" value="Quality Rules" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+      <mxGeometry x="282" y="170" width="140" height="60" as="geometry" />
+    </mxCell><mxCell id="cell-1010" value="" style="endArrow=none;html=1;strokeColor=#333333;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;" parent="1" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="352" y="240" as="sourcePoint" />
+        <mxPoint x="352" y="790" as="targetPoint" />
+      </mxGeometry>
+    </mxCell><mxCell id="cell-1011" value="API Spec Generation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+      <mxGeometry x="433" y="170" width="140" height="60" as="geometry" />
+    </mxCell><mxCell id="cell-1012" value="" style="endArrow=none;html=1;strokeColor=#333333;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;" parent="1" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="503" y="240" as="sourcePoint" />
+        <mxPoint x="503" y="790" as="targetPoint" />
+      </mxGeometry>
+    </mxCell><mxCell id="cell-1013" value="Validation Engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+      <mxGeometry x="584" y="170" width="140" height="60" as="geometry" />
+    </mxCell><mxCell id="cell-1014" value="" style="endArrow=none;html=1;strokeColor=#333333;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;" parent="1" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="654" y="240" as="sourcePoint" />
+        <mxPoint x="654" y="790" as="targetPoint" />
+      </mxGeometry>
+    </mxCell><mxCell id="cell-1015" value="Auto-generation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+      <mxGeometry x="735" y="170" width="140" height="60" as="geometry" />
+    </mxCell><mxCell id="cell-1016" value="" style="endArrow=none;html=1;strokeColor=#333333;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;" parent="1" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="805" y="240" as="sourcePoint" />
+        <mxPoint x="805" y="790" as="targetPoint" />
+      </mxGeometry>
+    </mxCell><mxCell id="cell-1017" value="Quality Metrics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+      <mxGeometry x="886" y="170" width="140" height="60" as="geometry" />
+    </mxCell><mxCell id="cell-1018" value="" style="endArrow=none;html=1;strokeColor=#333333;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;" parent="1" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="956" y="240" as="sourcePoint" />
+        <mxPoint x="956" y="790" as="targetPoint" />
+      </mxGeometry>
+    </mxCell><mxCell id="cell-1019" value="Auto-tagging" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+      <mxGeometry x="1037" y="170" width="140" height="60" as="geometry" />
+    </mxCell><mxCell id="cell-1020" value="" style="endArrow=none;html=1;strokeColor=#333333;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;" parent="1" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1107" y="240" as="sourcePoint" />
+        <mxPoint x="1107" y="790" as="targetPoint" />
+      </mxGeometry>
+    </mxCell><mxCell id="cell-1021" value="Recommendation Engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+      <mxGeometry x="1188" y="170" width="140" height="60" as="geometry" />
+    </mxCell><mxCell id="cell-1022" value="" style="endArrow=none;html=1;strokeColor=#333333;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;" parent="1" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1258" y="240" as="sourcePoint" />
+        <mxPoint x="1258" y="790" as="targetPoint" />
+      </mxGeometry>
+    </mxCell><mxCell id="cell-1023" value="Data Catalog" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+      <mxGeometry x="1339" y="170" width="140" height="60" as="geometry" />
+    </mxCell><mxCell id="cell-1024" value="" style="endArrow=none;html=1;strokeColor=#333333;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;" parent="1" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1409" y="240" as="sourcePoint" />
+        <mxPoint x="1409" y="790" as="targetPoint" />
+      </mxGeometry>
+    </mxCell><mxCell id="cell-1025" value="Context Understanding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+      <mxGeometry x="1490" y="170" width="140" height="60" as="geometry" />
+    </mxCell><mxCell id="cell-1026" value="" style="endArrow=none;html=1;strokeColor=#333333;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;" parent="1" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1560" y="240" as="sourcePoint" />
+        <mxPoint x="1560" y="790" as="targetPoint" />
+      </mxGeometry>
+    </mxCell><mxCell id="cell-1027" value="Impact Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+      <mxGeometry x="1641" y="170" width="140" height="60" as="geometry" />
+    </mxCell><mxCell id="cell-1028" value="" style="endArrow=none;html=1;strokeColor=#333333;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;" parent="1" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1711" y="240" as="sourcePoint" />
+        <mxPoint x="1711" y="790" as="targetPoint" />
+      </mxGeometry>
+    </mxCell><mxCell id="cell-1029" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="201" y="290" as="sourcePoint" />
+            <mxPoint x="352" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1030" value="1. User initiates request via Lineage Graph" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="176" y="272" width="200" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1031" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352" y="340" as="sourcePoint" />
+            <mxPoint x="503" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1032" value="2. Request AI processing: API Spec Generation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="327" y="322" width="200" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1033" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="654" y="390" as="sourcePoint" />
+            <mxPoint x="805" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1034" value="3. Request AI processing: Auto-generation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="629" y="372" width="200" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1035" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="956" y="440" as="sourcePoint" />
+            <mxPoint x="1107" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1036" value="4. Request AI processing: Auto-tagging" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="931" y="422" width="200" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1037" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="503" y="490" as="sourcePoint" />
+            <mxPoint x="805" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1038" value="5. API Spec Generation to Auto-generation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="513" y="472" width="282" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1039" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="805" y="540" as="sourcePoint" />
+            <mxPoint x="1107" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1040" value="6. Auto-generation to Auto-tagging" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="815" y="522" width="282" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1041" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1107" y="590" as="sourcePoint" />
+            <mxPoint x="1258" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1042" value="7. Auto-tagging to Recommendation Engine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1082" y="572" width="200" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1043" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1409" y="640" as="sourcePoint" />
+            <mxPoint x="503" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1044" value="8. Provide data from Data Catalog" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="513" y="622" width="886" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1045" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1560" y="690" as="sourcePoint" />
+            <mxPoint x="1711" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1046" value="9. Return results to Impact Analysis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1535" y="672" width="200" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1047" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1711" y="740" as="sourcePoint" />
+            <mxPoint x="201" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1048" value="10. Display results in Lineage Graph" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="211" y="722" width="1490" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1049" value="Generated from scenario-sequence-steps.csv | 10 steps | 11 participants" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#666666;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="50" y="1050" width="1820" height="20" as="geometry" />
+    </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

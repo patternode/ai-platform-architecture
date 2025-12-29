@@ -1,0 +1,332 @@
+<mxfile host="app.diagrams.net" modified="2025-12-05T00:00:00.000Z" agent="Claude Code" version="24.0.0">
+  <diagram name="PT-008-Architecture" id="pt-008-multi-agent-orchestration">
+    <mxGraphModel dx="2400" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Background -->
+        <mxCell id="background" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="2400" height="1800" as="geometry" />
+        </mxCell>
+
+        <!-- Title -->
+        <mxCell id="title" value="PT-008: Multi-Agent Orchestration - Architecture Overview" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="2320" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Pattern Boundary Container -->
+        <mxCell id="pattern-boundary" value="Multi-Agent Orchestration Pattern Boundary" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#003087;strokeWidth=3;dashed=1;dashPattern=8 8;verticalAlign=top;align=left;fontSize=16;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="2280" height="1520" as="geometry" />
+        </mxCell>
+
+        <!-- User Request / Complex Task -->
+        <mxCell id="user-request" value="User Request / Complex Task" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="180" width="400" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Task Decomposer -->
+        <mxCell id="task-decomposer" value="&lt;b&gt;Task Decomposer&lt;/b&gt;&lt;br&gt;(AB-007)&lt;br&gt;&lt;br&gt;Breaks complex tasks into&lt;br&gt;agent-assignable subtasks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=12;fontFamily=Helvetica;fontColor=#FFFFFF;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="280" width="400" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Agent Registry -->
+        <mxCell id="agent-registry" value="&lt;b&gt;Agent Registry&lt;/b&gt;&lt;br&gt;(AB-002)&lt;br&gt;&lt;br&gt;• Agent capabilities catalog&lt;br&gt;• Availability status&lt;br&gt;• Performance history" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=12;fontFamily=Helvetica;fontColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="300" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Agent Orchestrator -->
+        <mxCell id="agent-orchestrator" value="&lt;b&gt;Agent Orchestrator&lt;/b&gt;&lt;br&gt;(AB-001)&lt;br&gt;&lt;br&gt;• Task assignment&lt;br&gt;• Workflow execution control&lt;br&gt;• Pattern selection (Sequential/Parallel/Hierarchical/Collaborative)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=12;fontFamily=Helvetica;fontColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="850" y="440" width="700" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Orchestration Patterns Container -->
+        <mxCell id="patterns-container" value="Orchestration Patterns" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#003087;strokeWidth=2;verticalAlign=top;align=center;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="120" y="620" width="2160" height="360" as="geometry" />
+        </mxCell>
+
+        <!-- Sequential Pattern -->
+        <mxCell id="sequential-pattern" value="&lt;b&gt;Sequential Pattern&lt;/b&gt;&lt;br&gt;(Pipeline)&lt;br&gt;&lt;br&gt;Agent 1 → Agent 2 → Agent 3 → Agent 4&lt;br&gt;&lt;br&gt;Use: Dependencies between stages" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=11;fontFamily=Helvetica;fontColor=#003087;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="670" width="480" height="280" as="geometry" />
+        </mxCell>
+
+        <!-- Sequential Agents -->
+        <mxCell id="seq-agent1" value="Agent 1&lt;br&gt;Research" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="180" y="760" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="seq-agent2" value="Agent 2&lt;br&gt;Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="310" y="760" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="seq-agent3" value="Agent 3&lt;br&gt;Validate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="760" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="seq-agent4" value="Agent 4&lt;br&gt;Report" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="180" y="870" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Sequential Arrows -->
+        <mxCell id="seq-arrow1" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="seq-agent1" target="seq-agent2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seq-arrow2" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="seq-agent2" target="seq-agent3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seq-arrow3" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="seq-agent3" target="seq-agent4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Parallel Pattern -->
+        <mxCell id="parallel-pattern" value="&lt;b&gt;Parallel Pattern&lt;/b&gt;&lt;br&gt;&lt;br&gt;Use: Independent tasks, speed critical" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=11;fontFamily=Helvetica;fontColor=#003087;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="680" y="670" width="480" height="280" as="geometry" />
+        </mxCell>
+
+        <!-- Parallel Agents -->
+        <mxCell id="par-agent1" value="Agent 1&lt;br&gt;AWS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="700" y="740" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="par-agent2" value="Agent 2&lt;br&gt;Azure" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="830" y="740" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="par-agent3" value="Agent 3&lt;br&gt;GCP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="960" y="740" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="par-aggregator" value="Result&lt;br&gt;Aggregator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="830" y="860" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Parallel Arrows -->
+        <mxCell id="par-arrow1" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;exitX=0.5;exitY=1;entryX=0;entryY=0;rounded=1;" edge="1" parent="1" source="par-agent1" target="par-aggregator">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="par-arrow2" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="par-agent2" target="par-aggregator">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="par-arrow3" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;exitX=0.5;exitY=1;entryX=1;entryY=0;rounded=1;" edge="1" parent="1" source="par-agent3" target="par-aggregator">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Hierarchical Pattern -->
+        <mxCell id="hierarchical-pattern" value="&lt;b&gt;Hierarchical Pattern&lt;/b&gt;&lt;br&gt;(Manager-Worker)&lt;br&gt;&lt;br&gt;Use: Complex dynamic workflows" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=11;fontFamily=Helvetica;fontColor=#003087;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="670" width="480" height="280" as="geometry" />
+        </mxCell>
+
+        <!-- Hierarchical Manager -->
+        <mxCell id="hier-manager" value="Manager&lt;br&gt;Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="740" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Hierarchical Workers -->
+        <mxCell id="hier-worker1" value="Worker 1&lt;br&gt;Code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="860" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hier-worker2" value="Worker 2&lt;br&gt;Test" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="860" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hier-worker3" value="Worker 3&lt;br&gt;Security" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="860" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hier-worker4" value="Worker 4&lt;br&gt;Docs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1575" y="860" width="90" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Hierarchical Arrows -->
+        <mxCell id="hier-arrow1" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;exitX=0.25;exitY=1;entryX=0.5;entryY=0;rounded=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="hier-manager" target="hier-worker1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hier-arrow2" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="hier-manager" target="hier-worker2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hier-arrow3" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="hier-manager" target="hier-worker3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hier-arrow4" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;exitX=0.75;exitY=1;entryX=0.5;entryY=0;rounded=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="hier-manager" target="hier-worker4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Collaborative Pattern -->
+        <mxCell id="collaborative-pattern" value="&lt;b&gt;Collaborative Pattern&lt;/b&gt;&lt;br&gt;(Debate/Consensus)&lt;br&gt;&lt;br&gt;Use: Multiple perspectives, consensus decisions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=11;fontFamily=Helvetica;fontColor=#003087;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="670" width="480" height="280" as="geometry" />
+        </mxCell>
+
+        <!-- Collaborative Agents -->
+        <mxCell id="collab-agent1" value="Agent 1&lt;br&gt;Quant Risk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="760" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="collab-agent2" value="Agent 2&lt;br&gt;Qual Risk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="760" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="collab-agent3" value="Agent 3&lt;br&gt;Market Risk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="760" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="collab-consensus" value="Consensus&lt;br&gt;Engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="870" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Collaborative Arrows -->
+        <mxCell id="collab-arrow1" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;startArrow=classic;startFill=1;rounded=1;" edge="1" parent="1" source="collab-agent1" target="collab-agent2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="collab-arrow2" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;startArrow=classic;startFill=1;" edge="1" parent="1" source="collab-agent2" target="collab-agent3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="collab-arrow3" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;exitX=0.5;exitY=1;entryX=0;entryY=0;rounded=1;" edge="1" parent="1" source="collab-agent1" target="collab-consensus">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="collab-arrow4" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="collab-agent2" target="collab-consensus">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="collab-arrow5" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;exitX=0.5;exitY=1;entryX=1;entryY=0;rounded=1;" edge="1" parent="1" source="collab-agent3" target="collab-consensus">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Inter-Agent Communication Bus -->
+        <mxCell id="communication-bus" value="&lt;b&gt;Inter-Agent Communication Bus&lt;/b&gt;&lt;br&gt;(AB-003)&lt;br&gt;&lt;br&gt;Message Queue (Kafka) | Event Streaming | Async Message Passing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#00A651;strokeWidth=2;fontSize=12;fontFamily=Helvetica;fontColor=#FFFFFF;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1040" width="2160" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Shared Memory System -->
+        <mxCell id="shared-memory" value="&lt;b&gt;Shared Memory System&lt;/b&gt;&lt;br&gt;(AB-004)&lt;br&gt;&lt;br&gt;• Context storage (Redis)&lt;br&gt;• Intermediate results&lt;br&gt;• State management (PostgreSQL)&lt;br&gt;• Document storage (S3)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=12;fontFamily=Helvetica;fontColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1170" width="700" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Result Aggregator -->
+        <mxCell id="result-aggregator" value="&lt;b&gt;Result Aggregator&lt;/b&gt;&lt;br&gt;(AB-005)&lt;br&gt;&lt;br&gt;• Combines agent outputs&lt;br&gt;• Synthesis logic&lt;br&gt;• Coherent final results" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#FF6B35;strokeWidth=2;fontSize=12;fontFamily=Helvetica;fontColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1170" width="360" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Conflict Resolver -->
+        <mxCell id="conflict-resolver" value="&lt;b&gt;Conflict Resolver&lt;/b&gt;&lt;br&gt;(AB-006)&lt;br&gt;&lt;br&gt;• Voting mechanisms&lt;br&gt;• Confidence scoring&lt;br&gt;• LLM-mediated resolution" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#FF6B35;strokeWidth=2;fontSize=12;fontFamily=Helvetica;fontColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1170" width="360" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Cross-Cutting Components -->
+        <mxCell id="governance" value="&lt;b&gt;AI Governance&lt;/b&gt;&lt;br&gt;(AB-060)&lt;br&gt;&lt;br&gt;Compliance | Audit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=11;fontFamily=Helvetica;fontColor=#003087;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="1170" width="200" height="140" as="geometry" />
+        </mxCell>
+
+        <mxCell id="security" value="&lt;b&gt;Security &amp; Identity&lt;/b&gt;&lt;br&gt;(AB-112)&lt;br&gt;&lt;br&gt;Auth | Encryption" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=11;fontFamily=Helvetica;fontColor=#003087;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1170" width="180" height="140" as="geometry" />
+        </mxCell>
+
+        <mxCell id="observability" value="&lt;b&gt;Observability&lt;/b&gt;&lt;br&gt;(AB-096)&lt;br&gt;&lt;br&gt;Monitoring | Logs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=11;fontFamily=Helvetica;fontColor=#003087;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="1170" width="150" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Final Output -->
+        <mxCell id="final-output" value="Final Aggregated Output" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1370" width="400" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Main Flow Arrows -->
+        <mxCell id="flow1" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=3;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="user-request" target="task-decomposer">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flow2" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=3;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="task-decomposer" target="agent-orchestrator">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flow3" value="Query agents" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;exitX=0;exitY=0.5;entryX=1;entryY=0.5;dashed=1;dashPattern=4 4;" edge="1" parent="1" source="task-decomposer" target="agent-registry">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="flow4" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=3;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="agent-orchestrator" target="patterns-container">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flow5" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=3;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="patterns-container" target="communication-bus">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flow6" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=3;exitX=0.5;exitY=1;entryX=0.125;entryY=0;rounded=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="communication-bus" target="result-aggregator">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flow7" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=3;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="result-aggregator" target="final-output">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flow8" value="If conflicts" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;dashed=1;dashPattern=4 4;" edge="1" parent="1" source="result-aggregator" target="conflict-resolver">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="flow9" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;exitX=0.25;exitY=1;entryX=0.25;entryY=0;rounded=1;dashed=1;dashPattern=4 4;" edge="1" parent="1" source="communication-bus" target="shared-memory">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="legend-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#003087;strokeWidth=2;verticalAlign=top;align=left;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="1470" width="560" height="150" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="1475" width="100" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Legend Items -->
+        <mxCell id="legend-abb-core" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="1515" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-abb-core-text" value="Core Agent ABB (Navy Blue)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="1515" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-abb-coord" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#FF6B35;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="1555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-abb-coord-text" value="Coordination ABB (Orange)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="1555" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-abb-support" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="1515" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-abb-support-text" value="Support ABB (Light Blue)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="1515" width="170" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-infra" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#00A651;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="1555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-infra-text" value="Infrastructure (Teal)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="1555" width="170" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-flow" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1740" y="1605" as="sourcePoint" />
+            <mxPoint x="1800" y="1605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-flow-text" value="Primary data flow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="1590" width="150" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-optional" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;dashed=1;dashPattern=4 4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2030" y="1605" as="sourcePoint" />
+            <mxPoint x="2090" y="1605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-optional-text" value="Optional/conditional flow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="1590" width="170" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Metadata Footer -->
+        <mxCell id="metadata" value="Pattern: PT-008 Multi-Agent Orchestration | Version: 1.0.0 | Canvas: 2400x1800px | BNZ Visual Design Standard Compliant | Created: 2025-12-05" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1470" width="1580" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Pattern Type Labels -->
+        <mxCell id="label-pattern-types" value="Four Orchestration Pattern Types:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="120" y="625" width="2160" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

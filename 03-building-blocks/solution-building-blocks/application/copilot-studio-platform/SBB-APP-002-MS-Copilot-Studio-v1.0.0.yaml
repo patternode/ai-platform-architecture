@@ -1,0 +1,910 @@
+# Solution Building Block (SBB)
+# Microsoft Copilot Studio Agent
+# Version 1.0.0
+
+document_control:
+  document_type: "Solution Building Block"
+  version: "1.0.0"
+  status: "Production"
+  created_date: "2025-11-28"
+  last_modified: "2025-11-28"
+  owner: "BNZ AI Platform Team"
+  architecture_domain: "Application"
+  implementation_phase: "Production"
+
+identification:
+  sbb_id: "SBB-APP-002"
+  sbb_name: "Microsoft Copilot Studio Agent"
+  sbb_short_name: "Copilot Studio Agent"
+  version: "1.0.0"
+  classification: "PaaS / Low-Code Platform"
+  description: "Microsoft Copilot Studio is a low-code graphical platform for building conversational AI agents. Built on the Power Platform, it provides visual authoring tools, integration with Azure OpenAI GPT models, 1000+ connectors, and deep integration with Microsoft 365 ecosystem. Agents can be deployed across web, Microsoft Teams, mobile apps, and M365 Copilot."
+  procurement_type: "Cloud Service (PaaS) - SaaS Platform"
+  vendor_provider: "Microsoft Corporation"
+  business_justification: "Microsoft Copilot Studio selected for low-code/no-code agent development, enabling business users to create agents without extensive programming. Deep Microsoft 365 integration provides native access to organizational data and existing IT investments. Strong governance via Power Platform and enterprise-grade compliance."
+
+abb_realization:
+  realizes_abbs:
+    - abb_id: "ABB-APP-001"
+      abb_name: "Agentic AI Agent"
+      realization_percentage: 95
+      realization_method: "Full"
+      gaps:
+        - gap_id: "GAP-001"
+          gap_description: "Limited framework flexibility compared to code-first approaches"
+          gap_impact: "Cannot easily integrate custom Python/TypeScript frameworks"
+          gap_severity: "Low"
+          workaround: "Use custom connectors to Azure Functions for advanced logic"
+  
+  abb_requirements_mapping:
+    - abb_requirement_id: "FUNC-001"
+      requirement_description: "Natural Language Understanding & Generation"
+      sbb_feature: "Azure OpenAI GPT-5 Auto/Reasoning"
+      compliance_status: "Full"
+      notes: "Built-in GPT integration"
+      
+    - abb_requirement_id: "FUNC-002"
+      requirement_description: "Reasoning & Decision Making"
+      sbb_feature: "Generative AI Orchestration + Topics"
+      compliance_status: "Full"
+      notes: "Hybrid classical/AI approach"
+      
+    - abb_requirement_id: "FUNC-003"
+      requirement_description: "Memory Management"
+      sbb_feature: "Conversation Context (session-based)"
+      compliance_status: "Partial"
+      notes: "No long-term memory by default"
+      
+    - abb_requirement_id: "FUNC-004"
+      requirement_description: "Tool Orchestration & Integration"
+      sbb_feature: "Actions Layer (Agent Flows + 1000+ Connectors)"
+      compliance_status: "Full"
+      notes: "Extensive connector ecosystem"
+      
+    - abb_requirement_id: "FUNC-005"
+      requirement_description: "Knowledge Retrieval"
+      sbb_feature: "Knowledge Management (SharePoint, Dataverse, OneDrive)"
+      compliance_status: "Full"
+      notes: "Native M365 integration"
+      
+    - abb_requirement_id: "FUNC-006"
+      requirement_description: "Identity & Authorization"
+      sbb_feature: "Azure AD / Entra ID (with certificate support)"
+      compliance_status: "Full"
+      notes: "Enterprise SSO"
+      
+    - abb_requirement_id: "FUNC-007"
+      requirement_description: "Multi-turn Conversation Management"
+      sbb_feature: "Topic-based Dialog System"
+      compliance_status: "Full"
+      notes: "Visual conversation designer"
+      
+    - abb_requirement_id: "FUNC-008"
+      requirement_description: "Error Handling & Recovery"
+      sbb_feature: "Built-in error handling nodes + fallback topics"
+      compliance_status: "Full"
+      notes: "Low-code error handling"
+
+product_specifications:
+  product_details:
+    product_name: "Microsoft Copilot Studio"
+    product_family: "Microsoft Power Platform"
+    version: "GA (Generally Available as of Nov 2025)"
+    release_date: "Evolved from Power Virtual Agents (2023 rebrand)"
+    vendor:
+      name: "Microsoft Corporation"
+      website: "https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio"
+      support_contact: "Microsoft Premier Support"
+      account_manager: "BNZ Microsoft Account Team"
+    license_model: "Dual licensing (Tenant + Per-User) + Copilot Credits consumption"
+    license_details:
+      license_type: "Commercial SaaS + Consumption"
+      number_of_licenses: "Tenant license + per-maker user licenses"
+      license_cost: "See pricing section"
+      renewal_date: "Annual renewal"
+      restrictions: "Guest users cannot access; makers need Copilot Studio User License"
+  
+  technical_specifications:
+    authoring_environment:
+      type: "Visual Low-Code"
+      interface: "Web-based authoring canvas"
+      languages_supported: ["English", "Spanish", "French", "German", "Portuguese", "Chinese", "Japanese", "40+ languages"]
+      development_tools: ["Topic designer", "Entity editor", "Variable management", "Test chat"]
+    
+    ai_capabilities:
+      foundation_models: ["Azure OpenAI GPT-5 Auto", "Azure OpenAI GPT-5 Reasoning"]
+      nlu_engine: "Custom NLU built on Azure OpenAI"
+      generative_answers: "RAG-based knowledge synthesis"
+      content_moderation: "Azure AI Content Safety"
+      prompt_engineering: "Built-in prompt optimization"
+    
+    knowledge_sources:
+      supported_types:
+        - "Microsoft SharePoint (sites and pages)"
+        - "Dataverse (Dynamics 365 tables)"
+        - "OneDrive for Business"
+        - "Public websites"
+        - "Uploaded files (PDF, DOCX)"
+      knowledge_features:
+        - "Automatic chunking and embedding"
+        - "Semantic search"
+        - "Citation tracking"
+        - "Knowledge refresh scheduling"
+        - "Security trimming based on user access"
+    
+    integration_capabilities:
+      connectors: "1000+ Power Platform connectors"
+      recommended_pattern: "Agent flows (replacing Power Automate flows)"
+      connector_types: ["Standard (included)", "Premium (additional license required)"]
+      mcp_support: "Model Context Protocol (preview)"
+      computer_use: "RPA-style agent actions (preview)"
+      code_interpreter: "Python-powered code execution"
+      custom_apis: "Custom connectors via OpenAPI"
+    
+    platform_services:
+      runtime: "Power Platform managed service"
+      storage: "Dataverse (Dynamics 365 database)"
+      environments: "Dev/Test/Prod isolation"
+      alm: "Solutions for application lifecycle management"
+      governance: "Power Platform Admin Center"
+    
+    cloud_specs:
+      provider: "Microsoft Azure"
+      supported_regions:
+        - "North America: United States, Canada"
+        - "Europe: UK, France, Germany, Switzerland, Norway"
+        - "Asia Pacific: Australia, Japan, India, Singapore"
+        - "Government: US GCC, GCC High"
+      eu_data_boundary: "Full EUDB compliance for EU tenants"
+      deployment_options: ["Public cloud", "Government cloud"]
+  
+  deployment_architecture:
+    deployment_model: "Cloud (Multi-Tenant SaaS)"
+    deployment_pattern: "Managed Platform as a Service"
+    architecture_layers:
+      - layer: "UI Layer"
+        components: ["Web Chat Widget", "Microsoft Teams", "Mobile apps", "M365 Copilot"]
+      - layer: "Copilot Studio Service"
+        components: ["Topic Engine", "Generative AI Orchestration", "Knowledge Management", "Actions Layer"]
+      - layer: "Power Platform Foundation"
+        components: ["Dataverse", "Power Automate", "Connectors", "Security & Governance"]
+      - layer: "Azure Infrastructure"
+        components: ["Azure OpenAI", "Azure Bot Service", "Application Insights", "Azure AD"]
+    infrastructure_as_code:
+      tool: "Power Platform CLI + PowerShell"
+      repository: "https://github.com/bnz/copilot-studio-solutions"
+      version: "1.0.0"
+      deployment_method: "Solutions (XML-based packages)"
+
+implemented_functionality:
+  core_features:
+    - feature_id: "FEAT-001"
+      feature_name: "Visual Authoring Canvas"
+      description: "Low-code graphical interface for building conversational flows"
+      abb_mapping: ["FUNC-007"]
+      enabled: true
+      configuration_required: false
+      
+    - feature_id: "FEAT-002"
+      feature_name: "Generative AI Orchestration"
+      description: "Azure OpenAI GPT-5 integration for natural conversation"
+      abb_mapping: ["FUNC-001", "FUNC-002"]
+      enabled: true
+      configuration_required: true
+      
+    - feature_id: "FEAT-003"
+      feature_name: "Knowledge Management"
+      description: "RAG-based knowledge retrieval from M365 and external sources"
+      abb_mapping: ["FUNC-005"]
+      enabled: true
+      configuration_required: true
+      
+    - feature_id: "FEAT-004"
+      feature_name: "Actions & Connectors"
+      description: "1000+ Power Platform connectors for tool orchestration"
+      abb_mapping: ["FUNC-004"]
+      enabled: true
+      configuration_required: true
+      
+    - feature_id: "FEAT-005"
+      feature_name: "Multi-Channel Deployment"
+      description: "Deploy to web, Teams, mobile, M365 Copilot"
+      abb_mapping: []
+      enabled: true
+      configuration_required: true
+      
+    - feature_id: "FEAT-006"
+      feature_name: "Enterprise Identity"
+      description: "Azure AD integration with SSO and certificate support"
+      abb_mapping: ["FUNC-006"]
+      enabled: true
+      configuration_required: true
+  
+  optional_features:
+    - feature_id: "FEAT-OPT-001"
+      feature_name: "Multi-Agent Orchestration"
+      description: "Coordinate multiple specialized agents for complex tasks"
+      enabled: true
+      reason_not_enabled: "N/A - enabled"
+      
+    - feature_id: "FEAT-OPT-002"
+      feature_name: "Code Interpreter (Preview)"
+      description: "Python-powered code execution for data analysis"
+      enabled: true
+      reason_not_enabled: "N/A - preview feature enabled"
+      
+    - feature_id: "FEAT-OPT-003"
+      feature_name: "Computer Use (Preview)"
+      description: "RPA-style UI automation capabilities"
+      enabled: false
+      reason_not_enabled: "Preview feature not yet approved for production use"
+  
+  custom_extensions:
+    - extension_id: "EXT-001"
+      extension_name: "BNZ Custom Connectors"
+      description: "Custom connectors for internal BNZ systems"
+      technology: "Power Platform Custom Connectors (OpenAPI)"
+      development_effort: "120 hours"
+      code_repository: "https://github.com/bnz/copilot-studio-custom-connectors"
+  
+  performance_characteristics:
+    measured_metrics:
+      response_time_p50: "800ms"
+      response_time_p95: "2500ms"
+      response_time_p99: "5000ms"
+      throughput_max: "1000+ concurrent conversations"
+      session_duration_max: "Unlimited (session timeout configurable)"
+    
+    benchmarks:
+      - benchmark_name: "HR Helpdesk Agent Load Test"
+        date_performed: "2025-10-20"
+        results: "1000 concurrent conversations at 95th percentile 2.5s latency"
+        test_methodology: "Azure Load Testing + Test Studio"
+        report_location: "https://dev.azure.com/bnz/copilot-studio-testing"
+    
+    sla_compliance:
+      availability_actual: "99.92%"
+      availability_target: "99.9%"
+      mttr_actual: "30 minutes"
+      mttr_target: "1 hour"
+
+integration_interfaces:
+  provided_interfaces:
+    - interface_id: "IF-001"
+      interface_name: "Web Chat Widget"
+      interface_type: "JavaScript SDK"
+      protocol: "WebSocket"
+      data_format: "JSON"
+      authentication: "Anonymous or Azure AD"
+      operations: ["Send message", "Receive message", "Upload file", "Typing indicator"]
+      
+    - interface_id: "IF-002"
+      interface_name: "Microsoft Teams Channel"
+      interface_type: "Bot Framework"
+      protocol: "HTTPS"
+      data_format: "JSON"
+      authentication: "Azure AD (M365 context)"
+      operations: ["Send message", "Receive message", "Adaptive cards", "File upload"]
+      
+    - interface_id: "IF-003"
+      interface_name: "Direct Line API (Custom Channels)"
+      interface_type: "REST API"
+      protocol: "HTTPS"
+      data_format: "JSON"
+      authentication: "Direct Line token"
+      supported_channels: ["Custom web apps", "Mobile apps", "IoT devices"]
+      
+    - interface_id: "IF-004"
+      interface_name: "M365 Copilot Extension"
+      interface_type: "Copilot Plugin"
+      protocol: "Graph API"
+      authentication: "Azure AD (M365 context)"
+  
+  required_interfaces:
+    - interface_id: "IF-REQ-001"
+      interface_name: "Azure OpenAI Service"
+      interface_type: "REST API"
+      protocol: "HTTPS"
+      provider: "Microsoft Azure"
+      
+    - interface_id: "IF-REQ-002"
+      interface_name: "Microsoft Graph API"
+      interface_type: "REST API"
+      protocol: "HTTPS"
+      provider: "Microsoft 365"
+      
+    - interface_id: "IF-REQ-003"
+      interface_name: "Dataverse API"
+      interface_type: "OData REST API"
+      protocol: "HTTPS"
+      provider: "Power Platform"
+  
+  integration_patterns:
+    - pattern_name: "Agent Flows (Recommended)"
+      protocol: "Power Platform Connectors"
+      implementation_details: "Visual workflow orchestration with 1000+ connectors"
+      error_handling: "Built-in retry logic and error handling nodes"
+      retry_policy:
+        max_retries: 3
+        backoff_strategy: "Exponential"
+      
+    - pattern_name: "Power Automate Flows (Legacy)"
+      protocol: "Power Platform Connectors"
+      implementation_details: "Traditional Power Automate flows called from agent"
+      message_format: "JSON"
+      
+    - pattern_name: "MCP Tool Integration (Preview)"
+      protocol: "Model Context Protocol"
+      implementation_details: "MCP servers registered as tools for agent use"
+      message_format: "JSON-RPC 2.0"
+      
+    - pattern_name: "Custom Connectors"
+      protocol: "OpenAPI / REST"
+      implementation_details: "Custom APIs wrapped as Power Platform connectors"
+      authentication: "OAuth 2.0, API Key, Basic Auth"
+  
+  data_integration:
+    data_sources:
+      - source_id: "DS-001"
+        source_name: "BNZ SharePoint Intranet"
+        connection_method: "SharePoint connector (built-in)"
+        data_format: "HTML, Office documents"
+        refresh_frequency: "Daily"
+        data_volume: "5000+ pages, ~25GB"
+        
+      - source_id: "DS-002"
+        source_name: "HR System (Workday)"
+        connection_method: "Workday Premium Connector"
+        data_format: "JSON"
+        refresh_frequency: "Real-time"
+        data_volume: "Variable per request"
+        
+      - source_id: "DS-003"
+        source_name: "ServiceNow (IT Service Management)"
+        connection_method: "ServiceNow Premium Connector"
+        data_format: "JSON"
+        refresh_frequency: "Real-time"
+        data_volume: "Variable per request"
+    
+    data_targets:
+      - target_id: "DT-001"
+        target_name: "Dataverse (Conversation History)"
+        connection_method: "Native Dataverse integration"
+        data_format: "OData"
+        data_entities: ["Conversations", "Messages", "User feedback"]
+        retention: "90 days (configurable)"
+        
+      - target_id: "DT-002"
+        target_name: "Application Insights (Telemetry)"
+        connection_method: "Azure Monitor integration"
+        data_format: "JSON"
+        data_entities: ["Performance metrics", "Errors", "Usage analytics"]
+
+security_implementation:
+  authentication:
+    methods: ["Azure AD / Entra ID", "Azure AD with Certificate", "OAuth 2.0", "Manual (username only)", "No authentication"]
+    primary_method: "Azure AD / Entra ID"
+    identity_providers: ["Microsoft Entra ID"]
+    mfa_enabled: true
+    mfa_methods: ["TOTP", "Authenticator App", "SMS", "FIDO2"]
+    certificate_support: true
+  
+  authorization:
+    model: "RBAC via Power Platform Security Roles"
+    fine_grained_access: "Environment roles, Agent permissions, Dataverse row-level security"
+    enforcement_point: "Power Platform"
+    security_roles: ["System Administrator", "Environment Maker", "Bot Maker", "Bot User"]
+  
+  data_protection:
+    encryption_at_rest:
+      enabled: true
+      algorithm: "AES-256"
+      key_management: "Microsoft-managed keys (default) or Customer-managed keys (Azure Key Vault)"
+    encryption_in_transit:
+      enabled: true
+      protocol: "TLS 1.2+"
+      certificate_authority: "Microsoft Azure"
+    data_isolation:
+      tenant_isolation: "Complete tenant boundary separation"
+      environment_isolation: "Environment-level data isolation within tenant"
+  
+  security_monitoring:
+    logging:
+      audit_logging: true
+      log_destination: "Microsoft 365 Compliance Center + Application Insights"
+      log_events: ["User authentication", "Agent access", "Data access", "Configuration changes"]
+      retention_period: "180 days (M365 Audit)"
+    siem_integration:
+      siem_platform: "BNZ Splunk"
+      events_forwarded: ["Authentication events", "Authorization failures", "Data access anomalies"]
+  
+  vulnerability_management:
+    managed_service: "Microsoft responsibility for platform patching"
+    application_scanning: "Automatic security scan on agent publish"
+  
+  compliance:
+    frameworks: ["SOC 1", "SOC 2", "SOC 3", "ISO 27001", "GDPR", "CCPA", "HIPAA (with BAA)"]
+    microsoft_compliance_reports: "Available via Service Trust Portal"
+  
+  security_architecture:
+    network_security:
+      deployment_options:
+        - "Public endpoints with Azure AD authentication"
+        - "Private channels within Microsoft 365"
+        - "Custom domains with SSL certificates"
+      network_isolation: "Tenant boundary isolation"
+    application_security:
+      input_validation: "Built-in content moderation (Azure AI Content Safety)"
+      prompt_injection_protection: "Azure OpenAI content filters + custom validation"
+      secrets_management: "Dataverse encrypted columns for sensitive data"
+      dlp_policies: "Data Loss Prevention policies at tenant and environment level"
+    data_governance:
+      sensitivity_labels: "Microsoft Purview sensitivity labels respected"
+      information_barriers: "M365 Information Barriers enforced"
+      customer_lockbox: "Available for production tenants"
+
+operational_characteristics:
+  deployment_configuration:
+    ci_cd_pipeline:
+      tool: "Azure DevOps Pipelines"
+      pipeline_url: "https://dev.azure.com/bnz/copilot-studio-deployments"
+      build_frequency: "On solution export"
+      deployment_frequency: "Bi-weekly (every other Tuesday)"
+    
+    deployment_automation:
+      automation_level: "Semi-Automated"
+      deployment_tool: "Power Platform CLI + Azure DevOps"
+      rollback_capability: true
+      rollback_time: "< 15 minutes (previous solution version import)"
+    
+    configuration_management:
+      config_location: "Environment variables in solution"
+      config_format: "JSON"
+      environment_configs: ["Dev", "Test", "Production"]
+      secrets_management: "Dataverse encrypted columns"
+      config_validation: "Manual validation in test environment"
+  
+  monitoring_observability:
+    observability_platform: "Power Platform Admin Center + Application Insights"
+    metrics:
+      collection_interval: "Real-time"
+      retention_period: "90 days (Application Insights)"
+      key_metrics:
+        - metric_name: "Conversation Volume"
+          threshold: "> 20K/day"
+          alert_on_breach: true
+        - metric_name: "CSAT Score"
+          threshold: "< 4.0/5.0"
+          alert_on_breach: true
+        - metric_name: "Escalation Rate"
+          threshold: "> 10%"
+          alert_on_breach: true
+        - metric_name: "Copilot Credits Usage"
+          threshold: "> 80% of monthly allocation"
+          alert_on_breach: true
+    
+    logging:
+      log_aggregation: "Application Insights"
+      log_level: "INFO"
+      log_retention: "90 days"
+      structured_logging: true
+      log_format: "JSON"
+    
+    analytics:
+      built_in_analytics: "Copilot Studio Analytics Dashboard"
+      custom_reports: "Power BI integration via Dataverse"
+      metrics_tracked: ["Sessions", "Messages", "Resolution rate", "Topics triggered", "Escalations"]
+    
+    alerting:
+      alerting_tool: "Azure Monitor Alerts"
+      alert_channels: ["Email", "Teams", "PagerDuty"]
+      escalation_policy: "L1 Service Desk -> L2 Power Platform CoE"
+      on_call_rotation: "Weekly rotation (Power Platform CoE)"
+    
+    dashboards:
+      - dashboard_name: "Copilot Studio Operations Dashboard"
+        tool: "Power BI"
+        url: "https://app.powerbi.com/bnz/copilot-studio-ops"
+        metrics_displayed: ["Conversations", "CSAT", "Topics", "Escalations", "Credits"]
+  
+  backup_recovery:
+    backup:
+      agent_configurations:
+        backup_method: "Solution exports to Azure DevOps Git repository"
+        backup_frequency: "Daily (automated)"
+        backup_location: "Azure DevOps Repos"
+      conversation_data:
+        backup_type: "Dataverse backup (Microsoft-managed)"
+        backup_frequency: "Continuous (built-in)"
+        backup_location: "Azure (Microsoft-managed)"
+        retention: "28 days (Dataverse automatic backup)"
+    
+    recovery:
+      rpo: "24 hours (Dataverse backup)"
+      rto: "2 hours (solution re-import + environment restore)"
+      recovery_procedures: "https://docs.bnz.co.nz/copilot-studio-dr"
+      disaster_recovery_plan: "Multi-region environment (AU -> US failover)"
+      failover_capability: "Manual"
+      last_dr_test: "2025-09-25"
+      dr_test_success: true
+  
+  maintenance_support:
+    microsoft_managed: "Platform updates and infrastructure maintenance by Microsoft"
+    application_maintenance: "BNZ responsibility for agent content and configurations"
+    support:
+      support_model: "Hybrid (Microsoft + BNZ)"
+      support_tiers:
+        - tier: "L1"
+          provider: "BNZ Service Desk"
+          hours: "24x7"
+        - tier: "L2"
+          provider: "BNZ Power Platform CoE"
+          hours: "Business hours"
+        - tier: "L3"
+          provider: "Microsoft Premier Support"
+          hours: "24x7"
+      microsoft_support:
+        support_level: "Premier"
+        support_contact: "Microsoft Premier Support"
+
+dependencies:
+  technology_dependencies:
+    microsoft_services:
+      - service_name: "Azure OpenAI Service"
+        purpose: "Foundation model access (GPT-5 Auto/Reasoning)"
+        criticality: "Critical"
+      - service_name: "Dataverse"
+        purpose: "Data storage and configuration"
+        criticality: "Critical"
+      - service_name: "Azure Bot Service"
+        purpose: "Multi-channel deployment infrastructure"
+        criticality: "High"
+      - service_name: "Microsoft Graph"
+        purpose: "M365 data access (SharePoint, OneDrive, Teams)"
+        criticality: "High"
+      - service_name: "Application Insights"
+        purpose: "Monitoring and analytics"
+        criticality: "High"
+    
+    external_dependencies:
+      - dependency_name: "ServiceNow (Premium Connector)"
+        purpose: "IT service management integration"
+        criticality: "High"
+        cost_impact: "Premium connector license required"
+      - dependency_name: "Workday (Premium Connector)"
+        purpose: "HR system integration"
+        criticality: "Medium"
+        cost_impact: "Premium connector license required"
+  
+  service_dependencies: []
+  
+  infrastructure_dependencies:
+    compute:
+      platform: "Microsoft-managed (Azure App Service)"
+      scaling: "Automatic (PaaS)"
+    network:
+      connectivity: "Azure backbone network"
+      dns: "Azure DNS"
+    storage:
+      object_storage: "Azure Blob Storage (for attachments)"
+      database: "Dataverse (Azure SQL Database)"
+
+cost_information:
+  acquisition_costs:
+    licensing_costs:
+      tenant_license: 200
+      user_licenses: 200
+      total_licensing: 400
+      notes: "Per month base costs"
+    
+    implementation_cost:
+      consulting_services: 80000
+      training: 25000
+      migration: 10000
+      total_implementation: 115000
+  
+  operational_costs:
+    monthly_estimates:
+      licensing_base: 400
+      copilot_credits: 3000
+      premium_connectors: 500
+      storage: 150
+      monitoring: 200
+      total_monthly: 4250
+    
+    annual_estimate: 51000
+    cost_breakdown:
+      - cost_category: "Licensing (Tenant + Users)"
+        amount: 4800
+      - cost_category: "Copilot Credits (consumption)"
+        amount: 36000
+      - cost_category: "Premium Connectors"
+        amount: 6000
+      - cost_category: "Storage (Dataverse)"
+        amount: 1800
+      - cost_category: "Monitoring (Application Insights)"
+        amount: 2400
+    
+    cost_optimization_strategies:
+      - "Monitor Copilot Credits usage closely"
+      - "Optimize knowledge sources to reduce processing"
+      - "Use standard connectors where possible"
+      - "Implement topic caching for common queries"
+  
+  tco_analysis:
+    tco_period_years: 3
+    year_1_cost: 166000
+    year_2_cost: 51000
+    year_3_cost: 51000
+    total_3_year_tco: 268000
+    cost_per_unit:
+      cost_per_conversation: 0.21
+      cost_per_session: 0.18
+
+capacity_scalability:
+  current_capacity:
+    concurrent_agents: "Unlimited (license-based)"
+    peak_concurrent_sessions: 500
+    conversations_per_day: 20000
+    average_session_duration: "8 minutes"
+    copilot_credits_monthly: 15000
+  
+  deployment_sizing:
+    small:
+      concurrent_sessions: 50
+      conversations_per_day: 2000
+      copilot_credits: 3000
+      estimated_cost: "$1,500/month"
+    medium:
+      concurrent_sessions: 500
+      conversations_per_day: 20000
+      copilot_credits: 15000
+      estimated_cost: "$4,250/month"
+    large:
+      concurrent_sessions: 5000
+      conversations_per_day: 200000
+      copilot_credits: 100000
+      estimated_cost: "$25,000/month"
+  
+  scalability_plans:
+    - timeframe: "Year 2026"
+      target_capacity:
+        conversations_per_day: 50000
+        concurrent_sessions: 1500
+        copilot_credits_monthly: 40000
+      estimated_cost: 11000
+      infrastructure_changes: "Add additional environments for specialized agents"
+
+testing_qa:
+  testing_strategy:
+    manual_testing:
+      test_chat_pane: "Built-in test chat in authoring canvas"
+      coverage: "100% of topics tested manually"
+    
+    automated_testing:
+      tool: "Power Platform Test Framework (preview)"
+      coverage: "40% of critical flows"
+      framework: "Test Studio (Copilot Studio native)"
+    
+    user_acceptance_testing:
+      environment: "Dedicated TEST environment"
+      participants: "Business users + pilot group"
+      duration: "2 weeks per major release"
+    
+    performance_testing:
+      tool: "Azure Load Testing"
+      last_test_date: "2025-10-20"
+      test_scenarios:
+        - scenario: "Peak load"
+          description: "1000 concurrent sessions for 2 hours"
+          result: "Pass - 95th percentile latency < 3s"
+  
+  quality_metrics:
+    csat_score: "4.4/5"
+    resolution_rate: "82%"
+    escalation_rate: "8%"
+
+diagrams:
+  - diagram_id: "DIAG-001"
+    diagram_name: "Layered Architecture Diagram"
+    diagram_type: "C4 System Context"
+    diagram_format: "draw.io"
+    diagram_file: "SBB-APP-002-Architecture-v1.0.0.drawio"
+    description: "Shows 5-layer Copilot Studio architecture"
+    ai_rendering_instructions:
+      notation: "C4 System Context with layered architecture"
+      layout: "Top-down layered view"
+      layers:
+        - layer_name: "UI Layer"
+          components: ["Web Chat", "Teams", "Mobile", "M365 Copilot"]
+          technology: "JavaScript SDK, Bot Framework, Adaptive Cards"
+        - layer_name: "Copilot Studio Service"
+          components: ["Topic Engine", "Generative AI", "Knowledge", "Actions"]
+          technology: "Microsoft-managed service"
+        - layer_name: "Power Platform Foundation"
+          components: ["Dataverse", "Connectors", "Security", "ALM"]
+          technology: "Power Platform"
+        - layer_name: "Azure Infrastructure"
+          components: ["Azure OpenAI", "Bot Service", "App Insights", "Azure AD"]
+          technology: "Microsoft Azure"
+        - layer_name: "Data Sources"
+          components: ["SharePoint", "Workday", "ServiceNow", "Custom APIs"]
+          technology: "Microsoft 365 + External systems"
+  
+  - diagram_id: "DIAG-002"
+    diagram_name: "Integration Pattern Diagram"
+    diagram_type: "UML Component"
+    diagram_format: "draw.io"
+    diagram_file: "SBB-APP-002-Integration-v1.0.0.drawio"
+    description: "Shows agent flows, connectors, and external system integration patterns"
+    ai_rendering_instructions:
+      notation: "UML Component Diagram"
+      layout: "Hub-and-spoke (agent in center)"
+      components:
+        - component: "Copilot Studio Agent Runtime"
+          responsibilities: ["Conversation management", "Topic routing", "Entity extraction"]
+        - component: "Agent Flows"
+          responsibilities: ["Workflow orchestration", "Connector invocation"]
+          connectors: ["ServiceNow", "Salesforce", "Workday", "Microsoft Graph"]
+        - component: "Dataverse"
+          responsibilities: ["Conversation storage", "Custom business data", "Configuration"]
+        - component: "External Systems"
+          systems: ["ServiceNow (ITSM)", "Salesforce (CRM)", "Workday (HR)", "SharePoint (Knowledge)"]
+  
+  - diagram_id: "DIAG-003"
+    diagram_name: "Data Flow Sequence Diagram"
+    diagram_type: "Sequence Diagram"
+    diagram_format: "draw.io"
+    diagram_file: "SBB-APP-002-DataFlow-v1.0.0.drawio"
+    description: "Shows user interaction data flow through Copilot Studio"
+    ai_rendering_instructions:
+      notation: "UML Sequence Diagram"
+      layout: "Left-to-right chronological"
+      actors:
+        - "User (Teams)"
+        - "Azure Bot Service"
+        - "Copilot Studio Service"
+        - "Azure OpenAI"
+        - "Agent Flow"
+        - "ServiceNow"
+        - "Dataverse"
+      sequence:
+        - {step: 1, from: "User (Teams)", to: "Azure Bot Service", action: "Send message", protocol: "Bot Framework"}
+        - {step: 2, from: "Azure Bot Service", to: "Copilot Studio Service", action: "Forward message with user context", protocol: "HTTPS"}
+        - {step: 3, from: "Copilot Studio Service", to: "Dataverse", action: "Retrieve conversation history", protocol: "Internal"}
+        - {step: 4, from: "Copilot Studio Service", to: "Azure OpenAI", action: "Generate response with context", protocol: "HTTPS REST"}
+        - {step: 5, from: "Copilot Studio Service", to: "Agent Flow", action: "Trigger action (create ticket)", protocol: "HTTPS REST (OAuth 2.0)"}
+        - {step: 6, from: "Agent Flow", to: "ServiceNow", action: "Create incident", protocol: "Power Platform Connector"}
+        - {step: 7, from: "Agent Flow", to: "ServiceNow", action: "Return incident number", protocol: "HTTPS REST (OAuth 2.0)"}
+        - {step: 8, from: "Copilot Studio Service", to: "Dataverse", action: "Store conversation + action result", protocol: "OData"}
+        - {step: 9, from: "Copilot Studio Service", to: "User (Teams)", action: "Return response with incident number", protocol: "Bot Framework (via Azure Bot Service)"}
+
+migration_transition:
+  migration_strategy:
+    greenfield_implementation: true
+    phased_rollout:
+      - phase: "Pilot (Phase 1)"
+        duration: "2 months"
+        scope: "HR helpdesk agent for employees"
+        users: 200
+      - phase: "Expansion (Phase 2)"
+        duration: "4 months"
+        scope: "Additional agents (IT helpdesk, facilities, finance)"
+        users: 2000
+      - phase: "Enterprise (Phase 3)"
+        duration: "Ongoing"
+        scope: "Organization-wide agent platform"
+        users: "All 8000 employees"
+
+vendor_management:
+  vendor_information:
+    vendor_name: "Microsoft Corporation"
+    vendor_type: "Platform Provider"
+    account_details:
+      tenant_id: "bnz.onmicrosoft.com"
+      account_manager: "Microsoft Account Team"
+      technical_account_manager: "Microsoft TAM"
+      customer_success_account_manager: "Microsoft CSAM"
+    support_details:
+      support_tier: "Premier"
+      support_hours: "24x7"
+      support_portal: "https://admin.powerplatform.microsoft.com/support"
+      support_email: "premier@microsoft.com"
+  
+  sla_agreements:
+    - service: "Power Platform / Copilot Studio"
+      availability_commitment: "99.9%"
+      performance_commitment: "< 3s response time (95th percentile)"
+      support_response_time: "< 1 hour (Severity A)"
+  
+  vendor_performance:
+    last_review_date: "2025-10-01"
+    performance_rating: "Good"
+    issues_last_quarter: 2
+
+known_issues_limitations:
+  known_issues:
+    - issue_id: "ISSUE-001"
+      severity: "Low"
+      description: "Agent Flows feature still maturing (replacing Power Automate flows)"
+      impact: "Some advanced scenarios require Power Automate flows"
+      workaround: "Use Power Automate flows for complex orchestration"
+      resolution_eta: "Q2 2026 (full agent flows maturity)"
+  
+  limitations:
+    - limitation_type: "Functional"
+      description: "No built-in long-term memory across sessions (without custom dev)"
+      impact: "Cannot remember user context from previous conversations"
+      mitigation: "Use Dataverse custom tables to store user context"
+    
+    - limitation_type: "Licensing"
+      description: "Complex licensing model (tenant + user + consumption)"
+      impact: "Cost forecasting challenging"
+      mitigation: "Use Microsoft usage estimator tool, monitor capacity closely"
+    
+    - limitation_type: "ALM"
+      description: "Solutions are XML-based, not file-based (Git diff challenging)"
+      impact: "Version control less intuitive than code-based solutions"
+      mitigation: "Use Power Platform Pipelines for deployment automation"
+    
+    - limitation_type: "Custom Logic"
+      description: "Limited to Power Fx and agent flows (no Python/JavaScript in agent)"
+      impact: "Cannot implement complex algorithms directly"
+      mitigation: "Use custom connectors to Azure Functions for advanced logic"
+
+lessons_learned:
+  implementation_lessons:
+    what_went_well:
+      - "Rapid prototyping with visual canvas (business users involved early)"
+      - "Seamless M365 integration (SharePoint, Teams)"
+      - "Comprehensive Power Platform governance tools"
+    what_could_improve:
+      - "Licensing complexity created budgeting challenges"
+      - "Agent flows feature maturity (had to use Power Automate as fallback)"
+      - "Need stronger version control discipline (solutions not as intuitive as code)"
+    recommendations:
+      - "Invest in Power Platform Center of Excellence (CoE) early"
+      - "Use dedicated environments (Dev/Test/Prod) from day 1"
+      - "Budget for premium connectors (often required for enterprise integration)"
+      - "Train makers on solution-based ALM (not just manual exports)"
+      - "Plan for maker training and ongoing support"
+  
+  operational_lessons:
+    what_went_well:
+      - "Built-in analytics provide excellent insights"
+      - "Low operational overhead (Microsoft-managed platform)"
+    what_could_improve:
+      - "Copilot Credits consumption tracking needs improvement"
+      - "Need better cost allocation for shared environments"
+    recommendations:
+      - "Implement chargeback model for Copilot Credits per business unit"
+      - "Set up automated alerts for credit consumption"
+
+related_documents:
+  - document_type: "ABB"
+    document_id: "ABB-APP-001"
+    document_name: "Agentic AI Agent"
+    relationship: "Realizes"
+  - document_type: "SBB"
+    document_id: "SBB-APP-001"
+    document_name: "AWS Bedrock AgentCore Agent"
+    relationship: "Alternative Implementation"
+  - document_type: "ADR"
+    document_id: "ADR-2025-042"
+    document_name: "Agent Platform Selection"
+    relationship: "Decision Context"
+  - document_type: "Framework"
+    document_id: "FW-PP-001"
+    document_name: "BNZ Power Platform Governance Framework"
+    relationship: "Governance Context"
+  - document_type: "Deployment Plan"
+    document_id: "EPIC-COPILOT-STUDIO"
+    document_name: "Copilot Studio Deployment Plan (EPIC-COPILOT-STUDIO-ENTERPRISE-ENABLEMENT.md)"
+    relationship: "Implementation Guide"
+
+version_history:
+  - version: "1.0.0"
+    date: "2025-11-28"
+    author: "BNZ AI Platform Team"
+    changes: "Initial production version"
+    approval_status: "Production"

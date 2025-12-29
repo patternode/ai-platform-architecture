@@ -1,0 +1,177 @@
+Use Case ID,Use Case Name,Pattern ID,Pattern Name,Pattern Category,Priority,Role
+UC01,FrontLine - Partnership Banking,PT-005,Retrieval-Augmented Generation (Self-Reflective RAG),GenAI,HIGH,Primary
+UC01,FrontLine - Partnership Banking,PT-007,Agentic AI Pattern,Agent,HIGH,Primary
+UC01,FrontLine - Partnership Banking,PT-006,Multi-Model Routing,GenAI,HIGH,Primary
+UC01,FrontLine - Partnership Banking,PT-003,Feature Store (Dual-Store),Data,CRITICAL,Supporting
+UC01,FrontLine - Partnership Banking,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC01,FrontLine - Partnership Banking,PT-015,Event-Driven Architecture,Real-Time,MEDIUM,Supporting
+UC02,Finance,PT-008,Multi-Agent Orchestration,Agent,HIGH,Primary
+UC02,Finance,PT-007,Agentic AI Pattern,Agent,HIGH,Primary
+UC02,Finance,PT-014,Batch Prediction Pattern,ML Prediction,MEDIUM,Primary
+UC02,Finance,PT-012,Data Mesh Pattern,Data,MEDIUM,Supporting
+UC02,Finance,PT-006,Multi-Model Routing,GenAI,HIGH,Supporting
+UC02,Finance,PT-002,MLOps Level 2+ with Governance,Governance,CRITICAL,Cross-Cutting
+UC02,Finance,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC03,Analytics and Reporting,PT-013,Conversational AI Pattern,GenAI,HIGH,Primary
+UC03,Analytics and Reporting,PT-005,Retrieval-Augmented Generation (Self-Reflective RAG),GenAI,HIGH,Primary
+UC03,Analytics and Reporting,PT-014,Batch Prediction Pattern,ML Prediction,MEDIUM,Supporting
+UC03,Analytics and Reporting,PT-012,Data Mesh Pattern,Data,MEDIUM,Supporting
+UC03,Analytics and Reporting,PT-006,Multi-Model Routing,GenAI,HIGH,Supporting
+UC03,Analytics and Reporting,PT-016,Stream Processing Pattern,Real-Time,MEDIUM,Supporting
+UC03,Analytics and Reporting,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC04,Credit Risk,PT-009,Real-Time ML Scoring Pattern,ML Prediction,HIGH,Primary
+UC04,Credit Risk,PT-004,ML Model Explainability (SHAP/LIME),Governance,CRITICAL,Primary
+UC04,Credit Risk,PT-003,Feature Store (Dual-Store),Data,CRITICAL,Primary
+UC04,Credit Risk,PT-005,Retrieval-Augmented Generation (Self-Reflective RAG),GenAI,HIGH,Supporting
+UC04,Credit Risk,PT-010,Champion/Challenger Testing Pattern,Governance,HIGH,Supporting
+UC04,Credit Risk,PT-016,Stream Processing Pattern,Real-Time,MEDIUM,Supporting
+UC04,Credit Risk,PT-002,MLOps Level 2+ with Governance,Governance,CRITICAL,Cross-Cutting
+UC04,Credit Risk,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC05,Lending Ops,PT-011,Intelligent Document Processing (IDP),Document Intelligence,MEDIUM,Primary
+UC05,Lending Ops,PT-005,Retrieval-Augmented Generation (Self-Reflective RAG),GenAI,HIGH,Primary
+UC05,Lending Ops,PT-007,Agentic AI Pattern,Agent,HIGH,Supporting
+UC05,Lending Ops,PT-018,Security and Privacy Pattern,Cross-Cutting,CRITICAL,Cross-Cutting
+UC05,Lending Ops,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC06,HyperPersonalization,PT-009,Real-Time ML Scoring Pattern,ML Prediction,HIGH,Primary
+UC06,HyperPersonalization,PT-003,Feature Store (Dual-Store),Data,CRITICAL,Primary
+UC06,HyperPersonalization,PT-015,Event-Driven Architecture,Real-Time,HIGH,Primary
+UC06,HyperPersonalization,PT-016,Stream Processing Pattern,Real-Time,MEDIUM,Supporting
+UC06,HyperPersonalization,PT-006,Multi-Model Routing,GenAI,HIGH,Supporting
+UC06,HyperPersonalization,PT-010,Champion/Challenger Testing Pattern,Governance,HIGH,Supporting
+UC06,HyperPersonalization,PT-004,ML Model Explainability (SHAP/LIME),Governance,CRITICAL,Supporting
+UC06,HyperPersonalization,PT-002,MLOps Level 2+ with Governance,Governance,CRITICAL,Cross-Cutting
+UC06,HyperPersonalization,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC07,Contact Centre,PT-013,Conversational AI Pattern,GenAI,HIGH,Primary
+UC07,Contact Centre,PT-005,Retrieval-Augmented Generation (Self-Reflective RAG),GenAI,HIGH,Primary
+UC07,Contact Centre,PT-006,Multi-Model Routing,GenAI,HIGH,Primary
+UC07,Contact Centre,PT-007,Agentic AI Pattern,Agent,HIGH,Supporting
+UC07,Contact Centre,PT-017,Observability and Monitoring Pattern,Cross-Cutting,CRITICAL,Cross-Cutting
+UC07,Contact Centre,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC08,Security AI,PT-009,Real-Time ML Scoring Pattern,ML Prediction,HIGH,Primary
+UC08,Security AI,PT-015,Event-Driven Architecture,Real-Time,HIGH,Primary
+UC08,Security AI,PT-016,Stream Processing Pattern,Real-Time,MEDIUM,Primary
+UC08,Security AI,PT-003,Feature Store (Dual-Store),Data,CRITICAL,Supporting
+UC08,Security AI,PT-004,ML Model Explainability (SHAP/LIME),Governance,CRITICAL,Supporting
+UC08,Security AI,PT-018,Security and Privacy Pattern,Cross-Cutting,CRITICAL,Supporting
+UC08,Security AI,PT-006,Multi-Model Routing,GenAI,HIGH,Supporting
+UC08,Security AI,PT-017,Observability and Monitoring Pattern,Cross-Cutting,CRITICAL,Cross-Cutting
+UC08,Security AI,PT-002,MLOps Level 2+ with Governance,Governance,CRITICAL,Cross-Cutting
+UC08,Security AI,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC09,Data Products,PT-012,Data Mesh Pattern,Data,MEDIUM,Primary
+UC09,Data Products,PT-003,Feature Store (Dual-Store),Data,CRITICAL,Primary
+UC09,Data Products,PT-006,Multi-Model Routing,GenAI,HIGH,Supporting
+UC09,Data Products,PT-005,Retrieval-Augmented Generation (Self-Reflective RAG),GenAI,HIGH,Supporting
+UC09,Data Products,PT-017,Observability and Monitoring Pattern,Cross-Cutting,CRITICAL,Cross-Cutting
+UC09,Data Products,PT-018,Security and Privacy Pattern,Cross-Cutting,CRITICAL,Cross-Cutting
+UC09,Data Products,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC10,SDLC,PT-008,Multi-Agent Orchestration,Agent,HIGH,Primary
+UC10,SDLC,PT-007,Agentic AI Pattern,Agent,HIGH,Primary
+UC10,SDLC,PT-006,Multi-Model Routing,GenAI,HIGH,Primary
+UC10,SDLC,PT-017,Observability and Monitoring Pattern,Cross-Cutting,CRITICAL,Cross-Cutting
+UC10,SDLC,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC11,Fincrime,PT-009,Real-Time ML Scoring Pattern,ML Prediction,HIGH,Primary
+UC11,Fincrime,PT-004,ML Model Explainability (SHAP/LIME),Governance,CRITICAL,Primary
+UC11,Fincrime,PT-003,Feature Store (Dual-Store),Data,CRITICAL,Primary
+UC11,Fincrime,PT-010,Champion/Challenger Testing Pattern,Governance,HIGH,Supporting
+UC11,Fincrime,PT-006,Multi-Model Routing,GenAI,HIGH,Supporting
+UC11,Fincrime,PT-018,Security and Privacy Pattern,Cross-Cutting,CRITICAL,Cross-Cutting
+UC11,Fincrime,PT-002,MLOps Level 2+ with Governance,Governance,CRITICAL,Cross-Cutting
+UC11,Fincrime,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC12,QA/QC,PT-011,Intelligent Document Processing (IDP),Document Intelligence,MEDIUM,Primary
+UC12,QA/QC,PT-006,Multi-Model Routing,GenAI,HIGH,Primary
+UC12,QA/QC,PT-007,Agentic AI Pattern,Agent,HIGH,Supporting
+UC12,QA/QC,PT-014,Batch Prediction Pattern,ML Prediction,MEDIUM,Supporting
+UC12,QA/QC,PT-012,Data Mesh Pattern,Data,MEDIUM,Supporting
+UC12,QA/QC,PT-017,Observability and Monitoring Pattern,Cross-Cutting,CRITICAL,Cross-Cutting
+UC12,QA/QC,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC13,Fraud Ops,PT-009,Real-Time ML Scoring Pattern,ML Prediction,HIGH,Primary
+UC13,Fraud Ops,PT-004,ML Model Explainability (SHAP/LIME),Governance,CRITICAL,Primary
+UC13,Fraud Ops,PT-003,Feature Store (Dual-Store),Data,CRITICAL,Primary
+UC13,Fraud Ops,PT-015,Event-Driven Architecture,Real-Time,HIGH,Primary
+UC13,Fraud Ops,PT-010,Champion/Challenger Testing Pattern,Governance,HIGH,Supporting
+UC13,Fraud Ops,PT-006,Multi-Model Routing,GenAI,HIGH,Supporting
+UC13,Fraud Ops,PT-002,MLOps Level 2+ with Governance,Governance,CRITICAL,Cross-Cutting
+UC13,Fraud Ops,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC14,Onboarding,PT-011,Intelligent Document Processing (IDP),Document Intelligence,MEDIUM,Primary
+UC14,Onboarding,PT-013,Conversational AI Pattern,GenAI,HIGH,Primary
+UC14,Onboarding,PT-004,ML Model Explainability (SHAP/LIME),Governance,CRITICAL,Supporting
+UC14,Onboarding,PT-003,Feature Store (Dual-Store),Data,CRITICAL,Supporting
+UC14,Onboarding,PT-009,Real-Time ML Scoring Pattern,ML Prediction,HIGH,Supporting
+UC14,Onboarding,PT-018,Security and Privacy Pattern,Cross-Cutting,CRITICAL,Cross-Cutting
+UC14,Onboarding,PT-002,MLOps Level 2+ with Governance,Governance,CRITICAL,Cross-Cutting
+UC14,Onboarding,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC15,Risk Functions,PT-014,Batch Prediction Pattern,ML Prediction,MEDIUM,Primary
+UC15,Risk Functions,PT-003,Feature Store (Dual-Store),Data,CRITICAL,Primary
+UC15,Risk Functions,PT-004,ML Model Explainability (SHAP/LIME),Governance,CRITICAL,Supporting
+UC15,Risk Functions,PT-006,Multi-Model Routing,GenAI,HIGH,Supporting
+UC15,Risk Functions,PT-012,Data Mesh Pattern,Data,MEDIUM,Supporting
+UC15,Risk Functions,PT-017,Observability and Monitoring Pattern,Cross-Cutting,CRITICAL,Cross-Cutting
+UC15,Risk Functions,PT-002,MLOps Level 2+ with Governance,Governance,CRITICAL,Cross-Cutting
+UC15,Risk Functions,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC16,IT Ops,PT-014,Batch Prediction Pattern,ML Prediction,MEDIUM,Primary
+UC16,IT Ops,PT-015,Event-Driven Architecture,Real-Time,HIGH,Primary
+UC16,IT Ops,PT-005,Retrieval-Augmented Generation (Self-Reflective RAG),GenAI,HIGH,Supporting
+UC16,IT Ops,PT-007,Agentic AI Pattern,Agent,HIGH,Supporting
+UC16,IT Ops,PT-006,Multi-Model Routing,GenAI,HIGH,Supporting
+UC16,IT Ops,PT-017,Observability and Monitoring Pattern,Cross-Cutting,CRITICAL,Cross-Cutting
+UC16,IT Ops,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC17,FrontLine - CIB,PT-005,Retrieval-Augmented Generation (Self-Reflective RAG),GenAI,HIGH,Primary
+UC17,FrontLine - CIB,PT-007,Agentic AI Pattern,Agent,HIGH,Primary
+UC17,FrontLine - CIB,PT-006,Multi-Model Routing,GenAI,HIGH,Primary
+UC17,FrontLine - CIB,PT-003,Feature Store (Dual-Store),Data,CRITICAL,Supporting
+UC17,FrontLine - CIB,PT-014,Batch Prediction Pattern,ML Prediction,MEDIUM,Supporting
+UC17,FrontLine - CIB,PT-017,Observability and Monitoring Pattern,Cross-Cutting,CRITICAL,Cross-Cutting
+UC17,FrontLine - CIB,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC18,Procurement,PT-008,Multi-Agent Orchestration,Agent,HIGH,Primary
+UC18,Procurement,PT-007,Agentic AI Pattern,Agent,HIGH,Primary
+UC18,Procurement,PT-011,Intelligent Document Processing (IDP),Document Intelligence,MEDIUM,Primary
+UC18,Procurement,PT-006,Multi-Model Routing,GenAI,HIGH,Supporting
+UC18,Procurement,PT-003,Feature Store (Dual-Store),Data,CRITICAL,Supporting
+UC18,Procurement,PT-017,Observability and Monitoring Pattern,Cross-Cutting,CRITICAL,Cross-Cutting
+UC18,Procurement,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC19,Payment Disputes,PT-009,Real-Time ML Scoring Pattern,ML Prediction,HIGH,Primary
+UC19,Payment Disputes,PT-003,Feature Store (Dual-Store),Data,CRITICAL,Primary
+UC19,Payment Disputes,PT-015,Event-Driven Architecture,Real-Time,HIGH,Primary
+UC19,Payment Disputes,PT-004,ML Model Explainability (SHAP/LIME),Governance,CRITICAL,Supporting
+UC19,Payment Disputes,PT-006,Multi-Model Routing,GenAI,HIGH,Supporting
+UC19,Payment Disputes,PT-007,Agentic AI Pattern,Agent,HIGH,Supporting
+UC19,Payment Disputes,PT-002,MLOps Level 2+ with Governance,Governance,CRITICAL,Cross-Cutting
+UC19,Payment Disputes,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC20,Controls Testing,PT-008,Multi-Agent Orchestration,Agent,HIGH,Primary
+UC20,Controls Testing,PT-007,Agentic AI Pattern,Agent,HIGH,Primary
+UC20,Controls Testing,PT-011,Intelligent Document Processing (IDP),Document Intelligence,MEDIUM,Primary
+UC20,Controls Testing,PT-014,Batch Prediction Pattern,ML Prediction,MEDIUM,Supporting
+UC20,Controls Testing,PT-006,Multi-Model Routing,GenAI,HIGH,Supporting
+UC20,Controls Testing,PT-017,Observability and Monitoring Pattern,Cross-Cutting,CRITICAL,Cross-Cutting
+UC20,Controls Testing,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC21,Wholesale Underwriting,PT-011,Intelligent Document Processing (IDP),Document Intelligence,MEDIUM,Primary
+UC21,Wholesale Underwriting,PT-005,Retrieval-Augmented Generation (Self-Reflective RAG),GenAI,HIGH,Primary
+UC21,Wholesale Underwriting,PT-004,ML Model Explainability (SHAP/LIME),Governance,CRITICAL,Primary
+UC21,Wholesale Underwriting,PT-009,Real-Time ML Scoring Pattern,ML Prediction,HIGH,Supporting
+UC21,Wholesale Underwriting,PT-003,Feature Store (Dual-Store),Data,CRITICAL,Supporting
+UC21,Wholesale Underwriting,PT-010,Champion/Challenger Testing Pattern,Governance,HIGH,Supporting
+UC21,Wholesale Underwriting,PT-002,MLOps Level 2+ with Governance,Governance,CRITICAL,Cross-Cutting
+UC21,Wholesale Underwriting,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC22,Learning Content,PT-005,Retrieval-Augmented Generation (Self-Reflective RAG),GenAI,HIGH,Primary
+UC22,Learning Content,PT-006,Multi-Model Routing,GenAI,HIGH,Primary
+UC22,Learning Content,PT-007,Agentic AI Pattern,Agent,HIGH,Supporting
+UC22,Learning Content,PT-014,Batch Prediction Pattern,ML Prediction,MEDIUM,Supporting
+UC22,Learning Content,PT-003,Feature Store (Dual-Store),Data,CRITICAL,Supporting
+UC22,Learning Content,PT-017,Observability and Monitoring Pattern,Cross-Cutting,CRITICAL,Cross-Cutting
+UC22,Learning Content,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC23,Collection Management,PT-011,Intelligent Document Processing (IDP),Document Intelligence,MEDIUM,Primary
+UC23,Collection Management,PT-014,Batch Prediction Pattern,ML Prediction,MEDIUM,Primary
+UC23,Collection Management,PT-003,Feature Store (Dual-Store),Data,CRITICAL,Primary
+UC23,Collection Management,PT-009,Real-Time ML Scoring Pattern,ML Prediction,HIGH,Supporting
+UC23,Collection Management,PT-006,Multi-Model Routing,GenAI,HIGH,Supporting
+UC23,Collection Management,PT-017,Observability and Monitoring Pattern,Cross-Cutting,CRITICAL,Cross-Cutting
+UC23,Collection Management,PT-002,MLOps Level 2+ with Governance,Governance,CRITICAL,Cross-Cutting
+UC23,Collection Management,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting
+UC24,Front-end App Personalisation,PT-009,Real-Time ML Scoring Pattern,ML Prediction,HIGH,Primary
+UC24,Front-end App Personalisation,PT-015,Event-Driven Architecture,Real-Time,HIGH,Primary
+UC24,Front-end App Personalisation,PT-016,Stream Processing Pattern,Real-Time,MEDIUM,Primary
+UC24,Front-end App Personalisation,PT-003,Feature Store (Dual-Store),Data,CRITICAL,Primary
+UC24,Front-end App Personalisation,PT-006,Multi-Model Routing,GenAI,HIGH,Supporting
+UC24,Front-end App Personalisation,PT-010,Champion/Challenger Testing Pattern,Governance,HIGH,Supporting
+UC24,Front-end App Personalisation,PT-002,MLOps Level 2+ with Governance,Governance,CRITICAL,Cross-Cutting
+UC24,Front-end App Personalisation,PT-001,Enterprise AI Governance Platform,Governance,CRITICAL,Cross-Cutting

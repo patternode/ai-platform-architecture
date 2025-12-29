@@ -1,0 +1,154 @@
+<mxfile host="65bd71144e">
+    <diagram name="Enterprise-Interfaces-Target-State" id="enterprise-interfaces-target-state">
+        <mxGraphModel dx="1147" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" value="Enterprise Interfaces Platform - Target State Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="10" width="569" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="client-layer" value="Client Applications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#0277bd;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="60" width="1080" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="web-app1" value="WWW" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#7b1fa2;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="80" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="web-app2" value="IB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#7b1fa2;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="80" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="mobile-app" value="Mobile App" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#7b1fa2;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="80" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="third-party" value="3rd Party Clients" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#f57c00;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="80" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="staff-ui" value="Staff UI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#388e3c;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="80" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="aws-layer" value="AWS/Azure" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#ff8f00;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="80" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="gateway-layer" value="API Gateway (Kong)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#388e3c;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="180" width="1080" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="enterprise-interfaces" value="Enterprise Interfaces" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#f57c00;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="280" width="1080" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="sagas-layer" value="Sagas (Orchestration)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#7b1fa2;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="350" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="saga-c1" value="Saga C1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ffa000;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="370" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="saga-c2" value="Saga C2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ffa000;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="370" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="services-layer" value="Enterprise Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#388e3c;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="350" width="840" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="service1" value="Service 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ffa000;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="370" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="service2" value="Service 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ffa000;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="370" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="service3" value="Service 3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8bbd9;strokeColor=#c2185b;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="370" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="service4" value="Service 4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8bbd9;strokeColor=#c2185b;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="370" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="service5" value="Service 5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#0277bd;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="370" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="service6" value="Service 6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#0277bd;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="370" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="service7" value="Service 7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#388e3c;" parent="1" vertex="1">
+                    <mxGeometry x="780" y="370" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="service8" value="Service E" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#388e3c;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="370" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="acl-layer" value="Anti-Corruption Layers (ACL)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#d32f2f;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="450" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="acl1" value="SaaS ACL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcdd2;strokeColor=#d32f2f;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="470" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="acl2" value="COTs ACL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcdd2;strokeColor=#d32f2f;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="470" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="acl3" value="Legacy ACL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcdd2;strokeColor=#d32f2f;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="470" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="strangler-layer" value="Strangler Applications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#7b1fa2;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="450" width="740" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="kafka-layer" value="Kafka Event Streaming Platform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#0277bd;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="250" width="220" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="legacy-layer" value="Legacy Systems &amp; Mainframe" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#616161;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="550" width="1080" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="zos-connect" value="Z/OS Connect" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#616161;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="570" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="cobol" value="COBOL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#616161;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="570" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="db2-vsam" value="DB2/VSAM/etc" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#616161;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="570" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="mainframe" value="Mainframe" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#616161;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="570" width="680" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="platform-services" value="Platform Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#388e3c;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="680" width="1080" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="client-to-gateway" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="web-app1" target="gateway-layer" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="100" y="140" as="sourcePoint"/>
+                        <mxPoint x="580" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="gateway-to-interfaces" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gateway-layer" target="enterprise-interfaces" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="interfaces-to-services" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="enterprise-interfaces" target="services-layer" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="services-to-kafka" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="service5" target="kafka-layer" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="acl-to-legacy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="acl-layer" target="legacy-layer" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="strangler-to-legacy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="strangler-layer" target="legacy-layer" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-title" value="Legend:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="750" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-client" value="Client Applications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#7b1fa2;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="750" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-enterprise" value="Enterprise Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ffa000;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="750" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-acl" value="Anti-Corruption" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcdd2;strokeColor=#d32f2f;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="750" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-legacy" value="Legacy Systems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#616161;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="750" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="features-title" value="Key Features:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="750" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="features-text" value="• Enterprise REST APIs&#xa;• Event-Driven Architecture&#xa;• Microservices Pattern&#xa;• Anti-Corruption Layers&#xa;• Strangler Pattern" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="750" y="740" width="200" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

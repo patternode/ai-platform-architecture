@@ -1,0 +1,75 @@
+ABB ID,ABB Name,Use Case Count,Percentage
+AB-050,Large Language Model Service,24,100%
+AB-072,Inference Engine,18,75%
+AB-094,Natural Language Generation,17,71%
+AB-097,Data Drift Detector,16,67%
+AB-051,Vector Database,15,63%
+AB-001,Agent Orchestrator,14,58%
+AB-037,Feature Store,14,58%
+AB-063,ML Model Explainability Engine,13,54%
+AB-052,Semantic Search Engine,12,50%
+AB-095,NLP Extraction Engine,11,46%
+AB-030,Intent Classifier,10,42%
+AB-040,Document Classification Engine,10,42%
+AB-103,Business Metrics Tracker,9,38%
+AB-127,Validation Engine,9,38%
+AB-107,Stakeholder Dashboard,8,33%
+AB-031,Response Generator,7,29%
+AB-047,Online Feature Store,7,29%
+AB-074,Event Broker,7,29%
+AB-108,Model Router,7,29%
+AB-013,Batch Orchestrator,6,25%
+AB-029,Conversation State Manager,6,25%
+AB-034,Entity Extractor,6,25%
+AB-036,Multi Channel Orchestrator,6,25%
+AB-065,Audit Trail and Logging,6,25%
+AB-008,Human in the Loop Gateway,5,21%
+AB-041,OCR Engine,5,21%
+AB-057,Document Processing Pipeline,5,21%
+AB-070,Data Lineage Tracker,5,21%
+AB-075,Stream Processing Engine,5,21%
+AB-096,Observability Platform,5,21%
+AB-025,Traffic Splitter,4,17%
+AB-032,Handoff Logic Engine,4,17%
+AB-064,Compliance Dashboard,4,17%
+AB-080,Knowledge Base,4,17%
+AB-087,Model Testing Framework,4,17%
+AB-105,GenAI Quality Monitor,4,17%
+AB-002,Tool Registry,3,13%
+AB-005,Execution Engine,3,13%
+AB-033,Sentiment Analyzer,3,13%
+AB-058,Citation Generator,3,13%
+AB-101,Latency Monitor,3,13%
+AB-104,Data Quality Monitor,3,13%
+AB-128,Explanation Visualization Layer,3,13%
+AB-007,Multi Agent Communication Bus,2,8%
+AB-018,Data Quality Validator,2,8%
+AB-035,Conversation Summarizer,2,8%
+AB-038,Data Lake,2,8%
+AB-042,Document Forensics Engine,2,8%
+AB-054,Hybrid Search Engine,2,8%
+AB-083,Model Fallback Logic,2,8%
+AB-106,Automated Retraining Trigger,2,8%
+AB-116,Audit Logging and Monitoring,2,8%
+AB-129,Human in the Loop Workflow,2,8%
+AB-004,Planning Module,1,4%
+AB-019,Incremental Processing Manager,1,4%
+AB-026,Performance Comparator,1,4%
+AB-039,Data Versioning Service,1,4%
+AB-043,Data Product Catalog,1,4%
+AB-044,Domain Data Platform,1,4%
+AB-045,Data Contract Registry,1,4%
+AB-046,Fairness Monitoring Engine,1,4%
+AB-048,Feature Engineering Pipeline,1,4%
+AB-049,Offline Feature Store,1,4%
+AB-053,Query Intent Analyzer,1,4%
+AB-059,Query Rewriting Engine,1,4%
+AB-069,Bias Detection Framework,1,4%
+AB-076,Event Producer Adapter,1,4%
+AB-084,Model Quantization Service,1,4%
+AB-086,Model Registry,1,4%
+AB-088,Model Deployment Orchestrator,1,4%
+AB-093,Feature Flag Service,1,4%
+AB-099,Concept Drift Detector,1,4%
+AB-114,PII Detection and Masking Service,1,4%
+AB-115,Model Security Framework,1,4%

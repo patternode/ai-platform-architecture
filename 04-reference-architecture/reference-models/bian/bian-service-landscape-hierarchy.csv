@@ -1,0 +1,371 @@
+﻿Type,Level,BizzId,Concept,BusinessArea,BusinessDomain,ServiceDomain,Link
+Business Area,1,55812,Canvas,Sales and Service,,,https://bian.org/servicelandscape-13-0-0/elements/id_55812.html
+Business Domain,2,87609,StrategyCapability,Sales and Service,Channel Specific,,https://bian.org/servicelandscape-13-0-0/elements/id_87609.html
+Service Domain,3,87611,StrategyCapability,Sales and Service,Channel Specific,Branch Location Management,https://bian.org/servicelandscape-13-0-0/elements/id_87611.html
+Service Domain,3,87613,StrategyCapability,Sales and Service,Channel Specific,Contact Center Management,https://bian.org/servicelandscape-13-0-0/elements/id_87613.html
+Service Domain,3,87615,StrategyCapability,Sales and Service,Channel Specific,Branch Network Management,https://bian.org/servicelandscape-13-0-0/elements/id_87615.html
+Service Domain,3,87617,StrategyCapability,Sales and Service,Channel Specific,eBranch Management,https://bian.org/servicelandscape-13-0-0/elements/id_87617.html
+Service Domain,3,87619,StrategyCapability,Sales and Service,Channel Specific,Advanced Voice Services Management,https://bian.org/servicelandscape-13-0-0/elements/id_87619.html
+Service Domain,3,87621,StrategyCapability,Sales and Service,Channel Specific,ATM Network Management,https://bian.org/servicelandscape-13-0-0/elements/id_87621.html
+Service Domain,3,87623,StrategyCapability,Sales and Service,Channel Specific,Contact Center Operations,https://bian.org/servicelandscape-13-0-0/elements/id_87623.html
+Service Domain,3,87625,StrategyCapability,Sales and Service,Channel Specific,Branch Location Operations,https://bian.org/servicelandscape-13-0-0/elements/id_87625.html
+Service Domain,3,87627,StrategyCapability,Sales and Service,Channel Specific,eBranch Operations,https://bian.org/servicelandscape-13-0-0/elements/id_87627.html
+Service Domain,3,87629,StrategyCapability,Sales and Service,Channel Specific,Advanced Voice Services Operations,https://bian.org/servicelandscape-13-0-0/elements/id_87629.html
+Service Domain,3,87631,StrategyCapability,Sales and Service,Channel Specific,ATM Network Operations,https://bian.org/servicelandscape-13-0-0/elements/id_87631.html
+Service Domain,3,87633,StrategyCapability,Sales and Service,Channel Specific,Branch Currency Management,https://bian.org/servicelandscape-13-0-0/elements/id_87633.html
+Service Domain,3,87635,StrategyCapability,Sales and Service,Channel Specific,Branch Currency Distribution,https://bian.org/servicelandscape-13-0-0/elements/id_87635.html
+Service Domain,3,87637,StrategyCapability,Sales and Service,Channel Specific,Product Inventory Item Management,https://bian.org/servicelandscape-13-0-0/elements/id_87637.html
+Service Domain,3,87639,StrategyCapability,Sales and Service,Channel Specific,Product Inventory Distribution,https://bian.org/servicelandscape-13-0-0/elements/id_87639.html
+Service Domain,3,87641,StrategyCapability,Sales and Service,Channel Specific,Card Terminal Administration,https://bian.org/servicelandscape-13-0-0/elements/id_87641.html
+Service Domain,3,87643,StrategyCapability,Sales and Service,Channel Specific,Card Terminal Operation,https://bian.org/servicelandscape-13-0-0/elements/id_87643.html
+Business Domain,2,87645,StrategyCapability,Sales and Service,Cross Channel,,https://bian.org/servicelandscape-13-0-0/elements/id_87645.html
+Service Domain,3,87647,StrategyCapability,Sales and Service,Cross Channel,Party Authentication,https://bian.org/servicelandscape-13-0-0/elements/id_87647.html
+Service Domain,3,87649,StrategyCapability,Sales and Service,Cross Channel,Transaction Authorization,https://bian.org/servicelandscape-13-0-0/elements/id_87649.html
+Service Domain,3,87651,StrategyCapability,Sales and Service,Cross Channel,Point of Service,https://bian.org/servicelandscape-13-0-0/elements/id_87651.html
+Service Domain,3,87653,StrategyCapability,Sales and Service,Cross Channel,Servicing Event History,https://bian.org/servicelandscape-13-0-0/elements/id_87653.html
+Service Domain,3,87655,StrategyCapability,Sales and Service,Cross Channel,Contact Routing,https://bian.org/servicelandscape-13-0-0/elements/id_87655.html
+Service Domain,3,87657,StrategyCapability,Sales and Service,Cross Channel,Session Dialogue,https://bian.org/servicelandscape-13-0-0/elements/id_87657.html
+Service Domain,3,87659,StrategyCapability,Sales and Service,Cross Channel,Interactive Help,https://bian.org/servicelandscape-13-0-0/elements/id_87659.html
+Service Domain,3,87661,StrategyCapability,Sales and Service,Cross Channel,Contact Handler,https://bian.org/servicelandscape-13-0-0/elements/id_87661.html
+Service Domain,3,87663,StrategyCapability,Sales and Service,Cross Channel,Customer Workbench,https://bian.org/servicelandscape-13-0-0/elements/id_87663.html
+Service Domain,3,87665,StrategyCapability,Sales and Service,Cross Channel,Servicing Activity Analysis,https://bian.org/servicelandscape-13-0-0/elements/id_87665.html
+Service Domain,3,87667,StrategyCapability,Sales and Service,Cross Channel,Service Directory,https://bian.org/servicelandscape-13-0-0/elements/id_87667.html
+Business Domain,2,87669,StrategyCapability,Sales and Service,Marketing,,https://bian.org/servicelandscape-13-0-0/elements/id_87669.html
+Service Domain,3,87671,StrategyCapability,Sales and Service,Marketing,Business Development,https://bian.org/servicelandscape-13-0-0/elements/id_87671.html
+Service Domain,3,87673,StrategyCapability,Sales and Service,Marketing,Brand Management,https://bian.org/servicelandscape-13-0-0/elements/id_87673.html
+Service Domain,3,87675,StrategyCapability,Sales and Service,Marketing,Advertising,https://bian.org/servicelandscape-13-0-0/elements/id_87675.html
+Service Domain,3,87677,StrategyCapability,Sales and Service,Marketing,Promotional Events,https://bian.org/servicelandscape-13-0-0/elements/id_87677.html
+Service Domain,3,87679,StrategyCapability,Sales and Service,Marketing,Prospect Campaign Design,https://bian.org/servicelandscape-13-0-0/elements/id_87679.html
+Service Domain,3,87681,StrategyCapability,Sales and Service,Marketing,Customer Campaign Management,https://bian.org/servicelandscape-13-0-0/elements/id_87681.html
+Service Domain,3,87683,StrategyCapability,Sales and Service,Marketing,Customer Campaign Design,https://bian.org/servicelandscape-13-0-0/elements/id_87683.html
+Service Domain,3,87685,StrategyCapability,Sales and Service,Marketing,Customer Surveys,https://bian.org/servicelandscape-13-0-0/elements/id_87685.html
+Service Domain,3,87687,StrategyCapability,Sales and Service,Marketing,Prospect Campaign Management,https://bian.org/servicelandscape-13-0-0/elements/id_87687.html
+Business Domain,2,87689,StrategyCapability,Sales and Service,Sales,,https://bian.org/servicelandscape-13-0-0/elements/id_87689.html
+Service Domain,3,87691,StrategyCapability,Sales and Service,Sales,Prospect Campaign Execution,https://bian.org/servicelandscape-13-0-0/elements/id_87691.html
+Service Domain,3,87693,StrategyCapability,Sales and Service,Sales,Party Lifecycle Management,https://bian.org/servicelandscape-13-0-0/elements/id_87693.html
+Service Domain,3,87695,StrategyCapability,Sales and Service,Sales,Lead and Opportunity Management,https://bian.org/servicelandscape-13-0-0/elements/id_87695.html
+Service Domain,3,87697,StrategyCapability,Sales and Service,Sales,Customer Campaign Execution,https://bian.org/servicelandscape-13-0-0/elements/id_87697.html
+Service Domain,3,87699,StrategyCapability,Sales and Service,Sales,Customer Offer,https://bian.org/servicelandscape-13-0-0/elements/id_87699.html
+Service Domain,3,87701,StrategyCapability,Sales and Service,Sales,Sales Planning,https://bian.org/servicelandscape-13-0-0/elements/id_87701.html
+Service Domain,3,87703,StrategyCapability,Sales and Service,Sales,Underwriting,https://bian.org/servicelandscape-13-0-0/elements/id_87703.html
+Service Domain,3,87705,StrategyCapability,Sales and Service,Sales,Commission Agreement,https://bian.org/servicelandscape-13-0-0/elements/id_87705.html
+Service Domain,3,87707,StrategyCapability,Sales and Service,Sales,Commissions,https://bian.org/servicelandscape-13-0-0/elements/id_87707.html
+Service Domain,3,87709,StrategyCapability,Sales and Service,Sales,Product Matching,https://bian.org/servicelandscape-13-0-0/elements/id_87709.html
+Service Domain,3,87711,StrategyCapability,Sales and Service,Sales,Product Expert Sales Support,https://bian.org/servicelandscape-13-0-0/elements/id_87711.html
+Service Domain,3,87713,StrategyCapability,Sales and Service,Sales,Product Sales Support,https://bian.org/servicelandscape-13-0-0/elements/id_87713.html
+Service Domain,3,87715,StrategyCapability,Sales and Service,Sales,Sales Product,https://bian.org/servicelandscape-13-0-0/elements/id_87715.html
+Business Domain,2,87717,StrategyCapability,Sales and Service,Customer Management,,https://bian.org/servicelandscape-13-0-0/elements/id_87717.html
+Service Domain,3,87719,StrategyCapability,Sales and Service,Customer Management,Customer Relationship Management,https://bian.org/servicelandscape-13-0-0/elements/id_87719.html
+Service Domain,3,87721,StrategyCapability,Sales and Service,Customer Management,Customer Product And Service Eligibility,https://bian.org/servicelandscape-13-0-0/elements/id_87721.html
+Service Domain,3,87723,StrategyCapability,Sales and Service,Customer Management,Customer Agreement,https://bian.org/servicelandscape-13-0-0/elements/id_87723.html
+Service Domain,3,87725,StrategyCapability,Sales and Service,Customer Management,Sales Product Agreement,https://bian.org/servicelandscape-13-0-0/elements/id_87725.html
+Service Domain,3,87727,StrategyCapability,Sales and Service,Customer Management,Customer Access Entitlement,https://bian.org/servicelandscape-13-0-0/elements/id_87727.html
+Service Domain,3,87729,StrategyCapability,Sales and Service,Customer Management,Customer Behavior Insights,https://bian.org/servicelandscape-13-0-0/elements/id_87729.html
+Service Domain,3,87731,StrategyCapability,Sales and Service,Customer Management,Customer Credit Rating,https://bian.org/servicelandscape-13-0-0/elements/id_87731.html
+Service Domain,3,87733,StrategyCapability,Sales and Service,Customer Management,Account Recovery,https://bian.org/servicelandscape-13-0-0/elements/id_87733.html
+Service Domain,3,87735,StrategyCapability,Sales and Service,Customer Management,Customer Event History,https://bian.org/servicelandscape-13-0-0/elements/id_87735.html
+Service Domain,3,87737,StrategyCapability,Sales and Service,Customer Management,Customer Proposition,https://bian.org/servicelandscape-13-0-0/elements/id_87737.html
+Service Domain,3,87741,StrategyCapability,Sales and Service,Customer Management,Customer Product and Service Directory,https://bian.org/servicelandscape-13-0-0/elements/id_87741.html
+Service Domain,3,87743,StrategyCapability,Sales and Service,Customer Management,Customer Financial Insights,https://bian.org/servicelandscape-13-0-0/elements/id_87743.html
+Business Domain,2,87745,StrategyCapability,Sales and Service,Servicing,,https://bian.org/servicelandscape-13-0-0/elements/id_87745.html
+Service Domain,3,87747,StrategyCapability,Sales and Service,Servicing,Servicing Issue,https://bian.org/servicelandscape-13-0-0/elements/id_87747.html
+Service Domain,3,87749,StrategyCapability,Sales and Service,Servicing,Customer Case Management,https://bian.org/servicelandscape-13-0-0/elements/id_87749.html
+Service Domain,3,87751,StrategyCapability,Sales and Service,Servicing,Case Root Cause Analysis,https://bian.org/servicelandscape-13-0-0/elements/id_87751.html
+Service Domain,3,87753,StrategyCapability,Sales and Service,Servicing,Customer Case,https://bian.org/servicelandscape-13-0-0/elements/id_87753.html
+Service Domain,3,87755,StrategyCapability,Sales and Service,Servicing,Card Case,https://bian.org/servicelandscape-13-0-0/elements/id_87755.html
+Service Domain,3,87757,StrategyCapability,Sales and Service,Servicing,Servicing Order,https://bian.org/servicelandscape-13-0-0/elements/id_87757.html
+Service Domain,3,87759,StrategyCapability,Sales and Service,Servicing,Servicing Mandate,https://bian.org/servicelandscape-13-0-0/elements/id_87759.html
+Service Domain,3,87761,StrategyCapability,Sales and Service,Servicing,Payment Initiation,https://bian.org/servicelandscape-13-0-0/elements/id_87761.html
+Service Domain,3,87763,StrategyCapability,Sales and Service,Servicing,Loan Syndication,https://bian.org/servicelandscape-13-0-0/elements/id_87763.html
+Business Area,1,87765,CompositeGrouping,Reference Data,,,https://bian.org/servicelandscape-13-0-0/elements/id_87765.html
+Business Domain,2,87767,StrategyCapability,Reference Data,Party,,https://bian.org/servicelandscape-13-0-0/elements/id_87767.html
+Service Domain,3,87769,StrategyCapability,Reference Data,Party,Party Routing Profile,https://bian.org/servicelandscape-13-0-0/elements/id_87769.html
+Service Domain,3,87771,StrategyCapability,Reference Data,Party,Legal Entity Directory,https://bian.org/servicelandscape-13-0-0/elements/id_87771.html
+Business Domain,2,87773,StrategyCapability,Reference Data,External Agency,,https://bian.org/servicelandscape-13-0-0/elements/id_87773.html
+Service Domain,3,87775,StrategyCapability,Reference Data,External Agency,Information Provider Administration,https://bian.org/servicelandscape-13-0-0/elements/id_87775.html
+Service Domain,3,87777,StrategyCapability,Reference Data,External Agency,Syndicate Management,https://bian.org/servicelandscape-13-0-0/elements/id_87777.html
+Service Domain,3,87779,StrategyCapability,Reference Data,External Agency,Interbank Relationship Management,https://bian.org/servicelandscape-13-0-0/elements/id_87779.html
+Service Domain,3,87781,StrategyCapability,Reference Data,External Agency,Correspondent Bank Relationship,https://bian.org/servicelandscape-13-0-0/elements/id_87781.html
+Service Domain,3,87783,StrategyCapability,Reference Data,External Agency,Correspondent Bank Directory,https://bian.org/servicelandscape-13-0-0/elements/id_87783.html
+Service Domain,3,87785,StrategyCapability,Reference Data,External Agency,Sub Custodian Agreement,https://bian.org/servicelandscape-13-0-0/elements/id_87785.html
+Service Domain,3,87787,StrategyCapability,Reference Data,External Agency,Product Service Agency,https://bian.org/servicelandscape-13-0-0/elements/id_87787.html
+Service Domain,3,87789,StrategyCapability,Reference Data,External Agency,Product Broker Agreement,https://bian.org/servicelandscape-13-0-0/elements/id_87789.html
+Service Domain,3,87791,StrategyCapability,Reference Data,External Agency,Contractor and Supplier Agreement,https://bian.org/servicelandscape-13-0-0/elements/id_87791.html
+Service Domain,3,87793,StrategyCapability,Reference Data,External Agency,Service Provider Operations,https://bian.org/servicelandscape-13-0-0/elements/id_87793.html
+Business Domain,2,87795,StrategyCapability,Reference Data,Market Data,,https://bian.org/servicelandscape-13-0-0/elements/id_87795.html
+Service Domain,3,87797,StrategyCapability,Reference Data,Market Data,Information Provider Operation,https://bian.org/servicelandscape-13-0-0/elements/id_87797.html
+Service Domain,3,87799,StrategyCapability,Reference Data,Market Data,Market Information Management,https://bian.org/servicelandscape-13-0-0/elements/id_87799.html
+Service Domain,3,87801,StrategyCapability,Reference Data,Market Data,Financial Market Analysis,https://bian.org/servicelandscape-13-0-0/elements/id_87801.html
+Service Domain,3,87803,StrategyCapability,Reference Data,Market Data,Financial Market Research,https://bian.org/servicelandscape-13-0-0/elements/id_87803.html
+Service Domain,3,87805,StrategyCapability,Reference Data,Market Data,Quant Model,https://bian.org/servicelandscape-13-0-0/elements/id_87805.html
+Service Domain,3,87807,StrategyCapability,Reference Data,Market Data,Market Data Switch Administration,https://bian.org/servicelandscape-13-0-0/elements/id_87807.html
+Service Domain,3,87809,StrategyCapability,Reference Data,Market Data,Market Data Switch Operation,https://bian.org/servicelandscape-13-0-0/elements/id_87809.html
+Service Domain,3,87811,StrategyCapability,Reference Data,Market Data,Financial Instrument Reference Data,https://bian.org/servicelandscape-13-0-0/elements/id_87811.html
+Service Domain,3,87813,StrategyCapability,Reference Data,Market Data,Counterparty Administration,https://bian.org/servicelandscape-13-0-0/elements/id_87813.html
+Service Domain,3,87815,StrategyCapability,Reference Data,Market Data,Public Reference Data Management,https://bian.org/servicelandscape-13-0-0/elements/id_87815.html
+Service Domain,3,87817,StrategyCapability,Reference Data,Market Data,Location Data Management,https://bian.org/servicelandscape-13-0-0/elements/id_87817.html
+Business Domain,2,87819,StrategyCapability,Reference Data,Product Management,,https://bian.org/servicelandscape-13-0-0/elements/id_87819.html
+Service Domain,3,87821,StrategyCapability,Reference Data,Product Management,Product Design,https://bian.org/servicelandscape-13-0-0/elements/id_87821.html
+Service Domain,3,87823,StrategyCapability,Reference Data,Product Management,Product Deployment,https://bian.org/servicelandscape-13-0-0/elements/id_87823.html
+Service Domain,3,87825,StrategyCapability,Reference Data,Product Management,Product Training,https://bian.org/servicelandscape-13-0-0/elements/id_87825.html
+Service Domain,3,87827,StrategyCapability,Reference Data,Product Management,Product Quality Assurance,https://bian.org/servicelandscape-13-0-0/elements/id_87827.html
+Service Domain,3,87829,StrategyCapability,Reference Data,Product Management,Discount Pricing,https://bian.org/servicelandscape-13-0-0/elements/id_87829.html
+Service Domain,3,87831,StrategyCapability,Reference Data,Product Management,Product Directory,https://bian.org/servicelandscape-13-0-0/elements/id_87831.html
+Service Domain,3,87833,StrategyCapability,Reference Data,Product Management,Special Pricing Conditions,https://bian.org/servicelandscape-13-0-0/elements/id_87833.html
+Business Area,1,87835,CompositeGrouping,Operations and Execution,,,https://bian.org/servicelandscape-13-0-0/elements/id_87835.html
+Business Domain,2,87837,StrategyCapability,Operations and Execution,Product Specific Fulfillment,,https://bian.org/servicelandscape-13-0-0/elements/id_87837.html
+Business Domain,2,87839,StrategyCapability,Operations and Execution,Loans and Deposits,,https://bian.org/servicelandscape-13-0-0/elements/id_87839.html
+Service Domain,3,87841,StrategyCapability,Operations and Execution,Loans and Deposits,Loan,https://bian.org/servicelandscape-13-0-0/elements/id_87841.html
+Service Domain,3,87843,StrategyCapability,Operations and Execution,Loans and Deposits,Leasing,https://bian.org/servicelandscape-13-0-0/elements/id_87843.html
+Service Domain,3,87845,StrategyCapability,Operations and Execution,Loans and Deposits,Current Account,https://bian.org/servicelandscape-13-0-0/elements/id_87845.html
+Service Domain,3,87847,StrategyCapability,Operations and Execution,Loans and Deposits,Corporate Current Account,https://bian.org/servicelandscape-13-0-0/elements/id_87847.html
+Service Domain,3,87849,StrategyCapability,Operations and Execution,Loans and Deposits,Consumer Loan,https://bian.org/servicelandscape-13-0-0/elements/id_87849.html
+Service Domain,3,87851,StrategyCapability,Operations and Execution,Loans and Deposits,Corporate Loan,https://bian.org/servicelandscape-13-0-0/elements/id_87851.html
+Service Domain,3,87853,StrategyCapability,Operations and Execution,Loans and Deposits,Term Deposit,https://bian.org/servicelandscape-13-0-0/elements/id_87853.html
+Service Domain,3,87855,StrategyCapability,Operations and Execution,Loans and Deposits,Corporate Lease,https://bian.org/servicelandscape-13-0-0/elements/id_87855.html
+Service Domain,3,87857,StrategyCapability,Operations and Execution,Loans and Deposits,Merchandising Loan,https://bian.org/servicelandscape-13-0-0/elements/id_87857.html
+Service Domain,3,87859,StrategyCapability,Operations and Execution,Loans and Deposits,Mortgage Loan,https://bian.org/servicelandscape-13-0-0/elements/id_87859.html
+Service Domain,3,87861,StrategyCapability,Operations and Execution,Loans and Deposits,Fiduciary Agreement,https://bian.org/servicelandscape-13-0-0/elements/id_87861.html
+Service Domain,3,87863,StrategyCapability,Operations and Execution,Loans and Deposits,Savings Account,https://bian.org/servicelandscape-13-0-0/elements/id_87863.html
+Service Domain,3,87865,StrategyCapability,Operations and Execution,Loans and Deposits,Virtual Account,https://bian.org/servicelandscape-13-0-0/elements/id_87865.html
+Service Domain,3,87867,StrategyCapability,Operations and Execution,Loans and Deposits,Standing Order,https://bian.org/servicelandscape-13-0-0/elements/id_87867.html
+Service Domain,3,87869,StrategyCapability,Operations and Execution,Loans and Deposits,Term Deposit Framework Agreement,https://bian.org/servicelandscape-13-0-0/elements/id_87869.html
+Business Domain,2,87871,StrategyCapability,Operations and Execution,Investment Management,,https://bian.org/servicelandscape-13-0-0/elements/id_87871.html
+Service Domain,3,87873,StrategyCapability,Operations and Execution,Investment Management,Investment Portfolio Planning,https://bian.org/servicelandscape-13-0-0/elements/id_87873.html
+Service Domain,3,87875,StrategyCapability,Operations and Execution,Investment Management,Investment Portfolio Analysis,https://bian.org/servicelandscape-13-0-0/elements/id_87875.html
+Service Domain,3,87877,StrategyCapability,Operations and Execution,Investment Management,Investment Portfolio Management,https://bian.org/servicelandscape-13-0-0/elements/id_87877.html
+Service Domain,3,87879,StrategyCapability,Operations and Execution,Investment Management,eTrading Workbench,https://bian.org/servicelandscape-13-0-0/elements/id_87879.html
+Service Domain,3,87881,StrategyCapability,Operations and Execution,Investment Management,Investment Account,https://bian.org/servicelandscape-13-0-0/elements/id_87881.html
+Business Domain,2,87883,StrategyCapability,Operations and Execution,Trade Banking,,https://bian.org/servicelandscape-13-0-0/elements/id_87883.html
+Service Domain,3,87885,StrategyCapability,Operations and Execution,Trade Banking,Letter of Credit,https://bian.org/servicelandscape-13-0-0/elements/id_87885.html
+Service Domain,3,87887,StrategyCapability,Operations and Execution,Trade Banking,Bank Guarantee,https://bian.org/servicelandscape-13-0-0/elements/id_87887.html
+Service Domain,3,87889,StrategyCapability,Operations and Execution,Trade Banking,Credit Management,https://bian.org/servicelandscape-13-0-0/elements/id_87889.html
+Service Domain,3,87891,StrategyCapability,Operations and Execution,Trade Banking,Credit Facility,https://bian.org/servicelandscape-13-0-0/elements/id_87891.html
+Service Domain,3,87893,StrategyCapability,Operations and Execution,Trade Banking,Project Finance,https://bian.org/servicelandscape-13-0-0/elements/id_87893.html
+Service Domain,3,87895,StrategyCapability,Operations and Execution,Trade Banking,Limit and Exposure Management,https://bian.org/servicelandscape-13-0-0/elements/id_87895.html
+Service Domain,3,87897,StrategyCapability,Operations and Execution,Trade Banking,Syndicated Loan,https://bian.org/servicelandscape-13-0-0/elements/id_87897.html
+Service Domain,3,87899,StrategyCapability,Operations and Execution,Trade Banking,Cash Management And Account,https://bian.org/servicelandscape-13-0-0/elements/id_87899.html
+Service Domain,3,87901,StrategyCapability,Operations and Execution,Trade Banking,Direct Debit Mandate,https://bian.org/servicelandscape-13-0-0/elements/id_87901.html
+Service Domain,3,87903,StrategyCapability,Operations and Execution,Trade Banking,Cheque Lock Box,https://bian.org/servicelandscape-13-0-0/elements/id_87903.html
+Service Domain,3,87905,StrategyCapability,Operations and Execution,Trade Banking,Factoring,https://bian.org/servicelandscape-13-0-0/elements/id_87905.html
+Service Domain,3,87907,StrategyCapability,Operations and Execution,Trade Banking,Cash Concentration,https://bian.org/servicelandscape-13-0-0/elements/id_87907.html
+Service Domain,3,87909,StrategyCapability,Operations and Execution,Trade Banking,Notional Pooling,https://bian.org/servicelandscape-13-0-0/elements/id_87909.html
+Service Domain,3,87911,StrategyCapability,Operations and Execution,Trade Banking,Corporate Payroll Services,https://bian.org/servicelandscape-13-0-0/elements/id_87911.html
+Service Domain,3,87913,StrategyCapability,Operations and Execution,Trade Banking,Direct Debit,https://bian.org/servicelandscape-13-0-0/elements/id_87913.html
+Business Domain,2,87915,StrategyCapability,Operations and Execution,Wholesale Trading,,https://bian.org/servicelandscape-13-0-0/elements/id_87915.html
+Service Domain,3,87917,StrategyCapability,Operations and Execution,Wholesale Trading,Trading Book Oversight,https://bian.org/servicelandscape-13-0-0/elements/id_87917.html
+Service Domain,3,87919,StrategyCapability,Operations and Execution,Wholesale Trading,Trading Models,https://bian.org/servicelandscape-13-0-0/elements/id_87919.html
+Service Domain,3,87921,StrategyCapability,Operations and Execution,Wholesale Trading,Dealer Desk,https://bian.org/servicelandscape-13-0-0/elements/id_87921.html
+Service Domain,3,87923,StrategyCapability,Operations and Execution,Wholesale Trading,Quote Management,https://bian.org/servicelandscape-13-0-0/elements/id_87923.html
+Service Domain,3,87925,StrategyCapability,Operations and Execution,Wholesale Trading,Suitability Checking,https://bian.org/servicelandscape-13-0-0/elements/id_87925.html
+Service Domain,3,87927,StrategyCapability,Operations and Execution,Wholesale Trading,Credit Risk Operations,https://bian.org/servicelandscape-13-0-0/elements/id_87927.html
+Service Domain,3,87929,StrategyCapability,Operations and Execution,Wholesale Trading,Market Making,https://bian.org/servicelandscape-13-0-0/elements/id_87929.html
+Service Domain,3,87931,StrategyCapability,Operations and Execution,Wholesale Trading,ECM And DCM,https://bian.org/servicelandscape-13-0-0/elements/id_87931.html
+Service Domain,3,87933,StrategyCapability,Operations and Execution,Wholesale Trading,Program Trading,https://bian.org/servicelandscape-13-0-0/elements/id_87933.html
+Service Domain,3,87935,StrategyCapability,Operations and Execution,Wholesale Trading,Trader Position Operations,https://bian.org/servicelandscape-13-0-0/elements/id_87935.html
+Service Domain,3,87937,StrategyCapability,Operations and Execution,Wholesale Trading,Market Order,https://bian.org/servicelandscape-13-0-0/elements/id_87937.html
+Service Domain,3,87939,StrategyCapability,Operations and Execution,Wholesale Trading,Market Order Execution,https://bian.org/servicelandscape-13-0-0/elements/id_87939.html
+Business Domain,2,87941,StrategyCapability,Operations and Execution,Cards,,https://bian.org/servicelandscape-13-0-0/elements/id_87941.html
+Service Domain,3,87943,StrategyCapability,Operations and Execution,Cards,Credit Card,https://bian.org/servicelandscape-13-0-0/elements/id_87943.html
+Service Domain,3,87945,StrategyCapability,Operations and Execution,Cards,Card Authorization,https://bian.org/servicelandscape-13-0-0/elements/id_87945.html
+Service Domain,3,87947,StrategyCapability,Operations and Execution,Cards,Card Transaction Capture,https://bian.org/servicelandscape-13-0-0/elements/id_87947.html
+Service Domain,3,87949,StrategyCapability,Operations and Execution,Cards,Merchant Relations,https://bian.org/servicelandscape-13-0-0/elements/id_87949.html
+Service Domain,3,87951,StrategyCapability,Operations and Execution,Cards,Merchant Acquiring Facility,https://bian.org/servicelandscape-13-0-0/elements/id_87951.html
+Service Domain,3,87953,StrategyCapability,Operations and Execution,Cards,Card Network Participant Facility,https://bian.org/servicelandscape-13-0-0/elements/id_87953.html
+Service Domain,3,87955,StrategyCapability,Operations and Execution,Cards,Credit Card Position Keeping,https://bian.org/servicelandscape-13-0-0/elements/id_87955.html
+Business Domain,2,87957,StrategyCapability,Operations and Execution,Market Operations,,https://bian.org/servicelandscape-13-0-0/elements/id_87957.html
+Service Domain,3,87959,StrategyCapability,Operations and Execution,Market Operations,Mutual Fund Administration,https://bian.org/servicelandscape-13-0-0/elements/id_87959.html
+Service Domain,3,87961,StrategyCapability,Operations and Execution,Market Operations,Hedge Fund Administration,https://bian.org/servicelandscape-13-0-0/elements/id_87961.html
+Service Domain,3,87963,StrategyCapability,Operations and Execution,Market Operations,Unit Trust Administration,https://bian.org/servicelandscape-13-0-0/elements/id_87963.html
+Service Domain,3,87965,StrategyCapability,Operations and Execution,Market Operations,Trade Confirmation Matching,https://bian.org/servicelandscape-13-0-0/elements/id_87965.html
+Service Domain,3,87967,StrategyCapability,Operations and Execution,Market Operations,Order Allocation,https://bian.org/servicelandscape-13-0-0/elements/id_87967.html
+Service Domain,3,87969,StrategyCapability,Operations and Execution,Market Operations,Securities Fails Processing,https://bian.org/servicelandscape-13-0-0/elements/id_87969.html
+Service Domain,3,87971,StrategyCapability,Operations and Execution,Market Operations,Trade and Price Reporting,https://bian.org/servicelandscape-13-0-0/elements/id_87971.html
+Service Domain,3,87973,StrategyCapability,Operations and Execution,Market Operations,Custody Administration,https://bian.org/servicelandscape-13-0-0/elements/id_87973.html
+Service Domain,3,87975,StrategyCapability,Operations and Execution,Market Operations,Corporate Action,https://bian.org/servicelandscape-13-0-0/elements/id_87975.html
+Service Domain,3,87977,StrategyCapability,Operations and Execution,Market Operations,Financial Instrument Valuation,https://bian.org/servicelandscape-13-0-0/elements/id_87977.html
+Service Domain,3,87979,StrategyCapability,Operations and Execution,Market Operations,Trade Clearing,https://bian.org/servicelandscape-13-0-0/elements/id_87979.html
+Service Domain,3,87981,StrategyCapability,Operations and Execution,Market Operations,Trade Settlement,https://bian.org/servicelandscape-13-0-0/elements/id_87981.html
+Business Domain,2,87983,StrategyCapability,Operations and Execution,Corporate Financing and Advisory Services,,https://bian.org/servicelandscape-13-0-0/elements/id_87983.html
+Service Domain,3,87985,StrategyCapability,Operations and Execution,Corporate Financing and Advisory Services,Public Offering,https://bian.org/servicelandscape-13-0-0/elements/id_87985.html
+Service Domain,3,87987,StrategyCapability,Operations and Execution,Corporate Financing and Advisory Services,Private Placement,https://bian.org/servicelandscape-13-0-0/elements/id_87987.html
+Service Domain,3,87989,StrategyCapability,Operations and Execution,Corporate Financing and Advisory Services,Mergers and Acquisitions Advisory,https://bian.org/servicelandscape-13-0-0/elements/id_87989.html
+Service Domain,3,87991,StrategyCapability,Operations and Execution,Corporate Financing and Advisory Services,Corporate Tax Advisory,https://bian.org/servicelandscape-13-0-0/elements/id_87991.html
+Service Domain,3,87993,StrategyCapability,Operations and Execution,Corporate Financing and Advisory Services,Corporate Finance,https://bian.org/servicelandscape-13-0-0/elements/id_87993.html
+Business Domain,2,87995,StrategyCapability,Operations and Execution,Consumer Services,,https://bian.org/servicelandscape-13-0-0/elements/id_87995.html
+Service Domain,3,87997,StrategyCapability,Operations and Execution,Consumer Services,Corporate Trust Services,https://bian.org/servicelandscape-13-0-0/elements/id_87997.html
+Service Domain,3,87999,StrategyCapability,Operations and Execution,Consumer Services,Currency Exchange,https://bian.org/servicelandscape-13-0-0/elements/id_87999.html
+Service Domain,3,88001,StrategyCapability,Operations and Execution,Consumer Services,Bank Drafts,https://bian.org/servicelandscape-13-0-0/elements/id_88001.html
+Service Domain,3,88003,StrategyCapability,Operations and Execution,Consumer Services,Brokered Product,https://bian.org/servicelandscape-13-0-0/elements/id_88003.html
+Service Domain,3,88005,StrategyCapability,Operations and Execution,Consumer Services,Consumer Investments,https://bian.org/servicelandscape-13-0-0/elements/id_88005.html
+Service Domain,3,88007,StrategyCapability,Operations and Execution,Consumer Services,Customer Tax Handling,https://bian.org/servicelandscape-13-0-0/elements/id_88007.html
+Service Domain,3,88009,StrategyCapability,Operations and Execution,Consumer Services,Consumer Advisory Services,https://bian.org/servicelandscape-13-0-0/elements/id_88009.html
+Service Domain,3,88011,StrategyCapability,Operations and Execution,Consumer Services,Trust Services,https://bian.org/servicelandscape-13-0-0/elements/id_88011.html
+Business Domain,2,88013,StrategyCapability,Operations and Execution,Cross Product Operations,,https://bian.org/servicelandscape-13-0-0/elements/id_88013.html
+Business Domain,2,88015,StrategyCapability,Operations and Execution,Payments,,https://bian.org/servicelandscape-13-0-0/elements/id_88015.html
+Service Domain,3,88017,StrategyCapability,Operations and Execution,Payments,Payment Order,https://bian.org/servicelandscape-13-0-0/elements/id_88017.html
+Service Domain,3,88019,StrategyCapability,Operations and Execution,Payments,Payment Execution,https://bian.org/servicelandscape-13-0-0/elements/id_88019.html
+Service Domain,3,88021,StrategyCapability,Operations and Execution,Payments,Financial Message Analysis,https://bian.org/servicelandscape-13-0-0/elements/id_88021.html
+Service Domain,3,88023,StrategyCapability,Operations and Execution,Payments,Financial Gateway,https://bian.org/servicelandscape-13-0-0/elements/id_88023.html
+Service Domain,3,88025,StrategyCapability,Operations and Execution,Payments,Central Cash Handling,https://bian.org/servicelandscape-13-0-0/elements/id_88025.html
+Service Domain,3,88027,StrategyCapability,Operations and Execution,Payments,Card Financial Settlement,https://bian.org/servicelandscape-13-0-0/elements/id_88027.html
+Service Domain,3,88029,StrategyCapability,Operations and Execution,Payments,Card eCommerce Gateway,https://bian.org/servicelandscape-13-0-0/elements/id_88029.html
+Service Domain,3,88031,StrategyCapability,Operations and Execution,Payments,Card Clearing,https://bian.org/servicelandscape-13-0-0/elements/id_88031.html
+Service Domain,3,88033,StrategyCapability,Operations and Execution,Payments,ACH Operations,https://bian.org/servicelandscape-13-0-0/elements/id_88033.html
+Service Domain,3,88035,StrategyCapability,Operations and Execution,Payments,Cheque Processing,https://bian.org/servicelandscape-13-0-0/elements/id_88035.html
+Service Domain,3,88037,StrategyCapability,Operations and Execution,Payments,Payment Instruction,https://bian.org/servicelandscape-13-0-0/elements/id_88037.html
+Service Domain,3,88039,StrategyCapability,Operations and Execution,Payments,Correspondent Bank Operations,https://bian.org/servicelandscape-13-0-0/elements/id_88039.html
+Service Domain,3,88041,StrategyCapability,Operations and Execution,Payments,Payment Rail Operations,https://bian.org/servicelandscape-13-0-0/elements/id_88041.html
+Business Domain,2,88043,StrategyCapability,Operations and Execution,Account Management,,https://bian.org/servicelandscape-13-0-0/elements/id_88043.html
+Service Domain,3,88045,StrategyCapability,Operations and Execution,Account Management,Reward Points Account,https://bian.org/servicelandscape-13-0-0/elements/id_88045.html
+Service Domain,3,88047,StrategyCapability,Operations and Execution,Account Management,Product Combination,https://bian.org/servicelandscape-13-0-0/elements/id_88047.html
+Service Domain,3,88049,StrategyCapability,Operations and Execution,Account Management,Position Management,https://bian.org/servicelandscape-13-0-0/elements/id_88049.html
+Service Domain,3,88051,StrategyCapability,Operations and Execution,Account Management,Position Keeping,https://bian.org/servicelandscape-13-0-0/elements/id_88051.html
+Service Domain,3,88053,StrategyCapability,Operations and Execution,Account Management,Fraud Evaluation,https://bian.org/servicelandscape-13-0-0/elements/id_88053.html
+Service Domain,3,88055,StrategyCapability,Operations and Execution,Account Management,Fraud Diagnosis,https://bian.org/servicelandscape-13-0-0/elements/id_88055.html
+Service Domain,3,88057,StrategyCapability,Operations and Execution,Account Management,Customer Position,https://bian.org/servicelandscape-13-0-0/elements/id_88057.html
+Service Domain,3,88059,StrategyCapability,Operations and Execution,Account Management,Counterparty Risk,https://bian.org/servicelandscape-13-0-0/elements/id_88059.html
+Service Domain,3,88061,StrategyCapability,Operations and Execution,Account Management,Accounts Receivable,https://bian.org/servicelandscape-13-0-0/elements/id_88061.html
+Service Domain,3,88063,StrategyCapability,Operations and Execution,Account Management,Account Reconciliation,https://bian.org/servicelandscape-13-0-0/elements/id_88063.html
+Service Domain,3,88065,StrategyCapability,Operations and Execution,Account Management,Securities Position Keeping,https://bian.org/servicelandscape-13-0-0/elements/id_88065.html
+Service Domain,3,88067,StrategyCapability,Operations and Execution,Account Management,Transaction Engine,https://bian.org/servicelandscape-13-0-0/elements/id_88067.html
+Business Domain,2,88069,StrategyCapability,Operations and Execution,Operational Services,,https://bian.org/servicelandscape-13-0-0/elements/id_88069.html
+Service Domain,3,88071,StrategyCapability,Operations and Execution,Operational Services,Reward Points Awards And Redemption,https://bian.org/servicelandscape-13-0-0/elements/id_88071.html
+Service Domain,3,88073,StrategyCapability,Operations and Execution,Operational Services,Open Item Management,https://bian.org/servicelandscape-13-0-0/elements/id_88073.html
+Service Domain,3,88075,StrategyCapability,Operations and Execution,Operational Services,Leasing Item Administration,https://bian.org/servicelandscape-13-0-0/elements/id_88075.html
+Service Domain,3,88077,StrategyCapability,Operations and Execution,Operational Services,Issued Device Tracking,https://bian.org/servicelandscape-13-0-0/elements/id_88077.html
+Service Domain,3,88079,StrategyCapability,Operations and Execution,Operational Services,Issued Device Administration,https://bian.org/servicelandscape-13-0-0/elements/id_88079.html
+Service Domain,3,88081,StrategyCapability,Operations and Execution,Operational Services,Disbursement,https://bian.org/servicelandscape-13-0-0/elements/id_88081.html
+Service Domain,3,88083,StrategyCapability,Operations and Execution,Operational Services,Delinquent Account Handling,https://bian.org/servicelandscape-13-0-0/elements/id_88083.html
+Service Domain,3,88085,StrategyCapability,Operations and Execution,Operational Services,Channel Activity History,https://bian.org/servicelandscape-13-0-0/elements/id_88085.html
+Service Domain,3,88087,StrategyCapability,Operations and Execution,Operational Services,Channel Activity Analysis,https://bian.org/servicelandscape-13-0-0/elements/id_88087.html
+Service Domain,3,88089,StrategyCapability,Operations and Execution,Operational Services,Card Transaction Switch,https://bian.org/servicelandscape-13-0-0/elements/id_88089.html
+Service Domain,3,88091,StrategyCapability,Operations and Execution,Operational Services,Card Collections,https://bian.org/servicelandscape-13-0-0/elements/id_88091.html
+Service Domain,3,88093,StrategyCapability,Operations and Execution,Operational Services,Customer Billing,https://bian.org/servicelandscape-13-0-0/elements/id_88093.html
+Service Domain,3,88095,StrategyCapability,Operations and Execution,Operational Services,Internal Bank Account,https://bian.org/servicelandscape-13-0-0/elements/id_88095.html
+Service Domain,3,88097,StrategyCapability,Operations and Execution,Operational Services,Processing Order,https://bian.org/servicelandscape-13-0-0/elements/id_88097.html
+Business Domain,2,88099,StrategyCapability,Operations and Execution,Collateral Administration,,https://bian.org/servicelandscape-13-0-0/elements/id_88099.html
+Service Domain,3,88101,StrategyCapability,Operations and Execution,Collateral Administration,Collections,https://bian.org/servicelandscape-13-0-0/elements/id_88101.html
+Service Domain,3,88103,StrategyCapability,Operations and Execution,Collateral Administration,Collateral Allocation Management,https://bian.org/servicelandscape-13-0-0/elements/id_88103.html
+Service Domain,3,88105,StrategyCapability,Operations and Execution,Collateral Administration,Party Asset Directory,https://bian.org/servicelandscape-13-0-0/elements/id_88105.html
+Service Domain,3,88107,StrategyCapability,Operations and Execution,Collateral Administration,Collateral Asset Administration,https://bian.org/servicelandscape-13-0-0/elements/id_88107.html
+Business Area,1,88109,CompositeGrouping,Risk and Compliance,,,https://bian.org/servicelandscape-13-0-0/elements/id_88109.html
+Business Domain,2,88111,StrategyCapability,Risk and Compliance,Bank Portfolio and Treasury,,https://bian.org/servicelandscape-13-0-0/elements/id_88111.html
+Service Domain,3,88113,StrategyCapability,Risk and Compliance,Bank Portfolio and Treasury,Stock Lending and Repos,https://bian.org/servicelandscape-13-0-0/elements/id_88113.html
+Service Domain,3,88115,StrategyCapability,Risk and Compliance,Bank Portfolio and Treasury,Corporate Treasury Analysis,https://bian.org/servicelandscape-13-0-0/elements/id_88115.html
+Service Domain,3,88117,StrategyCapability,Risk and Compliance,Bank Portfolio and Treasury,Corporate Treasury,https://bian.org/servicelandscape-13-0-0/elements/id_88117.html
+Service Domain,3,88119,StrategyCapability,Risk and Compliance,Bank Portfolio and Treasury,Bank Portfolio Analysis,https://bian.org/servicelandscape-13-0-0/elements/id_88119.html
+Service Domain,3,88121,StrategyCapability,Risk and Compliance,Bank Portfolio and Treasury,Bank Portfolio Administration,https://bian.org/servicelandscape-13-0-0/elements/id_88121.html
+Service Domain,3,88123,StrategyCapability,Risk and Compliance,Bank Portfolio and Treasury,Asset Securitization,https://bian.org/servicelandscape-13-0-0/elements/id_88123.html
+Service Domain,3,88125,StrategyCapability,Risk and Compliance,Bank Portfolio and Treasury,Asset And Liability Management,https://bian.org/servicelandscape-13-0-0/elements/id_88125.html
+Business Domain,2,88127,StrategyCapability,Risk and Compliance,Business Analysis,,https://bian.org/servicelandscape-13-0-0/elements/id_88127.html
+Service Domain,3,88129,StrategyCapability,Risk and Compliance,Business Analysis,Market Analysis,https://bian.org/servicelandscape-13-0-0/elements/id_88129.html
+Service Domain,3,88131,StrategyCapability,Risk and Compliance,Business Analysis,Contribution Analysis,https://bian.org/servicelandscape-13-0-0/elements/id_88131.html
+Service Domain,3,88133,StrategyCapability,Risk and Compliance,Business Analysis,Competitor Analysis,https://bian.org/servicelandscape-13-0-0/elements/id_88133.html
+Service Domain,3,88135,StrategyCapability,Risk and Compliance,Business Analysis,Channel Portfolio,https://bian.org/servicelandscape-13-0-0/elements/id_88135.html
+Service Domain,3,88137,StrategyCapability,Risk and Compliance,Business Analysis,Branch Portfolio,https://bian.org/servicelandscape-13-0-0/elements/id_88137.html
+Service Domain,3,88139,StrategyCapability,Risk and Compliance,Business Analysis,Segment Direction,https://bian.org/servicelandscape-13-0-0/elements/id_88139.html
+Service Domain,3,88141,StrategyCapability,Risk and Compliance,Business Analysis,Customer Portfolio,https://bian.org/servicelandscape-13-0-0/elements/id_88141.html
+Service Domain,3,88143,StrategyCapability,Risk and Compliance,Business Analysis,Product Portfolio,https://bian.org/servicelandscape-13-0-0/elements/id_88143.html
+Service Domain,3,88145,StrategyCapability,Risk and Compliance,Business Analysis,Market Research,https://bian.org/servicelandscape-13-0-0/elements/id_88145.html
+Business Domain,2,88147,StrategyCapability,Risk and Compliance,Regulations and Compliance,,https://bian.org/servicelandscape-13-0-0/elements/id_88147.html
+Service Domain,3,88149,StrategyCapability,Risk and Compliance,Regulations and Compliance,Regulatory Reporting,https://bian.org/servicelandscape-13-0-0/elements/id_88149.html
+Service Domain,3,88151,StrategyCapability,Risk and Compliance,Regulations and Compliance,Regulatory Compliance,https://bian.org/servicelandscape-13-0-0/elements/id_88151.html
+Service Domain,3,88153,StrategyCapability,Risk and Compliance,Regulations and Compliance,Guideline Compliance,https://bian.org/servicelandscape-13-0-0/elements/id_88153.html
+Service Domain,3,88155,StrategyCapability,Risk and Compliance,Regulations and Compliance,Fraud Resolution,https://bian.org/servicelandscape-13-0-0/elements/id_88155.html
+Service Domain,3,88157,StrategyCapability,Risk and Compliance,Regulations and Compliance,Financial Accounting,https://bian.org/servicelandscape-13-0-0/elements/id_88157.html
+Service Domain,3,88159,StrategyCapability,Risk and Compliance,Regulations and Compliance,Compliance Reporting,https://bian.org/servicelandscape-13-0-0/elements/id_88159.html
+Service Domain,3,88161,StrategyCapability,Risk and Compliance,Regulations and Compliance,Financial Statement Assessment,https://bian.org/servicelandscape-13-0-0/elements/id_88161.html
+Business Domain,2,88163,StrategyCapability,Risk and Compliance,Models,,https://bian.org/servicelandscape-13-0-0/elements/id_88163.html
+Service Domain,3,88165,StrategyCapability,Risk and Compliance,Models,Contribution Models,https://bian.org/servicelandscape-13-0-0/elements/id_88165.html
+Service Domain,3,88167,StrategyCapability,Risk and Compliance,Models,Operational Risk Models,https://bian.org/servicelandscape-13-0-0/elements/id_88167.html
+Service Domain,3,88169,StrategyCapability,Risk and Compliance,Models,Production Risk Models,https://bian.org/servicelandscape-13-0-0/elements/id_88169.html
+Service Domain,3,88171,StrategyCapability,Risk and Compliance,Models,Credit and Margin Management,https://bian.org/servicelandscape-13-0-0/elements/id_88171.html
+Service Domain,3,88173,StrategyCapability,Risk and Compliance,Models,Business Risk Models,https://bian.org/servicelandscape-13-0-0/elements/id_88173.html
+Service Domain,3,88175,StrategyCapability,Risk and Compliance,Models,Customer Behavior Models,https://bian.org/servicelandscape-13-0-0/elements/id_88175.html
+Service Domain,3,88177,StrategyCapability,Risk and Compliance,Models,Economic Capital,https://bian.org/servicelandscape-13-0-0/elements/id_88177.html
+Service Domain,3,88179,StrategyCapability,Risk and Compliance,Models,Credit Risk Models,https://bian.org/servicelandscape-13-0-0/elements/id_88179.html
+Service Domain,3,88181,StrategyCapability,Risk and Compliance,Models,Financial Instrument Valuation Models,https://bian.org/servicelandscape-13-0-0/elements/id_88181.html
+Service Domain,3,88183,StrategyCapability,Risk and Compliance,Models,Market Risk Models,https://bian.org/servicelandscape-13-0-0/elements/id_88183.html
+Service Domain,3,88185,StrategyCapability,Risk and Compliance,Models,Liquidity Risk Models,https://bian.org/servicelandscape-13-0-0/elements/id_88185.html
+Service Domain,3,88187,StrategyCapability,Risk and Compliance,Models,Gap Analysis,https://bian.org/servicelandscape-13-0-0/elements/id_88187.html
+Service Domain,3,88189,StrategyCapability,Risk and Compliance,Models,Fraud Model,https://bian.org/servicelandscape-13-0-0/elements/id_88189.html
+Business Area,1,88191,CompositeGrouping,Business Support,,,https://bian.org/servicelandscape-13-0-0/elements/id_88191.html
+Business Domain,2,88193,StrategyCapability,Business Support,IT Management,,https://bian.org/servicelandscape-13-0-0/elements/id_88193.html
+Service Domain,3,88195,StrategyCapability,Business Support,IT Management,Systems Operations,https://bian.org/servicelandscape-13-0-0/elements/id_88195.html
+Service Domain,3,88197,StrategyCapability,Business Support,IT Management,Systems Assurance,https://bian.org/servicelandscape-13-0-0/elements/id_88197.html
+Service Domain,3,88199,StrategyCapability,Business Support,IT Management,Systems Administration,https://bian.org/servicelandscape-13-0-0/elements/id_88199.html
+Service Domain,3,88201,StrategyCapability,Business Support,IT Management,System Development,https://bian.org/servicelandscape-13-0-0/elements/id_88201.html
+Service Domain,3,88203,StrategyCapability,Business Support,IT Management,System Deployment,https://bian.org/servicelandscape-13-0-0/elements/id_88203.html
+Service Domain,3,88205,StrategyCapability,Business Support,IT Management,Production Release,https://bian.org/servicelandscape-13-0-0/elements/id_88205.html
+Service Domain,3,88207,StrategyCapability,Business Support,IT Management,Platform Operations,https://bian.org/servicelandscape-13-0-0/elements/id_88207.html
+Service Domain,3,88209,StrategyCapability,Business Support,IT Management,IT Systems Direction,https://bian.org/servicelandscape-13-0-0/elements/id_88209.html
+Service Domain,3,88211,StrategyCapability,Business Support,IT Management,IT Standards And Guidelines,https://bian.org/servicelandscape-13-0-0/elements/id_88211.html
+Service Domain,3,88213,StrategyCapability,Business Support,IT Management,Internal Network Operation,https://bian.org/servicelandscape-13-0-0/elements/id_88213.html
+Service Domain,3,88215,StrategyCapability,Business Support,IT Management,Development Environment,https://bian.org/servicelandscape-13-0-0/elements/id_88215.html
+Service Domain,3,88217,StrategyCapability,Business Support,IT Management,Systems Help Desk,https://bian.org/servicelandscape-13-0-0/elements/id_88217.html
+Service Domain,3,88219,StrategyCapability,Business Support,IT Management,Operational Gateway,https://bian.org/servicelandscape-13-0-0/elements/id_88219.html
+Business Domain,2,88221,StrategyCapability,Business Support,Non-IT and Non-HR Enterprise Services,,https://bian.org/servicelandscape-13-0-0/elements/id_88221.html
+Service Domain,3,88223,StrategyCapability,Business Support,Non-IT and Non-HR Enterprise Services,Security Assurance,https://bian.org/servicelandscape-13-0-0/elements/id_88223.html
+Service Domain,3,88225,StrategyCapability,Business Support,Non-IT and Non-HR Enterprise Services,Security Advisory,https://bian.org/servicelandscape-13-0-0/elements/id_88225.html
+Service Domain,3,88227,StrategyCapability,Business Support,Non-IT and Non-HR Enterprise Services,Procurement,https://bian.org/servicelandscape-13-0-0/elements/id_88227.html
+Service Domain,3,88229,StrategyCapability,Business Support,Non-IT and Non-HR Enterprise Services,Legal Compliance,https://bian.org/servicelandscape-13-0-0/elements/id_88229.html
+Service Domain,3,88231,StrategyCapability,Business Support,Non-IT and Non-HR Enterprise Services,Internal Audit,https://bian.org/servicelandscape-13-0-0/elements/id_88231.html
+Service Domain,3,88233,StrategyCapability,Business Support,Non-IT and Non-HR Enterprise Services,Fixed Asset Register,https://bian.org/servicelandscape-13-0-0/elements/id_88233.html
+Service Domain,3,88235,StrategyCapability,Business Support,Non-IT and Non-HR Enterprise Services,Company Billing and Payments,https://bian.org/servicelandscape-13-0-0/elements/id_88235.html
+Service Domain,3,88237,StrategyCapability,Business Support,Non-IT and Non-HR Enterprise Services,Approved Supplier Directory,https://bian.org/servicelandscape-13-0-0/elements/id_88237.html
+Service Domain,3,88239,StrategyCapability,Business Support,Non-IT and Non-HR Enterprise Services,Legal Advisory,https://bian.org/servicelandscape-13-0-0/elements/id_88239.html
+Business Domain,2,88241,StrategyCapability,Business Support,Buildings Equipment and Facilities,,https://bian.org/servicelandscape-13-0-0/elements/id_88241.html
+Service Domain,3,88243,StrategyCapability,Business Support,Buildings Equipment and Facilities,Utilities Administration,https://bian.org/servicelandscape-13-0-0/elements/id_88243.html
+Service Domain,3,88245,StrategyCapability,Business Support,Buildings Equipment and Facilities,Site Operations,https://bian.org/servicelandscape-13-0-0/elements/id_88245.html
+Service Domain,3,88247,StrategyCapability,Business Support,Buildings Equipment and Facilities,Site Administration,https://bian.org/servicelandscape-13-0-0/elements/id_88247.html
+Service Domain,3,88249,StrategyCapability,Business Support,Buildings Equipment and Facilities,Property Portfolio,https://bian.org/servicelandscape-13-0-0/elements/id_88249.html
+Service Domain,3,88251,StrategyCapability,Business Support,Buildings Equipment and Facilities,Equipment Maintenance,https://bian.org/servicelandscape-13-0-0/elements/id_88251.html
+Service Domain,3,88253,StrategyCapability,Business Support,Buildings Equipment and Facilities,Equipment Administration,https://bian.org/servicelandscape-13-0-0/elements/id_88253.html
+Service Domain,3,88255,StrategyCapability,Business Support,Buildings Equipment and Facilities,Building Maintenance,https://bian.org/servicelandscape-13-0-0/elements/id_88255.html
+Business Domain,2,88257,StrategyCapability,Business Support,Business Command and Control,,https://bian.org/servicelandscape-13-0-0/elements/id_88257.html
+Service Domain,3,88259,StrategyCapability,Business Support,Business Command and Control,Business Unit Management,https://bian.org/servicelandscape-13-0-0/elements/id_88259.html
+Service Domain,3,88261,StrategyCapability,Business Support,Business Command and Control,Business Unit Financial Analysis,https://bian.org/servicelandscape-13-0-0/elements/id_88261.html
+Service Domain,3,88263,StrategyCapability,Business Support,Business Command and Control,Business Unit Direction,https://bian.org/servicelandscape-13-0-0/elements/id_88263.html
+Service Domain,3,88265,StrategyCapability,Business Support,Business Command and Control,Business Unit Accounting,https://bian.org/servicelandscape-13-0-0/elements/id_88265.html
+Service Domain,3,88267,StrategyCapability,Business Support,Business Command and Control,Business Unit Financial Operations,https://bian.org/servicelandscape-13-0-0/elements/id_88267.html
+Service Domain,3,88269,StrategyCapability,Business Support,Business Command and Control,Organization Direction,https://bian.org/servicelandscape-13-0-0/elements/id_88269.html
+Business Domain,2,88271,StrategyCapability,Business Support,Finance,,https://bian.org/servicelandscape-13-0-0/elements/id_88271.html
+Service Domain,3,88273,StrategyCapability,Business Support,Finance,Financial Statements,https://bian.org/servicelandscape-13-0-0/elements/id_88273.html
+Service Domain,3,88275,StrategyCapability,Business Support,Finance,Financial Control,https://bian.org/servicelandscape-13-0-0/elements/id_88275.html
+Service Domain,3,88277,StrategyCapability,Business Support,Finance,Financial Compliance,https://bian.org/servicelandscape-13-0-0/elements/id_88277.html
+Service Domain,3,88279,StrategyCapability,Business Support,Finance,Enterprise Tax Administration,https://bian.org/servicelandscape-13-0-0/elements/id_88279.html
+Business Domain,2,88281,StrategyCapability,Business Support,Human Resource Management,,https://bian.org/servicelandscape-13-0-0/elements/id_88281.html
+Service Domain,3,88283,StrategyCapability,Business Support,Human Resource Management,Workforce Training,https://bian.org/servicelandscape-13-0-0/elements/id_88283.html
+Service Domain,3,88285,StrategyCapability,Business Support,Human Resource Management,Travel and Expenses,https://bian.org/servicelandscape-13-0-0/elements/id_88285.html
+Service Domain,3,88287,StrategyCapability,Business Support,Human Resource Management,Recruitment,https://bian.org/servicelandscape-13-0-0/elements/id_88287.html
+Service Domain,3,88289,StrategyCapability,Business Support,Human Resource Management,Human Resources Direction,https://bian.org/servicelandscape-13-0-0/elements/id_88289.html
+Service Domain,3,88291,StrategyCapability,Business Support,Human Resource Management,Employee and Contractor Contract,https://bian.org/servicelandscape-13-0-0/elements/id_88291.html
+Service Domain,3,88293,StrategyCapability,Business Support,Human Resource Management,Employee Payroll And Incentives,https://bian.org/servicelandscape-13-0-0/elements/id_88293.html
+Service Domain,3,88295,StrategyCapability,Business Support,Human Resource Management,Employee Evaluation,https://bian.org/servicelandscape-13-0-0/elements/id_88295.html
+Service Domain,3,88297,StrategyCapability,Business Support,Human Resource Management,Employee Data Management,https://bian.org/servicelandscape-13-0-0/elements/id_88297.html
+Service Domain,3,88299,StrategyCapability,Business Support,Human Resource Management,Employee Certification,https://bian.org/servicelandscape-13-0-0/elements/id_88299.html
+Service Domain,3,88301,StrategyCapability,Business Support,Human Resource Management,Employee Benefits,https://bian.org/servicelandscape-13-0-0/elements/id_88301.html
+Service Domain,3,88303,StrategyCapability,Business Support,Human Resource Management,Employee Assignment,https://bian.org/servicelandscape-13-0-0/elements/id_88303.html
+Service Domain,3,88305,StrategyCapability,Business Support,Human Resource Management,Employee Access,https://bian.org/servicelandscape-13-0-0/elements/id_88305.html
+Business Domain,2,88307,StrategyCapability,Business Support,Knowledge and Intellectual Property,,https://bian.org/servicelandscape-13-0-0/elements/id_88307.html
+Service Domain,3,88309,StrategyCapability,Business Support,Knowledge and Intellectual Property,Management Manual,https://bian.org/servicelandscape-13-0-0/elements/id_88309.html
+Service Domain,3,88311,StrategyCapability,Business Support,Knowledge and Intellectual Property,Knowledge Exchange,https://bian.org/servicelandscape-13-0-0/elements/id_88311.html
+Service Domain,3,88313,StrategyCapability,Business Support,Knowledge and Intellectual Property,Intellectual Property Portfolio,https://bian.org/servicelandscape-13-0-0/elements/id_88313.html
+Business Domain,2,88315,StrategyCapability,Business Support,Corporate Relations,,https://bian.org/servicelandscape-13-0-0/elements/id_88315.html
+Service Domain,3,88317,StrategyCapability,Business Support,Corporate Relations,Regulatory And Legal Authority,https://bian.org/servicelandscape-13-0-0/elements/id_88317.html
+Service Domain,3,88319,StrategyCapability,Business Support,Corporate Relations,Investor Relations,https://bian.org/servicelandscape-13-0-0/elements/id_88319.html
+Service Domain,3,88321,StrategyCapability,Business Support,Corporate Relations,Corporate Relationship,https://bian.org/servicelandscape-13-0-0/elements/id_88321.html
+Service Domain,3,88323,StrategyCapability,Business Support,Corporate Relations,Corporate Communications,https://bian.org/servicelandscape-13-0-0/elements/id_88323.html
+Service Domain,3,88325,StrategyCapability,Business Support,Corporate Relations,Corporate Alliance and Stake Holder,https://bian.org/servicelandscape-13-0-0/elements/id_88325.html
+Business Domain,2,88327,StrategyCapability,Business Support,Business Direction,,https://bian.org/servicelandscape-13-0-0/elements/id_88327.html
+Service Domain,3,88329,StrategyCapability,Business Support,Business Direction,Corporate Strategy,https://bian.org/servicelandscape-13-0-0/elements/id_88329.html
+Service Domain,3,88331,StrategyCapability,Business Support,Business Direction,Corporate Policies,https://bian.org/servicelandscape-13-0-0/elements/id_88331.html
+Service Domain,3,88333,StrategyCapability,Business Support,Business Direction,Continuity Planning,https://bian.org/servicelandscape-13-0-0/elements/id_88333.html
+Service Domain,3,88335,StrategyCapability,Business Support,Business Direction,Enterprise Architecture,https://bian.org/servicelandscape-13-0-0/elements/id_88335.html
+Service Domain,3,88337,StrategyCapability,Business Support,Business Direction,Products and Services Direction,https://bian.org/servicelandscape-13-0-0/elements/id_88337.html
+Business Domain,2,88339,StrategyCapability,Business Support,Document Management and Archive,,https://bian.org/servicelandscape-13-0-0/elements/id_88339.html
+Service Domain,3,88341,StrategyCapability,Business Support,Document Management and Archive,Document Directory,https://bian.org/servicelandscape-13-0-0/elements/id_88341.html
+Service Domain,3,88343,StrategyCapability,Business Support,Document Management and Archive,Correspondence,https://bian.org/servicelandscape-13-0-0/elements/id_88343.html
+Service Domain,3,88345,StrategyCapability,Business Support,Document Management and Archive,Archive Services,https://bian.org/servicelandscape-13-0-0/elements/id_88345.html
+Service Domain,3,88347,StrategyCapability,Business Support,Document Management and Archive,Document Services,https://bian.org/servicelandscape-13-0-0/elements/id_88347.html

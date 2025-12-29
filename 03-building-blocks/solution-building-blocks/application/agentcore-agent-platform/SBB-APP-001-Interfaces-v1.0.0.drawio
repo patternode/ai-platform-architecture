@@ -1,0 +1,196 @@
+<mxfile host="65bd71144e">
+    <diagram id="SBB-APP-001-Interfaces" name="AgentCore Interfaces">
+        <mxGraphModel dx="538" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" value="SBB-APP-001: AWS Bedrock AgentCore - Integration &amp; Interfaces" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="230" width="1000" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="agentcore-platform" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4E6;strokeColor=#FF6B35;strokeWidth=4;fontSize=14;align=left;verticalAlign=top;spacingTop=15;spacingLeft=20;arcSize=3;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="280" width="640" height="590" as="geometry"/>
+                </mxCell>
+                <mxCell id="platform-title" value="&lt;b&gt;AWS Bedrock AgentCore Platform&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="295" width="400" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="core-services" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#66BB6A;strokeWidth=2;fontSize=12;align=left;verticalAlign=top;spacingTop=8;spacingLeft=15;arcSize=6;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="350" width="560" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="core-services-title" value="&lt;b&gt;Core Services&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="354.5" width="150" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="runtime" value="&lt;b&gt;AgentCore Runtime&lt;/b&gt;&lt;br&gt;Firecracker microVMs&lt;br&gt;Session Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=11;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="389.5" width="200" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="memory" value="&lt;b&gt;AgentCore Memory&lt;/b&gt;&lt;br&gt;Short-term + Long-term&lt;br&gt;Vector Search (KNN)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=11;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="950" y="359" width="200" height="60.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="gateway" value="&lt;b&gt;AgentCore Gateway&lt;/b&gt;&lt;br&gt;MCP Tool Orchestration&lt;br&gt;API Transformation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=11;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="494" width="200" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="identity" value="&lt;b&gt;AgentCore Identity&lt;/b&gt;&lt;br&gt;OAuth 2.0 / SAML 2.0&lt;br&gt;IAM Integration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=11;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="950" y="494" width="200" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="observability" value="&lt;b&gt;AgentCore Observability&lt;/b&gt;&lt;br&gt;OpenTelemetry&lt;br&gt;CloudWatch Integration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=11;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="1004" y="592" width="200" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="port-if001" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#003087;strokeColor=#003087;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="419.5" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="if001-label" value="&lt;b&gt;IF-001&lt;/b&gt;&lt;br&gt;Agent Invocation API&lt;br&gt;HTTPS REST" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="367" width="190" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="if001-connector" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#003087;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="runtime" target="port-if001" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="port-if002" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#003087;strokeColor=#003087;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="524" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="if002-label" value="&lt;b&gt;IF-002&lt;/b&gt;&lt;br&gt;Memory Management API&lt;br&gt;HTTPS REST" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="509" width="190" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="if002-connector" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#003087;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="gateway" target="port-if002" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="port-if003" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#003087;strokeColor=#003087;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="622" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="if003-label" value="&lt;b&gt;IF-003&lt;/b&gt;&lt;br&gt;Gateway MCP Endpoint&lt;br&gt;MCP / HTTPS" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="607" width="190" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="if003-connector" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#003087;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="observability" target="port-if003" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="port-ifreq001" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6B35;strokeColor=#FF6B35;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="1280" y="419.5" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="ifreq001-label" value="&lt;b&gt;IF-REQ-001&lt;/b&gt;&lt;br&gt;Foundation Model API&lt;br&gt;HTTPS REST" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="1300" y="369.5" width="190" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="ifreq001-connector" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF6B35;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="runtime" target="port-ifreq001" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="port-ifreq002" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6B35;strokeColor=#FF6B35;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="1280" y="524" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="ifreq002-label" value="&lt;b&gt;IF-REQ-002&lt;/b&gt;&lt;br&gt;Identity Provider&lt;br&gt;OAuth 2.0 / SAML 2.0" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="1310" y="475" width="190" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="ifreq002-connector" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF6B35;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="identity" target="port-ifreq002" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="data-sources-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#2196F3;strokeWidth=2;fontSize=12;align=left;verticalAlign=top;spacingTop=8;spacingLeft=15;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="737" width="560" height="113" as="geometry"/>
+                </mxCell>
+                <mxCell id="data-sources-title" value="&lt;b&gt;Data Sources &amp;amp; Targets (depends on use case)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="820" width="360" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="ds001" value="&lt;b&gt;DS-001&lt;/b&gt;&lt;br&gt;BNZ Knowledge Base&lt;br&gt;(SharePoint)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2196F3;strokeWidth=2;fontSize=10;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="750" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="ds002" value="&lt;b&gt;DS-002&lt;/b&gt;&lt;br&gt;Customer Data Platform&lt;br&gt;(Salesforce)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2196F3;strokeWidth=2;fontSize=10;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="817" y="750" width="90" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="dt001" value="&lt;b&gt;DT-001&lt;/b&gt;&lt;br&gt;CloudWatch Logs&lt;br&gt;(Target)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2196F3;strokeWidth=2;fontSize=10;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="1090" y="750" width="130" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="ds001-to-gateway" value="API&lt;br&gt;Real-time" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#2196F3;fontSize=9;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;" parent="1" source="ds001" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="790" y="777" as="sourcePoint"/>
+                        <mxPoint x="760" y="551" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ds002-to-gateway" value="API&lt;br&gt;On-demand" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#2196F3;fontSize=9;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;" parent="1" source="ds002" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="980" y="777" as="sourcePoint"/>
+                        <mxPoint x="860" y="551" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="observability-to-dt001" value="Stream&lt;br&gt;Real-time" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#2196F3;fontSize=9;labelBackgroundColor=#ffffff;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="observability" target="dt001" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1000" y="697" as="sourcePoint"/>
+                        <mxPoint x="1155" y="777" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ext-bedrock" value="&lt;b&gt;Amazon Bedrock&lt;/b&gt;&lt;br&gt;Foundation Models&lt;br&gt;(Claude, GPT-4)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9800;strokeWidth=2;fontSize=11;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="1520" y="390" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="ext-idp" value="&lt;b&gt;Enterprise IdP&lt;/b&gt;&lt;br&gt;Microsoft Entra ID&lt;br&gt;Okta" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9800;strokeWidth=2;fontSize=11;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="1520" y="494" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="ifreq001-to-bedrock" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF6B35;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="port-ifreq001" target="ext-bedrock" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ifreq002-to-idp" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF6B35;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="port-ifreq002" target="ext-idp" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="client-apps" value="&lt;b&gt;Client Applications&lt;/b&gt;&lt;br&gt;Web Apps&lt;br&gt;Mobile Apps&lt;br&gt;API Clients" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;strokeWidth=2;fontSize=11;align=center;verticalAlign=middle;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="379.5" width="120" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="client-to-if001" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#003087;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="client-apps" target="port-if001" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;arcSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="670" width="230" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-title" value="&lt;b&gt;Legend&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="680" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-provided-port" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#003087;strokeColor=#003087;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="720" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-provided-text" value="Provided Interface (Port)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="410" y="715" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-required-port" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6B35;strokeColor=#FF6B35;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="750" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-required-text" value="Required Interface (Port)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="410" y="745" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-data-line" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#2196F3;dashed=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="380" y="790" as="sourcePoint"/>
+                        <mxPoint x="410" y="790" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="legend-data-text" value="Data Integration (API/Stream)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="775" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-core-service" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="815" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-core-text" value="Core Service Component" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="815" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="patterns-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="1310" y="650" width="220" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="patterns-title" value="&lt;b&gt;Integration Patterns&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="657" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern-1" value="&lt;b&gt;Serverless Agent Execution&lt;/b&gt;&lt;br&gt;Protocol: HTTPS REST&lt;br&gt;Error Handling: Exponential backoff" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="697" width="220" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern-2" value="&lt;b&gt;MCP Tool Orchestration&lt;/b&gt;&lt;br&gt;Protocol: MCP (JSON-RPC 2.0)&lt;br&gt;Gateway API transformation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="742" width="220" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern-3" value="&lt;b&gt;Asynchronous Memory&lt;/b&gt;&lt;br&gt;Protocol: HTTPS REST&lt;br&gt;Consistency: Eventually consistent" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="792" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="stats-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="1540" y="650" width="260" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="stats-title" value="&lt;b&gt;Interface Summary&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" parent="1" vertex="1">
+                    <mxGeometry x="1560" y="660" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="stats-content" value="&lt;b&gt;Provided Interfaces:&lt;/b&gt; 3&lt;br&gt;• IF-001: Agent Invocation API (HTTPS REST)&lt;br&gt;• IF-002: Memory Management API (HTTPS REST)&lt;br&gt;• IF-003: Gateway MCP Endpoint (MCP)&lt;br&gt;&lt;br&gt;&lt;b&gt;Required Interfaces:&lt;/b&gt; 2&lt;br&gt;• IF-REQ-001: Foundation Model API&lt;br&gt;• IF-REQ-002: Identity Provider&lt;br&gt;&lt;br&gt;&lt;b&gt;Data Sources:&lt;/b&gt; 2 | &lt;b&gt;Data Targets:&lt;/b&gt; 1&lt;br&gt;&lt;b&gt;Core Services:&lt;/b&gt; 5" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="1555" y="697" width="230" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="notation" value="Notation: UML Component Diagram with Ports | SBB-APP-001 v1.0.0 | BNZ Enterprise Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#666666;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="880" width="640" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

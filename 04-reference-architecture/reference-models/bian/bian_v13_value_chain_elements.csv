@@ -1,0 +1,345 @@
+Element_Type,Element_Name,Parent_Category,Level,Description
+Value Chain Category,Business Management,,1,Business Management value chain category
+Service Domain,Business Direction,Business Management,2,Service Domain within Business Management
+Service Domain,Organization Direction,Business Management,2,Service Domain within Business Management
+Service Domain,Products and Services Direction,Business Management,2,Service Domain within Business Management
+Service Domain,Corporate Strategy,Business Management,2,Service Domain within Business Management
+Service Domain,Corporate Policies,Business Management,2,Service Domain within Business Management
+Service Domain,Human Resources Direction,Business Management,2,Service Domain within Business Management
+Service Domain,IT Systems Direction,Business Management,2,Service Domain within Business Management
+Service Domain,Asset And Liability Management,Business Management,2,Service Domain within Business Management
+Service Domain,Property Portfolio,Business Management,2,Service Domain within Business Management
+Value Chain Category,Corporate Relations,,1,Corporate Relations value chain category
+Service Domain,Investor Relations,Corporate Relations,2,Service Domain within Corporate Relations
+Service Domain,Corporate Relationship,Corporate Relations,2,Service Domain within Corporate Relations
+Service Domain,Corporate Alliance and Stake Holder,Corporate Relations,2,Service Domain within Corporate Relations
+Service Domain,Corporate Communications,Corporate Relations,2,Service Domain within Corporate Relations
+Value Chain Category,Corporate Services,,1,Corporate Services value chain category
+Service Domain,Legal Compliance,Corporate Services,2,Service Domain within Corporate Services
+Service Domain,Internal Audit,Corporate Services,2,Service Domain within Corporate Services
+Service Domain,Security Advisory,Corporate Services,2,Service Domain within Corporate Services
+Service Domain,Security Assurance,Corporate Services,2,Service Domain within Corporate Services
+Service Domain,Continuity Planning,Corporate Services,2,Service Domain within Corporate Services
+Value Chain Category,Unit Management,,1,Unit Management value chain category
+Service Domain,Business Unit Direction,Unit Management,2,Service Domain within Unit Management
+Service Domain,Business Unit Financial Operations,Unit Management,2,Service Domain within Unit Management
+Service Domain,Business Unit Management,Unit Management,2,Service Domain within Unit Management
+Service Domain,Business Unit Accounting,Unit Management,2,Service Domain within Unit Management
+Service Domain,Business Unit Financial Analysis,Unit Management,2,Service Domain within Unit Management
+Value Chain Category,Buildings And Equipment,,1,Buildings And Equipment value chain category
+Service Domain,Fixed Asset Register,Buildings And Equipment,2,Service Domain within Buildings And Equipment
+Service Domain,Procurement,Buildings And Equipment,2,Service Domain within Buildings And Equipment
+Service Domain,Equipment Administration,Buildings And Equipment,2,Service Domain within Buildings And Equipment
+Service Domain,Equipment Maintenance,Buildings And Equipment,2,Service Domain within Buildings And Equipment
+Service Domain,Utilities Administration,Buildings And Equipment,2,Service Domain within Buildings And Equipment
+Service Domain,Site Operations,Buildings And Equipment,2,Service Domain within Buildings And Equipment
+Service Domain,Site Administration,Buildings And Equipment,2,Service Domain within Buildings And Equipment
+Service Domain,Building Maintenance,Buildings And Equipment,2,Service Domain within Buildings And Equipment
+Value Chain Category,Human Resources,,1,Human Resources value chain category
+Service Domain,Recruitment,Human Resources,2,Service Domain within Human Resources
+Service Domain,Employee Assignment,Human Resources,2,Service Domain within Human Resources
+Service Domain,Employee Evaluation,Human Resources,2,Service Domain within Human Resources
+Service Domain,Employee Certification,Human Resources,2,Service Domain within Human Resources
+Service Domain,Employee and Contractor Contract,Human Resources,2,Service Domain within Human Resources
+Service Domain,Employee Data Management,Human Resources,2,Service Domain within Human Resources
+Service Domain,Employee Payroll And Incentives,Human Resources,2,Service Domain within Human Resources
+Service Domain,Employee Benefits,Human Resources,2,Service Domain within Human Resources
+Service Domain,Workforce Training,Human Resources,2,Service Domain within Human Resources
+Service Domain,Travel and Expenses,Human Resources,2,Service Domain within Human Resources
+Service Domain,Employee Access,Human Resources,2,Service Domain within Human Resources
+Value Chain Category,Platform Operations,,1,Platform Operations value chain category
+Service Domain,Systems Assurance,Platform Operations,2,Service Domain within Platform Operations
+Service Domain,System Deployment,Platform Operations,2,Service Domain within Platform Operations
+Service Domain,Systems Operations,Platform Operations,2,Service Domain within Platform Operations
+Service Domain,Internal Network Operation,Platform Operations,2,Service Domain within Platform Operations
+Service Domain,Systems Help Desk,Platform Operations,2,Service Domain within Platform Operations
+Service Domain,Operational Gateway,Platform Operations,2,Service Domain within Platform Operations
+Value Chain Category,Finance And Risk Management,,1,Finance And Risk Management value chain category
+Service Domain,Market Risk,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Credit and Margin Management,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Gap Analysis,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Limit and Exposure Management,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Position Management,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Economic Capital,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Regulatory And Legal Authority,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Regulatory Compliance,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Regulatory Reporting,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Guideline Compliance,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Compliance Reporting,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Financial Control,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Financial Statements,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Company Billing and Payments,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Approved Supplier Directory,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Enterprise Tax Administration,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Financial Compliance,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Credit Management,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Counterparty Risk,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Fraud Resolution,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Business Risk Models,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Operational Risk Models,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Production Risk Models,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Corporate Treasury,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Corporate Treasury Analysis,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Bank Portfolio Administration,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Bank Portfolio Analysis,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Service Domain,Asset Securitization,Finance And Risk Management,2,Service Domain within Finance And Risk Management
+Value Chain Category,External Agency,,1,External Agency value chain category
+Service Domain,Interbank Relationship Management,External Agency,2,Service Domain within External Agency
+Service Domain,Correspondent Bank Relationship,External Agency,2,Service Domain within External Agency
+Service Domain,Syndicate Management,External Agency,2,Service Domain within External Agency
+Service Domain,Product Service Agency,External Agency,2,Service Domain within External Agency
+Service Domain,Product Broker Agreement,External Agency,2,Service Domain within External Agency
+Service Domain,Sub Custodian Agreement,External Agency,2,Service Domain within External Agency
+Service Domain,Commission Agreement,External Agency,2,Service Domain within External Agency
+Service Domain,Contractor and Supplier Agreement,External Agency,2,Service Domain within External Agency
+Service Domain,Service Provider Operations,External Agency,2,Service Domain within External Agency
+Value Chain Category,Operational Services,,1,Operational Services value chain category
+Service Domain,Customer Billing,Operational Services,2,Service Domain within Operational Services
+Service Domain,Disbursement,Operational Services,2,Service Domain within Operational Services
+Service Domain,Open Item Management,Operational Services,2,Service Domain within Operational Services
+Service Domain,Delinquent Account Handling,Operational Services,2,Service Domain within Operational Services
+Service Domain,Card Collections,Operational Services,2,Service Domain within Operational Services
+Service Domain,Product Combination,Operational Services,2,Service Domain within Operational Services
+Service Domain,Reward Points Awards And Redemption,Operational Services,2,Service Domain within Operational Services
+Service Domain,Issued Device Administration,Operational Services,2,Service Domain within Operational Services
+Service Domain,Issued Device Tracking,Operational Services,2,Service Domain within Operational Services
+Service Domain,Card Transaction Switch,Operational Services,2,Service Domain within Operational Services
+Service Domain,Internal Bank Account,Operational Services,2,Service Domain within Operational Services
+Service Domain,Term Deposit Framework Agreement,Operational Services,2,Service Domain within Operational Services
+Service Domain,Account Recovery,Operational Services,2,Service Domain within Operational Services
+Service Domain,Archive Services,Operational Services,2,Service Domain within Operational Services
+Service Domain,Custody Administration,Operational Services,2,Service Domain within Operational Services
+Service Domain,Collateral Allocation Management,Operational Services,2,Service Domain within Operational Services
+Service Domain,Collections,Operational Services,2,Service Domain within Operational Services
+Service Domain,Document Directory,Operational Services,2,Service Domain within Operational Services
+Service Domain,Investment Account,Operational Services,2,Service Domain within Operational Services
+Service Domain,Document Services,Operational Services,2,Service Domain within Operational Services
+Service Domain,Party Asset Directory,Operational Services,2,Service Domain within Operational Services
+Service Domain,Collateral Asset Administration,Operational Services,2,Service Domain within Operational Services
+Service Domain,Counterparty Administration,Operational Services,2,Service Domain within Operational Services
+Service Domain,Payment Order,Operational Services,2,Service Domain within Operational Services
+Service Domain,Cheque Processing,Operational Services,2,Service Domain within Operational Services
+Service Domain,Card Financial Settlement,Operational Services,2,Service Domain within Operational Services
+Service Domain,Order Allocation,Operational Services,2,Service Domain within Operational Services
+Service Domain,Payment Execution,Operational Services,2,Service Domain within Operational Services
+Service Domain,Card Clearing,Operational Services,2,Service Domain within Operational Services
+Service Domain,Transaction Engine,Operational Services,2,Service Domain within Operational Services
+Service Domain,ACH Operations,Operational Services,2,Service Domain within Operational Services
+Service Domain,Correspondent Bank Directory,Operational Services,2,Service Domain within Operational Services
+Service Domain,Correspondent Bank Operations,Operational Services,2,Service Domain within Operational Services
+Service Domain,Card eCommerce Gateway,Operational Services,2,Service Domain within Operational Services
+Service Domain,Payment Instruction,Operational Services,2,Service Domain within Operational Services
+Service Domain,Payment Rail Operations,Operational Services,2,Service Domain within Operational Services
+Service Domain,Position Keeping,Operational Services,2,Service Domain within Operational Services
+Service Domain,Customer Position,Operational Services,2,Service Domain within Operational Services
+Service Domain,Accounts Receivable,Operational Services,2,Service Domain within Operational Services
+Service Domain,Financial Accounting,Operational Services,2,Service Domain within Operational Services
+Service Domain,Customer Tax Handling,Operational Services,2,Service Domain within Operational Services
+Service Domain,Commissions,Operational Services,2,Service Domain within Operational Services
+Service Domain,Fraud Evaluation,Operational Services,2,Service Domain within Operational Services
+Service Domain,Account Reconciliation,Operational Services,2,Service Domain within Operational Services
+Service Domain,Securities Position Keeping,Operational Services,2,Service Domain within Operational Services
+Service Domain,Fraud Diagnosis,Operational Services,2,Service Domain within Operational Services
+Service Domain,Reward Points Account,Operational Services,2,Service Domain within Operational Services
+Service Domain,Financial Statement Assessment,Operational Services,2,Service Domain within Operational Services
+Service Domain,Trading Book Oversight,Operational Services,2,Service Domain within Operational Services
+Service Domain,Trade Confirmation Matching,Operational Services,2,Service Domain within Operational Services
+Service Domain,Trade and Price Reporting,Operational Services,2,Service Domain within Operational Services
+Service Domain,Credit Risk Operations,Operational Services,2,Service Domain within Operational Services
+Service Domain,Securities Fails Processing,Operational Services,2,Service Domain within Operational Services
+Service Domain,Financial Instrument Valuation,Operational Services,2,Service Domain within Operational Services
+Service Domain,Corporate Action,Operational Services,2,Service Domain within Operational Services
+Service Domain,Trade Clearing,Operational Services,2,Service Domain within Operational Services
+Service Domain,Trade Settlement,Operational Services,2,Service Domain within Operational Services
+Value Chain Category,Products,,1,Products value chain category
+Service Domain,Current Account,Products,2,Service Domain within Products
+Service Domain,Brokered Product,Products,2,Service Domain within Products
+Service Domain,Sales Product,Products,2,Service Domain within Products
+Service Domain,Trust Services,Products,2,Service Domain within Products
+Service Domain,Payment Initiation,Products,2,Service Domain within Products
+Service Domain,Currency Exchange,Products,2,Service Domain within Products
+Service Domain,Mergers and Acquisitions Advisory,Products,2,Service Domain within Products
+Service Domain,Corporate Finance,Products,2,Service Domain within Products
+Service Domain,Corporate Tax Advisory,Products,2,Service Domain within Products
+Service Domain,Consumer Advisory Services,Products,2,Service Domain within Products
+Service Domain,Legal Advisory,Products,2,Service Domain within Products
+Service Domain,Trader Position Operations,Products,2,Service Domain within Products
+Service Domain,Market Order,Products,2,Service Domain within Products
+Service Domain,Market Order Execution,Products,2,Service Domain within Products
+Service Domain,Dealer Desk,Products,2,Service Domain within Products
+Service Domain,Suitability Checking,Products,2,Service Domain within Products
+Service Domain,Quote Management,Products,2,Service Domain within Products
+Service Domain,Market Making,Products,2,Service Domain within Products
+Service Domain,Program Trading,Products,2,Service Domain within Products
+Service Domain,Stock Lending and Repos,Products,2,Service Domain within Products
+Service Domain,Corporate Current Account,Products,2,Service Domain within Products
+Service Domain,Direct Debit Mandate,Products,2,Service Domain within Products
+Service Domain,Cash Management And Account Services,Products,2,Service Domain within Products
+Service Domain,Corporate Trust Services,Products,2,Service Domain within Products
+Service Domain,Credit Facility,Products,2,Service Domain within Products
+Service Domain,Direct Debit,Products,2,Service Domain within Products
+Service Domain,Cheque Lock Box,Products,2,Service Domain within Products
+Service Domain,Factoring,Products,2,Service Domain within Products
+Service Domain,Cash Concentration,Products,2,Service Domain within Products
+Service Domain,Corporate Payroll Services,Products,2,Service Domain within Products
+Service Domain,Project Finance,Products,2,Service Domain within Products
+Service Domain,Notional Pooling,Products,2,Service Domain within Products
+Service Domain,Virtual Account,Products,2,Service Domain within Products
+Service Domain,Credit Card,Products,2,Service Domain within Products
+Service Domain,Card Authorization,Products,2,Service Domain within Products
+Service Domain,Card Transaction Capture,Products,2,Service Domain within Products
+Service Domain,Merchant Relations,Products,2,Service Domain within Products
+Service Domain,Card Network Participant Facility,Products,2,Service Domain within Products
+Service Domain,Merchant Acquiring Facility,Products,2,Service Domain within Products
+Service Domain,Credit Card Position Keeping,Products,2,Service Domain within Products
+Service Domain,Letter of Credit,Products,2,Service Domain within Products
+Service Domain,Bank Guarantee,Products,2,Service Domain within Products
+Service Domain,Bank Drafts,Products,2,Service Domain within Products
+Service Domain,ECM And DCM,Products,2,Service Domain within Products
+Service Domain,Private Placement,Products,2,Service Domain within Products
+Service Domain,Public Offering,Products,2,Service Domain within Products
+Service Domain,Unit Trust Administration,Products,2,Service Domain within Products
+Service Domain,Hedge Fund Administration,Products,2,Service Domain within Products
+Service Domain,Mutual Fund Administration,Products,2,Service Domain within Products
+Service Domain,Loan,Products,2,Service Domain within Products
+Service Domain,Consumer Loan,Products,2,Service Domain within Products
+Service Domain,Mortgage Loan,Products,2,Service Domain within Products
+Service Domain,Corporate Loan,Products,2,Service Domain within Products
+Service Domain,Corporate Lease,Products,2,Service Domain within Products
+Service Domain,Merchandising Loan,Products,2,Service Domain within Products
+Service Domain,Leasing Item Administration,Products,2,Service Domain within Products
+Service Domain,Syndicated Loan,Products,2,Service Domain within Products
+Service Domain,Fiduciary Agreement,Products,2,Service Domain within Products
+Service Domain,Underwriting,Products,2,Service Domain within Products
+Service Domain,Leasing,Products,2,Service Domain within Products
+Service Domain,Savings Account,Products,2,Service Domain within Products
+Service Domain,Term Deposit,Products,2,Service Domain within Products
+Service Domain,Standing Order,Products,2,Service Domain within Products
+Service Domain,Consumer Investments,Products,2,Service Domain within Products
+Service Domain,Investment Portfolio Management,Products,2,Service Domain within Products
+Service Domain,Investment Portfolio Analysis,Products,2,Service Domain within Products
+Service Domain,Investment Portfolio Planning,Products,2,Service Domain within Products
+Service Domain,eTrading Workbench,Products,2,Service Domain within Products
+Value Chain Category,Customers,,1,Customers value chain category
+Service Domain,Customer Campaign Execution,Customers,2,Service Domain within Customers
+Service Domain,Product Expert Sales Support,Customers,2,Service Domain within Customers
+Service Domain,Product Matching,Customers,2,Service Domain within Customers
+Service Domain,Customer Offer,Customers,2,Service Domain within Customers
+Service Domain,Special Pricing Conditions,Customers,2,Service Domain within Customers
+Service Domain,Party Lifecycle Management,Customers,2,Service Domain within Customers
+Service Domain,Prospect Campaign Execution,Customers,2,Service Domain within Customers
+Service Domain,Lead and Opportunity Management,Customers,2,Service Domain within Customers
+Service Domain,Product Sales Support,Customers,2,Service Domain within Customers
+Service Domain,Customer Relationship Management,Customers,2,Service Domain within Customers
+Service Domain,Customer Behavior Insights,Customers,2,Service Domain within Customers
+Service Domain,Customer Credit Rating,Customers,2,Service Domain within Customers
+Service Domain,Customer Agreement,Customers,2,Service Domain within Customers
+Service Domain,Sales Product Agreement,Customers,2,Service Domain within Customers
+Service Domain,Customer Product And Service Eligibility,Customers,2,Service Domain within Customers
+Service Domain,Customer Proposition,Customers,2,Service Domain within Customers
+Service Domain,Customer Event History,Customers,2,Service Domain within Customers
+Service Domain,Customer Product and Service Directory,Customers,2,Service Domain within Customers
+Service Domain,Loan Syndication,Customers,2,Service Domain within Customers
+Service Domain,Customer Financial Insights,Customers,2,Service Domain within Customers
+Service Domain,Servicing Mandate,Customers,2,Service Domain within Customers
+Service Domain,Servicing Order,Customers,2,Service Domain within Customers
+Service Domain,Customer Case Management,Customers,2,Service Domain within Customers
+Service Domain,Card Case,Customers,2,Service Domain within Customers
+Service Domain,Customer Case,Customers,2,Service Domain within Customers
+Service Domain,Legal Entity Directory,Customers,2,Service Domain within Customers
+Service Domain,Location Data Management,Customers,2,Service Domain within Customers
+Service Domain,Party Reference Data Directory,Customers,2,Service Domain within Customers
+Value Chain Category,Information Providers,,1,Information Providers value chain category
+Service Domain,Public Reference Data Management,Information Providers,2,Service Domain within Information Providers
+Service Domain,Financial Instrument Reference Data Management,Information Providers,2,Service Domain within Information Providers
+Service Domain,Financial Market Research,Information Providers,2,Service Domain within Information Providers
+Service Domain,Financial Market Analysis,Information Providers,2,Service Domain within Information Providers
+Service Domain,Market Information Management,Information Providers,2,Service Domain within Information Providers
+Service Domain,Market Data Switch Operation,Information Providers,2,Service Domain within Information Providers
+Service Domain,Information Provider Operation,Information Providers,2,Service Domain within Information Providers
+Value Chain Category,Channels,,1,Channels value chain category
+Service Domain,Customer Workbench,Channels,2,Service Domain within Channels
+Service Domain,Contact Handler,Channels,2,Service Domain within Channels
+Service Domain,Contact Routing,Channels,2,Service Domain within Channels
+Service Domain,Session Dialogue,Channels,2,Service Domain within Channels
+Service Domain,Party Routing Profile,Channels,2,Service Domain within Channels
+Service Domain,Transaction Authorization,Channels,2,Service Domain within Channels
+Service Domain,Customer Access Entitlement,Channels,2,Service Domain within Channels
+Service Domain,Channel Activity History,Channels,2,Service Domain within Channels
+Service Domain,Processing Order,Channels,2,Service Domain within Channels
+Service Domain,Party Authentication,Channels,2,Service Domain within Channels
+Service Domain,ATM Network Operations,Channels,2,Service Domain within Channels
+Service Domain,Branch Location Operations,Channels,2,Service Domain within Channels
+Service Domain,Advanced Voice Services Operations,Channels,2,Service Domain within Channels
+Service Domain,eBranch Operations,Channels,2,Service Domain within Channels
+Service Domain,Financial Gateway,Channels,2,Service Domain within Channels
+Service Domain,Card Terminal Administration,Channels,2,Service Domain within Channels
+Service Domain,Card Terminal Operation,Channels,2,Service Domain within Channels
+Service Domain,Product Inventory Distribution,Channels,2,Service Domain within Channels
+Service Domain,Branch Currency Distribution,Channels,2,Service Domain within Channels
+Service Domain,Correspondence,Channels,2,Service Domain within Channels
+Service Domain,Contact Center Operations,Channels,2,Service Domain within Channels
+Service Domain,Point of Service,Channels,2,Service Domain within Channels
+Service Domain,Interactive Help,Channels,2,Service Domain within Channels
+Service Domain,Servicing Issue,Channels,2,Service Domain within Channels
+Service Domain,Servicing Event History,Channels,2,Service Domain within Channels
+Service Domain,Service Directory,Channels,2,Service Domain within Channels
+Value Chain Category,Marketing And Development,,1,Marketing And Development value chain category
+Service Domain,Business Development,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Market Research,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Market Analysis,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Competitor Analysis,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Customer Campaign Management,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Customer Campaign Design,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Customer Portfolio,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Advertising,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Promotional Events,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Sales Planning,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Contribution Analysis,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Brand Management,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Segment Direction,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Prospect Campaign Design,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Customer Surveys,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Prospect Campaign Management,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Product Portfolio,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Product Design,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Production Release,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Product Deployment,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Product Quality Assurance,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Product Training,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Case Root Cause Analysis,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Product Directory,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Discount Pricing,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,IT Standards And Guidelines,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Systems Administration,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Development Environment,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,System Development,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Channel Portfolio,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Branch Portfolio,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Contact Center Management,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Servicing Activity Analysis,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Financial Message Analysis,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Channel Activity Analysis,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Information Provider Administration,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Market Data Switch Administration,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Branch Location Management,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,ATM Network Management,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Branch Network Management,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Advanced Voice Services Management,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,eBranch Management,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Product Inventory Item Management,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Central Cash Handling,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Branch Currency Management,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Intellectual Property Portfolio,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Management Manual,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Enterprise Architecture,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Knowledge Exchange,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Contribution Models,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Customer Behavior Models,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Credit Risk Models,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Fraud Model,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Quant Model,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Trading Models,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Financial Instrument Valuation Models,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Liquidity Risk Models,Marketing And Development,2,Service Domain within Marketing And Development
+Service Domain,Market Risk Models,Marketing And Development,2,Service Domain within Marketing And Development

@@ -1,0 +1,294 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (compatible)" version="25.0.3" pages="1">
+  <diagram name="AWS Bedrock AgentCore Architecture" id="aws-agentcore-infographic">
+    <mxGraphModel dx="2074" dy="1186" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Title Header -->
+        <mxCell id="title-header" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF6900;strokeColor=none;fontColor=white;fontSize=24;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1654" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="title-text" value="AWS Bedrock AgentCore: Enterprise AI Agent Infrastructure" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="120" y="20" width="1414" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle-text" value="Production-Ready • Enterprise-Grade • Framework Agnostic • Model Flexible" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=white;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="50" width="1414" height="25" as="geometry" />
+        </mxCell>
+        
+        <!-- AWS Logo -->
+        <mxCell id="aws-logo" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjYwIiB2aWV3Qm94PSIwIDAgMTAwIDYwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNjAiIGZpbGw9IiNGRjY5MDAiLz48dGV4dCB4PSI1MCIgeT0iMzAiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSJib2xkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCI+QVdTPC90ZXh0Pjwvc3ZnPg==;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="80" height="48" as="geometry" />
+        </mxCell>
+        
+        <!-- Core Components Section -->
+        <mxCell id="components-title" value="Core Architecture Components" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#1f2328;" vertex="1" parent="1">
+          <mxGeometry x="50" y="110" width="400" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Component 1: Runtime -->
+        <mxCell id="runtime-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0073E7;strokeColor=#0073E7;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="runtime-icon" value="⚡" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="65" y="185" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="runtime-title" value="AgentCore Runtime" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="115" y="185" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="runtime-desc" value="• Secure serverless execution&#xa;• Session isolation&#xa;• Framework agnostic&#xa;• 8-hour session duration&#xa;• Multi-modal support" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="65" y="220" width="270" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Component 2: Memory -->
+        <mxCell id="memory-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00C853;strokeColor=#00C853;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="370" y="170" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="memory-icon" value="🧠" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="385" y="185" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="memory-title" value="AgentCore Memory" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="435" y="185" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="memory-desc" value="• Dual memory architecture&#xa;• Session and long-term memory&#xa;• API accessible&#xa;• Cross-session continuity&#xa;• Intelligent retrieval" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="385" y="220" width="270" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Component 3: Gateway -->
+        <mxCell id="gateway-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6D00;strokeColor=#FF6D00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="690" y="170" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gateway-icon" value="🌐" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="705" y="185" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gateway-title" value="AgentCore Gateway" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="755" y="185" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gateway-desc" value="• Tool integration layer&#xa;• API transformation&#xa;• MCP protocol support&#xa;• Enterprise connectors&#xa;• Security abstraction" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="705" y="220" width="270" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Component 4: Identity -->
+        <mxCell id="identity-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9C27B0;strokeColor=#9C27B0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="170" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="identity-icon" value="🔐" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="185" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="identity-title" value="AgentCore Identity" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="185" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="identity-desc" value="• Enterprise identity integration&#xa;• OAuth 2.0 support&#xa;• Dual authentication patterns&#xa;• Token management&#xa;• Conditional access" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="220" width="270" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Component 5: Observability -->
+        <mxCell id="observability-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F44336;strokeColor=#F44336;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="170" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="observability-icon" value="📊" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="185" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="observability-title" value="AgentCore Observability" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="1395" y="185" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="observability-desc" value="• Real-time monitoring&#xa;• CloudWatch integration&#xa;• OpenTelemetry compatible&#xa;• Performance metrics&#xa;• Debugging support" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="220" width="270" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Key Features Section -->
+        <mxCell id="features-title" value="Enterprise Features" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#1f2328;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="300" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Feature Grid -->
+        <mxCell id="feature1-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#00C853;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="410" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="feature1-text" value="🏗️ Production Ready&#xa;Enterprise-grade scalability and reliability" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#1f2328;" vertex="1" parent="1">
+          <mxGeometry x="60" y="425" width="180" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="feature2-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#0073E7;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="410" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="feature2-text" value="🔧 Framework Agnostic&#xa;Works with any agent framework" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#1f2328;" vertex="1" parent="1">
+          <mxGeometry x="280" y="425" width="180" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="feature3-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF6D00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="410" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="feature3-text" value="🤖 Model Flexible&#xa;Any foundation model, any provider" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#1f2328;" vertex="1" parent="1">
+          <mxGeometry x="500" y="425" width="180" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="feature4-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="710" y="410" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="feature4-text" value="🔒 Enterprise Security&#xa;Built-in security and compliance" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#1f2328;" vertex="1" parent="1">
+          <mxGeometry x="720" y="425" width="180" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Architecture Flow -->
+        <mxCell id="architecture-title" value="Architecture Flow" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#1f2328;" vertex="1" parent="1">
+          <mxGeometry x="50" y="530" width="300" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Flow Diagram -->
+        <mxCell id="flow-enterprise" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f2328;strokeColor=#1f2328;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-enterprise-text" value="Enterprise&#xa;Systems" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="60" y="605" width="100" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="flow-arrow1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#FF6900;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="620" as="sourcePoint" />
+            <mxPoint x="250" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="flow-agentcore" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6900;strokeColor=#FF6900;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-agentcore-text" value="AgentCore&#xa;Platform" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="280" y="605" width="100" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="flow-arrow2" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#FF6900;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="620" as="sourcePoint" />
+            <mxPoint x="470" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="flow-agents" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0073E7;strokeColor=#0073E7;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-agents-text" value="AI Agents&#xa;Runtime" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="500" y="605" width="100" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="flow-arrow3" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#FF6900;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="620" as="sourcePoint" />
+            <mxPoint x="690" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="flow-models" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00C853;strokeColor=#00C853;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="710" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-models-text" value="Foundation&#xa;Models" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="720" y="605" width="100" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Benefits Section -->
+        <mxCell id="benefits-title" value="Business Benefits" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#1f2328;" vertex="1" parent="1">
+          <mxGeometry x="950" y="530" width="300" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Benefits List -->
+        <mxCell id="benefits-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=#DEE2E6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="950" y="590" width="680" height="140" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="benefit1" value="⚡ Accelerated Time-to-Market: Reduce development time from months to weeks" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#1f2328;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="610" width="640" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="benefit2" value="💰 Operational Cost Reduction: Pay-per-use model with no infrastructure overhead" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#1f2328;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="640" width="640" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="benefit3" value="🔒 Enterprise-Grade Security: Built-in compliance with SOC 2, GDPR, HIPAA standards" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#1f2328;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="670" width="640" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="benefit4" value="📈 Unlimited Scalability: Automatic scaling from prototype to enterprise production" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#1f2328;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="700" width="640" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Pricing Section -->
+        <mxCell id="pricing-title" value="Pricing Model" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#1f2328;" vertex="1" parent="1">
+          <mxGeometry x="50" y="770" width="200" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="pricing-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#00C853;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="810" width="380" height="100" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="pricing-text" value="💵 Consumption-Based Pricing&#xa;• Runtime: Pay for compute resources used&#xa;• Memory: $X per 1,000 memories/month&#xa;• Identity: $0.010 per 1,000 token requests&#xa;• Gateway: Pay per tool invocation&#xa;• No upfront costs or minimum charges" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#1f2328;" vertex="1" parent="1">
+          <mxGeometry x="70" y="825" width="340" height="70" as="geometry" />
+        </mxCell>
+        
+        <!-- Deployment Timeline -->
+        <mxCell id="timeline-title" value="Deployment Timeline" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#1f2328;" vertex="1" parent="1">
+          <mxGeometry x="470" y="770" width="200" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="timeline-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#0073E7;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="470" y="810" width="380" height="100" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="timeline-text" value="📅 Implementation Phases&#xa;• PoC: 2-4 weeks (Single agent, basic features)&#xa;• Pilot: 6-12 weeks (Multiple agents, enterprise integration)&#xa;• Production: 3-6 months (Full enterprise deployment)&#xa;• General Availability: Expected Q1 2026" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#1f2328;" vertex="1" parent="1">
+          <mxGeometry x="490" y="825" width="340" height="70" as="geometry" />
+        </mxCell>
+        
+        <!-- Strategic Positioning -->
+        <mxCell id="strategic-title" value="Strategic Positioning for BNZ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#1f2328;" vertex="1" parent="1">
+          <mxGeometry x="890" y="770" width="280" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="strategic-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF6D00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="890" y="810" width="740" height="100" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="strategic-text" value="🎯 Early Adoption Advantage: Leverage preview status for competitive edge&#xa;🔧 Production Readiness: Enterprise-grade security and scalability from day one&#xa;🚀 Innovation Focus: Concentrate on business value rather than infrastructure complexity&#xa;📊 Comprehensive Observability: Built-in monitoring and operational excellence" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#1f2328;" vertex="1" parent="1">
+          <mxGeometry x="910" y="825" width="700" height="70" as="geometry" />
+        </mxCell>
+        
+        <!-- Footer -->
+        <mxCell id="footer" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1f2328;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="950" width="1654" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="footer-text" value="AWS Bedrock AgentCore | Launch: July 2025 Preview | GA Expected: Q1 2026 | Enterprise-Grade AI Agent Infrastructure" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=white;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="965" width="1554" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Comparison Box -->
+        <mxCell id="comparison-title" value="AgentCore vs. Traditional Development" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#1f2328;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1020" width="400" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="comparison-traditional" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#F44336;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1060" width="300" height="80" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="comparison-traditional-title" value="Traditional Development" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#F44336;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1070" width="280" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="comparison-traditional-text" value="• 6-12 months development&#xa;• Complex infrastructure setup&#xa;• Custom security implementation&#xa;• Manual scaling and monitoring" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1f2328;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1095" width="280" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="comparison-agentcore" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#00C853;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1060" width="300" height="80" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="comparison-agentcore-title" value="With AgentCore" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#00C853;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1070" width="280" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="comparison-agentcore-text" value="• 2-4 weeks to production&#xa;• Zero infrastructure setup&#xa;• Enterprise security built-in&#xa;• Automatic scaling and observability" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1f2328;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1095" width="280" height="40" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

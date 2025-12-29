@@ -1,0 +1,24 @@
+Element_ID,Element_Name,Element_Type,Stereotype,Parent_Category,Level,Hierarchy_Path
+bm-001,Business Management,Container,Grouping,Root,1,Business Management
+cr-001,Corporate Relations,Container,Grouping,Business Management,2,Business Management > Corporate Relations
+cr-002,Investment Banking,ServiceDomain,ServiceDomain,Corporate Relations,3,Business Management > Corporate Relations > Investment Banking
+cr-003,Investor Relations,ServiceDomain,ServiceDomain,Corporate Relations,3,Business Management > Corporate Relations > Investor Relations
+cr-004,Corporate Relationship,ServiceDomain,ServiceDomain,Corporate Relations,3,Business Management > Corporate Relations > Corporate Relationship
+cr-005,Corporate Alliance and Stake Holder,ServiceDomain,ServiceDomain,Corporate Relations,3,Business Management > Corporate Relations > Corporate Alliance and Stake Holder
+cr-006,Corporate Communications,ServiceDomain,ServiceDomain,Corporate Relations,3,Business Management > Corporate Relations > Corporate Communications
+cs-001,Corporate Services,Container,Grouping,Business Management,2,Business Management > Corporate Services
+cs-002,Legal Compliance,ServiceDomain,ServiceDomain,Corporate Services,3,Business Management > Corporate Services > Legal Compliance
+cs-003,Internal Audit,ServiceDomain,ServiceDomain,Corporate Services,3,Business Management > Corporate Services > Internal Audit
+cs-004,Security Advisory,ServiceDomain,ServiceDomain,Corporate Services,3,Business Management > Corporate Services > Security Advisory
+cs-005,Security Assurance,ServiceDomain,ServiceDomain,Corporate Services,3,Business Management > Corporate Services > Security Assurance
+cs-006,Continuity Planning,ServiceDomain,ServiceDomain,Corporate Services,3,Business Management > Corporate Services > Continuity Planning
+bd-001,Business Direction,Container,Grouping,Business Management,2,Business Management > Business Direction
+bd-002,Corporate Strategy,ServiceDomain,ServiceDomain,Business Direction,3,Business Management > Business Direction > Corporate Strategy
+bd-003,Corporate Policies,ServiceDomain,ServiceDomain,Business Direction,3,Business Management > Business Direction > Corporate Policies
+bd-004,Corporate Strategy,ServiceDomain,ServiceDomain,Business Direction,3,Business Management > Business Direction > Corporate Strategy
+bd-005,Organization Direction,ServiceDomain,ServiceDomain,Business Direction,3,Business Management > Business Direction > Organization Direction
+bd-006,Products and Services Direction,ServiceDomain,ServiceDomain,Business Direction,3,Business Management > Business Direction > Products and Services Direction
+bd-007,Human Resources Direction,ServiceDomain,ServiceDomain,Business Direction,3,Business Management > Business Direction > Human Resources Direction
+bd-008,IT Systems Direction,ServiceDomain,ServiceDomain,Business Direction,3,Business Management > Business Direction > IT Systems Direction
+bd-009,Asset And Liability Management,ServiceDomain,ServiceDomain,Business Direction,3,Business Management > Business Direction > Asset And Liability Management
+bd-010,Property Portfolio,ServiceDomain,ServiceDomain,Business Direction,3,Business Management > Business Direction > Property Portfolio

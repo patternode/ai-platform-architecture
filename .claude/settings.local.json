@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(python:*)",
+      "Bash(dir:*)",
+      "Bash(cd:*)",
+      "Bash(cp:*)",
+      "Bash(done)",
+      "Bash(wc:*)",
+      "Bash(where:*)",
+      "Bash(powershell:*)",
+      "Bash(\"C:\\Program Files\\draw.io\\draw.io.exe\" --export --format png --output \"D:\\Work\\BNZ\\ai-platform-architecture\\01-motivation\\03-use-cases\\use-case-prioritisation\\patterns\\images\\PT-001-test.png\" --quality 100 --scale 2 \"D:\\Work\\BNZ\\ai-platform-architecture\\01-motivation\\03-use-cases\\use-case-prioritisation\\patterns\\PT-001-Architecture-v1.0.0.drawio\")",
+      "Bash(\"D:\\Work\\BNZ\\ai-platform-architecture\\01-motivation\\03-use-cases\\use-case-prioritisation\\scripts\\export-all-drawio.bat\")",
+      "Bash(\"D:\\Work\\BNZ\\ai-platform-architecture\\01-motivation\\03-use-cases\\use-case-prioritisation\\scripts\\reorganize-use-case-assets.bat\")",
+      "Bash(tree:*)",
+      "Bash(\"D:\\Work\\BNZ\\ai-platform-architecture\\08-assets\\scripts\\adhoc\\export-pattern-diagrams.bat\")",
+      "Bash(pip install:*)",
+      "Bash(move:*)",
+      "Bash(move ABB-MLO-009 AB-093)",
+      "Bash(move ABB-OBS-001 AB-096)",
+      "Bash(grep:*)",
+      "Bash(sort:*)",
+      "Bash(python3:*)",
+      "Bash(cat:*)",
+      "Bash(\"C:\\Program Files\\draw.io\\draw.io.exe\" --export --format png --output \"D:\\Work\\BNZ\\ai-platform-architecture\\03-building-blocks\\architecture-building-blocks\\abbs\\AB-130\\images\\AB-130-Agent-Development-Lifecycle-v1.0.0.png\" --quality 100 --scale 2 \"D:\\Work\\BNZ\\ai-platform-architecture\\03-building-blocks\\architecture-building-blocks\\abbs\\AB-130\\AB-130-Agent-Development-Lifecycle-v1.0.0.drawio\")",
+      "Bash(\"C:\\Program Files\\draw.io\\draw.io.exe\" --export --format png --output \"D:\\Work\\BNZ\\ai-platform-architecture\\03-building-blocks\\architecture-building-blocks\\abbs\\AB-130\\images\\AB-130-Platform-Agnostic-Architecture-v1.0.0.png\" --quality 100 --scale 2 \"D:\\Work\\BNZ\\ai-platform-architecture\\03-building-blocks\\architecture-building-blocks\\abbs\\AB-130\\AB-130-Platform-Agnostic-Architecture-v1.0.0.drawio\")",
+      "Bash(cmd /c move \"D:\\Work\\BNZ\\ai-platform-architecture\\03-building-blocks\\architecture-building-blocks\\abbs\\AB-130\\images\\AB-130-Agent-Development-Lifecycle-v1.0.0.png\" \"D:\\Work\\BNZ\\ai-platform-architecture\\03-building-blocks\\architecture-building-blocks\\abbs\\AB-130\")",
+      "Bash(cmd /c move:*)",
+      "Bash(cmd /c rmdir \"D:\\Work\\BNZ\\ai-platform-architecture\\03-building-blocks\\architecture-building-blocks\\abbs\\AB-130\\images\")",
+      "Bash(del \"D:\\Work\\BNZ\\ai-platform-architecture\\restructure.py\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

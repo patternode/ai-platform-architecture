@@ -1,0 +1,147 @@
+/* BNZ Color Palette */
+:root {
+    --bnz-navy-blue: #003087;
+    --bnz-orange: #FF6B35;
+    --bnz-light-blue: #50E6FF;
+    --bnz-teal: #00A651;
+    --dark-gray: #333333;
+    --medium-gray: #666666;
+    --light-gray: #CCCCCC;
+    --background-gray: #F5F5F5;
+    --success: #00A651;
+    --warning: #FFA500;
+    --error: #CC0000;
+    --info: #50E6FF;
+}
+
+/* Header - BNZ Navy Blue background */
+.md-header {
+    background-color: var(--bnz-navy-blue) !important;
+}
+
+/* Header title */
+.md-header__title {
+    color: white !important;
+}
+
+/* Page background */
+.md-main {
+    background-color: white;
+}
+
+/* Sidebar background */
+.md-sidebar {
+    background-color: var(--background-gray);
+}
+
+/* Primary links and accents - BNZ Orange */
+.md-typeset a {
+    color: var(--bnz-navy-blue);
+}
+
+.md-typeset a:hover {
+    color: var(--bnz-orange);
+}
+
+/* Active navigation items - BNZ Orange */
+.md-nav__link--active {
+    color: var(--bnz-orange) !important;
+}
+
+/* Primary buttons/CTAs - BNZ Orange */
+.md-button--primary {
+    background-color: var(--bnz-orange) !important;
+    border-color: var(--bnz-orange) !important;
+    color: white !important;
+}
+
+.md-button--primary:hover {
+    background-color: #E85A2B !important;
+}
+
+/* H1 headings - BNZ Navy Blue */
+.md-typeset h1 {
+    color: var(--bnz-navy-blue);
+    font-weight: bold;
+}
+
+/* H2 headings - BNZ Navy Blue */
+.md-typeset h2 {
+    color: var(--bnz-navy-blue);
+    font-weight: bold;
+    border-bottom: 2px solid var(--bnz-orange);
+    padding-bottom: 0.3em;
+}
+
+/* H3 headings - Dark Gray */
+.md-typeset h3 {
+    color: var(--dark-gray);
+    font-weight: bold;
+}
+
+/* Body text - Dark Gray */
+.md-typeset {
+    color: var(--dark-gray);
+}
+
+/* Code blocks background */
+.md-typeset code {
+    background-color: var(--background-gray);
+    color: var(--dark-gray);
+}
+
+/* Tables header - BNZ Navy Blue */
+.md-typeset table thead {
+    background-color: var(--bnz-navy-blue);
+    color: white;
+}
+
+.md-typeset table tbody tr {
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.md-typeset table tbody tr:nth-child(even) {
+    background-color: var(--background-gray);
+}
+
+/* Admonitions - using BNZ semantic colors */
+.md-typeset .admonition.note {
+    border-left-color: var(--info);
+}
+
+.md-typeset .admonition.tip, 
+.md-typeset .admonition.success {
+    border-left-color: var(--success);
+}
+
+.md-typeset .admonition.warning {
+    border-left-color: var(--warning);
+}
+
+.md-typeset .admonition.danger,
+.md-typeset .admonition.error {
+    border-left-color: var(--error);
+}
+
+/* Search box */
+.md-search__input {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.md-search__input:focus {
+    background-color: white;
+}
+
+/* Footer */
+.md-footer {
+    background-color: var(--dark-gray);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar-thumb {
+    background-color: var(--bnz-navy-blue);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--bnz-orange);
+}

@@ -1,0 +1,373 @@
+<mxfile host="app.diagrams.net" modified="2025-12-08T00:00:00.000Z" agent="Mozilla/5.0" version="22.0.0" etag="data-products-viz" type="device">
+  <diagram name="Data Products Architecture" id="data-products-arch">
+    <mxGraphModel dx="1434" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Title -->
+        <mxCell id="title" value="BNZ Data Products Architecture - Data Mesh Pattern" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="20" width="800" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="subtitle" value="78 Data Products across 18 Domain Categories" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="710" y="55" width="500" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Row 1: Customer & Financial Core -->
+        
+        <!-- Customer & Relationship -->
+        <mxCell id="cat-customer" value="Customer &amp; Relationship Management" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dp001" value="DP-001: Customer Profile Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="cat-customer">
+          <mxGeometry x="10" y="40" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp007" value="DP-007: Client Meeting Insights" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="cat-customer">
+          <mxGeometry x="185" y="40" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp008" value="DP-008: Opportunity Scores" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="cat-customer">
+          <mxGeometry x="10" y="85" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp009" value="DP-009: CRM Updates" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="cat-customer">
+          <mxGeometry x="185" y="85" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp010" value="DP-010: RM Performance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="cat-customer">
+          <mxGeometry x="10" y="130" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp023" value="DP-023: Customer 360 Features" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="cat-customer">
+          <mxGeometry x="185" y="130" width="165" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Financial Services Core -->
+        <mxCell id="cat-financial" value="Financial Services Core Data" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="420" y="100" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dp002" value="DP-002: Transaction History" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="cat-financial">
+          <mxGeometry x="10" y="40" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp003" value="DP-003: Loan &amp; Credit Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="cat-financial">
+          <mxGeometry x="185" y="40" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp004" value="DP-004: Investment Portfolio" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="cat-financial">
+          <mxGeometry x="10" y="85" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp011" value="DP-011: Financial Close Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="cat-financial">
+          <mxGeometry x="185" y="85" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp012" value="DP-012: Financial Narratives" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="cat-financial">
+          <mxGeometry x="10" y="130" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp005" value="DP-005: Market Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="cat-financial">
+          <mxGeometry x="185" y="130" width="165" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Analytics & Intelligence -->
+        <mxCell id="cat-analytics" value="Analytics &amp; Business Intelligence" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="800" y="100" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dp014" value="DP-014: Conversational Analytics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="cat-analytics">
+          <mxGeometry x="10" y="40" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp015" value="DP-015: Predictive Forecasts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="cat-analytics">
+          <mxGeometry x="185" y="40" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp006" value="DP-006: News &amp; Media Intel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="cat-analytics">
+          <mxGeometry x="10" y="85" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp013" value="DP-013: Anomaly Detection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="cat-analytics">
+          <mxGeometry x="185" y="85" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp078" value="DP-078: Model Performance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="cat-analytics">
+          <mxGeometry x="10" y="130" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp069" value="DP-069: Learning Analytics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="cat-analytics">
+          <mxGeometry x="185" y="130" width="165" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Data Platform -->
+        <mxCell id="cat-platform" value="Data Platform &amp; Governance" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="100" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dp030" value="DP-030: Data Product Catalog" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="cat-platform">
+          <mxGeometry x="10" y="40" width="340" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp031" value="DP-031: Data Quality Metrics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="cat-platform">
+          <mxGeometry x="10" y="85" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp032" value="DP-032: Data Contracts &amp; SLAs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="cat-platform">
+          <mxGeometry x="185" y="85" width="165" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Row 2: Risk & Compliance -->
+        
+        <!-- Credit & Risk -->
+        <mxCell id="cat-credit" value="Credit &amp; Risk Management" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dp016" value="DP-016: Credit Risk Scores" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="cat-credit">
+          <mxGeometry x="10" y="40" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp017" value="DP-017: Explainable Decisions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="cat-credit">
+          <mxGeometry x="185" y="40" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp018" value="DP-018: Alternative Credit Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="cat-credit">
+          <mxGeometry x="10" y="85" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp039" value="DP-039: Customer Risk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="cat-credit">
+          <mxGeometry x="185" y="85" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp066" value="DP-066: Financial Spreading" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="cat-credit">
+          <mxGeometry x="10" y="130" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp067" value="DP-067: Credit Memos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="cat-credit">
+          <mxGeometry x="185" y="130" width="165" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Operational Risk -->
+        <mxCell id="cat-oprisk" value="Operational Risk" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="420" y="320" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dp048" value="DP-048: Operational Risk Indicators" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="cat-oprisk">
+          <mxGeometry x="10" y="40" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp049" value="DP-049: Risk Narratives" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="cat-oprisk">
+          <mxGeometry x="185" y="40" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp050" value="DP-050: Incident &amp; Loss Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="cat-oprisk">
+          <mxGeometry x="10" y="85" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp064" value="DP-064: Control Test Results" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="cat-oprisk">
+          <mxGeometry x="185" y="85" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp065" value="DP-065: Control Monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="cat-oprisk">
+          <mxGeometry x="10" y="130" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp042" value="DP-042: Test Coverage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="cat-oprisk">
+          <mxGeometry x="185" y="130" width="165" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Financial Crime & Compliance -->
+        <mxCell id="cat-fincrime" value="Financial Crime &amp; Compliance" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="800" y="320" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dp035" value="DP-035: Financial Crime Alerts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" vertex="1" parent="cat-fincrime">
+          <mxGeometry x="10" y="40" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp036" value="DP-036: Name Screening" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" vertex="1" parent="cat-fincrime">
+          <mxGeometry x="185" y="40" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp037" value="DP-037: Transaction Monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" vertex="1" parent="cat-fincrime">
+          <mxGeometry x="10" y="85" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp038" value="DP-038: Investigation Narratives" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" vertex="1" parent="cat-fincrime">
+          <mxGeometry x="185" y="85" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp040" value="DP-040: Compliance Verification" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" vertex="1" parent="cat-fincrime">
+          <mxGeometry x="10" y="130" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp041" value="DP-041: Process Quality Scores" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" vertex="1" parent="cat-fincrime">
+          <mxGeometry x="185" y="130" width="165" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Fraud Detection -->
+        <mxCell id="cat-fraud" value="Fraud Detection &amp; Prevention" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#cc0000;fontSize=12;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="320" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dp043" value="DP-043: Fraud Detection Scores" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#cc0000;fontSize=10;" vertex="1" parent="cat-fraud">
+          <mxGeometry x="10" y="40" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp044" value="DP-044: Fraud Network Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#cc0000;fontSize=10;" vertex="1" parent="cat-fraud">
+          <mxGeometry x="185" y="40" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp045" value="DP-045: Fraud Case Intelligence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#cc0000;fontSize=10;" vertex="1" parent="cat-fraud">
+          <mxGeometry x="10" y="85" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp020" value="DP-020: Document Fraud Signals" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#cc0000;fontSize=10;" vertex="1" parent="cat-fraud">
+          <mxGeometry x="185" y="85" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp063" value="DP-063: Dispute Analytics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#cc0000;fontSize=10;" vertex="1" parent="cat-fraud">
+          <mxGeometry x="10" y="130" width="165" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Row 3: Operational & Customer Experience -->
+        
+        <!-- Document Processing -->
+        <mxCell id="cat-docs" value="Document &amp; Content Processing" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;fontSize=12;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="40" y="540" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dp019" value="DP-019: Extracted Documents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;fontSize=10;" vertex="1" parent="cat-docs">
+          <mxGeometry x="10" y="40" width="260" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp058" value="DP-058: Contract Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;fontSize=10;" vertex="1" parent="cat-docs">
+          <mxGeometry x="10" y="85" width="125" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp059" value="DP-059: Invoice Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;fontSize=10;" vertex="1" parent="cat-docs">
+          <mxGeometry x="145" y="85" width="125" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp062" value="DP-062: Dispute Evidence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;fontSize=10;" vertex="1" parent="cat-docs">
+          <mxGeometry x="10" y="130" width="125" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp068" value="DP-068: Learning Content" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;fontSize=10;" vertex="1" parent="cat-docs">
+          <mxGeometry x="145" y="130" width="125" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Contact Center -->
+        <mxCell id="cat-contact" value="Contact Center Intelligence" style="swimlane;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=12;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="340" y="540" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dp024" value="DP-024: Call Transcripts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=10;" vertex="1" parent="cat-contact">
+          <mxGeometry x="10" y="40" width="260" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp025" value="DP-025: Agent Assistance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=10;" vertex="1" parent="cat-contact">
+          <mxGeometry x="10" y="85" width="125" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp026" value="DP-026: Quality Monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=10;" vertex="1" parent="cat-contact">
+          <mxGeometry x="145" y="85" width="125" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Security & Threats -->
+        <mxCell id="cat-security" value="Security &amp; Threat Intelligence" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=12;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="640" y="540" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dp027" value="DP-027: Security Events" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=10;" vertex="1" parent="cat-security">
+          <mxGeometry x="10" y="40" width="260" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp028" value="DP-028: Incident Reports" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=10;" vertex="1" parent="cat-security">
+          <mxGeometry x="10" y="85" width="125" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp029" value="DP-029: User Behavior" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontSize=10;" vertex="1" parent="cat-security">
+          <mxGeometry x="145" y="85" width="125" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- IT Operations -->
+        <mxCell id="cat-itops" value="IT Operations &amp; Development" style="swimlane;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;fontSize=12;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="940" y="540" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dp033" value="DP-033: Code Artifacts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;fontSize=10;" vertex="1" parent="cat-itops">
+          <mxGeometry x="10" y="40" width="125" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp034" value="DP-034: Dev Productivity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;fontSize=10;" vertex="1" parent="cat-itops">
+          <mxGeometry x="145" y="40" width="125" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp051" value="DP-051: IT Ops Intelligence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;fontSize=10;" vertex="1" parent="cat-itops">
+          <mxGeometry x="10" y="85" width="125" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp052" value="DP-052: IT Knowledge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;fontSize=10;" vertex="1" parent="cat-itops">
+          <mxGeometry x="145" y="85" width="125" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp053" value="DP-053: Ticket Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;fontSize=10;" vertex="1" parent="cat-itops">
+          <mxGeometry x="10" y="130" width="260" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Onboarding & Identity -->
+        <mxCell id="cat-onboard" value="Onboarding &amp; Identity" style="swimlane;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontSize=12;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="540" width="300" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dp046" value="DP-046: Identity Verification Results" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontSize=10;" vertex="1" parent="cat-onboard">
+          <mxGeometry x="10" y="40" width="280" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp047" value="DP-047: Onboarding Applications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontSize=10;" vertex="1" parent="cat-onboard">
+          <mxGeometry x="10" y="85" width="280" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Row 4: Business Lines -->
+        
+        <!-- Corporate Banking -->
+        <mxCell id="cat-cib" value="Corporate &amp; Investment Banking" style="swimlane;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontSize=12;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dp054" value="DP-054: Deal Intelligence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontSize=10;" vertex="1" parent="cat-cib">
+          <mxGeometry x="10" y="40" width="260" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp055" value="DP-055: Corporate Structure" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontSize=10;" vertex="1" parent="cat-cib">
+          <mxGeometry x="10" y="85" width="125" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp056" value="DP-056: Client Analytics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontSize=10;" vertex="1" parent="cat-cib">
+          <mxGeometry x="145" y="85" width="125" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Procurement -->
+        <mxCell id="cat-procurement" value="Procurement Intelligence" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;fontSize=12;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="340" y="760" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dp057" value="DP-057: Procurement Intelligence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;fontSize=10;" vertex="1" parent="cat-procurement">
+          <mxGeometry x="10" y="40" width="260" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp060" value="DP-060: Supplier Risk Scores" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;fontSize=10;" vertex="1" parent="cat-procurement">
+          <mxGeometry x="10" y="85" width="260" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Disputes -->
+        <mxCell id="cat-disputes" value="Payment Disputes" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffccff;strokeColor=#9933ff;fontSize=12;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="640" y="760" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dp061" value="DP-061: Dispute Classifications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffccff;strokeColor=#9933ff;fontSize=10;" vertex="1" parent="cat-disputes">
+          <mxGeometry x="10" y="40" width="260" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Collections -->
+        <mxCell id="cat-collections" value="Collections Management" style="swimlane;whiteSpace=wrap;html=1;fillColor=#c9e0dd;strokeColor=#0d5661;fontSize=12;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="940" y="760" width="300" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dp070" value="DP-070: Collections Propensity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c9e0dd;strokeColor=#0d5661;fontSize=10;" vertex="1" parent="cat-collections">
+          <mxGeometry x="10" y="40" width="135" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp071" value="DP-071: Comms" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c9e0dd;strokeColor=#0d5661;fontSize=10;" vertex="1" parent="cat-collections">
+          <mxGeometry x="155" y="40" width="135" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp072" value="DP-072: Strategy Outcomes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c9e0dd;strokeColor=#0d5661;fontSize=10;" vertex="1" parent="cat-collections">
+          <mxGeometry x="10" y="85" width="135" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp073" value="DP-073: Hardship Apps" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c9e0dd;strokeColor=#0d5661;fontSize=10;" vertex="1" parent="cat-collections">
+          <mxGeometry x="155" y="85" width="135" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Personalization -->
+        <mxCell id="cat-personalization" value="Digital Personalization" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#c51162;fontSize=12;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="760" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dp021" value="DP-021: Personalized Content" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#c51162;fontSize=10;" vertex="1" parent="cat-personalization">
+          <mxGeometry x="10" y="40" width="125" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp022" value="DP-022: Offers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#c51162;fontSize=10;" vertex="1" parent="cat-personalization">
+          <mxGeometry x="145" y="40" width="125" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp074" value="DP-074: App Personalization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#c51162;fontSize=10;" vertex="1" parent="cat-personalization">
+          <mxGeometry x="10" y="85" width="125" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp075" value="DP-075: Behavioral Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#c51162;fontSize=10;" vertex="1" parent="cat-personalization">
+          <mxGeometry x="145" y="85" width="125" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp076" value="DP-076: Recommendations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#c51162;fontSize=10;" vertex="1" parent="cat-personalization">
+          <mxGeometry x="10" y="130" width="125" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dp077" value="DP-077: Experiments" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#c51162;fontSize=10;" vertex="1" parent="cat-personalization">
+          <mxGeometry x="145" y="130" width="125" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Footer -->
+        <mxCell id="footer" value="Data Products follow Data Mesh pattern: Domain-owned, Self-serve, Product-thinking, Federated governance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#666666;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="520" y="1000" width="880" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="1000" width="100" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend-cat" value="Category (Domain)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="1025" width="120" height="25" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend-dp" value="Data Product" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1025" width="100" height="25" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
+
+
+
+

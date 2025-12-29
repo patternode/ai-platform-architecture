@@ -1,0 +1,118 @@
+<mxfile host="65bd71144e">
+    <diagram name="BIAN Resource Management ArchiMate" id="bian-resource-archimate">
+        <mxGraphModel dx="1207" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="480" pageHeight="780" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="main-container" value="Resource Management" style="swimlane;startSize=30;fillColor=#b3b3b3;strokeColor=#666666;fontSize=12;fontStyle=1;fontColor=#000000;swimlaneFillColor=#cccccc;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="10" width="460" height="930" as="geometry"/>
+                </mxCell>
+                <mxCell id="unit-mgmt-container" value="Unit Management" style="swimlane;startSize=25;fillColor=#99ccff;strokeColor=#6699cc;fontSize=11;fontStyle=1;fontColor=#000000;swimlaneFillColor=#cce6ff;" parent="main-container" vertex="1">
+                    <mxGeometry x="10" y="40" width="440" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="um-1" value="Business Unit Direction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="unit-mgmt-container" vertex="1">
+                    <mxGeometry x="10" y="35" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="um-2" value="Business Unit Financial Operations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="unit-mgmt-container" vertex="1">
+                    <mxGeometry x="230" y="35" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="um-3" value="Business Unit Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="unit-mgmt-container" vertex="1">
+                    <mxGeometry x="10" y="75" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="um-4" value="Business Unit Accounting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="unit-mgmt-container" vertex="1">
+                    <mxGeometry x="230" y="75" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="um-5" value="Business Unit Financial Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="unit-mgmt-container" vertex="1">
+                    <mxGeometry x="10" y="115" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr-container" value="Human Resources" style="swimlane;startSize=25;fillColor=#99ccff;strokeColor=#6699cc;fontSize=11;fontStyle=1;fontColor=#000000;swimlaneFillColor=#cce6ff;" parent="main-container" vertex="1">
+                    <mxGeometry x="10" y="210" width="440" height="285" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr-1" value="Recruitment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="hr-container" vertex="1">
+                    <mxGeometry x="10" y="35" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr-2" value="Employee Payroll And Incentives" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="hr-container" vertex="1">
+                    <mxGeometry x="230" y="35" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr-3" value="Employee Assignment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="hr-container" vertex="1">
+                    <mxGeometry x="10" y="75" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr-4" value="Employee Benefits" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="hr-container" vertex="1">
+                    <mxGeometry x="230" y="75" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr-5" value="Employee Evaluation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="hr-container" vertex="1">
+                    <mxGeometry x="10" y="115" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr-6" value="Workforce Training" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="hr-container" vertex="1">
+                    <mxGeometry x="230" y="115" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr-7" value="Employee Certification" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="hr-container" vertex="1">
+                    <mxGeometry x="10" y="155" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr-8" value="Travel and Expenses" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="hr-container" vertex="1">
+                    <mxGeometry x="230" y="155" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr-9" value="Employee and Contractor Contract" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="hr-container" vertex="1">
+                    <mxGeometry x="10" y="195" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr-10" value="Employee Access" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="hr-container" vertex="1">
+                    <mxGeometry x="230" y="195" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr-11" value="Employee Data Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="hr-container" vertex="1">
+                    <mxGeometry x="10" y="235" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="po-container" value="Platform Operations" style="swimlane;startSize=25;fillColor=#99ccff;strokeColor=#6699cc;fontSize=11;fontStyle=1;fontColor=#000000;swimlaneFillColor=#cce6ff;" parent="main-container" vertex="1">
+                    <mxGeometry x="10" y="500" width="440" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="po-1" value="Systems assurance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="po-container" vertex="1">
+                    <mxGeometry x="10" y="35" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="po-2" value="Internal Network Operation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="po-container" vertex="1">
+                    <mxGeometry x="230" y="35" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="po-3" value="System Deployment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="po-container" vertex="1">
+                    <mxGeometry x="10" y="75" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="po-4" value="Platform Operations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="po-container" vertex="1">
+                    <mxGeometry x="230" y="75" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="po-5" value="Systems Operations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="po-container" vertex="1">
+                    <mxGeometry x="10" y="115" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="po-6" value="Systems Help Desk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="po-container" vertex="1">
+                    <mxGeometry x="230" y="115" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="po-7" value="Operational Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="po-container" vertex="1">
+                    <mxGeometry x="10" y="155" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="be-container" value="Buildings And Equipment" style="swimlane;startSize=25;fillColor=#99ccff;strokeColor=#6699cc;fontSize=11;fontStyle=1;fontColor=#000000;swimlaneFillColor=#cce6ff;" parent="main-container" vertex="1">
+                    <mxGeometry x="10" y="710" width="440" height="205" as="geometry"/>
+                </mxCell>
+                <mxCell id="be-1" value="Fixed Asset Register" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="be-container" vertex="1">
+                    <mxGeometry x="10" y="35" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="be-2" value="Utilities Administration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="be-container" vertex="1">
+                    <mxGeometry x="230" y="35" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="be-3" value="Procurement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="be-container" vertex="1">
+                    <mxGeometry x="10" y="75" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="be-4" value="Site Operations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="be-container" vertex="1">
+                    <mxGeometry x="230" y="75" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="be-5" value="Equipment Administration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="be-container" vertex="1">
+                    <mxGeometry x="10" y="115" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="be-6" value="Site Administration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="be-container" vertex="1">
+                    <mxGeometry x="230" y="115" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="be-7" value="Equipment Maintenance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="be-container" vertex="1">
+                    <mxGeometry x="10" y="155" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="be-8" value="Building Maintenance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="be-container" vertex="1">
+                    <mxGeometry x="230" y="155" width="200" height="35" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

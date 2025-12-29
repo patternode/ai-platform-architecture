@@ -1,0 +1,337 @@
+<mxfile host="65bd71144e">
+    <diagram name="Workplace AI Capability Area" id="workplace-ai-capability-infographic">
+        <mxGraphModel dx="1936" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="background" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="50" width="1810" height="990" as="geometry"/>
+                </mxCell>
+                <mxCell id="title-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#002F6B;strokeColor=none;arcSize=2;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="55" width="1780" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="title" value="BNZ AI Platform - Workplace AI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;fontStyle=1;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="393" y="55" width="1060" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="subtitle" value="&quot;Enhancing employee productivity through intelligent document assistance, communication support, and workflow automation.&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#FAA61A;fontFamily=Arial;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="244.5" y="120" width="1521" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#002F6B;strokeColor=none;arcSize=5;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="180" width="287" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-number" value="01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=72;fontStyle=1;fontColor=#FAA61A;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="190" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-title" value="Intelligent Document Assistance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1;fontColor=#FAA61A;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="270" width="250" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-desc" value="AI-powered document creation, editing, and management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="335" width="250" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-sub1" value="• Document Generation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="418" width="250" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-sub2" value="• Editing and Enhancement" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="440" width="250" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-sub3" value="• Summarization" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="462" width="250" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-sub4" value="• Translation and Localization" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="484" width="250" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-sub5" value="• Template Intelligence" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="506" width="250" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#002F6B;strokeColor=none;arcSize=5;" parent="1" vertex="1">
+                    <mxGeometry x="387" y="180" width="287" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-number" value="02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=72;fontStyle=1;fontColor=#FAA61A;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="407" y="190" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-title" value="Communication &amp; Collaboration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1;fontColor=#FAA61A;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="407" y="270" width="250" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-desc" value="Enhanced workplace communication through AI assistance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="407" y="335" width="250" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-sub1" value="• Meeting Intelligence" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="407" y="418" width="250" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-sub2" value="• Email &amp; Message Composition" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="407" y="440" width="273" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-sub3" value="• Tone &amp; Clarity" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="407" y="462" width="250" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-sub4" value="• Real-Time Collaboration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="407" y="484" width="250" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-sub5" value="• Cross-Platform Support" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="407" y="506" width="250" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#002F6B;strokeColor=none;arcSize=5;" parent="1" vertex="1">
+                    <mxGeometry x="694" y="180" width="287" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-number" value="03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=72;fontStyle=1;fontColor=#FAA61A;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="714" y="190" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-title" value="Information Discovery" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1;fontColor=#FAA61A;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="714" y="270" width="250" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-desc" value="Find and synthesize information across the enterprise" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="714" y="335" width="250" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-sub1" value="• Enterprise Search" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="714" y="418" width="250" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-sub2" value="• Information Aggregation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="714" y="440" width="250" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-sub3" value="• Insight Generation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="714" y="462" width="250" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-sub4" value="• Trend Detection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="714" y="484" width="250" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-sub5" value="• Personalized Delivery" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="714" y="506" width="250" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#002F6B;strokeColor=none;arcSize=5;" parent="1" vertex="1">
+                    <mxGeometry x="1001" y="180" width="287" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-number" value="04" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=72;fontStyle=1;fontColor=#FAA61A;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1021" y="190" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-title" value="Task &amp; Workflow Automation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1;fontColor=#FAA61A;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1021" y="270" width="250" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-desc" value="Automate routine tasks and optimize workflows" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1021" y="335" width="250" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-sub1" value="• Calendar Intelligence" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1021" y="410" width="250" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-sub2" value="• Task Management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1021" y="430" width="250" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-sub3" value="• Workflow Automation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1021" y="450" width="250" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-sub4" value="• Smart Notifications" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1021" y="470" width="250" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-sub5" value="• Process Optimization" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1021" y="490" width="250" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-sub6" value="• Employee Self-Service" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1021" y="510" width="250" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#002F6B;strokeColor=none;arcSize=5;" parent="1" vertex="1">
+                    <mxGeometry x="1308" y="180" width="287" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-number" value="05" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=72;fontStyle=1;fontColor=#FAA61A;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1328" y="190" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-title" value="Learning &amp; Productivity" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1;fontColor=#FAA61A;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1328" y="270" width="250" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-desc" value="Support employee development and wellbeing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1328" y="335" width="250" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-sub1" value="• Contextual Assistance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1328" y="418" width="250" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-sub2" value="• Skills Development" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1328" y="440" width="250" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-sub3" value="• Knowledge Capture" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1328" y="462" width="250" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-sub4" value="• Productivity Analytics" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1328" y="484" width="250" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-sub5" value="• Wellness &amp; Balance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1328" y="506" width="250" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="banking-examples-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0B909F;strokeColor=none;arcSize=5;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="580" width="530" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="banking-examples-title" value="Banking Deployments (2025)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="586" width="490" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="example1" value="✓ Barclays: 100K employees with Copilot" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="632" width="480" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="example2" value="✓ Bank of America: 90% adoption (213K)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="662" width="480" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="example3" value="✓ JPMorgan: $2B AI investment (140K)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="692" width="480" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="example4" value="✓ Standard Chartered: 60% faster IT resolution" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="722" width="480" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="roi-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0B909F;strokeColor=none;arcSize=5;" parent="1" vertex="1">
+                    <mxGeometry x="630" y="580" width="530" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="roi-title" value="Proven ROI Metrics" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="586" width="490" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="roi1" value="✓ IT inquiry automation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="632" width="480" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="roi2" value="✓ Faster issue resolution" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="662" width="480" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="roi3" value="✓ Employee satisfaction boost" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="692" width="480" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="roi4" value="✓ Overall productivity gain" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="722" width="480" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="phases-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5A1E58;strokeColor=none;arcSize=5;" parent="1" vertex="1">
+                    <mxGeometry x="1180" y="580" width="680" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="phases-title" value="Implementation Roadmap" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1200" y="586" width="640" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase1-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#AC8FAC;strokeColor=none;arcSize=10;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="1200" y="635" width="150" height="145" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase1-title" value="Phase 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#5A1E58;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1210" y="635" width="130" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase1-time" value="M 1-6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#5A1E58;fontFamily=Arial;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1210" y="664" width="130" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase1-content" value="&lt;b&gt;&lt;i&gt;Foundation&lt;/i&gt;&lt;/b&gt;&lt;br&gt;• Copilot rollout&lt;br&gt;• Meeting AI&lt;br&gt;• Self-service" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#5A1E58;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1210" y="680" width="130" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase2-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#AC8FAC;strokeColor=none;arcSize=10;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="1370" y="635" width="160" height="145" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase2-title" value="Phase 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#5A1E58;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1380" y="635" width="130" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase2-time" value="M 7-12" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#5A1E58;fontFamily=Arial;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1380" y="664" width="130" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase2-content" value="&lt;b&gt;&lt;i&gt;Enhancement&lt;/i&gt;&lt;/b&gt;&lt;br&gt;• Enterprise search&lt;br&gt;• Analytics&lt;br&gt;• Editing tools" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#5A1E58;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1380" y="680" width="140" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase3-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#AC8FAC;strokeColor=none;arcSize=10;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="1540" y="635" width="150" height="145" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase3-title" value="Phase 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#5A1E58;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1550" y="635" width="130" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase3-time" value="M 13-18" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#5A1E58;fontFamily=Arial;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1550" y="664" width="130" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase3-content" value="&lt;b&gt;&lt;i&gt;Automation&lt;/i&gt;&lt;/b&gt;&lt;br&gt;• Workflows&lt;br&gt;• Agents&lt;br&gt;• Insights" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#5A1E58;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1550" y="680" width="130" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase4-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#AC8FAC;strokeColor=none;arcSize=10;fontSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="1710" y="635" width="140" height="145" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase4-title" value="Phase 4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#5A1E58;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1720" y="635" width="120" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase4-time" value="M 19-24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#5A1E58;fontFamily=Arial;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1720" y="664" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase4-content" value="&lt;b&gt;&lt;i&gt;Optimization&lt;/i&gt;&lt;/b&gt;&lt;br&gt;• Translation&lt;br&gt;• Wellness&lt;br&gt;• Trends" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#5A1E58;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1720" y="680" width="120" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="technology-title" value="Microsoft Technology Stack" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=20;fontColor=#002F6B;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="810" width="300" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="tech-copilot" value="Microsoft 365 Copilot&#xa;Word | Excel | PowerPoint | Outlook | Teams" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#CCE5FF;strokeColor=#0066CC;strokeWidth=2;fontSize=15;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="850" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="tech-viva" value="Microsoft Viva Suite&#xa;35M+ Users | Skills | Insights" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#D4F2F5;strokeColor=#0B909F;strokeWidth=2;fontSize=15;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="850" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="tech-agents" value="Pre-Built Agents&#xa;IT Helpdesk | Benefits | Wellness" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FDE5D4;strokeColor=#ED6B06;strokeWidth=2;fontSize=15;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="940" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="tech-copilot-studio" value="Copilot Studio&#xa;Agent Creation &amp; Customization" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E6D4E6;strokeColor=#5A1E58;strokeWidth=2;fontSize=15;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="940" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="key-benefits-title" value="Key Benefits" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=20;fontColor=#002F6B;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="556" y="810" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="benefit1" value="Faster document creation" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#F0F8FA;strokeColor=#99CAD2;strokeWidth=2;fontSize=15;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="850" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="benefit2" value="Improved meeting efficiency" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#F0F8FA;strokeColor=#99CAD2;strokeWidth=2;fontSize=15;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="850" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="benefit3" value="Faster search" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#F0F8FA;strokeColor=#99CAD2;strokeWidth=2;fontSize=15;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="910" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="benefit4" value="Meet workforce demands" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#F0F8FA;strokeColor=#99CAD2;strokeWidth=2;fontSize=15;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="910" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="benefit5" value="Significant ROI (18 months)" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#F0F8FA;strokeColor=#99CAD2;strokeWidth=2;fontSize=15;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="970" width="340" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="agents-title" value="Pre-Built Copilot Agents (2025)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;fontColor=#002F6B;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="920" y="810" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="agent-it" value="IT Helpdesk" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FCE6E8;strokeColor=#E95160;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="850" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="agent-benefits" value="Benefits" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FCE6E8;strokeColor=#E95160;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="980" y="850" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="agent-leave" value="Leave Mgmt" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FCE6E8;strokeColor=#E95160;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1100" y="850" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="agent-wellness" value="Wellness" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FCE6E8;strokeColor=#E95160;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="900" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="agent-team" value="Team Nav" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FCE6E8;strokeColor=#E95160;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="980" y="900" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="agent-financial" value="Financial Insights" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FCE6E8;strokeColor=#E95160;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1100" y="900" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="agent-expense" value="Time &amp; Expense" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FCE6E8;strokeColor=#E95160;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="950" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="agent-awards" value="Awards" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FCE6E8;strokeColor=#E95160;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="980" y="950" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="agent-safe" value="Safe Travels" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FCE6E8;strokeColor=#E95160;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1100" y="950" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="industry-trends-title" value="2025 Industry Trends" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;fontColor=#002F6B;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1330" y="810" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="trend1" value="Gartner: 75% meeting AI by 2027" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E8E8E8;strokeColor=#5A5A5A;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1240" y="850" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="trend2" value="McKinsey: $4.4T opportunity" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E8E8E8;strokeColor=#5A5A5A;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1460" y="850" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="trend3" value="Autonomous meeting assistants" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E8E8E8;strokeColor=#5A5A5A;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1240" y="900" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="trend4" value="Burnout prevention analytics" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E8E8E8;strokeColor=#5A5A5A;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1460" y="900" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="trend5" value="Agentic workplace model" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E8E8E8;strokeColor=#5A5A5A;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1240" y="950" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="trend6" value="Copilot Chat as hub" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E8E8E8;strokeColor=#5A5A5A;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1460" y="950" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="footer" value="BNZ Technology Strategy &amp;amp; Architecture | AI Platform - Workplace AI Capability Area | October 2025" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#5A5A5A;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="1020" width="1000" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

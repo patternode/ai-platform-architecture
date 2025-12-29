@@ -1,0 +1,445 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.7">
+  <diagram name="Architecture Building Blocks Matrix" id="abb-matrix">
+    <mxGraphModel dx="2938" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="header" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="53.48399246704331" width="1840" x="40" y="79.05461393596987" as="geometry" />
+        </mxCell>
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Calibri;" value="AI Platform Architecture Building Blocks (129 ABBs)" vertex="1">
+          <mxGeometry height="72.31638418079096" width="479.16666666666663" x="59.166666666666664" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-high-text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#FFFFFF;fontFamily=Calibri;" value="High (20+ refs)" vertex="1">
+          <mxGeometry height="60.263653483992464" width="76.66666666666666" x="1307.875" y="74.82109227871939" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-medhigh-text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#FFFFFF;fontFamily=Calibri;" value="Med-High (10-19)" vertex="1">
+          <mxGeometry height="60.263653483992464" width="91.04166666666666" x="1413.2916666666665" y="74.82109227871939" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-med-text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#FFFFFF;fontFamily=Calibri;" value="Medium (5-9)" vertex="1">
+          <mxGeometry height="60.263653483992464" width="71.875" x="1533.083333333333" y="74.82109227871939" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-low-text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#FFFFFF;fontFamily=Calibri;" value="Low (1-4)" vertex="1">
+          <mxGeometry height="60.263653483992464" width="57.5" x="1633.708333333333" y="74.82109227871939" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-none-text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#FFFFFF;fontFamily=Calibri;" value="None (0)" vertex="1">
+          <mxGeometry height="60.263653483992464" width="52.70833333333333" x="1719.958333333333" y="74.82109227871939" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-teal-text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#FFFFFF;fontFamily=Calibri;" value="Top 5" vertex="1">
+          <mxGeometry height="60.263653483992464" width="38.33333333333333" x="1801.4166666666665" y="74.82109227871939" as="geometry" />
+        </mxCell>
+        <mxCell id="ab001" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9966;strokeColor=#E85A2B;strokeWidth=1;fontSize=10;fontColor=#FFFFFF;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-001&#xa;Agent Orchestrator&#xa;UC:10 PT:3&#xa;&#xa;Coordinates agent collaboration and task execution" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="49.58333333333333" y="147.74011299435028" as="geometry" />
+        </mxCell>
+        <mxCell id="ab002" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-002&#xa;Tool Registry&#xa;UC:2 PT:3&#xa;&#xa;Registry of tools available to AI agents" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="135.83333333333331" y="147.74011299435028" as="geometry" />
+        </mxCell>
+        <mxCell id="ab003" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-003&#xa;Agent Memory System&#xa;UC:1 PT:3&#xa;&#xa;Persistent memory for agent context" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="222.08333333333331" y="147.74011299435028" as="geometry" />
+        </mxCell>
+        <mxCell id="ab004" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-004&#xa;Planning Module&#xa;UC:0 PT:2&#xa;&#xa;Strategic planning for agent task execution" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="308.3333333333333" y="147.74011299435028" as="geometry" />
+        </mxCell>
+        <mxCell id="ab005" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-005&#xa;Execution Engine&#xa;UC:0 PT:2&#xa;&#xa;Executes agent plans and actions" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="394.58333333333326" y="147.74011299435028" as="geometry" />
+        </mxCell>
+        <mxCell id="ab006" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-006&#xa;Reflection Module&#xa;UC:0 PT:2&#xa;&#xa;Agent self-reflection and learning" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="480.83333333333326" y="147.74011299435028" as="geometry" />
+        </mxCell>
+        <mxCell id="ab007" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-007&#xa;Multi Agent Comm Bus&#xa;UC:0 PT:3&#xa;&#xa;Inter-agent communication infrastructure" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="567.0833333333333" y="147.74011299435028" as="geometry" />
+        </mxCell>
+        <mxCell id="ab008" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-008&#xa;Human in Loop Gateway&#xa;UC:1 PT:2&#xa;&#xa;Human oversight interface for agent actions" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="653.3333333333333" y="147.74011299435028" as="geometry" />
+        </mxCell>
+        <mxCell id="ab009" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-009&#xa;Agent Cost Monitor&#xa;UC:0 PT:2&#xa;&#xa;Monitors token and API costs for agents" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="739.5833333333333" y="147.74011299435028" as="geometry" />
+        </mxCell>
+        <mxCell id="ab010" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-010&#xa;Agent Version Mgr&#xa;UC:0 PT:1&#xa;&#xa;Version control for agent configurations" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="825.8333333333333" y="147.74011299435028" as="geometry" />
+        </mxCell>
+        <mxCell id="ab011" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-011&#xa;API Gateway&#xa;UC:0 PT:1&#xa;&#xa;Central API gateway for AI services" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="912.0833333333333" y="147.74011299435028" as="geometry" />
+        </mxCell>
+        <mxCell id="ab012" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-012&#xa;Explanation API GW&#xa;UC:0 PT:1&#xa;&#xa;API gateway for explanation services" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="998.3333333333333" y="147.74011299435028" as="geometry" />
+        </mxCell>
+        <mxCell id="ab013" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-013&#xa;Batch Orchestrator&#xa;UC:3 PT:1&#xa;&#xa;Orchestrates batch prediction jobs" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1084.5833333333333" y="147.74011299435028" as="geometry" />
+        </mxCell>
+        <mxCell id="ab014" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-014&#xa;Batch Feature Store&#xa;UC:1 PT:1&#xa;&#xa;Feature store for batch processing" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1170.8333333333333" y="147.74011299435028" as="geometry" />
+        </mxCell>
+        <mxCell id="ab015" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-015&#xa;Distributed Proc Engine&#xa;UC:0 PT:2&#xa;&#xa;Distributed compute for batch jobs" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1257.0833333333333" y="147.74011299435028" as="geometry" />
+        </mxCell>
+        <mxCell id="ab016" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-016&#xa;Batch Model Registry&#xa;UC:0 PT:1&#xa;&#xa;Model registry for batch predictions" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1343.3333333333333" y="147.74011299435028" as="geometry" />
+        </mxCell>
+        <mxCell id="ab017" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-017&#xa;Prediction Storage&#xa;UC:0 PT:1&#xa;&#xa;Stores batch prediction results" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1429.583333333333" y="147.74011299435028" as="geometry" />
+        </mxCell>
+        <mxCell id="ab018" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-018&#xa;Data Quality Validator&#xa;UC:0 PT:2&#xa;&#xa;Validates data quality in batch pipelines" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1515.833333333333" y="147.74011299435028" as="geometry" />
+        </mxCell>
+        <mxCell id="ab019" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-019&#xa;Incremental Proc Mgr&#xa;UC:3 PT:1&#xa;&#xa;Manages incremental batch processing" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1602.083333333333" y="147.74011299435028" as="geometry" />
+        </mxCell>
+        <mxCell id="ab020" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-020&#xa;Prediction Version Tracker&#xa;UC:0 PT:1&#xa;&#xa;Tracks versions of batch predictions" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1688.333333333333" y="147.74011299435028" as="geometry" />
+        </mxCell>
+        <mxCell id="ab021" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-021&#xa;Drift Detection Mon&#xa;UC:0 PT:1&#xa;&#xa;Monitors drift in batch predictions" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1774.583333333333" y="147.74011299435028" as="geometry" />
+        </mxCell>
+        <mxCell id="ab022" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-022&#xa;Result Reconciliation&#xa;UC:0 PT:1&#xa;&#xa;Reconciles batch prediction results" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="49.58333333333333" y="275.49905838041434" as="geometry" />
+        </mxCell>
+        <mxCell id="ab023" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-023&#xa;Batch Explainability&#xa;UC:0 PT:1&#xa;&#xa;Generates explanations for batch predictions" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="135.83333333333331" y="275.49905838041434" as="geometry" />
+        </mxCell>
+        <mxCell id="ab024" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-024&#xa;Prediction Caching&#xa;UC:0 PT:2&#xa;&#xa;Caches predictions for performance" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="222.08333333333331" y="275.49905838041434" as="geometry" />
+        </mxCell>
+        <mxCell id="ab025" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-025&#xa;Traffic Splitter&#xa;UC:1 PT:0&#xa;&#xa;Splits traffic between model versions" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="308.3333333333333" y="275.49905838041434" as="geometry" />
+        </mxCell>
+        <mxCell id="ab026" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-026&#xa;Performance Comparator&#xa;UC:0 PT:1&#xa;&#xa;Compares model performance metrics" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="394.58333333333326" y="275.49905838041434" as="geometry" />
+        </mxCell>
+        <mxCell id="ab027" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-027&#xa;Statistical Test Engine&#xa;UC:0 PT:1&#xa;&#xa;Runs statistical significance tests" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="480.83333333333326" y="275.49905838041434" as="geometry" />
+        </mxCell>
+        <mxCell id="ab028" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-028&#xa;Model Promotion Svc&#xa;UC:0 PT:1&#xa;&#xa;Promotes challenger to champion" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="567.0833333333333" y="275.49905838041434" as="geometry" />
+        </mxCell>
+        <mxCell id="ab029" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-029&#xa;Conversation State Mgr&#xa;UC:4 PT:0&#xa;&#xa;Manages conversational context and state" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="653.3333333333333" y="275.49905838041434" as="geometry" />
+        </mxCell>
+        <mxCell id="ab030" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-030&#xa;Intent Classifier&#xa;UC:4 PT:0&#xa;&#xa;Classifies user intent in conversations" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="739.5833333333333" y="275.49905838041434" as="geometry" />
+        </mxCell>
+        <mxCell id="ab031" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-031&#xa;Response Generator&#xa;UC:3 PT:0&#xa;&#xa;Generates conversational responses" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="825.8333333333333" y="275.49905838041434" as="geometry" />
+        </mxCell>
+        <mxCell id="ab032" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-032&#xa;Handoff Logic Engine&#xa;UC:1 PT:0&#xa;&#xa;Manages handoff to human agents" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="912.0833333333333" y="275.49905838041434" as="geometry" />
+        </mxCell>
+        <mxCell id="ab033" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-033&#xa;Sentiment Analyzer&#xa;UC:1 PT:0&#xa;&#xa;Analyzes sentiment in conversations" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="998.3333333333333" y="275.49905838041434" as="geometry" />
+        </mxCell>
+        <mxCell id="ab034" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-034&#xa;Entity Extractor&#xa;UC:2 PT:1&#xa;&#xa;Extracts entities from conversation" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1084.5833333333333" y="275.49905838041434" as="geometry" />
+        </mxCell>
+        <mxCell id="ab035" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-035&#xa;Conversation Summarizer&#xa;UC:2 PT:0&#xa;&#xa;Summarizes conversation history" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1170.8333333333333" y="275.49905838041434" as="geometry" />
+        </mxCell>
+        <mxCell id="ab036" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-036&#xa;Multi Channel Orch&#xa;UC:3 PT:0&#xa;&#xa;Orchestrates across chat channels" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1257.0833333333333" y="275.49905838041434" as="geometry" />
+        </mxCell>
+        <mxCell id="ab037" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-037&#xa;Feature Store&#xa;UC:3 PT:3&#xa;&#xa;Centralized repository for ML features" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1343.3333333333333" y="275.49905838041434" as="geometry" />
+        </mxCell>
+        <mxCell id="ab038" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-038&#xa;Data Lake&#xa;UC:3 PT:4&#xa;&#xa;Scalable storage for structured and unstructured data" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1429.583333333333" y="275.49905838041434" as="geometry" />
+        </mxCell>
+        <mxCell id="ab039" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-039&#xa;Data Versioning Svc&#xa;UC:0 PT:3&#xa;&#xa;Version control for datasets" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1515.833333333333" y="275.49905838041434" as="geometry" />
+        </mxCell>
+        <mxCell id="ab040" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-040&#xa;Doc Classification&#xa;UC:2 PT:1&#xa;&#xa;Classifies documents by type and content" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1602.083333333333" y="275.49905838041434" as="geometry" />
+        </mxCell>
+        <mxCell id="ab041" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-041&#xa;OCR Engine&#xa;UC:1 PT:1&#xa;&#xa;Optical character recognition for documents" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1688.333333333333" y="275.49905838041434" as="geometry" />
+        </mxCell>
+        <mxCell id="ab042" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=10;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-042&#xa;Doc Forensics Engine&#xa;UC:1 PT:1&#xa;&#xa;Detects document tampering and fraud" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1774.583333333333" y="275.49905838041434" as="geometry" />
+        </mxCell>
+        <mxCell id="ab043" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-043&#xa;Data Product Catalog&#xa;UC:0 PT:1&#xa;&#xa;Catalog of data products" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="49.58333333333333" y="403.25800376647834" as="geometry" />
+        </mxCell>
+        <mxCell id="ab044" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-044&#xa;Domain Data Platform&#xa;UC:0 PT:1&#xa;&#xa;Self-serve domain data platform" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="135.83333333333331" y="403.25800376647834" as="geometry" />
+        </mxCell>
+        <mxCell id="ab045" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-045&#xa;Data Contract Registry&#xa;UC:0 PT:1&#xa;&#xa;Registry for data contracts" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="222.08333333333331" y="403.25800376647834" as="geometry" />
+        </mxCell>
+        <mxCell id="ab046" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-046&#xa;Fairness Monitoring&#xa;UC:1 PT:1&#xa;&#xa;Monitors and reports on model fairness" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="308.3333333333333" y="403.25800376647834" as="geometry" />
+        </mxCell>
+        <mxCell id="ab047" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-047&#xa;Online Feature Store&#xa;UC:2 PT:1&#xa;&#xa;Real-time feature serving" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="394.58333333333326" y="403.25800376647834" as="geometry" />
+        </mxCell>
+        <mxCell id="ab048" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-048&#xa;Feature Eng Pipeline&#xa;UC:2 PT:1&#xa;&#xa;Automated feature engineering" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="480.83333333333326" y="403.25800376647834" as="geometry" />
+        </mxCell>
+        <mxCell id="ab049" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-049&#xa;Offline Feature Store&#xa;UC:1 PT:1&#xa;&#xa;Batch feature storage and retrieval" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="567.0833333333333" y="403.25800376647834" as="geometry" />
+        </mxCell>
+        <mxCell id="ab050" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#006B35;strokeWidth=2;fontSize=11;fontColor=#FFFFFF;fontFamily=Calibri;align=center;verticalAlign=top;fontStyle=1;" value="AB-050&#xa;LLM Service&#xa;UC:24 PT:6&#xa;&#xa;Foundation LLM service for text generation" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="653.3333333333333" y="403.25800376647834" as="geometry" />
+        </mxCell>
+        <mxCell id="ab051" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#006B35;strokeWidth=2;fontSize=11;fontColor=#FFFFFF;fontFamily=Calibri;align=center;verticalAlign=top;fontStyle=1;" value="AB-051&#xa;Vector Database&#xa;UC:18 PT:6&#xa;&#xa;Vector storage for embeddings and similarity search" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="739.5833333333333" y="403.25800376647834" as="geometry" />
+        </mxCell>
+        <mxCell id="ab052" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#006B35;strokeWidth=2;fontSize=11;fontColor=#FFFFFF;fontFamily=Calibri;align=center;verticalAlign=top;fontStyle=1;" value="AB-052&#xa;Semantic Search&#xa;UC:15 PT:5&#xa;&#xa;Semantic search across knowledge bases" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="825.8333333333333" y="403.25800376647834" as="geometry" />
+        </mxCell>
+        <mxCell id="ab053" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-053&#xa;Query Intent Analyzer&#xa;UC:1 PT:3&#xa;&#xa;Analyzes and classifies query intent" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="912.0833333333333" y="403.25800376647834" as="geometry" />
+        </mxCell>
+        <mxCell id="ab054" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-054&#xa;Hybrid Search Engine&#xa;UC:1 PT:5&#xa;&#xa;Combines keyword and semantic search" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="998.3333333333333" y="403.25800376647834" as="geometry" />
+        </mxCell>
+        <mxCell id="ab055" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-055&#xa;Reranking Engine&#xa;UC:0 PT:5&#xa;&#xa;Reranks search results for relevance" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1084.5833333333333" y="403.25800376647834" as="geometry" />
+        </mxCell>
+        <mxCell id="ab056" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-056&#xa;Self Critique Engine&#xa;UC:0 PT:5&#xa;&#xa;LLM self-evaluation and refinement" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1170.8333333333333" y="403.25800376647834" as="geometry" />
+        </mxCell>
+        <mxCell id="ab057" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-057&#xa;Doc Processing Pipeline&#xa;UC:1 PT:5&#xa;&#xa;Processes documents for RAG ingestion" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1257.0833333333333" y="403.25800376647834" as="geometry" />
+        </mxCell>
+        <mxCell id="ab058" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-058&#xa;Citation Generator&#xa;UC:1 PT:5&#xa;&#xa;Generates citations for LLM responses" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1343.3333333333333" y="403.25800376647834" as="geometry" />
+        </mxCell>
+        <mxCell id="ab059" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-059&#xa;Query Rewriting&#xa;UC:1 PT:4&#xa;&#xa;Rewrites queries for better retrieval" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1429.583333333333" y="403.25800376647834" as="geometry" />
+        </mxCell>
+        <mxCell id="ab060" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#E85A2B;strokeWidth=1;fontSize=11;fontColor=#FFFFFF;fontFamily=Calibri;align=center;verticalAlign=top;fontStyle=1;" value="AB-060&#xa;AI Model Registry&#xa;UC:0 PT:20&#xa;&#xa;Central registry for AI/ML models with metadata and versioning" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1515.833333333333" y="403.25800376647834" as="geometry" />
+        </mxCell>
+        <mxCell id="ab061" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-061&#xa;Risk Assessment Engine&#xa;UC:0 PT:2&#xa;&#xa;Automated risk evaluation for AI models" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1602.083333333333" y="403.25800376647834" as="geometry" />
+        </mxCell>
+        <mxCell id="ab062" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-062&#xa;Approval Workflow&#xa;UC:0 PT:3&#xa;&#xa;Manages approval workflows for model deployment" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1688.333333333333" y="403.25800376647834" as="geometry" />
+        </mxCell>
+        <mxCell id="ab063" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-063&#xa;ML Explainability&#xa;UC:2 PT:3&#xa;&#xa;Generates explanations for ML model predictions" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1774.583333333333" y="403.25800376647834" as="geometry" />
+        </mxCell>
+        <mxCell id="ab064" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-064&#xa;Compliance Dashboard&#xa;UC:0 PT:2&#xa;&#xa;Dashboard for AI governance and compliance" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="49.58333333333333" y="531.0169491525425" as="geometry" />
+        </mxCell>
+        <mxCell id="ab065" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#006B35;strokeWidth=2;fontSize=11;fontColor=#FFFFFF;fontFamily=Calibri;align=center;verticalAlign=top;fontStyle=1;" value="AB-065&#xa;Audit Trail Logging&#xa;UC:17 PT:4&#xa;&#xa;Comprehensive audit logging for AI system activities" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="135.83333333333331" y="531.0169491525425" as="geometry" />
+        </mxCell>
+        <mxCell id="ab066" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-066&#xa;AI Gateway&#xa;UC:0 PT:1&#xa;&#xa;Central gateway for AI service access" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="222.08333333333331" y="531.0169491525425" as="geometry" />
+        </mxCell>
+        <mxCell id="ab067" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-067&#xa;Cost Attribution&#xa;UC:0 PT:1&#xa;&#xa;Tracks and attributes AI infrastructure costs" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="308.3333333333333" y="531.0169491525425" as="geometry" />
+        </mxCell>
+        <mxCell id="ab068" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-068&#xa;Explainability Service&#xa;UC:0 PT:1&#xa;&#xa;Provides model explanations to stakeholders" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="394.58333333333326" y="531.0169491525425" as="geometry" />
+        </mxCell>
+        <mxCell id="ab069" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-069&#xa;Bias Detection&#xa;UC:1 PT:1&#xa;&#xa;Detects and reports bias in ML models" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="480.83333333333326" y="531.0169491525425" as="geometry" />
+        </mxCell>
+        <mxCell id="ab070" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-070&#xa;Data Lineage Tracker&#xa;UC:3 PT:2&#xa;&#xa;Tracks data provenance and lineage" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="567.0833333333333" y="531.0169491525425" as="geometry" />
+        </mxCell>
+        <mxCell id="ab071" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=10;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-071&#xa;Model Perf Benchmark&#xa;UC:0 PT:1&#xa;&#xa;Benchmarks model performance against baselines" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="653.3333333333333" y="531.0169491525425" as="geometry" />
+        </mxCell>
+        <mxCell id="ab072" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9966;strokeColor=#E85A2B;strokeWidth=1;fontSize=11;fontColor=#FFFFFF;fontFamily=Calibri;align=center;verticalAlign=top;fontStyle=1;" value="AB-072&#xa;Inference Engine&#xa;UC:18 PT:0&#xa;&#xa;Core inference execution engine" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="739.5833333333333" y="531.0169491525425" as="geometry" />
+        </mxCell>
+        <mxCell id="ab073" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=10;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-073&#xa;Inference Model Reg&#xa;UC:0 PT:1&#xa;&#xa;Registry for inference-optimized models" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="825.8333333333333" y="531.0169491525425" as="geometry" />
+        </mxCell>
+        <mxCell id="ab074" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9966;strokeColor=#E85A2B;strokeWidth=1;fontSize=11;fontColor=#FFFFFF;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-074&#xa;Event Broker&#xa;UC:5 PT:7&#xa;&#xa;Central event broker for async communication" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="912.0833333333333" y="531.0169491525425" as="geometry" />
+        </mxCell>
+        <mxCell id="ab075" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9966;strokeColor=#E85A2B;strokeWidth=1;fontSize=11;fontColor=#FFFFFF;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-075&#xa;Stream Processing&#xa;UC:10 PT:1&#xa;&#xa;Processes streaming data in real-time" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="998.3333333333333" y="531.0169491525425" as="geometry" />
+        </mxCell>
+        <mxCell id="ab076" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-076&#xa;Event Producer&#xa;UC:2 PT:1&#xa;&#xa;Adapters for producing events from sources" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1084.5833333333333" y="531.0169491525425" as="geometry" />
+        </mxCell>
+        <mxCell id="ab077" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-077&#xa;Event Consumer&#xa;UC:1 PT:1&#xa;&#xa;Framework for consuming and processing events" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1170.8333333333333" y="531.0169491525425" as="geometry" />
+        </mxCell>
+        <mxCell id="ab078" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-078&#xa;Dead Letter Queue&#xa;UC:0 PT:1&#xa;&#xa;Handles failed message processing" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1257.0833333333333" y="531.0169491525425" as="geometry" />
+        </mxCell>
+        <mxCell id="ab079" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-079&#xa;Event Replay Service&#xa;UC:0 PT:1&#xa;&#xa;Replays events for recovery and testing" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1343.3333333333333" y="531.0169491525425" as="geometry" />
+        </mxCell>
+        <mxCell id="ab080" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-080&#xa;Knowledge Base&#xa;UC:1 PT:4&#xa;&#xa;Structured knowledge storage for AI" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1429.583333333333" y="531.0169491525425" as="geometry" />
+        </mxCell>
+        <mxCell id="ab081" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-081&#xa;Load Balancer&#xa;UC:0 PT:1&#xa;&#xa;Distributes load across model replicas" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1515.833333333333" y="531.0169491525425" as="geometry" />
+        </mxCell>
+        <mxCell id="ab082" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-082&#xa;Model Serving Infra&#xa;UC:0 PT:1&#xa;&#xa;Infrastructure for serving models" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1602.083333333333" y="531.0169491525425" as="geometry" />
+        </mxCell>
+        <mxCell id="ab083" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-083&#xa;Model Fallback Logic&#xa;UC:2 PT:1&#xa;&#xa;Fallback strategies for model failures" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1688.333333333333" y="531.0169491525425" as="geometry" />
+        </mxCell>
+        <mxCell id="ab084" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-084&#xa;Model Quantization&#xa;UC:1 PT:1&#xa;&#xa;Optimizes models through quantization" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1774.583333333333" y="531.0169491525425" as="geometry" />
+        </mxCell>
+        <mxCell id="ab085" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-085&#xa;ML Training Pipeline&#xa;UC:0 PT:3&#xa;&#xa;Orchestrates model training workflows" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="49.58333333333333" y="658.7758945386064" as="geometry" />
+        </mxCell>
+        <mxCell id="ab086" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-086&#xa;Model Registry&#xa;UC:0 PT:2&#xa;&#xa;Central registry for trained models" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="135.83333333333331" y="658.7758945386064" as="geometry" />
+        </mxCell>
+        <mxCell id="ab087" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-087&#xa;Model Testing FW&#xa;UC:4 PT:2&#xa;&#xa;Comprehensive model testing and validation" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="222.08333333333331" y="658.7758945386064" as="geometry" />
+        </mxCell>
+        <mxCell id="ab088" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=1;fontSize=10;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-088&#xa;Model Deploy Orch&#xa;UC:6 PT:3&#xa;&#xa;Automates model deployment workflows" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="308.3333333333333" y="658.7758945386064" as="geometry" />
+        </mxCell>
+        <mxCell id="ab089" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=10;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-089&#xa;Model Monitoring&#xa;UC:1 PT:2&#xa;&#xa;Production model performance monitoring" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="394.58333333333326" y="658.7758945386064" as="geometry" />
+        </mxCell>
+        <mxCell id="ab090" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-090&#xa;Model Fallback&#xa;UC:1 PT:2&#xa;&#xa;Handles model failures with fallback" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="480.83333333333326" y="658.7758945386064" as="geometry" />
+        </mxCell>
+        <mxCell id="ab091" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-091&#xa;Rollback Controller&#xa;UC:1 PT:1&#xa;&#xa;Manages model version rollbacks" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="567.0833333333333" y="658.7758945386064" as="geometry" />
+        </mxCell>
+        <mxCell id="ab092" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-092&#xa;A/B Test Config&#xa;UC:0 PT:1&#xa;&#xa;Configures and manages A/B tests" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="653.3333333333333" y="658.7758945386064" as="geometry" />
+        </mxCell>
+        <mxCell id="ab093" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-093&#xa;Feature Flag Service&#xa;UC:0 PT:1&#xa;&#xa;Feature flag management for ML" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="739.5833333333333" y="658.7758945386064" as="geometry" />
+        </mxCell>
+        <mxCell id="ab094" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-094&#xa;NL Generation&#xa;UC:3 PT:1&#xa;&#xa;Generates natural language from data" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="825.8333333333333" y="658.7758945386064" as="geometry" />
+        </mxCell>
+        <mxCell id="ab095" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9966;strokeColor=#E85A2B;strokeWidth=1;fontSize=11;fontColor=#FFFFFF;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-095&#xa;NLP Extraction&#xa;UC:11 PT:1&#xa;&#xa;Extracts entities and relationships from text" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="912.0833333333333" y="658.7758945386064" as="geometry" />
+        </mxCell>
+        <mxCell id="ab096" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#006B35;strokeWidth=2;fontSize=11;fontColor=#FFFFFF;fontFamily=Calibri;align=center;verticalAlign=top;fontStyle=1;" value="AB-096&#xa;Observability Platform&#xa;UC:16 PT:21&#xa;&#xa;Centralized metrics, logs, and traces" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="998.3333333333333" y="658.7758945386064" as="geometry" />
+        </mxCell>
+        <mxCell id="ab097" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9966;strokeColor=#E85A2B;strokeWidth=1;fontSize=11;fontColor=#FFFFFF;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-097&#xa;Data Drift Detector&#xa;UC:12 PT:2&#xa;&#xa;Detects drift in input data distributions" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1084.5833333333333" y="658.7758945386064" as="geometry" />
+        </mxCell>
+        <mxCell id="ab098" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-098&#xa;Prediction Drift Mon&#xa;UC:0 PT:1&#xa;&#xa;Monitors drift in model predictions" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1170.8333333333333" y="658.7758945386064" as="geometry" />
+        </mxCell>
+        <mxCell id="ab099" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-099&#xa;Concept Drift Detector&#xa;UC:0 PT:1&#xa;&#xa;Detects changes in data relationships" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1257.0833333333333" y="658.7758945386064" as="geometry" />
+        </mxCell>
+        <mxCell id="ab100" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-100&#xa;Cost Monitoring&#xa;UC:0 PT:1&#xa;&#xa;Real-time AI infrastructure cost monitoring" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1343.3333333333333" y="658.7758945386064" as="geometry" />
+        </mxCell>
+        <mxCell id="ab101" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-101&#xa;Latency Monitor&#xa;UC:0 PT:1&#xa;&#xa;Tracks inference and pipeline latency" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1429.583333333333" y="658.7758945386064" as="geometry" />
+        </mxCell>
+        <mxCell id="ab102" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-102&#xa;Error Tracking&#xa;UC:0 PT:1&#xa;&#xa;Captures and categorizes AI system errors" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1515.833333333333" y="658.7758945386064" as="geometry" />
+        </mxCell>
+        <mxCell id="ab103" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-103&#xa;Business Metrics&#xa;UC:6 PT:1&#xa;&#xa;Links model performance to business outcomes" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1602.083333333333" y="658.7758945386064" as="geometry" />
+        </mxCell>
+        <mxCell id="ab104" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-104&#xa;Data Quality Monitor&#xa;UC:3 PT:2&#xa;&#xa;Monitors data quality in real-time" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1688.333333333333" y="658.7758945386064" as="geometry" />
+        </mxCell>
+        <mxCell id="ab105" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-105&#xa;GenAI Quality Mon&#xa;UC:1 PT:3&#xa;&#xa;Monitors quality of GenAI outputs" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1774.583333333333" y="658.7758945386064" as="geometry" />
+        </mxCell>
+        <mxCell id="ab106" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-106&#xa;Auto Retrain Trigger&#xa;UC:0 PT:1&#xa;&#xa;Triggers retraining based on drift" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="49.58333333333333" y="786.5348399246705" as="geometry" />
+        </mxCell>
+        <mxCell id="ab107" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-107&#xa;Stakeholder Dashboard&#xa;UC:1 PT:1&#xa;&#xa;Executive dashboards for AI visibility" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="135.83333333333331" y="786.5348399246705" as="geometry" />
+        </mxCell>
+        <mxCell id="ab108" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-108&#xa;Model Router&#xa;UC:2 PT:0&#xa;&#xa;Routes requests to appropriate models" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="222.08333333333331" y="786.5348399246705" as="geometry" />
+        </mxCell>
+        <mxCell id="ab109" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-109&#xa;Cost Based Router&#xa;UC:0 PT:1&#xa;&#xa;Routes based on cost optimization" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="308.3333333333333" y="786.5348399246705" as="geometry" />
+        </mxCell>
+        <mxCell id="ab110" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-110&#xa;Latency Based Router&#xa;UC:0 PT:1&#xa;&#xa;Routes based on latency requirements" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="394.58333333333326" y="786.5348399246705" as="geometry" />
+        </mxCell>
+        <mxCell id="ab111" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-111&#xa;Capability Router&#xa;UC:0 PT:1&#xa;&#xa;Routes based on model capabilities" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="480.83333333333326" y="786.5348399246705" as="geometry" />
+        </mxCell>
+        <mxCell id="ab112" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#E85A2B;strokeWidth=1;fontSize=11;fontColor=#FFFFFF;fontFamily=Calibri;align=center;verticalAlign=top;fontStyle=1;" value="AB-112&#xa;Data Encryption&#xa;UC:0 PT:20&#xa;&#xa;Encryption for data at rest and in transit" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="567.0833333333333" y="786.5348399246705" as="geometry" />
+        </mxCell>
+        <mxCell id="ab113" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-113&#xa;Access Control IAM&#xa;UC:0 PT:1&#xa;&#xa;Identity and access management" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="653.3333333333333" y="786.5348399246705" as="geometry" />
+        </mxCell>
+        <mxCell id="ab114" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-114&#xa;PII Detection Masking&#xa;UC:0 PT:1&#xa;&#xa;Detects and masks PII" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="739.5833333333333" y="786.5348399246705" as="geometry" />
+        </mxCell>
+        <mxCell id="ab115" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-115&#xa;Model Security FW&#xa;UC:0 PT:1&#xa;&#xa;Security controls for models" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="825.8333333333333" y="786.5348399246705" as="geometry" />
+        </mxCell>
+        <mxCell id="ab116" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-116&#xa;Audit Log Monitor&#xa;UC:0 PT:1&#xa;&#xa;Security-focused audit logging" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="912.0833333333333" y="786.5348399246705" as="geometry" />
+        </mxCell>
+        <mxCell id="ab117" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-117&#xa;Privacy Compliance&#xa;UC:0 PT:1&#xa;&#xa;Ensures privacy regulation compliance" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="998.3333333333333" y="786.5348399246705" as="geometry" />
+        </mxCell>
+        <mxCell id="ab118" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-118&#xa;Secrets Management&#xa;UC:0 PT:1&#xa;&#xa;Secure storage of credentials and secrets" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1084.5833333333333" y="786.5348399246705" as="geometry" />
+        </mxCell>
+        <mxCell id="ab119" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-119&#xa;Differential Privacy&#xa;UC:0 PT:1&#xa;&#xa;Implements differential privacy" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1170.8333333333333" y="786.5348399246705" as="geometry" />
+        </mxCell>
+        <mxCell id="ab120" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=10;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-120&#xa;Federated Learning&#xa;UC:0 PT:1&#xa;&#xa;Privacy-preserving distributed training" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1257.0833333333333" y="786.5348399246705" as="geometry" />
+        </mxCell>
+        <mxCell id="ab121" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-121&#xa;Homomorphic Encrypt&#xa;UC:0 PT:1&#xa;&#xa;Computation on encrypted data" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1343.3333333333333" y="786.5348399246705" as="geometry" />
+        </mxCell>
+        <mxCell id="ab122" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-122&#xa;Secure Multi Party&#xa;UC:0 PT:1&#xa;&#xa;Secure computation across parties" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1429.583333333333" y="786.5348399246705" as="geometry" />
+        </mxCell>
+        <mxCell id="ab123" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-123&#xa;Data Lineage Prov&#xa;UC:0 PT:1&#xa;&#xa;Security-focused lineage tracking" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1515.833333333333" y="786.5348399246705" as="geometry" />
+        </mxCell>
+        <mxCell id="ab124" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-124&#xa;Model Watermarking&#xa;UC:0 PT:1&#xa;&#xa;Embeds watermarks for IP protection" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1602.083333333333" y="786.5348399246705" as="geometry" />
+        </mxCell>
+        <mxCell id="ab125" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=10;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-125&#xa;Adversarial Testing&#xa;UC:0 PT:1&#xa;&#xa;Tests models against adversarial attacks" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1688.333333333333" y="786.5348399246705" as="geometry" />
+        </mxCell>
+        <mxCell id="ab126" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-126&#xa;Stream Proc Platform&#xa;UC:0 PT:1&#xa;&#xa;Platform for stream processing" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="1774.583333333333" y="786.5348399246705" as="geometry" />
+        </mxCell>
+        <mxCell id="ab127" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-127&#xa;Validation Engine&#xa;UC:2 PT:1&#xa;&#xa;Validates data and model outputs" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="49.58333333333333" y="914.2937853107344" as="geometry" />
+        </mxCell>
+        <mxCell id="ab128" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-128&#xa;Explanation Viz Layer&#xa;UC:1 PT:1&#xa;&#xa;Visualizes model explanations" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="135.83333333333331" y="914.2937853107344" as="geometry" />
+        </mxCell>
+        <mxCell id="ab129" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#003087;strokeWidth=1;fontSize=11;fontColor=#003087;fontFamily=Calibri;align=center;verticalAlign=top;" value="AB-129&#xa;Human in Loop WF&#xa;UC:0 PT:1&#xa;&#xa;Manages human review workflows" vertex="1">
+          <mxGeometry height="115.70621468926552" width="81.45833333333333" x="222.08333333333331" y="914.2937853107344" as="geometry" />
+        </mxCell>
+        <mxCell id="summary" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#001835;strokeWidth=2;fontSize=11;fontColor=#FFFFFF;fontFamily=Calibri;align=center;verticalAlign=middle;fontStyle=1;" value="SUMMARY: 129 ABBs | 231 UC Refs | 231 PT Refs&#xa;Top 5: AB-096 (37) AB-050 (30) AB-051 (24) AB-065 (21) AB-052 (20)&#xa;High: 3 | Med-High: 8 | Medium: 25 | Low: 62 | None: 31" vertex="1">
+          <mxGeometry height="115.70621468926552" width="431.25" x="308.3333333333333" y="914.2937853107344" as="geometry" />
+        </mxCell>
+        <mxCell id="Swxia8yeyIvZhj5VbtgJ-2" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="18.398493408662898" width="512.71" x="1285.83" y="95.95555555555558" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-high" parent="Swxia8yeyIvZhj5VbtgJ-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="18.398493408662898" width="19.16672897196261" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-medhigh" parent="Swxia8yeyIvZhj5VbtgJ-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9966;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="18.398493408662898" width="19.16672897196261" x="105.41700934579444" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-med" parent="Swxia8yeyIvZhj5VbtgJ-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="18.398493408662898" width="19.16672897196261" x="225.2090654205606" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-low" parent="Swxia8yeyIvZhj5VbtgJ-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="18.398493408662898" width="19.16672897196261" x="325.83439252336433" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-none" parent="Swxia8yeyIvZhj5VbtgJ-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0E0E0;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="18.398493408662898" width="19.16672897196261" x="412.08467289719607" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-teal" parent="Swxia8yeyIvZhj5VbtgJ-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="18.398493408662898" width="19.16672897196261" x="493.54327102803734" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

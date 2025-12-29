@@ -1,0 +1,397 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram name="Banking AI Use Cases - Complexity vs Value Matrix" id="banking-ai-matrix">
+    <mxGraphModel dx="1412" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="chart-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=#dee2e6;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="100" y="100" width="1400" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="Banking AI Use Cases: Implementation Complexity vs Business Value Matrix" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="50" width="1400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="x-axis" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#495057;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="950" as="sourcePoint" />
+            <mxPoint x="1450" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y-axis" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#495057;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="950" as="sourcePoint" />
+            <mxPoint x="150" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x-label" value="Implementation Complexity (High ← → Low)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="970" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y-label" value="Business Value (Low ↑ High)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;rotation=90;" parent="1" vertex="1">
+          <mxGeometry x="50" y="500" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="quad-vertical" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#6c757d;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="150" as="sourcePoint" />
+            <mxPoint x="800" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="quad-horizontal" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#6c757d;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="550" as="sourcePoint" />
+            <mxPoint x="1450" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="quad1-label" value="High Value&#xa;High Complexity&#xa;(Strategic Initiatives)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=2;fontColor=#6c757d;" parent="1" vertex="1">
+          <mxGeometry x="200" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quad2-label" value="High Value&#xa;Low Complexity&#xa;(Quick Wins)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=2;fontColor=#6c757d;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quad3-label" value="Low Value&#xa;High Complexity&#xa;(Avoid)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=2;fontColor=#6c757d;" parent="1" vertex="1">
+          <mxGeometry x="200" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quad4-label" value="Low Value&#xa;Low Complexity&#xa;(Fill-ins)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=2;fontColor=#6c757d;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cs1" value="Intelligent Chatbots" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#155724;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cs2" value="Customer Feedback Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#155724;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cs3" value="Escalation Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#155724;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="350" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rm1" value="Fraud Detection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#856404;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="250" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rm2" value="Sanctions Screening" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#856404;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1257" y="275" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="op1" value="Document Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#004085;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="350" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="op2" value="Invoice Processing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#004085;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="380" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="da1" value="Data Quality Monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e3e5;strokeColor=#383d41;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="da2" value="Performance Analytics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e3e5;strokeColor=#383d41;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="420" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rm3" value="AML Monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#856404;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="300" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rm4" value="Credit Risk Assessment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#856404;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="200" y="250" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rm5" value="KYC Verification" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#856404;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="400" y="220" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rm6" value="Model Risk Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#856404;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="250" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rm7" value="Stress Testing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#856404;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="350" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tm1" value="Algorithmic Trading" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#721c24;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="450" y="180" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tm2" value="Derivatives Processing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#721c24;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="500" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tm3" value="Liquidity Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#721c24;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="400" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl1" value="Mortgage Underwriting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffeaa7;strokeColor=#d63031;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="300" y="350" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl2" value="Credit Portfolio Optimization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffeaa7;strokeColor=#d63031;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="200" y="380" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="da3" value="ETL Pipeline Automation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e3e5;strokeColor=#383d41;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="550" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="da4" value="Data Lineage Tracking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e3e5;strokeColor=#383d41;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="600" y="260" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="da5" value="Real-time Data Streaming" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e3e5;strokeColor=#383d41;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="450" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="se1" value="CI/CD Pipeline Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1ecf1;strokeColor=#0c5460;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="500" y="350" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="se2" value="Infrastructure as Code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1ecf1;strokeColor=#0c5460;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="550" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ea1" value="Legacy System Modernization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e7e8ea;strokeColor=#41464b;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="200" y="450" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ea2" value="Microservices Orchestration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e7e8ea;strokeColor=#41464b;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="300" y="420" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cs4" value="Customer Onboarding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#155724;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="500" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wm1" value="Client Reporting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#880e4f;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wm2" value="Fee Calculation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#880e4f;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1359" y="469" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl3" value="Credit Limit Adjustments" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffeaa7;strokeColor=#d63031;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1091" y="567" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl4" value="Early Warning Systems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffeaa7;strokeColor=#d63031;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="580" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="se3" value="Automated Testing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1ecf1;strokeColor=#0c5460;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="se4" value="Code Review Assistance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1ecf1;strokeColor=#0c5460;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1369" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cs6" value="Loan Application Pre-screening" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#155724;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="400" y="500" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cs7" value="Dispute Resolution" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#155724;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="300" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cs8" value="Personalized Financial Advice" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#155724;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="500" y="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rm8" value="Regulatory Reporting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#856404;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="200" y="500" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rm9" value="Operational Risk Assessment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#856404;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="250" y="550" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rm10" value="Audit Trail Generation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#856404;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="350" y="540" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="op5" value="Trade Settlement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#004085;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="450" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="op6" value="Loan Origination Workflow" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#004085;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="550" y="500" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="op7" value="Account Opening" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#004085;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="400" y="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="op8" value="Treasury Operations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#004085;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="500" y="540" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="op9" value="Payment Processing Optimization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#004085;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="600" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="op10" value="Vendor Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#004085;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="300" y="580" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wm3" value="Portfolio Rebalancing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#880e4f;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="200" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wm4" value="Investment Research" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#880e4f;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="350" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wm5" value="Tax Optimization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#880e4f;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="450" y="580" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wm6" value="Alternative Investment Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#880e4f;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="550" y="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wm7" value="ESG Investment Screening" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#880e4f;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="600" y="580" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wm8" value="Client Relationship Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#880e4f;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="400" y="620" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wm9" value="Market Research Synthesis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#880e4f;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="500" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wm10" value="Risk Monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#880e4f;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="250" y="620" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl5" value="Small Business Loan Processing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffeaa7;strokeColor=#d63031;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="300" y="650" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl6" value="Collections Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffeaa7;strokeColor=#d63031;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="400" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl7" value="Loan Modification Processing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffeaa7;strokeColor=#d63031;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="500" y="660" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl8" value="Commercial Real Estate Lending" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffeaa7;strokeColor=#d63031;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="200" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl9" value="Equipment Financing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffeaa7;strokeColor=#d63031;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="350" y="720" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl10" value="Regulatory Capital Allocation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffeaa7;strokeColor=#d63031;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="450" y="700" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tm4" value="Interest Rate Risk Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#721c24;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="550" y="640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tm5" value="Regulatory Capital Calculation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#721c24;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="600" y="660" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6" value="Foreign Exchange Operations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#721c24;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="500" y="720" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tm7" value="Securities Lending" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#721c24;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="250" y="700" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tm8" value="Market Data Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#721c24;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="300" y="750" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tm9" value="Counterparty Risk Monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#721c24;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="400" y="750" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tm10" value="Collateral Optimization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#721c24;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="550" y="700" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="da6" value="Data Catalog Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e3e5;strokeColor=#383d41;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="200" y="750" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="da7" value="Master Data Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e3e5;strokeColor=#383d41;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="600" y="700" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="da8" value="Data Governance Enforcement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e3e5;strokeColor=#383d41;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="450" y="760" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="da9" value="Regulatory Data Reporting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e3e5;strokeColor=#383d41;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="350" y="780" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="da10" value="Data Lake Optimization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e3e5;strokeColor=#383d41;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="500" y="780" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="da11" value="Analytics Pipeline Orchestration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e3e5;strokeColor=#383d41;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="550" y="760" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="da12" value="Data Privacy Compliance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e3e5;strokeColor=#383d41;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="250" y="780" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="se5" value="Code Generation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1ecf1;strokeColor=#0c5460;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="600" y="740" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="se6" value="Security Scanning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1ecf1;strokeColor=#0c5460;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="200" y="800" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="se7" value="Performance Monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1ecf1;strokeColor=#0c5460;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="300" y="820" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="se8" value="Documentation Generation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1ecf1;strokeColor=#0c5460;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="400" y="800" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="se9" value="Release Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1ecf1;strokeColor=#0c5460;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="500" y="820" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="se10" value="Incident Response" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1ecf1;strokeColor=#0c5460;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="600" y="800" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="se11" value="Database Optimization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1ecf1;strokeColor=#0c5460;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="250" y="840" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="se12" value="Environment Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1ecf1;strokeColor=#0c5460;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="350" y="860" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="se13" value="Dependency Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1ecf1;strokeColor=#0c5460;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="450" y="840" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="se14" value="Log Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1ecf1;strokeColor=#0c5460;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="550" y="820" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ea3" value="API Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e7e8ea;strokeColor=#41464b;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="400" y="860" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ea4" value="System Integration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e7e8ea;strokeColor=#41464b;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="500" y="860" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ea5" value="Cloud Migration Planning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e7e8ea;strokeColor=#41464b;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="600" y="860" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ea6" value="Architecture Compliance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e7e8ea;strokeColor=#41464b;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="200" y="860" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ea7" value="Technology Portfolio Optimization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e7e8ea;strokeColor=#41464b;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="300" y="880" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ea8" value="Integration Pattern Enforcement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e7e8ea;strokeColor=#41464b;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="450" y="880" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ea9" value="Service Mesh Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e7e8ea;strokeColor=#41464b;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="550" y="880" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ea10" value="Data Mesh Implementation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e7e8ea;strokeColor=#41464b;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="600" y="880" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="misc1" value="Basic Reporting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="700" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="misc3" value="Data Entry Validation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="700" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="misc4" value="Basic Scheduling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="740" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="misc5" value="Simple Calculations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="760" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="misc6" value="File Organization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="740" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1010" width="300" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" value="Legend - Functional Areas" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1020" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-cs" value="Customer Service &amp; Support" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#155724;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="180" y="1060" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-rm" value="Risk Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#856404;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1060" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-op" value="Operations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#004085;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="180" y="1100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-wm" value="Wealth Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#880e4f;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-cl" value="Credit &amp; Lending" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffeaa7;strokeColor=#d63031;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="180" y="1140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-tm" value="Treasury &amp; Markets" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#721c24;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-da" value="Data Engineering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e3e5;strokeColor=#383d41;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="180" y="1180" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-se" value="Software Engineering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1ecf1;strokeColor=#0c5460;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1180" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-ea" value="Enterprise Architecture" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e7e8ea;strokeColor=#41464b;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="180" y="1220" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-misc" value="Miscellaneous/Support" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1220" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-note" value="Note: Position indicates relative complexity (x-axis) and business value (y-axis). Use cases in upper-right quadrant represent &#39;Quick Wins&#39; - high value, low complexity implementations ideal for initial AI agent deployments." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="180" y="1270" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="op3" value="Expense Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#004085;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1299" y="493" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cs5" value="Multi-channel Support" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#155724;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="514" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="op4" value="Branch Operations Support" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#004085;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="540" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="misc2" value="Simple Notifications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=10;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="712" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,37 @@
+Element_ID,Element_Name,Element_Type,Stereotype,Parent_Category,Level,Hierarchy_Path
+rm-001,Resource Management,Container,Grouping,Root,1,Resource Management
+um-001,Unit Management,Container,Grouping,Resource Management,2,Resource Management > Unit Management
+um-002,Business Unit Direction,ServiceDomain,ServiceDomain,Unit Management,3,Resource Management > Unit Management > Business Unit Direction
+um-003,Business Unit Financial Operations,ServiceDomain,ServiceDomain,Unit Management,3,Resource Management > Unit Management > Business Unit Financial Operations
+um-004,Business Unit Management,ServiceDomain,ServiceDomain,Unit Management,3,Resource Management > Unit Management > Business Unit Management
+um-005,Business Unit Accounting,ServiceDomain,ServiceDomain,Unit Management,3,Resource Management > Unit Management > Business Unit Accounting
+um-006,Business Unit Financial Analysis,ServiceDomain,ServiceDomain,Unit Management,3,Resource Management > Unit Management > Business Unit Financial Analysis
+hr-001,Human Resources,Container,Grouping,Resource Management,2,Resource Management > Human Resources
+hr-002,Recruitment,ServiceDomain,ServiceDomain,Human Resources,3,Resource Management > Human Resources > Recruitment
+hr-003,Employee Payroll And Incentives,ServiceDomain,ServiceDomain,Human Resources,3,Resource Management > Human Resources > Employee Payroll And Incentives
+hr-004,Employee Assignment,ServiceDomain,ServiceDomain,Human Resources,3,Resource Management > Human Resources > Employee Assignment
+hr-005,Employee Benefits,ServiceDomain,ServiceDomain,Human Resources,3,Resource Management > Human Resources > Employee Benefits
+hr-006,Employee Evaluation,ServiceDomain,ServiceDomain,Human Resources,3,Resource Management > Human Resources > Employee Evaluation
+hr-007,Workforce Training,ServiceDomain,ServiceDomain,Human Resources,3,Resource Management > Human Resources > Workforce Training
+hr-008,Employee Certification,ServiceDomain,ServiceDomain,Human Resources,3,Resource Management > Human Resources > Employee Certification
+hr-009,Travel and Expenses,ServiceDomain,ServiceDomain,Human Resources,3,Resource Management > Human Resources > Travel and Expenses
+hr-010,Employee and Contractor Contract,ServiceDomain,ServiceDomain,Human Resources,3,Resource Management > Human Resources > Employee and Contractor Contract
+hr-011,Employee Access,ServiceDomain,ServiceDomain,Human Resources,3,Resource Management > Human Resources > Employee Access
+hr-012,Employee Data Management,ServiceDomain,ServiceDomain,Human Resources,3,Resource Management > Human Resources > Employee Data Management
+po-001,Platform Operations,Container,Grouping,Resource Management,2,Resource Management > Platform Operations
+po-002,Systems assurance,ServiceDomain,ServiceDomain,Platform Operations,3,Resource Management > Platform Operations > Systems assurance
+po-003,Internal Network Operation,ServiceDomain,ServiceDomain,Platform Operations,3,Resource Management > Platform Operations > Internal Network Operation
+po-004,System Deployment,ServiceDomain,ServiceDomain,Platform Operations,3,Resource Management > Platform Operations > System Deployment
+po-005,Platform Operations,ServiceDomain,ServiceDomain,Platform Operations,3,Resource Management > Platform Operations > Platform Operations
+po-006,Systems Operations,ServiceDomain,ServiceDomain,Platform Operations,3,Resource Management > Platform Operations > Systems Operations
+po-007,Systems Help Desk,ServiceDomain,ServiceDomain,Platform Operations,3,Resource Management > Platform Operations > Systems Help Desk
+po-008,Operational Gateway,ServiceDomain,ServiceDomain,Platform Operations,3,Resource Management > Platform Operations > Operational Gateway
+be-001,Buildings And Equipment,Container,Grouping,Resource Management,2,Resource Management > Buildings And Equipment
+be-002,Fixed Asset Register,ServiceDomain,ServiceDomain,Buildings And Equipment,3,Resource Management > Buildings And Equipment > Fixed Asset Register
+be-003,Utilities Administration,ServiceDomain,ServiceDomain,Buildings And Equipment,3,Resource Management > Buildings And Equipment > Utilities Administration
+be-004,Procurement,ServiceDomain,ServiceDomain,Buildings And Equipment,3,Resource Management > Buildings And Equipment > Procurement
+be-005,Site Operations,ServiceDomain,ServiceDomain,Buildings And Equipment,3,Resource Management > Buildings And Equipment > Site Operations
+be-006,Equipment Administration,ServiceDomain,ServiceDomain,Buildings And Equipment,3,Resource Management > Buildings And Equipment > Equipment Administration
+be-007,Site Administration,ServiceDomain,ServiceDomain,Buildings And Equipment,3,Resource Management > Buildings And Equipment > Site Administration
+be-008,Equipment Maintenance,ServiceDomain,ServiceDomain,Buildings And Equipment,3,Resource Management > Buildings And Equipment > Equipment Maintenance
+be-009,Building Maintenance,ServiceDomain,ServiceDomain,Buildings And Equipment,3,Resource Management > Buildings And Equipment > Building Maintenance

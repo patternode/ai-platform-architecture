@@ -1,0 +1,21 @@
+Element_ID,Element_Name,Element_Type,Stereotype,Parent_Category,Level,Hierarchy_Path
+chan2-001,Channels 2,Container,Grouping,Root,1,Channels 2
+cs-001,Channel Specific,Container,Grouping,Channels 2,2,Channels 2 > Channel Specific
+cs-002,ATM Network Operations,ServiceDomain,ServiceDomain,Channel Specific,3,Channels 2 > Channel Specific > ATM Network Operations
+cs-003,Branch Location Operations,ServiceDomain,ServiceDomain,Channel Specific,3,Channels 2 > Channel Specific > Branch Location Operations
+cs-004,Advanced Voice Services Operations,ServiceDomain,ServiceDomain,Channel Specific,3,Channels 2 > Channel Specific > Advanced Voice Services Operations
+cs-005,eBranch Operations,ServiceDomain,ServiceDomain,Channel Specific,3,Channels 2 > Channel Specific > eBranch Operations
+cs-006,Financial Gateway,ServiceDomain,ServiceDomain,Channel Specific,3,Channels 2 > Channel Specific > Financial Gateway
+cs-007,Card Terminal Administration,ServiceDomain,ServiceDomain,Channel Specific,3,Channels 2 > Channel Specific > Card Terminal Administration
+cs-008,Card Terminal Operation,ServiceDomain,ServiceDomain,Channel Specific,3,Channels 2 > Channel Specific > Card Terminal Operation
+serv-001,Servicing,Container,Grouping,Channels 2,2,Channels 2 > Servicing
+serv-002,Service Directory,ServiceDomain,ServiceDomain,Servicing,3,Channels 2 > Servicing > Service Directory
+serv-003,Contact Center Operations,ServiceDomain,ServiceDomain,Servicing,3,Channels 2 > Servicing > Contact Center Operations
+serv-004,Point of Service,ServiceDomain,ServiceDomain,Servicing,3,Channels 2 > Servicing > Point of Service
+serv-005,Interactive Help,ServiceDomain,ServiceDomain,Servicing,3,Channels 2 > Servicing > Interactive Help
+serv-006,Servicing Issue,ServiceDomain,ServiceDomain,Servicing,3,Channels 2 > Servicing > Servicing Issue
+serv-007,Servicing Event History,ServiceDomain,ServiceDomain,Servicing,3,Channels 2 > Servicing > Servicing Event History
+dist-001,Distribution,Container,Grouping,Channels 2,2,Channels 2 > Distribution
+dist-002,Product Inventory Distribution,ServiceDomain,ServiceDomain,Distribution,3,Channels 2 > Distribution > Product Inventory Distribution
+dist-003,Branch Currency Distribution,ServiceDomain,ServiceDomain,Distribution,3,Channels 2 > Distribution > Branch Currency Distribution
+dist-004,Correspondence,ServiceDomain,ServiceDomain,Distribution,3,Channels 2 > Distribution > Correspondence

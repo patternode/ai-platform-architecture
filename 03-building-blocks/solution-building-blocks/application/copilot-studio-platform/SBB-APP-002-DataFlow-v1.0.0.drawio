@@ -1,0 +1,247 @@
+<mxfile host="65bd71144e">
+    <diagram id="SBB-APP-002-DataFlow" name="Copilot Studio Data Flow">
+        <mxGraphModel dx="664" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" value="SBB-APP-002: Microsoft Copilot Studio - Data Flow Sequence (ServiceNow Integration)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="350" y="80" width="900" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="user" value="&lt;b&gt;User (Teams)&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="120" width="40" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="bot-service-box" value="&lt;b&gt;Azure Bot Service&lt;/b&gt;&lt;br&gt;Channel Connector" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1976D2;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="120" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="bot-service-line" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;strokeColor=#1976D2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="290" y="900" as="sourcePoint"/>
+                        <mxPoint x="290" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="copilot-box" value="&lt;b&gt;Copilot Studio&lt;/b&gt;&lt;br&gt;Agent Runtime" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#F57C00;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="120" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="copilot-line" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;strokeColor=#F57C00;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="490" y="900" as="sourcePoint"/>
+                        <mxPoint x="490" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="openai-box" value="&lt;b&gt;Azure OpenAI&lt;/b&gt;&lt;br&gt;GPT-5 Auto" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#C62828;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="120" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="openai-line" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;strokeColor=#C62828;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="690" y="900" as="sourcePoint"/>
+                        <mxPoint x="690" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-box" value="&lt;b&gt;Agent Flow&lt;/b&gt;&lt;br&gt;(Power Automate)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="120" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="flow-line" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;strokeColor=#2E7D32;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="890" y="900" as="sourcePoint"/>
+                        <mxPoint x="890" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="servicenow-box" value="&lt;b&gt;ServiceNow&lt;/b&gt;&lt;br&gt;Incident API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#00695C;" parent="1" vertex="1">
+                    <mxGeometry x="1020" y="120" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="servicenow-line" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;strokeColor=#00695C;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1090" y="900" as="sourcePoint"/>
+                        <mxPoint x="1090" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="dataverse-box" value="&lt;b&gt;Dataverse&lt;/b&gt;&lt;br&gt;Conversation Store" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EAF6;strokeColor=#5E35B1;" parent="1" vertex="1">
+                    <mxGeometry x="1220" y="120" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="dataverse-line" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;strokeColor=#5E35B1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1290" y="900" as="sourcePoint"/>
+                        <mxPoint x="1290" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="insights-box" value="&lt;b&gt;App Insights&lt;/b&gt;&lt;br&gt;Telemetry" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#C62828;" parent="1" vertex="1">
+                    <mxGeometry x="1420" y="120" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="insights-line" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;strokeColor=#C62828;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1490" y="900" as="sourcePoint"/>
+                        <mxPoint x="1490" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-1" value="1: User message&lt;br&gt;&quot;Create incident for...&quot;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#0066CC;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="120" y="220" as="sourcePoint"/>
+                        <mxPoint x="290" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-2" value="2: Route via Bot Framework&lt;br&gt;(HTTPS + JWT)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#0066CC;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="290" y="260" as="sourcePoint"/>
+                        <mxPoint x="490" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-3" value="3: Authenticate (Entra ID)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#0066CC;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="490" y="290" as="sourcePoint"/>
+                        <mxPoint x="490" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-4" value="4: Load conversation&lt;br&gt;context (OData)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#0066CC;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="490" y="340" as="sourcePoint"/>
+                        <mxPoint x="1290" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-4-resp" value="5: Return context" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#5E35B1;dashed=1;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1290" y="370" as="sourcePoint"/>
+                        <mxPoint x="490" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-6" value="6: Chat completion&lt;br&gt;(classify intent)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#0066CC;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="490" y="400" as="sourcePoint"/>
+                        <mxPoint x="690" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-6-resp" value="7: Intent: Create Incident" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#C62828;dashed=1;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="690" y="430" as="sourcePoint"/>
+                        <mxPoint x="490" y="430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-8" value="8: Trigger Agent Flow&lt;br&gt;(Invoke Action)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#0066CC;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="490" y="460" as="sourcePoint"/>
+                        <mxPoint x="890" y="460" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-9" value="9: Extract parameters&lt;br&gt;(GPT-5 Auto)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#0066CC;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="890" y="490" as="sourcePoint"/>
+                        <mxPoint x="690" y="490" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-9-resp" value="10: {title, description, priority}" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#C62828;dashed=1;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="690" y="520" as="sourcePoint"/>
+                        <mxPoint x="890" y="520" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-11" value="11: POST /api/now/table/incident&lt;br&gt;(OAuth 2.0, JSON)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#0066CC;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="890" y="550" as="sourcePoint"/>
+                        <mxPoint x="1090" y="550" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-11-resp" value="12: 201 Created&lt;br&gt;{incident_number, sys_id}" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#00695C;dashed=1;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1090" y="580" as="sourcePoint"/>
+                        <mxPoint x="890" y="580" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-13" value="13: Flow result&lt;br&gt;{success, incident_num}" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2E7D32;dashed=1;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="890" y="610" as="sourcePoint"/>
+                        <mxPoint x="490" y="610" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-14" value="14: Generate response&lt;br&gt;(GPT-5 Reasoning)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#0066CC;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="490" y="640" as="sourcePoint"/>
+                        <mxPoint x="690" y="640" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-14-resp" value="15: Response text" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#C62828;dashed=1;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="690" y="670" as="sourcePoint"/>
+                        <mxPoint x="490" y="670" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-16" value="16: Store conversation&lt;br&gt;(OData POST)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#0066CC;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="490" y="700" as="sourcePoint"/>
+                        <mxPoint x="1290" y="700" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-16-resp" value="17: ACK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#5E35B1;dashed=1;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1290" y="720" as="sourcePoint"/>
+                        <mxPoint x="490" y="720" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-18" value="18: Return response&lt;br&gt;(Bot Framework)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#0066CC;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="490" y="750" as="sourcePoint"/>
+                        <mxPoint x="290" y="750" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-19" value="19: Display response&lt;br&gt;in Teams" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#0066CC;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="290" y="780" as="sourcePoint"/>
+                        <mxPoint x="120" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-telemetry-1" value="20a: Telemetry (async)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#C62828;dashed=1;dashPattern=5 5;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="490" y="820" as="sourcePoint"/>
+                        <mxPoint x="1490" y="820" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-telemetry-2" value="20b: Telemetry (async)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#C62828;dashed=1;dashPattern=5 5;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="890" y="840" as="sourcePoint"/>
+                        <mxPoint x="1490" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="legend-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="920" width="1480" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-title" value="&lt;b&gt;Legend&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="100" y="930" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-request" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#0066CC;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="100" y="962.5" as="sourcePoint"/>
+                        <mxPoint x="140" y="962.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="legend-request-text" value="Synchronous Request" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="145" y="950" width="150" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-response" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#C62828;dashed=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="310" y="962.5" as="sourcePoint"/>
+                        <mxPoint x="350" y="962.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="legend-response-text" value="Synchronous Response" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="355" y="950" width="160" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-async" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#C62828;dashed=1;dashPattern=5 5;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="530" y="962.5" as="sourcePoint"/>
+                        <mxPoint x="570" y="962.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="legend-async-text" value="Asynchronous (Telemetry)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="575" y="950" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="summary-title" value="&lt;b&gt;Sequence Summary:&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="780" y="932" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="summary-content" value="20 steps | 3 Azure OpenAI calls (intent, extract, generate) | 1 ServiceNow API call | Protocols: HTTPS, Bot Framework, OAuth 2.0, OData | Observability: Application Insights" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="780" y="952" width="760" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="notation" value="Notation: UML 2.5 Sequence Diagram | SBB-APP-002 v1.0.0 | BNZ Enterprise Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
+                    <mxGeometry x="1060" y="1010" width="500" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

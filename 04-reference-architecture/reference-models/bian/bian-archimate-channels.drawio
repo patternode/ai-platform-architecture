@@ -1,0 +1,70 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Channels" id="channels">
+    <mxGraphModel dx="2017" dy="1181" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="chan-001" value="Channels" style="swimlane;startSize=30;fillColor=#b3e5fc;strokeColor=#666666;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="10" y="10" width="260" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="ip-001" value="Information Providers" style="swimlane;startSize=30;fillColor=#80cbc4;strokeColor=#666666;fontStyle=1;" parent="chan-001" vertex="1">
+          <mxGeometry x="10" y="50" width="240" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ip-002" value="Public Reference Data Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" parent="ip-001" vertex="1">
+          <mxGeometry x="10" y="40" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ip-003" value="Financial Instrument Reference Data Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" parent="ip-001" vertex="1">
+          <mxGeometry x="10" y="70" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ip-004" value="Financial Market Research" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" parent="ip-001" vertex="1">
+          <mxGeometry x="10" y="100" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ip-005" value="Competitor Analysis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" parent="ip-001" vertex="1">
+          <mxGeometry x="10" y="130" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ip-006" value="Financial Market Analysis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" parent="ip-001" vertex="1">
+          <mxGeometry x="10" y="160" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ip-007" value="Market Information Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" parent="ip-001" vertex="1">
+          <mxGeometry x="10" y="190" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ip-008" value="Market Data Switch Operation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" parent="ip-001" vertex="1">
+          <mxGeometry x="10" y="220" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ip-009" value="Information Provider Operation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" parent="ip-001" vertex="1">
+          <mxGeometry x="10" y="250" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xc-001" value="Cross Channel" style="swimlane;startSize=30;fillColor=#80cbc4;strokeColor=#666666;fontStyle=1;" parent="chan-001" vertex="1">
+          <mxGeometry x="10" y="350" width="240" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="xc-002" value="Customer Workbench" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" parent="xc-001" vertex="1">
+          <mxGeometry x="10" y="40" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xc-003" value="Contact Handler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" parent="xc-001" vertex="1">
+          <mxGeometry x="10" y="70" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xc-004" value="Session Dialogue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" parent="xc-001" vertex="1">
+          <mxGeometry x="10" y="100" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xc-005" value="Party Routing Profile" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" parent="xc-001" vertex="1">
+          <mxGeometry x="10" y="130" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xc-006" value="User Authentication" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" parent="xc-001" vertex="1">
+          <mxGeometry x="10" y="160" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xc-007" value="Customer Access Entitlement" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" parent="xc-001" vertex="1">
+          <mxGeometry x="10" y="190" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xc-008" value="Transaction Authorization" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" parent="xc-001" vertex="1">
+          <mxGeometry x="10" y="220" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xc-009" value="Channel Activity History" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" parent="xc-001" vertex="1">
+          <mxGeometry x="10" y="250" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xc-010" value="Processing Order" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" parent="xc-001" vertex="1">
+          <mxGeometry x="10" y="280" width="220" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

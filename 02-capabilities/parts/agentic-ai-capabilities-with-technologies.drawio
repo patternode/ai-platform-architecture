@@ -1,0 +1,130 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Agentic AI Capabilities - Technologies" id="agentic-ai-capabilities-tech">
+    <mxGraphModel dx="5450" dy="3148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="BNZ AI Platform: Agentic AI Capabilities &amp;amp; Technology Stack" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=#002F6B;fontColor=#FFFFFF;fontStyle=1;fontSize=23;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-970" width="1670" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="background" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-860" width="1690" height="790" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-header" value="1. AGENT PLATFORM INFRASTRUCTURE" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=#002F6B;fontColor=#FFFFFF;fontStyle=1;fontSize=18;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-910" width="650" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub1" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;1.1 Runtime Environment&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;AWS Bedrock AgentCore Runtime; Azure Container Apps/Functions; Kubernetes with agent operators; Serverless platforms (AWS Lambda, Azure Functions); Container orchestration (Docker, containerd)&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=13;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-850" width="230" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub2" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;1.2 Session Management&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;State management (Redis, DynamoDB); Checkpoint frameworks; Session stores (ElastiCache, Memcached); Workflow engines with state machines&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=13;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1562" y="-850" width="200" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub3" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;1.3 Identity &amp;amp; Access Management&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Azure AD/Entra ID, AWS IAM, Okta; OAuth 2.0, OpenID Connect; Service principals, managed identities; HashiCorp Vault, Azure Key Vault&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=13;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1349" y="-850" width="200" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub4" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;1.4 Gateway Services&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;API gateways (Kong, Ambassador, AWS API Gateway, Azure API Management); Service meshes (Istio, Linkerd); Integration platforms (MuleSoft, Apache Camel); Model Control Protocol (MCP)&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=13;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-696" width="230" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub5" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;1.5 Memory Services&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Vector databases (Pinecone, Weaviate, Chroma, Azure AI Search); Graph databases (Neo4j, Amazon Neptune, Azure Cosmos DB); Document stores (MongoDB, DynamoDB); Embedding models&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=13;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1562" y="-696" width="200" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub6" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;1.6 Observability Platform&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;APM tools (Datadog, New Relic, Dynatrace); OpenTelemetry; Logging (ELK Stack, Splunk, Azure Monitor); Metrics (Prometheus, Grafana, CloudWatch); Tracing (Jaeger, Zipkin)&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=13;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1349" y="-696" width="200" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-header" value="2. AGENT DEVELOPMENT FRAMEWORKS" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=#002F6B;fontColor=#FFFFFF;fontStyle=1;fontSize=18;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-1133" y="-910" width="400" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-sub1" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;2.1 High-Code Frameworks&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;LangGraph (graph workflows); CrewAI (role-based); LlamaIndex (RAG); AutoGen (multi-agent); Semantic Kernel (enterprise); Strands Agents (AWS-native)&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=13;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1133" y="-850" width="180" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-sub2" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;2.2 Low-Code Frameworks&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Microsoft Copilot Studio; Salesforce AgentForce; ServiceNow AI Platform; UiPath Agent Builder; Power Platform&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=13;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-943" y="-850" width="210" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-sub3" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;2.3 Framework Integration&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Model Control Protocol (MCP); API gateways for cross-framework routing; Integration platforms; Agent registries; Framework adapters&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=13;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1133" y="-696" width="180" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-sub4" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;2.4 Development Tools&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;IDEs (VS Code, JetBrains, Jupyter); Testing (Pytest, MLflow); CI/CD (GitHub Actions, Azure DevOps, GitLab CI); Version control (Git, GitHub, Azure Repos); Container tools (Docker, Kubernetes)&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=13;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-943" y="-696" width="210" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-header" value="3. AGENT RUNTIME CAPABILITIES" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=#002F6B;fontColor=#FFFFFF;fontStyle=1;fontSize=18;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-720" y="-910" width="590" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub1" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;3.1 Goals &amp;amp; Intents&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;LLMs (GPT-4, Claude, Llama); Intent classification (BERT, RoBERTa); Goal-oriented dialogue systems; Task planning frameworks (PDDL, HTN)&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=13;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-718" y="-850" width="170" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub2" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;3.2 Context &amp;amp; Memory&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Vector databases (Pinecone, Weaviate, Chroma); Knowledge graphs (Neo4j, Neptune); Embedding models; Memory architectures (MemoryBank, LangChain Memory)&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=13;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-537" y="-850" width="197" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub3" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;3.3 Planning &amp;amp; Coordination&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Planning algorithms (A*, STRIPS, GraphPlan); Workflow orchestration (Apache Airflow, Temporal); State machines; Multi-agent coordination frameworks&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=13;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-330" y="-850" width="200" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub4" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;3.4 Action &amp;amp; Tool Use&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;OpenAI Function Calling; LangChain Tools; API integration frameworks; Model Control Protocol (MCP); Enterprise service meshes&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=13;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-718" y="-696" width="170" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub5" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;3.5 Monitoring &amp;amp; Observability&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;APM (Datadog, New Relic); Logging (ELK, Splunk); Metrics (Prometheus, Grafana); Distributed tracing (Jaeger, Zipkin)&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=13;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-538" y="-696" width="198" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub6" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;3.6 Evaluation &amp;amp; Guardrails&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Model evaluation (MLflow, W&amp;amp;B); Policy engines (Open Policy Agent); Content filtering APIs; Automated testing; Human evaluation platforms&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=13;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-330" y="-696" width="200" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap4-header" value="4. AGENT ORCHESTRATION" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=18;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-524" width="750" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap4-sub1" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;4.1 Static Orchestration&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Workflow engines (Apache Airflow, Temporal, Camunda); Process modeling (BPMN, DMN); Service orchestration platforms; Static configuration management&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-469" width="240" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="cap4-sub2" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;4.2 Dynamic Orchestration&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Dynamic workflow engines; Service mesh (Istio, Linkerd); Container orchestration (Kubernetes); Event-driven architectures; Load balancing algorithms&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1550" y="-469" width="240" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="cap4-sub3" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;4.3 Intelligent Orchestration&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Reinforcement learning frameworks; AutoML platforms; Predictive analytics engines; Graph neural networks; Federated learning systems&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1300" y="-469" width="250" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-header" value="5. AGENT COMMUNICATION" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=18;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-1030" y="-524" width="900" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-sub1" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;5.1 User-to-Agent&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Conversational AI (Copilot Studio, Dialogflow); Speech services (Azure Speech, AWS Transcribe); Computer vision; NLU models; Personalization engines&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1030" y="-469" width="200" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-sub2" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;5.2 Service-to-Agent&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;API gateways (Kong, AWS API Gateway); Message queues (Kafka, RabbitMQ, Azure Service Bus); Service mesh; OAuth 2.0, OpenID Connect; Event streaming&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-820" y="-469" width="240" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-sub3" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;5.3 Agent-to-Agent&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Multi-agent frameworks (JADE, SPADE); Blockchain for consensus; P2P networking; Distributed consensus (Raft, PBFT); Message brokers&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-570" y="-469" width="200" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-sub4" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;5.4 Agent-to-Storage&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Multi-model databases (MongoDB, CosmosDB); Vector databases (Pinecone, Weaviate); Graph databases (Neo4j, Neptune); Caching (Redis, Memcached); Data integration platforms&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-360" y="-469" width="230" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="cap6-header" value="6. AUTONOMOUS AGENTS" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=18;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-310" width="750" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap6-sub1" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;6.1 Autonomous Decision-Making&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Reinforcement learning (PPO, DQN, A3C); Decision trees and rule engines; Probabilistic reasoning (Bayesian networks); Multi-armed bandits; Monte Carlo Tree Search (MCTS)&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-255" width="240" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="cap6-sub2" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;6.2 Guardrails &amp;amp; Safety&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Policy enforcement (Open Policy Agent, AWS IAM policies); Content moderation APIs; Model evaluation frameworks; Constraint satisfaction solvers; Circuit breaker patterns&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1550" y="-255" width="240" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="cap6-sub3" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;6.3 Human-in-the-Loop&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Workflow approval systems; Active learning platforms; Human feedback collection; Approval routing engines; Notification systems (email, Slack, Teams); Escalation frameworks&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1300" y="-255" width="250" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="cap7-header" value="7. AGENT SEGMENTATION" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=18;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-1030" y="-310" width="900" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap7-sub1" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;7.1 Standard Agents&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;LLM APIs (OpenAI, Anthropic, AWS Bedrock); Chat interfaces; Basic tool calling frameworks; Simple orchestration logic; Standard prompt engineering&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1030" y="-255" width="211" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="cap7-sub2" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;7.2 Worker Agents&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Task-specific models; Specialized tool integrations; API connectors; Data processing libraries; Microservice architectures for focused capabilities&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-804" y="-255" width="211" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="cap7-sub3" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;7.3 Manager Agents&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Orchestration frameworks (LangGraph, CrewAI); Task decomposition models; Agent coordination logic; Workflow management systems; Resource allocation algorithms&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-577" y="-255" width="211" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="cap7-sub4" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;7.4 Specialist Agents&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Fine-tuned domain models; Expert system frameworks; Domain-specific knowledge bases; Specialized reasoning engines; Industry-specific APIs and integrations&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#b1e5ec, #182e44);strokeColor=none;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-341" y="-255" width="211" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="BNZ AI Platform - Agentic AI Technology Stack | Version 1.0 | October 2025 | Owner: Technology Strategy &amp;amp; Architecture" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#5A5A5A;fontFamily=Arial;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="-1784" y="-90" width="555" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

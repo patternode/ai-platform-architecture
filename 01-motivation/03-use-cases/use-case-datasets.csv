@@ -1,0 +1,218 @@
+ID,Name,Description,Use Cases,Direction,Source,Destination,Volume,Frequency,Format,Interface Status,BIAN Domain
+DS-001,Customer Profile Data,Customer relationship and interaction data from CRM,"UC-001, UC-006, UC-007, UC-014, UC-017, UC-023, UC-024",Input,Salesforce CRM / CRM System,Various AI Platforms,Large,Real-time,JSON via API,Ready/Requires Work,Customer Management
+DS-002,Transaction History,Banking transaction and account balance data,"UC-001, UC-002, UC-004, UC-006, UC-011, UC-013, UC-019, UC-023, UC-024",Input/Both,Core Banking / Payment Systems,Various AI Platforms,Very large,Real-time,JSON via API,Ready/Requires Work,Account Management
+DS-003,Loan History / Credit Data,Lending portfolio and credit assessment data,"UC-001, UC-004, UC-005, UC-021",Input,Lending Platform / Credit Systems,Various AI Platforms,Large,Batch daily/Real-time,JSON,Ready/Requires Work,Loans and Deposits
+DS-004,Investment Portfolio Data,Investment account and performance data,UC-001,Input,Investment Platform,AI Platform,Large,Real-time,JSON,Ready,Investment Management
+DS-005,Market Data,Stock prices economic indicators and benchmarks,"UC-001, UC-003, UC-017, UC-021",Input,Market Data Systems / External Providers,Various AI Platforms,Streaming/Large,Real-time,JSON,Requires Work,Market Data
+DS-006,News and Media Data,Company news and industry trends,"UC-001, UC-011",Input,News & Media / External Feeds,AI Platform,Streaming,Real-time,RSS/API/JSON,Requires Work,Market Data
+DS-007,LinkedIn Professional Profile,Client professional profile and company updates,UC-001,Input,LinkedIn,AI Platform,On-demand,On-demand,API,Ready,Party
+DS-008,Meeting Brief,AI-generated client briefing with insights and opportunities,"UC-001, UC-017",Output,AI Platform,RM Dashboard,Large,On-demand,HTML/PDF,Requires Work,Customer Management
+DS-009,Opportunity List,Ranked cross-sell/upsell opportunities with reasoning,"UC-001, UC-006, UC-017",Output,AI Platform,RM Dashboard / CRM,Large,Real-time,JSON,Requires Work,Sales
+DS-010,Talking Points,Personalized questions and value propositions,UC-001,Output,AI Platform,RM Dashboard,Large,On-demand,Text,Requires Work,Sales
+DS-011,CRM Update,Auto-captured meeting notes and relationship updates,UC-001,Output,AI Platform,Salesforce CRM,Large,Post-meeting,JSON via API,Requires Work,Customer Management
+DS-012,Performance Metrics,RM productivity conversion rates and usage analytics,"UC-001, UC-007, UC-016",Output,AI Platform,Analytics Dashboard,Large,Daily,JSON,Requires Work,Business Analysis
+DS-013,Financial Records,General ledger trial balance and account balances,UC-002,Input,ERP System,AI Platform,Very large,Real-time,JSON via API,Requires Work,Finance
+DS-014,Control Data,Reconciliation records and control activities,UC-002,Input,Financial Control System,AI Platform,Large,Real-time,JSON via API,Requires Work,Finance
+DS-015,Business Unit Accounts,Department-level accounting data,UC-002,Input,Business Unit Accounting,AI Platform,Large,Batch daily,JSON via API,Requires Work,Business Command and Control
+DS-016,Contract Documents,Financial obligations and revenue terms,"UC-002, UC-018",Input,Document Management / Contract Management,AI Platform,Large,Batch daily/weekly,PDF/Word,Requires Work,Document Management and Archive
+DS-017,Exchange Rates and Interest Rates,Market data for financial calculations,UC-002,Input,External Feeds,AI Platform,Streaming,Real-time,JSON,Requires Work,Market Data
+DS-018,Financial Statements,P&L balance sheets cash flow statements,"UC-002, UC-004, UC-005, UC-021",Input/Output,ERP/Customer Submissions,Finance Portal / Credit System,Large,Monthly/On-demand,PDF/Excel/JSON,Requires Work,Finance
+DS-019,Reconciliation Results,Automated matching results and exceptions,UC-002,Output,AI Platform,Reconciliation Dashboard,Large,Daily,JSON,Requires Work,Account Management
+DS-020,Management Commentary,AI-generated narrative explanations,"UC-002, UC-015",Output,AI Platform,Executive Dashboard / Risk Reporting,Large,Monthly,HTML/PDF,Requires Work,Business Command and Control
+DS-021,Variance Analysis,Detailed variance breakdowns with explanations,UC-002,Output,AI Platform,Analytics Dashboard,Large,Monthly,JSON,Requires Work,Business Analysis
+DS-022,Audit Trail,Complete lineage and decision logs,"UC-002, UC-007, UC-008, UC-011, UC-012, UC-014, UC-015, UC-016, UC-018, UC-019, UC-020, UC-021, UC-023",Output,AI Platform,Audit System / GRC Platform,Very large,Real-time,JSON,Requires Work,Regulations and Compliance
+DS-023,Financial Performance Data,Business unit financials P&L and metrics,UC-003,Input,Data Warehouse,AI Platform,Very large,Real-time,JSON via API,Requires Work,Business Analysis
+DS-024,Customer Analytics Data,Customer portfolio behavior and segmentation,"UC-003, UC-006, UC-024",Input,Customer Data Platform / CRM,AI Platform,Very large,Real-time,JSON via API,Requires Work,Customer Management
+DS-025,Product Portfolio Data,Product performance adoption and metrics,"UC-003, UC-006, UC-024",Input,Product Systems,AI Platform,Large,Batch daily/Real-time,JSON via API,Requires Work,Product Management
+DS-026,Schema Metadata,Table definitions metric calculations and glossary,UC-003,Input,Data Catalog,AI Platform,Large,Batch daily,JSON,Requires Work,IT Management
+DS-027,Historical Analytics,Past reports queries and usage patterns,UC-003,Input,BI Platform,AI Platform,Very large,Batch daily,JSON,Ready,Business Analysis
+DS-028,Query Results,Natural language query responses with data,UC-003,Output,AI Platform,User Interface,Large,Real-time,JSON,Requires Work,Business Analysis
+DS-029,Visualizations,Auto-generated charts dashboards and reports,UC-003,Output,AI Platform,BI Platform,Large,Real-time,HTML/JSON,Requires Work,Business Analysis
+DS-030,Narratives,AI-generated insights and explanations,UC-003,Output,AI Platform,User Interface,Large,Real-time,Text/HTML,Requires Work,Business Analysis
+DS-031,Predictions,Forecasts trends and anomaly alerts,"UC-003, UC-015",Output,AI Platform,Analytics Dashboard / Risk Management,Large,Daily,JSON,Requires Work,Models
+DS-032,Usage Analytics,Query patterns user behavior and system performance,"UC-003, UC-009",Output,AI Platform,Admin Dashboard,Large,Real-time,JSON,Requires Work,IT Management
+DS-033,Credit Bureau Data,Credit scores payment history and inquiries,UC-004,Input,Credit Bureaus,AI Platform,Very large,Real-time,JSON via API,Requires Work,External Agency
+DS-034,Loan Applications,Application details and borrower information,"UC-004, UC-005",Input,Lending System / Loan Origination System,AI Platform,Large,Real-time,JSON via API/PDF,Requires Work,Loans and Deposits
+DS-035,Alternative Data,Open banking transactions and telco payments,UC-004,Input,Third-party Providers,AI Platform,Very large,Real-time,JSON via API,Requires Work,External Agency
+DS-036,Corporate Relationships,Ownership structures and beneficial owners,"UC-004, UC-011, UC-017, UC-021",Input,Registry Data / Company Registries,AI Platform,Large,Batch weekly/On-demand,JSON via API/PDF,Requires Work,Party
+DS-037,Portfolio Performance,Loan performance defaults and recoveries,UC-004,Input,Core Banking,AI Platform,Very large,Batch daily,JSON via API,Requires Work,Loans and Deposits
+DS-038,Credit Scores,ML-generated risk scores with confidence intervals,UC-004,Output,AI Platform,Lending System,Large,Real-time,JSON via API,Requires Work,Models
+DS-039,Credit Decisions,Approval/decline recommendations with reasoning,UC-004,Output,AI Platform,Underwriter Workbench,Large,Real-time,JSON,Requires Work,Sales
+DS-040,Explanations,SHAP values and counterfactual explanations,UC-004,Output,AI Platform,Underwriter Interface,Large,Real-time,JSON,Requires Work,Models
+DS-041,Credit Memos,Auto-generated credit memos with analysis,"UC-004, UC-021",Output,AI Platform,Document Management / Credit Platform,Large,On-demand,PDF/Word,Requires Work,Trade Banking
+DS-042,Portfolio Risk Metrics,Aggregated risk metrics and early warnings,UC-004,Output,AI Platform,Risk Dashboard,Large,Daily,JSON,Requires Work,Models
+DS-043,Bank Statements,Transaction history and account balances,UC-005,Input,Customer Submissions,AI Platform,Very large,Batch daily,PDF,Requires Work,Document Management and Archive
+DS-044,Income Documents,Pay stubs tax returns and employment letters,UC-005,Input,Customer Submissions,AI Platform,Large,Batch daily,PDF/Images,Requires Work,Document Management and Archive
+DS-045,Credit Reports,Credit bureau reports and credit scores,UC-005,Input,Credit Bureau APIs,AI Platform,Large,Real-time,PDF/JSON,Requires Work,External Agency
+DS-046,Identity Documents,Drivers licenses passports and national IDs,"UC-005, UC-014",Input,Customer Submissions / Customer Upload,AI Platform,Large,Real-time,Images/PDF,Requires Work,Party
+DS-047,Extracted Data,Structured data extracted from documents,UC-005,Output,AI Platform,Loan Origination System,Large,Real-time,JSON via API,Requires Work,Loans and Deposits
+DS-048,Confidence Scores,Field-level confidence scores for review,UC-005,Output,AI Platform,Review Queue System,Large,Real-time,JSON,Requires Work,Models
+DS-049,Fraud Alerts,Suspicious document alerts with forensics analysis,"UC-005, UC-011, UC-013, UC-019",Output,AI Platform,Fraud Review System / Fraud Management,Large/Streaming,Real-time,JSON,Requires Work,Account Management
+DS-050,Validation Results,Business rule validation outcomes,UC-005,Output,AI Platform,Underwriting System,Large,Real-time,JSON via API,Requires Work,Sales
+DS-051,Processing Metrics,Extraction accuracy processing time and throughput,"UC-005, UC-007",Output,AI Platform,Analytics Dashboard,Large,Daily,JSON,Requires Work,IT Management
+DS-052,Campaign Interaction Data,Email opens clicks and offer responses,UC-006,Input,Marketing Automation,AI Platform,Large,Real-time,JSON via API,Requires Work,Marketing
+DS-053,Session Data,Website and app interactions browsing behavior,"UC-006, UC-024",Input,Digital Analytics / Mobile App,AI Platform,Very large,Real-time,JSON via API,Requires Work,Cross Channel
+DS-054,Life Event Signals,External data indicating major life changes,UC-006,Input,Third-party Data,AI Platform,Large,Batch daily,JSON via API,Requires Work,Customer Management
+DS-055,Personalized Offers,Real-time next-best-action recommendations,"UC-006, UC-024",Output,AI Platform,Digital Channels / Mobile App,Very large,Real-time,JSON,Requires Work,Marketing
+DS-056,Generated Content,Personalized messages and creative variants,"UC-006, UC-024",Output,AI Platform,Marketing Platforms,Large,Real-time,JSON/HTML/Text,Requires Work,Marketing
+DS-057,Propensity Scores,Churn affinity and engagement predictions,"UC-006, UC-017, UC-023",Output,AI Platform,CRM System,Large,Daily,JSON,Requires Work,Models
+DS-058,Campaign Performance,Conversion metrics and attribution data,UC-006,Output,AI Platform,Analytics Dashboard,Large,Real-time,JSON,Requires Work,Marketing
+DS-059,Customer Insights,Segment analysis and journey analytics,"UC-006, UC-017, UC-024",Output,AI Platform,Business Intelligence / Dashboard,Large,Daily/Real-time,JSON,Requires Work,Customer Management
+DS-060,Call Recordings,Voice recordings from customer calls,UC-007,Input,Contact Center Platform,AI Platform,Very large,Real-time,Audio/WAV,Requires Work,Channel Specific
+DS-061,Chat Transcripts,Digital chat conversation logs,UC-007,Input,Chat Platform,AI Platform,Large,Real-time,Text/JSON,Requires Work,Cross Channel
+DS-062,Knowledge Articles,Policies procedures and product information,"UC-007, UC-016",Input,Knowledge Base / Knowledge Platform,AI Platform,Large,Batch daily,JSON/HTML/Text,Requires Work,Knowledge and Intellectual Property
+DS-063,Agent Profiles,Skills performance and availability,UC-007,Input,Workforce Management,AI Platform,Large,Real-time,JSON via API,Requires Work,Human Resource Management
+DS-064,Case Records,Historical case resolutions,UC-007,Input,Case Management,AI Platform,Very large,Batch daily,JSON via API,Requires Work,Servicing
+DS-065,Call Summaries,AI-generated call summaries with structured data,UC-007,Output,AI Platform,CRM System,Very large,Real-time,JSON via API,Requires Work,Customer Management
+DS-066,Agent Guidance,Real-time knowledge and recommendations,UC-007,Output,AI Platform,Agent Desktop,Very large,Real-time,JSON,Requires Work,Servicing
+DS-067,Quality Scores,Automated quality assessment results,"UC-007, UC-012",Output,AI Platform,Quality Management,Large,Daily,JSON,Requires Work,Product Management
+DS-068,Sentiment Analysis,Customer emotion and satisfaction indicators,UC-007,Output,AI Platform,Analytics Dashboard,Large,Real-time,JSON,Requires Work,Customer Management
+DS-069,Security Logs,Network traffic firewall IDS/IPS and endpoint logs,"UC-008, UC-012",Input,Security Infrastructure / IT Systems,AI Platform,Very large,Real-time,Syslog/JSON,Requires Work,Non-IT and Non-HR Enterprise Services
+DS-070,User Activity,Authentication access and privileged actions,"UC-008, UC-016",Input,Identity Systems / Directory Services,AI Platform,Very large,Real-time,JSON via API,Requires Work,Cross Channel
+DS-071,Threat Intelligence,IOCs threat actor TTPs and vulnerability data,UC-008,Input,Threat Feeds,AI Platform,Streaming,Real-time,STIX/TAXII,Requires Work,Non-IT and Non-HR Enterprise Services
+DS-072,Application Logs,Application events API calls and errors,"UC-008, UC-016",Input,Application Infrastructure,AI Platform,Very large,Real-time,JSON,Requires Work,IT Management
+DS-073,Endpoint Telemetry,Process execution file activity and registry changes,UC-008,Input,EDR Systems,AI Platform,Very large,Real-time,JSON,Requires Work,Non-IT and Non-HR Enterprise Services
+DS-074,Email Data,Email headers and content for phishing detection,UC-008,Input,Email Gateway,AI Platform,Large,Real-time,MIME/JSON,Requires Work,Non-IT and Non-HR Enterprise Services
+DS-075,Threat Alerts,Prioritized security alerts with risk scores,UC-008,Output,AI Platform,SIEM Platform,Large,Real-time,JSON,Requires Work,Non-IT and Non-HR Enterprise Services
+DS-076,Incident Reports,AI-generated incident summaries,"UC-008, UC-015",Output,AI Platform,Incident Management / Risk Management,Large,Real-time,JSON/HTML,Requires Work,Models
+DS-077,Risk Scores,User device and application risk assessments,"UC-008, UC-011, UC-015",Output,AI Platform,IAM Systems / Risk Management,Large,Real-time/Daily,JSON via API,Requires Work,Models
+DS-078,Security Metrics,Threat metrics detection rates and response times,UC-008,Output,AI Platform,Security Dashboard,Large,Daily,JSON,Requires Work,Non-IT and Non-HR Enterprise Services
+DS-079,Compliance Reports,Automated compliance and audit reports,"UC-008, UC-012, UC-020",Output,AI Platform,GRC Platform / Compliance Platform,Large,Monthly/Quarterly,PDF/JSON,Requires Work,Regulations and Compliance
+DS-080,Raw Data Assets,Source data from operational systems,UC-009,Input,Enterprise Data Sources,AI Platform,Very large,Real-time/Batch,Various,Requires Work,IT Management
+DS-081,Data Catalog Metadata,Schema definitions lineage and ownership,UC-009,Input,Data Catalog,AI Platform,Large,Batch daily,JSON,Requires Work,IT Management
+DS-082,Business Glossary,Business terms definitions and mappings,UC-009,Input,Data Governance,AI Platform,Large,Batch weekly,JSON,Requires Work,Knowledge and Intellectual Property
+DS-083,Quality Rules,Existing validation rules and expectations,UC-009,Input,Quality Systems,AI Platform,Large,Batch daily,JSON/SQL,Requires Work,IT Management
+DS-084,User Feedback,Data quality issues and enhancement requests,UC-009,Input,Ticketing System,AI Platform,Large,Batch daily,JSON,Requires Work,Servicing
+DS-085,Data Products,Curated documented and quality-assured datasets,UC-009,Output,AI Platform,Data Consumers,Large,Batch/Real-time,Various,Requires Work,IT Management
+DS-086,Data Contracts,Schema definitions SLAs and compatibility specs,UC-009,Output,AI Platform,Data Platform,Large,On-change,JSON,Requires Work,IT Management
+DS-087,Quality Reports,Data quality scores and anomaly alerts,"UC-009, UC-012",Output,AI Platform,Data Observability,Large,Daily,JSON,Requires Work,IT Management
+DS-088,Documentation,Auto-generated data product documentation,UC-009,Output,AI Platform,Data Catalog,Large,On-change,Markdown/HTML,Requires Work,Knowledge and Intellectual Property
+DS-089,Lineage Metadata,End-to-end data lineage and impact analysis,UC-009,Output,AI Platform,Governance Platform,Large,Real-time,JSON,Requires Work,IT Management
+DS-090,Source Code,Application code repositories,UC-010,Input,Git Systems,AI Platform,Very large,Real-time,Text files,Ready,IT Management
+DS-091,Requirements,User stories specifications and business requirements,UC-010,Input,Project Management,AI Platform,Large,Batch daily,Text/JSON,Requires Work,Business Direction
+DS-092,Test Results,Unit integration and system test outcomes,UC-010,Input,CI/CD Pipeline,AI Platform,Very large,Real-time,JSON/XML,Ready,IT Management
+DS-093,Security Scans,Vulnerability assessment results,UC-010,Input,Security Tools,AI Platform,Large,Real-time,JSON,Requires Work,Non-IT and Non-HR Enterprise Services
+DS-094,Code Reviews,Historical review comments and feedback,UC-010,Input,Code Review Tools,AI Platform,Large,Batch daily,JSON,Requires Work,IT Management
+DS-095,Deployment Logs,Release history incidents and rollbacks,UC-010,Input,Deployment Systems,AI Platform,Very large,Real-time,JSON,Requires Work,IT Management
+DS-096,Generated Code,AI-generated code suggestions and implementations,UC-010,Output,AI Platform,IDE/Git,Very large,Real-time,Source code,Requires Work,IT Management
+DS-097,Test Suites,Auto-generated test cases and data,UC-010,Output,AI Platform,Test Framework,Very large,Real-time,Test code,Requires Work,IT Management
+DS-098,Generated Documentation,Auto-generated technical documentation,"UC-010, UC-022",Output,AI Platform,Documentation Platform,Large,On-change,Markdown/HTML,Requires Work,Knowledge and Intellectual Property
+DS-099,Security Findings,Vulnerability reports with remediation,UC-010,Output,AI Platform,Security Dashboard,Large,Real-time,JSON,Requires Work,Non-IT and Non-HR Enterprise Services
+DS-100,Quality Metrics,Code quality coverage and technical debt metrics,UC-010,Output,AI Platform,Analytics Dashboard,Large,Daily,JSON,Requires Work,IT Management
+DS-101,Customer KYC Data,KYC information profiles and relationships,"UC-011, UC-014",Input,CRM/KYC Systems,AI Platform,Large,Batch daily/Real-time,JSON via API,Requires Work,Party
+DS-102,Sanctions Lists,Global sanctions PEP and adverse media lists,"UC-011, UC-014",Input,External Providers,AI Platform,Large,Daily updates,CSV/JSON,Requires Work,Regulations and Compliance
+DS-103,Historical Cases,Prior SAR/STR filings and investigations,UC-011,Input,Case Management,AI Platform,Large,Batch daily,JSON,Requires Work,Regulations and Compliance
+DS-104,External Intelligence,Threat intelligence and typology updates,UC-011,Input,Fincrime Networks,AI Platform,Streaming,Real-time,JSON,Requires Work,Regulations and Compliance
+DS-105,Screening Alerts,Name screening match alerts with risk scores,UC-011,Output,AI Platform,Case Management,Large,Real-time,JSON,Requires Work,Regulations and Compliance
+DS-106,Transaction Alerts,Suspicious activity alerts with evidence,UC-011,Output,AI Platform,Investigation Platform,Large,Real-time,JSON,Requires Work,Regulations and Compliance
+DS-107,SAR/STR Reports,Regulatory filings with supporting documentation,UC-011,Output,AI Platform,Regulatory Systems,Streaming,On-trigger,XML/PDF,Requires Work,Regulations and Compliance
+DS-108,Process Logs,Workflow execution logs and audit trails,"UC-012, UC-016",Input,Process Engines / Workflow Management,AI Platform,Very large,Real-time,JSON,Requires Work,IT Management
+DS-109,Regulatory Documents,Policies procedures and compliance requirements,"UC-012, UC-020, UC-022",Input,Document Management / Policy Repository,AI Platform,Large,Batch monthly/quarterly,PDF/Word/Text,Requires Work,Regulations and Compliance
+DS-110,Quality Metrics,Historical quality KPIs and defect data,UC-012,Input,Quality Systems,AI Platform,Large,Batch daily,JSON,Requires Work,Product Management
+DS-111,Test Results,Automated and manual test outcomes,"UC-012, UC-020",Input/Output,Testing Platforms,AI Platform,Very large,Real-time,JSON/XML,Requires Work,IT Management
+DS-112,Customer Documents,Forms applications and identification documents,UC-012,Input,Document Systems,AI Platform,Very large,Batch daily,PDF/Images,Requires Work,Document Management and Archive
+DS-113,Quality Alerts,Data quality and compliance issue alerts,UC-012,Output,AI Platform,Operations Dashboard,Large,Real-time,JSON,Requires Work,Regulations and Compliance
+DS-114,Defect Reports,Automated defect detection and classification,UC-012,Output,AI Platform,Defect Management,Large,Real-time,JSON,Requires Work,Product Management
+DS-115,Quality Dashboards,Quality KPIs trends and predictive insights,UC-012,Output,AI Platform,Analytics Platform,Large,Real-time,JSON,Requires Work,Business Analysis
+DS-116,Customer Behavior,Historical transaction patterns and login activity,UC-013,Input,Behavioral Analytics,AI Platform,Very large,Real-time,JSON via API,Requires Work,Customer Management
+DS-117,Device Data,Device fingerprints IP addresses and geolocation,UC-013,Input,Fraud Platform,AI Platform,Very large,Real-time,JSON,Requires Work,Account Management
+DS-118,Account Relationships,Account linkages and beneficial ownership,UC-013,Input,Customer Data,AI Platform,Large,Batch daily,JSON via API,Requires Work,Party
+DS-119,Historical Fraud,Prior fraud cases and investigation outcomes,UC-013,Input,Fraud Management,AI Platform,Large,Batch daily,JSON,Requires Work,Account Management
+DS-120,External Threat Intelligence,Fraud threat intelligence and compromised credentials,UC-013,Input,Threat Feeds,AI Platform,Streaming,Real-time,JSON,Requires Work,Account Management
+DS-121,Fraud Scores,Real-time fraud risk scores and decisions,UC-013,Output,AI Platform,Transaction Systems,Very large,Real-time,JSON via API,Requires Work,Models
+DS-122,Investigation Reports,AI-generated case reports with evidence,UC-013,Output,AI Platform,Fraud Platform,Large,Real-time,JSON/PDF,Requires Work,Account Management
+DS-123,Fraud Intelligence,Fraud patterns attack trends and network analysis,UC-013,Output,AI Platform,Analytics Dashboard,Large,Daily,JSON,Requires Work,Account Management
+DS-124,Customer Communications,Fraud alert notifications and verification requests,"UC-013, UC-019, UC-023",Output,AI Platform,Communication Platform,Large/Very large,Real-time,JSON/Text/Email/HTML,Requires Work,Servicing
+DS-125,Proof of Address,Utility bills and bank statements,UC-014,Input,Customer Upload,AI Platform,Large,Real-time,Images/PDF,Requires Work,Party
+DS-126,Biometric Data,Facial images and voice samples,UC-014,Input,Capture Apps,AI Platform,Large,Real-time,Images/Audio,Requires Work,Cross Channel
+DS-127,Application Data,Customer-provided information,UC-014,Input,Application Forms,AI Platform,Large,Real-time,JSON,Ready,Sales
+DS-128,Credit Bureau Data for Onboarding,Credit history and verification,UC-014,Input,Credit Bureaus,AI Platform,Large,Real-time,JSON/XML,Requires Work,External Agency
+DS-129,Verified Profiles,Completed customer profiles with verification status,UC-014,Output,AI Platform,Core Banking,Large,Real-time,JSON via API,Requires Work,Party
+DS-130,Risk Assessments,Onboarding fraud risk scores and decisions,UC-014,Output,AI Platform,Risk Management,Large,Real-time,JSON,Requires Work,Models
+DS-131,KYC Records,Compliance documentation and verification evidence,UC-014,Output,AI Platform,KYC Systems,Large,Real-time,JSON/PDF,Requires Work,Regulations and Compliance
+DS-132,Analytics Data,Onboarding metrics and conversion funnels,UC-014,Output,AI Platform,Analytics Dashboard,Large,Daily,JSON,Requires Work,Business Analysis
+DS-133,Operational Data,Transaction logs system events and process metrics,UC-015,Input,Core Systems,AI Platform,Very large,Real-time,JSON,Requires Work,Operational Services
+DS-134,Incident Reports,Historical incidents near-misses and losses,UC-015,Input,Risk Management,AI Platform,Large,Batch daily,Text/JSON,Requires Work,Models
+DS-135,Control Documentation,Control descriptions test results and effectiveness,"UC-015, UC-020",Input,GRC Systems,AI Platform,Large,Batch weekly,JSON/PDF,Requires Work,Regulations and Compliance
+DS-136,External Events,Market events cyber threats and regulatory changes,UC-015,Input,External Feeds,AI Platform,Streaming,Real-time,JSON,Requires Work,Market Data
+DS-137,Audit Findings,Internal and external audit results,"UC-015, UC-020",Input,Audit Systems,AI Platform,Large,Batch monthly,PDF/JSON,Requires Work,Non-IT and Non-HR Enterprise Services
+DS-138,Historical Risk Assessments,Historical risk assessments and scores,UC-015,Input,Risk Platform,AI Platform,Large,Batch weekly,JSON,Requires Work,Models
+DS-139,Risk Alerts,Emerging risk and control failure alerts,UC-015,Output,AI Platform,Risk Dashboard,Large,Real-time,JSON,Requires Work,Models
+DS-140,Risk Assessments,AI-assisted risk assessment results,UC-015,Output,AI Platform,Risk Management,Large,Daily,JSON,Requires Work,Models
+DS-141,Risk Reports,Automated risk narratives and summaries,UC-015,Output,AI Platform,Executive Reporting,Large,Monthly,PDF/JSON,Requires Work,Models
+DS-142,Control Test Results,Automated control testing outcomes,"UC-015, UC-020",Output,AI Platform,GRC Platform,Large,Daily,JSON,Requires Work,Regulations and Compliance
+DS-143,Risk Analytics,Risk metrics trends and predictive insights,UC-015,Output,AI Platform,Analytics Platform,Large,Daily,JSON,Requires Work,Models
+DS-144,Service Tickets,IT support tickets and incident reports,UC-016,Input,ITSM Platform,AI Platform,Very large,Real-time,JSON via API,Requires Work,IT Management
+DS-145,Infrastructure Metrics,Server network and application performance data,UC-016,Input,Monitoring Systems,AI Platform,Very large,Real-time,JSON/Prometheus,Requires Work,IT Management
+DS-146,System Logs,Application and infrastructure logs,UC-016,Input,Log Management,AI Platform,Very large,Real-time,Text/JSON,Requires Work,IT Management
+DS-147,Configuration Data,System configurations and change records,UC-016,Input,CMDB,AI Platform,Large,Batch daily,JSON,Requires Work,IT Management
+DS-148,Incident Alerts,AI-detected incidents with root cause analysis,UC-016,Output,AI Platform,ITSM Platform,Large,Real-time,JSON,Requires Work,IT Management
+DS-149,Resolution Recommendations,Automated troubleshooting guidance,UC-016,Output,AI Platform,Service Desk,Large,Real-time,JSON,Requires Work,IT Management
+DS-150,Knowledge Articles Generated,Auto-generated IT documentation,UC-016,Output,AI Platform,Knowledge Base,Large,Daily,HTML/Markdown,Requires Work,Knowledge and Intellectual Property
+DS-151,Capacity Forecasts,Predictive resource requirements,UC-016,Output,AI Platform,Capacity Planning,Large,Weekly,JSON,Requires Work,IT Management
+DS-152,Operations Metrics,IT operations KPIs and analytics,UC-016,Output,AI Platform,Dashboard,Large,Real-time,JSON,Requires Work,IT Management
+DS-153,Client Data,Account information relationships and transaction history,UC-017,Input,CRM/Core Banking,AI Platform,Very large,Real-time,JSON via API,Requires Work,Customer Management
+DS-154,Communications,Email meeting notes and call logs,UC-017,Input,Communication Systems,AI Platform,Very large,Real-time,Text/JSON,Requires Work,Customer Management
+DS-155,Market Intelligence,Industry reports and competitive analysis,"UC-017, UC-018",Input,Research Platforms / External Providers,AI Platform,Large/Streaming,Batch daily/Daily,PDF/Text/JSON,Requires Work,Business Analysis
+DS-156,Deal Data,Pipeline proposals and contracts,UC-017,Input,Deal Management,AI Platform,Large,Real-time,JSON,Requires Work,Corporate Financing and Advisory Services
+DS-157,Client Briefings,AI-generated meeting preparation materials,UC-017,Output,AI Platform,RM Desktop,Large,On-demand,PDF/HTML,Requires Work,Customer Management
+DS-158,Pitch Books,Automated presentation materials,UC-017,Output,AI Platform,Collaboration Platform,Large,On-demand,PowerPoint/PDF,Requires Work,Sales
+DS-159,Opportunity Alerts,Predictive cross-sell and growth opportunities,UC-017,Output,AI Platform,CRM System,Large,Daily,JSON,Requires Work,Sales
+DS-160,Market Reports,Automated industry and competitive analysis,UC-017,Output,AI Platform,Research Library,Large,Weekly,PDF,Requires Work,Business Analysis
+DS-161,Purchase Requisitions,Internal purchase requests,UC-018,Input,Procurement System,AI Platform,Large,Real-time,JSON via API,Requires Work,Non-IT and Non-HR Enterprise Services
+DS-162,Supplier Data,Vendor information contracts and performance,UC-018,Input,Supplier Management,AI Platform,Large,Batch daily,JSON,Requires Work,External Agency
+DS-163,Invoices,Supplier invoices for payment,UC-018,Input,AP Systems,AI Platform,Very large,Real-time,PDF/Images,Requires Work,Non-IT and Non-HR Enterprise Services
+DS-164,Spend Data,Historical spend and transactions,UC-018,Input,ERP System,AI Platform,Very large,Batch daily,JSON,Requires Work,Finance
+DS-165,Purchase Orders,Approved POs ready for supplier transmission,UC-018,Output,AI Platform,Procurement System,Large,Real-time,JSON,Requires Work,Non-IT and Non-HR Enterprise Services
+DS-166,Contract Analysis,Risk assessments and term summaries,UC-018,Output,AI Platform,Contract Repository,Large,On-demand,JSON/PDF,Requires Work,Non-IT and Non-HR Enterprise Services
+DS-167,Payment Instructions,Approved invoices for payment processing,UC-018,Output,AI Platform,AP System,Very large,Real-time,JSON,Requires Work,Payments
+DS-168,Spend Reports,Analytics and optimization recommendations,UC-018,Output,AI Platform,Dashboard,Large,Daily,JSON,Requires Work,Business Analysis
+DS-169,Risk Alerts Procurement,Supplier risk and compliance alerts,UC-018,Output,AI Platform,Risk Management,Large,Real-time,JSON,Requires Work,External Agency
+DS-170,Dispute Requests,Customer dispute submissions,UC-019,Input,Dispute System,AI Platform,Large,Real-time,JSON,Requires Work,Servicing
+DS-171,Merchant Data,Merchant profiles policies and contacts,UC-019,Input,Merchant Database,AI Platform,Large,Batch daily,JSON,Requires Work,Cards
+DS-172,Historical Disputes,Past dispute outcomes and resolutions,UC-019,Input,Dispute Management,AI Platform,Very large,Batch daily,JSON,Requires Work,Servicing
+DS-173,Supporting Documents,Receipts statements and proof documents,UC-019,Input,Document System,AI Platform,Very large,Real-time,Images/PDF,Requires Work,Document Management and Archive
+DS-174,Dispute Decisions,Automated resolution decisions,UC-019,Output,AI Platform,Dispute System,Large,Real-time,JSON,Requires Work,Servicing
+DS-175,Chargeback Files,Merchant chargeback submissions,UC-019,Output,AI Platform,Payment Network,Large,Real-time,JSON/XML,Requires Work,Cards
+DS-176,Analytics Reports,Dispute metrics trends and performance,UC-019,Output,AI Platform,Dashboard,Large,Daily,JSON,Requires Work,Business Analysis
+DS-177,Access Records,User access and privilege information,UC-020,Input,IAM Systems,AI Platform,Very large,Real-time,JSON,Requires Work,Cross Channel
+DS-178,Historical Test Results,Prior control test outcomes,UC-020,Input,Audit Platform,AI Platform,Large,Batch monthly,JSON,Requires Work,Non-IT and Non-HR Enterprise Services
+DS-179,Control Alerts,Real-time control failure and effectiveness alerts,UC-020,Output,AI Platform,GRC Dashboard,Streaming,Real-time,JSON,Requires Work,Regulations and Compliance
+DS-180,Audit Reports,Automated audit documentation and summaries,UC-020,Output,AI Platform,Audit Repository,Large,Monthly,PDF/JSON,Requires Work,Non-IT and Non-HR Enterprise Services
+DS-181,Evidence Packages,Organized evidence collections for audits,UC-020,Output,AI Platform,Evidence Management,Large,On-demand,ZIP/PDF,Requires Work,Non-IT and Non-HR Enterprise Services
+DS-182,Corporate Documents,Legal structures and ownership information,UC-021,Input,Company Registries,AI Platform,Large,On-demand,PDF,Requires Work,Party
+DS-183,Credit Applications,Loan requests and supporting documentation,UC-021,Input,Lending Platform,AI Platform,Large,Real-time,JSON,Requires Work,Trade Banking
+DS-184,Credit Policies,Underwriting policies and guidelines,UC-021,Input,Policy Repository,AI Platform,Large,Batch quarterly,PDF/Text,Requires Work,Trade Banking
+DS-185,Historical Deals,Precedent transactions and outcomes,UC-021,Input,Credit Archive,AI Platform,Very large,Batch monthly,JSON,Requires Work,Trade Banking
+DS-186,Spread Financials,Structured financial data with ratios,UC-021,Output,AI Platform,Credit System,Large,On-demand,JSON,Requires Work,Trade Banking
+DS-187,Credit Scores ML,ML-based credit risk assessments,UC-021,Output,AI Platform,Risk Management,Large,On-demand,JSON,Requires Work,Models
+DS-188,Structure Maps,Corporate ownership visualizations,UC-021,Output,AI Platform,Credit Dashboard,Large,On-demand,JSON/Graph,Requires Work,Party
+DS-189,Risk Reports,Credit risk analysis and recommendations,UC-021,Output,AI Platform,Credit Committee,Large,On-demand,PDF,Requires Work,Trade Banking
+DS-190,Policy Documents,Policies procedures and regulations,UC-022,Input,Policy Repository,AI Platform,Large,Batch quarterly,PDF/Word,Requires Work,Knowledge and Intellectual Property
+DS-191,Learner Profiles,Employee roles skills and development plans,UC-022,Input,HR Systems,AI Platform,Large,Batch daily,JSON via API,Requires Work,Human Resource Management
+DS-192,Learning Activity,Course interactions assessments and progress,UC-022,Input,LMS Platform,AI Platform,Very large,Real-time,JSON,Requires Work,Human Resource Management
+DS-193,Competency Frameworks,Skills taxonomy and role requirements,UC-022,Input,Talent Management,AI Platform,Large,Batch quarterly,JSON,Requires Work,Human Resource Management
+DS-194,Subject Matter Content,Expert-created materials and resources,UC-022,Input,Content Library,AI Platform,Large,On-demand,Various,Requires Work,Knowledge and Intellectual Property
+DS-195,Assessment Results,Quiz scores test outcomes and certifications,UC-022,Input,Assessment Engine,AI Platform,Large,Real-time,JSON,Requires Work,Human Resource Management
+DS-196,Learning Content,AI-generated courses and materials,UC-022,Output,AI Platform,LMS Platform,Large,On-demand,SCORM/xAPI,Requires Work,Human Resource Management
+DS-197,Learning Paths,Personalized curriculum recommendations,UC-022,Output,AI Platform,LMS Platform,Large,Real-time,JSON,Requires Work,Human Resource Management
+DS-198,Assessments Generated,AI-generated quizzes and tests,UC-022,Output,AI Platform,Assessment Engine,Large,On-demand,JSON,Requires Work,Human Resource Management
+DS-199,Skills Data,Competency assessments and gap analysis,UC-022,Output,AI Platform,Talent Management,Large,Daily,JSON via API,Requires Work,Human Resource Management
+DS-200,Analytics Reports Learning,Learning effectiveness and ROI metrics,UC-022,Output,AI Platform,Dashboard,Large,Weekly,JSON,Requires Work,Business Analysis
+DS-201,Account Data,Delinquent accounts balances and payment history,UC-023,Input,Collections System,AI Platform,Large,Real-time,JSON via API,Requires Work,Collateral Administration
+DS-202,Contact History,Previous collection attempts and outcomes,UC-023,Input,Dialer/Collections,AI Platform,Very large,Real-time,JSON,Requires Work,Collateral Administration
+DS-203,Payment Transactions,Payment receipts and broken promises,UC-023,Input,Payment Systems,AI Platform,Very large,Real-time,JSON via API,Requires Work,Payments
+DS-204,Hardship Applications,Financial hardship requests and documentation,UC-023,Input,Collections Platform,AI Platform,Large,Real-time,Text/PDF,Requires Work,Collateral Administration
+DS-205,Economic Indicators,Unemployment inflation and regional data,UC-023,Input,External Sources,AI Platform,Streaming,Daily,JSON,Requires Work,Market Data
+DS-206,Work Lists,Prioritized collection cases for agents,UC-023,Output,AI Platform,Collections Platform,Large,Real-time,JSON,Requires Work,Collateral Administration
+DS-207,Contact Strategies,Optimal channel timing and frequency recommendations,UC-023,Output,AI Platform,Dialer/Campaign,Large,Real-time,JSON,Requires Work,Collateral Administration
+DS-208,Arrangements,Approved payment plans and terms,UC-023,Output,AI Platform,Payment Management,Large,Real-time,JSON,Requires Work,Collateral Administration
+DS-209,Forecasts,Recovery predictions and cash flow forecasts,UC-023,Output,AI Platform,Finance/Treasury,Large,Weekly,JSON,Requires Work,Bank Portfolio and Treasury
+DS-210,Behavioral Data,App interactions clicks and sessions,UC-024,Input,Mobile Analytics,AI Platform,Very large,Real-time,JSON,Requires Work,Cross Channel
+DS-211,Content Library,Messages insights and recommendations,UC-024,Input,Content Management,AI Platform,Large,Batch daily,JSON,Requires Work,Marketing
+DS-212,Product Catalog,Product details and eligibility rules,UC-024,Input,Product Systems,AI Platform,Large,Batch daily,JSON,Requires Work,Product Management
+DS-213,Context Data,Location time device and session context,UC-024,Input,Mobile App,AI Platform,Very large,Real-time,JSON,Requires Work,Cross Channel
+DS-214,Personalization Decisions,Real-time content layout and recommendation decisions,UC-024,Output,AI Platform,Mobile App,Very large,Real-time,JSON,Requires Work,Cross Channel
+DS-215,Recommendations,Product and action recommendations with scoring,UC-024,Output,AI Platform,Mobile App,Very large,Real-time,JSON,Requires Work,Marketing
+DS-216,Experiment Results,A/B test outcomes and performance metrics,UC-024,Output,AI Platform,Experimentation Platform,Large,Real-time,JSON,Requires Work,Marketing
+DS-217,Analytics Data Personalization,Engagement conversion and personalization effectiveness,UC-024,Output,AI Platform,Analytics Dashboard,Large,Real-time,JSON,Requires Work,Business Analysis

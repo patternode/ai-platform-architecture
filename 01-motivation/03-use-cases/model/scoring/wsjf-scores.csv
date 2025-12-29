@@ -1,0 +1,12 @@
+use_case_id,use_case_name,user_value,time_criticality,risk_reduction,job_size,wsjf_score,ranking,wave_recommendation,scoring_date,notes
+UC-004,Credit Risk,9,8,9,8,28.0,1,wave-1,2025-11-01,Regulatory driver + high value
+UC-009,Data Products,8,7,9,8,26.0,2,wave-1,2025-11-01,Platform enabler for multiple UCs
+UC-011,Fincrime,9,9,8,8,25.5,3,wave-1,2025-11-01,Regulatory mandate
+UC-001,Partnership Banking,8,6,7,8,24.5,4,wave-1,2025-11-01,Revenue opportunity
+UC-006,HyperPersonalization,8,6,6,8,22.0,5,wave-1,2025-11-01,Customer experience differentiator
+UC-008,Security AI,8,7,9,10,19.5,6,wave-2,2025-11-01,Critical but complex
+UC-002,Finance,7,6,6,8,18.2,7,wave-2,2025-11-01,Efficiency gains
+UC-003,Analytics and Reporting,7,5,6,8,17.8,8,wave-2,2025-11-01,Democratization of data
+UC-005,Lending Ops,7,5,5,8,16.5,9,wave-2,2025-11-01,Process efficiency
+UC-007,Contact Centre,7,5,5,8,15.8,10,wave-2,2025-11-01,Customer service improvement
+UC-010,SDLC,6,4,5,8,14.2,11,wave-2,2025-11-01,Developer productivity

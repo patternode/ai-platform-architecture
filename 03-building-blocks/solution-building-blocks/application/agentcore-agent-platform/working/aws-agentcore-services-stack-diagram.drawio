@@ -1,0 +1,367 @@
+<mxfile host="65bd71144e">
+    <diagram name="AWS-AgentCore-Services-Stack" id="aws-agentcore-services-stack">
+        <mxGraphModel dx="1825" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2339" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" value="AWS AgentCore Services Stack Implementation Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;" parent="1" vertex="1">
+                    <mxGeometry x="527" y="20" width="600" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="subtitle" value="Five Canonical Agentic Patterns with AWS Service Implementations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#232F3E;" parent="1" vertex="1">
+                    <mxGeometry x="527" y="60" width="600" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern1-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#1F77B4;strokeWidth=2;arcSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="120" width="300" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern1-title" value="Pattern 1: Static Single Agent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#1F77B4;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="130" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern1-desc" value="Human-directed single agent for specific tasks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="160" width="280" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-api-gateway" value="API Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#D86613;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="190" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-lambda" value="AWS Lambda" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#D86613;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="190" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-bedrock" value="Amazon Bedrock" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7AA116;strokeColor=#658B00;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="225" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-dynamodb" value="DynamoDB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3F48CC;strokeColor=#1F2A93;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="225" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-cloudwatch" value="CloudWatch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#AA2E3D;strokeColor=#7F1D2C;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="261" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-iam" value="AWS IAM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DD344C;strokeColor=#B91C32;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="261" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-flow" value="Request → Lambda → Bedrock → DynamoDB → Response" style="text;html=1;strokeColor=none;fillColor=#FFF2CC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontColor=#333;strokeColor=#D6B656;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="345" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-use-case" value="Use Case: Document Processing, Data Extraction" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=2;fontColor=#666;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="395" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern2-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F8E8;strokeColor=#2E7D32;strokeWidth=2;arcSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="359" y="120" width="280" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern2-title" value="Pattern 2: Static Multi-Agent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#2E7D32;" parent="1" vertex="1">
+                    <mxGeometry x="359" y="130" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern2-desc" value="Orchestrator manages multiple specialized agents" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666;" parent="1" vertex="1">
+                    <mxGeometry x="359" y="160" width="280" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-api-gateway" value="API Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#D86613;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="369" y="190" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-step-functions" value="Step Functions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF4081;strokeColor=#D81B60;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="459" y="190" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-lambda1" value="Lambda Agent 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#D86613;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="549" y="190" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-lambda2" value="Lambda Agent 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#D86613;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="369" y="225" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-lambda3" value="Lambda Agent 3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#D86613;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="459" y="225" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-bedrock" value="Bedrock" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7AA116;strokeColor=#658B00;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="549" y="225" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-dynamodb" value="DynamoDB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3F48CC;strokeColor=#1F2A93;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="369" y="260" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-eventbridge" value="EventBridge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9C27B0;strokeColor=#7B1FA2;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="459" y="260" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-cloudwatch" value="CloudWatch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#AA2E3D;strokeColor=#7F1D2C;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="549" y="260" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-flow" value="Request → Step Functions → Multiple Lambda Agents → Coordination → Response" style="text;html=1;strokeColor=none;fillColor=#E8F5E8;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontColor=#333;strokeColor=#4CAF50;" parent="1" vertex="1">
+                    <mxGeometry x="369" y="345" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-use-case" value="Use Case: Financial Risk Assessment, Complex Workflows" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=2;fontColor=#666;" parent="1" vertex="1">
+                    <mxGeometry x="359" y="385" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern3-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#F57C00;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="656" y="120" width="300" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern3-title" value="Pattern 3: Dynamic Worker Agent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#F57C00;" parent="1" vertex="1">
+                    <mxGeometry x="666" y="130" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern3-desc" value="Adaptive agent with dynamic process determination" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666;" parent="1" vertex="1">
+                    <mxGeometry x="666" y="160" width="280" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-api-gateway" value="API Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#D86613;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="676" y="180" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-lambda" value="Dynamic Lambda" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#D86613;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="766" y="180" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-bedrock" value="Adaptive Planning Bedrock" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7AA116;strokeColor=#658B00;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="856" y="180" width="80" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-dynamodb" value="Learning Memory DynamoDB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3F48CC;strokeColor=#1F2A93;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="676" y="225" width="80" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-sqs" value="SQS/SNS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=#388E3C;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="766" y="225" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-eventbridge" value="EventBridge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9C27B0;strokeColor=#7B1FA2;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="856" y="225" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-cloudwatch" value="Feedback CloudWatch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#AA2E3D;strokeColor=#7F1D2C;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="676" y="267" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-s3" value="Tool Repository S3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5DBB63;strokeColor=#4CAF50;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="766" y="267" width="80" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-flow" value="Context Analysis → Dynamic Planning → Tool Selection → Adaptive Execution" style="text;html=1;strokeColor=none;fillColor=#FFF8E1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontColor=#333;strokeColor=#FFB74D;" parent="1" vertex="1">
+                    <mxGeometry x="676" y="344" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-use-case" value="Use Case: Adaptive Customer Service, Variable Problem-Solving" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=2;fontColor=#666;" parent="1" vertex="1">
+                    <mxGeometry x="686" y="396" width="230" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern4-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#8E24AA;strokeWidth=2;arcSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="980" y="120" width="323" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern4-title" value="Pattern 4: Dynamic Internal Multi-Agent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#8E24AA;" parent="1" vertex="1">
+                    <mxGeometry x="990" y="130" width="303" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern4-desc" value="Autonomous collaboration and decision-making" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666;" parent="1" vertex="1">
+                    <mxGeometry x="1013" y="160" width="280" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="p4-api-gateway" value="API Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#D86613;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1023" y="180" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p4-lambda1" value="Agent 1 Lambda" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#D86613;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1103" y="180" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p4-lambda2" value="Agent 2 Lambda" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#D86613;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1163" y="180" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p4-lambda3" value="Agent N Lambda" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#D86613;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1223" y="180" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p4-eventbridge" value="Collaboration EventBridge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9C27B0;strokeColor=#7B1FA2;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1023" y="220" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p4-dynamodb" value="Shared State DynamoDB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3F48CC;strokeColor=#1F2A93;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1113" y="220" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p4-sqs" value="Task Queues SQS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=#388E3C;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1203" y="220" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p4-step-functions" value="Dynamic Workflows Step Functions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF4081;strokeColor=#D81B60;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1023" y="257" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="p4-cloudwatch" value="Monitoring CloudWatch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#AA2E3D;strokeColor=#7F1D2C;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1113" y="257" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p4-bedrock" value="Decision Making Bedrock" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7AA116;strokeColor=#658B00;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1203" y="257" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="p4-flow" value="Agent Discovery → Collaboration Negotiation → Autonomous Coordination → Shared Execution" style="text;html=1;strokeColor=none;fillColor=#F8E6FF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontColor=#333;strokeColor=#CE93D8;" parent="1" vertex="1">
+                    <mxGeometry x="1020" y="346" width="263" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="p4-use-case" value="Use Case: Incident Response System, Complex Problem-Solving" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=2;fontColor=#666;" parent="1" vertex="1">
+                    <mxGeometry x="1028" y="396" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern5-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#D32F2F;strokeWidth=2;arcSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="120" width="339" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern5-title" value="Pattern 5: Autonomous Agent Ecosystem" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#D32F2F;" parent="1" vertex="1">
+                    <mxGeometry x="1330" y="130" width="319" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern5-desc" value="Fully autonomous multi-agent ecosystem" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666;" parent="1" vertex="1">
+                    <mxGeometry x="1359" y="160" width="280" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="p5-auto-scaling" value="Auto Scaling Groups" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF5722;strokeColor=#E64A19;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1354" y="180" width="70" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="p5-eventbridge" value="Ecosystem EventBridge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9C27B0;strokeColor=#7B1FA2;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1429" y="180" width="70" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="p5-ecs-eks" value="ECS/EKS Dynamic Deploy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#607D8B;strokeColor=#455A64;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1504" y="180" width="70" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="p5-lambda" value="Agent Factory Lambda" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#D86613;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1579" y="180" width="70" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="p5-bedrock" value="Strategic Planning Bedrock" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7AA116;strokeColor=#658B00;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1354" y="238" width="70" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="p5-dynamodb" value="Ecosystem State DynamoDB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3F48CC;strokeColor=#1F2A93;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1429" y="238" width="70" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="p5-sqs" value="Goal Distribution SQS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=#388E3C;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1504" y="238" width="70" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="p5-step-functions" value="Meta-Workflows Step Functions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF4081;strokeColor=#D81B60;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1579" y="238" width="70" height="62" as="geometry"/>
+                </mxCell>
+                <mxCell id="p5-cloudwatch" value="Ecosystem Monitoring CloudWatch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#AA2E3D;strokeColor=#7F1D2C;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1354" y="290" width="70" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="p5-api-gateway" value="API Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#D86613;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1429" y="284" width="70" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="p5-s3" value="Agent Code Repository S3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5DBB63;strokeColor=#4CAF50;fontColor=white;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1504" y="284" width="70" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="p5-flow" value="Goal Decomposition → Population Management → Ecosystem Execution → Self-Evolution" style="text;html=1;strokeColor=none;fillColor=#FFEBEE;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontColor=#333;strokeColor=#FFCDD2;" parent="1" vertex="1">
+                    <mxGeometry x="1364" y="345" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="p5-use-case" value="Use Case: Autonomous Enterprise Operations, Self-Modifying Systems" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=2;fontColor=#666;" parent="1" vertex="1">
+                    <mxGeometry x="1369" y="395" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="core-components-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#232F3E;strokeWidth=3;arcSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="455" width="1620" height="135" as="geometry"/>
+                </mxCell>
+                <mxCell id="core-components-title" value="Core AgentCore Components &amp; Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#232F3E;" parent="1" vertex="1">
+                    <mxGeometry x="625" y="459" width="400" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="agentcore-runtime" value="AgentCore Runtime" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#D86613;fontColor=white;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="505" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="runtime-desc" value="Session isolation, 8-hour execution, serverless scaling" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="550" width="140" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="agentcore-identity" value="AgentCore Identity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DD344C;strokeColor=#B91C32;fontColor=white;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="505" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="identity-desc" value="IAM, OAuth/OIDC, service authentication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="550" width="140" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="agentcore-memory" value="AgentCore Memory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3F48CC;strokeColor=#1F2A93;fontColor=white;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="505" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="memory-desc" value="DynamoDB state, persistent context, learning retention" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="550" width="140" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="agentcore-gateway" value="AgentCore Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6F00;strokeColor=#E65100;fontColor=white;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="505" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="gateway-desc" value="API Gateway, rate limiting, transformation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="550" width="140" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="agentcore-observability" value="AgentCore Observability" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#AA2E3D;strokeColor=#7F1D2C;fontColor=white;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="505" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="observability-desc" value="OpenTelemetry, CloudWatch, distributed tracing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="550" width="140" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="agentcore-communication" value="AgentCore Communication" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9C27B0;strokeColor=#7B1FA2;fontColor=white;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="505" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="communication-desc" value="EventBridge, SQS/SNS, message routing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="550" width="140" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="foundation-models" value="Foundation Models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7AA116;strokeColor=#658B00;fontColor=white;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1100" y="505" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="models-desc" value="Amazon Bedrock, Claude, GPT, multi-modal support" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666;" parent="1" vertex="1">
+                    <mxGeometry x="1100" y="550" width="140" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="enterprise-integration" value="Enterprise Integration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#607D8B;strokeColor=#455A64;fontColor=white;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1270" y="505" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="integration-desc" value="REST/GraphQL APIs, webhooks, SDKs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666;" parent="1" vertex="1">
+                    <mxGeometry x="1270" y="550" width="140" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="security-governance" value="Security &amp; Governance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#795548;strokeColor=#5D4037;fontColor=white;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1440" y="505" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="security-desc" value="VPC, KMS, WAF, compliance frameworks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666;" parent="1" vertex="1">
+                    <mxGeometry x="1440" y="550" width="140" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="key-features-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1976D2;strokeWidth=2;arcSize=6;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="602" width="800" height="138" as="geometry"/>
+                </mxCell>
+                <mxCell id="key-features-title" value="Key AgentCore Features" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#1976D2;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="606" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature1" value="✓ 8-hour autonomous execution" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="635" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature2" value="✓ OpenTelemetry observability" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="655" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature3" value="✓ Enterprise-grade security" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="675" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature4" value="✓ Multi-modal agent support" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="695" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature5" value="✓ Serverless auto-scaling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="715" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature6" value="✓ Session isolation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="635" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature7" value="✓ Foundation model flexibility" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="655" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature8" value="✓ Multi-step task decomposition" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="675" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature9" value="✓ Enterprise API integration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="695" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature10" value="✓ Hybrid deployment options" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="715" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature11" value="✓ Real-time execution monitoring" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="635" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature12" value="✓ Persistent state management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="655" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature13" value="✓ Autonomous workflow orchestration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="675" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature14" value="✓ Contextual understanding" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="695" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature15" value="✓ Compliance frameworks support" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="715" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="complexity-scale-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=#6C757D;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="870" y="602" width="790" height="138" as="geometry"/>
+                </mxCell>
+                <mxCell id="complexity-scale-title" value="Complexity &amp; Autonomy Scale" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#495057;" parent="1" vertex="1">
+                    <mxGeometry x="1100" y="602" width="305" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="complexity-arrow" value="" style="endArrow=classic;html=1;strokeColor=#DC3545;strokeWidth=4;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="890" y="658" as="sourcePoint"/>
+                        <mxPoint x="1620" y="658" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="complexity-label" value="Increasing Complexity &amp; Autonomy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#DC3545;" parent="1" vertex="1">
+                    <mxGeometry x="1130" y="633" width="265" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-complexity" value="Pattern 1&#xa;Low-Medium&#xa;Complexity" style="text;html=1;strokeColor=none;fillColor=#E8F4FD;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#1F77B4;strokeColor=#1F77B4;" parent="1" vertex="1">
+                    <mxGeometry x="960" y="672" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-complexity" value="Pattern 2&#xa;Medium&#xa;Complexity" style="text;html=1;strokeColor=none;fillColor=#E8F8E8;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#2E7D32;strokeColor=#2E7D32;" parent="1" vertex="1">
+                    <mxGeometry x="1080" y="672" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-complexity" value="Pattern 3&#xa;Medium-High&#xa;Complexity" style="text;html=1;strokeColor=none;fillColor=#FFF3E0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#F57C00;strokeColor=#F57C00;" parent="1" vertex="1">
+                    <mxGeometry x="1200" y="672" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="p4-complexity" value="Pattern 4&#xa;High&#xa;Complexity" style="text;html=1;strokeColor=none;fillColor=#F3E5F5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#8E24AA;strokeColor=#8E24AA;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="672" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="p5-complexity" value="Pattern 5&#xa;Highest&#xa;Complexity" style="text;html=1;strokeColor=none;fillColor=#FFEBEE;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#D32F2F;strokeColor=#D32F2F;" parent="1" vertex="1">
+                    <mxGeometry x="1440" y="672" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="footer" value="AWS AgentCore: Enterprise-Scale Agentic AI Platform | Supporting All Five Canonical Agentic Patterns with AWS-Native Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=2;fontColor=#6C757D;" parent="1" vertex="1">
+                    <mxGeometry x="327" y="1140" width="1000" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,35 @@
+Element_ID,Element_Name,Element_Type,Stereotype,Parent_Category,Level,Hierarchy_Path
+frm-001,Finance And Risk Management,Container,Grouping,Root,1,Finance And Risk Management
+fc-001,Financial Control,Container,Grouping,Finance And Risk Management,2,Finance And Risk Management > Financial Control
+fc-002,Financial Control,ServiceDomain,ServiceDomain,Financial Control,3,Finance And Risk Management > Financial Control > Financial Control
+fc-003,Company Billing and Payments,ServiceDomain,ServiceDomain,Financial Control,3,Finance And Risk Management > Financial Control > Company Billing and Payments
+fc-004,Financial Compliance,ServiceDomain,ServiceDomain,Financial Control,3,Finance And Risk Management > Financial Control > Financial Compliance
+fc-005,Approved Supplier Directory,ServiceDomain,ServiceDomain,Financial Control,3,Finance And Risk Management > Financial Control > Approved Supplier Directory
+fc-006,Financial Statements,ServiceDomain,ServiceDomain,Financial Control,3,Finance And Risk Management > Financial Control > Financial Statements
+fc-007,Enterprise Tax Administration,ServiceDomain,ServiceDomain,Financial Control,3,Finance And Risk Management > Financial Control > Enterprise Tax Administration
+or-001,Operational Risk,Container,Grouping,Finance And Risk Management,2,Finance And Risk Management > Operational Risk
+or-002,Business Risk Models,ServiceDomain,ServiceDomain,Operational Risk,3,Finance And Risk Management > Operational Risk > Business Risk Models
+or-003,Operational Risk Models,ServiceDomain,ServiceDomain,Operational Risk,3,Finance And Risk Management > Operational Risk > Operational Risk Models
+or-004,Production Risk Models,ServiceDomain,ServiceDomain,Operational Risk,3,Finance And Risk Management > Operational Risk > Production Risk Models
+gt-001,Group Treasury,Container,Grouping,Finance And Risk Management,2,Finance And Risk Management > Group Treasury
+gt-002,Corporate Treasury,ServiceDomain,ServiceDomain,Group Treasury,3,Finance And Risk Management > Group Treasury > Corporate Treasury
+gt-003,Corporate Treasury Analysis,ServiceDomain,ServiceDomain,Group Treasury,3,Finance And Risk Management > Group Treasury > Corporate Treasury Analysis
+gt-004,Bank Portfolio Administration,ServiceDomain,ServiceDomain,Group Treasury,3,Finance And Risk Management > Group Treasury > Bank Portfolio Administration
+gt-005,Bank Portfolio Analysis,ServiceDomain,ServiceDomain,Group Treasury,3,Finance And Risk Management > Group Treasury > Bank Portfolio Analysis
+gt-006,Asset Securitization,ServiceDomain,ServiceDomain,Group Treasury,3,Finance And Risk Management > Group Treasury > Asset Securitization
+mr-001,Market Risk,Container,Grouping,Finance And Risk Management,2,Finance And Risk Management > Market Risk
+mr-002,Credit Risk Management,ServiceDomain,ServiceDomain,Market Risk,3,Finance And Risk Management > Market Risk > Credit Risk Management
+mr-003,Gap Analysis,ServiceDomain,ServiceDomain,Market Risk,3,Finance And Risk Management > Market Risk > Gap Analysis
+mr-004,Limit and Exposure Management,ServiceDomain,ServiceDomain,Market Risk,3,Finance And Risk Management > Market Risk > Limit and Exposure Management
+mr-005,Position Management,ServiceDomain,ServiceDomain,Market Risk,3,Finance And Risk Management > Market Risk > Position Management
+mr-006,Economic Capital,ServiceDomain,ServiceDomain,Market Risk,3,Finance And Risk Management > Market Risk > Economic Capital
+cr-001,Credit Risk,Container,Grouping,Finance And Risk Management,2,Finance And Risk Management > Credit Risk
+cr-002,Credit Management,ServiceDomain,ServiceDomain,Credit Risk,3,Finance And Risk Management > Credit Risk > Credit Management
+cr-003,Counterparty Risk,ServiceDomain,ServiceDomain,Credit Risk,3,Finance And Risk Management > Credit Risk > Counterparty Risk
+cr-004,Fraud Resolution,ServiceDomain,ServiceDomain,Credit Risk,3,Finance And Risk Management > Credit Risk > Fraud Resolution
+comp-001,Compliance,Container,Grouping,Finance And Risk Management,2,Finance And Risk Management > Compliance
+comp-002,Regulatory and Legal Authority,ServiceDomain,ServiceDomain,Compliance,3,Finance And Risk Management > Compliance > Regulatory and Legal Authority
+comp-003,Regulatory Compliance,ServiceDomain,ServiceDomain,Compliance,3,Finance And Risk Management > Compliance > Regulatory Compliance
+comp-004,Regulatory Reporting,ServiceDomain,ServiceDomain,Compliance,3,Finance And Risk Management > Compliance > Regulatory Reporting
+comp-005,Guideline Compliance,ServiceDomain,ServiceDomain,Compliance,3,Finance And Risk Management > Compliance > Guideline Compliance
+comp-006,Compliance Reporting,ServiceDomain,ServiceDomain,Compliance,3,Finance And Risk Management > Compliance > Compliance Reporting

@@ -1,0 +1,337 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram id="bian-uc-landscape" name="BIAN Service Landscape with AI Use Cases">
+    <mxGraphModel dx="9413" dy="5513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ===================== SALES AND SERVICE ===================== -->
+        <mxCell id="ba-sales" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#003087;strokeWidth=3;fontSize=16;arcSize=4;" parent="1" vertex="1">
+          <mxGeometry x="40" y="90" width="1122" height="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-sales-title" value="&lt;b&gt;SALES AND SERVICE&lt;/b&gt;&lt;br&gt;&lt;span&gt;Customer Management, Sales, Marketing, Servicing, Cross Channel&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=25;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="56" y="114" width="1090" height="107" as="geometry" />
+        </mxCell>
+
+        <!-- Sales and Service Use Cases -->
+        <mxCell id="uc001-sales" value="&lt;b&gt;UC-001&lt;/b&gt;&lt;br&gt;FrontLine Partnership Banking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC0000;strokeColor=#990000;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="72" y="257" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc005-sales" value="&lt;b&gt;UC-005&lt;/b&gt;&lt;br&gt;Lending Ops" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#E85A2B;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="337" y="257" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc006-sales" value="&lt;b&gt;UC-006&lt;/b&gt;&lt;br&gt;HyperPersonalization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC0000;strokeColor=#990000;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="601" y="257" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc007-sales" value="&lt;b&gt;UC-007&lt;/b&gt;&lt;br&gt;Contact Centre" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC0000;strokeColor=#990000;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="866" y="257" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc014-sales" value="&lt;b&gt;UC-014&lt;/b&gt;&lt;br&gt;Onboarding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#E85A2B;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="72" y="400" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc017-sales" value="&lt;b&gt;UC-017&lt;/b&gt;&lt;br&gt;FrontLine - CIB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#E85A2B;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="337" y="400" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc019-sales" value="&lt;b&gt;UC-019&lt;/b&gt;&lt;br&gt;Payment Disputes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA500;strokeColor=#CC8400;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="601" y="400" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc021-sales" value="&lt;b&gt;UC-021&lt;/b&gt;&lt;br&gt;Wholesale Underwriting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#40B8CC;fontColor=#333333;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="866" y="400" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc023-sales" value="&lt;b&gt;UC-023&lt;/b&gt;&lt;br&gt;Collection Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA500;strokeColor=#CC8400;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="72" y="543" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc024-sales" value="&lt;b&gt;UC-024&lt;/b&gt;&lt;br&gt;Front-end App Personalisation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC0000;strokeColor=#990000;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="337" y="543" width="249" height="119" as="geometry" />
+        </mxCell>
+
+        <!-- Sales and Service Stats -->
+        <mxCell id="sales-stats" value="&lt;b&gt;10 Use Cases&lt;/b&gt; | Domains: Customer Management (7), Servicing (6), Cross Channel (5), Sales (5), Marketing (3), Channel Specific (2)" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontColor=#003087;fontFamily=Helvetica;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="72" y="685" width="1058" height="71" as="geometry" />
+        </mxCell>
+
+        <!-- Sales and Service Data Products Section -->
+        <mxCell id="sales-dp-title" value="&lt;b&gt;Data Products (Service Domains)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=18;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="72" y="780" width="1058" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Customer Management Data Products -->
+        <mxCell id="sales-dp-custmgmt" value="&lt;b&gt;Customer Management&lt;/b&gt;&lt;br&gt;• Customer Relationship Management&lt;br&gt;• Customer Behavior Insights&lt;br&gt;• Customer Agreement&lt;br&gt;• Customer Proposition&lt;br&gt;• Account Recovery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;fontFamily=Helvetica;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="72" y="840" width="330" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Sales Data Products -->
+        <mxCell id="sales-dp-sales" value="&lt;b&gt;Sales&lt;/b&gt;&lt;br&gt;• Lead and Opportunity Management&lt;br&gt;• Underwriting&lt;br&gt;• Party Lifecycle Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;fontFamily=Helvetica;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="420" y="840" width="330" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Marketing Data Products -->
+        <mxCell id="sales-dp-marketing" value="&lt;b&gt;Marketing&lt;/b&gt;&lt;br&gt;• Customer Campaign Management&lt;br&gt;• Customer Campaign Design&lt;br&gt;• Customer Campaign Execution" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;fontFamily=Helvetica;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="768" y="840" width="330" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Servicing Data Products -->
+        <mxCell id="sales-dp-servicing" value="&lt;b&gt;Servicing&lt;/b&gt;&lt;br&gt;• Customer Case Management&lt;br&gt;• Customer Case&lt;br&gt;• Card Case" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;fontFamily=Helvetica;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="72" y="1000" width="330" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Cross Channel Data Products -->
+        <mxCell id="sales-dp-cross" value="&lt;b&gt;Cross Channel&lt;/b&gt;&lt;br&gt;• Contact Center Operations&lt;br&gt;• Contact Routing&lt;br&gt;• Session Dialogue&lt;br&gt;• Point of Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;fontFamily=Helvetica;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="420" y="960" width="330" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- Channel Specific Data Products -->
+        <mxCell id="sales-dp-channel" value="&lt;b&gt;Channel Specific&lt;/b&gt;&lt;br&gt;• Contact Center Management&lt;br&gt;• eBranch Operations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;fontFamily=Helvetica;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="768" y="960" width="330" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== RISK AND COMPLIANCE ===================== -->
+        <mxCell id="ba-risk" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF5F5;strokeColor=#CC0000;strokeWidth=3;fontSize=16;arcSize=4;" parent="1" vertex="1">
+          <mxGeometry x="1194" y="90" width="1122" height="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-risk-title" value="&lt;b&gt;RISK AND COMPLIANCE&lt;/b&gt;&lt;br&gt;&lt;span&gt;Regulations and Compliance, Models, Business Analysis, Bank Portfolio&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#CC0000;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=25;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1211" y="114" width="1090" height="107" as="geometry" />
+        </mxCell>
+
+        <!-- Risk and Compliance Use Cases -->
+        <mxCell id="uc002-risk" value="&lt;b&gt;UC-002&lt;/b&gt;&lt;br&gt;Finance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#40B8CC;fontColor=#333333;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1227" y="257" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc003-risk" value="&lt;b&gt;UC-003&lt;/b&gt;&lt;br&gt;Analytics and Reporting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA500;strokeColor=#CC8400;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1491" y="257" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc004-risk" value="&lt;b&gt;UC-004&lt;/b&gt;&lt;br&gt;Credit Risk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC0000;strokeColor=#990000;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1756" y="257" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc009-risk" value="&lt;b&gt;UC-009&lt;/b&gt;&lt;br&gt;Data Products" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#40B8CC;fontColor=#333333;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="2020" y="257" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc011-risk" value="&lt;b&gt;UC-011&lt;/b&gt;&lt;br&gt;Fincrime" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC0000;strokeColor=#990000;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1227" y="400" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc012-risk" value="&lt;b&gt;UC-012&lt;/b&gt;&lt;br&gt;QA/QC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#E85A2B;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1491" y="400" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc013-risk" value="&lt;b&gt;UC-013&lt;/b&gt;&lt;br&gt;Fraud Ops" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC0000;strokeColor=#990000;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1756" y="400" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc014-risk" value="&lt;b&gt;UC-014&lt;/b&gt;&lt;br&gt;Onboarding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#40B8CC;fontColor=#333333;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="2020" y="400" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc015-risk" value="&lt;b&gt;UC-015&lt;/b&gt;&lt;br&gt;Risk Functions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC0000;strokeColor=#990000;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1227" y="543" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc020-risk" value="&lt;b&gt;UC-020&lt;/b&gt;&lt;br&gt;Controls Testing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#E85A2B;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1491" y="543" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc021-risk" value="&lt;b&gt;UC-021&lt;/b&gt;&lt;br&gt;Wholesale Underwriting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#E85A2B;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1756" y="543" width="249" height="119" as="geometry" />
+        </mxCell>
+
+        <!-- Risk and Compliance Stats -->
+        <mxCell id="risk-stats" value="&lt;b&gt;11 Use Cases&lt;/b&gt; | Domains: Regulations and Compliance (7), Models (5), Business Analysis (4), Bank Portfolio (2)" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontColor=#CC0000;fontFamily=Helvetica;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1227" y="685" width="1058" height="71" as="geometry" />
+        </mxCell>
+
+        <!-- Risk and Compliance Data Products Section -->
+        <mxCell id="risk-dp-title" value="&lt;b&gt;Data Products (Service Domains)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#CC0000;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=18;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1227" y="780" width="1058" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Regulations and Compliance Data Products -->
+        <mxCell id="risk-dp-regs" value="&lt;b&gt;Regulations and Compliance&lt;/b&gt;&lt;br&gt;• Regulatory Compliance&lt;br&gt;• Fraud Resolution&lt;br&gt;• Guideline Compliance&lt;br&gt;• Compliance Reporting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CC0000;fontColor=#CC0000;fontSize=12;fontFamily=Helvetica;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1227" y="840" width="330" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Models Data Products -->
+        <mxCell id="risk-dp-models" value="&lt;b&gt;Models&lt;/b&gt;&lt;br&gt;• Credit Risk Models&lt;br&gt;• Credit and Margin Management&lt;br&gt;• Fraud Model&lt;br&gt;• Operational Risk Models&lt;br&gt;• Business Risk Models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CC0000;fontColor=#CC0000;fontSize=12;fontFamily=Helvetica;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1575" y="840" width="330" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Business Analysis Data Products -->
+        <mxCell id="risk-dp-analysis" value="&lt;b&gt;Business Analysis&lt;/b&gt;&lt;br&gt;• Market Analysis&lt;br&gt;• Customer Portfolio&lt;br&gt;• Product Portfolio&lt;br&gt;• Contribution Analysis&lt;br&gt;• Gap Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CC0000;fontColor=#CC0000;fontSize=12;fontFamily=Helvetica;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1923" y="840" width="330" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Bank Portfolio Data Products -->
+        <mxCell id="risk-dp-bank" value="&lt;b&gt;Bank Portfolio and Treasury&lt;/b&gt;&lt;br&gt;• Bank Portfolio Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CC0000;fontColor=#CC0000;fontSize=12;fontFamily=Helvetica;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1227" y="980" width="330" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== BUSINESS SUPPORT ===================== -->
+        <mxCell id="ba-support" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5FF;strokeColor=#6B5B95;strokeWidth=3;fontSize=16;arcSize=4;" parent="1" vertex="1">
+          <mxGeometry x="2349" y="90" width="1411" height="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-support-title" value="&lt;b&gt;BUSINESS SUPPORT&lt;/b&gt;&lt;br&gt;&lt;span&gt;IT Management, Non-IT Enterprise Services, Knowledge &amp;amp; IP, Finance, HR, Buildings&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#6B5B95;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=25;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="2365" y="114" width="1379" height="107" as="geometry" />
+        </mxCell>
+
+        <!-- Business Support Use Cases -->
+        <mxCell id="uc002-support" value="&lt;b&gt;UC-002&lt;/b&gt;&lt;br&gt;Finance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA500;strokeColor=#CC8400;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="2381" y="257" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc003-support" value="&lt;b&gt;UC-003&lt;/b&gt;&lt;br&gt;Analytics and Reporting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#40B8CC;fontColor=#333333;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="2646" y="257" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc008-support" value="&lt;b&gt;UC-008&lt;/b&gt;&lt;br&gt;Security AI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC0000;strokeColor=#990000;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="2910" y="257" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc009-support" value="&lt;b&gt;UC-009&lt;/b&gt;&lt;br&gt;Data Products" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#E85A2B;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="3175" y="257" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc010-support" value="&lt;b&gt;UC-010&lt;/b&gt;&lt;br&gt;SDLC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#E85A2B;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="3439" y="257" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc012-support" value="&lt;b&gt;UC-012&lt;/b&gt;&lt;br&gt;QA/QC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#40B8CC;fontColor=#333333;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="2381" y="400" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc016-support" value="&lt;b&gt;UC-016&lt;/b&gt;&lt;br&gt;IT Ops" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#E85A2B;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="2646" y="400" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc018-support" value="&lt;b&gt;UC-018&lt;/b&gt;&lt;br&gt;Procurement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA500;strokeColor=#CC8400;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="2910" y="400" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc020-support" value="&lt;b&gt;UC-020&lt;/b&gt;&lt;br&gt;Controls Testing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#40B8CC;fontColor=#333333;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="3175" y="400" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc022-support" value="&lt;b&gt;UC-022&lt;/b&gt;&lt;br&gt;Learning Content" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA500;strokeColor=#CC8400;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="3439" y="400" width="249" height="119" as="geometry" />
+        </mxCell>
+
+        <!-- Business Support Stats -->
+        <mxCell id="support-stats" value="&lt;b&gt;10 Use Cases&lt;/b&gt; | Domains: IT Management (6), Non-IT Enterprise Services (5), Knowledge &amp;amp; IP (3), Finance (2), Business Command (2), HR (1), Buildings (1)" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontColor=#6B5B95;fontFamily=Helvetica;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="2381" y="685" width="1331" height="71" as="geometry" />
+        </mxCell>
+
+        <!-- Business Support Data Products Section -->
+        <mxCell id="support-dp-title" value="&lt;b&gt;Data Products (Service Domains)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#6B5B95;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=18;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="2381" y="780" width="1331" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- IT Management Data Products -->
+        <mxCell id="support-dp-it" value="&lt;b&gt;IT Management&lt;/b&gt;&lt;br&gt;• System Development&lt;br&gt;• System Deployment&lt;br&gt;• Production Release&lt;br&gt;• Systems Operations&lt;br&gt;• Systems Help Desk&lt;br&gt;• Systems Assurance&lt;br&gt;• Systems Administration&lt;br&gt;• Platform Operations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6B5B95;fontColor=#6B5B95;fontSize=12;fontFamily=Helvetica;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="2381" y="840" width="300" height="180" as="geometry" />
+        </mxCell>
+
+        <!-- Non-IT Enterprise Services Data Products -->
+        <mxCell id="support-dp-nonit" value="&lt;b&gt;Non-IT and Non-HR Enterprise Services&lt;/b&gt;&lt;br&gt;• Security Assurance&lt;br&gt;• Security Advisory&lt;br&gt;• Internal Audit&lt;br&gt;• Procurement&lt;br&gt;• Approved Supplier Directory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6B5B95;fontColor=#6B5B95;fontSize=12;fontFamily=Helvetica;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="2699" y="840" width="300" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Knowledge and IP Data Products -->
+        <mxCell id="support-dp-knowledge" value="&lt;b&gt;Knowledge and Intellectual Property&lt;/b&gt;&lt;br&gt;• Knowledge Exchange&lt;br&gt;• Management Manual" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6B5B95;fontColor=#6B5B95;fontSize=12;fontFamily=Helvetica;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="3017" y="840" width="300" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Finance, HR, Buildings Data Products -->
+        <mxCell id="support-dp-other" value="&lt;b&gt;Finance&lt;/b&gt;: Financial Statements, Financial Control&lt;br&gt;&lt;b&gt;Business Command&lt;/b&gt;: Business Unit Financial Analysis, Business Unit Accounting, Business Unit Management&lt;br&gt;&lt;b&gt;HR&lt;/b&gt;: Workforce Training&lt;br&gt;&lt;b&gt;Buildings&lt;/b&gt;: Equipment Maintenance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6B5B95;fontColor=#6B5B95;fontSize=12;fontFamily=Helvetica;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="3335" y="840" width="380" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== OPERATIONS AND EXECUTION ===================== -->
+        <mxCell id="ba-ops" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5FFF5;strokeColor=#00A651;strokeWidth=3;fontSize=16;arcSize=4;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1540" width="1764" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-ops-title" value="&lt;b&gt;OPERATIONS AND EXECUTION&lt;/b&gt;&lt;br&gt;&lt;span&gt;Loans and Deposits, Cards, Corporate Finance, Payments, Account Management, Collateral, Trade Banking&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#00A651;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=25;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="56" y="1564" width="1732" height="107" as="geometry" />
+        </mxCell>
+
+        <!-- Operations and Execution Use Cases -->
+        <mxCell id="uc004-ops" value="&lt;b&gt;UC-004&lt;/b&gt;&lt;br&gt;Credit Risk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#40B8CC;fontColor=#333333;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="72" y="1707" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc005-ops" value="&lt;b&gt;UC-005&lt;/b&gt;&lt;br&gt;Lending Ops" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA500;strokeColor=#CC8400;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="337" y="1707" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc013-ops" value="&lt;b&gt;UC-013&lt;/b&gt;&lt;br&gt;Fraud Ops" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA500;strokeColor=#CC8400;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="601" y="1707" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc017-ops" value="&lt;b&gt;UC-017&lt;/b&gt;&lt;br&gt;FrontLine - CIB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA500;strokeColor=#CC8400;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="866" y="1707" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc019-ops" value="&lt;b&gt;UC-019&lt;/b&gt;&lt;br&gt;Payment Disputes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA500;strokeColor=#CC8400;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="1707" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc021-ops" value="&lt;b&gt;UC-021&lt;/b&gt;&lt;br&gt;Wholesale Underwriting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA500;strokeColor=#CC8400;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1395" y="1707" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc023-ops" value="&lt;b&gt;UC-023&lt;/b&gt;&lt;br&gt;Collection Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA500;strokeColor=#CC8400;fontColor=#FFFFFF;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="72" y="1850" width="249" height="119" as="geometry" />
+        </mxCell>
+
+        <!-- Operations and Execution Stats -->
+        <mxCell id="ops-stats" value="&lt;b&gt;7 Use Cases&lt;/b&gt; | Domains: Loans &amp;amp; Deposits (3), Cards (2), Corporate Finance (2), Collateral (2), Account Mgmt (2), Payments (1), Trade Banking (1), Consumer Svc (1), Operational Svc (1)" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontColor=#00A651;fontFamily=Helvetica;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="72" y="1993" width="1700" height="71" as="geometry" />
+        </mxCell>
+
+        <!-- Operations Data Products Section -->
+        <mxCell id="ops-dp-title" value="&lt;b&gt;Data Products (Service Domains)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#00A651;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=18;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="72" y="2080" width="1700" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Loans and Deposits Data Products -->
+        <mxCell id="ops-dp-loans" value="&lt;b&gt;Loans and Deposits&lt;/b&gt;&lt;br&gt;• Consumer Loan&lt;br&gt;• Mortgage Loan&lt;br&gt;• Loan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;fontColor=#00A651;fontSize=12;fontFamily=Helvetica;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="72" y="2140" width="250" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Account Management Data Products -->
+        <mxCell id="ops-dp-acct" value="&lt;b&gt;Account Management&lt;/b&gt;&lt;br&gt;• Fraud Evaluation&lt;br&gt;• Fraud Diagnosis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;fontColor=#00A651;fontSize=12;fontFamily=Helvetica;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="340" y="2140" width="250" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Corporate Finance Data Products -->
+        <mxCell id="ops-dp-corp" value="&lt;b&gt;Corporate Financing&lt;/b&gt;&lt;br&gt;• Corporate Finance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;fontColor=#00A651;fontSize=12;fontFamily=Helvetica;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="608" y="2140" width="250" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Other Operations Data Products -->
+        <mxCell id="ops-dp-other" value="&lt;b&gt;Cards&lt;/b&gt;: Card Authorization&lt;br&gt;&lt;b&gt;Collateral Admin&lt;/b&gt;: Collections, Collateral Asset Admin&lt;br&gt;&lt;b&gt;Payments&lt;/b&gt;: Payment Order&lt;br&gt;&lt;b&gt;Trade Banking&lt;/b&gt;: Credit Management&lt;br&gt;&lt;b&gt;Consumer Svc&lt;/b&gt;: Consumer Advisory Services&lt;br&gt;&lt;b&gt;Operational Svc&lt;/b&gt;: Delinquent Account Handling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;fontColor=#00A651;fontSize=12;fontFamily=Helvetica;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="876" y="2140" width="380" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== REFERENCE DATA ===================== -->
+        <mxCell id="ba-ref" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFAF0;strokeColor=#FFA500;strokeWidth=3;fontSize=16;arcSize=5;" parent="1" vertex="1">
+          <mxGeometry x="1836" y="1540" width="1122" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-ref-title" value="&lt;b&gt;REFERENCE DATA&lt;/b&gt;&lt;br&gt;&lt;span&gt;Party, External Agency, Market Data, Product Management&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#FFA500;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=25;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1852" y="1564" width="1026" height="107" as="geometry" />
+        </mxCell>
+
+        <!-- Reference Data Use Cases -->
+        <mxCell id="uc001-ref" value="&lt;b&gt;UC-001&lt;/b&gt;&lt;br&gt;FrontLine Partnership Banking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#40B8CC;fontColor=#333333;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1868" y="1707" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc011-ref" value="&lt;b&gt;UC-011&lt;/b&gt;&lt;br&gt;Fincrime" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#40B8CC;fontColor=#333333;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="2133" y="1707" width="249" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc014-ref" value="&lt;b&gt;UC-014&lt;/b&gt;&lt;br&gt;Onboarding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#40B8CC;fontColor=#333333;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="2397" y="1707" width="208" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="uc018-ref" value="&lt;b&gt;UC-018&lt;/b&gt;&lt;br&gt;Procurement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#40B8CC;fontColor=#333333;fontSize=16;fontFamily=Helvetica;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="2621" y="1707" width="249" height="119" as="geometry" />
+        </mxCell>
+
+        <!-- Reference Data Stats -->
+        <mxCell id="ref-stats" value="&lt;b&gt;4 Use Cases&lt;/b&gt; | Domains: Party (2), External Agency (2)" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontColor=#CC8400;fontFamily=Helvetica;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1868" y="1993" width="738" height="71" as="geometry" />
+        </mxCell>
+
+        <!-- Reference Data Products Section -->
+        <mxCell id="ref-dp-title" value="&lt;b&gt;Data Products (Service Domains)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#FFA500;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=18;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1868" y="2080" width="738" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Party Data Products -->
+        <mxCell id="ref-dp-party" value="&lt;b&gt;Party&lt;/b&gt;&lt;br&gt;• Party Routing Profile&lt;br&gt;• Legal Entity Directory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFA500;fontColor=#CC8400;fontSize=12;fontFamily=Helvetica;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1868" y="2140" width="330" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- External Agency Data Products -->
+        <mxCell id="ref-dp-external" value="&lt;b&gt;External Agency&lt;/b&gt;&lt;br&gt;• Information Provider Administration&lt;br&gt;• Contractor and Supplier Agreement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFA500;fontColor=#CC8400;fontSize=12;fontFamily=Helvetica;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="2216" y="2140" width="330" height="80" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

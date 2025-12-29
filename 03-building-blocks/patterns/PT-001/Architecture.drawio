@@ -1,0 +1,305 @@
+<mxfile host="app.diagrams.net" modified="2025-12-05T00:00:00.000Z" agent="Claude Code" version="24.0.0">
+  <diagram name="PT-001 Architecture Overview" id="pt001-architecture">
+    <mxGraphModel dx="2400" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1800" background="#FFFFFF">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Title -->
+        <mxCell id="title" value="PT-001: Enterprise AI Governance Platform - Architecture Overview" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=28;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="400" y="50" width="1600" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Pattern Boundary Container -->
+        <mxCell id="pattern-boundary" value="ENTERPRISE AI GOVERNANCE PLATFORM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#003087;strokeWidth=3;dashed=1;dashPattern=8 8;fontSize=20;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;align=left;verticalAlign=top;spacingLeft=20;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="250" width="2000" height="1100" as="geometry"/>
+        </mxCell>
+
+        <!-- External: All AI Use Cases (Top) -->
+        <mxCell id="ai-use-cases" value="All 24 AI Use Cases&#xa;(UC-001 to UC-024)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=16;fontStyle=1;fontFamily=Helvetica;fontColor=#333333;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="920" y="120" width="360" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- AB-066: AI Gateway (Entry Point) -->
+        <mxCell id="abb-gov-007" value="AB-066&#xa;AI Gateway&#xa;(Policy Enforcement &amp; Routing)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#333333;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="920" y="310" width="360" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- AB-060: Model Registry -->
+        <mxCell id="abb-gov-001" value="AB-060&#xa;Model Registry&#xa;(Centralized Catalog &amp; Versioning)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#333333;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="300" y="500" width="340" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- AB-061: Risk Assessment Engine -->
+        <mxCell id="abb-gov-002" value="AB-061&#xa;Risk Assessment Engine&#xa;(Tier Classification: 1/2/3)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#333333;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="720" y="500" width="340" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- AB-062: Approval Workflow -->
+        <mxCell id="abb-gov-003" value="AB-062&#xa;Approval Workflow&#xa;(Multi-level Approval Gates)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#333333;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="500" width="340" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- AB-063: Observability Platform -->
+        <mxCell id="abb-gov-004" value="AB-063&#xa;Observability &amp; Monitoring&#xa;(Drift, Performance, Fairness)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#333333;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="300" y="700" width="340" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- AB-064: Compliance Dashboard -->
+        <mxCell id="abb-gov-005" value="AB-064&#xa;Compliance Dashboard&#xa;(Real-time Compliance Status)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#333333;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="720" y="700" width="340" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- AB-065: Audit Trail -->
+        <mxCell id="abb-gov-006" value="AB-065&#xa;Audit Trail &amp; Logging&#xa;(Immutable Event Log - 7+ years)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#333333;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#FFFFFF;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="700" width="340" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Supporting ABBs Group -->
+        <mxCell id="supporting-abbs-group" value="Supporting ABBs (Optional/Scenario-Specific)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;dashed=1;dashPattern=5 5;fontSize=12;fontStyle=2;fontFamily=Helvetica;fontColor=#666666;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="300" y="920" width="1180" height="180" as="geometry"/>
+        </mxCell>
+
+        <!-- AB-067: Cost Attribution -->
+        <mxCell id="abb-gov-008" value="AB-067&#xa;Cost Attribution&#xa;(Use Case Allocation)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=2;fontSize=12;fontStyle=0;fontFamily=Helvetica;fontColor=#333333;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="320" y="960" width="260" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- AB-068: Explainability Service -->
+        <mxCell id="abb-gov-009" value="AB-068&#xa;Explainability Service&#xa;(SHAP/LIME)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=2;fontSize=12;fontStyle=0;fontFamily=Helvetica;fontColor=#333333;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="620" y="960" width="260" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- AB-069: Bias Detection -->
+        <mxCell id="abb-gov-010" value="AB-069&#xa;Bias Detection&#xa;(Fairness Testing)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=2;fontSize=12;fontStyle=0;fontFamily=Helvetica;fontColor=#333333;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="920" y="960" width="260" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- AB-070: Data Lineage -->
+        <mxCell id="abb-gov-011" value="AB-070&#xa;Data Lineage Tracker&#xa;(Data → Model → Prediction)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=2;fontSize=12;fontStyle=0;fontFamily=Helvetica;fontColor=#333333;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="960" width="260" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- External: Production AI Infrastructure -->
+        <mxCell id="prod-infrastructure" value="Production AI Infrastructure&#xa;(AKS, Lambda, SageMaker Endpoints)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=16;fontStyle=1;fontFamily=Helvetica;fontColor=#333333;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1420" width="360" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- External: Regulatory Systems -->
+        <mxCell id="regulatory-systems" value="Regulatory Systems&#xa;(SR 11-7, EU AI Act, GDPR Reports)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#333333;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="700" width="340" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- External: Business Users -->
+        <mxCell id="business-users" value="Business Users &amp; Stakeholders&#xa;(Model Owners, Risk Team, Compliance)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#333333;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="500" width="340" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrows: Data Flow -->
+
+        <!-- Use Cases to Gateway -->
+        <mxCell id="arrow-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="ai-use-cases" target="abb-gov-007">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow-1-label" value="AI Requests" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#003087;fontStyle=1;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow-1">
+          <mxGeometry x="-0.1" y="2" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Gateway to Model Registry -->
+        <mxCell id="arrow-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="abb-gov-007" target="abb-gov-001">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow-2-label" value="Model Registration" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#003087;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow-2">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+            <mxPoint x="-40" y="-10" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Model Registry to Risk Assessment -->
+        <mxCell id="arrow-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="abb-gov-001" target="abb-gov-002">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow-3-label" value="Trigger Risk Analysis" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#003087;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow-3">
+          <mxGeometry x="-0.1" y="2" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Risk Assessment to Approval Workflow -->
+        <mxCell id="arrow-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="abb-gov-002" target="abb-gov-003">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow-4-label" value="Initiate Approval&#xa;(Risk Tier Based)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#003087;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow-4">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+            <mxPoint y="-15" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Gateway to Observability -->
+        <mxCell id="arrow-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="abb-gov-007" target="abb-gov-004">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow-5-label" value="Stream Metrics" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#003087;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow-5">
+          <mxGeometry x="-0.1" y="2" relative="1" as="geometry">
+            <mxPoint x="40" y="-10" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Observability to Compliance Dashboard -->
+        <mxCell id="arrow-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="abb-gov-004" target="abb-gov-005">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow-6-label" value="Compliance Metrics" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#003087;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow-6">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Gateway to Audit Trail -->
+        <mxCell id="arrow-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=3;endArrow=block;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="abb-gov-007" target="abb-gov-006">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow-7-label" value="Log All Events" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#003087;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow-7">
+          <mxGeometry x="-0.1" y="2" relative="1" as="geometry">
+            <mxPoint x="20" y="10" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Approval Workflow to Audit Trail -->
+        <mxCell id="arrow-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="abb-gov-003" target="abb-gov-006">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow-8-label" value="Log Approvals" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#003087;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow-8">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Gateway to Production Infrastructure -->
+        <mxCell id="arrow-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=3;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="abb-gov-006" target="prod-infrastructure">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="1000" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-9-label" value="Approved Models&#xa;to Production" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#003087;fontStyle=1;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow-9">
+          <mxGeometry x="-0.1" y="2" relative="1" as="geometry">
+            <mxPoint y="20" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Compliance to Regulatory Systems -->
+        <mxCell id="arrow-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="abb-gov-005" target="regulatory-systems">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow-10-label" value="Compliance Reports" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#003087;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow-10">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Approval to Business Users -->
+        <mxCell id="arrow-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=3;endArrow=block;endFill=1;dashed=1;dashPattern=5 5;" edge="1" parent="1" source="abb-gov-003" target="business-users">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow-11-label" value="Approval Requests" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#003087;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow-11">
+          <mxGeometry x="-0.1" y="2" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Compliance to Business Users -->
+        <mxCell id="arrow-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=3;endArrow=block;endFill=1;dashed=1;dashPattern=5 5;" edge="1" parent="1" source="abb-gov-005" target="business-users">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow-12-label" value="Dashboard Access" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#003087;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow-12">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+            <mxPoint x="40" y="10" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="legend-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=1;fontSize=10;fontFamily=Helvetica;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="1180" width="530" height="280" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-title" value="LEGEND" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1190" width="100" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Legend: Colors -->
+        <mxCell id="legend-colors-title" value="Colors:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontStyle=1;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1225" width="100" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-navy" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#333333;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1250" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-navy-label" value="Navy Blue (#003087) - Application ABBs (Critical Components)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=10;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="1248" width="440" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-teal" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#333333;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1275" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-teal-label" value="Teal (#00A651) - Governance ABBs (Risk, Approval, Compliance, Audit)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=10;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="1273" width="440" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-lightblue" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1300" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-lightblue-label" value="Light Blue (#50E6FF) - External Systems (Use Cases, Infrastructure)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=10;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="1298" width="440" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-gray" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1325" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-gray-label" value="Gray (#CCCCCC) - Supporting ABBs (Optional/Scenario-Specific)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=10;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="1323" width="440" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Legend: Arrows -->
+        <mxCell id="legend-arrows-title" value="Arrow Types:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontStyle=1;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1355" width="100" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-arrow-solid" value="" style="endArrow=block;html=1;strokeColor=#003087;strokeWidth=3;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1650" y="1390" as="sourcePoint"/>
+            <mxPoint x="1710" y="1390" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-arrow-solid-label" value="Solid Arrow - Primary Data Flow (Required Relationships)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=10;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="1380" width="410" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-arrow-dashed" value="" style="endArrow=block;html=1;strokeColor=#003087;strokeWidth=3;endFill=1;dashed=1;dashPattern=5 5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1650" y="1415" as="sourcePoint"/>
+            <mxPoint x="1710" y="1415" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-arrow-dashed-label" value="Dashed Arrow - Optional Flow (Human Interaction, Notifications)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=10;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="1405" width="410" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Legend: ABB Categories -->
+        <mxCell id="legend-abb-title" value="ABB Categories:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontStyle=1;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1435" width="120" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-abb-critical" value="• Critical ABBs (7): Gateway, Registry, Risk, Approval, Observability, Compliance, Audit" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=10;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1455" width="480" height="15" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-abb-supporting" value="• Supporting ABBs (4): Cost, Explainability, Bias Detection, Data Lineage" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=10;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1470" width="480" height="15" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

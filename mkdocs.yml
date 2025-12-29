@@ -1,0 +1,54 @@
+# MkDocs Configuration for AI Platform Architecture
+site_name: AI Platform Architecture
+site_description: Architecture documentation for the BNZ AI Platform
+site_author: BNZ Strategy & Architecture Team
+
+# Important: This enables file:// compatibility
+use_directory_urls: false
+
+# Theme configuration
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: orange
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+
+# Extensions
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+# Plugins
+plugins:
+  - search
+
+# Navigation structure
+nav:
+  - Home: index.md
+  - Motivation:
+    - Overview: 01-motivation/index.md
+  - Capabilities:
+    - Overview: 02-capabilities/index.md
+  - Building Blocks:
+    - Overview: 03-building-blocks/index.md
+    - Architecture Building Blocks:
+      - ABB Catalog: 03-building-blocks/architecture-building-blocks/abbs/index.md
+    - Patterns:
+      - Pattern Catalog: 03-building-blocks/patterns/index.md
+  - Governance:
+    - Overview: 05-governance/index.md
+  - Roadmap:
+    - Overview: 07-roadmap/index.md

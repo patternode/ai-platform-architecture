@@ -1,0 +1,12 @@
+use_case_id,name,stage,wave,fy_quarter,dvf_score,wsjf_score,strategic_theme,category,owner,last_review,next_milestone,status
+UC-001,Partnership Banking,5-active,wave-1,FY2026-Q1,8,24.5,Customer Experience,Customer & Relationship Management,Shawn Cawood,2025-12-01,Go-live,On Track
+UC-002,Finance,3-backlog,wave-2,,7,18.2,Operational Excellence,Finance & Accounting,Brian Stapleton,2025-12-01,Wave 2 planning,Pending
+UC-003,Analytics and Reporting,3-backlog,wave-2,,7,17.8,Data & Analytics,Data & Analytics,Tracey Davis,2025-12-01,Wave 2 planning,Pending
+UC-004,Credit Risk,5-active,wave-1,FY2026-Q1,9,28.0,Risk Management,Risk Management,Paul Furkert,2025-12-01,Go-live,On Track
+UC-005,Lending Ops,3-backlog,wave-2,,7,16.5,Operational Excellence,Lending & Credit Operations,Paul Furkert,2025-12-01,Wave 2 planning,Pending
+UC-006,HyperPersonalization,5-active,wave-1,FY2026-Q2,8,22.0,Customer Experience,Marketing & Personalization,Corina Elama,2025-12-01,Development,On Track
+UC-007,Contact Centre,3-backlog,wave-2,,7,15.8,Customer Experience,Customer Service & Support,Dan Barratt,2025-12-01,Wave 2 planning,Pending
+UC-008,Security AI,3-backlog,wave-2,,8,19.5,Risk Management,Cybersecurity & Threat Detection,Francis Kataino,2025-12-01,Wave 2 planning,Pending
+UC-009,Data Products,5-active,wave-1,FY2026-Q1,8,26.0,Data & Analytics,Data & Analytics,Tracey Davis,2025-12-01,Go-live,On Track
+UC-010,SDLC,3-backlog,wave-2,,7,14.2,Operational Excellence,Software Development,Glenn Bellam,2025-12-01,Wave 2 planning,Pending
+UC-011,Fincrime,5-active,wave-1,FY2026-Q2,9,25.5,Risk Management,Compliance & Financial Crime,Michael Lomas,2025-12-01,Development,On Track

@@ -1,0 +1,25 @@
+Element_ID,Element_Name,Element_Type,Stereotype,Parent_Category,Level,Hierarchy_Path
+ops2-001,Operations 2,Container,Grouping,Root,1,Operations 2
+os-001,Operational Services,Container,Grouping,Operations 2,2,Operations 2 > Operational Services
+os-002,Customer Billing,ServiceDomain,ServiceDomain,Operational Services,3,Operations 2 > Operational Services > Customer Billing
+os-003,Disbursement,ServiceDomain,ServiceDomain,Operational Services,3,Operations 2 > Operational Services > Disbursement
+os-004,Open Item Management,ServiceDomain,ServiceDomain,Operational Services,3,Operations 2 > Operational Services > Open Item Management
+os-005,Delinquent Account Handling,ServiceDomain,ServiceDomain,Operational Services,3,Operations 2 > Operational Services > Delinquent Account Handling
+os-006,Card Collections,ServiceDomain,ServiceDomain,Operational Services,3,Operations 2 > Operational Services > Card Collections
+os-007,Term Deposit Framework Agreement,ServiceDomain,ServiceDomain,Operational Services,3,Operations 2 > Operational Services > Term Deposit Framework Agreement
+os-008,Product Combination,ServiceDomain,ServiceDomain,Operational Services,3,Operations 2 > Operational Services > Product Combination
+os-009,Reward Points Awards And Redemption,ServiceDomain,ServiceDomain,Operational Services,3,Operations 2 > Operational Services > Reward Points Awards And Redemption
+os-010,Issued Device Administration,ServiceDomain,ServiceDomain,Operational Services,3,Operations 2 > Operational Services > Issued Device Administration
+os-011,Issued Device Tracking,ServiceDomain,ServiceDomain,Operational Services,3,Operations 2 > Operational Services > Issued Device Tracking
+os-012,Card Transaction Switch,ServiceDomain,ServiceDomain,Operational Services,3,Operations 2 > Operational Services > Card Transaction Switch
+os-013,Internal Bank Account,ServiceDomain,ServiceDomain,Operational Services,3,Operations 2 > Operational Services > Internal Bank Account
+ea-001,External Agency,Container,Grouping,Operations 2,2,Operations 2 > External Agency
+ea-002,Interbank Relationship Management,ServiceDomain,ServiceDomain,External Agency,3,Operations 2 > External Agency > Interbank Relationship Management
+ea-003,Correspondent Bank Relationship Management,ServiceDomain,ServiceDomain,External Agency,3,Operations 2 > External Agency > Correspondent Bank Relationship Management
+ea-004,Syndicate Management,ServiceDomain,ServiceDomain,External Agency,3,Operations 2 > External Agency > Syndicate Management
+ea-005,Product Service Agency,ServiceDomain,ServiceDomain,External Agency,3,Operations 2 > External Agency > Product Service Agency
+ea-006,Service Provider Operations,ServiceDomain,ServiceDomain,External Agency,3,Operations 2 > External Agency > Service Provider Operations
+ea-007,Product Broker Agreement,ServiceDomain,ServiceDomain,External Agency,3,Operations 2 > External Agency > Product Broker Agreement
+ea-008,Sub Custodian Agreement,ServiceDomain,ServiceDomain,External Agency,3,Operations 2 > External Agency > Sub Custodian Agreement
+ea-009,Commission Agreement,ServiceDomain,ServiceDomain,External Agency,3,Operations 2 > External Agency > Commission Agreement
+ea-010,Contractor and Supplier Agreement,ServiceDomain,ServiceDomain,External Agency,3,Operations 2 > External Agency > Contractor and Supplier Agreement

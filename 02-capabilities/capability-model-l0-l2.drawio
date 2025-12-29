@@ -1,0 +1,200 @@
+<mxfile host="Electron" agent="Mozilla/5.0" version="29.0.3">
+  <diagram name="AI Platform Capability Model L0-L1" id="capability-l0-l1">
+    <mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Title -->
+        <mxCell id="title" value="&lt;b&gt;BNZ AI Platform Capability Model&lt;/b&gt;&lt;br&gt;L0 Domains → L1 Groups" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="560" y="20" width="800" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== EXPERIENCES (L0) ==================== -->
+        <mxCell id="L0-EXP" value="&lt;b&gt;Experiences&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#5b1d58;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=16;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="100" width="620" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- L1: Workplace AI -->
+        <mxCell id="L1-WORK-AI" value="&lt;b&gt;Workplace AI&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;2 capabilities&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7a3d78;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="50" y="130" width="115" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- L1: SaaS AI -->
+        <mxCell id="L1-SAAS" value="&lt;b&gt;SaaS AI&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;2 capabilities&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7a3d78;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="170" y="130" width="115" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- L1: AI Solutions -->
+        <mxCell id="L1-AI-SOL" value="&lt;b&gt;AI Solutions&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;52 capabilities&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7a3d78;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="290" y="130" width="115" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- L1: Channels -->
+        <mxCell id="L1-CHAN" value="&lt;b&gt;Channels&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;2 capabilities&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7a3d78;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="410" y="130" width="115" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- L1: Personalisation -->
+        <mxCell id="L1-PERS" value="&lt;b&gt;Personalisation&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;2 capabilities&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7a3d78;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="530" y="130" width="120" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== AGENTIC AI (L0) ==================== -->
+        <mxCell id="L0-AGT" value="&lt;b&gt;Agentic AI&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=16;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="680" y="100" width="380" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- L1: Agents -->
+        <mxCell id="L1-AGENTS" value="&lt;b&gt;Agents&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;61 capabilities&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#33b873;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="690" y="130" width="115" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- L1: Low Code Agentic -->
+        <mxCell id="L1-LCODE" value="&lt;b&gt;Low Code&lt;br&gt;Agentic&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;3 capabilities&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#33b873;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="810" y="130" width="115" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- L1: High Code Agentic -->
+        <mxCell id="L1-HCODE" value="&lt;b&gt;High Code&lt;br&gt;Agentic&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;3 capabilities&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#33b873;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="930" y="130" width="115" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== GENERATIVE AI (L0) ==================== -->
+        <mxCell id="L0-GEN" value="&lt;b&gt;Generative AI&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=16;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="100" width="380" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- L1: LLMs -->
+        <mxCell id="L1-LLMS" value="&lt;b&gt;LLMs&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;6 capabilities&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ff8c5a;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="130" width="115" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- L1: RAG -->
+        <mxCell id="L1-RAG" value="&lt;b&gt;RAG&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;6 capabilities&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ff8c5a;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="130" width="115" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- L1: Content -->
+        <mxCell id="L1-CONTENT" value="&lt;b&gt;Content&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;12 capabilities&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ff8c5a;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="130" width="115" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== FOUNDATIONS (L0) ==================== -->
+        <mxCell id="L0-FND" value="&lt;b&gt;Foundations&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=16;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="250" width="740" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- L1: Models -->
+        <mxCell id="L1-MODELS" value="&lt;b&gt;Models&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;61 capabilities&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1a4d99;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="50" y="280" width="138" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- L1: Data & Knowledge -->
+        <mxCell id="L1-DATA" value="&lt;b&gt;Data &amp;&lt;br&gt;Knowledge&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;51 capabilities&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1a4d99;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="193" y="280" width="138" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- L1: Integration -->
+        <mxCell id="L1-INT" value="&lt;b&gt;Integration&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;21 capabilities&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1a4d99;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="336" y="280" width="138" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- L1: Security -->
+        <mxCell id="L1-SEC" value="&lt;b&gt;Security&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;21 capabilities&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1a4d99;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="479" y="280" width="138" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- L1: Infrastructure -->
+        <mxCell id="L1-INFRA" value="&lt;b&gt;Infrastructure&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;4 capabilities&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1a4d99;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="622" y="280" width="138" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== ENABLING (L0) ==================== -->
+        <mxCell id="L0-ENB" value="&lt;b&gt;Enabling&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7030A0;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=16;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="800" y="250" width="660" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- L1: Transformation & Governance -->
+        <mxCell id="L1-GOV" value="&lt;b&gt;Transformation &amp;&lt;br&gt;Governance&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;54 capabilities&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a4db8;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="810" y="280" width="200" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- L1: Technologies & Enablement -->
+        <mxCell id="L1-TECH" value="&lt;b&gt;Technologies &amp;&lt;br&gt;Enablement&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;21 capabilities&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a4db8;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="280" width="200" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- L1: Engineering & Practices -->
+        <mxCell id="L1-ENG" value="&lt;b&gt;Engineering &amp;&lt;br&gt;Practices&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;41 capabilities&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a4db8;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="280" width="200" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== LEGEND ==================== -->
+        <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;arcSize=4;" parent="1" vertex="1">
+          <mxGeometry x="40" y="400" width="1420" height="90" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-title" value="&lt;b&gt;Legend&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="50" y="405" width="60" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-hierarchy" value="&lt;b&gt;Hierarchy:&lt;/b&gt; L0 Domain (outer box) → L1 Group (inner boxes with capability counts)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="50" y="425" width="400" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- L0 Legend Colors -->
+        <mxCell id="leg-exp" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#5b1d58;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="500" y="410" width="15" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="leg-exp-t" value="Experiences (60)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="520" y="407" width="100" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="leg-agt" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="630" y="410" width="15" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="leg-agt-t" value="Agentic AI (67)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="650" y="407" width="90" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="leg-gen" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="750" y="410" width="15" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="leg-gen-t" value="Generative AI (24)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="770" y="407" width="110" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="leg-fnd" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="890" y="410" width="15" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="leg-fnd-t" value="Foundations (158)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="910" y="407" width="105" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="leg-enb" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7030A0;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1025" y="410" width="15" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="leg-enb-t" value="Enabling (116)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1045" y="407" width="90" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Stats -->
+        <mxCell id="legend-stats" value="&lt;b&gt;Total:&lt;/b&gt; 5 L0 Domains | 18 L1 Groups | 425 Capabilities (incl. 18 placeholders)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="50" y="450" width="400" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Placeholder note -->
+        <mxCell id="legend-placeholder" value="&lt;i&gt;Note: L1 groups with low capability counts contain placeholder capabilities to be defined&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="50" y="465" width="450" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Version -->
+        <mxCell id="legend-version" value="BNZ AI Platform | v1.0.0 | 2025-12-07" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="465" width="170" height="20" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

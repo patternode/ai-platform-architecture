@@ -1,0 +1,404 @@
+<mxfile host="app.diagrams.net" modified="2025-12-05T00:00:00.000Z" agent="5.0" version="24.0.0" type="device">
+  <diagram name="PT-007-Agentic-AI-Architecture" id="pt007-agentic-ai">
+    <mxGraphModel dx="2400" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="PT-007: Agentic AI Pattern - Architecture Overview" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="2320" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Pattern Boundary Container -->
+        <mxCell id="pattern-boundary" value="Agentic AI Pattern Boundary" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;strokeWidth=3;fillColor=none;verticalAlign=top;fontSize=18;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="200" y="140" width="2000" height="1400" as="geometry" />
+        </mxCell>
+
+        <!-- User/External Actor -->
+        <mxCell id="user" value="User / Application" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#003087;strokeWidth=2;fontSize=14;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="80" y="700" width="80" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Agent Core (Central Component) -->
+        <mxCell id="agent-core" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Agent Core (LLM)&lt;/b&gt;&lt;br&gt;&lt;br&gt;AB-001&lt;br&gt;&lt;br&gt;• Reasoning Engine&lt;br&gt;• Natural Language Understanding&lt;br&gt;• Decision Making&lt;br&gt;• Chain-of-Thought Processing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=13;fontFamily=Helvetica;fontColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=10;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="900" y="300" width="280" height="180" as="geometry" />
+        </mxCell>
+
+        <!-- Planning Module -->
+        <mxCell id="planning-module" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;Planning Module&lt;/b&gt;&lt;br&gt;&lt;br&gt;AB-004&lt;br&gt;&lt;br&gt;• Task Decomposition&lt;br&gt;• Goal Analysis&lt;br&gt;• Strategy Generation&lt;br&gt;• Sub-task Creation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=12;fontFamily=Helvetica;fontColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=10;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="260" height="180" as="geometry" />
+        </mxCell>
+
+        <!-- Reflection Module -->
+        <mxCell id="reflection-module" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;Reflection Module&lt;/b&gt;&lt;br&gt;&lt;br&gt;AB-006&lt;br&gt;&lt;br&gt;• Progress Evaluation&lt;br&gt;• Error Detection&lt;br&gt;• Plan Adjustment&lt;br&gt;• Self-Critique" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=12;fontFamily=Helvetica;fontColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=10;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="300" width="260" height="180" as="geometry" />
+        </mxCell>
+
+        <!-- Execution Engine -->
+        <mxCell id="execution-engine" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;Execution Engine&lt;/b&gt;&lt;br&gt;&lt;br&gt;AB-005&lt;br&gt;&lt;br&gt;• Tool Invocation&lt;br&gt;• Result Processing&lt;br&gt;• Retry Logic&lt;br&gt;• Error Handling&lt;br&gt;• Circuit Breaker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=12;fontFamily=Helvetica;fontColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=10;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="900" y="600" width="280" height="200" as="geometry" />
+        </mxCell>
+
+        <!-- Tool Registry -->
+        <mxCell id="tool-registry" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;Tool Registry&lt;/b&gt;&lt;br&gt;&lt;br&gt;AB-002&lt;br&gt;&lt;br&gt;• Tool Catalog&lt;br&gt;• API Schemas (OpenAPI)&lt;br&gt;• Function Definitions&lt;br&gt;• Tool Metadata&lt;br&gt;• Access Controls" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=12;fontFamily=Helvetica;fontColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=10;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="520" y="600" width="260" height="200" as="geometry" />
+        </mxCell>
+
+        <!-- Memory System -->
+        <mxCell id="memory-system" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;Memory System&lt;/b&gt;&lt;br&gt;&lt;br&gt;AB-003" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=12;fontFamily=Helvetica;fontColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=10;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="600" width="260" height="200" as="geometry" />
+        </mxCell>
+
+        <!-- Short-term Memory -->
+        <mxCell id="memory-short" value="&lt;b&gt;Short-term Memory&lt;/b&gt;&lt;br&gt;&lt;br&gt;• Conversation State&lt;br&gt;• Session Context&lt;br&gt;• Active Task Data&lt;br&gt;(Redis)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontColor=#003087;align=left;verticalAlign=top;spacingLeft=8;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="660" width="115" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- Long-term Memory -->
+        <mxCell id="memory-long" value="&lt;b&gt;Long-term Memory&lt;/b&gt;&lt;br&gt;&lt;br&gt;• User Preferences&lt;br&gt;• Historical Context&lt;br&gt;• Learned Insights&lt;br&gt;(PostgreSQL/pgvector)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontColor=#003087;align=left;verticalAlign=top;spacingLeft=8;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="660" width="115" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- Supporting Components Box -->
+        <mxCell id="supporting-box" value="Supporting Components (Optional)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00A651;strokeWidth=2;fillColor=none;verticalAlign=top;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#00A651;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="900" width="1900" height="160" as="geometry" />
+        </mxCell>
+
+        <!-- Multi-Agent Orchestrator -->
+        <mxCell id="multi-agent" value="&lt;b&gt;Multi-Agent Orchestrator&lt;/b&gt;&lt;br&gt;&lt;br&gt;AB-007&lt;br&gt;• Agent Coordination&lt;br&gt;• Task Distribution&lt;br&gt;• Result Consolidation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#00A651;strokeWidth=2;fontSize=11;fontFamily=Helvetica;fontColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=8;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="280" y="940" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Human-in-the-Loop Gateway -->
+        <mxCell id="hitl-gateway" value="&lt;b&gt;Human-in-the-Loop Gateway&lt;/b&gt;&lt;br&gt;&lt;br&gt;AB-008&lt;br&gt;• Approval Gates&lt;br&gt;• High-Risk Decision Review&lt;br&gt;• User Feedback Collection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#00A651;strokeWidth=2;fontSize=11;fontFamily=Helvetica;fontColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=8;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="540" y="940" width="220" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Cost Monitor -->
+        <mxCell id="cost-monitor" value="&lt;b&gt;Cost Monitor&lt;/b&gt;&lt;br&gt;&lt;br&gt;AB-009&lt;br&gt;• LLM API Call Tracking&lt;br&gt;• Budget Enforcement&lt;br&gt;• Cost Alerts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#00A651;strokeWidth=2;fontSize=11;fontFamily=Helvetica;fontColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=8;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="820" y="940" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Knowledge Base / RAG -->
+        <mxCell id="knowledge-base" value="&lt;b&gt;Knowledge Base / RAG&lt;/b&gt;&lt;br&gt;&lt;br&gt;AB-080&lt;br&gt;• Enterprise Context&lt;br&gt;• Document Retrieval&lt;br&gt;• Vector Search" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#00A651;strokeWidth=2;fontSize=11;fontFamily=Helvetica;fontColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=8;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="940" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Cross-Cutting Components -->
+        <mxCell id="governance-platform" value="&lt;b&gt;AI Governance Platform&lt;/b&gt;&lt;br&gt;&lt;br&gt;AB-060&lt;br&gt;• Compliance Monitoring&lt;br&gt;• Audit Trail&lt;br&gt;• Risk Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#003087;strokeWidth=2;fontSize=11;fontFamily=Helvetica;fontColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=8;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="940" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="security-identity" value="&lt;b&gt;Security &amp; Identity&lt;/b&gt;&lt;br&gt;&lt;br&gt;AB-112&lt;br&gt;• Authentication&lt;br&gt;• Authorization&lt;br&gt;• Access Control" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#003087;strokeWidth=2;fontSize=11;fontFamily=Helvetica;fontColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=8;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="940" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="observability" value="&lt;b&gt;Observability Platform&lt;/b&gt;&lt;br&gt;&lt;br&gt;AB-096&lt;br&gt;• Monitoring&lt;br&gt;• Logging&lt;br&gt;• Alerting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#003087;strokeWidth=2;fontSize=11;fontFamily=Helvetica;fontColor=#FFFFFF;align=left;verticalAlign=top;spacingLeft=8;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="940" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- External Tools/APIs -->
+        <mxCell id="external-tools-box" value="External Tools &amp; APIs" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;strokeWidth=2;fillColor=#F5F5F5;verticalAlign=top;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1150" width="1900" height="340" as="geometry" />
+        </mxCell>
+
+        <!-- External Tools - Row 1 -->
+        <mxCell id="tool-crm" value="&lt;b&gt;CRM API&lt;/b&gt;&lt;br&gt;Salesforce" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4F8;strokeColor=#003087;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1200" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tool-banking" value="&lt;b&gt;Core Banking API&lt;/b&gt;&lt;br&gt;Transaction Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4F8;strokeColor=#003087;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1200" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tool-web" value="&lt;b&gt;Web Search&lt;/b&gt;&lt;br&gt;Bing/Google" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4F8;strokeColor=#003087;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1200" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tool-analytics" value="&lt;b&gt;Analytics Engine&lt;/b&gt;&lt;br&gt;Power BI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4F8;strokeColor=#003087;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1200" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tool-erp" value="&lt;b&gt;ERP System&lt;/b&gt;&lt;br&gt;SAP/Oracle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4F8;strokeColor=#003087;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1200" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tool-github" value="&lt;b&gt;GitHub API&lt;/b&gt;&lt;br&gt;Code Repository" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4F8;strokeColor=#003087;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="1200" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- External Tools - Row 2 -->
+        <mxCell id="tool-database" value="&lt;b&gt;Database Query&lt;/b&gt;&lt;br&gt;SQL/NoSQL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4F8;strokeColor=#003087;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1290" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tool-email" value="&lt;b&gt;Email/Calendar&lt;/b&gt;&lt;br&gt;Outlook API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4F8;strokeColor=#003087;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1290" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tool-doc" value="&lt;b&gt;Document Generator&lt;/b&gt;&lt;br&gt;Word/PDF" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4F8;strokeColor=#003087;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1290" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tool-market" value="&lt;b&gt;Market Data&lt;/b&gt;&lt;br&gt;Bloomberg/Reuters" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4F8;strokeColor=#003087;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1290" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tool-financial" value="&lt;b&gt;Financial Statement&lt;/b&gt;&lt;br&gt;Extractor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4F8;strokeColor=#003087;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1290" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tool-ocr" value="&lt;b&gt;OCR/Document&lt;/b&gt;&lt;br&gt;Processing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4F8;strokeColor=#003087;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="1290" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- External Tools - Row 3 -->
+        <mxCell id="tool-vendor" value="&lt;b&gt;Vendor Database&lt;/b&gt;&lt;br&gt;Procurement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4F8;strokeColor=#003087;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1380" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tool-risk" value="&lt;b&gt;Risk Calculator&lt;/b&gt;&lt;br&gt;Credit/Market" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4F8;strokeColor=#003087;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1380" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tool-compliance" value="&lt;b&gt;Compliance Check&lt;/b&gt;&lt;br&gt;Policy Engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4F8;strokeColor=#003087;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1380" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tool-test" value="&lt;b&gt;Test Runner&lt;/b&gt;&lt;br&gt;CI/CD Pipeline" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4F8;strokeColor=#003087;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1380" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tool-code" value="&lt;b&gt;Code Analyzer&lt;/b&gt;&lt;br&gt;SonarQube" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4F8;strokeColor=#003087;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1380" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tool-custom" value="&lt;b&gt;Custom Functions&lt;/b&gt;&lt;br&gt;Business Logic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4F8;strokeColor=#003087;strokeWidth=1.5;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="1380" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Decision Loop Indicator -->
+        <mxCell id="loop-indicator" value="&lt;b style=&quot;font-size: 13px;&quot;&gt;Agent Decision Loop&lt;/b&gt;&lt;br&gt;&lt;br&gt;1. Plan Task&lt;br&gt;2. Execute Tools&lt;br&gt;3. Evaluate Progress&lt;br&gt;4. Adjust or Complete&lt;br&gt;&lt;br&gt;Max Iterations: 20-50&lt;br&gt;Timeout: 5-30 mins" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4E6;strokeColor=#FF6B35;strokeWidth=3;fontSize=11;fontFamily=Helvetica;fontColor=#003087;align=left;verticalAlign=top;spacingLeft=10;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1200" width="220" height="240" as="geometry" />
+        </mxCell>
+
+        <!-- Flow Arrows - Agent Core interactions -->
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=3;fontFamily=Helvetica;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="planning-module" target="agent-core">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="390" as="sourcePoint" />
+            <mxPoint x="850" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow1-label" value="Task Plan" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#003087;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow1">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="8" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=3;fontFamily=Helvetica;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="agent-core" target="reflection-module">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1190" y="390" as="sourcePoint" />
+            <mxPoint x="1240" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow2-label" value="Results" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#003087;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow2">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="8" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=3;fontFamily=Helvetica;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="agent-core" target="execution-engine">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="530" as="sourcePoint" />
+            <mxPoint x="1040" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow3-label" value="Tool Selection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#003087;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow3">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="50" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=3;fontFamily=Helvetica;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="execution-engine" target="tool-registry">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="700" as="sourcePoint" />
+            <mxPoint x="800" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow4-label" value="Query Tools" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#003087;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow4">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="8" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow5" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=3;fontFamily=Helvetica;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="execution-engine" target="memory-system">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="700" as="sourcePoint" />
+            <mxPoint x="1280" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow5-label" value="Store Context" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#003087;backgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="arrow5">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="8" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- User to Planning Module -->
+        <mxCell id="arrow-user-in" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=3;fontFamily=Helvetica;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="user" target="planning-module">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="760" as="sourcePoint" />
+            <mxPoint x="520" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="760" />
+              <mxPoint x="300" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-user-in-label" value="User Goal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#FF6B35;backgroundColor=#FFFFFF;fontStyle=1" vertex="1" connectable="0" parent="arrow-user-in">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="-15" y="-160" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Reflection to User (via Planning) -->
+        <mxCell id="arrow-user-out" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=3;fontFamily=Helvetica;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="reflection-module" target="user">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1300" y="390" as="sourcePoint" />
+            <mxPoint x="160" y="736" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1260" y="390" />
+              <mxPoint x="1260" y="240" />
+              <mxPoint x="240" y="240" />
+              <mxPoint x="240" y="736" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-user-out-label" value="Final Result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#00A651;backgroundColor=#FFFFFF;fontStyle=1" vertex="1" connectable="0" parent="arrow-user-out">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="360" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Reflection feedback loop to Planning -->
+        <mxCell id="arrow-feedback" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=2;fontFamily=Helvetica;fontSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="reflection-module" target="planning-module">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="260" as="sourcePoint" />
+            <mxPoint x="650" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1430" y="220" />
+              <mxPoint x="650" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-feedback-label" value="Adjust Plan (if needed)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#FF6B35;backgroundColor=#FFFFFF;fontStyle=1" vertex="1" connectable="0" parent="arrow-feedback">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="80" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Tool Registry to External Tools (example connection) -->
+        <mxCell id="arrow-tools1" value="" style="endArrow=classic;html=1;strokeColor=#50E6FF;strokeWidth=2;fontFamily=Helvetica;fontSize=12;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="execution-engine" target="tool-crm">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="820" as="sourcePoint" />
+            <mxPoint x="350" y="1180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="970" y="1100" />
+              <mxPoint x="350" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow-tools2" value="" style="endArrow=classic;html=1;strokeColor=#50E6FF;strokeWidth=2;fontFamily=Helvetica;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="execution-engine" target="tool-analytics">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="820" as="sourcePoint" />
+            <mxPoint x="890" y="1180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1040" y="1100" />
+              <mxPoint x="890" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow-tools3" value="" style="endArrow=classic;html=1;strokeColor=#50E6FF;strokeWidth=2;fontFamily=Helvetica;fontSize=12;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="execution-engine" target="tool-github">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="820" as="sourcePoint" />
+            <mxPoint x="1250" y="1180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1110" y="1100" />
+              <mxPoint x="1250" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow-tools-label" value="Invoke Tools" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#50E6FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="950" y="1070" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Legend Box -->
+        <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;strokeWidth=2;fillColor=#FFFFFF;verticalAlign=top;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1200" width="460" height="240" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-title" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;LEGEND&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Helvetica;fontColor=#003087;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1700" y="1210" width="420" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Legend Items -->
+        <mxCell id="legend-core" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="1245" width="40" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-core-text" value="Core Agent Components (Critical ABBs)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="1245" width="370" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-support" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#00A651;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="1275" width="40" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-support-text" value="Supporting Components (Optional ABBs)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="1275" width="370" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-cross" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#003087;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="1305" width="40" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-cross-text" value="Cross-Cutting Components (Always Required)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="1305" width="370" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-tools" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4F8;strokeColor=#003087;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="1335" width="40" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-tools-text" value="External Tools and APIs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="1335" width="370" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-arrow-solid" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1700" y="1377" as="sourcePoint" />
+            <mxPoint x="1740" y="1377" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-arrow-solid-text" value="Primary Data/Control Flow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="1365" width="370" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-arrow-dash" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=2;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1700" y="1407" as="sourcePoint" />
+            <mxPoint x="1740" y="1407" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-arrow-dash-text" value="Feedback/Adjustment Loop" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="1395" width="370" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Version and metadata -->
+        <mxCell id="metadata" value="Version: 1.0.0 | Pattern ID: PT-007 | Status: Approved | Date: 2025-12-05 | BNZ Enterprise Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1550" width="2320" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

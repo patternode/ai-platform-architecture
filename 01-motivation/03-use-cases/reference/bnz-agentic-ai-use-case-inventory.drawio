@@ -1,0 +1,311 @@
+<mxfile host="app.diagrams.net" modified="2025-12-11" agent="Claude Code" version="21.0.0" type="device">
+  <diagram name="BNZ Agentic AI Use Case Inventory" id="use-case-inventory">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Title -->
+        <mxCell id="title" value="BNZ Agentic AI Use Case Inventory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=28;fontColor=#003087;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="560" y="20" width="800" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Customer Experience Section Header -->
+        <mxCell id="header-cx" value="CUSTOMER EXPERIENCE" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="600" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Customer Service Sub-header -->
+        <mxCell id="subheader-cs" value="Customer Service" style="text;html=1;strokeColor=none;fillColor=#004FA3;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=11;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="40" y="115" width="600" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Customer Service Use Cases Row 1 -->
+        <mxCell id="uc22" value="Call Center Analytics&#xa;[Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="140" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc23" value="Caller Intent&#xa;[Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="155" y="140" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc24" value="Conversational&#xa;Self-Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="270" y="140" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc28" value="Customer-Facing&#xa;Chatbot [Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="385" y="140" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc25" value="Email Classification&#xa;&amp; Response" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="500" y="140" width="110" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Customer Service Use Cases Row 2 -->
+        <mxCell id="uc26" value="Email Triage&#xa;&amp; Response [Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="195" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc29" value="Hyper-Personalized&#xa;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="155" y="195" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc30" value="Multi-Channel&#xa;Comms Hub [Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="270" y="195" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc27" value="Post-Call&#xa;Analytics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="385" y="195" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc31" value="Proactive Customer&#xa;Assistance [Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="500" y="195" width="110" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Marketing & Sales Sub-header -->
+        <mxCell id="subheader-ms" value="Marketing &amp; Sales Automation" style="text;html=1;strokeColor=none;fillColor=#004FA3;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=11;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="40" y="255" width="600" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc20" value="Campaign&#xa;Orchestration [Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="280" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc21" value="Multi-Channel&#xa;Campaign Optimization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="155" y="280" width="110" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Product Development Sub-header -->
+        <mxCell id="subheader-pd" value="Product Development &amp; Innovation" style="text;html=1;strokeColor=none;fillColor=#004FA3;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=11;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="40" y="340" width="600" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc19" value="Product Innovation&#xa;Research" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="365" width="110" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Operational Efficiency Section Header -->
+        <mxCell id="header-oe" value="OPERATIONAL EFFICIENCY" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="660" y="80" width="620" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- SDLC Sub-header -->
+        <mxCell id="subheader-sdlc" value="SDLC (Software Development)" style="text;html=1;strokeColor=none;fillColor=#004FA3;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=11;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="660" y="115" width="620" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- SDLC Use Cases Row 1 -->
+        <mxCell id="uc2" value="Code Generation&#xa;[Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="660" y="140" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc3" value="Code&#xa;Transformation [Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="775" y="140" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc4" value="Natural Language&#xa;Data Query [Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="890" y="140" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc5" value="Developer&#xa;Productivity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1005" y="140" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc6" value="Developer&#xa;Productivity Suite [Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="140" width="110" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- SDLC Use Cases Row 2 -->
+        <mxCell id="uc7" value="Developer&#xa;Productivity Tools [Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="660" y="195" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc8" value="Development&#xa;Acceleration [Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="775" y="195" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc9" value="Legacy System&#xa;Migration [Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="890" y="195" width="110" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- BI & Analytics Sub-header -->
+        <mxCell id="subheader-bi" value="BI &amp; Analytics" style="text;html=1;strokeColor=none;fillColor=#004FA3;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=11;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="660" y="255" width="620" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc14" value="Data-Driven&#xa;Recommendations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="660" y="280" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc15" value="Investment&#xa;Analytics [Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="775" y="280" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc16" value="Research &amp; Analysis&#xa;Agents [Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="890" y="280" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc17" value="Self-Service&#xa;BI [Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1005" y="280" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc18" value="Workplace&#xa;Productivity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="280" width="110" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Financial Reporting Sub-header -->
+        <mxCell id="subheader-fr" value="Financial Reporting &amp; Accounting" style="text;html=1;strokeColor=none;fillColor=#004FA3;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=11;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="660" y="340" width="620" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc10" value="Automation of&#xa;Finance Processes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="660" y="365" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc11" value="Financial Close&#xa;Automation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="775" y="365" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc12" value="Regulatory Reporting&#xa;Automation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="890" y="365" width="110" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Collections & Treasury Sub-header -->
+        <mxCell id="subheader-ct" value="Collections &amp; Treasury Operations" style="text;html=1;strokeColor=none;fillColor=#004FA3;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=11;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="660" y="425" width="620" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc13" value="Collections&#xa;Optimization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="660" y="450" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc1" value="Cash Management&#xa;Automation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="775" y="450" width="110" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Risk & Compliance Section Header -->
+        <mxCell id="header-rc" value="RISK &amp; COMPLIANCE" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="40" y="430" width="600" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Financial Crime Sub-header -->
+        <mxCell id="subheader-fc" value="Financial Crime &amp; Fraud Detection" style="text;html=1;strokeColor=none;fillColor=#004FA3;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=11;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="40" y="465" width="600" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc37" value="FinCrimes&#xa;Investigation [Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="490" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc38" value="Fraud Pattern&#xa;Detection [Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="155" y="490" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc39" value="News Sentiment&#xa;Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="270" y="490" width="110" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Regulatory Compliance Sub-header -->
+        <mxCell id="subheader-reg" value="Regulatory Compliance &amp; Risk" style="text;html=1;strokeColor=none;fillColor=#004FA3;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=11;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="40" y="550" width="600" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc33" value="Compliance&#xa;Investigation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="575" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc34" value="Document Search&#xa;&amp; Retrieval [Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="155" y="575" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc35" value="Policy Document&#xa;Search" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="270" y="575" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc36" value="Trading Rules&#xa;Q&amp;A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="385" y="575" width="110" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Document Processing Sub-header -->
+        <mxCell id="subheader-dp" value="Document Processing &amp; Intelligence" style="text;html=1;strokeColor=none;fillColor=#004FA3;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=11;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="40" y="635" width="600" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc41" value="Data Mapping &amp;&#xa;Transformation [Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="660" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc42" value="Document&#xa;Intelligence [Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="155" y="660" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc43" value="Earnings Call&#xa;Summarization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="270" y="660" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc44" value="Email&#xa;Classification" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="385" y="660" width="110" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Credit & Lending Sub-header -->
+        <mxCell id="subheader-cl" value="Credit &amp; Lending Operations" style="text;html=1;strokeColor=none;fillColor=#004FA3;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=11;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="40" y="720" width="600" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc45" value="Credit&#xa;Decisioning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="745" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc46" value="Credit Risk&#xa;Modeling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="155" y="745" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc47" value="Private Market&#xa;Credit Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="270" y="745" width="110" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Other R&C Sub-header -->
+        <mxCell id="subheader-other" value="Claims, Wealth Mgmt, ESG &amp; Resiliency" style="text;html=1;strokeColor=none;fillColor=#004FA3;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=11;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="40" y="805" width="600" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc48" value="Claims&#xa;Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="830" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc49" value="Q&amp;A&#xa;Chatbot" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="155" y="830" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc32" value="Portfolio Mgmt&#xa;Assistant [Y]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="270" y="830" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc40" value="ESG Risk&#xa;Assessment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="385" y="830" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc50" value="Disaster Recovery&#xa;Orchestration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="500" y="830" width="110" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=1;arcSize=5;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="510" width="560" height="190" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;fontColor=#003087;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="520" width="100" height="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-shortlist" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="555" width="30" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-shortlist-text" value="Shortlisted Use Case [Y] - Priority candidates for implementation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="555" width="480" height="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-other" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="590" width="30" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-other-text" value="Non-shortlisted Use Case - Identified but not prioritized" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="590" width="480" height="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-header" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="625" width="30" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-header-text" value="Business Capability Domain (Customer Experience, Operational Efficiency, Risk &amp; Compliance)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="625" width="480" height="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend-subheader" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#004FA3;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="660" width="30" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-subheader-text" value="Functional Domain (sub-category within each Business Capability)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="660" width="480" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- Summary Stats -->
+        <mxCell id="stats-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=1;arcSize=5;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="720" width="560" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="stats-title" value="Summary Statistics" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;fontColor=#003087;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="730" width="200" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="stats-content" value="• Total Use Cases: 50&#xa;• Shortlisted [Y]: 27 (54%)&#xa;• Customer Experience: 13 | Operational Efficiency: 18 | Risk &amp; Compliance: 19" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="760" width="520" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Source Attribution -->
+        <mxCell id="source" value="Source: BNZ Agentic AI Use Case Inventory 05DEC25 - Via Amazon | BNZ Strategy &amp; Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#666666;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="840" width="560" height="20" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

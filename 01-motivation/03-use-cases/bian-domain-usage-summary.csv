@@ -1,0 +1,37 @@
+bian_business_area,bian_business_domain,primary_count,secondary_count,total_count,use_case_ids,bian_link
+Sales and Service,Channel Specific,0,2,2,"UC-007,UC-024",https://bian.org/servicelandscape-13-0-0/elements/id_87609.html
+Sales and Service,Cross Channel,3,2,5,"UC-006,UC-007,UC-024",https://bian.org/servicelandscape-13-0-0/elements/id_87645.html
+Sales and Service,Marketing,3,0,3,"UC-006,UC-024",https://bian.org/servicelandscape-13-0-0/elements/id_87669.html
+Sales and Service,Sales,4,1,5,"UC-001,UC-005,UC-014,UC-017,UC-021",https://bian.org/servicelandscape-13-0-0/elements/id_87689.html
+Sales and Service,Customer Management,5,2,7,"UC-001,UC-006,UC-014,UC-017,UC-023,UC-024",https://bian.org/servicelandscape-13-0-0/elements/id_87717.html
+Sales and Service,Servicing,2,4,6,"UC-001,UC-007,UC-019,UC-023",https://bian.org/servicelandscape-13-0-0/elements/id_87745.html
+Reference Data,Party,0,2,2,"UC-001,UC-014",https://bian.org/servicelandscape-13-0-0/elements/id_87767.html
+Reference Data,External Agency,0,2,2,"UC-011,UC-018",https://bian.org/servicelandscape-13-0-0/elements/id_87773.html
+Reference Data,Market Data,0,0,0,,https://bian.org/servicelandscape-13-0-0/elements/id_87795.html
+Reference Data,Product Management,0,0,0,,https://bian.org/servicelandscape-13-0-0/elements/id_87819.html
+Operations and Execution,Loans and Deposits,2,1,3,"UC-004,UC-005",https://bian.org/servicelandscape-13-0-0/elements/id_87839.html
+Operations and Execution,Investment Management,0,0,0,,https://bian.org/servicelandscape-13-0-0/elements/id_87871.html
+Operations and Execution,Trade Banking,0,1,1,UC-017,https://bian.org/servicelandscape-13-0-0/elements/id_87883.html
+Operations and Execution,Wholesale Trading,0,0,0,,https://bian.org/servicelandscape-13-0-0/elements/id_87915.html
+Operations and Execution,Cards,0,2,2,"UC-013,UC-019",https://bian.org/servicelandscape-13-0-0/elements/id_87941.html
+Operations and Execution,Market Operations,0,0,0,,https://bian.org/servicelandscape-13-0-0/elements/id_87957.html
+Operations and Execution,Corporate Financing and Advisory Services,1,1,2,"UC-017,UC-021",https://bian.org/servicelandscape-13-0-0/elements/id_87983.html
+Operations and Execution,Consumer Services,0,1,1,UC-005,https://bian.org/servicelandscape-13-0-0/elements/id_87995.html
+Operations and Execution,Payments,1,0,1,UC-019,https://bian.org/servicelandscape-13-0-0/elements/id_88015.html
+Operations and Execution,Account Management,1,1,2,UC-013,https://bian.org/servicelandscape-13-0-0/elements/id_88043.html
+Operations and Execution,Operational Services,1,0,1,UC-023,https://bian.org/servicelandscape-13-0-0/elements/id_88069.html
+Operations and Execution,Collateral Administration,1,1,2,"UC-021,UC-023",https://bian.org/servicelandscape-13-0-0/elements/id_88099.html
+Risk and Compliance,Bank Portfolio and Treasury,1,1,2,"UC-004,UC-015",https://bian.org/servicelandscape-13-0-0/elements/id_88111.html
+Risk and Compliance,Business Analysis,2,2,4,"UC-002,UC-003,UC-009,UC-015",https://bian.org/servicelandscape-13-0-0/elements/id_88127.html
+Risk and Compliance,Regulations and Compliance,5,2,7,"UC-011,UC-012,UC-013,UC-014,UC-020",https://bian.org/servicelandscape-13-0-0/elements/id_88147.html
+Risk and Compliance,Models,5,0,5,"UC-004,UC-011,UC-013,UC-015,UC-021",https://bian.org/servicelandscape-13-0-0/elements/id_88163.html
+Business Support,IT Management,4,2,6,"UC-008,UC-009,UC-010,UC-016",https://bian.org/servicelandscape-13-0-0/elements/id_88193.html
+Business Support,Non-IT and Non-HR Enterprise Services,3,2,5,"UC-008,UC-012,UC-018,UC-020",https://bian.org/servicelandscape-13-0-0/elements/id_88221.html
+Business Support,Buildings Equipment and Facilities,0,1,1,UC-016,https://bian.org/servicelandscape-13-0-0/elements/id_88241.html
+Business Support,Business Command and Control,1,1,2,"UC-002,UC-003,UC-009",https://bian.org/servicelandscape-13-0-0/elements/id_88257.html
+Business Support,Finance,2,0,2,UC-002,https://bian.org/servicelandscape-13-0-0/elements/id_88271.html
+Business Support,Human Resource Management,1,0,1,UC-022,https://bian.org/servicelandscape-13-0-0/elements/id_88281.html
+Business Support,Knowledge and Intellectual Property,1,2,3,"UC-010,UC-022",https://bian.org/servicelandscape-13-0-0/elements/id_88307.html
+Business Support,Corporate Relations,0,0,0,,https://bian.org/servicelandscape-13-0-0/elements/id_88315.html
+Business Support,Business Direction,0,0,0,,https://bian.org/servicelandscape-13-0-0/elements/id_88327.html
+Business Support,Document Management and Archive,0,0,0,,https://bian.org/servicelandscape-13-0-0/elements/id_88339.html

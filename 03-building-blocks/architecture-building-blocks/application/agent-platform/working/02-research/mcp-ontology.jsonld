@@ -1,0 +1,778 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@base": "https://modelcontextprotocol.io/ontology/",
+    "@vocab": "https://modelcontextprotocol.io/ontology/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "mcp": "https://modelcontextprotocol.io/ontology/"
+  },
+  "@graph": [
+    {
+      "@id": "mcp:ModelContextProtocolOntology",
+      "@type": "owl:Ontology",
+      "dcterms:title": "Model Context Protocol (MCP) Ontology",
+      "dcterms:description": "Formal ontology defining the conceptual framework for the Model Context Protocol - an open standard for connecting AI systems with external data sources and tools",
+      "dcterms:created": "2025-08-30",
+      "dcterms:creator": "Claude (Anthropic)",
+      "owl:versionInfo": "1.0",
+      "rdfs:seeAlso": "https://modelcontextprotocol.io/specification/"
+    },
+    {
+      "@id": "mcp:MCPHost",
+      "@type": "owl:Class",
+      "rdfs:label": "MCP Host",
+      "rdfs:comment": "The primary application that coordinates AI model interactions through MCP clients and manages the overall system",
+      "rdfs:subClassOf": "mcp:MCPComponent"
+    },
+    {
+      "@id": "mcp:MCPClient",
+      "@type": "owl:Class",
+      "rdfs:label": "MCP Client",
+      "rdfs:comment": "Protocol client that maintains a 1:1 connection with MCP servers and handles session management",
+      "rdfs:subClassOf": "mcp:MCPComponent"
+    },
+    {
+      "@id": "mcp:MCPServer",
+      "@type": "owl:Class",
+      "rdfs:label": "MCP Server",
+      "rdfs:comment": "External program that exposes tools, resources, and prompts via standardized API to AI models",
+      "rdfs:subClassOf": "mcp:MCPComponent"
+    },
+    {
+      "@id": "mcp:MCPComponent",
+      "@type": "owl:Class",
+      "rdfs:label": "MCP Component",
+      "rdfs:comment": "Base class for all Model Context Protocol architectural components"
+    },
+    {
+      "@id": "mcp:MCPTool",
+      "@type": "owl:Class",
+      "rdfs:label": "MCP Tool",
+      "rdfs:comment": "Model-controlled functions that AI can invoke to perform specific actions like querying databases or calling APIs",
+      "rdfs:subClassOf": "mcp:MCPPrimitive"
+    },
+    {
+      "@id": "mcp:ReadOnlyTool",
+      "@type": "owl:Class",
+      "rdfs:label": "Read-Only Tool",
+      "rdfs:comment": "Tools that retrieve information without modifying external state",
+      "rdfs:subClassOf": "mcp:MCPTool"
+    },
+    {
+      "@id": "mcp:WriteableTool",
+      "@type": "owl:Class",
+      "rdfs:label": "Writeable Tool",
+      "rdfs:comment": "Tools that can modify external systems or data",
+      "rdfs:subClassOf": "mcp:MCPTool"
+    },
+    {
+      "@id": "mcp:DestructiveTool",
+      "@type": "owl:Class",
+      "rdfs:label": "Destructive Tool",
+      "rdfs:comment": "Tools that perform irreversible operations requiring special confirmation",
+      "rdfs:subClassOf": "mcp:WriteableTool"
+    },
+    {
+      "@id": "mcp:MCPResource",
+      "@type": "owl:Class",
+      "rdfs:label": "MCP Resource",
+      "rdfs:comment": "Application-controlled data sources that provide context to AI models without performing computations",
+      "rdfs:subClassOf": "mcp:MCPPrimitive"
+    },
+    {
+      "@id": "mcp:FileResource",
+      "@type": "owl:Class",
+      "rdfs:label": "File Resource",
+      "rdfs:comment": "Resources representing file system content",
+      "rdfs:subClassOf": "mcp:MCPResource"
+    },
+    {
+      "@id": "mcp:DatabaseResource",
+      "@type": "owl:Class",
+      "rdfs:label": "Database Resource",
+      "rdfs:comment": "Resources representing database query results or table data",
+      "rdfs:subClassOf": "mcp:MCPResource"
+    },
+    {
+      "@id": "mcp:APIResource",
+      "@type": "owl:Class",
+      "rdfs:label": "API Resource",
+      "rdfs:comment": "Resources representing external API responses or data",
+      "rdfs:subClassOf": "mcp:MCPResource"
+    },
+    {
+      "@id": "mcp:EmbeddedResource",
+      "@type": "owl:Class",
+      "rdfs:label": "Embedded Resource",
+      "rdfs:comment": "Resources with content embedded directly in MCP messages",
+      "rdfs:subClassOf": "mcp:MCPResource"
+    },
+    {
+      "@id": "mcp:ResourceLink",
+      "@type": "owl:Class",
+      "rdfs:label": "Resource Link",
+      "rdfs:comment": "References to other resources that can be fetched or subscribed to",
+      "rdfs:subClassOf": "mcp:MCPResource"
+    },
+    {
+      "@id": "mcp:MCPPrompt",
+      "@type": "owl:Class",
+      "rdfs:label": "MCP Prompt",
+      "rdfs:comment": "User-controlled reusable templates for LLM interactions and structured messaging",
+      "rdfs:subClassOf": "mcp:MCPPrimitive"
+    },
+    {
+      "@id": "mcp:MCPPrimitive",
+      "@type": "owl:Class",
+      "rdfs:label": "MCP Primitive",
+      "rdfs:comment": "Base class for the three core MCP interfaces: tools, resources, and prompts"
+    },
+    {
+      "@id": "mcp:BaseProtocol",
+      "@type": "owl:Class",
+      "rdfs:label": "Base Protocol",
+      "rdfs:comment": "Core communication framework implementing JSON-RPC 2.0 for MCP interactions"
+    },
+    {
+      "@id": "mcp:TransportLayer",
+      "@type": "owl:Class",
+      "rdfs:label": "Transport Layer",
+      "rdfs:comment": "Handles message delivery between MCP clients and servers"
+    },
+    {
+      "@id": "mcp:StdioTransport",
+      "@type": "owl:Class",
+      "rdfs:label": "Stdio Transport",
+      "rdfs:comment": "Standard input/output transport for local MCP servers",
+      "rdfs:subClassOf": "mcp:TransportLayer"
+    },
+    {
+      "@id": "mcp:HTTPSSETransport",
+      "@type": "owl:Class",
+      "rdfs:label": "HTTP SSE Transport",
+      "rdfs:comment": "HTTP with Server-Sent Events transport for remote MCP servers",
+      "rdfs:subClassOf": "mcp:TransportLayer"
+    },
+    {
+      "@id": "mcp:StreamableHTTPTransport",
+      "@type": "owl:Class",
+      "rdfs:label": "Streamable HTTP Transport",
+      "rdfs:comment": "Enhanced HTTP transport mechanism for improved efficiency",
+      "rdfs:subClassOf": "mcp:TransportLayer"
+    },
+    {
+      "@id": "mcp:WebSocketTransport",
+      "@type": "owl:Class",
+      "rdfs:label": "WebSocket Transport",
+      "rdfs:comment": "WebSocket-based communication transport",
+      "rdfs:subClassOf": "mcp:TransportLayer"
+    },
+    {
+      "@id": "mcp:CapabilityNegotiation",
+      "@type": "owl:Class",
+      "rdfs:label": "Capability Negotiation",
+      "rdfs:comment": "System for declaring and discovering supported MCP features between clients and servers"
+    },
+    {
+      "@id": "mcp:MCPCapability",
+      "@type": "owl:Class",
+      "rdfs:label": "MCP Capability",
+      "rdfs:comment": "Specific feature or functionality supported by MCP components"
+    },
+    {
+      "@id": "mcp:ToolsCapability",
+      "@type": "owl:Class",
+      "rdfs:label": "Tools Capability",
+      "rdfs:comment": "Capability for tool discovery and invocation",
+      "rdfs:subClassOf": "mcp:MCPCapability"
+    },
+    {
+      "@id": "mcp:ResourcesCapability",
+      "@type": "owl:Class",
+      "rdfs:label": "Resources Capability",
+      "rdfs:comment": "Capability for resource access and subscription",
+      "rdfs:subClassOf": "mcp:MCPCapability"
+    },
+    {
+      "@id": "mcp:PromptsCapability",
+      "@type": "owl:Class",
+      "rdfs:label": "Prompts Capability",
+      "rdfs:comment": "Capability for prompt template management",
+      "rdfs:subClassOf": "mcp:MCPCapability"
+    },
+    {
+      "@id": "mcp:SamplingCapability",
+      "@type": "owl:Class",
+      "rdfs:label": "Sampling Capability",
+      "rdfs:comment": "Capability for making LLM requests",
+      "rdfs:subClassOf": "mcp:MCPCapability"
+    },
+    {
+      "@id": "mcp:AuthenticationCapability",
+      "@type": "owl:Class",
+      "rdfs:label": "Authentication Capability",
+      "rdfs:comment": "Capability for security and authorization",
+      "rdfs:subClassOf": "mcp:MCPCapability"
+    },
+    {
+      "@id": "mcp:MCPMessage",
+      "@type": "owl:Class",
+      "rdfs:label": "MCP Message",
+      "rdfs:comment": "Base class for all protocol communications following JSON-RPC 2.0 specification"
+    },
+    {
+      "@id": "mcp:RequestMessage",
+      "@type": "owl:Class",
+      "rdfs:label": "Request Message",
+      "rdfs:comment": "Client-to-server request messages",
+      "rdfs:subClassOf": "mcp:MCPMessage"
+    },
+    {
+      "@id": "mcp:ResponseMessage",
+      "@type": "owl:Class",
+      "rdfs:label": "Response Message",
+      "rdfs:comment": "Server-to-client response messages",
+      "rdfs:subClassOf": "mcp:MCPMessage"
+    },
+    {
+      "@id": "mcp:NotificationMessage",
+      "@type": "owl:Class",
+      "rdfs:label": "Notification Message",
+      "rdfs:comment": "One-way notification messages",
+      "rdfs:subClassOf": "mcp:MCPMessage"
+    },
+    {
+      "@id": "mcp:ContentBlock",
+      "@type": "owl:Class",
+      "rdfs:label": "Content Block",
+      "rdfs:comment": "Polymorphic content structure for tool results and resource data"
+    },
+    {
+      "@id": "mcp:TextContent",
+      "@type": "owl:Class",
+      "rdfs:label": "Text Content",
+      "rdfs:comment": "Plain text content block",
+      "rdfs:subClassOf": "mcp:ContentBlock"
+    },
+    {
+      "@id": "mcp:ImageContent",
+      "@type": "owl:Class",
+      "rdfs:label": "Image Content",
+      "rdfs:comment": "Base64-encoded image content block",
+      "rdfs:subClassOf": "mcp:ContentBlock"
+    },
+    {
+      "@id": "mcp:AudioContent",
+      "@type": "owl:Class",
+      "rdfs:label": "Audio Content",
+      "rdfs:comment": "Base64-encoded audio content block",
+      "rdfs:subClassOf": "mcp:ContentBlock"
+    },
+    {
+      "@id": "mcp:MCPAnnotation",
+      "@type": "owl:Class",
+      "rdfs:label": "MCP Annotation",
+      "rdfs:comment": "Metadata container providing additional information about tools, resources, and prompts"
+    },
+    {
+      "@id": "mcp:MCPSession",
+      "@type": "owl:Class",
+      "rdfs:label": "MCP Session",
+      "rdfs:comment": "Manages the lifecycle of client-server connections with state tracking"
+    },
+    {
+      "@id": "mcp:SessionState",
+      "@type": "owl:Class",
+      "rdfs:label": "Session State",
+      "rdfs:comment": "Enumeration of possible session lifecycle states"
+    },
+    {
+      "@id": "mcp:Uninitialized",
+      "@type": ["owl:NamedIndividual", "mcp:SessionState"],
+      "rdfs:label": "Uninitialized",
+      "rdfs:comment": "Session state before connection establishment"
+    },
+    {
+      "@id": "mcp:Connecting",
+      "@type": ["owl:NamedIndividual", "mcp:SessionState"],
+      "rdfs:label": "Connecting",
+      "rdfs:comment": "Session state during initial handshake"
+    },
+    {
+      "@id": "mcp:CapabilityExchange",
+      "@type": ["owl:NamedIndividual", "mcp:SessionState"],
+      "rdfs:label": "Capability Exchange",
+      "rdfs:comment": "Session state during capability negotiation"
+    },
+    {
+      "@id": "mcp:Ready",
+      "@type": ["owl:NamedIndividual", "mcp:SessionState"],
+      "rdfs:label": "Ready",
+      "rdfs:comment": "Active session state available for operations"
+    },
+    {
+      "@id": "mcp:Terminated",
+      "@type": ["owl:NamedIndividual", "mcp:SessionState"],
+      "rdfs:label": "Terminated",
+      "rdfs:comment": "Session state after connection closure"
+    },
+    {
+      "@id": "mcp:SubscriptionManager",
+      "@type": "owl:Class",
+      "rdfs:label": "Subscription Manager",
+      "rdfs:comment": "Handles real-time updates for resources and prompts"
+    },
+    {
+      "@id": "mcp:MCPAuthenticator",
+      "@type": "owl:Class",
+      "rdfs:label": "MCP Authenticator",
+      "rdfs:comment": "Manages authentication and authorization for MCP connections"
+    },
+    {
+      "@id": "mcp:AccessControl",
+      "@type": "owl:Class",
+      "rdfs:label": "Access Control",
+      "rdfs:comment": "Defines permissions and restrictions for MCP operations"
+    },
+    {
+      "@id": "mcp:manages",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "manages",
+      "rdfs:comment": "Indicates management relationship between MCP components",
+      "rdfs:domain": "mcp:MCPHost",
+      "rdfs:range": "mcp:MCPClient"
+    },
+    {
+      "@id": "mcp:connectsTo",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "connects to",
+      "rdfs:comment": "Represents connection relationship between client and server",
+      "rdfs:domain": "mcp:MCPClient",
+      "rdfs:range": "mcp:MCPServer"
+    },
+    {
+      "@id": "mcp:exposes",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "exposes",
+      "rdfs:comment": "Indicates that a server exposes primitives (tools, resources, prompts)",
+      "rdfs:domain": "mcp:MCPServer",
+      "rdfs:range": "mcp:MCPPrimitive"
+    },
+    {
+      "@id": "mcp:exposesTool",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "exposes tool",
+      "rdfs:comment": "Server exposes a specific tool",
+      "rdfs:subPropertyOf": "mcp:exposes",
+      "rdfs:domain": "mcp:MCPServer",
+      "rdfs:range": "mcp:MCPTool"
+    },
+    {
+      "@id": "mcp:exposesResource",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "exposes resource",
+      "rdfs:comment": "Server exposes a specific resource",
+      "rdfs:subPropertyOf": "mcp:exposes",
+      "rdfs:domain": "mcp:MCPServer",
+      "rdfs:range": "mcp:MCPResource"
+    },
+    {
+      "@id": "mcp:exposesPrompt",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "exposes prompt",
+      "rdfs:comment": "Server exposes a specific prompt",
+      "rdfs:subPropertyOf": "mcp:exposes",
+      "rdfs:domain": "mcp:MCPServer",
+      "rdfs:range": "mcp:MCPPrompt"
+    },
+    {
+      "@id": "mcp:governs",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "governs",
+      "rdfs:comment": "Session governs client-server interaction",
+      "rdfs:domain": "mcp:MCPSession",
+      "rdfs:range": "mcp:MCPClient"
+    },
+    {
+      "@id": "mcp:produces",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "produces",
+      "rdfs:comment": "Tool produces content block results",
+      "rdfs:domain": "mcp:MCPTool",
+      "rdfs:range": "mcp:ContentBlock"
+    },
+    {
+      "@id": "mcp:provides",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "provides",
+      "rdfs:comment": "Resource provides content block data",
+      "rdfs:domain": "mcp:MCPResource",
+      "rdfs:range": "mcp:ContentBlock"
+    },
+    {
+      "@id": "mcp:generates",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "generates",
+      "rdfs:comment": "Prompt generates formatted messages",
+      "rdfs:domain": "mcp:MCPPrompt",
+      "rdfs:range": "mcp:MCPMessage"
+    },
+    {
+      "@id": "mcp:transports",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "transports",
+      "rdfs:comment": "Transport layer carries messages",
+      "rdfs:domain": "mcp:TransportLayer",
+      "rdfs:range": "mcp:MCPMessage"
+    },
+    {
+      "@id": "mcp:hasAnnotation",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "has annotation",
+      "rdfs:comment": "Associates annotation metadata with MCP primitives",
+      "rdfs:domain": "mcp:MCPPrimitive",
+      "rdfs:range": "mcp:MCPAnnotation"
+    },
+    {
+      "@id": "mcp:hostId",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "host ID",
+      "rdfs:comment": "Unique identifier for MCP host application",
+      "rdfs:domain": "mcp:MCPHost",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:name",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "name",
+      "rdfs:comment": "Human-readable name for MCP components",
+      "rdfs:domain": "mcp:MCPComponent",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:version",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "version",
+      "rdfs:comment": "Version information for MCP components",
+      "rdfs:domain": "mcp:MCPComponent",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:clientId",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "client ID",
+      "rdfs:comment": "Unique identifier for MCP client",
+      "rdfs:domain": "mcp:MCPClient",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:serverId",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "server ID",
+      "rdfs:comment": "Unique identifier for MCP server",
+      "rdfs:domain": "mcp:MCPServer",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:toolName",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "tool name",
+      "rdfs:comment": "Unique identifier for MCP tool",
+      "rdfs:domain": "mcp:MCPTool",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:title",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "title",
+      "rdfs:comment": "Optional human-readable title",
+      "rdfs:domain": "mcp:MCPPrimitive",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:description",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "description",
+      "rdfs:comment": "Human-readable description of functionality",
+      "rdfs:domain": "mcp:MCPPrimitive",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:inputSchema",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "input schema",
+      "rdfs:comment": "JSON Schema defining expected parameters for tools and prompts",
+      "rdfs:domain": ["mcp:MCPTool", "mcp:MCPPrompt"],
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:outputSchema",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "output schema",
+      "rdfs:comment": "Optional JSON Schema defining expected output structure",
+      "rdfs:domain": "mcp:MCPTool",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:uri",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "URI",
+      "rdfs:comment": "Unique resource identifier following RFC 3986",
+      "rdfs:domain": "mcp:MCPResource",
+      "rdfs:range": "xsd:anyURI"
+    },
+    {
+      "@id": "mcp:mimeType",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "MIME type",
+      "rdfs:comment": "Content type specification for resources and content blocks",
+      "rdfs:domain": ["mcp:MCPResource", "mcp:ContentBlock"],
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:audience",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "audience",
+      "rdfs:comment": "Intended users for annotation metadata",
+      "rdfs:domain": "mcp:MCPAnnotation",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:priority",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "priority",
+      "rdfs:comment": "Importance ranking from 0.0 to 1.0",
+      "rdfs:domain": "mcp:MCPAnnotation",
+      "rdfs:range": "xsd:decimal"
+    },
+    {
+      "@id": "mcp:lastModified",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "last modified",
+      "rdfs:comment": "Timestamp of last update",
+      "rdfs:domain": "mcp:MCPAnnotation",
+      "rdfs:range": "xsd:dateTime"
+    },
+    {
+      "@id": "mcp:sessionId",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "session ID",
+      "rdfs:comment": "Unique session identifier",
+      "rdfs:domain": "mcp:MCPSession",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:establishedAt",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "established at",
+      "rdfs:comment": "Connection establishment timestamp",
+      "rdfs:domain": "mcp:MCPSession",
+      "rdfs:range": "xsd:dateTime"
+    },
+    {
+      "@id": "mcp:lastActivity",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "last activity",
+      "rdfs:comment": "Most recent interaction timestamp",
+      "rdfs:domain": "mcp:MCPSession",
+      "rdfs:range": "xsd:dateTime"
+    },
+    {
+      "@id": "mcp:state",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "state",
+      "rdfs:comment": "Current session state",
+      "rdfs:domain": "mcp:MCPSession",
+      "rdfs:range": "mcp:SessionState"
+    },
+    {
+      "@id": "mcp:protocolVersion",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "protocol version",
+      "rdfs:comment": "MCP protocol version being used",
+      "rdfs:domain": "mcp:BaseProtocol",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:jsonrpc",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "JSON-RPC version",
+      "rdfs:comment": "JSON-RPC protocol version (always '2.0')",
+      "rdfs:domain": "mcp:MCPMessage",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:messageId",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "message ID",
+      "rdfs:comment": "Request/response correlation identifier",
+      "rdfs:domain": "mcp:MCPMessage",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:method",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "method",
+      "rdfs:comment": "Operation being performed in the message",
+      "rdfs:domain": "mcp:MCPMessage",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:params",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "parameters",
+      "rdfs:comment": "Operation parameters in JSON format",
+      "rdfs:domain": "mcp:MCPMessage",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:authenticationMethod",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "authentication method",
+      "rdfs:comment": "Type of authentication (OAuth 2.1, API key, etc.)",
+      "rdfs:domain": "mcp:MCPAuthenticator",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:securityLevel",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "security level",
+      "rdfs:comment": "Access control classification level",
+      "rdfs:domain": "mcp:MCPAnnotation",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:isReadOnly",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "is read only",
+      "rdfs:comment": "Indicates if tool only reads without modifying state",
+      "rdfs:domain": "mcp:MCPTool",
+      "rdfs:range": "xsd:boolean"
+    },
+    {
+      "@id": "mcp:isDestructive",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "is destructive",
+      "rdfs:comment": "Indicates if tool performs irreversible operations",
+      "rdfs:domain": "mcp:MCPTool",
+      "rdfs:range": "xsd:boolean"
+    },
+    {
+      "@id": "mcp:requiresConfirmation",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "requires confirmation",
+      "rdfs:comment": "Indicates if tool invocation requires human approval",
+      "rdfs:domain": "mcp:MCPTool",
+      "rdfs:range": "xsd:boolean"
+    },
+    {
+      "@id": "mcp:hasCapability",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "has capability",
+      "rdfs:comment": "Associates components with their supported capabilities",
+      "rdfs:domain": "mcp:MCPComponent",
+      "rdfs:range": "mcp:MCPCapability"
+    },
+    {
+      "@id": "mcp:usesTransport",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "uses transport",
+      "rdfs:comment": "Client uses specific transport mechanism",
+      "rdfs:domain": "mcp:MCPClient",
+      "rdfs:range": "mcp:TransportLayer"
+    },
+    {
+      "@id": "mcp:hasSession",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "has session",
+      "rdfs:comment": "Client has associated session",
+      "rdfs:domain": "mcp:MCPClient",
+      "rdfs:range": "mcp:MCPSession"
+    },
+    {
+      "@id": "mcp:linksToResource",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "links to resource",
+      "rdfs:comment": "Content block references another resource",
+      "rdfs:domain": "mcp:ResourceLink",
+      "rdfs:range": "mcp:MCPResource"
+    },
+    {
+      "@id": "mcp:hasContentType",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "has content type",
+      "rdfs:comment": "MIME type specification for content",
+      "rdfs:domain": "mcp:ContentBlock",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:textValue",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "text value",
+      "rdfs:comment": "Plain text content",
+      "rdfs:domain": "mcp:TextContent",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:base64Data",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "base64 data",
+      "rdfs:comment": "Base64-encoded binary content",
+      "rdfs:domain": ["mcp:ImageContent", "mcp:AudioContent"],
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:argumentList",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "argument list",
+      "rdfs:comment": "List of required/optional parameters for prompts",
+      "rdfs:domain": "mcp:MCPPrompt",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:messageTemplate",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "message template",
+      "rdfs:comment": "Template structure for prompt messages",
+      "rdfs:domain": "mcp:MCPPrompt",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:supportedOperations",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "supported operations",
+      "rdfs:comment": "List of operations supported by capability",
+      "rdfs:domain": "mcp:MCPCapability",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "mcp:listChangedSupport",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "list changed support",
+      "rdfs:comment": "Whether server emits notifications when tool/resource lists change",
+      "rdfs:domain": ["mcp:ToolsCapability", "mcp:ResourcesCapability"],
+      "rdfs:range": "xsd:boolean"
+    },
+    {
+      "@id": "mcp:subscriptionSupport",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "subscription support",
+      "rdfs:comment": "Whether server supports resource subscriptions",
+      "rdfs:domain": "mcp:ResourcesCapability",
+      "rdfs:range": "xsd:boolean"
+    },
+    {
+      "@id": "mcp:samplingSupport",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "sampling support",
+      "rdfs:comment": "Whether server can make LLM requests",
+      "rdfs:domain": "mcp:SamplingCapability",
+      "rdfs:range": "xsd:boolean"
+    }
+  ]
+}

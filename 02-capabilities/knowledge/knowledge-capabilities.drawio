@@ -1,0 +1,154 @@
+<mxfile host="65bd71144e">
+    <diagram name="Knowledge Capability Area" id="knowledge-capability-infographic">
+        <mxGraphModel dx="1463" dy="1284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="background" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="50" width="1580" height="950" as="geometry"/>
+                </mxCell>
+                <mxCell id="title-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#002F6B;strokeColor=none;arcSize=2;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="20" width="1530" height="135" as="geometry"/>
+                </mxCell>
+                <mxCell id="title" value="BNZ AI Platform - Knowledge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;fontStyle=1;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="299" y="30" width="1060" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#002F6B;strokeColor=none;arcSize=5;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="180" width="500" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-number" value="01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=72;fontStyle=1;fontColor=#FAA61A;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="124" y="190" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-title" value="Data Management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1;fontColor=light-dark(#faa61a, #121212);fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="124" y="279" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-desc" value="Connect to and extract data from enterprise systems, process documents, enrich metadata, and enable real-time streaming" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="124" y="323" width="396" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-sub1" value="• Data Source Integration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="124" y="397" width="300" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-sub2" value="• Document Processing &amp;amp; Extraction" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="124" y="422" width="340" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-sub3" value="• Metadata Enrichment" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="124" y="447" width="300" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-sub4" value="• Real-Time Knowledge Streaming" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="124" y="472" width="320" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#002F6B;strokeColor=none;arcSize=5;" parent="1" vertex="1">
+                    <mxGeometry x="595" y="180" width="500" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-number" value="02" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=72;fontStyle=1;fontColor=#FAA61A;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="619" y="190" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-title" value="Semantic Layer &amp;amp; Modeling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1;fontColor=light-dark(#faa61a, #121212);fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="619" y="279" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-desc" value="Build knowledge graphs, manage ontologies, create semantic data models, and establish relationships" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="619" y="323" width="420" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-sub1" value="• Knowledge Graph Foundation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="610" y="397" width="300" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-sub2" value="• Ontology Management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="610" y="422" width="280" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-sub3" value="• Semantic Data Models" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="610" y="447" width="280" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-sub4" value="• Semantic Mapping &amp;amp; Relationships" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="610" y="472" width="340" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-sub5" value="• Glossary, Taxonomy &amp;amp; Classification" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="610" y="497" width="340" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#002F6B;strokeColor=none;arcSize=5;" parent="1" vertex="1">
+                    <mxGeometry x="1114" y="180" width="500" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-number" value="03" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=72;fontStyle=1;fontColor=#FAA61A;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1135" y="190" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-title" value="Knowledge Storage &amp;amp; Retrieval" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1;fontColor=light-dark(#faa61a, #121212);fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1135" y="279" width="380" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-desc" value="Store and retrieve knowledge using vector databases, graph stores, embeddings, and hybrid strategies" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1135" y="323" width="465" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-sub1" value="• Vector Database Management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1135" y="397" width="320" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-sub2" value="• Graph Database Management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1135" y="422" width="300" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-sub3" value="• Embedding Generation &amp;amp; Management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1135" y="447" width="360" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-sub4" value="• Hybrid Storage Strategies" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1135" y="472" width="280" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-sub5" value="• Knowledge Versioning" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="1135" y="497" width="260" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#002F6B;strokeColor=none;arcSize=5;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="582" width="500" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-number" value="04" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=72;fontStyle=1;fontColor=#FAA61A;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="592" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-title" value="Knowledge Access &amp;amp; Delivery" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1;fontColor=light-dark(#faa61a, #121212);fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="672" width="360" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-desc" value="Enable semantic search, RAG, knowledge APIs, context assembly, and multi-modal access" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="737" width="420" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-sub1" value="• Semantic Search" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="814" width="240" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-sub2" value="• RAG (Retrieval Augmented Generation)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="839" width="380" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-sub3" value="• Knowledge APIs &amp;amp; Interfaces" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="864" width="300" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-sub4" value="• Context Assembly &amp;amp; Ranking" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="889" width="300" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-sub5" value="• Multi-Modal Knowledge Access" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="914" width="320" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#002F6B;strokeColor=none;arcSize=5;" parent="1" vertex="1">
+                    <mxGeometry x="595" y="581" width="500" height="379" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-number" value="05" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=72;fontStyle=1;fontColor=#FAA61A;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="615" y="591" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-title" value="Knowledge Governance &amp;amp; Quality" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=light-dark(#faa61a, #121212);fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="623.5" y="680" width="420" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-desc" value="Ensure knowledge quality, security, compliance, and lifecycle management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="625" y="732" width="420" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-sub1" value="• Knowledge Curation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="621" y="789" width="240" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-sub2" value="• Data Quality Management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="621" y="819" width="280" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-sub3" value="• Access Control &amp;amp; Security" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" parent="1" vertex="1">
+                    <mxGeometry x="621" y="848" width="280" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-sub4" value="• Compliance &amp;amp; Audit" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" vertex="1" parent="1">
+                    <mxGeometry x="621" y="878" width="240" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-sub5" value="• Knowledge Lifecycle Management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#CCE5FF;fontFamily=Arial;" vertex="1" parent="1">
+                    <mxGeometry x="621" y="913" width="340" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&quot;Enabling stakehholders and AI agents to discover, understand, and reason over enterprise knowledge through semantic intelligence, ensuring accuracy, compliance, and trust.&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#FAA61A;fontFamily=Arial;fontStyle=1;" vertex="1" parent="1">
+                    <mxGeometry x="319.25" y="100" width="921.5" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

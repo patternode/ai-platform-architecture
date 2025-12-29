@@ -1,0 +1,51 @@
+L0 ID,L0 Capability,L1 ID,L1 Capability,L2 ID,L2 Capability,Description,Target Technology,Value Chain Stage,Lifecycle Status
+L0-1,Data & Analytics,L1-1.1,Data Acquisition,L2-1.1.1,Source Connectivity,Connect to and extract data from source systems,FiveTran,Data Acquisition,Encourage
+L0-1,Data & Analytics,L1-1.1,Data Acquisition,L2-1.1.2,Batch Ingestion,Scheduled batch data extraction and loading,FiveTran,Data Acquisition,Encourage
+L0-1,Data & Analytics,L1-1.1,Data Acquisition,L2-1.1.3,Change Data Capture,Capture incremental changes from source systems,FiveTran,Data Acquisition,Encourage
+L0-1,Data & Analytics,L1-1.2,Data Curation,L2-1.2.1,Data Cleansing,Identify and correct data quality issues,dbtCore,Data Curation,Encourage
+L0-1,Data & Analytics,L1-1.2,Data Curation,L2-1.2.2,Data Modelling,Design and implement dimensional data models,Snowflake,Data Curation,Encourage
+L0-1,Data & Analytics,L1-1.2,Data Curation,L2-1.2.3,Data Enrichment,Augment data with derived attributes and calculations,dbtCore,Data Curation,Encourage
+L0-1,Data & Analytics,L1-1.3,Data Warehousing,L2-1.3.1,Data Storage,Scalable cloud-native data storage,Snowflake (BDH),Data Curation,Encourage
+L0-1,Data & Analytics,L1-1.3,Data Warehousing,L2-1.3.2,Compute Management,Independent scaling of query compute resources,Snowflake (BDH),Data Curation,Encourage
+L0-1,Data & Analytics,L1-1.3,Data Warehousing,L2-1.3.3,Data Sharing,Secure data sharing across domains and external parties,Snowflake (BDH),Data Curation,Encourage
+L0-1,Data & Analytics,L1-1.3,Data Warehousing,L2-1.3.4,Time Travel,Historical data access and recovery capabilities,Snowflake (BDH),Data Curation,Encourage
+L0-1,Data & Analytics,L1-1.3,Data Warehousing,L2-1.3.5,Environment Cloning,Zero-copy cloning for dev/test environments,Snowflake (BDH),Data Curation,Encourage
+L0-1,Data & Analytics,L1-1.4,Data Integration,L2-1.4.1,ELT Processing,Extract-Load-Transform data pipeline processing,FiveTran,Data Acquisition,Encourage
+L0-1,Data & Analytics,L1-1.4,Data Integration,L2-1.4.2,API Integration,Connect to REST/SOAP APIs for data extraction,FiveTran,Data Acquisition,Encourage
+L0-1,Data & Analytics,L1-1.4,Data Integration,L2-1.4.3,File Integration,Process flat files CSV Excel and other file formats,FiveTran,Data Acquisition,Encourage
+L0-1,Data & Analytics,L1-1.4,Data Integration,L2-1.4.4,Database Replication,Replicate data from operational databases,FiveTran,Data Acquisition,Encourage
+L0-1,Data & Analytics,L1-1.5,Data Orchestration,L2-1.5.1,Workflow Scheduling,Schedule and trigger data pipeline executions,AstroCloud (Airflow),Data Acquisition,Encourage
+L0-1,Data & Analytics,L1-1.5,Data Orchestration,L2-1.5.2,Dependency Management,Manage pipeline dependencies and execution order,AstroCloud (Airflow),Data Acquisition,Encourage
+L0-1,Data & Analytics,L1-1.5,Data Orchestration,L2-1.5.3,Pipeline Monitoring,Monitor pipeline execution and alerting,AstroCloud (Airflow),Data Acquisition,Encourage
+L0-1,Data & Analytics,L1-1.5,Data Orchestration,L2-1.5.4,Error Handling,Manage pipeline failures retries and recovery,AstroCloud (Airflow),Data Acquisition,Encourage
+L0-1,Data & Analytics,L1-1.6,Data Transformation,L2-1.6.1,SQL Transformations,SQL-based data transformation logic,dbtCore (Cosmos),Data Curation,Encourage
+L0-1,Data & Analytics,L1-1.6,Data Transformation,L2-1.6.2,Data Testing,Automated data quality tests and validation,dbtCore (Cosmos),Data Curation,Encourage
+L0-1,Data & Analytics,L1-1.6,Data Transformation,L2-1.6.3,Documentation Generation,Auto-generate data documentation and lineage,dbtCore (Cosmos),Data Curation,Encourage
+L0-1,Data & Analytics,L1-1.6,Data Transformation,L2-1.6.4,Version Control,Version controlled transformation code,dbtCore (Cosmos),Data Curation,Encourage
+L0-1,Data & Analytics,L1-1.7,Data Governance,L2-1.7.1,Data Cataloguing,Discover and catalogue data assets,Alation,Cross-cutting,Encourage
+L0-1,Data & Analytics,L1-1.7,Data Governance,L2-1.7.2,Data Lineage,Track data origin and transformations,Alation,Cross-cutting,Encourage
+L0-1,Data & Analytics,L1-1.7,Data Governance,L2-1.7.3,Data Quality Monitoring,Monitor and report on data quality metrics,Alation,Cross-cutting,Encourage
+L0-1,Data & Analytics,L1-1.7,Data Governance,L2-1.7.4,Data Ownership,Assign and manage data stewardship,Alation,Cross-cutting,Encourage
+L0-1,Data & Analytics,L1-1.7,Data Governance,L2-1.7.5,Metadata Management,Manage technical and business metadata,Alation,Cross-cutting,Encourage
+L0-1,Data & Analytics,L1-1.7,Data Governance,L2-1.7.6,Data Classification,Classify data sensitivity and compliance requirements,Alation,Cross-cutting,Encourage
+L0-1,Data & Analytics,L1-1.8,Data Science,L2-1.8.1,Model Development,Develop and train ML models,AWS SageMaker,Data ROI,Encourage
+L0-1,Data & Analytics,L1-1.8,Data Science,L2-1.8.2,Model Training,Scalable model training infrastructure,AWS SageMaker,Data ROI,Encourage
+L0-1,Data & Analytics,L1-1.8,Data Science,L2-1.8.3,Model Deployment,Deploy models for inference,AWS SageMaker,Data ROI,Encourage
+L0-1,Data & Analytics,L1-1.8,Data Science,L2-1.8.4,Experiment Tracking,Track experiments and model versions,AWS SageMaker,Data ROI,Encourage
+L0-1,Data & Analytics,L1-1.8,Data Science,L2-1.8.5,Feature Engineering,Create and manage ML features,AWS SageMaker,Data ROI,Encourage
+L0-2,Enterprise Reporting,L1-2.1,Data Consumption,L2-2.1.1,Data Access Layer,Secure access to curated data assets,"Power BI, Alation",Data Consumption,Encourage
+L0-2,Enterprise Reporting,L1-2.1,Data Consumption,L2-2.1.2,Semantic Layer,Business-friendly data definitions and metrics,Power BI,Data Consumption,Encourage
+L0-2,Enterprise Reporting,L1-2.1,Data Consumption,L2-2.1.3,Data Discovery,Search and discover available data assets,Alation,Data Consumption,Encourage
+L0-2,Enterprise Reporting,L1-2.2,Business Intelligence,L2-2.2.1,Report Development,Create and publish enterprise reports,Power BI,Data Consumption,Encourage
+L0-2,Enterprise Reporting,L1-2.2,Business Intelligence,L2-2.2.2,Dashboard Development,Build interactive dashboards and visualizations,Power BI,Data Consumption,Encourage
+L0-2,Enterprise Reporting,L1-2.2,Business Intelligence,L2-2.2.3,Report Distribution,Schedule and distribute reports to stakeholders,Power BI,Data Consumption,Encourage
+L0-2,Enterprise Reporting,L1-2.2,Business Intelligence,L2-2.2.4,Mobile BI,Access reports and dashboards on mobile devices,Power BI,Data Consumption,Encourage
+L0-2,Enterprise Reporting,L1-2.2,Business Intelligence,L2-2.2.5,Embedded Analytics,Embed analytics in business applications,Power BI,Data Consumption,Encourage
+L0-2,Enterprise Reporting,L1-2.3,Self-Service Analytics,L2-2.3.1,Ad-hoc Analysis,Enable business users to create ad-hoc analyses,Power BI,Data Consumption,Encourage
+L0-2,Enterprise Reporting,L1-2.3,Self-Service Analytics,L2-2.3.2,Data Exploration,Interactive data exploration and drill-down,Power BI,Data Consumption,Encourage
+L0-2,Enterprise Reporting,L1-2.3,Self-Service Analytics,L2-2.3.3,Personal Workspaces,User workspaces for analysis and prototyping,"Power BI, Alation",Data Consumption,Encourage
+L0-2,Enterprise Reporting,L1-2.3,Self-Service Analytics,L2-2.3.4,Natural Language Query,Query data using natural language,Power BI,Data Consumption,Encourage
+L0-2,Enterprise Reporting,L1-2.4,Data ROI,L2-2.4.1,Decision Support,Data-driven decision support capabilities,ML/AI capabilities,Data ROI,Encourage
+L0-2,Enterprise Reporting,L1-2.4,Data ROI,L2-2.4.2,Predictive Analytics,Predictive models for business forecasting,ML/AI capabilities,Data ROI,Encourage
+L0-2,Enterprise Reporting,L1-2.4,Data ROI,L2-2.4.3,Operational Analytics,Real-time operational insights and alerts,ML/AI capabilities,Data ROI,Encourage
+L0-2,Enterprise Reporting,L1-2.4,Data ROI,L2-2.4.4,Business Outcome Tracking,Track and measure business outcomes from data,ML/AI capabilities,Data ROI,Encourage

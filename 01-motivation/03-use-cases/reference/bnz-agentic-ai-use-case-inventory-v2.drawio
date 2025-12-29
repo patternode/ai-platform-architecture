@@ -1,0 +1,460 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.7">
+  <diagram id="amazon-use-cases" name="BNZ Agentic AI Use Cases - Amazon Reference">
+    <mxGraphModel dx="2938" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uc01" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="30" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc01-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Call Center Analytics" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="38" y="70.17006802721089" as="geometry" />
+        </mxCell>
+        <mxCell id="uc01-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Streamline customer service, direct employees to higher-value tasks. Real-time call center analytics integration with Amazon Connect." vertex="1">
+          <mxGeometry height="53.67" width="279" x="38" y="96.33" as="geometry" />
+        </mxCell>
+        <mxCell id="uc02" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="341" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc02-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Caller Intent" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="349" y="70.17006802721089" as="geometry" />
+        </mxCell>
+        <mxCell id="uc02-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="87% reduction in average resolution time, 50%+ requests resolved under 3 minutes. Production-scale conversational AI for customer service transformation." vertex="1">
+          <mxGeometry height="63.67" width="279" x="349" y="96.33" as="geometry" />
+        </mxCell>
+        <mxCell id="uc03" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="652" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc03-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Customer-Facing Chatbot" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="660" y="70.17006802721089" as="geometry" />
+        </mxCell>
+        <mxCell id="uc03-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Personalized interactions across channels enabling efficient resolution. Digital-first strategy with 24/7 customer service availability." vertex="1">
+          <mxGeometry height="63.67" width="279" x="660" y="96.33" as="geometry" />
+        </mxCell>
+        <mxCell id="uc04" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="963" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc04-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Email Triage &amp;amp; Response" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="971" y="70.17006802721089" as="geometry" />
+        </mxCell>
+        <mxCell id="uc04-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Improve response times, enhance customer service through automated email processing with specialized prompts for classification." vertex="1">
+          <mxGeometry height="63.67" width="279" x="971" y="96.33" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="1274" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Multi-Channel Comms Hub" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="1282" y="70.17006802721089" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Transform routine interactions into meaningful connections with 24/7 availability. Leverages existing Amazon Connect deployment." vertex="1">
+          <mxGeometry height="63.67" width="279" x="1282" y="96.33" as="geometry" />
+        </mxCell>
+        <mxCell id="uc06" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="1585" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc06-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Proactive Customer Assistance" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="1593" y="70.17006802721089" as="geometry" />
+        </mxCell>
+        <mxCell id="uc06-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Predictive outreach for churn prevention and product recommendations. Home lending churn/propensity priority domain." vertex="1">
+          <mxGeometry height="63.67" width="279" x="1593" y="96.33" as="geometry" />
+        </mxCell>
+        <mxCell id="uc07" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="30" y="176.63265306122452" as="geometry" />
+        </mxCell>
+        <mxCell id="uc07-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Campaign Orchestration" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="38" y="178.80272108843536" as="geometry" />
+        </mxCell>
+        <mxCell id="uc07-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="30% reduced setup time, 20% increased personalization, 8 hours saved per week. Automate campaign design, audience targeting, and real-time optimization." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="38" y="197.9591836734694" as="geometry" />
+        </mxCell>
+        <mxCell id="uc08" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="341" y="176.63265306122452" as="geometry" />
+        </mxCell>
+        <mxCell id="uc08-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Code Generation" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="349" y="178.80272108843536" as="geometry" />
+        </mxCell>
+        <mxCell id="uc08-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Accelerate development cycles, improve developer productivity. Technical capability building with Llama-based code generation." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="349" y="197.9591836734694" as="geometry" />
+        </mxCell>
+        <mxCell id="uc09" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="652" y="176.63265306122452" as="geometry" />
+        </mxCell>
+        <mxCell id="uc09-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Code Transformation" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="660" y="178.80272108843536" as="geometry" />
+        </mxCell>
+        <mxCell id="uc09-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="1.5M lines/month, 4x velocity, 30% cost reduction. AWS Transform agents for legacy system migration and mainframe modernization." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="660" y="197.9591836734694" as="geometry" />
+        </mxCell>
+        <mxCell id="uc10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="963" y="176.63265306122452" as="geometry" />
+        </mxCell>
+        <mxCell id="uc10-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Natural Language Data Query" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="971" y="178.80272108843536" as="geometry" />
+        </mxCell>
+        <mxCell id="uc10-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Production-ready MVP in 6 months, scaling to 1,000+ users. AI agents navigating complex regulations and querying structured/unstructured data." vertex="1">
+          <mxGeometry height="69.05" width="279" x="971" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uc11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="1274" y="176.63265306122452" as="geometry" />
+        </mxCell>
+        <mxCell id="uc11-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Developer Productivity Suite" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="1282" y="178.80272108843536" as="geometry" />
+        </mxCell>
+        <mxCell id="uc11-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Multi-agent solution with comprehensive development support. AI-SDLC transformation improving developer experience." vertex="1">
+          <mxGeometry height="69.05" width="279" x="1282" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uc12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="1585" y="176.63265306122452" as="geometry" />
+        </mxCell>
+        <mxCell id="uc12-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Developer Productivity Tools" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="1593" y="178.80272108843536" as="geometry" />
+        </mxCell>
+        <mxCell id="uc12-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Modernize legacy systems, improve code quality. Regulatory technology modernization and compliance efficiency." vertex="1">
+          <mxGeometry height="69.05" width="279" x="1593" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uc13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="30" y="283.26530612244903" as="geometry" />
+        </mxCell>
+        <mxCell id="uc13-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Development Acceleration" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="38" y="284.4353741496599" as="geometry" />
+        </mxCell>
+        <mxCell id="uc13-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="41% productivity improvement, 45% code quality enhancement. AgentCore coding agents automate repetitive debugging tasks." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="38" y="306.59183673469386" as="geometry" />
+        </mxCell>
+        <mxCell id="uc14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="341" y="283.26530612244903" as="geometry" />
+        </mxCell>
+        <mxCell id="uc14-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Legacy System Migration" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="349" y="284.4353741496599" as="geometry" />
+        </mxCell>
+        <mxCell id="uc14-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Modernize legacy systems, reduce technical debt. Multi-year mainframe modernization program support." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="349" y="306.59183673469386" as="geometry" />
+        </mxCell>
+        <mxCell id="uc15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="652" y="283.26530612244903" as="geometry" />
+        </mxCell>
+        <mxCell id="uc15-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Investment Analytics" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="660" y="284.4353741496599" as="geometry" />
+        </mxCell>
+        <mxCell id="uc15-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Reduce time for complex financial analysis, enable data-driven decisions. Investment decision support and analytical capability enhancement." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="660" y="306.59183673469386" as="geometry" />
+        </mxCell>
+        <mxCell id="uc16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="963" y="283.26530612244903" as="geometry" />
+        </mxCell>
+        <mxCell id="uc16-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Research &amp;amp; Analysis Agents" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="971" y="284.4353741496599" as="geometry" />
+        </mxCell>
+        <mxCell id="uc16-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Generate charts, compute financial indicators, create summaries. Workplace productivity enhancement and data-driven decision making." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="971" y="306.59183673469386" as="geometry" />
+        </mxCell>
+        <mxCell id="uc17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="1274" y="283.26530612244903" as="geometry" />
+        </mxCell>
+        <mxCell id="uc17-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Self-Service BI" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="1282" y="284.4353741496599" as="geometry" />
+        </mxCell>
+        <mxCell id="uc17-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="4x faster insights, 50% cost reduction, 15K questions, 89% accuracy. Conversational analytics eliminating IT bottlenecks." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="1282" y="306.59183673469386" as="geometry" />
+        </mxCell>
+        <mxCell id="uc18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="1585" y="283.26530612244903" as="geometry" />
+        </mxCell>
+        <mxCell id="uc18-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="FinCrimes Investigation" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="1593" y="284.4353741496599" as="geometry" />
+        </mxCell>
+        <mxCell id="uc18-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="20% efficiency improvement with graph database-powered detection and automated case summarization. AML regulatory requirements." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="1593" y="306.59183673469386" as="geometry" />
+        </mxCell>
+        <mxCell id="uc19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="30" y="389.8979591836735" as="geometry" />
+        </mxCell>
+        <mxCell id="uc19-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Fraud Pattern Detection" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="38" y="391.06802721088434" as="geometry" />
+        </mxCell>
+        <mxCell id="uc19-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="10x faster text summarization, 300% more accurate sentiment analysis. Real-time transaction monitoring with anomaly detection." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="38" y="411.22448979591843" as="geometry" />
+        </mxCell>
+        <mxCell id="uc20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="341" y="389.8979591836735" as="geometry" />
+        </mxCell>
+        <mxCell id="uc20-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Document Search &amp;amp; Retrieval" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="349" y="391.06802721088434" as="geometry" />
+        </mxCell>
+        <mxCell id="uc20-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Improve policy access, reduce search time, enhance compliance. Document search with Kendra for regulatory compliance." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="349" y="411.22448979591843" as="geometry" />
+        </mxCell>
+        <mxCell id="uc21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="652" y="389.8979591836735" as="geometry" />
+        </mxCell>
+        <mxCell id="uc21-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Data Mapping &amp;amp; Transform" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="660" y="391.06802721088434" as="geometry" />
+        </mxCell>
+        <mxCell id="uc21-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Automate data mappings, reduce manual effort from weeks to minutes. Data modernization and operational efficiency." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="660" y="411.22448979591843" as="geometry" />
+        </mxCell>
+        <mxCell id="uc22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="963" y="389.8979591836735" as="geometry" />
+        </mxCell>
+        <mxCell id="uc22-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Document Intelligence" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="971" y="391.06802721088434" as="geometry" />
+        </mxCell>
+        <mxCell id="uc22-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="80-hour process reduced to minutes. Loan application and contract analysis at scale for home lending operations." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="971" y="411.22448979591843" as="geometry" />
+        </mxCell>
+        <mxCell id="uc23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="1274" y="389.8979591836735" as="geometry" />
+        </mxCell>
+        <mxCell id="uc23-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Portfolio Mgmt Assistant" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="1282" y="391.06802721088434" as="geometry" />
+        </mxCell>
+        <mxCell id="uc23-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Assist portfolio managers in analyzing lending portfolios and investment recommendations. Analytical capability enhancement." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="1282" y="411.22448979591843" as="geometry" />
+        </mxCell>
+        <mxCell id="uc24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="1585" y="389.8979591836735" as="geometry" />
+        </mxCell>
+        <mxCell id="uc24-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Conversational Self-Service" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="1593" y="391.06802721088434" as="geometry" />
+        </mxCell>
+        <mxCell id="uc24-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Cut routine call volumes through HIPAA-compliant conversational experience. AgentCore implementation applicable to banking compliance." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="1593" y="411.22448979591843" as="geometry" />
+        </mxCell>
+        <mxCell id="uc25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="30" y="496.530612244898" as="geometry" />
+        </mxCell>
+        <mxCell id="uc25-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Email Classification &amp;amp; Response" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="38" y="498.70068027210885" as="geometry" />
+        </mxCell>
+        <mxCell id="uc25-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Weeks to days resolution time. Automated email processing with specialized prompts for classification." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="38" y="517.8571428571429" as="geometry" />
+        </mxCell>
+        <mxCell id="uc26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="341" y="496.530612244898" as="geometry" />
+        </mxCell>
+        <mxCell id="uc26-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Hyper-Personalized Service" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="349" y="498.70068027210885" as="geometry" />
+        </mxCell>
+        <mxCell id="uc26-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="70% first-call resolution, 33% lead conversion increase. AI-powered chatbots with context-aware responses." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="349" y="517.8571428571429" as="geometry" />
+        </mxCell>
+        <mxCell id="uc27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="652" y="496.530612244898" as="geometry" />
+        </mxCell>
+        <mxCell id="uc27-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Post-Call Analytics" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="660" y="498.70068027210885" as="geometry" />
+        </mxCell>
+        <mxCell id="uc27-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Improve call quality, enhance training, identify trends. Customer experience and operational improvement." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="660" y="517.8571428571429" as="geometry" />
+        </mxCell>
+        <mxCell id="uc28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="963" y="496.530612244898" as="geometry" />
+        </mxCell>
+        <mxCell id="uc28-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Multi-Channel Campaign Optimization" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="971" y="498.70068027210885" as="geometry" />
+        </mxCell>
+        <mxCell id="uc28-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="97% operational improvement, 5-day tasks to 2 hours. Multi-agent workflow coordination for marketing campaigns." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="971" y="517.8571428571429" as="geometry" />
+        </mxCell>
+        <mxCell id="uc29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="1274" y="496.530612244898" as="geometry" />
+        </mxCell>
+        <mxCell id="uc29-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Product Innovation Research" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="1282" y="498.70068027210885" as="geometry" />
+        </mxCell>
+        <mxCell id="uc29-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Automate market analysis, competitive product analysis, regulatory impact assessment. Innovation and new product development." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="1282" y="517.8571428571429" as="geometry" />
+        </mxCell>
+        <mxCell id="uc30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="1585" y="496.530612244898" as="geometry" />
+        </mxCell>
+        <mxCell id="uc30-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Developer Productivity Enhancement" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="1593" y="498.70068027210885" as="geometry" />
+        </mxCell>
+        <mxCell id="uc30-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Improve development efficiency, reduce manual coding effort. Development acceleration and operational efficiency." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="1593" y="517.8571428571429" as="geometry" />
+        </mxCell>
+        <mxCell id="uc31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="30" y="603.1632653061224" as="geometry" />
+        </mxCell>
+        <mxCell id="uc31-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Data-Driven Recommendations" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="38" y="604.3333333333334" as="geometry" />
+        </mxCell>
+        <mxCell id="uc31-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Multi-agent system for personalized recommendations applicable to wealth management advisory and portfolio optimization." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="38" y="622.4897959183673" as="geometry" />
+        </mxCell>
+        <mxCell id="uc32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="341" y="603.1632653061224" as="geometry" />
+        </mxCell>
+        <mxCell id="uc32-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Workplace Productivity Assistant" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="349" y="604.3333333333334" as="geometry" />
+        </mxCell>
+        <mxCell id="uc32-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="50% workload reduction, 97% acceptance rate. Reduce training time, improve employee productivity, enable self-service." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="349" y="626.4897959183673" as="geometry" />
+        </mxCell>
+        <mxCell id="uc33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="652" y="603.1632653061224" as="geometry" />
+        </mxCell>
+        <mxCell id="uc33-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Collections Optimization" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="660" y="604.3333333333334" as="geometry" />
+        </mxCell>
+        <mxCell id="uc33-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Automate collections workflow, payment arrangement negotiation, default prevention. Operational efficiency and risk mitigation." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="660" y="626.4897959183673" as="geometry" />
+        </mxCell>
+        <mxCell id="uc34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="963" y="603.1632653061224" as="geometry" />
+        </mxCell>
+        <mxCell id="uc34-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Finance Process Automation" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="971" y="604.3333333333334" as="geometry" />
+        </mxCell>
+        <mxCell id="uc34-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Multi-agent coordination for financial workflows applicable to retail banking collections, payments, and customer financial management." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="971" y="626.4897959183673" as="geometry" />
+        </mxCell>
+        <mxCell id="uc35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="1274" y="603.1632653061224" as="geometry" />
+        </mxCell>
+        <mxCell id="uc35-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Financial Close Automation" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="1282" y="604.3333333333334" as="geometry" />
+        </mxCell>
+        <mxCell id="uc35-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Accelerate month-end close processes, management reporting generation. Back-office efficiency and finance transformation." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="1282" y="626.4897959183673" as="geometry" />
+        </mxCell>
+        <mxCell id="uc36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="1585" y="603.1632653061224" as="geometry" />
+        </mxCell>
+        <mxCell id="uc36-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Regulatory Reporting Automation" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="1593" y="604.3333333333334" as="geometry" />
+        </mxCell>
+        <mxCell id="uc36-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Automate Basel, CCAR, call reports, and regulatory compliance reporting. Finance transformation and Deposit Takers Act 2025." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="1593" y="626.4897959183673" as="geometry" />
+        </mxCell>
+        <mxCell id="uc37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="30" y="709.795918367347" as="geometry" />
+        </mxCell>
+        <mxCell id="uc37-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Cash Management Automation" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="38" y="710.965986394558" as="geometry" />
+        </mxCell>
+        <mxCell id="uc37-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Automate treasury operations, liquidity management, and payment reconciliation. Middle-office automation." vertex="1">
+          <mxGeometry height="63.88" width="279" x="38" y="736.12" as="geometry" />
+        </mxCell>
+        <mxCell id="uc38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="341" y="709.795918367347" as="geometry" />
+        </mxCell>
+        <mxCell id="uc38-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Disaster Recovery Orchestration" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="349" y="710.965986394558" as="geometry" />
+        </mxCell>
+        <mxCell id="uc38-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Automate incident response, business continuity planning, recovery time optimization. Application resiliency and cyber event recovery." vertex="1">
+          <mxGeometry height="63.88" width="279" x="349" y="736.12" as="geometry" />
+        </mxCell>
+        <mxCell id="uc39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="652" y="709.795918367347" as="geometry" />
+        </mxCell>
+        <mxCell id="uc39-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Claims Management" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="660" y="710.965986394558" as="geometry" />
+        </mxCell>
+        <mxCell id="uc39-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Accelerate claims processing, improve accuracy. Operational efficiency and customer satisfaction." vertex="1">
+          <mxGeometry height="63.88" width="279" x="660" y="736.12" as="geometry" />
+        </mxCell>
+        <mxCell id="uc40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="963" y="709.795918367347" as="geometry" />
+        </mxCell>
+        <mxCell id="uc40-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Q&amp;amp;A Chatbot" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="971" y="710.965986394558" as="geometry" />
+        </mxCell>
+        <mxCell id="uc40-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Provide instant answers, improve customer self-service. Enhanced customer experience." vertex="1">
+          <mxGeometry height="63.88" width="279" x="971" y="736.12" as="geometry" />
+        </mxCell>
+        <mxCell id="uc41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="1274" y="709.795918367347" as="geometry" />
+        </mxCell>
+        <mxCell id="uc41-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Credit Decisioning" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="1282" y="710.965986394558" as="geometry" />
+        </mxCell>
+        <mxCell id="uc41-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Improve lending decisions, accelerate approval processes with virtual assistants. Credit risk management." vertex="1">
+          <mxGeometry height="63.88" width="279" x="1282" y="736.12" as="geometry" />
+        </mxCell>
+        <mxCell id="uc42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="1585" y="709.795918367347" as="geometry" />
+        </mxCell>
+        <mxCell id="uc42-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Credit Risk Modeling" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="1593" y="710.965986394558" as="geometry" />
+        </mxCell>
+        <mxCell id="uc42-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="$100M projected revenue, 98% precision, 81% recall, 30% faster approval. Improve credit assessment accuracy." vertex="1">
+          <mxGeometry height="63.88" width="279" x="1593" y="736.12" as="geometry" />
+        </mxCell>
+        <mxCell id="uc43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="30" y="816.4285714285714" as="geometry" />
+        </mxCell>
+        <mxCell id="uc43-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Private Market Credit Analysis" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="38" y="816.5986394557824" as="geometry" />
+        </mxCell>
+        <mxCell id="uc43-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Improve credit assessment, accelerate decision-making. Credit risk management and analytical capability." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="38" y="841.7551020408164" as="geometry" />
+        </mxCell>
+        <mxCell id="uc44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="341" y="816.4285714285714" as="geometry" />
+        </mxCell>
+        <mxCell id="uc44-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Earnings Call Summarization" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="349" y="816.5986394557824" as="geometry" />
+        </mxCell>
+        <mxCell id="uc44-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Accelerate financial analysis, improve market intelligence. Analytical efficiency." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="349" y="841.7551020408164" as="geometry" />
+        </mxCell>
+        <mxCell id="uc45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="652" y="816.4285714285714" as="geometry" />
+        </mxCell>
+        <mxCell id="uc45-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Email Classification" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="660" y="816.5986394557824" as="geometry" />
+        </mxCell>
+        <mxCell id="uc45-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Automate email processing, improve response times. Operational efficiency and customer service improvement." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="660" y="841.7551020408164" as="geometry" />
+        </mxCell>
+        <mxCell id="uc46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="963" y="816.4285714285714" as="geometry" />
+        </mxCell>
+        <mxCell id="uc46-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="ESG Risk Assessment" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="971" y="816.5986394557824" as="geometry" />
+        </mxCell>
+        <mxCell id="uc46-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Automate ESG risk evaluation, sustainability reporting, climate risk modeling. BNZ priority domain for regulatory compliance." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="971" y="841.7551020408164" as="geometry" />
+        </mxCell>
+        <mxCell id="uc47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="1274" y="816.4285714285714" as="geometry" />
+        </mxCell>
+        <mxCell id="uc47-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="News Sentiment Analysis" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="1282" y="816.5986394557824" as="geometry" />
+        </mxCell>
+        <mxCell id="uc47-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Real-time market intelligence, improve trading decisions. Market intelligence and risk management." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="1282" y="841.7551020408164" as="geometry" />
+        </mxCell>
+        <mxCell id="uc48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="1585" y="816.4285714285714" as="geometry" />
+        </mxCell>
+        <mxCell id="uc48-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Compliance Investigation" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="1593" y="816.5986394557824" as="geometry" />
+        </mxCell>
+        <mxCell id="uc48-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Automate compliance workflows, improve investigation efficiency. AML compliance and regulatory requirement fulfillment." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="1593" y="841.7551020408164" as="geometry" />
+        </mxCell>
+        <mxCell id="uc49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="30" y="923.061224489796" as="geometry" />
+        </mxCell>
+        <mxCell id="uc49-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Policy Document Search" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="38" y="924.231292517007" as="geometry" />
+        </mxCell>
+        <mxCell id="uc49-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Improve policy information access, enhance customer service. Customer experience and operational efficiency." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="38" y="944.387755102041" as="geometry" />
+        </mxCell>
+        <mxCell id="uc50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF8000;strokeWidth=2;arcSize=10;fontColor=#003087;fontSize=13;container=0;" value="" vertex="1">
+          <mxGeometry height="96.93877551020408" width="295" x="341" y="923.061224489796" as="geometry" />
+        </mxCell>
+        <mxCell id="uc50-title" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Trading Rules Q&amp;amp;A" vertex="1">
+          <mxGeometry height="16.156462585034017" width="279" x="349" y="924.231292517007" as="geometry" />
+        </mxCell>
+        <mxCell id="uc50-desc" parent="1" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#003087;fontFamily=Helvetica;container=0;" value="Improve regulatory compliance, accelerate rule interpretation. Regulatory compliance and operational efficiency." vertex="1">
+          <mxGeometry height="71.08843537414967" width="279" x="349" y="944.387755102041" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

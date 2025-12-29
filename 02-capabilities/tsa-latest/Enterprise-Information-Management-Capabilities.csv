@@ -1,0 +1,25 @@
+L0 Capability,L1 Capability,L2 Capability,Description
+Enterprise Information Management,Enterprise Document Service,,"Supporting the generation, storage, e-signing, imaging and distribution of documents as a service. Also included in this platform are the relevant reporting and analytics"
+Enterprise Information Management,Enterprise Document Service,Document Generation,
+Enterprise Information Management,Enterprise Document Service,Document Storage and Lifecycle Management,
+Enterprise Information Management,Enterprise Document Service,Document Distribution,
+Enterprise Information Management,Enterprise Document Service,Document Library,
+Enterprise Information Management,Enterprise Document Service,E-Signatures,
+Enterprise Information Management,Enterprise Document Service,Imaging and Scanning,
+Enterprise Information Management,Enterprise Document Service,Document Clustering By Subject and Dimension,
+Enterprise Information Management,Enterprise Document Service,Security and Threat Detection,
+Enterprise Information Management,Enterprise Document Service,Predictive Analytics and Insights,
+Enterprise Information Management,Enterprise Knowledge & IP Service,,"Supporting capabilities for creation, maintenance and exchange of knowledge, along with the maintenance of a common Intellectual Property (IP) portfolio"
+Enterprise Information Management,Enterprise Knowledge & IP Service,Enterprise Architecture,
+Enterprise Information Management,Enterprise Knowledge & IP Service,Knowledge Exchange,
+Enterprise Information Management,Enterprise Knowledge & IP Service,Intellectual Property Portfolio,
+Enterprise Information Management,Enterprise Knowledge & IP Service,Management Manual,
+Enterprise Information Management,Enterprise Records and Archive Management,,"Supporting capabilities for identifying, classification, and management of records, as well as systems for archiving and disposal"
+Enterprise Information Management,Enterprise Records and Archive Management,Records Archiving,
+Enterprise Information Management,Enterprise Records and Archive Management,Records Reporting,
+Enterprise Information Management,Enterprise Records and Archive Management,Records Classification,
+Enterprise Information Management,Enterprise Records and Archive Management,Database Backup Storage and Archival,
+Enterprise Information Management,Enterprise Records and Archive Management,Digital Document Storage and Archival,
+Enterprise Information Management,Enterprise Records and Archive Management,Physical Document Storage and Archival,
+Enterprise Information Management,Enterprise Digital Asset Management,,"Supporting the management activities for digital 'documents': images, brand assets, design artifacts etc."
+Enterprise Information Management,Enterprise Digital Asset Management,Digital Asset Management,Centralised management for images; brand assets; design artifacts; letters; legal text; signatures; banners; page blocks; CSS across multiple channels; devices and languages

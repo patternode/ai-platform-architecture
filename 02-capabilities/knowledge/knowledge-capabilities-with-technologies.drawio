@@ -1,0 +1,100 @@
+<mxfile host="65bd71144e">
+    <diagram name="Knowledge Capabilities - Technologies" id="knowledge-capabilities-tech">
+        <mxGraphModel dx="1024" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="background" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="100" width="1580" height="780" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-header" value="1. DATA MANAGEMENT" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#5A1E58;strokeColor=#5A1E58;fontColor=#FFFFFF;fontStyle=1;fontSize=14;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="120" width="400" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-sub1" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;1.1 Data Source Integration&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;font&gt;Apache NiFi, AWS Glue, Azure Data Factory; Model Context Protocol (MCP); Anthropic/OpenAI/Google MCP SDKs; Fivetran, Airbyte; dbt; Apache Airflow&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="175" width="190" height="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-sub2" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;1.2 Document Processing &amp;amp; Extraction&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;AWS Textract, Azure Form Recognizer, Google Document AI; Claude 3.5 Vision; GPT-4V; Gemini Pro Vision; LlamaParse; Unstructured.io&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="237" y="175" width="199" height="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-sub3" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;1.3 Metadata Enrichment&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Hugging Face Transformers; Topic modeling (BERTopic); LLM-based enrichment (Claude, GPT-4); LangChain extraction chains&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="348" width="190" height="172" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-sub4" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;1.4 Real-Time Knowledge Streaming&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Apache Kafka; Confluent Cloud; Amazon MSK; Real-time vector indexing; Streaming embeddings pipelines&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="237" y="348" width="199" height="172" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-header" value="2. SEMANTIC LAYER &amp; MODELING" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#5A1E58;strokeColor=#5A1E58;fontColor=#FFFFFF;fontStyle=1;fontSize=14;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="120" width="575" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-sub1" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;2.1 Knowledge Graph Foundation&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Neo4j, Amazon Neptune, Azure Cosmos DB (Gremlin API); GraphRAG (Microsoft); Neo4j + Vector Search; FalkorDB; Knowledge Graph + RAG hybrid architectures&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="445" y="175" width="280" height="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-sub2" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;2.2 Ontology Management&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Protégé ontology editor; Apache Jena; OWL API; SPARQL; LLM-assisted ontology generation; TopBraid EDG; PoolParty Semantic Suite&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="730" y="175" width="295" height="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-sub3" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;2.3 Semantic Data Models&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Dedupe, RecordLinkage; Fuzzy matching algorithms; LLM-based entity resolution; Embedding-based matching; dbt Semantic Layer&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="445" y="348" width="210" height="172" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-sub4" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;2.4 Semantic Mapping &amp;amp; Relationships&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;LLM relationship extraction; Graph Neural Networks (GNNs); PyTorch Geometric; DGL&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="665" y="348" width="175" height="172" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-sub5" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;2.5 Glossary, Taxonomy &amp;amp; Classification&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Text classification (BERT, RoBERTa); LLM classification (fine-tuned); SetFit; Few-shot classification&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="848" y="348" width="182" height="172" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-header" value="3. KNOWLEDGE STORAGE &amp; RETRIEVAL" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#5A1E58;strokeColor=#5A1E58;fontColor=#FFFFFF;fontStyle=1;fontSize=14;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1040" y="120" width="550" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-sub1" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;3.1 Vector Database Management&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Pinecone, Weaviate, Qdrant, Milvus; MongoDb; pgvector 0.7+; Chroma; Deep Lake; GPU-accelerated indexing&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="1040" y="175" width="160" height="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-sub2" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;3.2 Graph Database Management&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Neo4j (Cypher); Amazon Neptune (Gremlin/SPARQL); Postgres; Neo4j Vector Index; Memgraph; Graph + Vector co-location&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="1210" y="175" width="180" height="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-sub3" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;3.3 Embedding Generation &amp;amp; Management&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;OpenAI text-embedding-3-large; Voyage AI; Nomic Embed; Cohere Embed v3; MongoDb; Matryoshka embeddings&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="1400" y="175" width="187" height="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-sub4" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;3.4 Hybrid Storage Strategies&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Unified vector-graph stores; LakeFS for versioning; Delta Lake 3.0; Apache Iceberg 1.4&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="1040" y="348" width="160" height="172" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-sub5" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;3.5 Knowledge Versioning&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;LakeFS; Pachyderm; MLflow Model Registry; DVC for embeddings; Weights &amp;amp; Biases&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="1211" y="348" width="179" height="172" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-header" value="4. KNOWLEDGE ACCESS &amp; DELIVERY" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#5A1E58;strokeColor=#5A1E58;fontColor=#FFFFFF;fontStyle=1;fontSize=14;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="537" width="690" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-sub1" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;4.1 Semantic Search&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;ColBERT v2; Hybrid search APIs; Cohere Rerank 3; Jina Reranker; BM25 + dense hybrid&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="592" width="212" height="147" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-sub2" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;4.2 RAG (Retrieval Augmented Generation)&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Agentic RAG frameworks; GraphRAG; Self-RAG; Multi-agent orchestration; Crew AI, AutoGen; MCP integration&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="266.5" y="592" width="212" height="147" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-sub3" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;4.3 Knowledge APIs &amp;amp; Interfaces&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;FastAPI, Flask; Model Context Protocol (MCP); MCP SDKs (Python, TypeScript, C#, Go); A2A Protocol&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="491.5" y="595.5" width="238.5" height="143.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-sub4" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;4.4 Context Assembly &amp;amp; Ranking&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;ColBERT reranking; Cohere Rerank 3; BGE Reranker; Context compression (LLMLingua)&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="747" width="290" height="123" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-sub5" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;4.5 Multi-Modal Knowledge Access&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;GPT-4V, Claude 3.5 Vision, Gemini Pro Vision; CLIP-2; Unified multi-modal embeddings; Video RAG&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="747" width="263.5" height="123" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-header" value="5. KNOWLEDGE GOVERNANCE &amp; QUALITY" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#5A1E58;strokeColor=#5A1E58;fontColor=#FFFFFF;fontStyle=1;fontSize=14;fontFamily=Arial;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="745" y="537" width="825" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-sub1" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;5.1 Knowledge Curation&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;LLM-assisted curation; Automated quality scoring; Human-in-the-loop platforms; Label Studio&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="745" y="592" width="140" height="197" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-sub2" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;5.2 Data Quality Management&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Soda Core; Monte Carlo; AI-specific data quality (embedding drift, retrieval quality)&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="592" width="145" height="197" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-sub3" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;5.3 Access Control &amp;amp; Security&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;OAuth 2.0; Azure Entra ID, Okta; Prompt injection protection; Guardrails AI; NeMo Guardrails&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="1060" y="592" width="135" height="197" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-sub4" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;5.4 Compliance &amp;amp; Audit&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;EU AI Act compliance tools; ISO/IEC 42001 frameworks; NIST AI RMF; AI audit platforms&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="1210" y="592" width="150" height="197" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-sub5" value="&lt;b&gt;&lt;font color=&quot;#5A1E58&quot;&gt;5.5 Knowledge Lifecycle Management&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;MLflow; Weights &amp;amp; Biases; AI model lifecycle tools; Knowledge deprecation automation&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#99CAD2;strokeColor=#0B909F;strokeWidth=1;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="1375" y="592" width="195" height="197" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

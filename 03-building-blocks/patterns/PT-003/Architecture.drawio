@@ -1,0 +1,294 @@
+<mxfile host="app.diagrams.net" modified="2025-12-05T00:00:00.000Z" agent="AI Agent" version="24.0.0">
+  <diagram name="PT-003-Feature-Store-Architecture" id="feature-store-arch">
+    <mxGraphModel dx="2400" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1800" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="PT-003: Feature Store (Dual-Store) - Architecture Overview" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="1600" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Pattern Boundary Container -->
+        <mxCell id="pattern-boundary" value="Feature Store Pattern (PT-003)" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#003087;strokeWidth=3;fillColor=#F5F5F5;fontColor=#003087;fontSize=20;fontStyle=1;fontFamily=Helvetica;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="100" y="140" width="2200" height="1440" as="geometry" />
+        </mxCell>
+
+        <!-- Data Sources Section -->
+        <mxCell id="data-sources-label" value="Data Sources" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="40" y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Transactional Database -->
+        <mxCell id="source-transactional" value="Transactional DB&#xa;(Oracle, PostgreSQL)&#xa;Customer, Account,&#xa;Transaction Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=2;fontColor=#333333;fontSize=12;fontFamily=Helvetica;fontStyle=1;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="40" y="100" width="160" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Data Warehouse -->
+        <mxCell id="source-warehouse" value="Data Warehouse&#xa;(Snowflake, BigQuery)&#xa;Aggregated Metrics,&#xa;Historical Analytics" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=2;fontColor=#333333;fontSize=12;fontFamily=Helvetica;fontStyle=1;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="240" y="100" width="160" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Event Streams -->
+        <mxCell id="source-streams" value="Event Streams&#xa;(Kafka, Kinesis)&#xa;Clickstream,&#xa;Real-time Events" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=2;fontColor=#333333;fontSize=12;fontFamily=Helvetica;fontStyle=1;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="440" y="100" width="160" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Third-Party Data -->
+        <mxCell id="source-thirdparty" value="Third-Party APIs&#xa;Credit Bureau,&#xa;Market Data,&#xa;Fraud Signals" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=2;fontColor=#333333;fontSize=12;fontFamily=Helvetica;fontStyle=1;size=20;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="640" y="100" width="160" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Feature Engineering Layer -->
+        <mxCell id="feature-engineering-container" value="Feature Engineering &amp; Transformation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontColor=#333333;fontSize=14;fontFamily=Helvetica;fontStyle=1;arcSize=5;verticalAlign=top;spacingTop=10;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="40" y="300" width="760" height="180" as="geometry" />
+        </mxCell>
+
+        <mxCell id="feature-transform-1" value="Raw to Features&#xa;(Aggregations, Ratios)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;strokeWidth=1;fontColor=#333333;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="60" y="350" width="150" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="feature-transform-2" value="Point-in-Time Join&#xa;(Temporal Alignment)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;strokeWidth=1;fontColor=#333333;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="240" y="350" width="150" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="feature-transform-3" value="Feature Encoding&#xa;(One-hot, Embeddings)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;strokeWidth=1;fontColor=#333333;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="420" y="350" width="150" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="feature-transform-4" value="Feature Derivation&#xa;(Rolling Windows)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;strokeWidth=1;fontColor=#333333;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="600" y="350" width="150" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Core Components Section -->
+        <mxCell id="core-components-label" value="Core Feature Store Components" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="40" y="540" width="400" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Feature Registry (ABB-DATA-001) -->
+        <mxCell id="abb-feature-registry" value="ABB-DATA-001&#xa;Feature Registry&#xa;&#xa;Metadata Catalog:&#xa;• Feature Definitions&#xa;• Versioning&#xa;• Lineage Tracking&#xa;• Ownership&#xa;• SLAs &amp; Quality Metrics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#001835;strokeWidth=2;fontColor=#FFFFFF;fontSize=14;fontFamily=Helvetica;fontStyle=1;arcSize=10;align=center;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="860" y="300" width="300" height="180" as="geometry" />
+        </mxCell>
+
+        <!-- Feature Materialization Pipeline (ABB-DATA-004) -->
+        <mxCell id="abb-materialization" value="ABB-DATA-004&#xa;Feature Materialization Pipeline&#xa;&#xa;• Batch Processing (Spark)&#xa;• Feature Computation&#xa;• Validation &amp; Quality Checks&#xa;• Schedule Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontColor=#333333;fontSize=14;fontFamily=Helvetica;fontStyle=1;arcSize=10;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="300" y="580" width="280" height="180" as="geometry" />
+        </mxCell>
+
+        <!-- Offline Feature Store (ABB-DATA-002) -->
+        <mxCell id="abb-offline-store" value="ABB-DATA-002&#xa;Offline Feature Store&#xa;&#xa;Columnar Storage:&#xa;• Snowflake / Delta Lake&#xa;• Historical Features&#xa;• Parquet Format&#xa;• 2-5 Year Retention&#xa;• Training Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontColor=#333333;fontSize=14;fontFamily=Helvetica;fontStyle=1;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="40" y="840" width="260" height="200" as="geometry" />
+        </mxCell>
+
+        <!-- Online Feature Store (ABB-DATA-003) -->
+        <mxCell id="abb-online-store" value="ABB-DATA-003&#xa;Online Feature Store&#xa;&#xa;Key-Value Store:&#xa;• Redis / DynamoDB&#xa;• Real-time Serving&#xa;• &lt; 10ms Latency (p99)&#xa;• 30-90 Day Retention&#xa;• Production Features" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontColor=#333333;fontSize=14;fontFamily=Helvetica;fontStyle=1;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="360" y="840" width="260" height="200" as="geometry" />
+        </mxCell>
+
+        <!-- Point-in-Time Join Engine (ABB-DATA-005) -->
+        <mxCell id="abb-pit-join" value="ABB-DATA-005&#xa;Point-in-Time Join Engine&#xa;&#xa;• Temporal Alignment&#xa;• Data Leakage Prevention&#xa;• Historical Queries&#xa;• Training Data Prep" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontColor=#333333;fontSize=14;fontFamily=Helvetica;fontStyle=1;arcSize=10;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="40" y="1100" width="260" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Feature Quality Monitor (ABB-DATA-006) -->
+        <mxCell id="abb-quality-monitor" value="ABB-DATA-006&#xa;Feature Quality Monitor&#xa;&#xa;• Drift Detection&#xa;• Null Rate Tracking&#xa;• Distribution Analysis&#xa;• Freshness Alerts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=2;fontColor=#333333;fontSize=12;fontFamily=Helvetica;fontStyle=1;arcSize=10;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="680" y="840" width="220" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Feature Transformation Engine (ABB-DATA-007) -->
+        <mxCell id="abb-transform-engine" value="ABB-DATA-007&#xa;Feature Transformation&#xa;Engine (Streaming)&#xa;&#xa;• Real-time Computation&#xa;• Kafka Streams / Flink&#xa;• Event Processing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=2;fontColor=#333333;fontSize=12;fontFamily=Helvetica;fontStyle=1;arcSize=10;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="680" y="1020" width="220" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Consumers Section -->
+        <mxCell id="consumers-label" value="Consumers" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#333333;fontFamily=Helvetica;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="1240" y="540" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Model Training -->
+        <mxCell id="consumer-training" value="Model Training&#xa;&#xa;• Historical Features&#xa;• Point-in-Time Joins&#xa;• Batch Processing&#xa;• Training Datasets" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;fontColor=#333333;fontSize=13;fontFamily=Helvetica;fontStyle=1;arcSize=10;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="1240" y="840" width="200" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Model Serving -->
+        <mxCell id="consumer-serving" value="Model Serving&#xa;(Real-time Inference)&#xa;&#xa;• Online Features&#xa;• &lt; 10ms Retrieval&#xa;• High Throughput&#xa;• Production Models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;fontColor=#333333;fontSize=13;fontFamily=Helvetica;fontStyle=1;arcSize=10;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="1240" y="1020" width="200" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Cross-Cutting Services -->
+        <mxCell id="crosscutting-container" value="Cross-Cutting Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontColor=#333333;fontSize=14;fontFamily=Helvetica;fontStyle=1;arcSize=5;verticalAlign=top;spacingTop=10;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="1520" y="580" width="620" height="580" as="geometry" />
+        </mxCell>
+
+        <mxCell id="abb-governance" value="AB-060&#xa;AI Governance Platform&#xa;&#xa;• Compliance Tracking&#xa;• Risk Management&#xa;• Audit Trail&#xa;• Data Classification" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#006633;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontFamily=Helvetica;fontStyle=1;arcSize=10;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="1560" y="640" width="260" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="abb-security" value="AB-112&#xa;Security &amp; Identity&#xa;&#xa;• Authentication (OAuth 2.0)&#xa;• Authorization (RBAC)&#xa;• Encryption (AES-256)&#xa;• TLS 1.3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#E85A2B;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontFamily=Helvetica;fontStyle=1;arcSize=10;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="1560" y="800" width="260" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="abb-observability" value="AB-096&#xa;Observability Platform&#xa;&#xa;• Feature Freshness&#xa;• Serving Latency&#xa;• Error Rate Monitoring&#xa;• Pipeline Health" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFA500;strokeColor=#CC8400;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontFamily=Helvetica;fontStyle=1;arcSize=10;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="1560" y="960" width="260" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Data Flow Arrows -->
+
+        <!-- Sources to Feature Engineering -->
+        <mxCell id="arrow-source-to-eng-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.2;entryY=0;entryDx=0;entryDy=0;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" edge="1" parent="pattern-boundary" source="source-transactional" target="feature-engineering-container">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-source-to-eng-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.4;entryY=0;entryDx=0;entryDy=0;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" edge="1" parent="pattern-boundary" source="source-warehouse" target="feature-engineering-container">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-source-to-eng-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.6;entryY=0;entryDx=0;entryDy=0;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" edge="1" parent="pattern-boundary" source="source-streams" target="feature-engineering-container">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-source-to-eng-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" edge="1" parent="pattern-boundary" source="source-thirdparty" target="feature-engineering-container">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Feature Engineering to Registry -->
+        <mxCell id="arrow-eng-to-registry" value="Feature&#xa;Definitions" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;" edge="1" parent="pattern-boundary" source="feature-engineering-container" target="abb-feature-registry">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Feature Engineering to Materialization -->
+        <mxCell id="arrow-eng-to-mat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" edge="1" parent="pattern-boundary" source="feature-engineering-container" target="abb-materialization">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Registry to Materialization -->
+        <mxCell id="arrow-registry-to-mat" value="Metadata" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#666666;strokeWidth=2;dashed=1;dashPattern=5 5;fontFamily=Helvetica;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;" edge="1" parent="pattern-boundary" source="abb-feature-registry" target="abb-materialization">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Materialization to Offline Store -->
+        <mxCell id="arrow-mat-to-offline" value="Batch&#xa;Features" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;" edge="1" parent="pattern-boundary" source="abb-materialization" target="abb-offline-store">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Materialization to Online Store -->
+        <mxCell id="arrow-mat-to-online" value="Sync&#xa;Features" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;" edge="1" parent="pattern-boundary" source="abb-materialization" target="abb-online-store">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Offline Store to PIT Join -->
+        <mxCell id="arrow-offline-to-pit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" edge="1" parent="pattern-boundary" source="abb-offline-store" target="abb-pit-join">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- PIT Join to Training -->
+        <mxCell id="arrow-pit-to-training" value="Training&#xa;Features" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00A651;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;" edge="1" parent="pattern-boundary" source="abb-pit-join" target="consumer-training">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Online Store to Serving -->
+        <mxCell id="arrow-online-to-serving" value="Real-time&#xa;Features&#xa;&lt; 10ms" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00A651;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;" edge="1" parent="pattern-boundary" source="abb-online-store" target="consumer-serving">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Quality Monitor connections -->
+        <mxCell id="arrow-offline-to-quality" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#666666;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" edge="1" parent="pattern-boundary" source="abb-offline-store" target="abb-quality-monitor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-online-to-quality" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#666666;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" edge="1" parent="pattern-boundary" source="abb-online-store" target="abb-quality-monitor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-quality-to-obs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFA500;strokeWidth=2;dashed=1;dashPattern=5 5;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" edge="1" parent="pattern-boundary" source="abb-quality-monitor" target="abb-observability">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Streaming to Transform Engine -->
+        <mxCell id="arrow-stream-to-transform" value="Real-time&#xa;Events" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#FF6B35;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;" edge="1" parent="pattern-boundary" source="source-streams" target="abb-transform-engine">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="190" />
+              <mxPoint x="640" y="1055" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow-transform-to-online" value="Streaming&#xa;Features" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF6B35;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;" edge="1" parent="pattern-boundary" source="abb-transform-engine" target="abb-online-store">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Cross-cutting service connections -->
+        <mxCell id="arrow-registry-to-gov" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00A651;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" edge="1" parent="pattern-boundary" source="abb-feature-registry" target="abb-governance">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-mat-to-sec" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF6B35;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" edge="1" parent="pattern-boundary" source="abb-materialization" target="abb-security">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1480" y="715" />
+              <mxPoint x="1480" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="legend-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=#333333;align=left;verticalAlign=top;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="1880" y="1240" width="280" height="160" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="1900" y="1250" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-critical" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#001835;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="1900" y="1280" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-critical-text" value="Critical ABB (Core)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;fontFamily=Helvetica;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="1940" y="1280" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-data" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="1900" y="1310" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-data-text" value="Data ABB (Storage/Pipeline)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;fontFamily=Helvetica;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="1940" y="1310" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-supporting" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#666666;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#333333;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="1900" y="1340" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-supporting-text" value="Supporting ABB (Optional)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;fontFamily=Helvetica;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="1940" y="1340" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-primary-flow" value="" style="endArrow=classic;html=1;strokeColor=#003087;strokeWidth=2;fontFamily=Helvetica;fontSize=10;fontColor=#333333;" edge="1" parent="pattern-boundary">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1900" y="1375" as="sourcePoint" />
+            <mxPoint x="1930" y="1375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-primary-flow-text" value="Primary Data Flow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;fontFamily=Helvetica;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="1940" y="1365" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-control-flow" value="" style="endArrow=classic;html=1;strokeColor=#666666;strokeWidth=2;dashed=1;dashPattern=5 5;fontFamily=Helvetica;fontSize=10;fontColor=#333333;" edge="1" parent="pattern-boundary">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1900" y="1390" as="sourcePoint" />
+            <mxPoint x="1930" y="1390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-control-flow-text" value="Control/Metadata Flow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;fontFamily=Helvetica;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="1940" y="1380" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Key Characteristics Box -->
+        <mxCell id="characteristics-box" value="Dual-Store Architecture&#xa;• Offline Store: Historical features for training (Snowflake/Delta Lake)&#xa;• Online Store: Real-time features for serving (&lt; 10ms latency)&#xa;• Point-in-Time Joins: Data leakage prevention&#xa;• Feature Registry: Centralized metadata &amp; lineage&#xa;• Quality Monitoring: Drift detection &amp; freshness alerts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;fontColor=#333333;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=top;spacingLeft=10;spacingTop=10;" vertex="1" parent="pattern-boundary">
+          <mxGeometry x="1240" y="580" width="240" height="200" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

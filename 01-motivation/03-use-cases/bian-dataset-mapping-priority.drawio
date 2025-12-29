@@ -1,0 +1,213 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram id="bian-dataset-mapping-priority" name="BIAN Dataset Mapping - Priority Use Cases">
+    <mxGraphModel dx="2500" dy="1500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="BIAN Dataset Mapping - Priority Use Cases (UC01, UC02, UC05, UC11, UC14)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="1500" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Business Area Headers -->
+        <mxCell id="ba-header-1" value="SALES &amp; SERVICE" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="20" y="80" width="590" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-header-2" value="OPERATIONS &amp; EXECUTION" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="620" y="80" width="200" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-header-3" value="RISK &amp; COMPLIANCE" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="830" y="80" width="400" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-header-4" value="BUSINESS SUPPORT" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="80" width="200" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-header-5" value="REFERENCE DATA" style="text;html=1;strokeColor=none;fillColor=#FF6B35;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="80" width="200" height="31" as="geometry" />
+        </mxCell>
+
+        <!-- Row 1: Customer Management -->
+        <mxCell id="bd-customer-mgmt" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;strokeWidth=2;fillColor=#F5F5F5;arcSize=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="20" y="120" width="190" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-customer-mgmt-title" value="Customer Management" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="20" y="120" width="190" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-customer-mgmt-ds" value="&lt;div style=&quot;text-align: left;&quot;&gt;• Customer Profile Data&lt;br&gt;• Meeting Brief&lt;br&gt;• CRM Update&lt;br&gt;• Customer Analytics&lt;br&gt;• Life Event Signals&lt;br&gt;• Customer Insights&lt;br&gt;• Call Summaries&lt;br&gt;• Sentiment Analysis&lt;br&gt;• Customer Behavior&lt;br&gt;• Client Data&lt;br&gt;• Communications&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;fontFamily=Helvetica;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="25" y="155" width="180" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-customer-mgmt-uc" value="&lt;b&gt;UC-001, UC-014&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#50E6FF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="20" y="385" width="190" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Sales -->
+        <mxCell id="bd-sales" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;strokeWidth=2;fillColor=#F5F5F5;arcSize=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="220" y="120" width="190" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-sales-title" value="Sales" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="220" y="120" width="190" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-sales-ds" value="&lt;div style=&quot;text-align: left;&quot;&gt;• Opportunity List&lt;br&gt;• Talking Points&lt;br&gt;• Credit Decisions&lt;br&gt;• Validation Results&lt;br&gt;• Application Data&lt;br&gt;• Pitch Books&lt;br&gt;• Opportunity Alerts&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;fontFamily=Helvetica;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="225" y="155" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-sales-uc" value="&lt;b&gt;UC-001, UC-005, UC-014&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#50E6FF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="220" y="385" width="190" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Servicing -->
+        <mxCell id="bd-servicing" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;strokeWidth=2;fillColor=#F5F5F5;arcSize=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="420" y="120" width="190" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-servicing-title" value="Servicing" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="420" y="120" width="190" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-servicing-ds" value="&lt;div style=&quot;text-align: left;&quot;&gt;• Case Records&lt;br&gt;• Agent Guidance&lt;br&gt;• User Feedback&lt;br&gt;• Customer Comms&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;fontFamily=Helvetica;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="425" y="155" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-servicing-uc" value="&lt;b&gt;UC-001&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#50E6FF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="420" y="385" width="190" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Loans and Deposits -->
+        <mxCell id="bd-loans" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;strokeWidth=2;fillColor=#F5F5F5;arcSize=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="620" y="120" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-loans-title" value="Loans and Deposits" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="620" y="120" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-loans-ds" value="&lt;div style=&quot;text-align: left;&quot;&gt;• Loan History&lt;br&gt;• Loan Applications&lt;br&gt;• Portfolio Performance&lt;br&gt;• Extracted Data&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;fontFamily=Helvetica;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="625" y="155" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-loans-uc" value="&lt;b&gt;UC-005&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#50E6FF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="620" y="385" width="200" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Regulations and Compliance -->
+        <mxCell id="bd-compliance" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;strokeWidth=2;fillColor=#F5F5F5;arcSize=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="830" y="120" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-compliance-title" value="Regulations &amp; Compliance" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="830" y="120" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-compliance-ds" value="&lt;div style=&quot;text-align: left;&quot;&gt;• Audit Trail&lt;br&gt;• Compliance Reports&lt;br&gt;• Sanctions Lists&lt;br&gt;• Historical Cases&lt;br&gt;• External Intelligence&lt;br&gt;• Screening Alerts&lt;br&gt;• Transaction Alerts&lt;br&gt;• SAR / STR Reports&lt;br&gt;• KYC Records&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;fontFamily=Helvetica;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="835" y="155" width="190" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-compliance-uc" value="&lt;b&gt;UC-002, UC-011, UC-014&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#50E6FF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="830" y="385" width="200" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Models -->
+        <mxCell id="bd-models" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;strokeWidth=2;fillColor=#F5F5F5;arcSize=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="120" width="190" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-models-title" value="Models" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="120" width="190" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-models-ds" value="&lt;div style=&quot;text-align: left;&quot;&gt;• Fraud Scores&lt;br&gt;• Fraud Model Outputs&lt;br&gt;• Risk Assessments&lt;br&gt;• Confidence Scores&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;fontFamily=Helvetica;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1045" y="155" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-models-uc" value="&lt;b&gt;UC-011&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#50E6FF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="385" width="190" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Finance -->
+        <mxCell id="bd-finance" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;strokeWidth=2;fillColor=#F5F5F5;arcSize=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="120" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-finance-title" value="Finance" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="120" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-finance-ds" value="&lt;div style=&quot;text-align: left;&quot;&gt;• Financial Records&lt;br&gt;• Control Data&lt;br&gt;• Financial Statements&lt;br&gt;• Spend Data&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;fontFamily=Helvetica;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1245" y="155" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-finance-uc" value="&lt;b&gt;UC-002, UC-005&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#50E6FF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="385" width="200" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Party (Reference Data) -->
+        <mxCell id="bd-party" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;strokeWidth=2;fillColor=#F5F5F5;arcSize=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="120" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-party-title" value="Party" style="text;html=1;strokeColor=none;fillColor=#FF6B35;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="120" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-party-ds" value="&lt;div style=&quot;text-align: left;&quot;&gt;• LinkedIn Profile&lt;br&gt;• Corporate Relationships&lt;br&gt;• Identity Documents&lt;br&gt;• Customer KYC&lt;br&gt;• Account Relationships&lt;br&gt;• Proof of Address&lt;br&gt;• Verified Profiles&lt;br&gt;• Legal Entity Directory&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;fontFamily=Helvetica;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1455" y="155" width="190" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-party-uc" value="&lt;b&gt;UC-001, UC-005, UC-011, UC-014&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#50E6FF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="385" width="200" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Row 2 -->
+        <!-- Business Analysis -->
+        <mxCell id="bd-analysis" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;strokeWidth=2;fillColor=#F5F5F5;arcSize=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="20" y="440" width="290" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-analysis-title" value="Business Analysis" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="20" y="440" width="290" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-analysis-ds" value="&lt;div style=&quot;text-align: left;&quot;&gt;• Performance Metrics&lt;br&gt;• Variance Analysis&lt;br&gt;• Financial Performance&lt;br&gt;• Analytics (Historical, Query, Viz)&lt;br&gt;• Contribution Analysis&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;fontFamily=Helvetica;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="25" y="475" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-analysis-uc" value="&lt;b&gt;UC-001, UC-002, UC-014&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#50E6FF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="20" y="665" width="290" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Consumer Services -->
+        <mxCell id="bd-consumer" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;strokeWidth=2;fillColor=#F5F5F5;arcSize=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="320" y="440" width="200" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-consumer-title" value="Consumer Services" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="320" y="440" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-consumer-ds" value="&lt;div style=&quot;text-align: left;&quot;&gt;• Advisory Records&lt;br&gt;• Consumer Loan Data&lt;br&gt;• Mortgage Loan Data&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;fontFamily=Helvetica;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="325" y="475" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-consumer-uc" value="&lt;b&gt;UC-005&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#50E6FF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="320" y="665" width="200" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- External Agency (Reference Data) -->
+        <mxCell id="bd-external" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;strokeWidth=2;fillColor=#F5F5F5;arcSize=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="530" y="440" width="200" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-external-title" value="External Agency" style="text;html=1;strokeColor=none;fillColor=#FF6B35;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="530" y="440" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-external-ds" value="&lt;div style=&quot;text-align: left;&quot;&gt;• Credit Bureau Data&lt;br&gt;• Alternative Data&lt;br&gt;• Credit Reports&lt;br&gt;• Information Provider&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;fontFamily=Helvetica;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="535" y="475" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-external-uc" value="&lt;b&gt;UC-005, UC-011, UC-014&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#50E6FF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="530" y="665" width="200" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Business Command and Control -->
+        <mxCell id="bd-command" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;strokeWidth=2;fillColor=#F5F5F5;arcSize=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="740" y="440" width="200" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-command-title" value="Business Command" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="740" y="440" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-command-ds" value="&lt;div style=&quot;text-align: left;&quot;&gt;• BU Accounts&lt;br&gt;• Management Commentary&lt;br&gt;• Business Unit Accounting&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#333333;fontFamily=Helvetica;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="745" y="475" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bd-command-uc" value="&lt;b&gt;UC-002&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#50E6FF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="740" y="665" width="200" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;strokeWidth=1;fillColor=#F5F5F5;arcSize=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="950" y="440" width="400" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=#333333;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="950" y="440" width="400" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-content" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;background:#003087;color:white;padding:2px 6px;&quot;&gt;Navy Header&lt;/td&gt;&lt;td&gt;Core Business Domain&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;background:#FF6B35;color:white;padding:2px 6px;&quot;&gt;Orange Header&lt;/td&gt;&lt;td&gt;Reference Data Domain&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;background:#50E6FF;padding:2px 6px;&quot;&gt;Blue Footer&lt;/td&gt;&lt;td&gt;Related Use Cases&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;br&gt;&lt;b&gt;Priority Use Cases:&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;UC-001: FrontLine Partnership Banking&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;UC-002: Finance&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;UC-005: Lending Ops&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;UC-011: Fincrime&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;2&quot;&gt;UC-014: Onboarding&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#333333;fontFamily=Helvetica;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="960" y="475" width="380" height="215" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

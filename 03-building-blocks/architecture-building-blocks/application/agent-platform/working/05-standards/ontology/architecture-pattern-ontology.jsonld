@@ -1,0 +1,535 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@base": "https://patternode.com/ontology/architecture-patterns/",
+    "@vocab": "https://patternode.com/ontology/architecture-patterns/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "schema": "http://schema.org/",
+    "arch": "https://patternode.com/ontology/architecture-patterns/"
+  },
+  "@graph": [
+    {
+      "@id": "arch:ArchitecturePatternsOntology",
+      "@type": "owl:Ontology",
+      "dcterms:title": "Architecture Patterns Ontology",
+      "dcterms:description": "A comprehensive formal ontology for defining software and system architecture patterns, their components, relationships, and characteristics",
+      "dcterms:created": "2025-01-27",
+      "dcterms:creator": "Patternode Standards Initiative",
+      "owl:versionInfo": "1.0",
+      "dcterms:license": "https://creativecommons.org/licenses/by/4.0/",
+      "rdfs:seeAlso": "https://patternode.com/standards/architecture/"
+    },
+    {
+      "@id": "arch:ArchitecturePattern",
+      "@type": "owl:Class",
+      "rdfs:label": "Architecture Pattern",
+      "rdfs:comment": "A general reusable solution to a commonly occurring problem within a given context in software or system architecture. It provides a template for how to solve problems that can be used in many different situations.",
+      "rdfs:subClassOf": "schema:CreativeWork"
+    },
+    {
+      "@id": "arch:ArchitecturalParadigm",
+      "@type": "owl:Class",
+      "rdfs:label": "Architectural Paradigm",
+      "rdfs:comment": "A fundamental style or approach that underlies a family of architecture patterns, defining the core principles and philosophies that guide architectural decisions.",
+      "rdfs:subClassOf": "arch:ArchitecturePattern"
+    },
+    {
+      "@id": "arch:LayeredArchitecture",
+      "@type": "owl:Class",
+      "rdfs:label": "Layered Architecture",
+      "rdfs:comment": "An architectural pattern that organizes the system into layers with specific responsibilities and well-defined interfaces between them.",
+      "rdfs:subClassOf": "arch:ArchitecturalParadigm"
+    },
+    {
+      "@id": "arch:MicroservicesArchitecture",
+      "@type": "owl:Class",
+      "rdfs:label": "Microservices Architecture",
+      "rdfs:comment": "An architectural pattern that structures an application as a collection of loosely coupled, independently deployable services.",
+      "rdfs:subClassOf": "arch:ArchitecturalParadigm"
+    },
+    {
+      "@id": "arch:MonolithicArchitecture",
+      "@type": "owl:Class",
+      "rdfs:label": "Monolithic Architecture",
+      "rdfs:comment": "An architectural pattern where all components of an application are combined into a single deployable unit.",
+      "rdfs:subClassOf": "arch:ArchitecturalParadigm"
+    },
+    {
+      "@id": "arch:EventDrivenArchitecture",
+      "@type": "owl:Class",
+      "rdfs:label": "Event-Driven Architecture",
+      "rdfs:comment": "An architectural pattern where components communicate primarily through the production and consumption of events.",
+      "rdfs:subClassOf": "arch:ArchitecturalParadigm"
+    },
+    {
+      "@id": "arch:ServiceOrientedArchitecture",
+      "@type": "owl:Class",
+      "rdfs:label": "Service-Oriented Architecture",
+      "rdfs:comment": "An architectural pattern that provides services to other components through well-defined interfaces and contracts.",
+      "rdfs:subClassOf": "arch:ArchitecturalParadigm"
+    },
+    {
+      "@id": "arch:HexagonalArchitecture",
+      "@type": "owl:Class",
+      "rdfs:label": "Hexagonal Architecture",
+      "rdfs:comment": "An architectural pattern that isolates the core logic of an application from outside concerns through the use of ports and adapters.",
+      "rdfs:subClassOf": "arch:ArchitecturalParadigm"
+    },
+    {
+      "@id": "arch:PipelineArchitecture",
+      "@type": "owl:Class",
+      "rdfs:label": "Pipeline Architecture",
+      "rdfs:comment": "An architectural pattern where data flows through a series of processing stages or filters in a linear sequence.",
+      "rdfs:subClassOf": "arch:ArchitecturalParadigm"
+    },
+    {
+      "@id": "arch:ServerlessArchitecture",
+      "@type": "owl:Class",
+      "rdfs:label": "Serverless Architecture",
+      "rdfs:comment": "An architectural pattern where applications are built using cloud functions and managed services without explicit server management.",
+      "rdfs:subClassOf": "arch:ArchitecturalParadigm"
+    },
+    {
+      "@id": "arch:PeerToPeerArchitecture",
+      "@type": "owl:Class",
+      "rdfs:label": "Peer-to-Peer Architecture",
+      "rdfs:comment": "An architectural pattern where components act as both clients and servers, forming a distributed network without central authority.",
+      "rdfs:subClassOf": "arch:ArchitecturalParadigm"
+    },
+    {
+      "@id": "arch:DesignPattern",
+      "@type": "owl:Class",
+      "rdfs:label": "Design Pattern",
+      "rdfs:comment": "A reusable solution to a common problem in software design within a specific context, typically at a smaller scale than architectural patterns.",
+      "rdfs:subClassOf": "arch:ArchitecturePattern"
+    },
+    {
+      "@id": "arch:SingletonPattern",
+      "@type": "owl:Class",
+      "rdfs:label": "Singleton Pattern",
+      "rdfs:comment": "A design pattern that restricts the instantiation of a class to a single instance and provides global access to that instance.",
+      "rdfs:subClassOf": "arch:DesignPattern"
+    },
+    {
+      "@id": "arch:ObserverPattern",
+      "@type": "owl:Class",
+      "rdfs:label": "Observer Pattern",
+      "rdfs:comment": "A design pattern where an object maintains a list of dependents and notifies them automatically of state changes.",
+      "rdfs:subClassOf": "arch:DesignPattern"
+    },
+    {
+      "@id": "arch:FactoryPattern",
+      "@type": "owl:Class",
+      "rdfs:label": "Factory Pattern",
+      "rdfs:comment": "A design pattern that provides an interface for creating objects without specifying their concrete classes.",
+      "rdfs:subClassOf": "arch:DesignPattern"
+    },
+    {
+      "@id": "arch:MVCPattern",
+      "@type": "owl:Class",
+      "rdfs:label": "Model-View-Controller Pattern",
+      "rdfs:comment": "A design pattern that separates an application into three interconnected components: Model, View, and Controller.",
+      "rdfs:subClassOf": "arch:DesignPattern"
+    },
+    {
+      "@id": "arch:ArchitecturalComponent",
+      "@type": "owl:Class",
+      "rdfs:label": "Architectural Component",
+      "rdfs:comment": "A modular, deployable, and replaceable part of a system that encapsulates implementation and exposes a set of interfaces.",
+      "rdfs:subClassOf": "schema:SoftwareApplication"
+    },
+    {
+      "@id": "arch:Layer",
+      "@type": "owl:Class",
+      "rdfs:label": "Layer",
+      "rdfs:comment": "A horizontal grouping of components that provides services to the layer above and uses services from the layer below.",
+      "rdfs:subClassOf": "arch:ArchitecturalComponent"
+    },
+    {
+      "@id": "arch:Service",
+      "@type": "owl:Class",
+      "rdfs:label": "Service",
+      "rdfs:comment": "A discrete unit of functionality that can be accessed remotely and acted upon and updated independently.",
+      "rdfs:subClassOf": "arch:ArchitecturalComponent"
+    },
+    {
+      "@id": "arch:Module",
+      "@type": "owl:Class",
+      "rdfs:label": "Module",
+      "rdfs:comment": "A software component that groups related functions and data structures together and provides a defined interface.",
+      "rdfs:subClassOf": "arch:ArchitecturalComponent"
+    },
+    {
+      "@id": "arch:Connector",
+      "@type": "owl:Class",
+      "rdfs:label": "Connector",
+      "rdfs:comment": "An architectural element that models interactions among components and defines the rules that govern those interactions.",
+      "rdfs:subClassOf": "schema:Intangible"
+    },
+    {
+      "@id": "arch:Interface",
+      "@type": "owl:Class",
+      "rdfs:label": "Interface",
+      "rdfs:comment": "A contract that defines how components can interact with each other, specifying available operations and data formats.",
+      "rdfs:subClassOf": "arch:Connector"
+    },
+    {
+      "@id": "arch:Protocol",
+      "@type": "owl:Class",
+      "rdfs:label": "Protocol",
+      "rdfs:comment": "A set of rules and conventions that govern communication between components or systems.",
+      "rdfs:subClassOf": "arch:Connector"
+    },
+    {
+      "@id": "arch:QualityAttribute",
+      "@type": "owl:Class",
+      "rdfs:label": "Quality Attribute",
+      "rdfs:comment": "A measurable property of a system that indicates how well the system satisfies stakeholder needs.",
+      "rdfs:subClassOf": "schema:Property"
+    },
+    {
+      "@id": "arch:Performance",
+      "@type": "owl:Class",
+      "rdfs:label": "Performance",
+      "rdfs:comment": "The degree to which a system accomplishes its designated functions within given constraints of time and other resources.",
+      "rdfs:subClassOf": "arch:QualityAttribute"
+    },
+    {
+      "@id": "arch:Scalability",
+      "@type": "owl:Class",
+      "rdfs:label": "Scalability",
+      "rdfs:comment": "The ability of a system to handle increased load by adding resources to the system.",
+      "rdfs:subClassOf": "arch:QualityAttribute"
+    },
+    {
+      "@id": "arch:Reliability",
+      "@type": "owl:Class",
+      "rdfs:label": "Reliability",
+      "rdfs:comment": "The ability of a system to perform its required functions under stated conditions for a specified period of time.",
+      "rdfs:subClassOf": "arch:QualityAttribute"
+    },
+    {
+      "@id": "arch:Security",
+      "@type": "owl:Class",
+      "rdfs:label": "Security",
+      "rdfs:comment": "The degree to which a system protects information and data so that unauthorized persons or systems cannot read or modify them.",
+      "rdfs:subClassOf": "arch:QualityAttribute"
+    },
+    {
+      "@id": "arch:Maintainability",
+      "@type": "owl:Class",
+      "rdfs:label": "Maintainability",
+      "rdfs:comment": "The ease with which a system can be modified to correct faults, improve performance, or adapt to a changed environment.",
+      "rdfs:subClassOf": "arch:QualityAttribute"
+    },
+    {
+      "@id": "arch:PatternCategory",
+      "@type": "owl:Class",
+      "rdfs:label": "Pattern Category",
+      "rdfs:comment": "A classification scheme for grouping related architecture patterns based on their purpose, scope, or domain.",
+      "rdfs:subClassOf": "schema:DefinedTerm"
+    },
+    {
+      "@id": "arch:CreationalPattern",
+      "@type": ["owl:NamedIndividual", "arch:PatternCategory"],
+      "rdfs:label": "Creational Pattern",
+      "rdfs:comment": "Patterns that deal with object creation mechanisms"
+    },
+    {
+      "@id": "arch:StructuralPattern",
+      "@type": ["owl:NamedIndividual", "arch:PatternCategory"],
+      "rdfs:label": "Structural Pattern",
+      "rdfs:comment": "Patterns that deal with object composition and relationships"
+    },
+    {
+      "@id": "arch:BehavioralPattern",
+      "@type": ["owl:NamedIndividual", "arch:PatternCategory"],
+      "rdfs:label": "Behavioral Pattern",
+      "rdfs:comment": "Patterns that focus on communication between objects and the assignment of responsibilities"
+    },
+    {
+      "@id": "arch:ConcurrencyPattern",
+      "@type": ["owl:NamedIndividual", "arch:PatternCategory"],
+      "rdfs:label": "Concurrency Pattern",
+      "rdfs:comment": "Patterns that deal with multi-threaded programming and concurrent execution"
+    },
+    {
+      "@id": "arch:DistributedPattern",
+      "@type": ["owl:NamedIndividual", "arch:PatternCategory"],
+      "rdfs:label": "Distributed Pattern",
+      "rdfs:comment": "Patterns that address challenges in distributed computing environments"
+    },
+    {
+      "@id": "arch:hasComponent",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "has component",
+      "rdfs:comment": "Indicates that an architecture pattern includes or is composed of a specific component",
+      "rdfs:domain": "arch:ArchitecturePattern",
+      "rdfs:range": "arch:ArchitecturalComponent"
+    },
+    {
+      "@id": "arch:usesConnector",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "uses connector",
+      "rdfs:comment": "Indicates that a component uses a specific connector for communication or interaction",
+      "rdfs:domain": "arch:ArchitecturalComponent",
+      "rdfs:range": "arch:Connector"
+    },
+    {
+      "@id": "arch:implements",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "implements",
+      "rdfs:comment": "Indicates that a concrete system or component implements a specific architecture pattern",
+      "rdfs:domain": "schema:SoftwareApplication",
+      "rdfs:range": "arch:ArchitecturePattern"
+    },
+    {
+      "@id": "arch:satisfies",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "satisfies",
+      "rdfs:comment": "Indicates that an architecture pattern satisfies or addresses a specific quality attribute",
+      "rdfs:domain": "arch:ArchitecturePattern",
+      "rdfs:range": "arch:QualityAttribute"
+    },
+    {
+      "@id": "arch:relatedTo",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "related to",
+      "rdfs:comment": "Indicates a general relationship between architecture patterns",
+      "rdfs:domain": "arch:ArchitecturePattern",
+      "rdfs:range": "arch:ArchitecturePattern"
+    },
+    {
+      "@id": "arch:alternativeTo",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "alternative to",
+      "rdfs:comment": "Indicates that one pattern can serve as an alternative solution to another pattern",
+      "rdfs:subPropertyOf": "arch:relatedTo",
+      "rdfs:domain": "arch:ArchitecturePattern",
+      "rdfs:range": "arch:ArchitecturePattern"
+    },
+    {
+      "@id": "arch:complementsTo",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "complements to",
+      "rdfs:comment": "Indicates that one pattern works well in combination with another pattern",
+      "rdfs:subPropertyOf": "arch:relatedTo",
+      "rdfs:domain": "arch:ArchitecturePattern",
+      "rdfs:range": "arch:ArchitecturePattern"
+    },
+    {
+      "@id": "arch:conflictsWith",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "conflicts with",
+      "rdfs:comment": "Indicates that one pattern is incompatible or conflicts with another pattern",
+      "rdfs:subPropertyOf": "arch:relatedTo",
+      "rdfs:domain": "arch:ArchitecturePattern",
+      "rdfs:range": "arch:ArchitecturePattern"
+    },
+    {
+      "@id": "arch:belongsToCategory",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "belongs to category",
+      "rdfs:comment": "Indicates that a pattern belongs to a specific category or classification",
+      "rdfs:domain": "arch:ArchitecturePattern",
+      "rdfs:range": "arch:PatternCategory"
+    },
+    {
+      "@id": "arch:connectsTo",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "connects to",
+      "rdfs:comment": "Indicates that one component connects to or communicates with another component",
+      "rdfs:domain": "arch:ArchitecturalComponent",
+      "rdfs:range": "arch:ArchitecturalComponent"
+    },
+    {
+      "@id": "arch:dependsOn",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "depends on",
+      "rdfs:comment": "Indicates that one component depends on another component for its functionality",
+      "rdfs:domain": "arch:ArchitecturalComponent",
+      "rdfs:range": "arch:ArchitecturalComponent"
+    },
+    {
+      "@id": "arch:provides",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "provides",
+      "rdfs:comment": "Indicates that a component provides a specific interface or service",
+      "rdfs:domain": "arch:ArchitecturalComponent",
+      "rdfs:range": "arch:Interface"
+    },
+    {
+      "@id": "arch:requires",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "requires",
+      "rdfs:comment": "Indicates that a component requires a specific interface or service",
+      "rdfs:domain": "arch:ArchitecturalComponent",
+      "rdfs:range": "arch:Interface"
+    },
+    {
+      "@id": "arch:patternName",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "pattern name",
+      "rdfs:comment": "The name of the architecture pattern",
+      "rdfs:domain": "arch:ArchitecturePattern",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "arch:description",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "description",
+      "rdfs:comment": "A detailed description of the architecture pattern, its purpose, and usage",
+      "rdfs:domain": "arch:ArchitecturePattern",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "arch:intent",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "intent",
+      "rdfs:comment": "The main purpose or goal that the pattern is designed to achieve",
+      "rdfs:domain": "arch:ArchitecturePattern",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "arch:context",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "context",
+      "rdfs:comment": "The situation or circumstances in which the pattern is applicable",
+      "rdfs:domain": "arch:ArchitecturePattern",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "arch:problem",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "problem",
+      "rdfs:comment": "The specific problem or challenge that the pattern addresses",
+      "rdfs:domain": "arch:ArchitecturePattern",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "arch:solution",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "solution",
+      "rdfs:comment": "The solution approach provided by the pattern",
+      "rdfs:domain": "arch:ArchitecturePattern",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "arch:consequences",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "consequences",
+      "rdfs:comment": "The trade-offs, benefits, and drawbacks of applying the pattern",
+      "rdfs:domain": "arch:ArchitecturePattern",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "arch:applicability",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "applicability",
+      "rdfs:comment": "Guidelines for when and where the pattern should be applied",
+      "rdfs:domain": "arch:ArchitecturePattern",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "arch:complexity",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "complexity",
+      "rdfs:comment": "The relative complexity of implementing the pattern (Low, Medium, High)",
+      "rdfs:domain": "arch:ArchitecturePattern",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "arch:maturity",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "maturity",
+      "rdfs:comment": "The maturity level of the pattern in terms of adoption and stability",
+      "rdfs:domain": "arch:ArchitecturePattern",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "arch:componentName",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "component name",
+      "rdfs:comment": "The name of the architectural component",
+      "rdfs:domain": "arch:ArchitecturalComponent",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "arch:responsibility",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "responsibility",
+      "rdfs:comment": "The primary responsibility or role of the component within the architecture",
+      "rdfs:domain": "arch:ArchitecturalComponent",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "arch:deploymentUnit",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "deployment unit",
+      "rdfs:comment": "Indicates whether the component is independently deployable",
+      "rdfs:domain": "arch:ArchitecturalComponent",
+      "rdfs:range": "xsd:boolean"
+    },
+    {
+      "@id": "arch:scalingStrategy",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "scaling strategy",
+      "rdfs:comment": "The approach used to scale the component (horizontal, vertical, or both)",
+      "rdfs:domain": "arch:ArchitecturalComponent",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "arch:communicationStyle",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "communication style",
+      "rdfs:comment": "The style of communication used by the connector (synchronous, asynchronous, etc.)",
+      "rdfs:domain": "arch:Connector",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "arch:dataFormat",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "data format",
+      "rdfs:comment": "The format used for data exchange through the connector",
+      "rdfs:domain": "arch:Connector",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "arch:metricName",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "metric name",
+      "rdfs:comment": "The name of the quality attribute metric",
+      "rdfs:domain": "arch:QualityAttribute",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "arch:measurementUnit",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "measurement unit",
+      "rdfs:comment": "The unit of measurement for the quality attribute",
+      "rdfs:domain": "arch:QualityAttribute",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "arch:targetValue",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "target value",
+      "rdfs:comment": "The target or desired value for the quality attribute",
+      "rdfs:domain": "arch:QualityAttribute",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "arch:priority",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "priority",
+      "rdfs:comment": "The relative priority or importance of the quality attribute",
+      "rdfs:domain": "arch:QualityAttribute",
+      "rdfs:range": "xsd:integer"
+    }
+  ]
+}

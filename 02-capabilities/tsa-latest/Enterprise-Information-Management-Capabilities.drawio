@@ -1,0 +1,88 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Enterprise Information Management Capabilities" id="eim-capabilities">
+    <mxGraphModel dx="4753" dy="2803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eim-l0" value="Enterprise Information Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=22;align=center;verticalAlign=top;spacingTop=10;" parent="1" vertex="1">
+          <mxGeometry x="100" y="80" width="2200" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l1-eds" value="Enterprise Document Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;fontColor=#003087;fontSize=16;fontStyle=1;align=center;verticalAlign=top;spacingTop=8;" parent="1" vertex="1">
+          <mxGeometry x="140" y="140" width="1040" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l2-eds-1" value="Document Generation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="160" y="190" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l2-eds-2" value="Document Storage and Lifecycle Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="340" y="190" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l2-eds-3" value="Document Distribution" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="520" y="190" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l2-eds-4" value="Document Library" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="700" y="190" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l2-eds-5" value="E-Signatures" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="880" y="190" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l2-eds-6" value="Imaging and Scanning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="160" y="270" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l2-eds-7" value="Document Clustering By Subject and Dimension" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="340" y="270" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l2-eds-8" value="Security and Threat Detection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="520" y="270" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l2-eds-9" value="Predictive Analytics and Insights" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="700" y="270" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l1-ekip" value="Enterprise Knowledge &amp; IP Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;fontColor=#003087;fontSize=16;fontStyle=1;align=center;verticalAlign=top;spacingTop=8;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="140" width="520" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l2-ekip-1" value="Enterprise Architecture" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="190" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l2-ekip-2" value="Knowledge Exchange" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="190" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l2-ekip-3" value="Intellectual Property Portfolio" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="270" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l2-ekip-4" value="Management Manual" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="270" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l1-eram" value="Enterprise Records and Archive Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;fontColor=#003087;fontSize=16;fontStyle=1;align=center;verticalAlign=top;spacingTop=8;" parent="1" vertex="1">
+          <mxGeometry x="140" y="620" width="1040" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l2-eram-1" value="Records Archiving" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="160" y="670" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l2-eram-2" value="Records Reporting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="340" y="670" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l2-eram-3" value="Records Classification" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="520" y="670" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l2-eram-4" value="Database Backup Storage and Archival" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="700" y="670" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l2-eram-5" value="Digital Document Storage and Archival" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="880" y="670" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l2-eram-6" value="Physical Document Storage and Archival" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="160" y="750" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l1-edam" value="Enterprise Digital Asset Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;fontColor=#003087;fontSize=16;fontStyle=1;align=center;verticalAlign=top;spacingTop=8;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="620" width="520" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="eim-l2-edam-1" value="Digital Asset Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;fontColor=#003087;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="670" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="Enterprise Information Management - Capability Model" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="100" y="20" width="2200" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

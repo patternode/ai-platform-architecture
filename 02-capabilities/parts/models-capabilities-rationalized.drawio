@@ -1,0 +1,127 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Models Capabilities - Rationalized" id="models-capabilities-rationalized">
+    <mxGraphModel dx="4273" dy="2458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="outer-background" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1810" y="-1020" width="1700" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="BNZ AI Platform: Models Capability Area" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=23;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-1000" width="1670" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="background" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-890" width="1680" height="790" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-header" value="1. MODEL GOVERNANCE &amp;amp; COMPLIANCE" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=18;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-940" width="1220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub1" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;1.1 Model Registry &amp;amp; Cataloging&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;font&gt;Centralized repository for all models with metadata, lineage, and governance data. Single source of truth answering &quot;What models exist?&quot;&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-880" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub2" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;1.2 Model Approval &amp; Gate Management&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Structured review and approval processes ensuring models meet quality, compliance, and business requirements before deployment&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="-1560" y="-880" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub3" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;1.3 Model Compliance &amp; Regulatory Adherence&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Ensuring models adhere to Basel III, APRA CPS 230, GDPR, and financial services regulations&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1320" y="-880" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub4" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;1.4 Model Risk Management &amp; Ethics&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Risk assessment, bias detection, fairness metrics, and responsible AI practices&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-730" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub5" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;1.5 Model Documentation &amp; Lineage&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Complete documentation standards and traceability from data to deployment&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1560" y="-730" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub6" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;1.6 Model Types &amp; Classification&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Taxonomy for foundation, fine-tuned, custom, domain-specific, and embedded models&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1320" y="-730" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-header" value="2. MODEL LIFECYCLE MANAGEMENT" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=18;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-520" width="1670" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-sub1" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;2.1 Model Development &amp; Experimentation&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;MLOps pipelines, experiment tracking, hyperparameter optimization, collaborative development&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-465" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-sub2" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;2.2 Model Validation &amp;amp; Testing&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;font&gt;CONSOLIDATED: All testing including performance, stress, validation datasets, statistical significance, benchmarking, A/B testing frameworks&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1580" y="-465" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-sub3" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;2.3 Model Deployment &amp; Release&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Automated deployment with containerization, orchestration, canary/blue-green strategies, rollback&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1340" y="-465" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-sub4" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;2.4 Model Monitoring &amp;amp; Observability&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;font&gt;PRIMARY MONITORING: Performance tracking, drift detection, operational metrics, real-time alerting. SINGLE SOURCE for all monitoring&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1150" y="-465" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-sub5" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;2.5 Model Retirement &amp; Archival&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Structured deprecation, decommissioning, data retention, and knowledge preservation&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-890" y="-465" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-header" value="3. MODEL OPERATIONS - MODELOPS (9 sub-capabilities - INCLUDES PROMPT/CONTEXT)" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=18;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-315" width="1670" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub1" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;3.1 Model Access &amp; Inference&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Secure API access with authentication, authorization, rate limiting&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-260" width="180" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub2" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;3.2 Model Versioning &amp;amp; Runtime Registry&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;font&gt;RENAMED: Operational versioning, deployment versions. Answers &quot;Which version deployed where?&quot;&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="-1610" y="-260" width="180" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub3" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;3.3 Model Serving Infrastructure&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;High-performance serving via REST, gRPC, streaming for scalable inference&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1420" y="-260" width="180" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub4" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;3.4 Model Scaling &amp; Performance&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Auto-scaling, load balancing, performance optimization&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="-1230" y="-260" width="180" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub5" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;3.5 Model Updates &amp; Retraining&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Automated retraining pipelines with fresh data integration&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1040" y="-260" width="180" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub6" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;3.6 Model Rollback &amp; Recovery&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Rapid rollback from issues with automated triggers and version restoration&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-850" y="-260" width="180" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub7" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;3.7 Model Selection &amp; Routing⭐&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;SINGLE SOURCE: Intelligent routing for prompts, tasks, cost optimization. All routing logic here&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-660" y="-260" width="180" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub8" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;3.8 Prompt Engineering &amp; Optimization⭐&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;EXPANDED: Design, testing, versioning, optimization. Few-shot, chain-of-thought, banking patterns&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-470" y="-260" width="180" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub9" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;3.9 Context Assembly &amp; Orchestration⭐&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;EXPANDED: RAG integration, conversation history, prompt management, multi-source data fusion&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-280" y="-260" width="150" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="cap4-header" value="4. MODEL PERFORMANCE &amp;amp; QUALITY" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=18;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-120" width="1120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap4-sub1" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;4.1 Model Quality Metrics &amp;amp; KPIs⭐&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;font&gt;Quality standards, thresholds, SLAs, performance baselines, business metrics&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-65" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cap4-sub2" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;4.2 Model Optimization &amp; Efficiency&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Quantization, pruning, knowledge distillation, architectural improvements for efficiency&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="-1520" y="-65" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cap4-sub3" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;4.3 Model Explainability (XAI)&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;SHAP, LIME, attention mechanisms, feature importance for transparency and compliance&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1240" y="-65" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cap4-sub4" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;4.4 A/B Testing &amp; Champion-Challenger&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Controlled experiments comparing models in production with statistical validation&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="-960" y="-65" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-header" value="5. MODEL SECURITY &amp;amp; PRIVACY" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=18;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-670" y="-120" width="540" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-sub1" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;5.1 Model Protection &amp; IP Security&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Watermarking, access controls, protection against model extraction&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-670" y="-65" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-sub2" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;5.2 Data Privacy &amp; PII Protection&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Anonymization, differential privacy, GDPR compliance&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="-410" y="-65" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-sub3" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;5.3 Adversarial Defense&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Protection against attacks, poisoning, malicious inputs&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="65" width="330" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-sub4" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;5.4 Model Audit &amp; Compliance Tracking&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Detailed audit logs, compliance documentation, regulatory reviews&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="-1460" y="65" width="330" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-sub5" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;5.5 Model Encryption &amp; Secure Communication&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;End-to-end encryption, secure protocols, key management for data protection&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="-1120" y="65" width="990" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="BNZ AI Platform - Models Capability (v2.0 RATIONALIZED) | October 2025 | Owner: Technology Strategy &amp; Architecture" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#5A5A5A;fontFamily=Arial;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="-1794" y="125" width="620" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TrnaJCzmwQUfwxWYLOc--1" value="2. MODEL LIFECYCLE MANAGEMENT" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=18;fontFamily=Arial;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="-940" width="1670" height="45" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

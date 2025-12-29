@@ -1,0 +1,136 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Agentic AI Capabilities - Definitions" id="agentic-ai-capabilities-def">
+    <mxGraphModel dx="4092" dy="2352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bvuZmiikmK_sOUHKqo4f-2" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1810" y="-1020" width="1700" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="BNZ AI Platform: Agentic AI Capabilities &amp;amp; Definitions" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=23;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-1000" width="1670" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="background" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-890" width="1680" height="790" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-header" value="1. AGENT PLATFORM INFRASTRUCTURE" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=18;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-940" width="630" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub1" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;1.1 Runtime Environment&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Secure, serverless execution environment that provides the foundational compute infrastructure for running AI agents with session isolation, auto-scaling, and long-running task support&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-880" width="210" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub2" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;1.2 Session Management&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Capabilities for managing agent sessions including state persistence, checkpoint recovery, session lifecycle, and context preservation across long-running workflows&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="-1580" y="-880" width="200" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub3" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;1.3 Identity &amp;amp; Access Management&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Enterprise-grade identity services providing secure authentication, authorization, impersonation flows, and role-based access control for agents and users with comprehensive audit trails&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1370" y="-880" width="200" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub4" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;1.4 Gateway Services&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;API gateway and integration services that provide secure, managed connectivity between agents and external services, APIs, and enterprise systems with zero-code transformations and protocol handling&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-691" width="210" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub5" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;1.5 Memory Services&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Managed memory infrastructure providing short-term and long-term storage for agent conversations, context, experiences, and learned knowledge with efficient retrieval and persistence&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1580" y="-691" width="200" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap1-sub6" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;1.6 Observability Platform&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;font&gt;Monitoring, logging, tracing, and analytics infrastructure for tracking agent performance, behavior, system health, and operational metrics with real-time dashboards and alerting&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1370" y="-691" width="200" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-header" value="2. AGENT DEVELOPMENT FRAMEWORKS" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=18;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-1160" y="-940" width="440" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-sub1" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;2.1 High-Code Frameworks&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Developer-centric programming frameworks that provide comprehensive libraries, APIs, and tools for building sophisticated multi-agent systems with maximum control and flexibility&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1160" y="-880" width="220" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-sub2" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;2.2 Low-Code Frameworks&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Visual development environments and no-code/low-code platforms that enable business users and citizen developers to build agents through graphical interfaces, pre-built components, and configuration-driven approaches&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-930" y="-880" width="210" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-sub3" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;2.3 Framework Integration&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Capabilities for integrating agents built with different frameworks, enabling cross-framework communication, and maintaining interoperability across the heterogeneous agent ecosystem&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1160" y="-691" width="220" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap2-sub4" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;2.4 Development Tools&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Supporting tools and environments for agent development including IDEs, testing frameworks, debugging tools, version control, and CI/CD pipelines specialized for agentic applications&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-930" y="-691" width="210" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-header" value="3. AGENT RUNTIME" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=18;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-710" y="-940" width="580" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub1" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;3.1 Goals &amp;amp; Intents&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to receive, interpret, and manage high-level objectives and user intentions, translating them into actionable tasks and maintaining goal alignment throughout execution&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-710" y="-880" width="180" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub2" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;3.2 Context &amp;amp; Memory&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to maintain, access, and utilize relevant contextual information and historical interactions to inform decision-making and maintain conversational coherence&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-520" y="-880" width="190" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub3" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;3.3 Planning &amp;amp; Coordination&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to create, execute, and adapt plans for achieving goals, including coordinating multiple actions and managing dependencies between tasks&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="-880" width="190" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub4" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;3.4 Action &amp;amp; Tool Use&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to execute specific actions and utilize available tools and APIs to accomplish tasks in the real world or within enterprise systems&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-710" y="-691" width="180" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub5" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;3.5 Monitoring &amp;amp; Observability&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to track agent performance, behavior, and system health, providing visibility into agent operations for debugging and optimization&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-520" y="-691" width="190" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap3-sub6" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;3.6 Evaluation &amp;amp; Guardrails&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to assess agent performance, ensure safe operation, and maintain alignment with organizational policies and ethical guidelines&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="-691" width="190" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cap4-header" value="4. AGENT ORCHESTRATION" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=18;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-519" width="750" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap4-sub1" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;4.1 Static Orchestration&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to coordinate agents using predefined workflows and fixed interaction patterns, providing predictable and controlled multi-agent operations&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;spacingRight=2;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-464" width="240" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="cap4-sub2" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;4.2 Dynamic Orchestration&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to adaptively coordinate agents based on runtime conditions, dynamically adjusting workflows and agent assignments based on current context and requirements&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1550" y="-464" width="240" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="cap4-sub3" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;4.3 Intelligent Orchestration&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to use AI and machine learning to optimize agent coordination, learning from past executions to improve orchestration decisions and outcomes&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1300" y="-464" width="250" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-header" value="5. AGENT COMMUNICATION" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=18;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-1030" y="-519" width="900" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-sub1" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;5.1 User-to-Agent&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to facilitate natural and intuitive communication between human users and AI agents through various interfaces and interaction modalities&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1030" y="-464" width="200" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-sub2" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;5.2 Service-to-Agent&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to enable enterprise services and applications to communicate with and invoke AI agents, integrating agents into existing business processes&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-820" y="-464" width="240" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-sub3" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;5.3 Agent-to-Agent&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to enable direct communication and coordination between AI agents, supporting collaborative problem-solving and information sharing&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-570" y="-464" width="200" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="cap5-sub4" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;5.4 Agent-to-Storage&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to enable agents to efficiently interact with various storage systems for data persistence, retrieval, and knowledge management&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-360" y="-464" width="230" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="cap6-header" value="6. AUTONOMOUS AGENTS" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=18;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-305" width="640" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap6-sub1" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;6.1 Autonomous Decision-Making&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability for agents to make independent decisions based on available information, learned patterns, and established policies without requiring human approval for each action&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1800" y="-253" width="220" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="cap6-sub2" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;6.2 Guardrails &amp;amp; Safety&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Mechanisms to ensure autonomous agents operate within defined boundaries, enforce safety constraints, and prevent harmful actions through policy enforcement and continuous monitoring&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1570" y="-253" width="190" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="cap6-sub3" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;6.3 Human-in-the-Loop&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Structured processes for involving human judgment in agent decision-making, providing oversight for high-stakes decisions, and enabling human feedback to improve agent performance over time&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1370" y="-253" width="210" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="cap7-header" value="7. AGENT EVALUATION AND CONTROL" style="rounded=6;whiteSpace=wrap;html=1;fillColor=light-dark(#5a1e58, #a6ceff);strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=18;fontFamily=Arial;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-1151" y="-305" width="1021" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cap7-sub1" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;7.1 Standard Agents&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;General-purpose conversational agents capable of handling broad sets of tasks through natural language interaction, providing flexible assistance across multiple domains with basic tool usage&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1151" y="-253" width="200" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="cap7-sub2" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;7.2 Worker Agents&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Task-specific agents optimized for executing well-defined, repeatable operations with high efficiency, focusing on automation of discrete processes and integration with enterprise systems&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-942" y="-253" width="202" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="cap7-sub3" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;7.3 Manager Agents&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Orchestration agents that coordinate and delegate work to other agents, decomposing complex tasks into manageable steps, and ensuring coherent execution across multi-agent workflows&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-731" y="-253" width="201" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="cap7-sub4" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;7.4 Specialist Agents&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Domain-expert agents with deep knowledge in specific areas (e.g., compliance, risk assessment, financial analysis), providing specialized reasoning and decision support for complex domain challenges&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-520" y="-253" width="211" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="BNZ AI Platform - Agentic AI Capability Definitions | Version 1.0 | October 2025 | Owner: Technology Strategy &amp;amp; Architecture" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#5A5A5A;fontFamily=Arial;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="-1794" y="-80" width="555" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bvuZmiikmK_sOUHKqo4f-5" value="&lt;b&gt;&lt;font color=&quot;#002F6B&quot;&gt;7.5 Agents Evaluation&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;font&gt;Measuring the quality, cost, and efficacy of Agentic&amp;nbsp; applications, identify potential issues, inefficiencies and determining their root causes&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#002F6B;strokeWidth=2;fontSize=14;fontColor=#333333;fontFamily=Arial;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="-253" width="170" height="167" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

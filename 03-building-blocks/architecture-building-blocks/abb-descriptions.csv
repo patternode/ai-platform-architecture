@@ -1,0 +1,75 @@
+abb_id,name,description
+AB-050,Large Language Model Service,Foundation LLM service for text generation
+AB-072,Inference Engine,Core inference execution engine
+AB-094,Natural Language Generation,Generates natural language from structured data
+AB-097,Data Drift Detector,Detects drift in input data distributions
+AB-051,Vector Database,Vector storage for embeddings and similarity search
+AB-001,Agent Orchestrator,Coordinates agent collaboration and task execution
+AB-037,Feature Store,Centralized repository for ML features
+AB-063,ML Model Explainability Engine,Generates explanations for ML model predictions
+AB-052,Semantic Search Engine,Semantic search across knowledge bases
+AB-095,NLP Extraction Engine,Extracts entities and relationships from text
+AB-030,Intent Classifier,Classifies user intent in conversations
+AB-040,Document Classification Engine,Classifies documents by type and content
+AB-103,Business Metrics Tracker,Links model performance to business outcomes
+AB-127,Validation Engine,Validates data and model outputs
+AB-107,Stakeholder Dashboard,Executive dashboards for AI platform visibility
+AB-031,Response Generator,Generates conversational responses
+AB-047,Online Feature Store,Real-time feature serving
+AB-074,Event Broker,Central event broker for async communication
+AB-108,Model Router,Routes requests to appropriate models
+AB-013,Batch Orchestrator,Orchestrates batch prediction jobs
+AB-029,Conversation State Manager,Manages conversational context and state
+AB-034,Entity Extractor,Extracts entities from conversation
+AB-036,Multi-Channel Orchestrator,Orchestrates across chat channels
+AB-065,Audit Trail & Logging,Comprehensive audit logging for AI system activities
+AB-008,Human-in-the-Loop Gateway,Human oversight interface for agent actions
+AB-041,OCR Engine,Optical character recognition for documents
+AB-057,Document Processing Pipeline,Processes documents for RAG ingestion
+AB-070,Data Lineage Tracker,Tracks data provenance and lineage for AI models
+AB-075,Stream Processing Engine,Processes streaming data in real-time
+AB-096,Observability Platform,"Centralized platform for metrics, logs, and traces"
+AB-025,Traffic Splitter,Splits traffic between model versions
+AB-032,Handoff Logic Engine,Manages handoff to human agents
+AB-064,Compliance Dashboard,Dashboard for tracking AI governance and compliance metrics
+AB-080,Knowledge Base,Structured knowledge storage for AI
+AB-087,Model Testing Framework,Comprehensive model testing and validation
+AB-105,GenAI Quality Monitor,Monitors quality of generative AI outputs
+AB-002,Tool Registry,Registry of tools available to AI agents
+AB-005,Execution Engine,Executes agent plans and actions
+AB-033,Sentiment Analyzer,Analyzes sentiment in conversations
+AB-058,Citation Generator,Generates citations for LLM responses
+AB-101,Latency Monitor,Tracks inference and pipeline latency metrics
+AB-104,Data Quality Monitor,Monitors data quality dimensions in real-time
+AB-128,Explanation Visualization Layer,Visualizes model explanations
+AB-007,Multi-Agent Communication Bus,Inter-agent communication infrastructure
+AB-018,Data Quality Validator,Validates data quality in batch pipelines
+AB-035,Conversation Summarizer,Summarizes conversation history
+AB-038,Data Lake,Scalable storage for structured and unstructured data
+AB-042,Document Forensics Engine,Detects document tampering and fraud
+AB-054,Hybrid Search Engine,Combines keyword and semantic search
+AB-083,Model Fallback Logic,Fallback strategies for model failures
+AB-106,Automated Retraining Trigger,Triggers model retraining based on drift thresholds
+AB-116,Audit Logging & Monitoring,Security-focused audit logging and threat monitoring
+AB-129,Human-in-the-Loop Workflow,Manages human review workflows
+AB-004,Planning Module,Strategic planning for agent task execution
+AB-019,Incremental Processing Manager,Manages incremental batch processing
+AB-026,Performance Comparator,Compares model performance metrics
+AB-039,Data Versioning Service,Version control for datasets
+AB-043,Data Product Catalog,Catalog of data products
+AB-044,Domain Data Platform,Self-serve domain data platform
+AB-045,Data Contract Registry,Registry for data contracts
+AB-046,Fairness Monitoring Engine,Monitors and reports on model fairness
+AB-048,Feature Engineering Pipeline,Automated feature engineering
+AB-049,Offline Feature Store,Batch feature storage and retrieval
+AB-053,Query Intent Analyzer,Analyzes and classifies query intent
+AB-059,Query Rewriting Engine,Rewrites queries for better retrieval
+AB-069,Bias Detection Framework,Detects and reports bias in ML models
+AB-076,Event Producer Adapter,Adapters for producing events from various sources
+AB-084,Model Quantization Service,Optimizes models through quantization
+AB-086,Model Registry,Central registry for trained models
+AB-088,Model Deployment Orchestrator,Automates model deployment workflows
+AB-093,Feature Flag Service,Feature flag management for ML features
+AB-099,Concept Drift Detector,Detects changes in underlying data relationships
+AB-114,PII Detection & Masking Service,Detects and masks personally identifiable information
+AB-115,Model Security Framework,Security controls and vulnerability management for models

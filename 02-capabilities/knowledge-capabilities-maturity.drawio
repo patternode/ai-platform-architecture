@@ -1,0 +1,136 @@
+<mxfile host="65bd71144e">
+    <diagram name="Knowledge Capabilities Maturity" id="knowledge-maturity">
+        <mxGraphModel dx="980" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title-bar" value="BNZ AI Platform - Knowledge Capabilities Maturity Model" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=32;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;arcSize=5;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="1520" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="header-capabilities" value="Knowledge Capabilities" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;arcSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="140" width="320" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="header-level1" value="Level 1: Initial" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;arcSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="140" width="280" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="header-level2" value="Level 2: Managed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;arcSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="140" width="280" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="header-level3" value="Level 3: Defined" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;arcSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="980" y="140" width="280" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="header-level4" value="Level 4: Optimized" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;arcSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="1280" y="140" width="280" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="l0-data" value="1. Data Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="220" width="320" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="l1-integration" value="• Data Source Integration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=20;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="255" width="320" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="l1-processing" value="• Document Processing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=20;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="285" width="320" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="data-l1" value="Manual file uploads&#xa;Single source integration&#xa;Text extraction (PDF, DOCX)&#xa;Manual tagging" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="220" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="data-l2" value="5-10 automated connectors&#xa;Scheduled batch processing&#xa;Table extraction, entity recognition&#xa;Automated tagging (80%+ accuracy)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="220" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="data-l3" value="20+ source connectors&#xa;Real-time integration, error handling&#xa;Multi-modal processing (95%+ accuracy)&#xa;Real-time streaming (&lt;5 min latency)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="220" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="data-l4" value="50+ sources, MCP connectors&#xa;Agentic data access, self-service&#xa;Multi-modal LLM (99%+ accuracy)&#xa;Sub-second vector indexing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=light-dark(#cccccc, #bbd1a5);strokeWidth=1;fontSize=12;fontColor=#1A3300;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;fontStyle=0;" vertex="1" parent="1">
+                    <mxGeometry x="1280" y="220" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="l0-semantic" value="2. Semantic Layer &amp; Modeling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="340" width="320" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="l1-graph" value="• Knowledge Graph Foundation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=20;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="375" width="320" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="l1-ontology" value="• Ontology Management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=20;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="405" width="320" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="sem-l1" value="Simple graph (100-1K entities)&#xa;Manual construction&#xa;Flat taxonomy, simple hierarchies&#xa;Manual entity matching" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="340" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="sem-l2" value="10K-100K entities&#xa;Automated extraction, 5-10 types&#xa;Basic ontology (50-100 concepts)&#xa;Fuzzy matching (80%+ accuracy)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="340" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="sem-l3" value="100K-1M entities, 20+ types&#xa;Complex relationships&#xa;Formal ontology (200+ concepts)&#xa;ML-based resolution (90%+ accuracy)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="340" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="sem-l4" value="1M+ entities, GraphRAG-enabled&#xa;Vector+graph hybrid queries&#xa;LLM-assisted ontology (1000+ concepts)&#xa;Real-time reconciliation (98%+ accuracy)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=light-dark(#cccccc, #bbd1a5);strokeWidth=1;fontSize=12;fontColor=#1A3300;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;fontStyle=0;" vertex="1" parent="1">
+                    <mxGeometry x="1280" y="340" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="l0-storage" value="3. Knowledge Storage &amp; Retrieval" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="460" width="320" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="l1-vector" value="• Vector Database Management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=20;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="495" width="320" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="l1-embedding" value="• Embedding Generation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=20;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="525" width="320" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="stor-l1" value="&lt;100K vectors&#xa;Basic similarity search&#xa;Single embedding model&#xa;Batch processing only" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="460" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="stor-l2" value="1M-10M vectors&#xa;Optimized indexes (&lt;100ms query)&#xa;Multiple models&#xa;Incremental updates (1K/min)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="460" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="stor-l3" value="10M-100M vectors&#xa;Distributed indexing, hybrid search&#xa;Domain-specific models&#xa;Real-time generation (10K+/min)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="460" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="stor-l4" value="Billion-scale vectors&#xa;Sub-100ms latency, auto-scaling&#xa;Dimension-adaptive (Matryoshka)&#xa;Automated quality monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=light-dark(#cccccc, #bbd1a5);strokeWidth=1;fontSize=12;fontColor=#1A3300;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;fontStyle=0;" vertex="1" parent="1">
+                    <mxGeometry x="1280" y="460" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="l0-access" value="4. Knowledge Access &amp; Delivery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="580" width="320" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="l1-search" value="• Semantic Search" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=20;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="615" width="320" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="l1-rag" value="• RAG (Retrieval Augmented Generation)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=20;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="645" width="320" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="acc-l1" value="Keyword search, basic relevance&#xa;Simple retrieval + LLM&#xa;No source attribution&#xa;Simple REST APIs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="580" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="acc-l2" value="Vector-based search (80%+ relevance)&#xa;Reranking, basic attribution&#xa;80%+ answer quality&#xa;Multiple endpoints, rate limiting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="580" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="acc-l3" value="Contextual search (90%+ relevance)&#xa;Hybrid retrieval, confidence scoring&#xa;90%+ answer quality&#xa;GraphQL support, streaming, SDKs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="580" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="acc-l4" value="Hybrid search (98%+ relevance)&#xa;Agentic RAG, multi-hop reasoning&#xa;GraphRAG for complex queries&#xa;MCP-native APIs (&amp;lt;50ms latency)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=light-dark(#cccccc, #bbd1a5);strokeWidth=1;fontSize=12;fontColor=#1A3300;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;fontStyle=0;" vertex="1" parent="1">
+                    <mxGeometry x="1280" y="580" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="l0-governance" value="Knowledge Governance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="700" width="320" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="l1-lifecycle" value="• Lifecycle Management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=20;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="735" width="320" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="l1-quality" value="• Quality Assurance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#FFFFFF;fontFamily=Helvetica;spacingLeft=20;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="765" width="320" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="gov-l1" value="Ad-hoc manual reviews&#xa;No quality measurement&#xa;Basic authentication&#xa;Manual compliance checks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="700" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="gov-l2" value="Basic review workflows&#xa;Quality metrics, monthly monitoring&#xa;Fine-grained RBAC, encryption&#xa;Automated compliance checks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="700" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="gov-l3" value="Automated quality checks&#xa;Quality framework, auto detection&#xa;ABAC, row-level security&#xa;Real-time compliance monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="980" y="700" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="gov-l4" value="LLM-assisted curation&#xa;Embedding drift detection, RAG quality&#xa;Zero-trust AI, prompt injection protection&#xa;EU AI Act compliant, ISO 42001" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=light-dark(#cccccc, #bbd1a5);strokeWidth=1;fontSize=12;fontColor=#1A3300;fontFamily=Helvetica;arcSize=10;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="1280" y="700" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="footer" value="BNZ AI Platform Architecture | Knowledge Capabilities Maturity Assessment Framework | Version 1.0 | December 2025" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;fontFamily=Helvetica;fontStyle=2;strokeColor=light-dark(#cccccc, #bbd1a5);" parent="1" vertex="1">
+                    <mxGeometry x="40" y="810" width="1520" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

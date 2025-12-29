@@ -1,0 +1,587 @@
+<mxfile host="65bd71144e">
+    <diagram name="Agentic Systems Patterns" id="agentic-systems-patterns">
+        <mxGraphModel dx="756" dy="2377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1800" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="legend-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDEDED;strokeColor=none;strokeWidth=2;arcSize=6;" parent="1" vertex="1">
+                    <mxGeometry x="105" y="-228" width="280" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#1E3A5F;" parent="1" vertex="1">
+                    <mxGeometry x="95" y="-218" width="300" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-shapes-title" value="Components" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#1E3A5F;" parent="1" vertex="1">
+                    <mxGeometry x="115" y="-188" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-orchestrator" value="Static Orchestration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E3A5F;strokeColor=#1E3A5F;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="115" y="-163" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-agent" value="AI Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#17A2B8;strokeColor=#17A2B8;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="265" y="-163" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-autonomous" value="Autonomous Decision" style="diamond;whiteSpace=wrap;html=1;fillColor=#6F42C1;strokeColor=#6F42C1;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="265" y="-128" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-flows-title" value="Communication Flows" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#1E3A5F;" parent="1" vertex="1">
+                    <mxGeometry x="123" y="-89" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend-communication" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#1E3A5F;strokeWidth=3;fontSize=11;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="133" y="-59" as="sourcePoint"/>
+                        <mxPoint x="193" y="-59" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="legend-bidirectional" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#F39C12;strokeWidth=3;fontSize=11;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="133" y="-39" as="sourcePoint"/>
+                        <mxPoint x="193" y="-39" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="legend-autonomous-flow" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#6F42C1;strokeWidth=3;fontSize=11;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="133" y="-19" as="sourcePoint"/>
+                        <mxPoint x="193" y="-19" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="legend-collaboration" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#F39C12;strokeWidth=2;fontSize=11;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="133" y="1" as="sourcePoint"/>
+                        <mxPoint x="193" y="1" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="legend-conditional" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#F39C12;strokeWidth=3;fontSize=11;dashed=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="133" y="21" as="sourcePoint"/>
+                        <mxPoint x="193" y="21" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="legend-note" value="Patterns 1-5 progress from static/directed (top) to dynamic/autonomous (bottom). Pattern 0 is a specialized interactive branch." style="text;html=1;strokeColor=#F39C12;fillColor=#FFFFFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=2;fontColor=#1E3A5F;" parent="1" vertex="1">
+                    <mxGeometry x="123" y="41" width="250" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern1-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E3A5F;strokeWidth=3;arcSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="410" y="110" width="420" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern1-title" value="Pattern 1: Directed / Static Single Worker Agent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#1E3A5F;" parent="1" vertex="1">
+                    <mxGeometry x="395" y="116" width="450" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="edgeStyle=none;html=1;" parent="1" source="pattern1-user" target="pattern1-orchestrator" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern1-user" value="User Input" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A8D8E0;strokeColor=#17A2B8;fontSize=12;fontColor=#1E3A5F;" parent="1" vertex="1">
+                    <mxGeometry x="432" y="206" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern1-orchestrator" value="Static Orchestrator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E3A5F;strokeColor=#1E3A5F;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="552" y="206" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern1-agent" value="Worker Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#17A2B8;strokeColor=#17A2B8;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="712" y="206" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern1-output" value="Output" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9BCF7F;strokeColor=#9BCF7F;fontSize=12;fontColor=#1E3A5F;" parent="1" vertex="1">
+                    <mxGeometry x="572" y="271" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern1-flow1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#1E3A5F;strokeWidth=3;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="pattern1-user" target="pattern1-orchestrator" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="512" y="226" as="sourcePoint"/>
+                        <mxPoint x="552" y="226" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern1-flow2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#1E3A5F;strokeWidth=3;fontSize=12;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="672" y="226" as="sourcePoint"/>
+                        <mxPoint x="712" y="226" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern1-flow3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#1E3A5F;strokeWidth=3;fontSize=12;" parent="1" target="pattern1-output" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="612" y="246" as="sourcePoint"/>
+                        <mxPoint x="472" y="286" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern1-desc" value="Linear, predefined workflow with fixed task delegation." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#4A4A4A;" parent="1" vertex="1">
+                    <mxGeometry x="472" y="311" width="280" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern2-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#17A2B8;strokeWidth=3;arcSize=6;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="110" width="390" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern2-title" value="Pattern 2: Directed / Static Multi-Agent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#17A2B8;" parent="1" vertex="1">
+                    <mxGeometry x="805" y="120" width="450" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern2-user" value="User Input" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A8D8E0;strokeColor=#17A2B8;fontSize=12;fontColor=#1E3A5F;" parent="1" vertex="1">
+                    <mxGeometry x="850" y="200" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern2-orchestrator" value="Multi-Agent Orchestrator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E3A5F;strokeColor=#1E3A5F;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="970" y="196" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern2-agent1" value="Agent A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#17A2B8;strokeColor=#17A2B8;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1130" y="195" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern2-agent2" value="Agent B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#17A2B8;strokeColor=#17A2B8;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1130" y="220" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern2-agent3" value="Agent C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#17A2B8;strokeColor=#17A2B8;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1130" y="245" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern2-output" value="Aggregated Output" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9BCF7F;strokeColor=#9BCF7F;fontSize=12;fontColor=#1E3A5F;" parent="1" vertex="1">
+                    <mxGeometry x="970" y="290" width="120" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern2-flow1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#1E3A5F;strokeWidth=3;fontSize=12;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="930" y="220" as="sourcePoint"/>
+                        <mxPoint x="970" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern2-flow2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#1E3A5F;strokeWidth=3;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="pattern2-orchestrator" target="pattern2-agent1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1090" y="197" as="sourcePoint"/>
+                        <mxPoint x="1130" y="197" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern2-flow3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#1E3A5F;strokeWidth=3;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pattern2-orchestrator" target="pattern2-agent2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1090" y="237" as="sourcePoint"/>
+                        <mxPoint x="1130" y="237" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern2-flow4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#1E3A5F;strokeWidth=3;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="pattern2-orchestrator" target="pattern2-agent3" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1090" y="277" as="sourcePoint"/>
+                        <mxPoint x="1130" y="277" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern2-flow5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#1E3A5F;strokeWidth=3;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="pattern2-output" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1030" y="250" as="sourcePoint"/>
+                        <mxPoint x="910" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern2-desc" value="Parallel execution with static coordination and aggregation." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#4A4A4A;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="315" width="310" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern3-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F39C12;strokeWidth=3;arcSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="1240" y="110" width="400" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern3-title" value="Pattern 3: Dynamic Worker Agent&amp;nbsp;&lt;div&gt;(Single or Multi-Agent)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#F39C12;" parent="1" vertex="1">
+                    <mxGeometry x="1240" y="120" width="390" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern3-user" value="User Input" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A8D8E0;strokeColor=#17A2B8;fontSize=12;fontColor=#1E3A5F;" parent="1" vertex="1">
+                    <mxGeometry x="1270" y="215" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern3-agent1" value="Worker 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#17A2B8;strokeColor=#17A2B8;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1550" y="195" width="80" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern3-agent2" value="Worker 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#17A2B8;strokeColor=#17A2B8;fontSize=12;fontStyle=1;dashed=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1550" y="245" width="80" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern3-output" value="Adaptive Output" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9BCF7F;strokeColor=#9BCF7F;fontSize=12;fontColor=#1E3A5F;" parent="1" vertex="1">
+                    <mxGeometry x="1391" y="280" width="100" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern3-flow1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#1E3A5F;strokeWidth=3;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="6" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1350" y="235" as="sourcePoint"/>
+                        <mxPoint x="1390" y="235" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern3-flow2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#F39C12;strokeWidth=3;fontSize=12;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="6" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1510" y="225" as="sourcePoint"/>
+                        <mxPoint x="1550" y="212" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern3-flow3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#F39C12;strokeWidth=3;fontSize=12;dashed=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="6" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1510" y="245" as="sourcePoint"/>
+                        <mxPoint x="1550" y="262" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern3-flow4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#1E3A5F;strokeWidth=3;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="6" target="pattern3-output" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1450" y="260" as="sourcePoint"/>
+                        <mxPoint x="1320" y="295" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern3-desc" value="Adaptive task allocation based on context and performance." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#4A4A4A;" parent="1" vertex="1">
+                    <mxGeometry x="1310" y="305" width="310" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern4-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6F42C1;strokeWidth=3;arcSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="410" y="353" width="590" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern4-title" value="Pattern 4: Dynamic, Internal Multi-Agent Collaboration &amp; Autonomous Decisioning" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#6F42C1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="363" width="600" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern4-user" value="User Input" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A8D8E0;strokeColor=#17A2B8;fontSize=12;fontColor=#1E3A5F;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="452" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern4-manager" value="Manager Agent" style="diamond;whiteSpace=wrap;html=1;fillColor=#6F42C1;strokeColor=#6F42C1;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="442" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern4-agent1" value="Specialist Agent A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#17A2B8;strokeColor=#17A2B8;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="432" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern4-agent2" value="Specialist Agent B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#17A2B8;strokeColor=#17A2B8;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="492" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern4-agent3" value="Specialist Agent C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#17A2B8;strokeColor=#17A2B8;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="542" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern4-decision" value="Autonomous Decision Engine" style="diamond;whiteSpace=wrap;html=1;fillColor=#6F42C1;strokeColor=#6F42C1;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="870" y="477" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern4-output" value="Intelligent Output" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9BCF7F;strokeColor=#9BCF7F;fontSize=12;fontColor=#1E3A5F;" parent="1" vertex="1">
+                    <mxGeometry x="871" y="552" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern4-collab1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#F39C12;strokeWidth=2;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pattern4-agent1" target="pattern4-agent2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="755" y="472" as="sourcePoint"/>
+                        <mxPoint x="755" y="482" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern4-collab2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#F39C12;strokeWidth=2;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pattern4-agent2" target="pattern4-agent3" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="755" y="522" as="sourcePoint"/>
+                        <mxPoint x="755" y="532" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern4-flow1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#1E3A5F;strokeWidth=3;fontSize=12;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="510" y="472" as="sourcePoint"/>
+                        <mxPoint x="550" y="472" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern4-flow2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#F39C12;strokeWidth=3;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="pattern4-manager" target="pattern4-agent1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="650" y="452" as="sourcePoint"/>
+                        <mxPoint x="700" y="452" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern4-flow3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#F39C12;strokeWidth=3;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="pattern4-manager" target="pattern4-agent2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="650" y="502" as="sourcePoint"/>
+                        <mxPoint x="700" y="502" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern4-flow4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#F39C12;strokeWidth=3;fontSize=12;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="pattern4-manager" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="650" y="492" as="sourcePoint"/>
+                        <mxPoint x="700" y="552" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern4-flow5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#6F42C1;strokeWidth=3;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pattern4-agent2" target="pattern4-decision" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="810" y="492" as="sourcePoint"/>
+                        <mxPoint x="850" y="512" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern4-flow6" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#1E3A5F;strokeWidth=3;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="pattern4-decision" target="pattern4-output" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="910" y="552" as="sourcePoint"/>
+                        <mxPoint x="490" y="582" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern4-desc" value="Agents collaborate internally with autonomous decision-making and dynamic role assignment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#4A4A4A;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="585" width="460" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern5-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4A4A4A;strokeWidth=3;arcSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="1023" y="353" width="617" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern5-title" value="Pattern 5: Dynamic, Multi-Agent Collaboration &amp; Autonomous Decisioning" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#4A4A4A;" parent="1" vertex="1">
+                    <mxGeometry x="1023" y="355" width="600" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern5-user" value="Complex Query" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A8D8E0;strokeColor=#17A2B8;fontSize=12;fontColor=#1E3A5F;" parent="1" vertex="1">
+                    <mxGeometry x="1053" y="439" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern5-agent1" value="Agent A" style="diamond;whiteSpace=wrap;html=1;fillColor=#6F42C1;strokeColor=#6F42C1;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1423" y="432" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern5-agent2" value="Agent B" style="diamond;whiteSpace=wrap;html=1;fillColor=#6F42C1;strokeColor=#6F42C1;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1423" y="479" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern5-agent3" value="Agent C" style="diamond;whiteSpace=wrap;html=1;fillColor=#6F42C1;strokeColor=#6F42C1;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1423" y="539" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern5-agent4" value="Agent D" style="diamond;whiteSpace=wrap;html=1;fillColor=#6F42C1;strokeColor=#6F42C1;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1538" y="419" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern5-agent5" value="Agent E" style="diamond;whiteSpace=wrap;html=1;fillColor=#6F42C1;strokeColor=#6F42C1;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1533" y="534" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern5-output" value="Emergent Solution" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9BCF7F;strokeColor=#9BCF7F;fontSize=12;fontColor=#1E3A5F;" parent="1" vertex="1">
+                    <mxGeometry x="1193" y="529" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern5-collab1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#F39C12;strokeWidth=2;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pattern5-agent1" target="pattern5-agent2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1463" y="459" as="sourcePoint"/>
+                        <mxPoint x="1463" y="469" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern5-collab2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#F39C12;strokeWidth=2;fontSize=12;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="pattern5-agent1" target="pattern5-agent4" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1503" y="434" as="sourcePoint"/>
+                        <mxPoint x="1533" y="434" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern5-collab3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#F39C12;strokeWidth=2;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pattern5-agent2" target="pattern5-agent5" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1503" y="494" as="sourcePoint"/>
+                        <mxPoint x="1533" y="534" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern5-collab4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#F39C12;strokeWidth=2;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pattern5-agent2" target="pattern5-agent3" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1463" y="519" as="sourcePoint"/>
+                        <mxPoint x="1463" y="529" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern5-collab5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#F39C12;strokeWidth=2;fontSize=12;exitX=0.492;exitY=0.933;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pattern5-agent4" target="pattern5-agent5" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1573" y="459" as="sourcePoint"/>
+                        <mxPoint x="1573" y="529" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern5-flow1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#1E3A5F;strokeWidth=3;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="7" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1153" y="459" as="sourcePoint"/>
+                        <mxPoint x="1183" y="459" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern5-flow2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#F39C12;strokeWidth=3;fontSize=12;exitX=0.996;exitY=0.316;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="7" target="pattern5-agent1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1363" y="449" as="sourcePoint"/>
+                        <mxPoint x="1423" y="434" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern5-flow3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#F39C12;strokeWidth=3;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7" target="pattern5-agent2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1363" y="469" as="sourcePoint"/>
+                        <mxPoint x="1423" y="494" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern5-flow4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#F39C12;strokeWidth=3;fontSize=12;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7" target="pattern5-agent3" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1363" y="479" as="sourcePoint"/>
+                        <mxPoint x="1423" y="554" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern5-flow5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#F39C12;strokeWidth=3;fontSize=12;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="7" target="pattern5-agent4" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1363" y="419" as="sourcePoint"/>
+                        <mxPoint x="1533" y="414.95238095238085" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1383" y="409"/>
+                            <mxPoint x="1513" y="409"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern5-flow6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#F39C12;strokeWidth=3;fontSize=12;entryX=-0.004;entryY=0.547;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.964;exitY=0.916;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="7" target="pattern5-agent5" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1363" y="489" as="sourcePoint"/>
+                        <mxPoint x="1533" y="554" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1353" y="569"/>
+                            <mxPoint x="1513" y="569"/>
+                            <mxPoint x="1513" y="545"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern5-flow7" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#1E3A5F;strokeWidth=3;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7" target="pattern5-output" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1293" y="489" as="sourcePoint"/>
+                        <mxPoint x="1113" y="569" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern5-desc" value="Fully autonomous multi-agent network with emergent collaboration and collective intelligence" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#4A4A4A;" parent="1" vertex="1">
+                    <mxGeometry x="1073" y="573" width="500" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="summary-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E3A5F;strokeWidth=2;arcSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="105" y="125" width="286" height="488" as="geometry"/>
+                </mxCell>
+                <mxCell id="summary-title" value="Pattern Evolution Summary" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#1E3A5F;spacingLeft=5;" parent="1" vertex="1">
+                    <mxGeometry x="118" y="137" width="260" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="summary-text" value="These patterns represent the evolution from interactive to autonomous multi-agent systems:&lt;div&gt;&lt;font color=&quot;#1e3a5f&quot;&gt;&lt;br&gt;&lt;/font&gt;• Pattern 0: Interactive conversational agents with human-in-the-loop (ChatGPT, Claude, Gemini).&lt;br&gt;• Patterns 1-2: Static orchestration with predefined workflows and fixed agent roles.&lt;br&gt;• Pattern 3: Introduction of dynamic coordination and adaptive task allocation.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;• Pattern 4: Internal agent collaboration with autonomous decision-making capabilities.&lt;/span&gt;&lt;br style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;• Pattern 5: Fully emergent multi-agent network with collective intelligence and autonomous coordination.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#1E3A5F;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="276" width="248" height="88" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;Dynamic Coordinator&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#f39c12, #1b92a5);strokeColor=none;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1390" y="215" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;Intelligent Orchestrator&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#f39c12, #1b92a5);strokeColor=none;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1203" y="428" width="100" height="62" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Direct Communication&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=light-dark(#ededed, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="197" y="-72" width="140" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Dynamic Collaboration&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=light-dark(#ededed, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="197" y="-52" width="140" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Autonomous Decision&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=light-dark(#ededed, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="197" y="-34" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Inter-Agent Collaboration&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=light-dark(#ededed, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="197" y="-14" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Conditional/Optional Flow&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=light-dark(#ededed, #ededed);" parent="1" vertex="1">
+                    <mxGeometry x="197" y="6" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;Dynamic Orchestration&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#f39c12, #1b92a5);strokeColor=none;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="115" y="-128" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="Static single agent for specific task within a workflow that is directed by a human." style="text;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="146" width="390" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="Static orchestrator agent manages multiple agents for a specified end-to-end workflow." style="text;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="853" y="146" width="367" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="Dynamic task agent determines own process, potential to be single or part of static orchestration." style="text;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1255" y="150" width="375" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="Orchestrator agent autonomously reasons and plans to achieve specific outcomes." style="text;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="432" y="402" width="550" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="Orchestrator agent autonomously reasons&#xa;and plans to achieve specific outcomes." style="text;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1043" y="389" width="260" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#50E6FF;strokeWidth=3;arcSize=8;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="-230" width="1230" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-title" value="Pattern 0: Conversational ReAct Agent (Interactive)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#17A2B8;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="-220" width="1210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-desc-top" value="Human-in-the-loop conversational AI with ReAct reasoning loop and dynamic tool selection (ChatGPT, Claude, Gemini)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#4A4A4A;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="-190" width="1180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-user" value="User Input&#xa;(Prompt)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A8D8E0;strokeColor=#17A2B8;fontSize=12;fontColor=#1E3A5F;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="-140" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-memory" value="Conversational&#xa;Memory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3CD;strokeColor=#FFC107;fontSize=11;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="1">
+                    <mxGeometry x="565" y="-140" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-agent-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8E5F9;strokeColor=#6F42C1;strokeWidth=2;arcSize=7;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="-155" width="400" height="185" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-agent-title" value="LLM Agent (ReAct Loop)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#6F42C1;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="-145" width="380" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-thought" value="1. THOUGHT: Reason" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D4F1F4;strokeColor=#17A2B8;fontSize=11;fontColor=#1E3A5F;" vertex="1" parent="1">
+                    <mxGeometry x="720" y="-115" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-action" value="2. ACTION: Tool/Respond" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE4B5;strokeColor=#F39C12;fontSize=11;fontColor=#1E3A5F;" vertex="1" parent="1">
+                    <mxGeometry x="910" y="-115" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-observe" value="3. OBSERVATION: Process" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E4D4F4;strokeColor=#6F42C1;fontSize=11;fontColor=#1E3A5F;" vertex="1" parent="1">
+                    <mxGeometry x="720" y="-65" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-repeat" value="4. REPEAT until satisfied" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5F4E6;strokeColor=#28A745;fontSize=10;fontStyle=2;fontColor=#1E3A5F;" vertex="1" parent="1">
+                    <mxGeometry x="910" y="-65" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-tools-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#F39C12;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="1146" y="-155" width="240" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-tools-title" value="Tool Ecosystem" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#F39C12;" vertex="1" parent="1">
+                    <mxGeometry x="1166" y="-145" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-tool1" value="🔍 Web Search" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#17A2B8;fontSize=10;fontColor=#1E3A5F;align=left;spacingLeft=5;" vertex="1" parent="1">
+                    <mxGeometry x="1161" y="-115" width="100" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-tool2" value="💻 Code Execution" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#17A2B8;fontSize=10;fontColor=#1E3A5F;align=left;spacingLeft=5;" vertex="1" parent="1">
+                    <mxGeometry x="1271" y="-115" width="100" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-tool3" value="🎨 Image Gen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#17A2B8;fontSize=10;fontColor=#1E3A5F;align=left;spacingLeft=5;" vertex="1" parent="1">
+                    <mxGeometry x="1161" y="-85" width="100" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-tool4" value="📁 File Operations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#17A2B8;fontSize=10;fontColor=#1E3A5F;align=left;spacingLeft=5;" vertex="1" parent="1">
+                    <mxGeometry x="1271" y="-85" width="100" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-tool5" value="🔌 APIs/Plugins" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#17A2B8;fontSize=10;fontColor=#1E3A5F;align=left;spacingLeft=5;" vertex="1" parent="1">
+                    <mxGeometry x="1161" y="-55" width="100" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-tool6" value="📊 Data Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#17A2B8;fontSize=10;fontColor=#1E3A5F;align=left;spacingLeft=5;" vertex="1" parent="1">
+                    <mxGeometry x="1271" y="-55" width="100" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-tool7" value="📚 RAG/Retrieval" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#17A2B8;fontSize=10;fontColor=#1E3A5F;align=left;spacingLeft=5;" vertex="1" parent="1">
+                    <mxGeometry x="1161" y="-25" width="100" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-tool8" value="⚙️ Custom GPTs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#17A2B8;fontSize=10;fontColor=#1E3A5F;align=left;spacingLeft=5;" vertex="1" parent="1">
+                    <mxGeometry x="1271" y="-25" width="100" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-synthesis" value="Response&#xa;Synthesis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F9E8;strokeColor=#28A745;fontSize=11;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="1">
+                    <mxGeometry x="1461" y="-180" width="100" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-output" value="Conversational&#xa;Output" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9BCF7F;strokeColor=#9BCF7F;fontSize=12;fontColor=#1E3A5F;" vertex="1" parent="1">
+                    <mxGeometry x="1451" y="-140" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-examples" value="Examples:&#xa;• ChatGPT (GPT-4o)&#xa;• Claude (Claude 3.5)&#xa;• Gemini (Gemini 2.0)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9E6;strokeColor=#FFC107;fontSize=10;fontColor=#1E3A5F;align=left;spacingLeft=10;" vertex="1" parent="1">
+                    <mxGeometry x="1461" y="-65" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-flow1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#1E3A5F;strokeWidth=2;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="530" y="-115" as="sourcePoint"/>
+                        <mxPoint x="565" y="-115" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern0-flow2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#1E3A5F;strokeWidth=2;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="665" y="-115" as="sourcePoint"/>
+                        <mxPoint x="700" y="-115" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern0-flow3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#6F42C1;strokeWidth=2;dashed=1;curved=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1082" y="-105" as="sourcePoint"/>
+                        <mxPoint x="1082" y="-45" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1102" y="-105"/>
+                            <mxPoint x="1122" y="-75"/>
+                            <mxPoint x="1102" y="-45"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern0-flow-loop-label" value="Iterate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#6F42C1;" vertex="1" parent="1">
+                    <mxGeometry x="1100" y="-113" width="40" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-flow5-yes" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#F39C12;strokeWidth=2;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="pattern0-decision" target="pattern0-tools-bg">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="865" y="-3" as="sourcePoint"/>
+                        <mxPoint x="1135" y="-53" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1020" y="-8"/>
+                            <mxPoint x="1020" y="-20"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern0-flow-yes-label" value="YES" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=1;fontColor=#F39C12;" vertex="1" parent="1">
+                    <mxGeometry x="947" y="-26.5" width="35" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-flow-no-label" value="NO" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=1;fontColor=#28A745;" vertex="1" parent="1">
+                    <mxGeometry x="947" y="13.5" width="30" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-flow7" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#28A745;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="pattern0-decision" target="pattern0-output">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1010" y="-3" as="sourcePoint"/>
+                        <mxPoint x="1405" y="-115" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1410" y="10"/>
+                            <mxPoint x="1410" y="-60"/>
+                            <mxPoint x="1410" y="-115"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern0-flow8" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FFC107;strokeWidth=2;dashed=1;curved=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1405" y="-115" as="sourcePoint"/>
+                        <mxPoint x="615" y="-90" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1410" y="50"/>
+                            <mxPoint x="1340" y="60"/>
+                            <mxPoint x="600" y="70"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pattern0-flow-feedback-label" value="Update memory" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontColor=#F39C12;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="35" width="80" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="pattern0-decision" value="Tool&#xa;Needed?" style="diamond;whiteSpace=wrap;html=1;fillColor=#6F42C1;strokeColor=#6F42C1;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="860" y="-16.5" width="80" height="35" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,263 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="AgenticAI MVP Decision Matrix" id="decision-matrix">
+    <mxGraphModel dx="2567" dy="1504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Header Row -->
+        <mxCell id="header_capabilities" value="AgenticAI Capabilities" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontSize=12;fontStyle=1;fontColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="200" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="header_requirements" value="Requirements" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontSize=12;fontStyle=1;fontColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="250" y="50" width="250" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="header_decisions" value="October 1st MVP Decisions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#777777;strokeColor=#000000;fontSize=12;fontStyle=1;fontColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="500" y="50" width="200" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="header_alternatives" value="Alternative Options post MVP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#777777;strokeColor=#000000;fontSize=12;fontStyle=1;fontColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="50" width="150" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="header_confidence" value="Confidence Rating / Notes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#777777;strokeColor=#000000;fontSize=12;fontStyle=1;fontColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="850" y="50" width="150" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Row 1: Agent Development Framework -->
+        <mxCell id="row1_capability" value="Agent Development framework" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;fontStyle=1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row1_requirements" value="Define how agents are designed, how they interact, and how they achieve their objectives." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="250" y="90" width="250" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row1_decisions" value="• Strands&#xa;• LangGraph" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="500" y="90" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row1_alternatives" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="90" width="150" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row1_confidence" value="High - mature OSS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#000000;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="850" y="90" width="150" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Row 2: Agentic hosting / runtime -->
+        <mxCell id="row2_capability" value="Agentic hosting / runtime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;fontStyle=1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="150" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row2_requirements" value="Auto-scaling runtimes, scheduler systems, and queue systems for agent execution with Network-level security including private networks and traffic isolation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="250" y="150" width="250" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row2_decisions" value="• AWS AgentCore Runtime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="500" y="150" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row2_alternatives" value="• Kubernetes Containers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="700" y="150" width="150" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row2_confidence" value="High - Pending General Availability &amp; VPC connectivity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#000000;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="850" y="150" width="150" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Row 3: Agentic builder (CI/CD) -->
+        <mxCell id="row3_capability" value="Agentic builder (CI/CD)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;fontStyle=1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="210" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row3_requirements" value="Code integration, testing, and deployment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="250" y="210" width="250" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row3_decisions" value="• NEF tooling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="500" y="210" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row3_alternatives" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="210" width="150" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row3_confidence" value="High - Existing tools with the need to support Python" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#000000;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="850" y="210" width="150" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Row 4: GraphDB (Semantic) / Vector -->
+        <mxCell id="row4_capability" value="GraphDB (Semantic) / Vector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;fontStyle=1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="270" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row4_requirements" value="Interconnected web of facts that illustrates the semantic relationships between entities." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="250" y="270" width="250" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row4_decisions" value="• PostgreSQL with Graph (AGE) / Vector extension" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="500" y="270" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row4_alternatives" value="• Neo4j" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="700" y="270" width="150" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row4_confidence" value="Medium - requires efforts to manage knowledge lifecycle via Agents" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8DC;strokeColor=#000000;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="850" y="270" width="150" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Row 5: Context Memory and State management -->
+        <mxCell id="row5_capability" value="Context Memory and State management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;fontStyle=1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="330" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row5_requirements" value="Context management, long-term memory systems, and knowledge stores" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="250" y="330" width="250" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row5_decisions" value="• PostgreSQL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="500" y="330" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row5_alternatives" value="• Mem0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="700" y="330" width="150" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row5_confidence" value="High - Existing database technology" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#000000;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="850" y="330" width="150" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Row 6: Agent Registry -->
+        <mxCell id="row6_capability" value="Agent Registry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;fontStyle=1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row6_requirements" value="Metadata about each agent, allowing other agents or systems to discover and interact with them" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="250" y="390" width="250" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row6_decisions" value="• Databricks - Unity Catalogue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="500" y="390" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row6_alternatives" value="• Build our own" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="700" y="390" width="150" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row6_confidence" value="Medium - originally intended for data governance framework. Evolved to support agents. Requires testing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8DC;strokeColor=#000000;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="850" y="390" width="150" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Row 7: MCP Gateway -->
+        <mxCell id="row7_capability" value="MCP Gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;fontStyle=1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="450" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row7_requirements" value="Aggregating multiple MCP servers behind a single, secure interface." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="250" y="450" width="250" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row7_decisions" value="• None" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="500" y="450" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row7_alternatives" value="• Pending analysis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="700" y="450" width="150" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row7_confidence" value="Low - No market options but not required until we scale" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE4E1;strokeColor=#000000;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="850" y="450" width="150" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Row 8: MCP Registry / Servers -->
+        <mxCell id="row8_capability" value="MCP Registry / Servers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;fontStyle=1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="510" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row8_requirements" value="Responsible for executing AI logic, handling tool execution, and managing session context between Agents and platform services." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="250" y="510" width="250" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row8_decisions" value="• Use case specific e.g. GitHub, DocMgmt, ServiceNow" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="500" y="510" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row8_alternatives" value="• MCP Registry (recent launch from Anthropic)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="700" y="510" width="150" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row8_confidence" value="Medium - undergoing PoC to validate integration with NAB and external tool integration to pass additional context" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8DC;strokeColor=#000000;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="850" y="510" width="150" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Row 9: Agent evaluation & observability -->
+        <mxCell id="row9_capability" value="Agent evaluation &amp; observability" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;fontStyle=1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="570" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row9_requirements" value="Specialised monitoring for agent performance, evaluation logs, conversation quality, and behavioural analytics for business and technical owners" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="250" y="570" width="250" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row9_decisions" value="• Databricks - MLFlow3&#xa;&#xa;• OpenTelemetry (OTEL)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="500" y="570" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row9_alternatives" value="• Inhouse build using OSS that supports both Business and Tech users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="700" y="570" width="150" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row9_confidence" value="Medium - Built-in LLM judges with automated metrics with ML Human Feedback integrations. Mflow 3.x will have external tool integration to pass additional context" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8DC;strokeColor=#000000;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="850" y="570" width="150" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Row 10: Large Language Model serving (LLMaaS) -->
+        <mxCell id="row10_capability" value="Large Language Model serving (LLMaaS)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;fontStyle=1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="630" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row10_requirements" value="Core language models that power agent reasoning and natural language understanding" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="250" y="630" width="250" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row10_decisions" value="• Databricks (Mosaic AI Gateway)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="500" y="630" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row10_alternatives" value="• AWS Bedrock" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="700" y="630" width="150" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row10_confidence" value="Medium - Requires testing of new frontier models. Limited by AWS Bedrock and reviews" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8DC;strokeColor=#000000;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="850" y="630" width="150" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Row 11: Agent Intent and Eventing Communication Backbone -->
+        <mxCell id="row11_capability" value="Agent Intent and Eventing Communication Backbone" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;fontStyle=1;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="690" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row11_requirements" value="Decoupling A2A and enabling asynchronous communication with durable messaging." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="250" y="690" width="250" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row11_decisions" value="• NAB Kafka Eventing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="500" y="690" width="200" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row11_alternatives" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="690" width="150" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="row11_confidence" value="High - proven technology. Agent testing required" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F5E8;strokeColor=#000000;fontSize=10;fontColor=#000000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="850" y="690" width="150" height="60" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

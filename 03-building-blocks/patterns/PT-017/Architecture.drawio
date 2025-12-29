@@ -1,0 +1,368 @@
+<mxfile host="app.diagrams.net" modified="2025-12-05T00:00:00.000Z" agent="Claude Code" version="24.0.0">
+  <diagram name="PT-017-Architecture" id="pt017-architecture">
+    <mxGraphModel dx="2400" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1800" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="PT-017: Observability and Monitoring - Architecture Overview" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;fontStyle=1;fontFamily=Calibri;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="2300" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Pattern Boundary Container -->
+        <mxCell id="pattern-boundary" value="Observability and Monitoring Pattern" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Calibri;fontColor=#003087;strokeColor=#003087;strokeWidth=3;fillColor=none;dashed=1;dashPattern=8 8;verticalAlign=top;align=left;spacingLeft=20;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="100" y="150" width="2200" height="1250" as="geometry" />
+        </mxCell>
+
+        <!-- ML Systems (Monitoring Targets) Section -->
+        <mxCell id="ml-systems-label" value="ML Systems (Monitoring Targets)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Calibri;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="150" y="200" width="350" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- ML Models -->
+        <mxCell id="ml-models" value="ML Models&#xa;(Prediction Systems)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#003087;strokeColor=#003087;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="150" y="250" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- GenAI Systems -->
+        <mxCell id="genai-systems" value="GenAI Systems&#xa;(LLMs, Generation)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#003087;strokeColor=#003087;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="150" y="380" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Data Pipelines -->
+        <mxCell id="data-pipelines" value="Data Pipelines&#xa;(ETL, Processing)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#003087;strokeColor=#003087;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="150" y="510" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Infrastructure -->
+        <mxCell id="infrastructure" value="Infrastructure&#xa;(Compute, Storage)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#003087;strokeColor=#003087;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="150" y="640" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Metrics Collection Layer -->
+        <mxCell id="metrics-collection-label" value="Metrics Collection Layer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Calibri;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="450" y="200" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Metrics Collection Container -->
+        <mxCell id="metrics-collection-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Calibri;fillColor=#F0F0F0;strokeColor=#003087;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="420" y="250" width="360" height="490" as="geometry" />
+        </mxCell>
+
+        <!-- Telemetry SDK -->
+        <mxCell id="telemetry-sdk" value="Telemetry SDK&#xa;(OpenTelemetry)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Calibri;fontColor=#003087;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="450" y="280" width="300" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Prediction Logging -->
+        <mxCell id="prediction-logging" value="Prediction Logging&#xa;(Features, Outputs)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Calibri;fontColor=#003087;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="450" y="370" width="300" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- System Metrics -->
+        <mxCell id="system-metrics" value="System Metrics&#xa;(CPU, Memory, GPU)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Calibri;fontColor=#003087;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="450" y="460" width="300" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Cost Data Collection -->
+        <mxCell id="cost-data" value="Cost Data Collection&#xa;(Billing, Usage)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Calibri;fontColor=#003087;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="450" y="550" width="300" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Business Metrics Feed -->
+        <mxCell id="business-metrics-feed" value="Business Metrics Feed&#xa;(KPIs, Outcomes)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Calibri;fontColor=#003087;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="450" y="640" width="300" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Monitoring Platform Section -->
+        <mxCell id="monitoring-platform-label" value="Monitoring Platform (Core ABBs)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Calibri;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="900" y="200" width="500" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Performance Monitor -->
+        <mxCell id="performance-monitor" value="AB-096&#xa;ML Model Performance Monitor&#xa;(Accuracy, Precision, Recall)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#00A651;strokeColor=#00A651;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="850" y="250" width="280" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Data Drift Detector -->
+        <mxCell id="data-drift-detector" value="AB-097&#xa;Data Drift Detector&#xa;(PSI, KS Tests)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#00A651;strokeColor=#00A651;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="250" width="280" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Prediction Drift Monitor -->
+        <mxCell id="prediction-drift-monitor" value="AB-098&#xa;Prediction Drift Monitor&#xa;(Output Distribution)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#00A651;strokeColor=#00A651;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="850" y="370" width="280" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Concept Drift Detector -->
+        <mxCell id="concept-drift-detector" value="AB-099&#xa;Concept Drift Detector&#xa;(Input-Output Relationships)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#00A651;strokeColor=#00A651;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="370" width="280" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Cost Monitor -->
+        <mxCell id="cost-monitor" value="AB-100&#xa;Cost Monitoring Dashboard&#xa;(Per Model, Per Use Case)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#00A651;strokeColor=#00A651;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="850" y="490" width="280" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Latency Monitor -->
+        <mxCell id="latency-monitor" value="AB-101&#xa;Latency Monitor&#xa;(p50, p95, p99, SLA Tracking)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#00A651;strokeColor=#00A651;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="490" width="280" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Error Tracking -->
+        <mxCell id="error-tracking" value="AB-102&#xa;Error Tracking System&#xa;(Errors, Exceptions, Failures)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#00A651;strokeColor=#00A651;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="850" y="610" width="280" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Business Metrics Tracker -->
+        <mxCell id="business-metrics-tracker" value="AB-103&#xa;Business Metrics Tracker&#xa;(Revenue, Conversion, Satisfaction)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#00A651;strokeColor=#00A651;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="610" width="280" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Alerting & Response Section -->
+        <mxCell id="alerting-section-label" value="Alerting & Response" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Calibri;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="200" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Alert Engine -->
+        <mxCell id="alert-engine" value="Alert Engine&#xa;(Threshold Detection)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#FF6B35;strokeColor=#FF6B35;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="250" width="280" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Alert Routing -->
+        <mxCell id="alert-routing" value="Alert Routing&#xa;(Severity-based)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#FF6B35;strokeColor=#FF6B35;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="360" width="280" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Notification Channels -->
+        <mxCell id="notification-channels" value="Notification Channels&#xa;(PagerDuty, Slack, Email)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Calibri;fontColor=#003087;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="470" width="280" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Automated Response -->
+        <mxCell id="automated-response" value="Automated Response&#xa;(Retraining Trigger, Circuit Breaker)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Calibri;fontColor=#003087;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="580" width="280" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Visualization & Dashboards Section -->
+        <mxCell id="dashboard-section-label" value="Visualization & Dashboards" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Calibri;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="200" width="350" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Technical Dashboard -->
+        <mxCell id="technical-dashboard" value="Technical Dashboard&#xa;(Data Scientists, ML Engineers)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#50E6FF;strokeColor=#50E6FF;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="250" width="300" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Business Dashboard -->
+        <mxCell id="business-dashboard" value="Business Dashboard&#xa;(Product Owners, Stakeholders)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#50E6FF;strokeColor=#50E6FF;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="360" width="300" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Executive Dashboard -->
+        <mxCell id="executive-dashboard" value="Executive Dashboard&#xa;(Portfolio Health, KPIs)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#50E6FF;strokeColor=#50E6FF;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="470" width="300" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Data Storage -->
+        <mxCell id="data-storage-label" value="Data Storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Calibri;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="850" y="780" width="600" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Time-Series DB -->
+        <mxCell id="timeseries-db" value="Time-Series Database&#xa;(Prometheus, InfluxDB)&#xa;90-day metric retention" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Calibri;fontColor=#003087;fillColor=#F0F0F0;strokeColor=#003087;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="850" y="830" width="280" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Log Storage -->
+        <mxCell id="log-storage" value="Log Storage&#xa;(ELK Stack, CloudWatch)&#xa;30-day log retention" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Calibri;fontColor=#003087;fillColor=#F0F0F0;strokeColor=#003087;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="830" width="280" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Analytics Platform -->
+        <mxCell id="analytics-platform" value="Analytics Platform&#xa;(Data Warehouse)&#xa;Long-term trend analysis" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Calibri;fontColor=#003087;fillColor=#F0F0F0;strokeColor=#003087;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="830" width="280" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Cross-Cutting ABBs -->
+        <mxCell id="crosscutting-label" value="Cross-Cutting Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Calibri;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1000" width="600" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Governance -->
+        <mxCell id="governance-abb" value="AB-060: AI Governance&#xa;(Compliance, Audit, Risk)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#00A651;strokeColor=#00A651;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1050" width="280" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Security -->
+        <mxCell id="security-abb" value="AB-112: Security & Identity&#xa;(Access Control, Encryption)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#00A651;strokeColor=#00A651;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1050" width="280" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Integration -->
+        <mxCell id="integration-abb" value="AB-074: Integration Platform&#xa;(API Gateway, Event Bus)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#00A651;strokeColor=#00A651;strokeWidth=2;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="1050" width="280" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Data Flow Arrows -->
+        <!-- ML Systems to Collection -->
+        <mxCell id="arrow1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="ml-models" target="telemetry-sdk">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="genai-systems" target="prediction-logging">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="data-pipelines" target="system-metrics">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="infrastructure" target="cost-data">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Collection to Monitoring Platform -->
+        <mxCell id="arrow5" value="Metrics Stream" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=3;endArrow=block;endFill=1;fontSize=12;fontFamily=Calibri;fontColor=#003087;" edge="1" parent="1" source="telemetry-sdk" target="performance-monitor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="prediction-logging" target="data-drift-detector">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="system-metrics" target="latency-monitor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="cost-data" target="cost-monitor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="business-metrics-feed" target="business-metrics-tracker">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Monitoring to Alerting -->
+        <mxCell id="arrow10" value="Alert Events" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=3;endArrow=block;endFill=1;fontSize=12;fontFamily=Calibri;fontColor=#003087;" edge="1" parent="1" source="performance-monitor" target="alert-engine">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6B35;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="data-drift-detector" target="alert-engine">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Alert Flow -->
+        <mxCell id="arrow12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="alert-engine" target="alert-routing">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="alert-routing" target="notification-channels">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="alert-routing" target="automated-response">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Monitoring to Dashboards -->
+        <mxCell id="arrow15" value="Dashboard Data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#50E6FF;strokeWidth=3;endArrow=block;endFill=1;fontSize=12;fontFamily=Calibri;fontColor=#003087;" edge="1" parent="1" source="performance-monitor" target="technical-dashboard">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1800" y="295" />
+              <mxPoint x="1800" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#50E6FF;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="business-metrics-tracker" target="business-dashboard">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1800" y="655" />
+              <mxPoint x="1800" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#50E6FF;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="cost-monitor" target="executive-dashboard">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1800" y="535" />
+              <mxPoint x="1800" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Monitoring to Storage -->
+        <mxCell id="arrow18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=block;endFill=1;dashed=1;dashPattern=4 4;" edge="1" parent="1" source="performance-monitor" target="timeseries-db">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="760" />
+              <mxPoint x="990" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=block;endFill=1;dashed=1;dashPattern=4 4;" edge="1" parent="1" source="error-tracking" target="log-storage">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="760" />
+              <mxPoint x="1310" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#003087;strokeWidth=2;endArrow=block;endFill=1;dashed=1;dashPattern=4 4;" edge="1" parent="1" source="business-metrics-tracker" target="analytics-platform">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="760" />
+              <mxPoint x="1690" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="legend-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Calibri;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="1180" width="350" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontFamily=Calibri;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1190" width="100" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Legend: ML Systems -->
+        <mxCell id="legend-ml-systems" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#003087;strokeColor=#003087;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1230" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-ml-systems-text" value="ML Systems / Targets" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Calibri;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="1230" width="180" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Legend: Cross-Cutting ABBs -->
+        <mxCell id="legend-crosscutting" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#00A651;strokeColor=#00A651;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1270" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-crosscutting-text" value="Cross-Cutting ABBs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Calibri;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="1270" width="180" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Legend: Alerting -->
+        <mxCell id="legend-alerting" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#FF6B35;strokeColor=#FF6B35;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1310" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-alerting-text" value="Alerting & Response" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Calibri;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="1310" width="180" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Legend: Dashboards -->
+        <mxCell id="legend-dashboards" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Calibri;fontColor=#FFFFFF;fillColor=#50E6FF;strokeColor=#50E6FF;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1350" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-dashboards-text" value="Dashboards" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Calibri;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="1350" width="180" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Version and Metadata -->
+        <mxCell id="metadata" value="Version: 1.0.0 | Created: 2025-12-05 | BNZ Enterprise Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Calibri;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1450" width="600" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,158 @@
+<mxfile host="AI Blueprint Generator" agent="Python Script" version="24.0.0">
+  <diagram name="Sequence-SCN-007" id="seq-007">
+    <mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cell-1001" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=none;" parent="1" vertex="1">
+      <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+    </mxCell><mxCell id="cell-1002" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=none;" parent="1" vertex="1">
+      <mxGeometry x="0" y="0" width="1920" height="160" as="geometry" />
+    </mxCell><mxCell id="cell-1003" value="Sequence Diagram: Customer Service Call Handling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="50" y="15" width="1820" height="30" as="geometry" />
+    </mxCell><mxCell id="cell-1004" value="UC-007 | Contact Centre | Actor: Contact Center Agent" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=0;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="50" y="50" width="1820" height="20" as="geometry" />
+    </mxCell><mxCell id="cell-1005" value="Contact center agent handles customer inquiry with AI-assisted context retrieval, real-time suggestions, sentiment analysis, and automated call summarization." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="50" y="75" width="1820" height="30" as="geometry" />
+    </mxCell><mxCell id="cell-1006" value="Trigger: Incoming customer call connected | Outcome: Customer issue resolved with AI assistance and call automatically documented" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="50" y="110" width="1820" height="40" as="geometry" />
+    </mxCell><mxCell id="cell-1007" value="Agent Interface" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+      <mxGeometry x="162" y="170" width="140" height="60" as="geometry" />
+    </mxCell><mxCell id="cell-1008" value="" style="endArrow=none;html=1;strokeColor=#333333;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;" parent="1" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="232" y="240" as="sourcePoint" />
+        <mxPoint x="232" y="790" as="targetPoint" />
+      </mxGeometry>
+    </mxCell><mxCell id="cell-1009" value="Context Retrieval" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+      <mxGeometry x="344" y="170" width="140" height="60" as="geometry" />
+    </mxCell><mxCell id="cell-1010" value="" style="endArrow=none;html=1;strokeColor=#333333;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;" parent="1" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="414" y="240" as="sourcePoint" />
+        <mxPoint x="414" y="790" as="targetPoint" />
+      </mxGeometry>
+    </mxCell><mxCell id="cell-1011" value="LLM API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+      <mxGeometry x="526" y="170" width="140" height="60" as="geometry" />
+    </mxCell><mxCell id="cell-1012" value="" style="endArrow=none;html=1;strokeColor=#333333;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;" parent="1" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="596" y="240" as="sourcePoint" />
+        <mxPoint x="596" y="790" as="targetPoint" />
+      </mxGeometry>
+    </mxCell><mxCell id="cell-1013" value="Documentation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+      <mxGeometry x="708" y="170" width="140" height="60" as="geometry" />
+    </mxCell><mxCell id="cell-1014" value="" style="endArrow=none;html=1;strokeColor=#333333;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;" parent="1" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="778" y="240" as="sourcePoint" />
+        <mxPoint x="778" y="790" as="targetPoint" />
+      </mxGeometry>
+    </mxCell><mxCell id="cell-1015" value="NLP Framework" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+      <mxGeometry x="890" y="170" width="140" height="60" as="geometry" />
+    </mxCell><mxCell id="cell-1016" value="" style="endArrow=none;html=1;strokeColor=#333333;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;" parent="1" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="960" y="240" as="sourcePoint" />
+        <mxPoint x="960" y="790" as="targetPoint" />
+      </mxGeometry>
+    </mxCell><mxCell id="cell-1017" value="Emotion Detection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+      <mxGeometry x="1072" y="170" width="140" height="60" as="geometry" />
+    </mxCell><mxCell id="cell-1018" value="" style="endArrow=none;html=1;strokeColor=#333333;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;" parent="1" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1142" y="240" as="sourcePoint" />
+        <mxPoint x="1142" y="790" as="targetPoint" />
+      </mxGeometry>
+    </mxCell><mxCell id="cell-1019" value="Sentiment Scoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+      <mxGeometry x="1254" y="170" width="140" height="60" as="geometry" />
+    </mxCell><mxCell id="cell-1020" value="" style="endArrow=none;html=1;strokeColor=#333333;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;" parent="1" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1324" y="240" as="sourcePoint" />
+        <mxPoint x="1324" y="790" as="targetPoint" />
+      </mxGeometry>
+    </mxCell><mxCell id="cell-1021" value="Knowledge Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+      <mxGeometry x="1436" y="170" width="140" height="60" as="geometry" />
+    </mxCell><mxCell id="cell-1022" value="" style="endArrow=none;html=1;strokeColor=#333333;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;" parent="1" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1506" y="240" as="sourcePoint" />
+        <mxPoint x="1506" y="790" as="targetPoint" />
+      </mxGeometry>
+    </mxCell><mxCell id="cell-1023" value="Call Summarization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;align=center;verticalAlign=middle;" parent="1" vertex="1">
+      <mxGeometry x="1618" y="170" width="140" height="60" as="geometry" />
+    </mxCell><mxCell id="cell-1024" value="" style="endArrow=none;html=1;strokeColor=#333333;strokeWidth=1;dashed=1;dashPattern=5 5;fontFamily=Helvetica;" parent="1" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1688" y="240" as="sourcePoint" />
+        <mxPoint x="1688" y="790" as="targetPoint" />
+      </mxGeometry>
+    </mxCell><mxCell id="cell-1025" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="232" y="290" as="sourcePoint" />
+            <mxPoint x="414" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1026" value="1. User initiates request via Agent Interface" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="223" y="272" width="200" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1027" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="340" as="sourcePoint" />
+            <mxPoint x="596" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1028" value="2. Request AI processing: LLM API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="405" y="322" width="200" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1029" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="778" y="390" as="sourcePoint" />
+            <mxPoint x="960" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1030" value="3. Request AI processing: NLP Framework" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="769" y="372" width="200" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1031" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="778" y="440" as="sourcePoint" />
+            <mxPoint x="1142" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1032" value="4. Request AI processing: Emotion Detection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="788" y="422" width="344" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1033" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="596" y="490" as="sourcePoint" />
+            <mxPoint x="960" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1034" value="5. LLM API to NLP Framework" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="606" y="472" width="344" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1035" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="540" as="sourcePoint" />
+            <mxPoint x="1142" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1036" value="6. NLP Framework to Emotion Detection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="951" y="522" width="200" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1037" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1142" y="590" as="sourcePoint" />
+            <mxPoint x="1324" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1038" value="7. Emotion Detection to Sentiment Scoring" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="1133" y="572" width="200" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1039" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1506" y="640" as="sourcePoint" />
+            <mxPoint x="596" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1040" value="8. Provide data from Knowledge Management" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="606" y="622" width="890" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1041" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1688" y="690" as="sourcePoint" />
+            <mxPoint x="778" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1042" value="9. Return results to Documentation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="788" y="672" width="890" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1043" value="" style="endArrow=classic;html=1;strokeColor=#00A651;strokeWidth=1.5;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="778" y="740" as="sourcePoint" />
+            <mxPoint x="232" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell><mxCell id="cell-1044" value="10. Display results in Agent Interface" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=8;fontStyle=0;fontColor=#333333;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="242" y="722" width="526" height="15" as="geometry" />
+    </mxCell><mxCell id="cell-1045" value="Generated from scenario-sequence-steps.csv | 10 steps | 9 participants" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#666666;fontFamily=Helvetica;" parent="1" vertex="1">
+      <mxGeometry x="50" y="1050" width="1820" height="20" as="geometry" />
+    </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

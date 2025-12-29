@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Customer 2" id="customer-2">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Main Container: Customer 2 -->
+        <mxCell id="cust2-001" value="Customer 2" style="swimlane;startSize=30;fillColor=#b3e5fc;strokeColor=#666666;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="290" height="680" as="geometry" />
+        </mxCell>
+        
+        <!-- Sales Container -->
+        <mxCell id="sales-001" value="Sales" style="swimlane;startSize=30;fillColor=#80cbc4;strokeColor=#666666;fontStyle=1;" vertex="1" parent="cust2-001">
+          <mxGeometry x="10" y="40" width="270" height="340" as="geometry" />
+        </mxCell>
+        
+        <!-- Sales Service Domains -->
+        <mxCell id="sales-002" value="Customer Campaign Execution" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="sales-001">
+          <mxGeometry x="10" y="40" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sales-003" value="Lead and Opportunity Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="sales-001">
+          <mxGeometry x="10" y="70" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sales-004" value="Prospect Campaign Execution" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="sales-001">
+          <mxGeometry x="10" y="100" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sales-005" value="Party Lifecycle Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="sales-001">
+          <mxGeometry x="10" y="130" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sales-006" value="Product Sales Support" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="sales-001">
+          <mxGeometry x="10" y="160" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sales-007" value="Product Expert Sales Support" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="sales-001">
+          <mxGeometry x="10" y="190" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sales-008" value="Product Matching" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="sales-001">
+          <mxGeometry x="10" y="220" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sales-009" value="Customer Offer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="sales-001">
+          <mxGeometry x="10" y="250" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sales-010" value="Special Pricing Conditions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="sales-001">
+          <mxGeometry x="10" y="280" width="250" height="25" as="geometry" />
+        </mxCell>
+        
+        <!-- Customer Care Container -->
+        <mxCell id="cc-001" value="Customer Care" style="swimlane;startSize=30;fillColor=#80cbc4;strokeColor=#666666;fontStyle=1;" vertex="1" parent="cust2-001">
+          <mxGeometry x="10" y="390" width="270" height="280" as="geometry" />
+        </mxCell>
+        
+        <!-- Customer Care Service Domains -->
+        <mxCell id="cc-002" value="Servicing Mandate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="cc-001">
+          <mxGeometry x="10" y="40" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cc-003" value="Servicing Order" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="cc-001">
+          <mxGeometry x="10" y="70" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cc-004" value="Customer Case Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="cc-001">
+          <mxGeometry x="10" y="100" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cc-005" value="Customer Case" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="cc-001">
+          <mxGeometry x="10" y="130" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cc-006" value="Card Case" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;" vertex="1" parent="cc-001">
+          <mxGeometry x="10" y="160" width="250" height="25" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

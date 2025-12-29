@@ -1,0 +1,18 @@
+Element_ID,Element_Name,Element_Type,Stereotype,Parent_Category,Level,Hierarchy_Path
+cust2-001,Customer 2,Container,Grouping,Root,1,Customer 2
+sales-001,Sales,Container,Grouping,Customer 2,2,Customer 2 > Sales
+sales-002,Customer Campaign Execution,ServiceDomain,ServiceDomain,Sales,3,Customer 2 > Sales > Customer Campaign Execution
+sales-003,Lead and Opportunity Management,ServiceDomain,ServiceDomain,Sales,3,Customer 2 > Sales > Lead and Opportunity Management
+sales-004,Prospect Campaign Execution,ServiceDomain,ServiceDomain,Sales,3,Customer 2 > Sales > Prospect Campaign Execution
+sales-005,Party Lifecycle Management,ServiceDomain,ServiceDomain,Sales,3,Customer 2 > Sales > Party Lifecycle Management
+sales-006,Product Sales Support,ServiceDomain,ServiceDomain,Sales,3,Customer 2 > Sales > Product Sales Support
+sales-007,Product Expert Sales Support,ServiceDomain,ServiceDomain,Sales,3,Customer 2 > Sales > Product Expert Sales Support
+sales-008,Product Matching,ServiceDomain,ServiceDomain,Sales,3,Customer 2 > Sales > Product Matching
+sales-009,Customer Offer,ServiceDomain,ServiceDomain,Sales,3,Customer 2 > Sales > Customer Offer
+sales-010,Special Pricing Conditions,ServiceDomain,ServiceDomain,Sales,3,Customer 2 > Sales > Special Pricing Conditions
+cc-001,Customer Care,Container,Grouping,Customer 2,2,Customer 2 > Customer Care
+cc-002,Servicing Mandate,ServiceDomain,ServiceDomain,Customer Care,3,Customer 2 > Customer Care > Servicing Mandate
+cc-003,Servicing Order,ServiceDomain,ServiceDomain,Customer Care,3,Customer 2 > Customer Care > Servicing Order
+cc-004,Customer Case Management,ServiceDomain,ServiceDomain,Customer Care,3,Customer 2 > Customer Care > Customer Case Management
+cc-005,Customer Case,ServiceDomain,ServiceDomain,Customer Care,3,Customer 2 > Customer Care > Customer Case
+cc-006,Card Case,ServiceDomain,ServiceDomain,Customer Care,3,Customer 2 > Customer Care > Card Case

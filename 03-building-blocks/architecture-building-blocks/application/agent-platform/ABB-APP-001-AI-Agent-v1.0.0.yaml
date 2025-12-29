@@ -1,0 +1,1270 @@
+---
+# Architecture Building Block (ABB) - YAML Format
+# ABB-APP-001: Agentic AI Agent v1.0.0
+# Generated: 2025-11-28
+
+# Document Control
+document_control:
+  document_type: "Architecture Building Block"
+  version: "1.0.0"
+  status: "Approved"
+  created_date: "2025-11-28"
+  last_modified: "2025-11-28"
+  author: "BNZ Enterprise Architecture"
+  owner: "BNZ Enterprise Architecture"
+  architecture_domain: "Application"
+
+# 1. Building Block Identification
+identification:
+  abb_id: "ABB-APP-001"
+  abb_name: "Agentic AI Agent"
+  abb_short_name: "AI Agent"
+  version: "1.0.0"
+  abstraction_level: "Solution"
+  description: |
+    An intelligent, autonomous software entity capable of perceiving its environment, 
+    making decisions based on context and instructions, and taking actions to achieve 
+    specific goals through natural language interaction, tool use, and continuous learning.
+  
+  classification:
+    primary_domain: "Application"
+    sub_domain: "Artificial Intelligence"
+    archimate_layer: "Application"
+    togaf_phase: "C"
+  
+  lifecycle:
+    maturity_stage: "Active"
+    expected_lifespan_years: 5
+    next_review_date: "2026-02-28"
+
+# 2. Functional Specification
+functional_specification:
+  purpose: |
+    An intelligent, autonomous software entity capable of perceiving its environment, 
+    making decisions based on context and instructions, and taking actions to achieve 
+    specific goals through natural language interaction, tool use, and continuous learning.
+  
+  scope:
+    in_scope:
+      - "All forms of agentic AI implementations including conversational agents"
+      - "Task automation agents"
+      - "Multi-agent systems"
+      - "Embedded AI assistants"
+      - "Core capabilities of natural language understanding"
+      - "Reasoning and memory management"
+      - "Tool orchestration"
+      - "Secure execution runtime"
+    out_of_scope:
+      - "Static rule-based chatbots without AI"
+      - "Simple FAQ bots"
+      - "Non-autonomous automation"
+    assumptions:
+      - "Foundation models are available and accessible"
+      - "Enterprise identity infrastructure exists"
+      - "Network connectivity for real-time interactions"
+    constraints:
+      - "Must support containerized deployment (Kubernetes, serverless)"
+      - "Must maintain complete audit trail of all actions and data access"
+      - "Must support data residency in New Zealand"
+  
+  core_functions:
+    - function_id: "FUNC-001"
+      function_name: "Natural Language Understanding & Generation"
+      description: "Interpret user intent from natural language inputs and generate contextually appropriate natural language responses"
+      inputs:
+        - "Natural language text or voice input"
+        - "Conversational context"
+        - "User profile and preferences"
+      outputs:
+        - "Natural language responses"
+        - "Intent classification"
+        - "Entity extraction"
+      processing_logic: "Foundation model inference with prompt engineering and context injection"
+      
+    - function_id: "FUNC-002"
+      function_name: "Reasoning & Decision Making"
+      description: "Analyze context, apply logical reasoning, make decisions, and plan multi-step sequences of actions to achieve goals"
+      inputs:
+        - "User intent"
+        - "Available tools and capabilities"
+        - "Current context and state"
+      outputs:
+        - "Action plan"
+        - "Decision rationale"
+        - "Confidence scores"
+      processing_logic: "Multi-step reasoning with chain-of-thought, planning algorithms, and goal decomposition"
+      
+    - function_id: "FUNC-003"
+      function_name: "Memory Management"
+      description: "Store, retrieve, and maintain conversational context, user preferences, and historical interactions across sessions"
+      inputs:
+        - "Conversation history"
+        - "User interactions"
+        - "Learned facts and preferences"
+      outputs:
+        - "Retrieved memories"
+        - "Contextual information"
+        - "User profiles"
+      processing_logic: "Short-term and long-term memory systems with semantic retrieval and context windowing"
+      
+    - function_id: "FUNC-004"
+      function_name: "Tool Orchestration & Integration"
+      description: "Discover, select, invoke, and coordinate external tools, APIs, and services to complete tasks"
+      inputs:
+        - "Available tool specifications"
+        - "Task requirements"
+        - "User permissions"
+      outputs:
+        - "Tool invocation results"
+        - "Error handling responses"
+        - "Orchestration logs"
+      processing_logic: "Tool selection based on task requirements, parameter binding, invocation, and result processing"
+      
+    - function_id: "FUNC-005"
+      function_name: "Knowledge Retrieval"
+      description: "Access, search, and synthesize information from structured and unstructured knowledge sources"
+      inputs:
+        - "Search queries"
+        - "Knowledge source connections"
+        - "User access permissions"
+      outputs:
+        - "Retrieved documents"
+        - "Synthesized knowledge"
+        - "Source citations"
+      processing_logic: "Semantic search, retrieval augmented generation (RAG), knowledge synthesis"
+      
+    - function_id: "FUNC-006"
+      function_name: "Identity & Authorization"
+      description: "Authenticate users, manage permissions, and act on behalf of users with appropriate authorization"
+      inputs:
+        - "User credentials"
+        - "Authentication tokens"
+        - "Permission policies"
+      outputs:
+        - "Authenticated sessions"
+        - "Authorization decisions"
+        - "Audit events"
+      processing_logic: "Integration with enterprise identity providers, RBAC enforcement, session management"
+      
+    - function_id: "FUNC-007"
+      function_name: "Multi-turn Conversation Management"
+      description: "Maintain context across conversational turns, handle clarifications, manage topic transitions"
+      inputs:
+        - "Conversation history"
+        - "Current user input"
+        - "Session state"
+      outputs:
+        - "Updated conversation state"
+        - "Contextual responses"
+        - "Topic tracking"
+      processing_logic: "Context management, topic modeling, clarification strategies"
+      
+    - function_id: "FUNC-008"
+      function_name: "Error Handling & Recovery"
+      description: "Detect failures, gracefully handle errors, retry operations, and provide helpful error messages"
+      inputs:
+        - "Error conditions"
+        - "System state"
+        - "Retry policies"
+      outputs:
+        - "Error messages"
+        - "Recovery actions"
+        - "Fallback responses"
+      processing_logic: "Exception handling, retry logic with exponential backoff, graceful degradation"
+  
+  capabilities_provided:
+    - capability_id: "CAP-001"
+      capability_name: "Conversational AI"
+      description: "Natural dialogue with humans via text or voice"
+      maturity_level: "Managed"
+      business_value: "24/7 intelligent assistance for customers and employees"
+      
+    - capability_id: "CAP-002"
+      capability_name: "Task Automation"
+      description: "Autonomous execution of multi-step workflows"
+      maturity_level: "Defined"
+      business_value: "Reduced manual work and faster task completion"
+      
+    - capability_id: "CAP-003"
+      capability_name: "Knowledge Synthesis"
+      description: "Retrieval and synthesis of information from multiple sources"
+      maturity_level: "Managed"
+      business_value: "Democratized access to organizational knowledge"
+      
+    - capability_id: "CAP-004"
+      capability_name: "Decision Support"
+      description: "Analysis and recommendations based on data and context"
+      maturity_level: "Developing"
+      business_value: "Enhanced decision-making quality and speed"
+      
+    - capability_id: "CAP-005"
+      capability_name: "Multi-Agent Collaboration"
+      description: "Coordination with other agents to solve complex problems"
+      maturity_level: "Developing"
+      business_value: "Handling of complex multi-domain scenarios"
+      
+    - capability_id: "CAP-006"
+      capability_name: "Adaptive Learning"
+      description: "Improvement through feedback and interaction history"
+      maturity_level: "Initial"
+      business_value: "Continuous improvement of agent effectiveness"
+      
+    - capability_id: "CAP-007"
+      capability_name: "Cross-Channel Deployment"
+      description: "Consistent experience across web, mobile, voice, messaging"
+      maturity_level: "Managed"
+      business_value: "Omnichannel customer and employee experience"
+  
+  business_services:
+    - service_id: "SVC-001"
+      service_name: "Intelligent Virtual Assistant"
+      description: "24/7 conversational assistance for customers and employees"
+      service_type: "Internal"
+      consumers:
+        - "End Users"
+        - "Customer Service Teams"
+        - "HR Departments"
+      availability_requirement: "99.9%"
+      supported_channels:
+        - "Web"
+        - "Mobile"
+        - "Microsoft Teams"
+        - "Voice"
+        
+    - service_id: "SVC-002"
+      service_name: "Automated Task Execution"
+      description: "Autonomous completion of defined business processes and workflows"
+      service_type: "Internal"
+      consumers:
+        - "Business Process Owners"
+        - "Operations Teams"
+      availability_requirement: "99.5%"
+      supported_channels:
+        - "API"
+        - "Event-driven"
+        
+    - service_id: "SVC-003"
+      service_name: "Knowledge Access & Search"
+      description: "Intelligent retrieval and synthesis of organizational knowledge"
+      service_type: "Internal"
+      consumers:
+        - "Knowledge Workers"
+        - "Support Teams"
+      availability_requirement: "99.9%"
+      supported_channels:
+        - "Web"
+        - "API"
+        - "Embedded in applications"
+
+# 3. Quality Attributes (Non-Functional Requirements)
+quality_attributes:
+  performance:
+    response_time_requirement: "First response <2 seconds, full response <5 seconds for 95th percentile"
+    throughput_requirement: "1000+ concurrent conversations"
+    concurrent_users_requirement: "10,000+ concurrent users per agent instance"
+    scalability_requirement: "Horizontal scaling with linear performance characteristics"
+    resource_utilization: "Efficient token usage and compute optimization"
+  
+  security:
+    authentication_requirement: "Enterprise SSO integration (SAML 2.0, OIDC, OAuth 2.0)"
+    authorization_requirement: "Role-Based Access Control (RBAC) with fine-grained permissions"
+    data_protection_requirement: "TLS 1.3 in transit, AES-256 at rest for all data"
+    audit_requirement: "Comprehensive audit trails for all agent actions and data access"
+    compliance_requirements:
+      - framework: "GDPR"
+        requirement: "Data subject rights, privacy by design, data minimization"
+      - framework: "SOC2"
+        requirement: "Security controls, availability, confidentiality"
+      - framework: "ISO27001"
+        requirement: "Information security management system"
+      - framework: "HIPAA"
+        requirement: "HIPAA-eligible architecture for healthcare data"
+  
+  reliability:
+    availability_requirement: "99.9% (8.77 hours downtime per year)"
+    fault_tolerance_requirement: "Graceful degradation during partial failures"
+    recovery_time_objective: "<1 hour"
+    recovery_point_objective: "<5 minutes"
+    mean_time_to_repair: "<30 minutes for critical issues"
+    disaster_recovery_requirement: "Multi-region active-active or active-passive deployment"
+  
+  maintainability:
+    modularity_requirement: "Component-based architecture with clear separation of concerns"
+    testability_requirement: "Automated testing of agent behaviors and integrations"
+    extensibility_requirement: "Plugin architecture for custom tools, connectors, and behaviors"
+    upgrade_strategy: "Blue-green deployments with automated rollback capabilities"
+  
+  usability:
+    user_experience_requirement: "Intuitive conversational interface, minimal learning curve"
+    accessibility_requirement: "WCAG 2.1 AA compliance for all interaction modalities"
+    localization_requirement: "Multi-language support with culturally appropriate responses"
+    documentation_requirement: "Comprehensive user guides and API documentation"
+  
+  operational:
+    monitoring_requirement: "Real-time observability of conversations, tool usage, errors, performance"
+    logging_requirement: "Structured logs with 90-day retention, searchable and filterable"
+    alerting_requirement: "Automated alerts for SLA violations, security events, system errors"
+    backup_requirement: "Continuous replication, automated backups"
+
+# 4. Interfaces
+interfaces:
+  input_interfaces:
+    - interface_id: "IF-IN-001"
+      interface_name: "User Interaction Interface"
+      interface_type: "API"
+      protocol: "HTTPS REST / WebSocket"
+      data_format: "JSON"
+      direction: "Inbound"
+      description: "Conversational API with text/voice input, session management"
+      source_systems:
+        - "User Interface Layer"
+        - "Web Applications"
+        - "Mobile Applications"
+      data_classification: "Confidential"
+      
+    - interface_id: "IF-IN-002"
+      interface_name: "Knowledge Source Interface"
+      interface_type: "API"
+      protocol: "HTTPS REST / GraphQL"
+      data_format: "JSON, XML, PDF, HTML"
+      direction: "Inbound"
+      description: "Document retrieval, search, metadata access"
+      source_systems:
+        - "Knowledge Management System"
+        - "SharePoint"
+        - "Confluence"
+      data_classification: "Internal"
+      
+    - interface_id: "IF-IN-003"
+      interface_name: "Identity Provider Interface"
+      interface_type: "API"
+      protocol: "HTTPS (OAuth 2.0, SAML 2.0, OIDC)"
+      data_format: "JWT, SAML tokens"
+      direction: "Inbound"
+      description: "Authentication, authorization, user profile access"
+      source_systems:
+        - "Enterprise Identity Provider"
+        - "Azure Active Directory"
+        - "Okta"
+      data_classification: "Restricted"
+      
+    - interface_id: "IF-IN-004"
+      interface_name: "Event Stream Interface"
+      interface_type: "Message Queue"
+      protocol: "AMQP, Kafka, WebHooks"
+      data_format: "JSON, CloudEvents"
+      direction: "Inbound"
+      description: "Asynchronous event consumption for triggered workflows"
+      source_systems:
+        - "Event Streaming Platform"
+        - "Business Process Systems"
+      data_classification: "Internal"
+  
+  output_interfaces:
+    - interface_id: "IF-OUT-001"
+      interface_name: "Tool Invocation Interface"
+      interface_type: "API"
+      protocol: "HTTPS REST / gRPC / MCP"
+      data_format: "JSON, Protocol Buffers"
+      direction: "Outbound"
+      description: "Model Context Protocol or custom API schemas for tool invocation"
+      target_systems:
+        - "External Tools and Services"
+        - "Business Applications"
+        - "APIs"
+      data_classification: "Varies by target"
+      
+    - interface_id: "IF-OUT-002"
+      interface_name: "Observability Interface"
+      interface_type: "Stream"
+      protocol: "HTTPS (OpenTelemetry), StatsD"
+      data_format: "OTLP, Prometheus metrics"
+      direction: "Outbound"
+      description: "Traces, metrics, logs in standard formats"
+      target_systems:
+        - "Observability Platform"
+        - "Application Performance Monitoring"
+      data_classification: "Internal"
+      
+    - interface_id: "IF-OUT-003"
+      interface_name: "Audit Log Interface"
+      interface_type: "Stream"
+      protocol: "HTTPS, Syslog"
+      data_format: "JSON, CEF"
+      direction: "Outbound"
+      description: "Structured audit events with complete context"
+      target_systems:
+        - "Security Information and Event Management (SIEM)"
+        - "Audit Log Repository"
+      data_classification: "Confidential"
+
+# 5. Data Architecture
+data_entities:
+  - entity_id: "ENT-001"
+    entity_name: "Conversation Session"
+    description: "Complete context of user-agent interaction including messages, context, state"
+    attributes:
+      - name: "session_id"
+        type: "UUID"
+        required: true
+        pii: false
+      - name: "user_id"
+        type: "String"
+        required: true
+        pii: true
+      - name: "messages"
+        type: "Array[Message]"
+        required: true
+        pii: true
+      - name: "context"
+        type: "Object"
+        required: true
+        pii: false
+      - name: "created_at"
+        type: "Timestamp"
+        required: true
+        pii: false
+      - name: "updated_at"
+        type: "Timestamp"
+        required: true
+        pii: false
+    data_classification: "Confidential"
+    retention_period: "90 days active, 7 years archived"
+    archival_strategy: "Encrypted archival for compliance"
+    data_residency_requirement: "New Zealand data centers"
+    
+  - entity_id: "ENT-002"
+    entity_name: "Agent Memory"
+    description: "Persistent knowledge about users, preferences, facts learned from interactions"
+    attributes:
+      - name: "memory_id"
+        type: "UUID"
+        required: true
+        pii: false
+      - name: "user_id"
+        type: "String"
+        required: true
+        pii: true
+      - name: "memory_type"
+        type: "Enum[factual, procedural, episodic]"
+        required: true
+        pii: false
+      - name: "content"
+        type: "Text"
+        required: true
+        pii: true
+      - name: "embedding"
+        type: "Vector"
+        required: false
+        pii: false
+      - name: "confidence_score"
+        type: "Float"
+        required: false
+        pii: false
+      - name: "created_at"
+        type: "Timestamp"
+        required: true
+        pii: false
+    data_classification: "Confidential"
+    retention_period: "Duration of user relationship"
+    archival_strategy: "Right to be forgotten compliance"
+    data_residency_requirement: "New Zealand data centers"
+    
+  - entity_id: "ENT-003"
+    entity_name: "Tool Invocation Record"
+    description: "Record of all external tool calls, parameters, responses, errors"
+    attributes:
+      - name: "invocation_id"
+        type: "UUID"
+        required: true
+        pii: false
+      - name: "session_id"
+        type: "UUID"
+        required: true
+        pii: false
+      - name: "tool_name"
+        type: "String"
+        required: true
+        pii: false
+      - name: "parameters"
+        type: "Object"
+        required: true
+        pii: false
+      - name: "response"
+        type: "Object"
+        required: false
+        pii: false
+      - name: "error"
+        type: "String"
+        required: false
+        pii: false
+      - name: "duration_ms"
+        type: "Integer"
+        required: true
+        pii: false
+      - name: "timestamp"
+        type: "Timestamp"
+        required: true
+        pii: false
+    data_classification: "Internal"
+    retention_period: "90 days"
+    archival_strategy: "Audit trail preservation"
+    data_residency_requirement: "New Zealand data centers"
+    
+  - entity_id: "ENT-004"
+    entity_name: "Agent Configuration"
+    description: "Agent behavior definitions, prompt templates, tool mappings"
+    attributes:
+      - name: "config_id"
+        type: "UUID"
+        required: true
+        pii: false
+      - name: "agent_name"
+        type: "String"
+        required: true
+        pii: false
+      - name: "version"
+        type: "String"
+        required: true
+        pii: false
+      - name: "prompts"
+        type: "Object"
+        required: true
+        pii: false
+      - name: "tool_mappings"
+        type: "Array[ToolMapping]"
+        required: true
+        pii: false
+      - name: "behavior_settings"
+        type: "Object"
+        required: true
+        pii: false
+      - name: "created_at"
+        type: "Timestamp"
+        required: true
+        pii: false
+    data_classification: "Internal"
+    retention_period: "Version-controlled, indefinite"
+    archival_strategy: "Configuration history for rollback"
+    data_residency_requirement: "New Zealand data centers"
+
+# 6. Dependencies
+dependencies:
+  dependent_abbs:
+    - abb_id: "ABB-APP-010"
+      abb_name: "Foundation Model / Large Language Model"
+      dependency_type: "Strong"
+      criticality: "Critical"
+      reason: "Core reasoning and language generation capabilities"
+      
+    - abb_id: "ABB-APP-011"
+      abb_name: "Knowledge Management System"
+      dependency_type: "Strong"
+      criticality: "High"
+      reason: "Enterprise knowledge access for grounded responses"
+      
+    - abb_id: "ABB-TEC-015"
+      abb_name: "Enterprise Identity Provider"
+      dependency_type: "Strong"
+      criticality: "Critical"
+      reason: "Authentication and authorization services"
+      
+    - abb_id: "ABB-TEC-020"
+      abb_name: "Observability Platform"
+      dependency_type: "Strong"
+      criticality: "High"
+      reason: "Monitoring, logging, tracing, alerting"
+      
+    - abb_id: "ABB-APP-025"
+      abb_name: "Vector Database"
+      dependency_type: "Weak"
+      criticality: "Medium"
+      reason: "Semantic search and memory retrieval"
+  
+  dependent_platforms:
+    - platform_name: "Container Orchestration Platform"
+      platform_type: "Infrastructure"
+      criticality: "Critical"
+      reason: "Runtime environment for containerized agent deployments"
+      
+    - platform_name: "API Gateway"
+      platform_type: "Platform"
+      criticality: "High"
+      reason: "API management, rate limiting, security"
+      
+    - platform_name: "Cloud Object Storage"
+      platform_type: "Infrastructure"
+      criticality: "High"
+      reason: "Storage for conversation artifacts and agent configurations"
+
+# 7. Standards & Compliance
+standards:
+  technical_standards:
+    - standard_id: "STD-001"
+      standard_name: "Model Context Protocol (MCP)"
+      version: "1.0"
+      compliance_level: "Partial"
+      notes: "Recommended for tool integration"
+      
+    - standard_id: "STD-002"
+      standard_name: "OpenTelemetry"
+      version: "1.0"
+      compliance_level: "Full"
+      notes: "Mandatory for observability"
+      
+    - standard_id: "STD-003"
+      standard_name: "OAuth 2.0"
+      version: "RFC 6749"
+      compliance_level: "Full"
+      notes: "Mandatory for authorization"
+      
+    - standard_id: "STD-004"
+      standard_name: "OpenID Connect"
+      version: "1.0"
+      compliance_level: "Full"
+      notes: "Mandatory for authentication"
+      
+    - standard_id: "STD-005"
+      standard_name: "OpenAPI"
+      version: "3.0"
+      compliance_level: "Full"
+      notes: "Mandatory for API integration"
+      
+    - standard_id: "STD-006"
+      standard_name: "WebSocket"
+      version: "RFC 6455"
+      compliance_level: "Partial"
+      notes: "Recommended for real-time communication"
+  
+  data_standards:
+    - standard_name: "JSON Schema"
+      description: "Structured data validation and documentation"
+      compliance_level: "Full"
+      
+    - standard_name: "CloudEvents"
+      description: "Event format specification"
+      compliance_level: "Partial"
+  
+  security_standards:
+    - standard_name: "TLS 1.3"
+      description: "Transport layer security for all communications"
+      compliance_level: "Full"
+      
+    - standard_name: "OWASP Top 10"
+      description: "Web application security risks"
+      compliance_level: "Full"
+
+# 8. Constraints & Assumptions
+constraints:
+  technical_constraints:
+    - constraint_id: "CONST-001"
+      description: "Must support containerized deployment (Kubernetes, serverless)"
+      impact: "Influences technology selection and deployment patterns"
+      
+    - constraint_id: "CONST-002"
+      description: "Foundation model token limits constrain conversation length"
+      impact: "Requires conversation summarization or context windowing strategies"
+      
+    - constraint_id: "CONST-003"
+      description: "Real-time response requirements limit processing complexity"
+      impact: "Optimization needed for inference and tool orchestration latency"
+  
+  business_constraints:
+    - constraint_id: "CONST-004"
+      description: "Operational costs scale with token consumption"
+      impact: "Requires cost monitoring, optimization, and usage quotas"
+      
+    - constraint_id: "CONST-005"
+      description: "Limited availability of specialized AI talent"
+      impact: "Platform must support non-AI experts for agent development"
+  
+  regulatory_constraints:
+    - constraint_id: "CONST-006"
+      regulation: "GDPR"
+      description: "Must maintain complete audit trail of all actions and data access"
+      impact: "Comprehensive logging and immutable audit storage required"
+      
+    - constraint_id: "CONST-007"
+      regulation: "Data Sovereignty"
+      description: "Must support data residency in New Zealand"
+      impact: "Region-specific deployment options required"
+
+assumptions:
+  - assumption_id: "ASSUM-001"
+    description: "Foundation models are available and accessible via APIs"
+    validation_required: true
+    risk_if_invalid: "Cannot provide core AI capabilities"
+    
+  - assumption_id: "ASSUM-002"
+    description: "Enterprise identity infrastructure exists and supports modern protocols"
+    validation_required: true
+    risk_if_invalid: "Cannot integrate authentication securely"
+    
+  - assumption_id: "ASSUM-003"
+    description: "Network connectivity supports real-time interactions with <100ms latency"
+    validation_required: true
+    risk_if_invalid: "User experience degradation"
+    
+  - assumption_id: "ASSUM-004"
+    description: "Users have devices capable of running modern web browsers or mobile apps"
+    validation_required: false
+    risk_if_invalid: "Limited accessibility"
+
+# 9. Architecture Decisions
+architecture_decisions:
+  - adr_id: "ADR-001"
+    decision_title: "Use Foundation Models for Reasoning"
+    decision_date: "2025-11-28"
+    status: "Accepted"
+    context: "Need to provide natural language understanding and generation capabilities"
+    decision: "Leverage foundation models (LLMs) rather than building custom NLP models"
+    consequences: "Faster time to market, better quality, but introduces external dependencies and token costs"
+    alternatives_considered:
+      - "Custom trained models - rejected due to high cost and limited capabilities"
+      - "Rule-based systems - rejected due to inflexibility"
+      
+  - adr_id: "ADR-002"
+    decision_title: "Adopt Model Context Protocol for Tool Integration"
+    decision_date: "2025-11-28"
+    status: "Accepted"
+    context: "Need standardized way to integrate external tools and services"
+    decision: "Adopt MCP as the standard protocol for tool integration"
+    consequences: "Improved interoperability, reduced integration complexity, ecosystem benefits"
+    alternatives_considered:
+      - "Custom tool integration APIs - rejected due to vendor lock-in"
+      - "OpenAPI only - rejected as insufficient for agentic workflows"
+      
+  - adr_id: "ADR-003"
+    decision_title: "Implement Dual Memory Architecture"
+    decision_date: "2025-11-28"
+    status: "Accepted"
+    context: "Need to maintain both short-term conversational context and long-term user knowledge"
+    decision: "Implement separate short-term (session) and long-term (persistent) memory systems"
+    consequences: "Better context management, improved personalization, added complexity"
+    alternatives_considered:
+      - "Single memory system - rejected as insufficient for different retention needs"
+
+# 10. Risks & Mitigation
+risks:
+  - risk_id: "RISK-001"
+    risk_description: "Hallucinations and factual inaccuracies in agent responses"
+    likelihood: "Medium"
+    impact: "High"
+    mitigation_strategy: "Grounding in verified knowledge sources, human-in-the-loop for critical decisions, confidence scoring"
+    contingency_plan: "Fallback to human agents for low-confidence responses"
+    owner: "AI Platform Lead"
+    
+  - risk_id: "RISK-002"
+    risk_description: "Prompt injection attacks and adversarial inputs"
+    likelihood: "Medium"
+    impact: "High"
+    mitigation_strategy: "Input validation, prompt hardening, security testing, WAF rules"
+    contingency_plan: "Automated threat detection and blocking, incident response procedures"
+    owner: "Information Security Team"
+    
+  - risk_id: "RISK-003"
+    risk_description: "Excessive operational costs due to token consumption"
+    likelihood: "Medium"
+    impact: "Medium"
+    mitigation_strategy: "Cost monitoring, usage quotas, caching strategies, model optimization"
+    contingency_plan: "Usage throttling, model switching to lower-cost alternatives"
+    owner: "Platform Operations"
+    
+  - risk_id: "RISK-004"
+    risk_description: "Privacy violations through data leakage or unauthorized access"
+    likelihood: "Low"
+    impact: "High"
+    mitigation_strategy: "Data classification, access controls, audit logging, privacy impact assessments"
+    contingency_plan: "Data breach response procedures, user notification processes"
+    owner: "Data Protection Officer"
+
+# 11. Governance
+governance:
+  ownership:
+    business_owner: "Chief Technology Officer"
+    technical_owner: "AI Platform Product Owner"
+    architect: "Enterprise Architecture Team"
+    stakeholders:
+      - name: "Chief Information Security Officer"
+        role: "Security Authority"
+        interest: "Security, compliance, risk management"
+      - name: "Chief Data Officer"
+        role: "Data Governance"
+        interest: "Data quality, privacy, governance"
+      - name: "Customer Experience Director"
+        role: "Business Sponsor"
+        interest: "Customer satisfaction, user experience"
+  
+  approval_process:
+    approval_required_from:
+      - "Enterprise Architecture Review Board"
+      - "Security Review Board"
+      - "Privacy Office"
+    approval_date: "2025-11-28"
+    approval_status: "Approved"
+  
+  change_management:
+    change_control_process: "Architecture Decision Record (ADR) for significant changes, versioning for updates"
+    impact_assessment_required: true
+    version_control_strategy: "Semantic versioning with backward compatibility commitment"
+
+# 12. Costs (High-Level Estimates)
+cost_estimates:
+  acquisition_cost_range: "$500K - $2M depending on complexity and customization"
+  implementation_cost_range: "$200K - $1M for integration, training, and deployment"
+  operational_cost_annual_range: "$120K - $1.2M (primarily foundation model token costs)"
+  total_cost_of_ownership_3yr: "$1.5M - $5M"
+  cost_assumptions:
+    - "Foundation model costs at $0.01 per 1K tokens average"
+    - "100K conversations per month at 10K tokens average per conversation"
+    - "Platform and infrastructure costs included"
+    - "Support and maintenance at 20% of implementation cost annually"
+
+# 13. Diagrams
+diagrams:
+  - diagram_id: "DIAG-001"
+    diagram_name: "Context Diagram"
+    diagram_type: "ArchiMate Context"
+    diagram_purpose: "Show how the AI Agent fits in enterprise context with external actors and systems"
+    diagram_file: "ABB-APP-001-Context-v1.0.0.drawio"
+    ai_rendering_instructions: |
+      CREATE context_diagram
+        NOTATION: ArchiMate 3.1
+        LAYOUT: hierarchical
+        
+        CENTER:
+          - element: APPLICATION_COMPONENT
+            label: "Agentic AI Agent"
+            color: #B3D9FF
+            icon: robot
+            
+        ACTORS (positioned around center):
+          TOP:
+            - element: BUSINESS_ACTOR
+              label: "End Users"
+              position: top-left
+            - element: BUSINESS_ACTOR
+              label: "Enterprise Administrators"
+              position: top-right
+              
+          LEFT:
+            - element: APPLICATION_SERVICE
+              label: "Foundation Model"
+              icon: brain
+            - element: APPLICATION_SERVICE
+              label: "Knowledge Sources"
+              icon: database
+              
+          RIGHT:
+            - element: APPLICATION_SERVICE
+              label: "External Tools & APIs"
+              icon: puzzle-piece
+            - element: APPLICATION_SERVICE
+              label: "Identity Provider"
+              icon: key
+              
+          BOTTOM:
+            - element: APPLICATION_SERVICE
+              label: "Observability Platform"
+              icon: chart-line
+        
+        RELATIONSHIPS:
+          - type: SERVING_RELATIONSHIP
+            from: "Agentic AI Agent"
+            to: "End Users"
+            label: "Intelligent Responses"
+            
+          - type: SERVING_RELATIONSHIP
+            from: "Foundation Model"
+            to: "Agentic AI Agent"
+            label: "Language Processing"
+            
+          - type: ACCESS_RELATIONSHIP
+            from: "Agentic AI Agent"
+            to: "Knowledge Sources"
+            label: "Knowledge Retrieval"
+            
+          - type: TRIGGERING_RELATIONSHIP
+            from: "Agentic AI Agent"
+            to: "External Tools & APIs"
+            label: "Tool Invocation"
+            
+          - type: ACCESS_RELATIONSHIP
+            from: "Agentic AI Agent"
+            to: "Identity Provider"
+            label: "Authentication"
+            
+          - type: FLOW_RELATIONSHIP
+            from: "Agentic AI Agent"
+            to: "Observability Platform"
+            label: "Telemetry"
+            
+        STYLE:
+          - font: "Arial, 10pt"
+          - line_style: "orthogonal"
+          - spacing: "optimal"
+          - color_scheme: "blue-gray"
+    key_elements:
+      - "Agentic AI Agent (central)"
+      - "End Users"
+      - "Enterprise Administrators"
+      - "Foundation Model"
+      - "Knowledge Sources"
+      - "External Tools & APIs"
+      - "Identity Provider"
+      - "Observability Platform"
+    relationships:
+      - from: "End Users"
+        to: "Agentic AI Agent"
+        relationship_type: "Uses"
+      - from: "Agentic AI Agent"
+        to: "Foundation Model"
+        relationship_type: "Depends On"
+      - from: "Agentic AI Agent"
+        to: "Knowledge Sources"
+        relationship_type: "Retrieves from"
+      - from: "Agentic AI Agent"
+        to: "External Tools & APIs"
+        relationship_type: "Invokes"
+        
+  - diagram_id: "DIAG-002"
+    diagram_name: "Functional Decomposition"
+    diagram_type: "UML Component"
+    diagram_purpose: "Show how the AI Agent decomposes into functional components"
+    diagram_file: "ABB-APP-001-Decomposition-v1.0.0.drawio"
+    ai_rendering_instructions: |
+      CREATE component_diagram
+        NOTATION: UML 2.5 Component
+        LAYOUT: hierarchical top-down
+        
+        ROOT:
+          - component: "Agentic AI Agent"
+            type: "system"
+            
+        LAYER_1 (major components):
+          - component: "Interaction Layer"
+            sub_components:
+              - "Natural Language Interface"
+              - "Multi-modal Input Handler"
+              - "Response Formatter"
+              
+          - component: "Reasoning Engine"
+            sub_components:
+              - "Intent Classifier"
+              - "Context Manager"
+              - "Decision Planner"
+              - "Action Orchestrator"
+              
+          - component: "Memory System"
+            sub_components:
+              - "Short-term Memory"
+              - "Long-term Memory"
+              - "Memory Retrieval"
+              - "Memory Consolidation"
+              
+          - component: "Tool Integration Layer"
+            sub_components:
+              - "Tool Discovery"
+              - "Tool Selection"
+              - "Tool Invocation"
+              - "Result Processing"
+              
+          - component: "Knowledge Access"
+            sub_components:
+              - "Knowledge Retrieval"
+              - "Semantic Search"
+              - "Context Synthesis"
+              
+          - component: "Security & Identity"
+            sub_components:
+              - "Authentication"
+              - "Authorization"
+              - "Session Management"
+              - "Audit Logging"
+              
+        INTERFACES:
+          - interface: "User Interface API"
+            provider: "Interaction Layer"
+          - interface: "Tool API"
+            consumer: "Tool Integration Layer"
+          - interface: "Knowledge API"
+            consumer: "Knowledge Access"
+            
+        STYLE:
+          - component_style: "rounded rectangles"
+          - interface_style: "lollipop notation"
+          - color_scheme: "blue gradient"
+    key_elements:
+      - "Interaction Layer"
+      - "Reasoning Engine"
+      - "Memory System"
+      - "Tool Integration Layer"
+      - "Knowledge Access"
+      - "Security & Identity"
+    relationships:
+      - from: "Interaction Layer"
+        to: "Reasoning Engine"
+        relationship_type: "Provides"
+      - from: "Reasoning Engine"
+        to: "Memory System"
+        relationship_type: "Uses"
+      - from: "Reasoning Engine"
+        to: "Tool Integration Layer"
+        relationship_type: "Uses"
+        
+  - diagram_id: "DIAG-003"
+    diagram_name: "Data Flow Diagram"
+    diagram_type: "DFD"
+    diagram_purpose: "Show how data flows through the AI Agent during a typical interaction"
+    diagram_file: "ABB-APP-001-DataFlow-v1.0.0.drawio"
+    ai_rendering_instructions: |
+      CREATE data_flow_diagram
+        NOTATION: Gane-Sarson DFD
+        LAYOUT: left-to-right flow
+        
+        EXTERNAL_ENTITIES:
+          - entity: "User"
+            position: left
+          - entity: "Foundation Model"
+            position: right-top
+          - entity: "External APIs"
+            position: right-bottom
+            
+        PROCESSES:
+          - process: "1.0 Process Input"
+            description: "Parse and validate user input"
+          - process: "2.0 Reason & Plan"
+            description: "Analyze intent and create action plan"
+          - process: "3.0 Execute Actions"
+            description: "Invoke tools and synthesize results"
+          - process: "4.0 Generate Response"
+            description: "Format and deliver response"
+            
+        DATA_STORES:
+          - store: "D1 Conversation Memory"
+          - store: "D2 User Profile"
+          - store: "D3 Tool Registry"
+          
+        DATA_FLOWS:
+          - from: "User"
+            to: "1.0 Process Input"
+            data: "User Query"
+            
+          - from: "1.0 Process Input"
+            to: "D1 Conversation Memory"
+            data: "Session Context"
+            
+          - from: "D1 Conversation Memory"
+            to: "2.0 Reason & Plan"
+            data: "Conversation History"
+            
+          - from: "2.0 Reason & Plan"
+            to: "Foundation Model"
+            data: "Inference Request"
+            
+          - from: "Foundation Model"
+            to: "2.0 Reason & Plan"
+            data: "Reasoning Result"
+            
+          - from: "2.0 Reason & Plan"
+            to: "3.0 Execute Actions"
+            data: "Action Plan"
+            
+          - from: "D3 Tool Registry"
+            to: "3.0 Execute Actions"
+            data: "Tool Specifications"
+            
+          - from: "3.0 Execute Actions"
+            to: "External APIs"
+            data: "Tool Invocations"
+            
+          - from: "External APIs"
+            to: "3.0 Execute Actions"
+            data: "Tool Results"
+            
+          - from: "3.0 Execute Actions"
+            to: "4.0 Generate Response"
+            data: "Synthesized Results"
+            
+          - from: "4.0 Generate Response"
+            to: "User"
+            data: "Agent Response"
+            
+          - from: "4.0 Generate Response"
+            to: "D1 Conversation Memory"
+            data: "Updated Context"
+            
+        STYLE:
+          - process_shape: "rounded rectangles"
+          - datastore_shape: "open rectangles"
+          - flow_arrows: "labeled arrows"
+          - color_scheme: "green-blue"
+    key_elements:
+      - "User (external entity)"
+      - "Process Input"
+      - "Reason & Plan"
+      - "Execute Actions"
+      - "Generate Response"
+      - "Conversation Memory"
+      - "Foundation Model"
+      - "External APIs"
+    relationships:
+      - from: "User"
+        to: "Process Input"
+        relationship_type: "Provides"
+      - from: "Process Input"
+        to: "Reason & Plan"
+        relationship_type: "Feeds"
+      - from: "Reason & Plan"
+        to: "Execute Actions"
+        relationship_type: "Directs"
+
+# 14. Traceability
+traceability:
+  requirements_trace:
+    - requirement_id: "REQ-001"
+      requirement_source: "AI Strategy 2025"
+      requirement_description: "Support 24/7 intelligent customer assistance"
+      addressed_by:
+        - "FUNC-001"
+        - "FUNC-007"
+        - "SVC-001"
+        
+    - requirement_id: "REQ-002"
+      requirement_source: "Digital Transformation Roadmap"
+      requirement_description: "Automate repetitive knowledge work tasks"
+      addressed_by:
+        - "FUNC-002"
+        - "FUNC-004"
+        - "SVC-002"
+        
+    - requirement_id: "REQ-003"
+      requirement_source: "Security Policy"
+      requirement_description: "Enterprise-grade authentication and authorization"
+      addressed_by:
+        - "FUNC-006"
+        - "Security requirements"
+  
+  business_capability_mapping:
+    - capability_name: "Customer Service Management"
+      capability_id: "BCAP-001"
+      contribution: "Enables intelligent, scalable customer assistance"
+      
+    - capability_name: "Employee Productivity"
+      capability_id: "BCAP-002"
+      contribution: "Enhances productivity through AI assistance and automation"
+      
+    - capability_name: "Knowledge Management"
+      capability_id: "BCAP-003"
+      contribution: "Enables intelligent knowledge discovery and synthesis"
+  
+  strategic_alignment:
+    strategic_goals:
+      - goal: "Enhance customer experience through digital channels"
+        alignment: "Provides intelligent, personalized assistance across all customer touchpoints"
+        kpi: "Customer Satisfaction Score +15 points"
+        
+      - goal: "Improve operational efficiency"
+        alignment: "Automates routine tasks and workflows, reducing manual effort"
+        kpi: "30-50% reduction in support ticket volume"
+        
+      - goal: "Scale expertise across the organization"
+        alignment: "Democratizes access to specialized knowledge and capabilities"
+        kpi: "10-20% productivity improvement for knowledge workers"
+
+# 15. AI Metadata (for AI-powered analysis)
+ai_metadata:
+  complexity_score:
+    technical_complexity: 9
+    business_complexity: 7
+    integration_complexity: 8
+  
+  tags:
+    - "agentic-ai"
+    - "conversational-ai"
+    - "automation"
+    - "llm"
+    - "autonomous-agent"
+    - "tool-orchestration"
+    - "knowledge-synthesis"
+  
+  search_keywords:
+    - "ai agent"
+    - "chatbot"
+    - "virtual assistant"
+    - "autonomous agent"
+    - "llm application"
+    - "agentic ai"
+    - "tool orchestration"
+    - "conversational ai"
+    - "intelligent assistant"
+  
+  related_patterns:
+    - "ReAct (Reasoning + Acting)"
+    - "Chain-of-Thought Prompting"
+    - "Retrieval Augmented Generation (RAG)"
+    - "Multi-Agent Systems"
+    - "Tool Use / Function Calling"
+  
+  ai_generation_notes: |
+    This ABB represents the architectural abstraction for agentic AI systems.
+    When generating implementations (SBBs), consider:
+    - Foundation model selection and hosting options
+    - Memory architecture (short-term vs long-term)
+    - Tool integration patterns (MCP vs custom)
+    - Deployment topology (centralized vs distributed)
+    - Cost optimization strategies (caching, model selection)
+    - Security controls (prompt injection, data leakage)
+    
+  natural_language_summary: |
+    An Agentic AI Agent is an intelligent software system that perceives its environment, 
+    reasons about goals and context, makes autonomous decisions, and takes actions through 
+    natural language interaction and tool use. It combines large language models for reasoning 
+    with memory systems for context retention, tool orchestration for task execution, and 
+    enterprise integrations for secure deployment across customer service, employee productivity, 
+    and process automation use cases.
+    
+  structured_entities:
+    business_domain: "Artificial Intelligence"
+    subdomain: "Agentic AI"
+    bounded_context: "Autonomous Agent Execution"
+
+# 16. References
+references:
+  - reference_id: "REF-001"
+    reference_type: "Document"
+    title: "AI Platform Strategy"
+    url: "Internal SharePoint"
+    description: "Strategic direction for AI capabilities"
+    
+  - reference_id: "REF-002"
+    reference_type: "Standard"
+    title: "BNZ Security Standards"
+    url: "Standards Repository"
+    description: "Enterprise security requirements and controls"
+    
+  - reference_id: "REF-003"
+    reference_type: "URL"
+    title: "Model Context Protocol Specification"
+    url: "https://modelcontextprotocol.io"
+    description: "Standard protocol for tool integration with AI agents"
+    
+  - reference_id: "REF-004"
+    reference_type: "URL"
+    title: "OpenTelemetry Specification"
+    url: "https://opentelemetry.io"
+    description: "Observability framework for distributed systems"
+    
+  - reference_id: "REF-005"
+    reference_type: "URL"
+    title: "ReAct: Synergizing Reasoning and Acting in Language Models"
+    url: "https://arxiv.org/abs/2210.03629"
+    description: "Research paper on reasoning and action patterns for agents"
+
+# 17. Version History
+version_history:
+  - version: "1.0.0"
+    date: "2025-11-28"
+    author: "BNZ Enterprise Architecture"
+    changes: "Initial version created for agent platform initiative"
+    approved_by: "Enterprise Architecture Review Board"

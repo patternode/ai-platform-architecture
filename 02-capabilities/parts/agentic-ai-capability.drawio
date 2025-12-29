@@ -1,0 +1,88 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Agentic Systems Patterns" id="agentic-systems-patterns">
+    <mxGraphModel dx="1883" dy="2903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="15" value="AIP1 - Agentic AI Capabilities" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;fontColor=light-dark(#5b1d58, #ededed);strokeColor=light-dark(#5b1d58, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="699" y="-50" width="832" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="AIP1.1 - Agent Runtime" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;fontColor=light-dark(#FFFFFF,#EDEDED);strokeColor=none;fillColor=light-dark(#ac8eab, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="711" y="-26" width="550" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="Goals and Intents" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#5b1d58, #ededed);fontColor=light-dark(#5b1d58, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="720" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="Context and Memory" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#5b1d58, #ededed);fontColor=light-dark(#5b1d58, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="806" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="Planning and Coordination" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#5b1d58, #ededed);fontColor=light-dark(#5b1d58, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="891.0699999999999" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="Action and Tool Use" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#5b1d58, #ededed);fontColor=light-dark(#5b1d58, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="977" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="Monitoring and Observability" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#5b1d58, #ededed);fontColor=light-dark(#5b1d58, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="1063" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="Evaluation and Guardrails" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#5b1d58, #ededed);fontColor=light-dark(#5b1d58, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="1157" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="AIP1.2 Agent Orchestration" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;fontColor=light-dark(#FFFFFF,#EDEDED);strokeColor=none;fillColor=light-dark(#ac8eab, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="1266.5" y="-26" width="254.5" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="Dynamic&lt;div&gt;&lt;span style=&quot;color: rgb(91, 29, 88);&quot;&gt;Orchestration&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#5b1d58, #ededed);fontColor=light-dark(#5b1d58, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="1352.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="Static Orchestration" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#5b1d58, #ededed);fontColor=light-dark(#5b1d58, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="1272.5" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;AIP1.3 Agent Communication&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;fontColor=light-dark(#FFFFFF,#EDEDED);strokeColor=none;fillColor=light-dark(#ac8eab, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="712" y="40" width="280" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="37" value="AIP1.4 Autonomous Agents&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;fontColor=light-dark(#FFFFFF,#EDEDED);strokeColor=none;fillColor=light-dark(#ac8eab, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="999" y="40" width="222" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="Autonomous Decisioning" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#5b1d58, #ededed);fontColor=light-dark(#5b1d58, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="1003" y="64" width="78" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="38" value="User-to-Agent" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#5b1d58, #ededed);fontColor=light-dark(#5b1d58, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="720" y="64" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="Agent-to-Agent" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#5b1d58, #ededed);fontColor=light-dark(#5b1d58, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="856" y="64" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="49" value="Service-to-Agent" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#5b1d58, #ededed);fontColor=light-dark(#5b1d58, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="784" y="64" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="54" value="Elevated Guardrails" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#5b1d58, #ededed);fontColor=light-dark(#5b1d58, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="1085" y="64" width="62" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="55" value="Human-in-the-Loop" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#5b1d58, #ededed);fontColor=light-dark(#5b1d58, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="1151" y="64" width="62" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="56" value="Agent-to-Storage" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#5b1d58, #ededed);fontColor=light-dark(#5b1d58, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="921" y="64" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="63" value="AIP1.5 Agent Segmentation" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;fontColor=light-dark(#FFFFFF,#EDEDED);strokeColor=none;fillColor=light-dark(#ac8eab, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="1224" y="40" width="297" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="64" value="Worker" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#5b1d58, #ededed);fontColor=light-dark(#5b1d58, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="1297" y="66" width="52" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65" value="Standard" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#5b1d58, #ededed);fontColor=light-dark(#5b1d58, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="1230" y="66" width="62" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="67" value="Manager" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#5b1d58, #ededed);fontColor=light-dark(#5b1d58, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="1352" y="66" width="52" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="72" value="Specialist" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#5b1d58, #ededed);fontColor=light-dark(#5b1d58, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="1411" y="66" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="74" value="Intelligent&lt;div&gt;&lt;span style=&quot;color: rgb(91, 29, 88);&quot;&gt;Orchestration&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#5b1d58, #ededed);fontColor=light-dark(#5b1d58, #ededed);" parent="1" vertex="1">
+          <mxGeometry x="1436.5" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

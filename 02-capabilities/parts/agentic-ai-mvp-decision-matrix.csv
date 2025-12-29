@@ -1,0 +1,14 @@
+AgenticAI Capabilities,Requirements,October 1st MVP Decisions,Alternative Options post MVP,Confidence Rating / Notes
+Agent Development framework,"Define how agents are designed, how they interact, and how they achieve their objectives.","• Strands
+• LangGraph",,"High - mature OSS"
+Agentic hosting / runtime,"Auto-scaling runtimes, scheduler systems, and queue systems for agent execution with Network-level security including private networks and traffic isolation",• AWS AgentCore Runtime,• Kubernetes Containers,"High - Pending General Availability & VPC connectivity"
+Agentic builder (CI/CD),"Code integration, testing, and deployment",• .NEF tooling,,"High - Existing tools with the need to support python"
+GraphDB (Semantic) / VectorDB,Interconnected web of facts that illustrates the semantic relationships between entities.,"• PostgreSQL with Graph (AGE) / Vector extension",• Neo4j,"Medium - requires efforts to manage knowledge lifecycle via Agents"
+Context Memory and State management,"Context management, long-term memory systems, and knowledge stores",• PostgreSQL,• Mem0,"High - Existing database technology"
+Agent Registry,"Metadata about each agent, allowing other agents or systems to discover and interact with them",• Databricks - Unity Catalogue,• Build our own,"Medium - originally intended for data governance framework. Evolved to support agents. Requires testing."
+MCP Gateway,"Aggregating multiple MCP servers behind a single, secure interface.",• None,• Pending analysis,"Low - No market options but not required until we scale"
+MCP Registry / Servers,"Responsible for executing AI logic, handling tool execution, and managing session context between Agents and platform services.","• Use case specific i.e. GitHub, DocMgmt, ServiceNow",• MCP Registry (recent launch from Anthropic),"Medium - undergoing PoC to validate integrations within NAB"
+Agent evaluation & observability,"Specialised monitoring for agent performance, evaluation, conversation quality, and behavioral analytics for business and technical owners","• Databricks - MLFlow3
+• OpenTelemetry (OTEL)",• Inhouse build using OSS that supports both Business and Tech users,"Medium - Built-in LLM judges with automated metrics with Human Feedback integrations. MLflow 3.4 will have external tool integration to pass additional context"
+Large Language Model serving (LLMaaS),Core language models that power agent reasoning and natural language understanding,• Databricks (Mosaic AI Gateway),• AWS Bedrock,"Medium - Requires testing of new frontier models. Limited by geo location and reviews."
+Agent Intent and Eventing Communication Backbone,"Decoupling A2A and enabling asynchronous communication with durable messaging.",• NAB Kafka Eventing,,"High - proven technology. Agent testing required"

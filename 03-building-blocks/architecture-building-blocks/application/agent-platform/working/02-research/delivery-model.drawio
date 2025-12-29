@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2025-08-30T12:00:00.000Z" agent="Claude" etag="example" version="24.7.6" type="device">
+  <diagram name="Page-1" id="page1">
+    <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Top Level Boxes -->
+        <!-- Centralised Platform Team -->
+        <mxCell id="2" value="Centralised&#xa;Platform Team" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B19CD9;strokeColor=#9673A6;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="200" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- People icon for Centralised Platform Team -->
+        <mxCell id="3" value="👥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="140" y="90" width="40" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Persistent Agentic/AI Solution Enablement -->
+        <mxCell id="4" value="Persistent&#xa;Agentic/AI Solution&#xa;Enablement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="200" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- People icons for Persistent Agentic -->
+        <mxCell id="5" value="👥 👥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="380" y="90" width="80" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Domain Aligned Solutions -->
+        <mxCell id="6" value="Domain Aligned&#xa;Solutions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="580" y="40" width="200" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- People icons for Domain Aligned -->
+        <mxCell id="7" value="👥 👥 👥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="620" y="90" width="120" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Arrows between top boxes -->
+        <mxCell id="8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="2" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="4" target="2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="4" target="6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="6" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Second row details -->
+        <mxCell id="12" value="Core&#xa;Infrastructure &amp;&#xa;Security" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="13" value="Model Access and&#xa;Agent Evaluation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="14" value="Tenant Integration /&#xa;Services Build" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="15" value="Agentic Solution&#xa;Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="16" value="Use case assessments&#xa;and prioritisation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="17" value="Risk and&#xa;Compliance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="18" value="Use case &amp; solution&#xa;definition" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="19" value="Build, Deploy and&#xa;Manage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Domain boxes -->
+        <mxCell id="20" value="Domain" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="80" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="21" value="🤖 ⚙️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="85" y="220" width="70" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="22" value="Agent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="85" y="240" width="30" height="15" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="23" value="Auto-scaling" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="115" y="240" width="40" height="15" as="geometry" />
+        </mxCell>
+        
+        <!-- Repeat domain pattern for other 5 domains -->
+        <mxCell id="24" value="Domain" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="200" width="80" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="25" value="🤖 ⚙️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="185" y="220" width="70" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="26" value="Agent Auto-scaling" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="185" y="240" width="70" height="15" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="27" value="Domain" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="80" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="28" value="🤖 ⚙️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="285" y="220" width="70" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="29" value="Agent Auto-scaling" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="285" y="240" width="70" height="15" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="30" value="Domain" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="200" width="80" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="31" value="🤖 ⚙️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="385" y="220" width="70" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="32" value="Agent Auto-scaling" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="385" y="240" width="70" height="15" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="33" value="Domain" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="80" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="34" value="🤖 ⚙️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="485" y="220" width="70" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="35" value="Agent Auto-scaling" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="485" y="240" width="70" height="15" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="36" value="Domain" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="200" width="80" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="37" value="🤖 ⚙️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="585" y="220" width="70" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="38" value="Agent Auto-scaling" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="585" y="240" width="70" height="15" as="geometry" />
+        </mxCell>
+        
+        <!-- Red banner for "Agents as a Product" -->
+        <mxCell id="39" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF0000;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="290" width="580" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="40" value="Agents as a Product" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="200" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="41" value="Delivered from an AgenticAI platform" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=2;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="280" y="315" width="280" height="10" as="geometry" />
+        </mxCell>
+        
+        <!-- AgenticAI Platform box -->
+        <mxCell id="42" value="AgenticAI Platform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9673A6;strokeColor=#9673A6;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="400" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="43" value="'A collection of pre-integrated softwares to enable the authoring and managements of Agents for the enterprise'" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="210" y="380" width="380" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Core Technology Platforms section -->
+        <mxCell id="44" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="450" width="400" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="45" value="Core Technology Platforms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="460" width="160" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Three gray boxes in Core Technology Platforms -->
+        <mxCell id="46" value="Enterprise Data (Ada)&#xa;(MLFlow, Model access)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#808080;strokeColor=#666666;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="210" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="47" value="Enterprise Technology&#xa;(Integration, Observability, Cloud)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#808080;strokeColor=#666666;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="340" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="48" value="NAB Engineering&#xa;Foundations (NEF)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#808080;strokeColor=#666666;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="470" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Side curved arrows and labels -->
+        <!-- Customer Outcomes -->
+        <mxCell id="49" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#0066CC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="200" as="sourcePoint" />
+            <mxPoint x="20" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="50" value="Customer&#xa;Outcomes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="260" width="70" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- The HOW -->
+        <mxCell id="51" value="The HOW" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="390" width="80" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Customer Drivers -->
+        <mxCell id="52" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#0066CC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="340" as="sourcePoint" />
+            <mxPoint x="780" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="53" value="Customer&#xa;Drivers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="745" y="260" width="70" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- The WHAT -->
+        <mxCell id="54" value="The WHAT" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="390" width="80" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Foundational Capabilities -->
+        <mxCell id="55" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#0066CC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="450" as="sourcePoint" />
+            <mxPoint x="20" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="56" value="Foundational&#xa;Capabilities" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="-25" y="505" width="90" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Non-functionals -->
+        <mxCell id="57" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#0066CC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="580" as="sourcePoint" />
+            <mxPoint x="780" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="58" value="Non-&#xa;functionals" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="745" y="505" width="70" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Additional small labels in domain boxes -->
+        <mxCell id="59" value="Agent &amp; MLO Registry" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="85" y="275" width="70" height="12" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="60" value="Agent Observability" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="185" y="275" width="70" height="12" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="61" value="Agent Evaluation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="285" y="275" width="70" height="12" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="62" value="Agent Development" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="485" y="275" width="70" height="12" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="63" value="Agent User Interface" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="585" y="275" width="70" height="12" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="64" value="Context Engineering Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="385" y="275" width="70" height="12" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

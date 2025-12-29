@@ -1,0 +1,83 @@
+Element_ID,Element_Name,Element_Type,Stereotype,Parent_Category,Level,Hierarchy_Path
+prod-001,Products,Container,Grouping,Root,1,Products
+mo-001,Market Operations,Container,Grouping,Products,2,Products > Market Operations
+mo-002,Trading Book Oversight,ServiceDomain,ServiceDomain,Market Operations,3,Products > Market Operations > Trading Book Oversight
+mo-003,Trade Confirmation Matching,ServiceDomain,ServiceDomain,Market Operations,3,Products > Market Operations > Trade Confirmation Matching
+mo-004,Trade Banking,ServiceDomain,ServiceDomain,Market Operations,3,Products > Market Operations > Trade Banking
+mo-005,Trade Settlement,ServiceDomain,ServiceDomain,Market Operations,3,Products > Market Operations > Trade Settlement
+mo-006,Trade and Price Reporting,ServiceDomain,ServiceDomain,Market Operations,3,Products > Market Operations > Trade and Price Reporting
+mo-007,Credit Risk Operations,ServiceDomain,ServiceDomain,Market Operations,3,Products > Market Operations > Credit Risk Operations
+mo-008,Securities Fails Processing,ServiceDomain,ServiceDomain,Market Operations,3,Products > Market Operations > Securities Fails Processing
+mo-009,Financial Instrument Valuation,ServiceDomain,ServiceDomain,Market Operations,3,Products > Market Operations > Financial Instrument Valuation
+mo-010,Corporate Action,ServiceDomain,ServiceDomain,Market Operations,3,Products > Market Operations > Corporate Action
+cf-001,Corporate Finance,Container,Grouping,Products,2,Products > Corporate Finance
+cf-002,ECM And DCM,ServiceDomain,ServiceDomain,Corporate Finance,3,Products > Corporate Finance > ECM And DCM
+cf-003,Private Placement,ServiceDomain,ServiceDomain,Corporate Finance,3,Products > Corporate Finance > Private Placement
+cf-004,Public Offering,ServiceDomain,ServiceDomain,Corporate Finance,3,Products > Corporate Finance > Public Offering
+cf-005,Unit Trust Administration,ServiceDomain,ServiceDomain,Corporate Finance,3,Products > Corporate Finance > Unit Trust Administration
+cf-006,Hedge Fund Administration,ServiceDomain,ServiceDomain,Corporate Finance,3,Products > Corporate Finance > Hedge Fund Administration
+cf-007,Mutual Fund Administration,ServiceDomain,ServiceDomain,Corporate Finance,3,Products > Corporate Finance > Mutual Fund Administration
+ld-001,Loans and Deposits,Container,Grouping,Products,2,Products > Loans and Deposits
+ld-002,Consumer Loan,ServiceDomain,ServiceDomain,Loans and Deposits,3,Products > Loans and Deposits > Consumer Loan
+ld-003,Corporate Loan,ServiceDomain,ServiceDomain,Loans and Deposits,3,Products > Loans and Deposits > Corporate Loan
+ld-004,Corporate Lease,ServiceDomain,ServiceDomain,Loans and Deposits,3,Products > Loans and Deposits > Corporate Lease
+ld-005,Leasing Item Administration,ServiceDomain,ServiceDomain,Loans and Deposits,3,Products > Loans and Deposits > Leasing Item Administration
+ld-006,Syndicated Loan,ServiceDomain,ServiceDomain,Loans and Deposits,3,Products > Loans and Deposits > Syndicated Loan
+ld-007,Fiduciary Agreement,ServiceDomain,ServiceDomain,Loans and Deposits,3,Products > Loans and Deposits > Fiduciary Agreement
+ld-008,Underwriting,ServiceDomain,ServiceDomain,Loans and Deposits,3,Products > Loans and Deposits > Underwriting
+ld-009,Standing Order,ServiceDomain,ServiceDomain,Loans and Deposits,3,Products > Loans and Deposits > Standing Order
+ld-010,Consumer Loan,ServiceDomain,ServiceDomain,Loans and Deposits,3,Products > Loans and Deposits > Consumer Loan
+ld-011,Mortgage Loan,ServiceDomain,ServiceDomain,Loans and Deposits,3,Products > Loans and Deposits > Mortgage Loan
+ld-012,Merchandising Loan,ServiceDomain,ServiceDomain,Loans and Deposits,3,Products > Loans and Deposits > Merchandising Loan
+ld-013,Leasing,ServiceDomain,ServiceDomain,Loans and Deposits,3,Products > Loans and Deposits > Leasing
+ld-014,Savings Account,ServiceDomain,ServiceDomain,Loans and Deposits,3,Products > Loans and Deposits > Savings Account
+ld-015,Term Deposit,ServiceDomain,ServiceDomain,Loans and Deposits,3,Products > Loans and Deposits > Term Deposit
+card-001,Cards,Container,Grouping,Products,2,Products > Cards
+card-002,Credit Card,ServiceDomain,ServiceDomain,Cards,3,Products > Cards > Credit Card
+card-003,Card Authorization,ServiceDomain,ServiceDomain,Cards,3,Products > Cards > Card Authorization
+card-004,Card Transaction Capture,ServiceDomain,ServiceDomain,Cards,3,Products > Cards > Card Transaction Capture
+card-005,Merchant Relations,ServiceDomain,ServiceDomain,Cards,3,Products > Cards > Merchant Relations
+card-006,Card Network Participant Facility,ServiceDomain,ServiceDomain,Cards,3,Products > Cards > Card Network Participant Facility
+card-007,Merchant Acquiring Facility,ServiceDomain,ServiceDomain,Cards,3,Products > Cards > Merchant Acquiring Facility
+card-008,Credit Card Position Keeping,ServiceDomain,ServiceDomain,Cards,3,Products > Cards > Credit Card Position Keeping
+mt-001,Market Trading,Container,Grouping,Products,2,Products > Market Trading
+mt-002,Trader Position Operations,ServiceDomain,ServiceDomain,Market Trading,3,Products > Market Trading > Trader Position Operations
+mt-003,Market Order,ServiceDomain,ServiceDomain,Market Trading,3,Products > Market Trading > Market Order
+mt-004,Market Risk Execution,ServiceDomain,ServiceDomain,Market Trading,3,Products > Market Trading > Market Risk Execution
+mt-005,Dealer Desk,ServiceDomain,ServiceDomain,Market Trading,3,Products > Market Trading > Dealer Desk
+mt-006,Suitability Checking,ServiceDomain,ServiceDomain,Market Trading,3,Products > Market Trading > Suitability Checking
+mt-007,Quote Management,ServiceDomain,ServiceDomain,Market Trading,3,Products > Market Trading > Quote Management
+mt-008,Market Making,ServiceDomain,ServiceDomain,Market Trading,3,Products > Market Trading > Market Making
+mt-009,Program Trading,ServiceDomain,ServiceDomain,Market Trading,3,Products > Market Trading > Program Trading
+mt-010,Direct Lending and Repos,ServiceDomain,ServiceDomain,Market Trading,3,Products > Market Trading > Direct Lending and Repos
+as-001,Advisory Services,Container,Grouping,Products,2,Products > Advisory Services
+as-002,Mergers And Acquisitions Advisory,ServiceDomain,ServiceDomain,Advisory Services,3,Products > Advisory Services > Mergers And Acquisitions Advisory
+as-003,Corporate Finance,ServiceDomain,ServiceDomain,Advisory Services,3,Products > Advisory Services > Corporate Finance
+as-004,Legal Advisory,ServiceDomain,ServiceDomain,Advisory Services,3,Products > Advisory Services > Legal Advisory
+as-005,Consumer Tax Advisory,ServiceDomain,ServiceDomain,Advisory Services,3,Products > Advisory Services > Consumer Tax Advisory
+as-006,Investment Advisory Services,ServiceDomain,ServiceDomain,Advisory Services,3,Products > Advisory Services > Investment Advisory Services
+tb-001,Trade Banking,Container,Grouping,Products,2,Products > Trade Banking
+tb-002,Letter of Credit,ServiceDomain,ServiceDomain,Trade Banking,3,Products > Trade Banking > Letter of Credit
+tb-003,Bank Guarantee,ServiceDomain,ServiceDomain,Trade Banking,3,Products > Trade Banking > Bank Guarantee
+tb-004,Bank Drafts,ServiceDomain,ServiceDomain,Trade Banking,3,Products > Trade Banking > Bank Drafts
+cb-001,Corporate Banking,Container,Grouping,Products,2,Products > Corporate Banking
+cb-002,Corporate Current Account,ServiceDomain,ServiceDomain,Corporate Banking,3,Products > Corporate Banking > Corporate Current Account
+cb-003,Cash Management And Account,ServiceDomain,ServiceDomain,Corporate Banking,3,Products > Corporate Banking > Cash Management And Account
+cb-004,Corporate Trust Services,ServiceDomain,ServiceDomain,Corporate Banking,3,Products > Corporate Banking > Corporate Trust Services
+cb-005,Credit Facility,ServiceDomain,ServiceDomain,Corporate Banking,3,Products > Corporate Banking > Credit Facility
+cb-006,Project Finance,ServiceDomain,ServiceDomain,Corporate Banking,3,Products > Corporate Banking > Project Finance
+cb-007,Cash Concentration,ServiceDomain,ServiceDomain,Corporate Banking,3,Products > Corporate Banking > Cash Concentration
+cb-008,Virtual Account,ServiceDomain,ServiceDomain,Corporate Banking,3,Products > Corporate Banking > Virtual Account
+cb-009,Direct Debit,ServiceDomain,ServiceDomain,Corporate Banking,3,Products > Corporate Banking > Direct Debit
+cb-010,Fixed Debit Mandate,ServiceDomain,ServiceDomain,Corporate Banking,3,Products > Corporate Banking > Fixed Debit Mandate
+cb-011,Savings Lock Box,ServiceDomain,ServiceDomain,Corporate Banking,3,Products > Corporate Banking > Savings Lock Box
+cb-012,Factoring,ServiceDomain,ServiceDomain,Corporate Banking,3,Products > Corporate Banking > Factoring
+cb-013,Notional Pooling,ServiceDomain,ServiceDomain,Corporate Banking,3,Products > Corporate Banking > Notional Pooling
+cb-014,Corporate Payroll Services,ServiceDomain,ServiceDomain,Corporate Banking,3,Products > Corporate Banking > Corporate Payroll Services
+cons-001,Consumer Banking,Container,Grouping,Products,2,Products > Consumer Banking
+cons-002,Current Account,ServiceDomain,ServiceDomain,Consumer Banking,3,Products > Consumer Banking > Current Account
+cons-003,Brokered Product,ServiceDomain,ServiceDomain,Consumer Banking,3,Products > Consumer Banking > Brokered Product
+cons-004,Sales Product,ServiceDomain,ServiceDomain,Consumer Banking,3,Products > Consumer Banking > Sales Product
+cons-005,Trust Services,ServiceDomain,ServiceDomain,Consumer Banking,3,Products > Consumer Banking > Trust Services
+cons-006,Payment Initiation,ServiceDomain,ServiceDomain,Consumer Banking,3,Products > Consumer Banking > Payment Initiation
+cons-007,Currency Exchange,ServiceDomain,ServiceDomain,Consumer Banking,3,Products > Consumer Banking > Currency Exchange

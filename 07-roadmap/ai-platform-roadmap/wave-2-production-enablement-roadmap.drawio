@@ -1,0 +1,371 @@
+<mxfile host="app.diagrams.net" modified="2025-12-09" agent="Claude Code" version="22.1.0" etag="BNZ-AI-Platform-Wave2" type="device">
+  <diagram id="wave2-production" name="Wave 2 - Production Enablement">
+    <mxGraphModel dx="2400" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Title -->
+        <mxCell id="title" value="WAVE 2: PRODUCTION ENABLEMENT" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=28;fontStyle=1;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="700" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="subtitle" value="First Use Case Deployment &amp; Production Hardening | Jan 2026 - Jun 2026" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="600" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="40" width="500" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1865" y="50" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-production" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1865" y="75" width="25" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-production-text" value="Production Component" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="72" width="150" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-usecase" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6B35;fillColor=#FF6B35;" vertex="1" parent="1">
+          <mxGeometry x="1865" y="95" width="25" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-usecase-text" value="Use-Case Specific" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="92" width="150" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-release" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#00A651;fillColor=#00A651;" vertex="1" parent="1">
+          <mxGeometry x="1865" y="115" width="25" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-release-text" value="Release Milestone" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="115" width="150" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-continuous" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#50E6FF;fillColor=#50E6FF;" vertex="1" parent="1">
+          <mxGeometry x="1865" y="140" width="25" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-continuous-text" value="Continuous Enhancement" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="137" width="150" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-dep" value="" style="endArrow=classic;html=1;strokeColor=#FF6B35;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2070" y="82" as="sourcePoint"/>
+            <mxPoint x="2120" y="82" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-dep-text" value="Dependency" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="72" width="100" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-wave1" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;fillColor=#E8E8E8;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="110" width="25" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-wave1-text" value="Wave 1 Foundation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="2105" y="107" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-endorsed" value="" style="triangle;whiteSpace=wrap;html=1;strokeColor=#00A651;fillColor=#00A651;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="135" width="25" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-endorsed-text" value="Target State Endorsed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="2105" y="135" width="130" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Timeline Header -->
+        <mxCell id="timeline-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="200" y="130" width="2150" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Quarter Labels -->
+        <mxCell id="q2fy26-label" value="Q2 FY26" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="130" width="450" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="q3fy26-label" value="Q3 FY26" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="650" y="130" width="450" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- Month Labels -->
+        <mxCell id="jan26" value="Jan-26" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="155" width="150" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="feb26" value="Feb-26" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="350" y="155" width="150" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="mar26" value="Mar-26" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="500" y="155" width="150" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="apr26" value="Apr-26" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="650" y="155" width="150" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="may26" value="May-26" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="800" y="155" width="150" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="jun26" value="Jun-26" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="950" y="155" width="150" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- Capability Labels Column -->
+        <mxCell id="cap-header" value="Capabilities" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="140" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== AGENTS DOMAIN ==================== -->
+        <mxCell id="agents-label" value="Agents" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontStyle=1;fontSize=12;fontFamily=Helvetica;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="140" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- AgentCore Production -->
+        <mxCell id="agents-core" value="AgentCore &amp; Copilot Studio Production Ready" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="350" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Agents Target State -->
+        <mxCell id="agents-endorsed" value="" style="triangle;whiteSpace=wrap;html=1;strokeColor=#00A651;fillColor=#00A651;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="25" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="agents-endorsed-text" value="Agents Target&#xa;State Endorsed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#00A651;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="195" width="90" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Agent Integration -->
+        <mxCell id="agents-apps" value="Agents, Applications &amp; Workflows (PEGA Integration)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="350" y="250" width="550" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Agent Enterprise Data -->
+        <mxCell id="agents-data" value="Agents can use Enterprise Data &amp; Foundation Models" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6B35;fillColor=#FF6B35;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="700" y="300" width="400" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== MODELS DOMAIN ==================== -->
+        <mxCell id="models-label" value="Models" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontStyle=1;fontSize=12;fontFamily=Helvetica;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="360" width="140" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Models Target State -->
+        <mxCell id="models-endorsed" value="" style="triangle;whiteSpace=wrap;html=1;strokeColor=#00A651;fillColor=#00A651;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="310" y="360" width="25" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="models-endorsed-text" value="Models Target&#xa;State Endorsed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#00A651;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="355" width="90" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Foundation Models -->
+        <mxCell id="models-llm" value="Foundation Models (LLMs) Available to Agents" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="410" width="550" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- R1 Release -->
+        <mxCell id="models-r1" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#00A651;fillColor=#00A651;" vertex="1" parent="1">
+          <mxGeometry x="440" y="455" width="25" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="models-r1-text" value="R1 - Foundation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#00A651;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="455" width="100" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- SageMaker Uplift -->
+        <mxCell id="models-sagemaker" value="Uplift for Limited Production Use / Scoping for AI Use" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6B35;fillColor=#FF6B35;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="350" y="500" width="450" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- R2 Release -->
+        <mxCell id="models-r2" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#00A651;fillColor=#00A651;" vertex="1" parent="1">
+          <mxGeometry x="850" y="500" width="25" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="models-r2-text" value="R2 - Publishing&#xa;into BDH" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#00A651;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="495" width="100" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== KNOWLEDGE DOMAIN ==================== -->
+        <mxCell id="knowledge-label" value="Knowledge" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontStyle=1;fontSize=12;fontFamily=Helvetica;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="560" width="140" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Knowledge Target State -->
+        <mxCell id="knowledge-endorsed" value="" style="triangle;whiteSpace=wrap;html=1;strokeColor=#00A651;fillColor=#00A651;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="550" y="560" width="25" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="knowledge-endorsed-text" value="Knowledge Target&#xa;State Endorsed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#00A651;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="555" width="100" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Vector RAG -->
+        <mxCell id="knowledge-vector" value="Vector Database Confirmation &amp; Vector RAG Available to Agents" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="610" width="500" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Vector Embeddings -->
+        <mxCell id="knowledge-embed" value="Uplift for Vector Embeddings" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="350" y="660" width="300" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Graph DB Options -->
+        <mxCell id="knowledge-graph-options" value="Graph Database Options &amp; Neo4J Procurement" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6B35;fillColor=#FF6B35;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="710" width="400" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- GraphRAG Available -->
+        <mxCell id="knowledge-graphrag" value="GraphRAG Available to Agents - Neo4J Deployment" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6B35;fillColor=#FF6B35;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="650" y="710" width="400" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- MongoDB -->
+        <mxCell id="knowledge-mongo" value="MongoDB Implementation (Technology / Enterprise Simplification)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#50E6FF;fillColor=#50E6FF;fontColor=#333333;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="760" width="750" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== TECHNOLOGY PLATFORMS ==================== -->
+        <mxCell id="tech-label" value="Technology&#xa;Platforms" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontStyle=1;fontSize=12;fontFamily=Helvetica;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="820" width="140" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Tech Platforms Endorsed -->
+        <mxCell id="tech-endorsed" value="" style="triangle;whiteSpace=wrap;html=1;strokeColor=#00A651;fillColor=#00A651;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="610" y="820" width="25" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="tech-endorsed-text" value="Technology Platforms&#xa;Target State Endorsed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#00A651;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="815" width="120" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- APIs &amp; Integration -->
+        <mxCell id="tech-apis" value="APIs, Integration and Gateways" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="880" width="400" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Security Controls -->
+        <mxCell id="tech-security" value="Security Risk, Controls and Identity" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="350" y="930" width="700" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Data Platform -->
+        <mxCell id="tech-data" value="Data Sources &amp; Targets - Agent Consumption of Enterprise Data, Semantic Management" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#50E6FF;fillColor=#50E6FF;fontColor=#333333;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="980" width="900" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Infrastructure -->
+        <mxCell id="tech-infra" value="Agent Frameworks, Discovery, Orchestration, Memory, Observability, Tool Discovery, Hosting &amp; Scaling" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#50E6FF;fillColor=#50E6FF;fontColor=#333333;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1030" width="900" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Engineering -->
+        <mxCell id="tech-eng" value="Engineering and AI Operations Practices, Governance and Observability" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#50E6FF;fillColor=#50E6FF;fontColor=#333333;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1080" width="700" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== USE CASE DEPLOYMENT ==================== -->
+        <mxCell id="uc-section" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6B35;fillColor=#FFFFFF;arcSize=5;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1150" width="1050" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-title" value="First Use Case Deployment (Select Based on Priority)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#FF6B35;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1160" width="450" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- Use Case Options -->
+        <mxCell id="uc-option1" value="UC-001: FrontLine Partnership Banking" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6B35;fillColor=#FFE4DC;fontColor=#333333;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1200" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-option1-patterns" value="RAG, Agents, Multi-Model, Conversational AI" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1230" width="280" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc-option2" value="UC-007: Contact Centre" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6B35;fillColor=#FFE4DC;fontColor=#333333;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1200" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-option2-patterns" value="Conversational AI, RAG, Agents" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1230" width="280" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc-option3" value="UC-010: SDLC" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6B35;fillColor=#FFE4DC;fontColor=#333333;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1200" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-option3-patterns" value="Agents, RAG, Code Generation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1230" width="280" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc-option4" value="UC-006: HyperPersonalization" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6B35;fillColor=#FFE4DC;fontColor=#333333;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1260" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-option4-patterns" value="ML, Real-Time Scoring, Feature Store" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1290" width="280" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc-option5" value="UC-011: Fincrime" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6B35;fillColor=#FFE4DC;fontColor=#333333;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1260" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-option5-patterns" value="ML, Anomaly Detection, Real-Time" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1290" width="280" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc-option6" value="UC-004: Credit Risk" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6B35;fillColor=#FFE4DC;fontColor=#333333;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1260" width="300" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-option6-patterns" value="ML, Explainability, Batch Prediction" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1290" width="280" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc-note" value="Note: Use case selection determines specific pattern activations and SBB deployments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#FF6B35;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1320" width="500" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== OUTCOMES BOX ==================== -->
+        <mxCell id="outcome-box" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00A651;fillColor=#FFFFFF;arcSize=5;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1380" width="500" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell id="outcome-title" value="Wave 2 Outcomes (Jun 2026)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#00A651;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1390" width="350" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="outcome-1" value="✓ AgentCore &amp; Copilot Studio production ready" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1420" width="400" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="outcome-2" value="✓ Agents, Models, Knowledge target states endorsed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1445" width="400" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="outcome-3" value="✓ Foundation models (LLMs) available to agents" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1470" width="400" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="outcome-4" value="✓ Vector RAG available (PT-005)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1495" width="400" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="outcome-5" value="✓ GraphRAG procurement initiated (PT-019)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1520" width="400" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="outcome-6" value="✓ R1 (Foundation) &amp; R2 (BDH Publishing) releases" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1545" width="400" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="outcome-7" value="✓ First use case live in production" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1570" width="400" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== DEPENDENCIES BOX ==================== -->
+        <mxCell id="dep-box" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1380" width="500" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell id="dep-title" value="Prerequisites from Wave 1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1390" width="350" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="dep-1" value="Governance Framework operational (PT-001)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1420" width="350" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="dep-2" value="Feature Store foundation (PT-003)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1445" width="350" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="dep-3" value="Observability platform (PT-017)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1470" width="350" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="dep-4" value="Security controls (PT-018)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1495" width="350" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="dep-5" value="MLOps Level 2 (PT-002)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1520" width="350" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="dep-6" value="Technology decisions finalized" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1545" width="350" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="dep-7" value="AgentCore &amp; Copilot Studio MVP" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1570" width="350" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Footer -->
+        <mxCell id="footer" value="BNZ AI Platform Architecture | Wave 2: Production Enablement | Version 1.0 | Dec 2025" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1720" width="2300" height="30" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

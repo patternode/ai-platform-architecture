@@ -1,0 +1,710 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "agentic": "https://patternode.com/agentic/",
+    "name": "https://schema.org/name",
+    "description": "https://schema.org/description",
+    "url": "https://schema.org/url",
+    "creator": "https://schema.org/creator",
+    "datePublished": "https://schema.org/datePublished",
+    "version": "https://schema.org/version",
+    "category": "https://schema.org/category",
+    "programmingLanguage": "https://schema.org/programmingLanguage",
+    "operatingSystem": "https://schema.org/operatingSystem",
+    "applicationCategory": "https://schema.org/applicationCategory",
+    "keywords": "https://schema.org/keywords",
+    "license": "https://schema.org/license",
+    "supportedFramework": "agentic:supportedFramework",
+    "architecturalParadigm": "agentic:architecturalParadigm",
+    "targetAudience": "agentic:targetAudience",
+    "deploymentModel": "agentic:deploymentModel",
+    "compatibilityLevel": "agentic:compatibilityLevel",
+    "multiAgentSupport": "agentic:multiAgentSupport",
+    "memoryManagement": "agentic:memoryManagement",
+    "productionReadiness": "agentic:productionReadiness",
+    "enterpriseFeatures": "agentic:enterpriseFeatures",
+    "securityModel": "agentic:securityModel",
+    "primaryFocus": "agentic:primaryFocus",
+    "coreIntegration": "agentic:coreIntegration",
+    "uniqueCapabilities": "agentic:uniqueCapabilities",
+    "implementsParadigm": "agentic:implementsParadigm",
+    "supportsProtocol": "agentic:supportsProtocol",
+    "hasComponent": "agentic:hasComponent",
+    "relatedTo": "https://schema.org/relatedTo"
+  },
+  "@graph": [
+    {
+      "@type": "CreativeWork",
+      "@id": "agentic:AgenticFrameworksAndPlatformsAnalysis",
+      "name": "Agentic AI Frameworks and Platforms",
+      "description": "Comprehensive analysis of agentic AI frameworks and platforms ecosystem",
+      "version": "1.05.4",
+      "datePublished": "2024-01-15",
+      "category": "Technical Analysis",
+      "keywords": ["agentic AI", "frameworks", "platforms", "multi-agent systems", "enterprise AI"]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "agentic:ChainBasedArchitecture",
+      "name": "Chain-Based Architecture",
+      "description": "Sequential flow of linked operations with modular components, ideal for document processing and straightforward automation tasks",
+      "category": "Architectural Paradigm",
+      "hasComponent": [
+        "agentic:SequentialFlow",
+        "agentic:ModularComponents",
+        "agentic:ImplicitStateManagement"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "agentic:GraphBasedArchitecture", 
+      "name": "Graph-Based Architecture",
+      "description": "Stateful directed graphs with explicit workflow control, conditional branching, and checkpoint recovery",
+      "category": "Architectural Paradigm",
+      "hasComponent": [
+        "agentic:StatefulGraphs",
+        "agentic:ConditionalBranching",
+        "agentic:CheckpointRecovery"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "agentic:ConversationalArchitecture",
+      "name": "Conversational Architecture", 
+      "description": "Asynchronous, event-driven agent conversations enabling emergent collaboration",
+      "category": "Architectural Paradigm",
+      "hasComponent": [
+        "agentic:AsynchronousMessaging",
+        "agentic:EventDrivenInteraction",
+        "agentic:EmergentCollaboration"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "agentic:RoleBasedArchitecture",
+      "name": "Role-Based Architecture",
+      "description": "Specialized team members with defined roles and responsibilities, enabling intuitive workflow design",
+      "category": "Architectural Paradigm",
+      "hasComponent": [
+        "agentic:RoleSpecialization",
+        "agentic:TeamCollaboration",
+        "agentic:NaturalLanguageDefinition"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "agentic:ModelFirstArchitecture",
+      "name": "Model-First Architecture",
+      "description": "Production-focused with LLM-driven autonomous reasoning and minimal orchestration code",
+      "category": "Architectural Paradigm",
+      "hasComponent": [
+        "agentic:LLMDrivenReasoning",
+        "agentic:MinimalOrchestration",
+        "agentic:ProductionFocus"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "agentic:LightweightArchitecture",
+      "name": "Lightweight Architecture",
+      "description": "Minimal primitives with explicit handoffs and simple agent-to-agent communication",
+      "category": "Architectural Paradigm",
+      "hasComponent": [
+        "agentic:MinimalPrimitives",
+        "agentic:ExplicitHandoffs",
+        "agentic:SimpleCoordination"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "agentic:EnterpriseArchitecture",
+      "name": "Enterprise Architecture",
+      "description": "Plugin-based with enterprise integration focus and multi-language support",
+      "category": "Architectural Paradigm",
+      "hasComponent": [
+        "agentic:PluginSystem",
+        "agentic:EnterpriseIntegration",
+        "agentic:MultiLanguageSupport"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "agentic:DataNativeArchitecture",
+      "name": "Data-Native Architecture",
+      "description": "Agents operating directly within data platforms with multi-hop reasoning capabilities",
+      "category": "Architectural Paradigm",
+      "hasComponent": [
+        "agentic:DataPlatformIntegration",
+        "agentic:MultiHopReasoning",
+        "agentic:DataGovernance"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "agentic:ConsultingLedArchitecture",
+      "name": "Consulting-Led Architecture",
+      "description": "Enterprise-grade with comprehensive lifecycle management and professional services support",
+      "category": "Architectural Paradigm",
+      "hasComponent": [
+        "agentic:LifecycleManagement",
+        "agentic:ProfessionalServices",
+        "agentic:EnterpriseGovernance"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "agentic:LangChain",
+      "name": "LangChain",
+      "description": "Most widely adopted framework for building LLM-powered applications with comprehensive toolkit of modular components",
+      "applicationCategory": "AI Framework",
+      "programmingLanguage": ["Python", "JavaScript", "TypeScript"],
+      "implementsParadigm": "agentic:ChainBasedArchitecture",
+      "multiAgentSupport": "Extensions Required",
+      "memoryManagement": "Comprehensive",
+      "productionReadiness": true,
+      "creator": {
+        "@type": "Organization",
+        "name": "LangChain Community"
+      },
+      "hasComponent": [
+        "agentic:Prompts",
+        "agentic:Chains", 
+        "agentic:Agents",
+        "agentic:MemoryUtilities"
+      ],
+      "keywords": ["chain-based", "modular", "composable", "LLM applications"]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "agentic:LangGraph",
+      "name": "LangGraph",
+      "description": "Evolution of LangChain toward enterprise-grade applications with stateful directed graph capabilities",
+      "applicationCategory": "AI Framework",
+      "programmingLanguage": ["Python", "JavaScript", "TypeScript"],
+      "implementsParadigm": "agentic:GraphBasedArchitecture",
+      "multiAgentSupport": "Native",
+      "memoryManagement": "Stateful with Persistence",
+      "productionReadiness": true,
+      "creator": {
+        "@type": "Organization", 
+        "name": "LangChain Inc."
+      },
+      "hasComponent": [
+        "agentic:Nodes",
+        "agentic:Edges",
+        "agentic:StateManagement",
+        "agentic:Checkpoints"
+      ],
+      "keywords": ["graph-based", "stateful", "enterprise", "workflow control"]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "agentic:AutoGen",
+      "name": "AutoGen",
+      "description": "Microsoft-developed framework pioneering conversational multi-agent paradigm with emergent workflows",
+      "applicationCategory": "AI Framework",
+      "programmingLanguage": ["Python", ".NET", "C#"],
+      "implementsParadigm": "agentic:ConversationalArchitecture",
+      "multiAgentSupport": "Native Conversational",
+      "memoryManagement": "External Integration",
+      "productionReadiness": true,
+      "creator": {
+        "@type": "Organization",
+        "name": "Microsoft Research"
+      },
+      "hasComponent": [
+        "agentic:CoreEventSystem",
+        "agentic:AgentChatInterface",
+        "agentic:ConversableAgent",
+        "agentic:GroupChatManager"
+      ],
+      "keywords": ["conversational", "emergent", "Microsoft", "research"]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "agentic:CrewAI",
+      "name": "CrewAI",
+      "description": "Role-based framework modeling agent teams after human organizational structures with intuitive development",
+      "applicationCategory": "AI Framework",
+      "programmingLanguage": ["Python"],
+      "implementsParadigm": "agentic:RoleBasedArchitecture",
+      "multiAgentSupport": "Native Team Collaboration",
+      "memoryManagement": "Built-in RAG and SQLite",
+      "productionReadiness": true,
+      "creator": {
+        "@type": "Organization",
+        "name": "CrewAI Team"
+      },
+      "hasComponent": [
+        "agentic:AgentRoles",
+        "agentic:Tasks",
+        "agentic:ProcessOrchestration"
+      ],
+      "keywords": ["role-based", "team collaboration", "rapid development"]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "agentic:StrandsAgents",
+      "name": "Strands Agents",
+      "description": "Production-first framework for AWS cloud environments with minimal boilerplate and LLM-driven decision making",
+      "applicationCategory": "AI Framework",
+      "programmingLanguage": ["Python"],
+      "implementsParadigm": "agentic:ModelFirstArchitecture",
+      "multiAgentSupport": "Multiple Coordination Patterns",
+      "memoryManagement": "Session-based with Cloud Integration",
+      "productionReadiness": true,
+      "operatingSystem": "AWS Cloud",
+      "creator": {
+        "@type": "Organization",
+        "name": "Strands AI"
+      },
+      "hasComponent": [
+        "agentic:AgentLoopPattern",
+        "agentic:MCPSupport",
+        "agentic:A2ACommunication"
+      ],
+      "keywords": ["AWS", "production-first", "model-agnostic", "cloud-native"]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "agentic:OpenAIAgentsSDK",
+      "name": "OpenAI Agents SDK",
+      "description": "Lightweight framework emphasizing simplicity with minimal primitives and explicit control",
+      "applicationCategory": "AI Framework",
+      "programmingLanguage": ["Python", "TypeScript"],
+      "implementsParadigm": "agentic:LightweightArchitecture",
+      "multiAgentSupport": "Simple Handoff-based",
+      "memoryManagement": "Session-based",
+      "productionReadiness": true,
+      "creator": {
+        "@type": "Organization",
+        "name": "OpenAI"
+      },
+      "hasComponent": [
+        "agentic:Agents",
+        "agentic:Handoffs",
+        "agentic:Guardrails",
+        "agentic:Sessions"
+      ],
+      "keywords": ["lightweight", "OpenAI", "simple", "explicit control"]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "agentic:SemanticKernel",
+      "name": "Microsoft Semantic Kernel",
+      "description": "Enterprise-focused framework for integrating AI capabilities into business applications through plugin architecture",
+      "applicationCategory": "AI Framework",
+      "programmingLanguage": ["C#", ".NET", "Python", "Java"],
+      "implementsParadigm": "agentic:EnterpriseArchitecture",
+      "multiAgentSupport": "Multi-agent Orchestration",
+      "memoryManagement": "Enterprise-grade",
+      "productionReadiness": true,
+      "creator": {
+        "@type": "Organization",
+        "name": "Microsoft"
+      },
+      "hasComponent": [
+        "agentic:Plugins",
+        "agentic:Planners",
+        "agentic:Personas",
+        "agentic:Skills",
+        "agentic:PipelinePatterns"
+      ],
+      "keywords": ["enterprise", "Microsoft", "plugin-based", "multi-language"]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "agentic:LlamaIndex",
+      "name": "LlamaIndex",
+      "description": "Data-centric framework specializing in ingesting, indexing, and querying diverse data sources for knowledge-intensive agents",
+      "applicationCategory": "AI Framework",
+      "programmingLanguage": ["Python"],
+      "implementsParadigm": "agentic:DataOrchestrationArchitecture",
+      "multiAgentSupport": "Multi-agent with Data Focus",
+      "memoryManagement": "Advanced Data Indexing",
+      "productionReadiness": true,
+      "creator": {
+        "@type": "Organization",
+        "name": "LlamaIndex Team"
+      },
+      "hasComponent": [
+        "agentic:DataConnectors",
+        "agentic:Indices",
+        "agentic:QueryEngines",
+        "agentic:AgentWorkflows"
+      ],
+      "keywords": ["data-centric", "RAG", "knowledge management", "indexing"]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "agentic:SnowflakeCortexAgents",
+      "name": "Snowflake Cortex Agents",
+      "description": "Data-native agents operating directly within Snowflake platform without data movement",
+      "applicationCategory": "AI Framework",
+      "programmingLanguage": ["SQL", "Python"],
+      "implementsParadigm": "agentic:DataNativeArchitecture",
+      "multiAgentSupport": "Sophisticated Data Platform Native",
+      "memoryManagement": "Data Platform Integrated",
+      "productionReadiness": true,
+      "creator": {
+        "@type": "Organization",
+        "name": "Snowflake Inc."
+      },
+      "hasComponent": [
+        "agentic:CortexServices",
+        "agentic:IntelligencePlatform",
+        "agentic:MultiHopReasoning",
+        "agentic:QueryDecomposition"
+      ],
+      "keywords": ["data-native", "Snowflake", "business intelligence", "conversational BI"]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "agentic:AccentureDistillerFramework",
+      "name": "Accenture Distiller Framework",
+      "description": "Consulting-led enterprise framework with comprehensive lifecycle management and physical AI capabilities",
+      "applicationCategory": "AI Framework",
+      "programmingLanguage": ["Multiple Languages"],
+      "implementsParadigm": "agentic:ConsultingLedArchitecture",
+      "multiAgentSupport": "Complex Multi-agent Orchestration",
+      "memoryManagement": "Advanced Enterprise Controls",
+      "productionReadiness": true,
+      "creator": {
+        "@type": "Organization",
+        "name": "Accenture"
+      },
+      "hasComponent": [
+        "agentic:AIRefineryPlatform",
+        "agentic:PhysicalAISDK",
+        "agentic:MultiAgentCollaboration",
+        "agentic:GovernanceFramework"
+      ],
+      "keywords": ["consulting-led", "enterprise", "physical AI", "governance"]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "agentic:AWSBedrockAgentCore",
+      "name": "AWS Bedrock AgentCore",
+      "description": "Modular, composable cloud platform with comprehensive components for managed agent runtime",
+      "applicationCategory": "AI Platform",
+      "primaryFocus": "Managed Runtime",
+      "coreIntegration": "AWS Services, Amazon Bedrock",
+      "securityModel": "Session Isolation, IAM",
+      "targetAudience": "General-purpose AWS users, custom agent developers",
+      "creator": {
+        "@type": "Organization",
+        "name": "Amazon Web Services"
+      },
+      "supportedFramework": [
+        "agentic:LangGraph",
+        "agentic:CrewAI", 
+        "agentic:LlamaIndex",
+        "agentic:LangChain",
+        "agentic:AutoGen",
+        "agentic:StrandsAgents",
+        "agentic:SemanticKernel"
+      ],
+      "hasComponent": [
+        "agentic:ServerlessRuntime",
+        "agentic:APIGateway",
+        "agentic:ManagedMemory",
+        "agentic:IdentityManagement",
+        "agentic:ObservabilityDashboards",
+        "agentic:SecureCodeInterpreter"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "agentic:DatabricksMosaicAI",
+      "name": "Databricks Mosaic AI Agent Framework",
+      "description": "Data-centric MLOps platform integrated with Data Intelligence Platform and Unity Catalog",
+      "applicationCategory": "AI Platform",
+      "primaryFocus": "Data-Centric MLOps",
+      "coreIntegration": "Lakehouse, MLflow",
+      "securityModel": "Data Governance, PII Detection",
+      "targetAudience": "Data-centric organizations, ML teams",
+      "creator": {
+        "@type": "Organization",
+        "name": "Databricks Inc."
+      },
+      "supportedFramework": [
+        "agentic:LangChain",
+        "agentic:LangGraph",
+        "agentic:LlamaIndex"
+      ],
+      "hasComponent": [
+        "agentic:AgentSDK",
+        "agentic:MLflowLifecycle",
+        "agentic:AgentEvaluation",
+        "agentic:DataIntegration",
+        "agentic:UnityCatalogGovernance",
+        "agentic:VectorSearch"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "agentic:AzureAIFoundry",
+      "name": "Azure AI Foundry",
+      "description": "Enterprise-grade platform for professional developers to build, deploy, and manage intelligent AI agents at scale",
+      "applicationCategory": "AI Platform",
+      "primaryFocus": "Enterprise Development",
+      "coreIntegration": "Microsoft Ecosystem",
+      "securityModel": "Content Filters, RBAC",
+      "targetAudience": "Professional developers, AI engineers, enterprise teams",
+      "creator": {
+        "@type": "Organization",
+        "name": "Microsoft Corporation"
+      },
+      "supportedFramework": [
+        "agentic:SemanticKernel",
+        "agentic:LangChain",
+        "agentic:AutoGen",
+        "agentic:LangGraph"
+      ],
+      "hasComponent": [
+        "agentic:ModelEcosystem",
+        "agentic:AgentService",
+        "agentic:CustomizationTools",
+        "agentic:EnterpriseManagement",
+        "agentic:ObservabilityTools",
+        "agentic:GitHubIntegration"
+      ],
+      "uniqueCapabilities": [
+        "Enterprise-Grade Infrastructure",
+        "Complex Multi-Agent Orchestration", 
+        "Professional Developer Focus",
+        "Azure Ecosystem Integration",
+        "Model Fine-Tuning"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "agentic:MicrosoftCopilotStudio",
+      "name": "Microsoft Copilot Studio",
+      "description": "Low-code platform designed to democratize AI agent creation for business users and citizen developers",
+      "applicationCategory": "AI Platform",
+      "primaryFocus": "Low-Code Development",
+      "coreIntegration": "Microsoft 365, Power Platform",
+      "securityModel": "DLP, Microsoft Entra ID",
+      "targetAudience": "Business users, citizen developers",
+      "creator": {
+        "@type": "Organization",
+        "name": "Microsoft Corporation"
+      },
+      "supportedFramework": [
+        "agentic:BuiltInLowCodeFramework",
+        "agentic:SemanticKernel"
+      ],
+      "hasComponent": [
+        "agentic:VisualAgentDesigner",
+        "agentic:LowCodeDevelopment",
+        "agentic:MultiAgentOrchestration",
+        "agentic:Microsoft365Integration",
+        "agentic:DeploymentChannels",
+        "agentic:EnterpriseGovernance",
+        "agentic:BYOMSupport"
+      ],
+      "uniqueCapabilities": [
+        "Citizen Developer Empowerment",
+        "Rapid Prototyping",
+        "Microsoft 365 Workflow Enhancement",
+        "Business User Focus",
+        "Cross-Functional Agent Collaboration"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "agentic:SalesforceAgentForce",
+      "name": "Salesforce AgentForce",
+      "description": "CRM-centric platform with Atlas Reasoning Engine for customer-focused agent applications",
+      "applicationCategory": "AI Platform", 
+      "primaryFocus": "CRM Integration",
+      "coreIntegration": "Salesforce Platform",
+      "securityModel": "Zero Copy Data Access",
+      "targetAudience": "Salesforce-invested organizations, CRM-focused applications",
+      "creator": {
+        "@type": "Organization",
+        "name": "Salesforce Inc."
+      },
+      "supportedFramework": [
+        "agentic:SalesforceNative",
+        "agentic:LangChain"
+      ],
+      "hasComponent": [
+        "agentic:AgentBuilder",
+        "agentic:DataCloudIntegration",
+        "agentic:EcosystemIntegration",
+        "agentic:VerticalAgents",
+        "agentic:AtlasReasoningEngine",
+        "agentic:ToolActionLayer"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "agentic:SnowflakeCortexPlatform",
+      "name": "Snowflake Cortex AI Platform",
+      "description": "Data-centric AI platform embedded within Snowflake's cloud data platform",
+      "applicationCategory": "AI Platform",
+      "primaryFocus": "Data-Native AI",
+      "coreIntegration": "Snowflake Data Cloud",
+      "securityModel": "Data Governance, Access Controls",
+      "targetAudience": "Data-centric organizations, BI teams",
+      "creator": {
+        "@type": "Organization",
+        "name": "Snowflake Inc."
+      },
+      "supportedFramework": [
+        "agentic:SnowflakeCortexAgents",
+        "agentic:LangChain",
+        "agentic:LlamaIndex"
+      ],
+      "hasComponent": [
+        "agentic:SnowflakeCortex",
+        "agentic:CortexAgents",
+        "agentic:SnowflakeIntelligence",
+        "agentic:DataIntegration",
+        "agentic:VectorDatabase",
+        "agentic:ModelServing"
+      ],
+      "uniqueCapabilities": [
+        "Data-Native Agents",
+        "Multi-Hop Strategy Execution",
+        "Conversational Data Interface",
+        "Enterprise Data Governance"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "agentic:AccentureAIRefinery",
+      "name": "Accenture AI Refinery™ Platform",
+      "description": "Enterprise-grade platform for building, deploying, and scaling advanced AI agents with consulting support",
+      "applicationCategory": "AI Platform",
+      "primaryFocus": "Enterprise Consulting",
+      "coreIntegration": "Multi-Cloud, On-Premises",
+      "securityModel": "Enterprise Governance, Zero Trust",
+      "targetAudience": "Large enterprises, industrial organizations",
+      "creator": {
+        "@type": "Organization",
+        "name": "Accenture PLC"
+      },
+      "supportedFramework": [
+        "agentic:AccentureDistillerFramework",
+        "agentic:LangChain",
+        "agentic:LangGraph",
+        "agentic:SemanticKernel"
+      ],
+      "hasComponent": [
+        "agentic:AIRefineryPlatform",
+        "agentic:DistillerAgenticFramework",
+        "agentic:PhysicalAISDK",
+        "agentic:MultiAgentCollaboration",
+        "agentic:MemoryManagement",
+        "agentic:GovernanceFramework"
+      ],
+      "deploymentModel": [
+        "Public Cloud",
+        "Private Cloud", 
+        "On-Premises",
+        "Hybrid"
+      ],
+      "uniqueCapabilities": [
+        "Physical AI Integration",
+        "Industrial Applications",
+        "Enterprise Consulting",
+        "Industry Specialization",
+        "Governance at Scale"
+      ]
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "agentic:CanonicalxAgentFramework",
+      "name": "Canonical xAgentFramework Architecture",
+      "description": "Universal design principles for agentic frameworks based on comprehensive analysis",
+      "hasComponent": [
+        "agentic:AgentAbstractionLayer",
+        "agentic:OrchestrationEngine", 
+        "agentic:CommunicationLayer",
+        "agentic:MemoryManagementArchitecture",
+        "agentic:ToolingIntegrationLayer"
+      ]
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "agentic:CanonicalxAgentPlatform",
+      "name": "Canonical xAgentPlatform Architecture", 
+      "description": "Comprehensive runtime infrastructure supporting multi-agent applications",
+      "hasComponent": [
+        "agentic:RuntimePlatformLayer",
+        "agentic:TrustGovernanceLayer",
+        "agentic:DataPlatformLayer",
+        "agentic:IntegrationServicesLayer",
+        "agentic:OperationsPlatformLayer"
+      ]
+    },
+    {
+      "@type": "Protocol",
+      "@id": "agentic:ModelContextProtocol",
+      "name": "Model Context Protocol (MCP)",
+      "description": "Standardized tool integration interfaces for agent-to-tool communication",
+      "category": "Communication Protocol",
+      "keywords": ["standardization", "tool integration", "interoperability"]
+    },
+    {
+      "@type": "Protocol", 
+      "@id": "agentic:AgentToAgentProtocol",
+      "name": "Agent-to-Agent (A2A) Protocol",
+      "description": "Communication protocol for direct agent-to-agent interaction",
+      "category": "Communication Protocol", 
+      "keywords": ["agent communication", "coordination", "collaboration"]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "agentic:OpenSourceSystems",
+      "name": "Open Source Agentic AI Systems",
+      "description": "Publicly accessible frameworks enabling inspection, modification, and distribution",
+      "category": "Delivery Model",
+      "hasComponent": [
+        "agentic:LangChain",
+        "agentic:LangGraph", 
+        "agentic:AutoGen",
+        "agentic:CrewAI",
+        "agentic:LlamaIndex"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "agentic:ClosedSourceSystems", 
+      "name": "Closed Source Agentic AI Systems",
+      "description": "Proprietary systems with restricted source code access and commercial support",
+      "category": "Delivery Model",
+      "hasComponent": [
+        "agentic:AWSBedrockAgentCore",
+        "agentic:SnowflakeCortexAgents",
+        "agentic:SalesforceAgentForce",
+        "agentic:OpenAIAgentsSDK"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "agentic:ConsultancySourceSystems",
+      "name": "Consultancy Sourced Agentic AI Systems", 
+      "description": "Enterprise platforms delivered through professional services and consulting engagement",
+      "category": "Delivery Model",
+      "hasComponent": [
+        "agentic:AccentureAIRefinery"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "agentic:CompatibilityMatrix",
+      "name": "Framework-Platform Compatibility Matrix",
+      "description": "Comprehensive mapping of framework support across different platforms",
+      "category": "Technical Analysis",
+      "hasComponent": [
+        "agentic:CompatibilityLevels",
+        "agentic:IntegrationPatterns",
+        "agentic:SupportModels"
+      ]
+    }
+  ]
+}

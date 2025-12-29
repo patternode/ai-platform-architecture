@@ -1,0 +1,79 @@
+<mxfile host="65bd71144e">
+    <diagram name="BIAN Business Management ArchiMate" id="bian-archimate">
+        <mxGraphModel dx="543" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="800" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="main-container" value="Business Management" style="swimlane;startSize=30;fillColor=#b3b3b3;strokeColor=#666666;fontSize=12;fontStyle=1;fontColor=#000000;swimlaneFillColor=#cccccc;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="10" width="470" height="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="corp-relations-container" value="Corporate Relations" style="swimlane;startSize=25;fillColor=#99ccff;strokeColor=#6699cc;fontSize=11;fontStyle=1;fontColor=#000000;swimlaneFillColor=#cce6ff;" parent="main-container" vertex="1">
+                    <mxGeometry x="10" y="40" width="220" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="cr-1" value="Investment Banking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="corp-relations-container" vertex="1">
+                    <mxGeometry x="10" y="35" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="cr-2" value="Investor Relations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="corp-relations-container" vertex="1">
+                    <mxGeometry x="10" y="85" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="cr-3" value="Corporate Relationship" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="corp-relations-container" vertex="1">
+                    <mxGeometry x="10" y="135" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="cr-4" value="Corporate Alliance and Stake Holder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="corp-relations-container" vertex="1">
+                    <mxGeometry x="10" y="185" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="cr-5" value="Corporate Communications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="corp-relations-container" vertex="1">
+                    <mxGeometry x="10" y="235" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="corp-services-container" value="Corporate Services" style="swimlane;startSize=25;fillColor=#99ccff;strokeColor=#6699cc;fontSize=11;fontStyle=1;fontColor=#000000;swimlaneFillColor=#cce6ff;" parent="main-container" vertex="1">
+                    <mxGeometry x="10" y="380" width="220" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="cs-1" value="Legal Compliance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="corp-services-container" vertex="1">
+                    <mxGeometry x="10" y="35" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="cs-2" value="Internal Audit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="corp-services-container" vertex="1">
+                    <mxGeometry x="10" y="85" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="cs-3" value="Security Advisory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="corp-services-container" vertex="1">
+                    <mxGeometry x="10" y="135" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="cs-4" value="Security Assurance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="corp-services-container" vertex="1">
+                    <mxGeometry x="10" y="185" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="cs-5" value="Continuity Planning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="corp-services-container" vertex="1">
+                    <mxGeometry x="10" y="235" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="bus-direction-container" value="Business Direction" style="swimlane;startSize=25;fillColor=#99ccff;strokeColor=#6699cc;fontSize=11;fontStyle=1;fontColor=#000000;swimlaneFillColor=#cce6ff;" parent="main-container" vertex="1">
+                    <mxGeometry x="240" y="40" width="220" height="630" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-1" value="Corporate Strategy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="bus-direction-container" vertex="1">
+                    <mxGeometry x="10" y="35" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-2" value="Corporate Policies" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="bus-direction-container" vertex="1">
+                    <mxGeometry x="10" y="85" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-3" value="Corporate Strategy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="bus-direction-container" vertex="1">
+                    <mxGeometry x="10" y="135" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-4" value="Organization Direction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="bus-direction-container" vertex="1">
+                    <mxGeometry x="10" y="185" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-5" value="Products and Services Direction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="bus-direction-container" vertex="1">
+                    <mxGeometry x="10" y="235" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-6" value="Human Resources Direction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="bus-direction-container" vertex="1">
+                    <mxGeometry x="10" y="285" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-7" value="IT Systems Direction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="bus-direction-container" vertex="1">
+                    <mxGeometry x="10" y="335" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-8" value="Asset And Liability Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="bus-direction-container" vertex="1">
+                    <mxGeometry x="10" y="385" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="bd-9" value="Property Portfolio" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#cc6600;fontSize=10;align=center;" parent="bus-direction-container" vertex="1">
+                    <mxGeometry x="10" y="435" width="200" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

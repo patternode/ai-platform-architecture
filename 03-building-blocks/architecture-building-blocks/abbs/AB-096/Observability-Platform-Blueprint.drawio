@@ -1,0 +1,322 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="AB-096 Observability Platform Blueprint" id="ab096-blueprint">
+    <mxGraphModel dx="2194" dy="1294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry y="70" width="1920" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="header-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=none;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry y="90" width="1920" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="header-title" value="AB-096 | Observability Platform" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;fontStyle=1;fontColor=#FFFFFF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="40" y="95.13513513513513" width="600" height="50.270270270270274" as="geometry" />
+        </mxCell>
+        <mxCell id="header-subtitle" value="Centralized platform for metrics, logs, and traces across all AI systems" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#50E6FF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="101.41891891891892" width="680" height="37.7027027027027" as="geometry" />
+        </mxCell>
+        <mxCell id="stats-badge" value="37 References | 16 Use Cases | 21 Patterns" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=none;fontSize=16;fontColor=#FFFFFF;fontFamily=Calibri;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="189.3918918918919" width="260" height="37.7027027027027" as="geometry" />
+        </mxCell>
+        <mxCell id="input-section-title" value="INPUT SOURCES" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003087;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="40" y="195.67567567567568" width="200" height="37.7027027027027" as="geometry" />
+        </mxCell>
+        <mxCell id="input-ai-systems" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=2;arcSize=8;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="40" y="245.94594594594597" width="200" height="125.67567567567568" as="geometry" />
+        </mxCell>
+        <mxCell id="input-ai-title" value="AI/ML Systems" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#333333;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="40" y="252.22972972972974" width="200" height="31.41891891891892" as="geometry" />
+        </mxCell>
+        <mxCell id="input-ai-desc" value="• Model Inference Services&#xa;• Training Pipelines&#xa;• Feature Stores" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#666666;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="50" y="289.93243243243245" width="180" height="75.4054054054054" as="geometry" />
+        </mxCell>
+        <mxCell id="input-infra" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=2;arcSize=8;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="40" y="396.7567567567568" width="200" height="125.67567567567568" as="geometry" />
+        </mxCell>
+        <mxCell id="input-infra-title" value="Infrastructure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#333333;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="40" y="403.0405405405406" width="200" height="31.41891891891892" as="geometry" />
+        </mxCell>
+        <mxCell id="input-infra-desc" value="• Kubernetes Clusters&#xa;• Cloud Resources&#xa;• Network Components" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#666666;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="50" y="440.7432432432432" width="180" height="75.4054054054054" as="geometry" />
+        </mxCell>
+        <mxCell id="input-apps" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=2;arcSize=8;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="40" y="547.5675675675676" width="200" height="125.67567567567568" as="geometry" />
+        </mxCell>
+        <mxCell id="input-apps-title" value="Applications" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#333333;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="40" y="553.8513513513514" width="200" height="31.41891891891892" as="geometry" />
+        </mxCell>
+        <mxCell id="input-apps-desc" value="• Web Applications&#xa;• API Gateways&#xa;• Microservices" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#666666;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="50" y="591.5540540540541" width="180" height="75.4054054054054" as="geometry" />
+        </mxCell>
+        <mxCell id="input-interfaces" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;arcSize=8;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="40" y="698.3783783783784" width="200" height="150.8108108108108" as="geometry" />
+        </mxCell>
+        <mxCell id="input-if-title" value="Input Interfaces" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003087;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="40" y="704.6621621621622" width="200" height="31.41891891891892" as="geometry" />
+        </mxCell>
+        <mxCell id="input-if-metrics" value="IF-IN-001: Metrics Ingestion" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#003087;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="45" y="746.14" width="200" height="27.64" as="geometry" />
+        </mxCell>
+        <mxCell id="input-if-logs" value="IF-IN-002: Log Ingestion" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#003087;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="45" y="773.78" width="190" height="36.22" as="geometry" />
+        </mxCell>
+        <mxCell id="core-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#001835;strokeWidth=3;arcSize=5;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="280" y="245.94594594594597" width="760" height="603.2432432432432" as="geometry" />
+        </mxCell>
+        <mxCell id="core-title" value="OBSERVABILITY PLATFORM CORE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="280" y="258.51351351351354" width="760" height="37.7027027027027" as="geometry" />
+        </mxCell>
+        <mxCell id="cap-metrics" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#50E6FF;strokeWidth=2;arcSize=10;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="310" y="321.35135135135135" width="220" height="163.3783783783784" as="geometry" />
+        </mxCell>
+        <mxCell id="cap-metrics-title" value="CP-369&#xa;Metrics Collection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003087;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="310" y="327.63513513513516" width="220" height="50.270270270270274" as="geometry" />
+        </mxCell>
+        <mxCell id="cap-metrics-desc" value="Collect and aggregate system&#xa;and business metrics from&#xa;all AI systems with &amp;lt;1%&#xa;data loss" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#666666;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="315" y="384.1891891891892" width="210" height="87.97297297297298" as="geometry" />
+        </mxCell>
+        <mxCell id="cap-logs" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#50E6FF;strokeWidth=2;arcSize=10;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="550" y="321.35135135135135" width="220" height="163.3783783783784" as="geometry" />
+        </mxCell>
+        <mxCell id="cap-logs-title" value="CP-370&#xa;Log Aggregation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003087;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="550" y="327.63513513513516" width="220" height="50.270270270270274" as="geometry" />
+        </mxCell>
+        <mxCell id="cap-logs-desc" value="Centralize logs from all&#xa;services with structured&#xa;indexing and searchable&#xa;archive" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#666666;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="555" y="384.1891891891892" width="210" height="87.97297297297298" as="geometry" />
+        </mxCell>
+        <mxCell id="cap-tracing" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#50E6FF;strokeWidth=2;arcSize=10;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="790" y="321.35135135135135" width="220" height="163.3783783783784" as="geometry" />
+        </mxCell>
+        <mxCell id="cap-tracing-title" value="CP-371&#xa;Distributed Tracing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003087;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="790" y="327.63513513513516" width="220" height="50.270270270270274" as="geometry" />
+        </mxCell>
+        <mxCell id="cap-tracing-desc" value="Trace requests across&#xa;distributed services to&#xa;understand latency and&#xa;identify bottlenecks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#666666;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="795" y="384.1891891891892" width="210" height="87.97297297297298" as="geometry" />
+        </mxCell>
+        <mxCell id="cap-perf" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;arcSize=10;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="380" y="509.8648648648649" width="240" height="163.3783783783784" as="geometry" />
+        </mxCell>
+        <mxCell id="cap-perf-title" value="CP-373&#xa;Performance Monitoring" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003087;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="380" y="516.1486486486486" width="240" height="50.270270270270274" as="geometry" />
+        </mxCell>
+        <mxCell id="cap-perf-desc" value="Track accuracy, latency,&#xa;throughput, and model&#xa;performance in real-time&#xa;with configurable thresholds" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#666666;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="385" y="572.7027027027027" width="230" height="87.97297297297298" as="geometry" />
+        </mxCell>
+        <mxCell id="cap-rca" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;arcSize=10;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="700" y="509.8648648648649" width="240" height="163.3783783783784" as="geometry" />
+        </mxCell>
+        <mxCell id="cap-rca-title" value="CP-384&#xa;Root Cause Analysis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003087;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="700" y="516.1486486486486" width="240" height="50.270270270270274" as="geometry" />
+        </mxCell>
+        <mxCell id="cap-rca-desc" value="Investigate performance&#xa;issues with correlated&#xa;metrics, logs, and traces&#xa;for rapid resolution" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#666666;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="705" y="572.7027027027027" width="230" height="87.97297297297298" as="geometry" />
+        </mxCell>
+        <mxCell id="fr-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#004FA3;strokeColor=none;arcSize=5;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="310" y="698.3783783783784" width="700" height="125.67567567567568" as="geometry" />
+        </mxCell>
+        <mxCell id="fr-title" value="FUNCTIONAL REQUIREMENTS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="320" y="704.6621621621622" width="200" height="25.135135135135137" as="geometry" />
+        </mxCell>
+        <mxCell id="fr-001" value="FR-001&#xa;Metrics Collection&#xa;&amp;lt;1% data loss" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6699CC;strokeColor=none;fontSize=16;fontColor=#FFFFFF;fontFamily=Calibri;align=center;" parent="1" vertex="1">
+          <mxGeometry x="320" y="736.0810810810812" width="155" height="75.4054054054054" as="geometry" />
+        </mxCell>
+        <mxCell id="fr-002" value="FR-002&#xa;Alerting&#xa;&amp;lt;60s trigger time" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6699CC;strokeColor=none;fontSize=16;fontColor=#FFFFFF;fontFamily=Calibri;align=center;" parent="1" vertex="1">
+          <mxGeometry x="490" y="736.0810810810812" width="155" height="75.4054054054054" as="geometry" />
+        </mxCell>
+        <mxCell id="fr-003" value="FR-003&#xa;Visualization&#xa;&amp;lt;3s dashboard load" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6699CC;strokeColor=none;fontSize=16;fontColor=#FFFFFF;fontFamily=Calibri;align=center;" parent="1" vertex="1">
+          <mxGeometry x="660" y="736.0810810810812" width="155" height="75.4054054054054" as="geometry" />
+        </mxCell>
+        <mxCell id="fr-004" value="FR-004&#xa;Anomaly Detection&#xa;Configurable sensitivity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6699CC;strokeColor=none;fontSize=16;fontColor=#FFFFFF;fontFamily=Calibri;align=center;" parent="1" vertex="1">
+          <mxGeometry x="830" y="736.0810810810812" width="165" height="75.4054054054054" as="geometry" />
+        </mxCell>
+        <mxCell id="output-section-title" value="OUTPUT INTERFACES" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003087;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="195.67567567567568" width="200" height="37.7027027027027" as="geometry" />
+        </mxCell>
+        <mxCell id="output-query" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;arcSize=8;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="245.94594594594597" width="240" height="113.10810810810811" as="geometry" />
+        </mxCell>
+        <mxCell id="output-query-title" value="IF-OUT-001: Query API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003087;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="252.22972972972974" width="240" height="31.41891891891892" as="geometry" />
+        </mxCell>
+        <mxCell id="output-query-desc" value="REST / JSON&#xa;Metric and log queries for&#xa;dashboards and analysis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#003087;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1085" y="284.93243243243245" width="230" height="62.83783783783784" as="geometry" />
+        </mxCell>
+        <mxCell id="output-alerts" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B35;strokeColor=#E85A2B;strokeWidth=2;arcSize=8;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="384.19" width="190" height="113.11" as="geometry" />
+        </mxCell>
+        <mxCell id="output-alerts-title" value="IF-OUT-002: Alerts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="390.47" width="170" height="31.42" as="geometry" />
+        </mxCell>
+        <mxCell id="output-alerts-desc" value="Kafka / Avro&#xa;Threshold-based alerts for&#xa;real-time notifications" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#FFFFFF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1085" y="428.18" width="175" height="62.84" as="geometry" />
+        </mxCell>
+        <mxCell id="consumers-title" value="DOWNSTREAM CONSUMERS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003087;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="528.4324324324325" width="250" height="37.7027027027027" as="geometry" />
+        </mxCell>
+        <mxCell id="consumer-dashboard" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=2;arcSize=8;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="572.7027027027027" width="240" height="87.97297297297298" as="geometry" />
+        </mxCell>
+        <mxCell id="consumer-dashboard-title" value="AB-064 Compliance Dashboard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#333333;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="585.2702702702703" width="240" height="25.135135135135137" as="geometry" />
+        </mxCell>
+        <mxCell id="consumer-dashboard-dep" value="Optional Dependency" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#666666;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="616.6891891891892" width="240" height="25.135135135135137" as="geometry" />
+        </mxCell>
+        <mxCell id="consumer-monitoring" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#00A651;strokeWidth=2;arcSize=8;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="685.8108108108108" width="240" height="87.97297297297298" as="geometry" />
+        </mxCell>
+        <mxCell id="consumer-monitoring-title" value="AB-089 Model Monitoring Platform" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#333333;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="698.3783783783784" width="240" height="25.135135135135137" as="geometry" />
+        </mxCell>
+        <mxCell id="consumer-monitoring-dep" value="Required Dependency" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#00A651;fontFamily=Calibri;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="729.7972972972973" width="240" height="25.135135135135137" as="geometry" />
+        </mxCell>
+        <mxCell id="nfr-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#001835;strokeWidth=2;arcSize=8;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="798.918918918919" width="240" height="163.3783783783784" as="geometry" />
+        </mxCell>
+        <mxCell id="nfr-title" value="NON-FUNCTIONAL REQUIREMENTS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="805.2027027027027" width="240" height="25.135135135135137" as="geometry" />
+        </mxCell>
+        <mxCell id="nfr-items" value="• Performance: &amp;lt;1s dashboard response&#xa;• Scalability: 100K metrics/sec&#xa;• Availability: 99.9% uptime SLA&#xa;• Security: TLS 1.3, AES-256&#xa;• Compliance: AU/NZ data residency&#xa;• Reliability: &amp;lt;0.1% error rate" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#FFFFFF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="836.6216216216217" width="220" height="119.3918918918919" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-section-title" value="USE CASE SUPPORT" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003087;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1345" y="195.67567567567568" width="200" height="37.7027027027027" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-col1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=1;arcSize=8;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1342" y="245.95" width="278" height="351.89" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-list1" value="UC-001 Customer Relationship Management&#xa;UC-007 Customer Service&#xa;UC-008 Security AI&#xa;UC-009 Data Products&#xa;UC-010 SDLC&#xa;UC-012 QA/QC&#xa;UC-015 Risk Functions&#xa;UC-016 IT Operations" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#333333;fontFamily=Calibri;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1352" y="258.51" width="270" height="251.35" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-col2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=1;arcSize=8;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="245.94594594594597" width="250" height="351.89189189189193" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-list2" value="UC-017 Enterprise Relationship Management&#xa;UC-018 Procurement&#xa;UC-020 Controls Testing&#xa;UC-022 Learning Content&#xa;UC-023 Collection Management&#xa;&#xa;+ 3 additional use cases&#xa;supporting 16 total" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#333333;fontFamily=Calibri;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="258.51351351351354" width="230" height="251.35135135135135" as="geometry" />
+        </mxCell>
+        <mxCell id="patterns-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#006B35;strokeWidth=2;arcSize=8;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="622.97" width="540" height="150.81" as="geometry" />
+        </mxCell>
+        <mxCell id="patterns-title" value="PRIMARY PATTERN: PT-017 Observability &amp;amp; Monitoring" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="635.5405405405405" width="520" height="31.41891891891892" as="geometry" />
+        </mxCell>
+        <mxCell id="patterns-desc" value="Provides unified monitoring, logging, alerting, and drift detection across all AI systems&#xa;to ensure operational excellence, model performance, and business value delivery.&#xa;&#xa;This ABB is referenced by 21 patterns across the AI Platform architecture." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#FFFFFF;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1370" y="673.2432432432432" width="500" height="87.97297297297298" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-ai-to-core" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#003087;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.106;entryDx=0;entryDy=0;fontSize=16;entryPerimeter=0;" parent="1" source="input-ai-systems" target="core-container" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="308.7837837837838" as="sourcePoint" />
+            <mxPoint x="300" y="245.94594594594597" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-infra-to-core" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#003087;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.354;entryDx=0;entryDy=0;fontSize=16;entryPerimeter=0;" parent="1" source="input-infra" target="core-container" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="459.5945945945946" as="sourcePoint" />
+            <mxPoint x="300" y="396.7567567567568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-apps-to-core" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#003087;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.603;entryDx=0;entryDy=0;fontSize=16;entryPerimeter=0;" parent="1" source="input-apps" target="core-container" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="610.4054054054054" as="sourcePoint" />
+            <mxPoint x="300" y="547.5675675675676" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-core-to-query" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#003087;exitX=0.999;exitY=0.095;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;exitPerimeter=0;" parent="1" source="core-container" target="output-query" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="396.7567567567568" as="sourcePoint" />
+            <mxPoint x="1100" y="333.9189189189189" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-core-to-alerts" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF6B35;exitX=1;exitY=0.35;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.645;entryDx=0;entryDy=0;fontSize=16;entryPerimeter=0;" parent="1" source="core-container" target="output-alerts" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="457.0810810810811" as="sourcePoint" />
+            <mxPoint x="1100" y="440.7432432432432" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-query-to-dashboard" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;strokeDashArray=5;exitX=0.917;exitY=1;exitDx=0;exitDy=0;entryX=0.915;entryY=-0.002;entryDx=0;entryDy=0;fontSize=16;exitPerimeter=0;entryPerimeter=0;" parent="1" source="output-query" target="consumer-dashboard" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="371.6216216216216" as="sourcePoint" />
+            <mxPoint x="1200" y="572.7027027027027" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-alerts-to-monitoring" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#00A651;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontSize=16;rounded=0;curved=0;" parent="1" source="output-alerts" target="consumer-monitoring-title" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="509.8648648648649" as="sourcePoint" />
+            <mxPoint x="1200" y="685.8108108108108" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1175" y="520" />
+              <mxPoint x="1060" y="520" />
+              <mxPoint x="1060" y="724" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tech-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=1;arcSize=5;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="40" y="874.3243243243244" width="1000" height="100.54054054054055" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-title" value="TECHNOLOGY STANDARDS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003087;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="50" y="880.6081081081081" width="180" height="25.135135135135137" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-items" value="Protocols: REST, Kafka  |  Formats: JSON, Avro  |  Security: TLS 1.3, AES-256  |  Compliance: AU/NZ Data Residency  |  Standards: OpenTelemetry, Prometheus, Grafana" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#666666;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="50" y="912.0270270270271" width="980" height="50.270270270270274" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=1;arcSize=5;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1339" y="833.48" width="541" height="125.68" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" value="LEGEND" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003087;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1349" y="839.7635135135135" width="80" height="25.135135135135137" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-primary" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=none;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1349" y="877.4662162162163" width="20" height="18.85135135135135" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-primary-text" value="Core Platform Components" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#333333;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1374" y="874.9527027027027" width="140" height="25.135135135135137" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-capability" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#50E6FF;strokeWidth=2;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1349" y="923.8851351351352" width="20" height="18.85135135135135" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-capability-text" value="Core Capabilities" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#333333;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1374" y="921.3716216216217" width="120" height="25.135135135135137" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-critical" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1495" y="877.4662162162163" width="20" height="18.85135135135135" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-critical-text" value="Critical Capabilities" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#333333;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="874.9527027027027" width="120" height="25.135135135135137" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-interface" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1495" y="923.8851351351352" width="20" height="18.85135135135135" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-interface-text" value="Input/Output Interfaces" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#333333;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="921.3716216216217" width="130" height="25.135135135135137" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-success" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=none;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1636" y="877.4662162162163" width="20" height="18.85135135135135" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-success-text" value="Pattern/Success State" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#333333;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1661" y="874.95" width="159" height="25.14" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-arrow-solid" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#003087;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1636" y="933.9391891891892" as="sourcePoint" />
+            <mxPoint x="1656" y="933.9391891891892" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-arrow-solid-text" value="Data Flow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#333333;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1661" y="921.3716216216217" width="70" height="25.135135135135137" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-arrow-dashed" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;dashed=1;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1746" y="933.9391891891892" as="sourcePoint" />
+            <mxPoint x="1766" y="933.9391891891892" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-arrow-dashed-text" value="Optional Dependency" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#333333;fontFamily=Calibri;" parent="1" vertex="1">
+          <mxGeometry x="1771" y="921.3716216216217" width="120" height="25.135135135135137" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

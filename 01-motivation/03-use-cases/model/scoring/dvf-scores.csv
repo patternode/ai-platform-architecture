@@ -1,0 +1,12 @@
+use_case_id,use_case_name,desirability,viability,feasibility,dvf_total,assessment_date,assessor,notes
+UC-001,Partnership Banking,3,3,2,8,2025-10-15,Shawn Cawood,Strong business pull; technical complexity moderate
+UC-002,Finance,2,3,2,7,2025-10-15,Brian Stapleton,Clear value; depends on data quality
+UC-003,Analytics and Reporting,2,3,2,7,2025-10-15,Tracey Davis,Broad applicability; integration complexity
+UC-004,Credit Risk,3,3,3,9,2025-10-15,Paul Furkert,Regulatory driver; proven patterns exist
+UC-005,Lending Ops,2,3,2,7,2025-10-15,Paul Furkert,Process efficiency gains clear
+UC-006,HyperPersonalization,3,2,3,8,2025-10-15,Corina Elama,High customer impact; platform dependency
+UC-007,Contact Centre,3,2,2,7,2025-10-15,Dan Barratt,Strong user need; vendor integration
+UC-008,Security AI,3,3,2,8,2025-10-15,Francis Kataino,Critical capability; specialized skills needed
+UC-009,Data Products,3,3,2,8,2025-10-15,Tracey Davis,Platform enabler; foundational
+UC-010,SDLC,2,3,2,7,2025-10-15,Glenn Bellam,Developer productivity; adoption risk
+UC-011,Fincrime,3,3,3,9,2025-10-15,Michael Lomas,Regulatory mandate; high urgency

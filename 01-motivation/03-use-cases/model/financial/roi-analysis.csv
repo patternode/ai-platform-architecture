@@ -1,0 +1,6 @@
+use_case_id,use_case_name,total_investment,year_1_benefit,year_2_benefit,year_3_benefit,total_benefit_3yr,roi_3yr_pct,payback_months,irr_pct,status
+UC-001,Partnership Banking,660000,600000,1700000,2750000,5050000,665,9,185,Projected
+UC-004,Credit Risk,862500,1200000,2400000,3500000,7100000,723,7,210,Projected
+UC-006,HyperPersonalization,720000,300000,900000,1500000,2700000,275,16,95,Projected
+UC-009,Data Products,747500,400000,800000,1000000,2200000,194,14,72,Projected
+UC-011,Fincrime,805000,1100000,2000000,2600000,5700000,608,8,195,Projected

@@ -1,0 +1,130 @@
+Old_ID,New_ID,Category,Name
+AB-001,AB-001,AGT,Agent Orchestrator
+AB-002,AB-002,AGT,Tool Registry
+AB-003,AB-003,AGT,Agent Memory System
+AB-004,AB-004,AGT,Planning Module
+AB-005,AB-005,AGT,Execution Engine
+AB-006,AB-006,AGT,Reflection Module
+AB-007,AB-007,AGT,Multi Agent Communication Bus
+AB-008,AB-008,AGT,Human in the Loop Gateway
+AB-009,AB-009,AGT,Agent Cost Monitor
+AB-010,AB-010,AGT,Agent Versioning Manager
+AB-011,AB-011,API,API Gateway
+AB-012,AB-012,API,Explanation API Gateway
+AB-013,AB-013,BAT,Batch Orchestrator
+AB-014,AB-014,BAT,Batch Feature Store
+AB-015,AB-015,BAT,Distributed Processing Engine
+AB-016,AB-016,BAT,Batch Model Registry
+AB-017,AB-017,BAT,Prediction Storage
+AB-018,AB-018,BAT,Data Quality Validator
+AB-019,AB-019,BAT,Incremental Processing Manager
+AB-020,AB-020,BAT,Prediction Version Tracker
+AB-021,AB-021,BAT,Drift Detection Monitor
+AB-022,AB-022,BAT,Result Reconciliation Engine
+AB-023,AB-023,BAT,Batch Explainability Service
+AB-024,AB-024,CAC,Prediction Caching Layer
+AB-025,AB-025,CMP,Traffic Splitter
+AB-026,AB-026,CMP,Performance Comparator
+AB-027,AB-027,CMP,Statistical Test Engine
+AB-028,AB-028,CMP,Model Promotion Service
+AB-029,AB-029,CNV,Conversation State Manager
+AB-030,AB-030,CNV,Intent Classifier
+AB-031,AB-031,CNV,Response Generator
+AB-032,AB-032,CNV,Handoff Logic Engine
+AB-033,AB-033,CNV,Sentiment Analyzer
+AB-034,AB-034,CNV,Entity Extractor
+AB-035,AB-035,CNV,Conversation Summarizer
+AB-036,AB-036,CNV,Multi Channel Orchestrator
+AB-037,AB-037,DAT,Feature Store
+AB-038,AB-038,DAT,Data Lake
+AB-039,AB-039,DAT,Data Versioning Service
+AB-040,AB-040,DOC,Document Classification Engine
+AB-041,AB-041,DOC,OCR Engine
+AB-042,AB-042,DOC,Document Forensics Engine
+AB-043,AB-043,DSH,Data Product Catalog
+AB-044,AB-044,DSH,Domain Data Platform
+AB-045,AB-045,DSH,Data Contract Registry
+AB-046,AB-046,FAI,Fairness Monitoring Engine
+AB-047,AB-047,FTR,Online Feature Store
+AB-048,AB-048,FTR,Feature Engineering Pipeline
+AB-049,AB-049,FTR,Offline Feature Store
+AB-050,AB-050,GEN,Large Language Model Service
+AB-051,AB-051,GEN,Vector Database
+AB-052,AB-052,GEN,Semantic Search Engine
+AB-053,AB-053,GEN,Query Intent Analyzer
+AB-054,AB-054,GEN,Hybrid Search Engine
+AB-055,AB-055,GEN,Reranking Engine
+AB-056,AB-056,GEN,Self Critique Engine
+AB-057,AB-057,GEN,Document Processing Pipeline
+AB-058,AB-058,GEN,Citation Generator
+AB-059,AB-059,GEN,Query Rewriting Engine
+AB-060,AB-060,GOV,AI Model Registry
+AB-061,AB-061,GOV,Risk Assessment Engine
+AB-062,AB-062,GOV,Approval Workflow Orchestrator
+AB-063,AB-063,GOV,ML Model Explainability Engine
+AB-064,AB-064,GOV,Compliance Dashboard
+AB-065,AB-065,GOV,Audit Trail and Logging
+AB-066,AB-066,GOV,AI Gateway
+AB-067,AB-067,GOV,Cost Attribution Engine
+AB-068,AB-068,GOV,Explainability Service
+AB-069,AB-069,GOV,Bias Detection Framework
+AB-070,AB-070,GOV,Data Lineage Tracker
+AB-071,AB-071,GOV,Model Performance Benchmarking
+AB-072,AB-072,INF,Inference Engine
+AB-073,AB-073,INF,Inference Model Registry
+AB-074,AB-074,INT,Event Broker
+AB-075,AB-075,INT,Stream Processing Engine
+AB-076,AB-076,INT,Event Producer Adapter
+AB-077,AB-077,INT,Event Consumer Framework
+AB-078,AB-078,INT,Dead Letter Queue
+AB-079,AB-079,INT,Event Replay Service
+AB-080,AB-080,KNW,Knowledge Base
+AB-081,AB-081,LDB,Load Balancer
+AB-082,AB-082,MDL,Model Serving Infrastructure
+AB-083,AB-083,MDL,Model Fallback Logic
+AB-084,AB-084,MDL,Model Quantization Service
+AB-085,AB-085,MLO,ML Training Pipeline
+AB-086,AB-086,MLO,Model Registry
+AB-087,AB-087,MLO,Model Testing Framework
+AB-088,AB-088,MLO,Model Deployment Orchestrator
+AB-089,AB-089,MLO,Model Monitoring Platform
+AB-090,AB-090,MLO,Model Fallback Logic
+AB-091,AB-091,MLO,Rollback Controller
+AB-092,AB-092,MLO,A B Test Configuration Service
+AB-093,AB-093,MLO,Feature Flag Service
+AB-094,AB-094,NLG,Natural Language Generation
+AB-095,AB-095,NLP,NLP Extraction Engine
+AB-096,AB-096,OBS,Observability Platform
+AB-097,AB-097,OBS,Data Drift Detector
+AB-098,AB-098,OBS,Prediction Drift Monitor
+AB-099,AB-099,OBS,Concept Drift Detector
+AB-100,AB-100,OBS,Cost Monitoring Dashboard
+AB-101,AB-101,OBS,Latency Monitor
+AB-102,AB-102,OBS,Error Tracking System
+AB-103,AB-103,OBS,Business Metrics Tracker
+AB-104,AB-104,OBS,Data Quality Monitor
+AB-105,AB-105,OBS,GenAI Quality Monitor
+AB-106,AB-106,OBS,Automated Retraining Trigger
+AB-107,AB-107,OBS,Stakeholder Dashboard
+AB-108,AB-108,RTE,Model Router
+AB-109,AB-109,RTE,Cost Based Router
+AB-110,AB-110,RTE,Latency Based Router
+AB-111,AB-111,RTE,Capability Based Router
+AB-112,AB-112,SEC,Data Encryption Service
+AB-113,AB-113,SEC,Access Control and Identity Management
+AB-114,AB-114,SEC,PII Detection and Masking Service
+AB-115,AB-115,SEC,Model Security Framework
+AB-116,AB-116,SEC,Audit Logging and Monitoring
+AB-117,AB-117,SEC,Privacy Compliance Engine
+AB-118,AB-118,SEC,Secrets Management
+AB-119,AB-119,SEC,Differential Privacy Engine
+AB-120,AB-120,SEC,Federated Learning Platform
+AB-121,AB-121,SEC,Homomorphic Encryption Service
+AB-122,AB-122,SEC,Secure Multi Party Computation
+AB-123,AB-123,SEC,Data Lineage and Provenance Tracker
+AB-124,AB-124,SEC,Model Watermarking Service
+AB-125,AB-125,SEC,Adversarial Testing Framework
+AB-126,AB-126,STR,Stream Processing Platform
+AB-127,AB-127,VAL,Validation Engine
+AB-128,AB-128,VIS,Explanation Visualization Layer
+AB-129,AB-129,WFL,Human in the Loop Workflow

@@ -1,0 +1,442 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="UC-024 App Personalisation Blueprint" id="uc024-blueprint">
+    <mxGraphModel dx="1765" dy="1034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="header-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="header-title" value="Use Case Blueprint: UC-024 Front-End App Personalisation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="30" y="20" width="900" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="header-subtitle" value="AI-Powered Mobile App Hyper-Personalisation Platform" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#FFFFFF;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="25" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="summary-panel" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="30" y="110" width="580" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="summary-header" value="Use Case Summary" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#003087;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="50" y="125" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="summary-id" value="ID: UC-024" style="text;html=1;strokeColor=none;fillColor=#6699CC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="50" y="165" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="summary-category" value="Category: Marketing & Personalization" style="text;html=1;strokeColor=none;fillColor=#6699CC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="185" y="165" width="270" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="summary-value" value="Value: High" style="text;html=1;strokeColor=none;fillColor=#E6F7ED;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#00A651;" parent="1" vertex="1">
+          <mxGeometry x="470" y="165" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="badge-ai-type" value="GenAI + ML + CV" style="text;html=1;strokeColor=#FF6B35;fillColor=#FFE5DC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#FF6B35;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="50" y="200" width="95" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="summary-desc-label" value="Description:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="50" y="235" width="540" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="summary-desc" value="GenAI-driven mobile app platform delivering hyper-personalization through automated campaign strategy, multi-modal content generation, real-time contextual triggers, and deep learning recommendations—creating individualized customer experiences that drive engagement and conversion." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="50" y="255" width="540" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="summary-benefits-label" value="Anticipated Benefits:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="50" y="310" width="540" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="summary-benefits" value="• Customer engagement increase: +35%&#xa;• Conversion rate improvement: +25%&#xa;• App session duration: +40%&#xa;• Product recommendation CTR: +50%&#xa;• Customer lifetime value: +18%" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="50" y="330" width="540" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="external-systems-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#FFA000;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="680" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="external-systems-title" value="External Systems" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1058" y="683" width="114" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="external-systems-list" value="• Mobile App (iOS/Android)&#xa;• CDP&#xa;• CRM&#xa;• Product Catalog" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1058" y="698" width="114" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="data-volume-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#0288D1;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="680" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="data-volume-title" value="Data Volume" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1208" y="683" width="94" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="data-volume-stats" value="• 800K active users&#xa;• 10M events/day&#xa;• 5TB interaction data&#xa;• 100K products" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=7;" parent="1" vertex="1">
+          <mxGeometry x="1208" y="698" width="94" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="performance-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="680" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="performance-title" value="Performance Targets" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1328" y="683" width="104" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="performance-stats" value="• <500ms personalization&#xa;• 99.9% uptime&#xa;• 1M concurrent users&#xa;• <100ms p99 latency" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=7;" parent="1" vertex="1">
+          <mxGeometry x="1328" y="698" width="104" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-panel" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="30" y="410" width="285" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-header" value="Key Metrics & Dependencies" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="45" y="425" width="255" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-content" value="<b>Platform:</b> Mobile App, CDP, CRM&#xa;<b>Data:</b> User behavior, product catalog&#xa;<b>AI:</b> GenAI, ML, Deep Learning, CV&#xa;<b>Deployment:</b> Cloud (AWS)&#xa;<b>Users:</b> 800K+ app users" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="45" y="455" width="255" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-panel" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="325" y="410" width="285" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-header" value="Governance & Compliance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#9C27B0;" parent="1" vertex="1">
+          <mxGeometry x="340" y="425" width="255" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-content" value="<b>Data Residency:</b> New Zealand/Australia&#xa;<b>Privacy:</b> GDPR, Privacy Act compliance&#xa;<b>Model Governance:</b> Tier 2 governance&#xa;<b>Audit:</b> Personalization event logging&#xa;<b>Security:</b> Zero Trust, MFA, encryption&#xa;<b>Transparency:</b> User preference controls" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="340" y="455" width="255" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="component-panel" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="640" y="110" width="840" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="component-header" value="Solution Architecture - Architecture Building Blocks (ABBs)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="660" y="125" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-stats-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6699CC;strokeColor=#003087;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1270" y="125" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-stats" value="15 ABBs | 14 Interfaces | 4 Layers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="130" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6699CC;strokeColor=#003087;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="170" width="790" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-label" value="Presentation Layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="680" y="175" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="abb-mobile-app" value="<b>Mobile App</b>&#xa;iOS / Android&#xa;Native Experience" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;fontSize=10;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="890" y="195" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="abb-mobile-sdk" value="<b>Mobile SDK</b>&#xa;Personalization SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;fontSize=10;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="195" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB399;strokeColor=#FF6B35;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="270" width="790" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-label" value="AI Services Layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#FF6B35;" parent="1" vertex="1">
+          <mxGeometry x="680" y="275" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="abb-campaign-ai" value="<b>Campaign AI</b>&#xa;Strategy Generation&#xa;Segment Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="700" y="300" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="abb-content-variants" value="<b>Content Variants</b>&#xa;Multi-Modal Gen&#xa;A/B Testing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="860" y="300" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="abb-visual-ai" value="<b>Visual AI</b>&#xa;Image Generation&#xa;Computer Vision" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="300" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="abb-realtime-person" value="<b>Real-time Engine</b>&#xa;Contextual Triggers&#xa;Personalization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="700" y="360" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="abb-ab-test" value="<b>Optimization</b>&#xa;A/B Framework" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="300" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="abb-deep-learning" value="<b>Deep Learning</b>&#xa;Product Recommendations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;fontSize=10;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="300" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F7ED;strokeColor=#00A651;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="430" width="790" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-label" value="Data & Knowledge Layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#00A651;" parent="1" vertex="1">
+          <mxGeometry x="680" y="435" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="abb-cdp" value="<b>Customer CDP</b>&#xa;Unified Profile&#xa;Behavioral Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=10;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="700" y="460" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="abb-feature-store-app" value="<b>Feature Store</b>&#xa;User Features&#xa;Real-time Features" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=10;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="860" y="460" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="abb-campaign-library" value="<b>Campaign Library</b>&#xa;Strategy Templates&#xa;Content Assets" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=10;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="460" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="abb-user-prefs" value="<b>User Preferences</b>&#xa;Consent & Controls&#xa;Privacy Settings" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=10;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="700" y="520" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="abb-media-assets" value="<b>Media Assets</b>&#xa;Images / Videos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;fontSize=10;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="460" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="590" width="790" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-label" value="Data Sources" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#9C27B0;" parent="1" vertex="1">
+          <mxGeometry x="680" y="595" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="abb-crm-data" value="<b>CRM Data</b>&#xa;Customer Records" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;fontSize=10;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="700" y="625" width="130" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="abb-product-catalog" value="<b>Product Catalog</b>&#xa;Inventory Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;fontSize=10;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="860" y="625" width="130" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="abb-behavioral-events" value="<b>Behavioral Events</b>&#xa;Interaction Stream" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;fontSize=10;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="625" width="130" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="abb-transaction-data" value="<b>Transaction Data</b>&#xa;Purchase History" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;fontSize=10;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="700" y="680" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="abb-segment-data" value="<b>Segment Data</b>&#xa;Customer Clusters" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;fontSize=10;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="625" width="130" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-panel" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;strokeWidth=1;dashed=1;dashPattern=2 2;" parent="1" vertex="1">
+          <mxGeometry x="850" y="680" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="858" y="683" width="164" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-presentation" value="■ Presentation Layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="858" y="698" width="75" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-ai" value="■ AI Services Layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#FF6B35;" parent="1" vertex="1">
+          <mxGeometry x="858" y="710" width="75" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-data" value="■ Data & Knowledge" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#00A651;" parent="1" vertex="1">
+          <mxGeometry x="858" y="722" width="75" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-sources" value="■ Data Sources" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#9C27B0;" parent="1" vertex="1">
+          <mxGeometry x="937" y="698" width="75" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-sync" value="↔ Bidirectional" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="937" y="710" width="75" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-async" value="→ Unidirectional" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="937" y="722" width="75" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="change-impact-panel" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="30" y="570" width="285" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="change-impact-header" value="Change Impact & Readiness" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF6B35;" parent="1" vertex="1">
+          <mxGeometry x="45" y="585" width="255" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="change-impact-content" value="<b>Organizational Impact:</b> Medium&#xa;• Marketing team new capabilities&#xa;• Product team collaboration&#xa;• Training: 15hrs per marketer&#xa;&#xa;<b>Technical Readiness:</b> High&#xa;• Mobile SDK integration straightforward&#xa;• CDP platform available&#xa;&#xa;<b>User Resistance Risk:</b> Low&#xa;• Enhanced customer experience" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="45" y="615" width="255" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="decision-panel" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="325" y="570" width="285" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="decision-header" value="Decision Factors" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#00A651;" parent="1" vertex="1">
+          <mxGeometry x="340" y="585" width="255" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="decision-pros" value="<b>Strengths (Go):</b>&#xa;✓ High customer value (+35% engagement)&#xa;✓ Clear competitive advantage&#xa;✓ Strong ROI potential&#xa;✓ Modern technology stack" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="340" y="615" width="255" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="decision-cons" value="<b>Concerns (Mitigate):</b>&#xa;⚠ Content quality consistency&#xa;⚠ Privacy concerns&#xa;⚠ Performance at scale" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="340" y="665" width="255" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="interface-panel" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="30" y="740" width="580" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="interface-header" value="Interface Catalog" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="50" y="755" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="interface-table-header-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6699CC;strokeColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="50" y="795" width="540" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="interface-table-id-header" value="ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="55" y="800" width="30" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="interface-table-from-header" value="From" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="800" width="105" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="interface-table-to-header" value="To" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="800" width="105" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="interface-table-data-header" value="Data Exchanged" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="800" width="270" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="int-c01" value="C01&#xa;C02&#xa;C03&#xa;C04&#xa;C05&#xa;C06&#xa;C07&#xa;C08&#xa;C09&#xa;C10&#xa;C11&#xa;C12&#xa;C13&#xa;C14" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="55" y="825" width="30" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="int-from" value="Mobile App&#xa;Mobile SDK&#xa;Campaign AI&#xa;Content Variants&#xa;Visual AI&#xa;Real-time Engine&#xa;Optimization&#xa;Deep Learning&#xa;Customer CDP&#xa;Feature Store&#xa;CRM Data&#xa;Product Catalog&#xa;Behavioral Events&#xa;Segment Data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="90" y="825" width="105" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="int-to" value="Mobile SDK&#xa;Real-time Engine&#xa;Campaign Library&#xa;Media Assets&#xa;Mobile App&#xa;Feature Store&#xa;Content Variants&#xa;Mobile App&#xa;Feature Store&#xa;Deep Learning&#xa;CDP&#xa;Feature Store&#xa;Feature Store&#xa;Campaign AI" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="200" y="825" width="105" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="int-data" value="User ID, Session Context&#xa;Personalization Request, User Context&#xa;Campaign Strategy, Segments&#xa;Content Variants, Personas&#xa;Generated Images, Visual Content&#xa;Real-time Events, Triggers&#xa;Experiment Config, Test Results&#xa;Product Recommendations, Scores&#xa;User Profile, Preferences&#xa;Behavioral Features, Interactions&#xa;Customer Data, Demographics&#xa;Product Metadata, Availability&#xa;Event Stream, Engagement Metrics&#xa;Segment Attributes, Classifications" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="310" y="825" width="270" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="techstack-panel" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="110" width="380" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="techstack-header" value="Technical Stack" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="125" width="340" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="techstack-content" value="<b>LLM Platform:</b> AWS Bedrock (GPT-4, DALL-E)&#xa;<b>ML Platform:</b> AWS SageMaker / Databricks&#xa;<b>Feature Store:</b> AWS SageMaker Feature Store&#xa;<b>CDP:</b> Adobe Real-Time CDP / Segment&#xa;<b>Mobile Platform:</b> iOS / Android SDKs&#xa;<b>Visual AI:</b> DALL-E, Midjourney, Stable Diffusion&#xa;<b>A/B Testing:</b> Optimizely / LaunchDarkly&#xa;<b>Streaming:</b> Amazon Kinesis / Kafka&#xa;<b>Orchestration:</b> LangChain&#xa;<b>Monitoring:</b> Amazon CloudWatch / AWS X-Ray" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="155" width="340" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-panel" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CC0000;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="320" width="380" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-header" value="Risk Assessment" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#CC0000;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="326" width="340" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-technical-label" value="Technical Risks:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="356" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-technical" value="• Real-time performance at mobile scale (Medium)&#xa;• Content quality and consistency (Medium)&#xa;• Model drift in recommendation engine (Medium)&#xa;• Integration with legacy systems (Low)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="376" width="340" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-business-label" value="Business Risks:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="426" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-business" value="• Customer privacy concerns (Medium)&#xa;• Over-personalization fatigue (Low)&#xa;• Marketing adoption challenges (Low)&#xa;• ROI measurement complexity (Medium)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="446" width="340" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-mitigation-label" value="Key Mitigations:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="496" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-mitigation" value="• Transparent privacy controls&#xa;• A/B testing framework for validation&#xa;• Phased rollout starting with low-risk segments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="516" width="340" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-success-panel" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00A651;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="550" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-success-header" value="Success Metrics & KPIs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#00A651;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="565" width="340" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-success-business-label" value="Business Metrics:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="595" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-success-business" value="• Customer engagement: +35%&#xa;• Conversion rate: +25%&#xa;• App session duration: +40%&#xa;• Product recommendation CTR: +50%&#xa;• Customer lifetime value: +18%" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="615" width="340" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-success-technical-label" value="Technical Metrics:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="675" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-success-technical" value="• Personalization latency: <500ms (p95)&#xa;• Model accuracy: >80% for recommendations&#xa;• System availability: 99.9% uptime&#xa;• User adoption rate: >60% within 3 months&#xa;• API success rate: >99.5%" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="695" width="340" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="770" width="380" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-header" value="Costing & Prioritization" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="780" width="340" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-cost-label" value="Estimated Cost:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="810" width="120" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-cost-value" value="$750K - $1.0M" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#CC0000;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="810" width="210" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-timeline-label" value="Timeline:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="833" width="120" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-timeline-value" value="7-10 months" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="833" width="210" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-complexity-label" value="Complexity:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="856" width="120" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-complexity-value" value="Medium-High" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF6B35;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="856" width="210" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-priority-label" value="Priority Score:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="879" width="120" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-priority-value" value="82/100" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#00A651;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="879" width="210" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-cost-breakdown" value="Cost Breakdown: Infrastructure 30% | Licensing 35% | Development 25% | Marketing 10%" style="text;html=1;strokeColor=none;fillColor=#FFFDE7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=8;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="902" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-dependencies-label" value="Key Dependencies:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="930" width="340" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-dependencies-value" value="• AWS Bedrock licensing&#xa;• Mobile app SDK integration&#xa;• CDP platform implementation&#xa;• Feature store infrastructure&#xa;• A/B testing platform (Optimizely)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="950" width="340" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-wsjf-label" value="WSJF Score:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="1010" width="120" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-wsjf-value" value="Business Value: 9 | Time Criticality: 7 | Risk Reduction: 5 | Job Size: 7 → Score: 21/7 = 3.0" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="1008" width="210" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-approvals-label" value="Stakeholders:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="1032" width="120" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-approvals-value" value="Executive Sponsor: TBD | Status: Concept" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="1032" width="210" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="phases-panel" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B35;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="640" y="770" width="420" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="phases-header" value="Implementation Roadmap" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FF6B35;" parent="1" vertex="1">
+          <mxGeometry x="660" y="785" width="380" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6699CC;strokeColor=#003087;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="820" width="180" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-title" value="Phase 1: Foundation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="670" y="825" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-timeline" value="Months 1-2" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=8;fontColor=#FFFFFF;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="845" width="60" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-content" value="• Infrastructure setup&#xa;• CDP integration&#xa;• Feature store development&#xa;• Mobile SDK PoC" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="670" y="865" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6699CC;strokeColor=#003087;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="855" y="820" width="180" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-title" value="Phase 2: Core Development" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="865" y="825" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-timeline" value="Months 3-6" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=8;fontColor=#FFFFFF;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="865" y="845" width="60" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-content" value="• Campaign AI&#xa;• Content generation&#xa;• Deep learning models&#xa;• A/B testing framework" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="865" y="865" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6699CC;strokeColor=#003087;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="920" width="180" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-title" value="Phase 3: Pilot & Testing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="670" y="925" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-timeline" value="Months 7-8" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=8;fontColor=#FFFFFF;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="945" width="60" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-content" value="• Pilot with user segments&#xa;• A/B testing validation&#xa;• Performance optimization&#xa;• User feedback collection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="670" y="965" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6699CC;strokeColor=#003087;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="855" y="920" width="180" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-title" value="Phase 4: Rollout & Scale" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#003087;" parent="1" vertex="1">
+          <mxGeometry x="865" y="925" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-timeline" value="Months 9-10" style="text;html=1;strokeColor=none;fillColor=#003087;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=8;fontColor=#FFFFFF;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="865" y="945" width="70" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-content" value="• Full user rollout&#xa;• Campaign expansion&#xa;• Production monitoring&#xa;• Continuous optimization" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="865" y="965" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="resources-panel" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9C27B0;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="770" width="410" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="resources-header" value="Resource Requirements" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#9C27B0;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="785" width="370" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="resources-team-label" value="Core Team (FTE):" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="815" width="370" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="resources-team" value="<b>Solution Architect:</b> 0.5 FTE (Architecture design)&#xa;<b>ML Engineers:</b> 2 FTE (Deep learning & recommendations)&#xa;<b>Data Engineers:</b> 2 FTE (Feature engineering & CDP)&#xa;<b>Mobile Developers:</b> 2 FTE (SDK integration)&#xa;<b>LLM Prompt Engineers:</b> 1 FTE (Content generation)&#xa;<b>QA Engineers:</b> 2 FTE (Testing & validation)&#xa;<b>DevOps Engineers:</b> 1 FTE (CI/CD)&#xa;<b>Product Owner:</b> 0.5 FTE (Requirements)&#xa;<b>Marketing Lead:</b> 0.5 FTE (Campaign strategy)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="835" width="370" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="resources-skills-label" value="Critical Skills:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="945" width="370" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="resources-skills" value="• AWS Bedrock / LLM expertise (multi-modal content)&#xa;• Deep learning (recommendation systems)&#xa;• Mobile development (iOS/Android SDK)&#xa;• CDP integration experience&#xa;• A/B testing & experimentation&#xa;• Marketing domain knowledge" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="965" width="370" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="doc-info" value="Blueprint Version: 1.0.0 | Created: Dec 2024 | Classification: Internal | Owner: TBD / Dan Barratt | Compliant with BNZ Visual Design Standards v2.0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#666666;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="30" y="1055" width="1860" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

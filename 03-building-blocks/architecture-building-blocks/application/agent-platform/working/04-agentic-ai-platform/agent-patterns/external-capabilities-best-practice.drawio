@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" version="24.7.17">
+  <diagram name="External Capabilities" id="agentic-platform-capabilities">
+    <mxGraphModel dx="2074" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Title -->
+        <mxCell id="title" value="Best Practice Agentic AI Platform: External Capabilities" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="427" y="20" width="800" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Core Platform Layer -->
+        <mxCell id="core-platform" value="CORE PLATFORM LAYER" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#3B82F6;strokeWidth=3;fontSize=14;fontStyle=1;align=center;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="1550" height="300" as="geometry" />
+        </mxCell>
+
+        <!-- Runtime &amp; Orchestration -->
+        <mxCell id="runtime-orchestration" value="Runtime &amp; Orchestration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#6B7280;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="70" y="110" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="runtime-features" value="• Multi-tenant hosting&#xa;• Container orchestration&#xa;• Auto-scaling runtime&#xa;• Session management&#xa;• Workflow orchestrator&#xa;• Framework adapters&#xa;• Blue-green deployment&#xa;• Isolation controls" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="75" y="130" width="170" height="105" as="geometry" />
+        </mxCell>
+
+        <!-- Agent Development -->
+        <mxCell id="agent-development" value="Agent Development Framework" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#6B7280;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="270" y="110" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dev-features" value="• High-code/Low-code tools&#xa;• Agent lifecycle management&#xa;• CI/CD pipelines&#xa;• Testing frameworks&#xa;• Template libraries&#xa;• Code generation&#xa;• Debugging tools&#xa;• Version control" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="275" y="130" width="170" height="105" as="geometry" />
+        </mxCell>
+
+        <!-- Data &amp; Knowledge -->
+        <mxCell id="data-knowledge" value="Data &amp; Knowledge Platform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#6B7280;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="470" y="110" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="data-features" value="• Vector databases&#xa;• Knowledge graphs&#xa;• Context management&#xa;• Memory systems&#xa;• Data pipelines&#xa;• Knowledge gateway&#xa;• Semantic search&#xa;• Data lineage" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="475" y="130" width="170" height="105" as="geometry" />
+        </mxCell>
+
+        <!-- Integration Services -->
+        <mxCell id="integration-services" value="Integration Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#6B7280;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="670" y="110" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="integration-features" value="• API gateways&#xa;• Message brokers&#xa;• Event-driven architecture&#xa;• Service mesh&#xa;• Tool registry&#xa;• Protocol adapters&#xa;• Circuit breakers&#xa;• Load balancing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="675" y="130" width="170" height="105" as="geometry" />
+        </mxCell>
+
+        <!-- AI/ML Services -->
+        <mxCell id="ai-ml-services" value="AI/ML Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#6B7280;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="870" y="110" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-features" value="• Model serving (LLMaaS)&#xa;• Model registry&#xa;• Fine-tuning services&#xa;• Evaluation engines&#xa;• Model versioning&#xa;• A/B testing&#xa;• Champion-challenger&#xa;• Model marketplace" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="875" y="130" width="170" height="105" as="geometry" />
+        </mxCell>
+
+        <!-- Communication -->
+        <mxCell id="communication" value="Communication Backbone" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#6B7280;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="110" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="comm-features" value="• Agent-to-Agent (A2A)&#xa;• Model Context Protocol&#xa;• Message queuing&#xa;• Publish/subscribe&#xa;• WebSocket protocols&#xa;• Multi-agent coordination&#xa;• Conversation threads&#xa;• Protocol standards" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="130" width="170" height="105" as="geometry" />
+        </mxCell>
+
+        <!-- Agent Registry -->
+        <mxCell id="agent-registry" value="Agent Registry &amp; Discovery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#6B7280;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="110" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="registry-features" value="• Agent metadata catalog&#xa;• Service discovery&#xa;• Capability mapping&#xa;• Dependency tracking&#xa;• Version management&#xa;• Health monitoring&#xa;• Performance metrics&#xa;• Usage analytics" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="130" width="170" height="105" as="geometry" />
+        </mxCell>
+
+        <!-- Federated Extensions -->
+        <mxCell id="federated-extensions" value="Federated Extensions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#6B7280;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="470" y="260" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="federated-features" value="• Multi-framework support&#xa;• Plugin architecture&#xa;• Extension marketplace&#xa;• Third-party integrations&#xa;• Custom connectors" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="475" y="280" width="170" height="75" as="geometry" />
+        </mxCell>
+
+        <!-- MCP Gateway -->
+        <mxCell id="mcp-gateway" value="MCP Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#6B7280;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="870" y="260" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mcp-features" value="• Model Context Protocol&#xa;• Tool interoperability&#xa;• Resource management&#xa;• Session context&#xa;• Standard protocols" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="875" y="280" width="170" height="75" as="geometry" />
+        </mxCell>
+
+        <!-- Trust &amp; Governance Layer -->
+        <mxCell id="trust-governance" value="TRUST &amp; GOVERNANCE LAYER" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=3;fontSize=14;fontStyle=1;align=center;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="1550" height="220" as="geometry" />
+        </mxCell>
+
+        <!-- Identity &amp; Access -->
+        <mxCell id="identity-access" value="Identity &amp; Access Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF9E7;strokeColor=#D97706;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="70" y="430" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iam-features" value="• Zero-trust authentication&#xa;• Role-based access control&#xa;• Agent identity management&#xa;• SSO integration&#xa;• Multi-factor authentication&#xa;• Privileged access mgmt&#xa;• Fine-grained permissions" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#92400E;" vertex="1" parent="1">
+          <mxGeometry x="75" y="450" width="190" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Security &amp; Compliance -->
+        <mxCell id="security-compliance" value="Security &amp; Compliance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF9E7;strokeColor=#D97706;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="290" y="430" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="security-features" value="• Data encryption (rest/transit)&#xa;• Content safety policies&#xa;• Prompt injection prevention&#xa;• Data loss prevention&#xa;• Threat detection&#xa;• Compliance frameworks&#xa;• Audit trails" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#92400E;" vertex="1" parent="1">
+          <mxGeometry x="295" y="450" width="190" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Policy Enforcement -->
+        <mxCell id="policy-enforcement" value="Policy &amp; Risk Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF9E7;strokeColor=#D97706;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="510" y="430" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="policy-features" value="• Business rule validation&#xa;• Risk assessment frameworks&#xa;• Governance workflows&#xa;• Exception management&#xa;• Bias testing &amp; fairness&#xa;• Ethics enforcement&#xa;• Human oversight controls" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#92400E;" vertex="1" parent="1">
+          <mxGeometry x="515" y="450" width="190" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Regulatory Compliance -->
+        <mxCell id="regulatory-compliance" value="Regulatory Compliance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF9E7;strokeColor=#D97706;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="730" y="430" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="regulatory-features" value="• GDPR/CCPA compliance&#xa;• Banking regulations (Basel)&#xa;• AI governance (NIST AI RMF)&#xa;• SOC 2, ISO 27001&#xa;• AML/CFT compliance&#xa;• Data residency controls&#xa;• Right to explanation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#92400E;" vertex="1" parent="1">
+          <mxGeometry x="735" y="450" width="190" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Data Governance -->
+        <mxCell id="data-governance" value="Data Governance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF9E7;strokeColor=#D97706;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="950" y="430" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="data-gov-features" value="• Data classification&#xa;• Data lineage tracking&#xa;• Privacy protection&#xa;• Row-level security&#xa;• Data masking&#xa;• Consent management&#xa;• Data subject rights" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#92400E;" vertex="1" parent="1">
+          <mxGeometry x="955" y="450" width="190" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Enterprise Governance -->
+        <mxCell id="enterprise-governance" value="Enterprise Governance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF9E7;strokeColor=#D97706;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="430" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="enterprise-gov-features" value="• Architecture review boards&#xa;• Technology standards&#xa;• Change management&#xa;• Incident response&#xa;• Lifecycle governance&#xa;• Quality gates&#xa;• Approval workflows" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#92400E;" vertex="1" parent="1">
+          <mxGeometry x="1175" y="450" width="190" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Operations Layer -->
+        <mxCell id="operations-layer" value="OPERATIONS &amp; OBSERVABILITY LAYER" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECFDF5;strokeColor=#10B981;strokeWidth=3;fontSize=14;fontStyle=1;align=center;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="640" width="1550" height="220" as="geometry" />
+        </mxCell>
+
+        <!-- Monitoring &amp; Observability -->
+        <mxCell id="monitoring-observability" value="Monitoring &amp; Observability" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0FDF4;strokeColor=#059669;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="70" y="670" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="monitoring-features" value="• OpenTelemetry tracing&#xa;• Distributed tracing&#xa;• Metrics collection&#xa;• Centralized logging&#xa;• Real-time dashboards&#xa;• Performance analytics&#xa;• Error tracking" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#064E3B;" vertex="1" parent="1">
+          <mxGeometry x="75" y="690" width="190" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Evaluation &amp; Testing -->
+        <mxCell id="evaluation-testing" value="Evaluation &amp; Testing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0FDF4;strokeColor=#059669;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="290" y="670" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="evaluation-features" value="• Automated quality control&#xa;• AI judges &amp; evaluation&#xa;• A/B testing capabilities&#xa;• Performance benchmarking&#xa;• Bias &amp; fairness testing&#xa;• Custom evaluation metrics&#xa;• Continuous improvement" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#064E3B;" vertex="1" parent="1">
+          <mxGeometry x="295" y="690" width="190" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Cost Management -->
+        <mxCell id="cost-management" value="Cost &amp; Resource Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0FDF4;strokeColor=#059669;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="510" y="670" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cost-features" value="• Token consumption tracking&#xa;• Resource optimization&#xa;• Usage analytics&#xa;• Cost forecasting&#xa;• Billing integration&#xa;• Budget controls&#xa;• Efficiency metrics" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#064E3B;" vertex="1" parent="1">
+          <mxGeometry x="515" y="690" width="190" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Alerting &amp; Response -->
+        <mxCell id="alerting-response" value="Alerting &amp; Incident Response" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0FDF4;strokeColor=#059669;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="730" y="670" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="alerting-features" value="• Real-time alerting&#xa;• Incident classification&#xa;• Automated response&#xa;• Escalation procedures&#xa;• SLA monitoring&#xa;• Health checks&#xa;• Recovery automation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#064E3B;" vertex="1" parent="1">
+          <mxGeometry x="735" y="690" width="190" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Performance Analytics -->
+        <mxCell id="performance-analytics" value="Performance Analytics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0FDF4;strokeColor=#059669;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="950" y="670" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="analytics-features" value="• Business metrics &amp; KPIs&#xa;• Response time analysis&#xa;• Throughput monitoring&#xa;• Success/failure rates&#xa;• User satisfaction scores&#xa;• Trend analysis&#xa;• Predictive insights" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#064E3B;" vertex="1" parent="1">
+          <mxGeometry x="955" y="690" width="190" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Operations Management -->
+        <mxCell id="operations-management" value="Operations Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0FDF4;strokeColor=#059669;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="670" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ops-features" value="• Configuration management&#xa;• Deployment automation&#xa;• Backup &amp; recovery&#xa;• Disaster recovery&#xa;• High availability&#xa;• Capacity planning&#xa;• Maintenance scheduling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#064E3B;" vertex="1" parent="1">
+          <mxGeometry x="1175" y="690" width="190" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Experience Layer -->
+        <mxCell id="experience-layer" value="EXPERIENCE &amp; APPLICATION LAYER" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#8B5CF6;strokeWidth=3;fontSize=14;fontStyle=1;align=center;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="880" width="1550" height="200" as="geometry" />
+        </mxCell>
+
+        <!-- Agent Applications -->
+        <mxCell id="agent-applications" value="Agent Applications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAF5FF;strokeColor=#7C3AED;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="70" y="910" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="app-features" value="• Super agents&#xa;• Specialized agents&#xa;• Multi-agent teams&#xa;• Conversational interfaces&#xa;• Workflow automation&#xa;• Business process agents&#xa;• Domain-specific agents" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#5B21B6;" vertex="1" parent="1">
+          <mxGeometry x="75" y="930" width="190" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- User Interfaces -->
+        <mxCell id="user-interfaces" value="User Interfaces" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAF5FF;strokeColor=#7C3AED;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="290" y="910" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ui-features" value="• Web applications&#xa;• Mobile interfaces&#xa;• API endpoints&#xa;• Chat interfaces&#xa;• Voice interfaces&#xa;• Administrative portals&#xa;• Developer consoles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#5B21B6;" vertex="1" parent="1">
+          <mxGeometry x="295" y="930" width="190" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Management Tools -->
+        <mxCell id="management-tools" value="Management &amp; Administration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAF5FF;strokeColor=#7C3AED;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="510" y="910" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mgmt-features" value="• Agent lifecycle management&#xa;• Team configuration&#xa;• Performance dashboards&#xa;• User management&#xa;• Resource allocation&#xa;• System configuration&#xa;• Health monitoring" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#5B21B6;" vertex="1" parent="1">
+          <mxGeometry x="515" y="930" width="190" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Human Integration -->
+        <mxCell id="human-integration" value="Human-in-the-Loop" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAF5FF;strokeColor=#7C3AED;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="730" y="910" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="human-features" value="• Human oversight workflows&#xa;• Approval mechanisms&#xa;• Feedback collection&#xa;• Override capabilities&#xa;• Escalation paths&#xa;• Quality review&#xa;• Training interfaces" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#5B21B6;" vertex="1" parent="1">
+          <mxGeometry x="735" y="930" width="190" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Developer Experience -->
+        <mxCell id="developer-experience" value="Developer Experience" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAF5FF;strokeColor=#7C3AED;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="950" y="910" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dev-exp-features" value="• SDKs &amp; APIs&#xa;• Documentation portals&#xa;• Code templates&#xa;• Testing environments&#xa;• Debugging tools&#xa;• Simulation platforms&#xa;• Training resources" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#5B21B6;" vertex="1" parent="1">
+          <mxGeometry x="955" y="930" width="190" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Business Intelligence -->
+        <mxCell id="business-intelligence" value="Business Intelligence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAF5FF;strokeColor=#7C3AED;fontSize=12;fontStyle=1;align=center;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="910" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-features" value="• Executive dashboards&#xa;• ROI reporting&#xa;• Usage analytics&#xa;• Performance reports&#xa;• Compliance reporting&#xa;• Trend analysis&#xa;• Strategic insights" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;fontColor=#5B21B6;" vertex="1" parent="1">
+          <mxGeometry x="1175" y="930" width="190" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="legend-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1100" width="80" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend-core" value="Core Platform Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#3B82F6;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1100" width="120" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend-trust" value="Trust &amp; Governance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#F59E0B;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1100" width="120" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend-ops" value="Operations &amp; Observability" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECFDF5;strokeColor=#10B981;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1100" width="140" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend-exp" value="Experience &amp; Applications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#8B5CF6;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1100" width="140" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Architectural Principles -->
+        <mxCell id="principles-title" value="Key Architectural Principles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1100" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="principles-text" value="• Federated Architecture with Centralized Services • Zero-Trust Security Model • OpenTelemetry Standards • Model Context Protocol (MCP) • Human-in-the-Loop Workflows • Comprehensive Governance • Real-time Observability • Regulatory Compliance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1125" width="750" height="40" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

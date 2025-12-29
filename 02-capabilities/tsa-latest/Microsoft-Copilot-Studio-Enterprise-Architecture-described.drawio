@@ -1,0 +1,376 @@
+<mxfile host="65bd71144e">
+    <diagram name="Microsoft-Copilot-Studio-Enterprise" id="copilot-studio-enterprise">
+        <mxGraphModel dx="729" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" value="Microsoft Copilot Studio - Enterprise Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="10" width="600" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ui-layer" value="User Interface Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1976d2;fontSize=14;fontStyle=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="60" width="1320" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="teams" value="Microsoft Teams&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Collaboration platform integrating bots directly into Teams channels&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c5cae9;strokeColor=#303f9f;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="90" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="sharepoint" value="SharePoint&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Document management platform with content assistance&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c5cae9;strokeColor=#303f9f;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="90" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="power-apps" value="Power Apps&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Low-code platform that can embed Copilot Studio bots&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c5cae9;strokeColor=#303f9f;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="90" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="web-chat" value="Web Chat Widget&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Embeddable web component for websites&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c5cae9;strokeColor=#303f9f;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="90" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="mobile-apps" value="Mobile Apps&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Native apps integrating bots on iOS and Android&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c5cae9;strokeColor=#303f9f;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="90" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="outlook" value="Outlook&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Email client with bot assistance for scheduling&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c5cae9;strokeColor=#303f9f;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="90" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="custom-ui" value="Custom UI / Apps&lt;br&gt;&lt;span style=&quot;font-size: 9px; color: rgb(102, 102, 102);&quot;&gt;Custom apps leveraging Copilot Studio APIs&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c5cae9;strokeColor=#303f9f;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="90" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="dynamics365" value="Dynamics 365&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Business apps platform with CRM/ERP bot assistance&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c5cae9;strokeColor=#303f9f;" parent="1" vertex="1">
+                    <mxGeometry x="1040" y="90" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="copilot-m365" value="Copilot for M365&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;AI productivity assistant extended with Studio agents&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c5cae9;strokeColor=#303f9f;" parent="1" vertex="1">
+                    <mxGeometry x="1180" y="90" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="copilot-studio-core" value="Microsoft Copilot Studio" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ff9800;fontSize=16;fontStyle=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="200" width="1010" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="bot-framework" value="Bot Framework&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Foundation framework with development tools and runtime services&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ff6f00;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="240" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="authoring-canvas" value="Visual Authoring Canvas&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Low-code visual interface for designing conversation flows&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ff6f00;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="240" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="topic-management" value="Topic Management&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;System for organizing conversation topics and dialog flows&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ff6f00;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="240" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="analytics-insights" value="Analytics &amp; Insights&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Built-in analytics for bot performance metrics and insights&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ff6f00;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="240" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="ai-builder" value="AI Builder Integration&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Advanced AI capabilities for document processing&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ff6f00;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="240" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="testing-debug" value="Testing &amp; Debugging&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Integrated tools for testing bot functionality&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ff6f00;" parent="1" vertex="1">
+                    <mxGeometry x="1020" y="240" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="dialog-flow" value="Dialog Flow Engine&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Runtime engine managing conversation state and flow execution&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ff6f00;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="310" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="nlu-engine" value="NLU Engine&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Natural Language Understanding for intent recognition&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ff6f00;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="310" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="entity-recognition" value="Entity Recognition&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Identifies and extracts structured information from user input&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ff6f00;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="310" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="adaptive-cards" value="Adaptive Cards&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Framework for creating rich, interactive UI components&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ff6f00;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="310" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="power-fx" value="Power Fx Formulas&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Expression language for adding logic to bot conversations&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ff6f00;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="310" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="deployment-mgmt" value="Deployment Management&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Tools for managing bot deployment across environments&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ff6f00;" parent="1" vertex="1">
+                    <mxGeometry x="1020" y="310" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="integration-layer" value="Integration Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#388e3c;fontSize=14;fontStyle=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="410" width="1320" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="power-automate" value="Power Automate&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Workflow automation platform connecting bots to business processes&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="440" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="dataverse" value="Microsoft Dataverse&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Cloud-based data platform with secure storage and management&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="440" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="azure-logic-apps" value="Azure Logic Apps&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Cloud integration platform for connecting disparate systems&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="440" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="api-management" value="API Management&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Platform for managing, securing, and monitoring APIs&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="440" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="service-bus" value="Azure Service Bus&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Enterprise messaging platform for reliable communication&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="440" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="event-grid" value="Event Grid&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Event routing service for building event-driven applications&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="910" y="440" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="connectors" value="700+ Connectors&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Pre-built connectors for SaaS and on-premises systems&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="1080" y="440" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="graph-layer" value="Microsoft Graph" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#c2185b;fontSize=16;fontStyle=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="560" width="1320" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="graph-api" value="Graph API&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;RESTful web API for accessing Microsoft 365 services&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8bbd9;strokeColor=#ad1457;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="588" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="graph-connectors" value="Graph Connectors&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Components for ingesting external data into Microsoft Graph&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8bbd9;strokeColor=#ad1457;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="588" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="graph-search" value="Microsoft Search&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Intelligent search service across Microsoft 365 applications&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8bbd9;strokeColor=#ad1457;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="588" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="graph-data-connect" value="Data Connect&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Service for bulk data access and analytics from Microsoft 365&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8bbd9;strokeColor=#ad1457;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="588" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="user-profiles" value="User Profiles&lt;br/&gt;&lt;span style=&quot;font-size:9px;color:#666;&quot;&gt;Centralized user identity and profile information&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8bbd9;strokeColor=#ad1457;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="588" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="calendar-mail" value="Calendar / Mail&lt;br&gt;&lt;span style=&quot;font-size: 9px; color: rgb(102, 102, 102);&quot;&gt;Access to Exchange Online calendar and email services&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8bbd9;strokeColor=#ad1457;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="588" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="files-documents" value="Files / Documents&lt;br&gt;&lt;span style=&quot;font-size: 9px; color: rgb(102, 102, 102);&quot;&gt;Access to OneDrive and SharePoint document libraries&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8bbd9;strokeColor=#ad1457;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="588" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="teams-channels" value="Teams / Channels&lt;br&gt;&lt;span style=&quot;font-size: 9px; color: rgb(102, 102, 102);&quot;&gt;Access to Microsoft Teams data and collaboration features&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8bbd9;strokeColor=#ad1457;" parent="1" vertex="1">
+                    <mxGeometry x="1040" y="588" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="security-compliance" value="Security / Compliance&lt;br&gt;&lt;span style=&quot;font-size: 9px; color: rgb(102, 102, 102);&quot;&gt;Access to security and compliance data from Microsoft 365&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8bbd9;strokeColor=#ad1457;" parent="1" vertex="1">
+                    <mxGeometry x="1180" y="588" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="llm-models-layer" value="LLMs &amp; AI Models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#388e3c;fontSize=14;fontStyle=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="690" width="1320" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="gpt-models" value="GPT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="720" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="claude-models" value="Claude (Anthropic)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="720" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="gemini-models" value="Gemini (Google)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="720" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="embedding-models" value="Embedding Models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="720" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="custom-models" value="Custom / Fine-tuned Models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="720" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="vision-models" value="Vision Models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="720" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="speech-models" value="Speech Models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="720" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="code-models" value="Code Generation Models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="1040" y="720" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="domain-models" value="Domain-Specific Models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="1180" y="720" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="data-ai-layer" value="Data &amp; AI Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#7b1fa2;fontSize=14;fontStyle=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="820" width="660" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="azure-openai" value="Azure OpenAI Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1bee7;strokeColor=#6a1b9a;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="850" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="cognitive-services" value="Cognitive Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1bee7;strokeColor=#6a1b9a;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="850" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="azure-ml" value="Azure ML" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1bee7;strokeColor=#6a1b9a;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="850" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="synapse" value="Azure Synapse" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1bee7;strokeColor=#6a1b9a;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="850" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="enterprise-layer" value="Enterprise Systems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#ff8f00;fontSize=14;fontStyle=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="820" width="640" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="sap" value="SAP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ff6f00;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="850" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="salesforce" value="Salesforce" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ff6f00;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="850" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="oracle" value="Oracle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ff6f00;" parent="1" vertex="1">
+                    <mxGeometry x="980" y="850" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="custom-lob" value="Custom LOB Apps" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ff6f00;" parent="1" vertex="1">
+                    <mxGeometry x="1100" y="850" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="legacy-systems" value="Legacy Systems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecb3;strokeColor=#ff6f00;" parent="1" vertex="1">
+                    <mxGeometry x="1220" y="850" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="security-layer" value="Security &amp; Governance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#c62828;fontSize=14;fontStyle=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="960" width="1320" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="azure-ad" value="Entra ID" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcdd2;strokeColor=#b71c1c;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="990" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="conditional-access" value="Conditional Access" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcdd2;strokeColor=#b71c1c;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="990" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="dlp-policies" value="DLP Policies" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcdd2;strokeColor=#b71c1c;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="990" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="information-protection" value="Information Protection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcdd2;strokeColor=#b71c1c;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="990" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="compliance-manager" value="Compliance Manager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcdd2;strokeColor=#b71c1c;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="990" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="audit-logs" value="Audit Logs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcdd2;strokeColor=#b71c1c;" parent="1" vertex="1">
+                    <mxGeometry x="780" y="990" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="rbac" value="RBAC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcdd2;strokeColor=#b71c1c;" parent="1" vertex="1">
+                    <mxGeometry x="920" y="990" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="encryption" value="Encryption" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcdd2;strokeColor=#b71c1c;" parent="1" vertex="1">
+                    <mxGeometry x="1060" y="990" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="purview" value="Microsoft Purview" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcdd2;strokeColor=#b71c1c;" parent="1" vertex="1">
+                    <mxGeometry x="1200" y="990" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ui-to-copilot" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="700" y="170" as="sourcePoint"/>
+                        <mxPoint x="700" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="copilot-to-integration" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="700" y="380" as="sourcePoint"/>
+                        <mxPoint x="700" y="410" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="integration-to-graph" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="700" y="530" as="sourcePoint"/>
+                        <mxPoint x="700" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="graph-to-data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="660" as="sourcePoint"/>
+                        <mxPoint x="370" y="690" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="graph-to-enterprise" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1040" y="660" as="sourcePoint"/>
+                        <mxPoint x="1040" y="690" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="graph-to-llms" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="700" y="660" as="sourcePoint"/>
+                        <mxPoint x="700" y="690" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="llms-to-copilot" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#4CAF50;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="450" y="690" as="sourcePoint"/>
+                        <mxPoint x="450" y="380" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="450" y="670"/>
+                            <mxPoint x="30" y="670"/>
+                            <mxPoint x="30" y="380"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="llms-to-data-ai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="790" as="sourcePoint"/>
+                        <mxPoint x="370" y="820" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="all-to-security" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#ff0000;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="700" y="940" as="sourcePoint"/>
+                        <mxPoint x="700" y="970" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="powerapps-to-copilot" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#4CAF50;" parent="1" source="power-apps" target="authoring-canvas" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="powerautomate-to-copilot" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#4CAF50;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="power-automate" target="bot-framework" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="135" y="265"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="dataverse-to-copilot" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2196F3;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="dataverse" target="entity-recognition" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="features-box" value="Key Features" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="1400" y="70" width="240" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature-1" value="• Low-Code/No-Code Development" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="100" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature-2" value="• Generative AI Capabilities" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="130" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature-3" value="• Multi-Channel Deployment" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="160" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature-4" value="• Pre-built Connectors &amp; Templates" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="190" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature-5" value="• Enterprise-Grade Security" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="220" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature-6" value="• Built-in Analytics &amp; Monitoring" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="250" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature-7" value="• Power Platform Integration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="280" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature-8" value="• Microsoft Graph Access" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="310" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature-9" value="• AI Builder Integration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="340" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature-10" value="• Scalable Cloud Infrastructure" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="370" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature-11" value="• Compliance &amp; Governance Tools" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="400" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature-12" value="• Custom Plugin Development" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="430" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="feature-13" value="• Multi-Model LLM Support" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="450" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecases-box" value="Common Use Cases" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="1400" y="490" width="240" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-1" value="• Customer Service Chatbots" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="520" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-2" value="• IT Helpdesk Automation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="550" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-3" value="• HR Virtual Assistants" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="580" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-4" value="• Sales &amp; Lead Qualification" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="610" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-5" value="• Knowledge Base Access" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="640" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-6" value="• Process Automation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="670" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-7" value="• Employee Onboarding" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="700" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-8" value="• FAQ &amp; Self-Service Portals" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="730" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-9" value="• Appointment Scheduling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="760" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="usecase-10" value="• Document Analysis &amp; Generation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="1410" y="780" width="220" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

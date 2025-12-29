@@ -1,0 +1,66 @@
+Element_ID,Element_Name,Element_Type,Stereotype,Parent_Category,Level,Hierarchy_Path
+bd-001,Business Development,Container,Grouping,Root,1,Business Development
+ipk-001,Intellectual Property And Knowledge,Container,Grouping,Business Development,2,Business Development > Intellectual Property And Knowledge
+ipk-002,Intellectual Property Portfolio,ServiceDomain,ServiceDomain,Intellectual Property And Knowledge,3,Business Development > Intellectual Property And Knowledge > Intellectual Property Portfolio
+ipk-003,Management Manual,ServiceDomain,ServiceDomain,Intellectual Property And Knowledge,3,Business Development > Intellectual Property And Knowledge > Management Manual
+ipk-004,Enterprise Architecture,ServiceDomain,ServiceDomain,Intellectual Property And Knowledge,3,Business Development > Intellectual Property And Knowledge > Enterprise Architecture
+ipk-005,Knowledge Exchange,ServiceDomain,ServiceDomain,Intellectual Property And Knowledge,3,Business Development > Intellectual Property And Knowledge > Knowledge Exchange
+ma-001,Models And Analytics,Container,Grouping,Business Development,2,Business Development > Models And Analytics
+ma-002,Competitor Analisys,ServiceDomain,ServiceDomain,Models And Analytics,3,Business Development > Models And Analytics > Competitor Analisys
+ma-003,Quant Model,ServiceDomain,ServiceDomain,Models And Analytics,3,Business Development > Models And Analytics > Quant Model
+ma-004,Customer Behavior Models,ServiceDomain,ServiceDomain,Models And Analytics,3,Business Development > Models And Analytics > Customer Behavior Models
+ma-005,Trading Models,ServiceDomain,ServiceDomain,Models And Analytics,3,Business Development > Models And Analytics > Trading Models
+ma-006,Credit Risk Models,ServiceDomain,ServiceDomain,Models And Analytics,3,Business Development > Models And Analytics > Credit Risk Models
+ma-007,Financial Instrument Valuation Models,ServiceDomain,ServiceDomain,Models And Analytics,3,Business Development > Models And Analytics > Financial Instrument Valuation Models
+ma-008,Fraud Model,ServiceDomain,ServiceDomain,Models And Analytics,3,Business Development > Models And Analytics > Fraud Model
+ma-009,Market Risk Models,ServiceDomain,ServiceDomain,Models And Analytics,3,Business Development > Models And Analytics > Market Risk Models
+ma-010,Liquidity Risk Models,ServiceDomain,ServiceDomain,Models And Analytics,3,Business Development > Models And Analytics > Liquidity Risk Models
+sd-001,Solution Development,Container,Grouping,Business Development,2,Business Development > Solution Development
+sd-002,IT Standards And Guidelines,ServiceDomain,ServiceDomain,Solution Development,3,Business Development > Solution Development > IT Standards And Guidelines
+sd-003,Systems Administration,ServiceDomain,ServiceDomain,Solution Development,3,Business Development > Solution Development > Systems Administration
+sd-004,Development Environment,ServiceDomain,ServiceDomain,Solution Development,3,Business Development > Solution Development > Development Environment
+sd-005,System Development,ServiceDomain,ServiceDomain,Solution Development,3,Business Development > Solution Development > System Development
+pm-001,Product Management,Container,Grouping,Business Development,2,Business Development > Product Management
+pm-002,Property Portfolio,ServiceDomain,ServiceDomain,Product Management,3,Business Development > Product Management > Property Portfolio
+pm-003,Product Quality Assurance,ServiceDomain,ServiceDomain,Product Management,3,Business Development > Product Management > Product Quality Assurance
+pm-004,Product Design,ServiceDomain,ServiceDomain,Product Management,3,Business Development > Product Management > Product Design
+pm-005,Product Training,ServiceDomain,ServiceDomain,Product Management,3,Business Development > Product Management > Product Training
+pm-006,Production Release,ServiceDomain,ServiceDomain,Product Management,3,Business Development > Product Management > Production Release
+pm-007,Case Root Cause Analysis,ServiceDomain,ServiceDomain,Product Management,3,Business Development > Product Management > Case Root Cause Analysis
+pm-008,Product Deployment,ServiceDomain,ServiceDomain,Product Management,3,Business Development > Product Management > Product Deployment
+pm-009,Product Directory,ServiceDomain,ServiceDomain,Product Management,3,Business Development > Product Management > Product Directory
+pm-010,Discount Pricing,ServiceDomain,ServiceDomain,Product Management,3,Business Development > Product Management > Discount Pricing
+mad-001,Marketing And Development,Container,Grouping,Business Development,2,Business Development > Marketing And Development
+mad-002,Business Development,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development > Marketing And Development > Business Development
+mad-003,Market Research,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development > Marketing And Development > Market Research
+mad-004,Customer Portfolio,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development > Marketing And Development > Customer Portfolio
+mad-005,Market Analysis,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development > Marketing And Development > Market Analysis
+mad-006,Contribution Analysis,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development > Marketing And Development > Contribution Analysis
+mad-007,Competitor Analysis,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development > Marketing And Development > Competitor Analysis
+mad-008,Segment Direction,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development > Marketing And Development > Segment Direction
+mad-009,Customer Campaign Management,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development > Marketing And Development > Customer Campaign Management
+mad-010,Brand Management,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development > Marketing And Development > Brand Management
+mad-011,Customer Campaign Design,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development > Marketing And Development > Customer Campaign Design
+mad-012,Sales Planning,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development > Marketing And Development > Sales Planning
+mad-013,Prospect Campaign Management,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development > Marketing And Development > Prospect Campaign Management
+mad-014,Advertising,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development > Marketing And Development > Advertising
+mad-015,Prospect Campaign Design,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development > Marketing And Development > Prospect Campaign Design
+mad-016,Promotional Events,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development > Marketing And Development > Promotional Events
+mad-017,Customer Surveys,ServiceDomain,ServiceDomain,Marketing And Development,3,Business Development > Marketing And Development > Customer Surveys
+cm-001,Channel Management,Container,Grouping,Business Development,2,Business Development > Channel Management
+cm-002,Channel Portfolio,ServiceDomain,ServiceDomain,Channel Management,3,Business Development > Channel Management > Channel Portfolio
+cm-003,Branch Location Management,ServiceDomain,ServiceDomain,Channel Management,3,Business Development > Channel Management > Branch Location Management
+cm-004,Branch Portfolio,ServiceDomain,ServiceDomain,Channel Management,3,Business Development > Channel Management > Branch Portfolio
+cm-005,ATM Network Management,ServiceDomain,ServiceDomain,Channel Management,3,Business Development > Channel Management > ATM Network Management
+cm-006,Contact Center Management,ServiceDomain,ServiceDomain,Channel Management,3,Business Development > Channel Management > Contact Center Management
+cm-007,Branch Network Management,ServiceDomain,ServiceDomain,Channel Management,3,Business Development > Channel Management > Branch Network Management
+cm-008,Servicing Activity Analysis,ServiceDomain,ServiceDomain,Channel Management,3,Business Development > Channel Management > Servicing Activity Analysis
+cm-009,Advanced Voice Services Management,ServiceDomain,ServiceDomain,Channel Management,3,Business Development > Channel Management > Advanced Voice Services Management
+cm-010,Financial Message Analysis,ServiceDomain,ServiceDomain,Channel Management,3,Business Development > Channel Management > Financial Message Analysis
+cm-011,eBranch Management,ServiceDomain,ServiceDomain,Channel Management,3,Business Development > Channel Management > eBranch Management
+cm-012,Channel Activity Analysis,ServiceDomain,ServiceDomain,Channel Management,3,Business Development > Channel Management > Channel Activity Analysis
+cm-013,Product Inventory Item Management,ServiceDomain,ServiceDomain,Channel Management,3,Business Development > Channel Management > Product Inventory Item Management
+cm-014,Information Provider Administration,ServiceDomain,ServiceDomain,Channel Management,3,Business Development > Channel Management > Information Provider Administration
+cm-015,Central Cash Handling,ServiceDomain,ServiceDomain,Channel Management,3,Business Development > Channel Management > Central Cash Handling
+cm-016,Market Data Switch Administration,ServiceDomain,ServiceDomain,Channel Management,3,Business Development > Channel Management > Market Data Switch Administration
+cm-017,Branch Currency Management,ServiceDomain,ServiceDomain,Channel Management,3,Business Development > Channel Management > Branch Currency Management

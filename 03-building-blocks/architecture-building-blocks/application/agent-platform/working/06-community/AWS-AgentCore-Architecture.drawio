@@ -1,0 +1,315 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0" version="24.6.4">
+  <diagram name="AWS-AgentCore-Architecture" id="architecture">
+    <mxGraphModel dx="2074" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Environment Containers -->
+        <mxCell id="env-sandbox" value="Sandbox Environment" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;fontStyle=1;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="480" height="400" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="env-dev" value="Development Environment" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;fontStyle=1;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="580" y="80" width="480" height="400" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="env-prod" value="Production Environment" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;fontStyle=1;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="80" width="480" height="400" as="geometry" />
+        </mxCell>
+        
+        <!-- AgentCore Components -->
+        <mxCell id="agentcore-runtime" value="AgentCore Runtime&#xa;(Serverless Firecracker)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="agentcore-gateway" value="AgentCore Gateway&#xa;(MCP Compatible)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="agentcore-memory" value="AgentCore Memory&#xa;(Session + Long-term)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="agentcore-identity" value="AgentCore Identity&#xa;(IAM + Zero Trust)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="agentcore-browser" value="AgentCore Browser&#xa;(Web Automation)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="agentcore-code" value="AgentCore Code Interpreter&#xa;(Sandbox Execution)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="agentcore-observability" value="AgentCore Observability&#xa;(OpenTelemetry)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Bedrock Foundation Models -->
+        <mxCell id="bedrock-models" value="Amazon Bedrock Foundation Models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="520" width="500" height="120" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="claude-sonnet" value="Claude 3.5 Sonnet" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="70" y="560" width="100" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="claude-haiku" value="Claude 3.5 Haiku" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="190" y="560" width="100" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="llama-70b" value="Llama 3.1 70B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="310" y="560" width="100" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="llama-8b" value="Llama 3.1 8B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="430" y="560" width="100" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Vector Database -->
+        <mxCell id="vector-db-container" value="Vector Database Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="600" y="520" width="460" height="120" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="s3-vectors" value="Amazon S3 Vectors&#xa;(Cost-effective storage)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="620" y="560" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="opensearch" value="OpenSearch Service&#xa;(Hybrid search)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="760" y="560" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="pinecone" value="Pinecone&#xa;(Pure vector search)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="900" y="560" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Graph Database -->
+        <mxCell id="graph-db-container" value="Graph Database Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="520" width="500" height="120" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="neptune" value="Amazon Neptune&#xa;(Knowledge Graph)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#28a745;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="560" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="neptune-ml" value="Neptune ML&#xa;(Graph Embeddings)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#28a745;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="560" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="neo4j" value="Neo4j on EC2&#xa;(Custom graphs)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#28a745;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="560" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Supporting AWS Services -->
+        <mxCell id="supporting-services" value="Supporting AWS Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="680" width="1550" height="120" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="lambda" value="AWS Lambda&#xa;(Function compute)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#cc0000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="720" width="110" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="ec2" value="Amazon EC2&#xa;(Compute instances)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#cc0000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="720" width="110" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="s3" value="Amazon S3&#xa;(Object storage)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#cc0000;" vertex="1" parent="1">
+          <mxGeometry x="340" y="720" width="110" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="dynamodb" value="DynamoDB&#xa;(NoSQL database)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#cc0000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="720" width="110" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="cloudwatch" value="CloudWatch&#xa;(Monitoring)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#cc0000;" vertex="1" parent="1">
+          <mxGeometry x="600" y="720" width="110" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="vpc" value="Amazon VPC&#xa;(Network isolation)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#cc0000;" vertex="1" parent="1">
+          <mxGeometry x="730" y="720" width="110" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="kms" value="AWS KMS&#xa;(Key management)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#cc0000;" vertex="1" parent="1">
+          <mxGeometry x="860" y="720" width="110" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="api-gateway" value="API Gateway&#xa;(API management)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#cc0000;" vertex="1" parent="1">
+          <mxGeometry x="990" y="720" width="110" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="cognito" value="Amazon Cognito&#xa;(User management)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#cc0000;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="720" width="110" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="iam" value="AWS IAM&#xa;(Access control)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#cc0000;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="720" width="110" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="alb" value="Application Load Balancer&#xa;(Load balancing)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#cc0000;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="720" width="110" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="nat-gateway" value="NAT Gateway&#xa;(Outbound internet)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#cc0000;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="720" width="110" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- User Interfaces -->
+        <mxCell id="ui-layer" value="User Interface Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="820" width="1550" height="80" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="web-app" value="Web Application" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#dc3545;" vertex="1" parent="1">
+          <mxGeometry x="80" y="850" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="mobile-app" value="Mobile App" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#dc3545;" vertex="1" parent="1">
+          <mxGeometry x="220" y="850" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="chat-interface" value="Chat Interface" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#dc3545;" vertex="1" parent="1">
+          <mxGeometry x="360" y="850" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="api-client" value="API Client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#dc3545;" vertex="1" parent="1">
+          <mxGeometry x="500" y="850" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="sdk" value="AgentCore SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#dc3545;" vertex="1" parent="1">
+          <mxGeometry x="640" y="850" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="jupyter" value="Jupyter Notebooks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#dc3545;" vertex="1" parent="1">
+          <mxGeometry x="780" y="850" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="cli" value="AWS CLI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#dc3545;" vertex="1" parent="1">
+          <mxGeometry x="920" y="850" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="console" value="AWS Console" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#dc3545;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="850" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="marketplace" value="AWS Marketplace" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#dc3545;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="850" width="120" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Framework Integration -->
+        <mxCell id="framework-layer" value="Framework Integration Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1ecf1;strokeColor=#0c5460;fontSize=14;fontStyle=1;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="920" width="1550" height="80" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="langchain" value="LangChain" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#0066cc;" vertex="1" parent="1">
+          <mxGeometry x="80" y="950" width="100" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="langgraph" value="LangGraph" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#0066cc;" vertex="1" parent="1">
+          <mxGeometry x="200" y="950" width="100" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="strands" value="Strands AI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#0066cc;" vertex="1" parent="1">
+          <mxGeometry x="320" y="950" width="100" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="llamaindex" value="LlamaIndex" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#0066cc;" vertex="1" parent="1">
+          <mxGeometry x="440" y="950" width="100" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="autogen" value="AutoGen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#0066cc;" vertex="1" parent="1">
+          <mxGeometry x="560" y="950" width="100" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="crewai" value="CrewAI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#0066cc;" vertex="1" parent="1">
+          <mxGeometry x="680" y="950" width="100" height="40" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="custom-framework" value="Custom Framework" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#0066cc;" vertex="1" parent="1">
+          <mxGeometry x="800" y="950" width="100" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Key Connections -->
+        <!-- AgentCore to Bedrock -->
+        <mxCell id="connection-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#e67e22;" edge="1" parent="1" source="agentcore-runtime" target="bedrock-models">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="400" as="sourcePoint" />
+            <mxPoint x="200" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- AgentCore to Vector DB -->
+        <mxCell id="connection-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#27ae60;" edge="1" parent="1" source="agentcore-memory" target="vector-db-container">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="350" as="sourcePoint" />
+            <mxPoint x="590" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- AgentCore to Graph DB -->
+        <mxCell id="connection-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#8e44ad;" edge="1" parent="1" source="agentcore-gateway" target="graph-db-container">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Vector to Graph connection -->
+        <mxCell id="connection-4" value="GraphRAG Integration" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#34495e;" edge="1" parent="1" source="vector-db-container" target="graph-db-container">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="580" as="sourcePoint" />
+            <mxPoint x="1100" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- UI to AgentCore -->
+        <mxCell id="connection-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#2980b9;" edge="1" parent="1" source="ui-layer" target="supporting-services">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="825" y="810" as="sourcePoint" />
+            <mxPoint x="825" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Framework to UI -->
+        <mxCell id="connection-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#16a085;" edge="1" parent="1" source="framework-layer" target="ui-layer">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="825" y="910" as="sourcePoint" />
+            <mxPoint x="825" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Data Flow Labels -->
+        <mxCell id="label-1" value="Model Inference" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#e67e22;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="80" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="label-2" value="Vector Search" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#27ae60;" vertex="1" parent="1">
+          <mxGeometry x="520" y="380" width="80" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="label-3" value="Knowledge Graph" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#8e44ad;" vertex="1" parent="1">
+          <mxGeometry x="750" y="300" width="80" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Cost and Performance Indicators -->
+        <mxCell id="cost-indicator" value="💰 Cost Optimization Zones" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#d35400;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="200" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="perf-indicator" value="⚡ High Performance Data Path" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#27ae60;" vertex="1" parent="1">
+          <mxGeometry x="300" y="50" width="200" height="20" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="security-indicator" value="🔒 Security &amp; Compliance Layer" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#8e44ad;" vertex="1" parent="1">
+          <mxGeometry x="550" y="50" width="200" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Legend -->
+        <mxCell id="legend" value="Legend:&#xa;🏗️ AgentCore Components&#xa;🧠 Foundation Models&#xa;📊 Vector Databases&#xa;🕸️ Graph Databases&#xa;⚙️ Supporting Services&#xa;👥 User Interfaces&#xa;🔧 Frameworks" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;fillColor=#f0f0f0;strokeColor=#cccccc;spacingTop=5;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="120" width="180" height="140" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

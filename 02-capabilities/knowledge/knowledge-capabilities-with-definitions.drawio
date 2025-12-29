@@ -1,0 +1,100 @@
+<mxfile host="65bd71144e">
+    <diagram name="Knowledge Capabilities - Definitions" id="knowledge-capabilities-def">
+        <mxGraphModel dx="1024" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="background" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="100" width="1580" height="780" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-header" value="1. DATA MANAGEMENT" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;fontColor=#FFFFFF;fontStyle=1;fontSize=14;fontFamily=Helvetica;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="120" width="400" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-sub1" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;1.1 Data Source Integration&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;font&gt;The ability to connect to and extract data from multiple enterprise systems, applications, and external sources&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="175" width="190" height="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-sub2" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;1.2 Document Processing &amp;amp; Extraction&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to analyze and extract structured information from unstructured documents including text, tables, images, and complex layouts&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="237" y="175" width="199" height="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-sub3" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;1.3 Metadata Enrichment&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to enhance captured knowledge with additional contextual information, classifications, and semantic annotations&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="348" width="190" height="172" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap1-sub4" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;1.4 Real-Time Knowledge Streaming&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to capture and process knowledge as it is created or modified, enabling immediate availability for consumption&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="237" y="348" width="199" height="172" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-header" value="2. SEMANTIC LAYER &amp; MODELING" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;fontColor=#FFFFFF;fontStyle=1;fontSize=14;fontFamily=Helvetica;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="120" width="575" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-sub1" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;2.1 Knowledge Graph Foundation&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Entity resolution, relationship extraction, and graph schema design. The ability to build and maintain enterprise knowledge graphs that represent entities, relationships, and attributes in a connected graph structure.&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="445" y="175" width="280" height="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-sub2" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;2.2 Ontology Management&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Define and maintain domain ontologies (entities, relationships, hierarchies, constraints).&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="730" y="175" width="295" height="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-sub3" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;2.3 Semantic Data Models&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Conceptual and logical models that bridge business language to physical data. The capability to identify when different references represent the same real-world entity and link them together, enabling unified views across data sources&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="445" y="348" width="210" height="172" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-sub4" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;2.4 Semantic Mapping &amp;amp; Relationship Modeling&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to identify, classify, and model relationships between entities, enabling graph traversal and multi-hop reasoning. Linkage between semantic concepts and physical assets.&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="665" y="348" width="175" height="172" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap2-sub5" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;2.5 Glossary, Taxonomy, Classification &amp;amp; Metrics&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;Centralized repository of business terms, definitions, owners, and synonyms. Hierarchical classification schemes for products, content, and organizational concepts. Canonical business metric definitions with calculation logic and dimensions.&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="848" y="348" width="182" height="172" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-header" value="3. KNOWLEDGE STORAGE &amp; RETRIEVAL" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;fontColor=#FFFFFF;fontStyle=1;fontSize=14;fontFamily=Helvetica;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1040" y="120" width="550" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-sub1" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;3.1 Vector Database Management&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to store, index, and retrieve high-dimensional vector embeddings for semantic similarity search&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="1040" y="175" width="160" height="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-sub2" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;3.2 Graph Database Management&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to store and query graph-structured knowledge with native support for relationship traversal and pattern matching&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="1210" y="175" width="180" height="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-sub3" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;3.3 Embedding Generation &amp;amp; Management&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to generate, version, and manage vector embeddings from text, images, and other content types&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="1400" y="175" width="187" height="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-sub4" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;3.4 Hybrid Storage Strategies&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to intelligently combine multiple storage technologies (vector, graph, document, relational) for optimal performance and functionality&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="1040" y="348" width="160" height="172" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap3-sub5" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;3.5 Knowledge Versioning&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to track changes to knowledge over time, maintaining historical versions and enabling rollback&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="1211" y="348" width="179" height="172" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-header" value="4. KNOWLEDGE ACCESS &amp; DELIVERY" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;fontColor=#FFFFFF;fontStyle=1;fontSize=14;fontFamily=Helvetica;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="537" width="690" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-sub1" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;4.1 Semantic Search&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to enable natural language search over enterprise knowledge using semantic understanding rather than keyword matching&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="592" width="212" height="147" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-sub2" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;4.2 RAG (Retrieval Augmented Generation)&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to ground large language model responses in enterprise knowledge by retrieving relevant context before generation&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="266.5" y="592" width="212" height="147" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-sub3" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;4.3 Knowledge APIs &amp;amp; Interfaces&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to expose knowledge through well-designed APIs and interfaces for programmatic access by agents and applications&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="491.5" y="595.5" width="238.5" height="143.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-sub4" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;4.4 Context Assembly &amp;amp; Ranking&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to intelligently select, combine, and rank knowledge fragments to provide optimal context for specific use cases&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="747" width="290" height="123" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap4-sub5" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;4.5 Multi-Modal Knowledge Access&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to provide access to knowledge across different modalities (text, images, audio, video) with unified search and retrieval&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="747" width="263.5" height="123" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-header" value="5. KNOWLEDGE GOVERNANCE &amp; QUALITY" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;fontColor=#FFFFFF;fontStyle=1;fontSize=14;fontFamily=Helvetica;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="745" y="537" width="825" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-sub1" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;5.1 Knowledge Curation&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to systematically review, validate, and improve knowledge quality through human and automated processes&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="745" y="592" width="140" height="197" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-sub2" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;5.2 Data Quality Management&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to measure, monitor, and improve the quality of knowledge across dimensions including accuracy, completeness, consistency, and timeliness&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="592" width="145" height="197" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-sub3" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;5.3 Access Control &amp;amp; Security&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to secure knowledge through authentication, authorization, encryption, and audit controls&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="1060" y="592" width="135" height="197" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-sub4" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;5.4 Compliance &amp;amp; Audit&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to ensure knowledge management practices meet regulatory requirements and provide audit trails&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="1210" y="592" width="150" height="197" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap5-sub5" value="&lt;b&gt;&lt;font color=&quot;#003087&quot;&gt;5.5 Knowledge Lifecycle Management&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;&lt;font&gt;The capability to manage knowledge from creation through retirement, including versioning, archival, and disposal&lt;/font&gt;" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=12;fontColor=#333333;fontFamily=Helvetica;align=left;spacingLeft=8;spacingTop=5;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="1375" y="592" width="195" height="197" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

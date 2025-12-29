@@ -1,0 +1,431 @@
+<mxfile host="app.diagrams.net" modified="2025-12-09" agent="Claude Code" version="22.1.0" etag="BNZ-AI-Platform-Wave1" type="device">
+  <diagram id="wave1-foundation" name="Wave 1 - Foundation Build">
+    <mxGraphModel dx="2400" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Title -->
+        <mxCell id="title" value="WAVE 1: FOUNDATION BUILD" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=28;fontStyle=1;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="600" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="subtitle" value="Core Infrastructure Required Regardless of First Use Case | Q2-Q3 FY25 (Jan-Jun 2025)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="600" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="40" width="450" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1915" y="50" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-foundation" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1915" y="75" width="25" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-foundation-text" value="Foundation Component (Mandatory)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="72" width="180" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-decision" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#FF6B35;fillColor=#FF6B35;" vertex="1" parent="1">
+          <mxGeometry x="1915" y="95" width="25" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-decision-text" value="Decision Point / Dependency" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="95" width="180" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-milestone" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00A651;fillColor=#00A651;" vertex="1" parent="1">
+          <mxGeometry x="1915" y="120" width="25" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-milestone-text" value="Milestone / Target State" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="117" width="180" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-continuous" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#50E6FF;fillColor=#50E6FF;" vertex="1" parent="1">
+          <mxGeometry x="1915" y="145" width="25" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-continuous-text" value="Continuous / Ongoing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="142" width="180" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-fy-marker" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFA500;strokeWidth=2;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="75" width="25" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-fy-text" value="FY Quarter Boundary" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="2165" y="72" width="150" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Timeline Header -->
+        <mxCell id="timeline-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="200" y="130" width="2150" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Quarter Labels -->
+        <mxCell id="q2fy25-label" value="Q2 FY25 (Jan-Mar 2025)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="130" width="300" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="q3fy25-label" value="Q3 FY25 (Apr-Jun 2025)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="500" y="130" width="300" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- Month Labels -->
+        <mxCell id="jan25" value="Jan-25" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="155" width="100" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="feb25" value="Feb-25" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="155" width="100" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="mar25" value="Mar-25" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="155" width="100" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="apr25" value="Apr-25" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="500" y="155" width="100" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="may25" value="May-25" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="600" y="155" width="100" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="jun25" value="Jun-25" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="700" y="155" width="100" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- Capability Labels Column -->
+        <mxCell id="cap-header" value="Capabilities" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#003087;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="140" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== GOVERNANCE DOMAIN ==================== -->
+        <mxCell id="gov-label" value="Governance" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontStyle=1;fontSize=12;fontFamily=Helvetica;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="140" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- AI Model Registry -->
+        <mxCell id="gov-registry" value="AI Model Registry &amp; Governance Framework" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="350" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- AI Gateway -->
+        <mxCell id="gov-gateway" value="AI Gateway &amp; Policy Enforcement (AB-066)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="350" y="250" width="300" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Audit Trail -->
+        <mxCell id="gov-audit" value="Audit Trail &amp; Logging" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="250" y="300" width="200" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Governance Target State -->
+        <mxCell id="gov-milestone" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#00A651;fillColor=#00A651;" vertex="1" parent="1">
+          <mxGeometry x="680" y="215" width="25" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="gov-milestone-text" value="Governance&#xa;Foundation&#xa;Complete" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#00A651;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="205" width="80" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== DATA &amp; INTEGRATION DOMAIN ==================== -->
+        <mxCell id="data-label" value="Data &amp;&#xa;Integration" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontStyle=1;fontSize=12;fontFamily=Helvetica;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="360" width="140" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Feature Store -->
+        <mxCell id="data-feature" value="Feature Store Foundation (Online &amp; Offline)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="300" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Data Quality -->
+        <mxCell id="data-quality" value="Data Quality Monitoring" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="300" y="410" width="200" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Event Broker -->
+        <mxCell id="data-events" value="Event Broker &amp; Integration Patterns" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="250" y="460" width="280" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- API Gateway -->
+        <mxCell id="data-api" value="API Gateway for AI Services" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="350" y="510" width="250" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Vector DB Decision -->
+        <mxCell id="data-vector-decision" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#FF6B35;fillColor=#FF6B35;" vertex="1" parent="1">
+          <mxGeometry x="290" y="555" width="25" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="data-vector-decision-text" value="Vector DB&#xa;Selection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#FF6B35;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="550" width="70" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Data Target State -->
+        <mxCell id="data-milestone" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#00A651;fillColor=#00A651;" vertex="1" parent="1">
+          <mxGeometry x="680" y="410" width="25" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="data-milestone-text" value="Data&#xa;Foundation&#xa;Complete" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#00A651;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="400" width="80" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== OBSERVABILITY DOMAIN ==================== -->
+        <mxCell id="obs-label" value="Observability" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontStyle=1;fontSize=12;fontFamily=Helvetica;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="610" width="140" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Observability Platform -->
+        <mxCell id="obs-platform" value="Observability Platform (Metrics, Logs, Traces)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="610" width="350" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Drift Detection -->
+        <mxCell id="obs-drift" value="Drift Detection Framework" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="350" y="660" width="220" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Cost Monitoring -->
+        <mxCell id="obs-cost" value="Cost Monitoring &amp; Attribution" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="300" y="710" width="200" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Stakeholder Dashboard -->
+        <mxCell id="obs-dashboard" value="Stakeholder Dashboard" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#50E6FF;fillColor=#50E6FF;fontColor=#333333;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="450" y="760" width="400" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== SECURITY DOMAIN ==================== -->
+        <mxCell id="sec-label" value="Security" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontStyle=1;fontSize=12;fontFamily=Helvetica;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="820" width="140" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Identity &amp; Access -->
+        <mxCell id="sec-iam" value="Access Control &amp; Identity Management" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="820" width="300" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- PII Detection -->
+        <mxCell id="sec-pii" value="PII Detection &amp; Masking" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="350" y="870" width="200" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Secrets Management -->
+        <mxCell id="sec-secrets" value="Secrets Management" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="250" y="920" width="180" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Security Audit -->
+        <mxCell id="sec-audit" value="Security Audit Logging" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#50E6FF;fillColor=#50E6FF;fontColor=#333333;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="920" width="450" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== MLOPS DOMAIN ==================== -->
+        <mxCell id="mlops-label" value="MLOps" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontStyle=1;fontSize=12;fontFamily=Helvetica;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="990" width="140" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Model Registry -->
+        <mxCell id="mlops-registry" value="Model Registry (AB-086)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="990" width="250" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Training Pipeline -->
+        <mxCell id="mlops-training" value="ML Training Pipeline Framework" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1040" width="280" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Model Testing -->
+        <mxCell id="mlops-testing" value="Model Testing Framework" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1090" width="220" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- SageMaker Workbench -->
+        <mxCell id="mlops-sagemaker" value="SageMaker Workbench (DD&amp;A / Data Science)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1140" width="600" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- MLOps Target State -->
+        <mxCell id="mlops-milestone" value="" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#00A651;fillColor=#00A651;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1040" width="25" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="mlops-milestone-text" value="MLOps L2&#xa;Foundation&#xa;Ready" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#00A651;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1030" width="80" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== INFRASTRUCTURE DOMAIN ==================== -->
+        <mxCell id="infra-label" value="Infrastructure" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontStyle=1;fontSize=12;fontFamily=Helvetica;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1200" width="140" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Compute Infrastructure -->
+        <mxCell id="infra-compute" value="AI Compute Infrastructure (GPU/TPU Provisioning)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1200" width="400" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Container Platform -->
+        <mxCell id="infra-container" value="Container Orchestration (K8s)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1250" width="250" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- CI/CD -->
+        <mxCell id="infra-cicd" value="CI/CD Pipelines for AI Workloads" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#50E6FF;fillColor=#50E6FF;fontColor=#333333;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1300" width="500" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== DEVELOPER PLATFORM DOMAIN ==================== -->
+        <mxCell id="dev-label" value="Developer&#xa;Platform" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontStyle=1;fontSize=12;fontFamily=Helvetica;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1360" width="140" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Developer Tools -->
+        <mxCell id="dev-tools" value="AI Developer Tools &amp; SDKs" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#003087;fontColor=#FFFFFF;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1360" width="250" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- Documentation -->
+        <mxCell id="dev-docs" value="Developer Documentation &amp; Runbooks" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#50E6FF;fillColor=#50E6FF;fontColor=#333333;fontSize=11;fontFamily=Helvetica;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1410" width="500" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== KEY DEPENDENCIES ==================== -->
+        <mxCell id="dep-section" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1490" width="850" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="dep-title" value="Key Dependencies &amp; Decision Points" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="65" y="1500" width="300" height="25" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="dep-1" value="Vector DB Selection (Q2 FY25) - Impacts RAG, Knowledge, Agents" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#FF6B35;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1530" width="400" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="dep-2" value="High/Low Code Direction (Q2 FY25) - Impacts Agent Development" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#FF6B35;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1555" width="400" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="dep-3" value="Graph DB Direction (Q2 FY25) - Impacts Knowledge Graph, GraphRAG" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#FF6B35;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1580" width="400" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="dep-4" value="Security Compliance Approval - Required before Production" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#FF6B35;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1605" width="400" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="dep-5" value="Governance Framework Endorsed - Required for any AI deployment" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#FF6B35;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1630" width="400" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== OUTCOMES BOX ==================== -->
+        <mxCell id="outcome-box" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00A651;fillColor=#FFFFFF;arcSize=5;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1490" width="400" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="outcome-title" value="Wave 1 Outcomes (Q3 FY25 - Jun 2025)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#00A651;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1500" width="350" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="outcome-1" value="✓ AI Governance Framework operational (PT-001)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1530" width="350" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="outcome-2" value="✓ Feature Store foundation deployed (PT-003)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1550" width="350" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="outcome-3" value="✓ Observability platform operational (PT-017)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1570" width="350" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="outcome-4" value="✓ Security controls in place (PT-018)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1590" width="350" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="outcome-5" value="✓ MLOps Level 2 ready (PT-002)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1610" width="350" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="outcome-6" value="✓ SageMaker Workbench available for DD&amp;A" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1630" width="350" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="outcome-7" value="✓ Technology decisions finalized (Vector, Graph, Hi/Lo Code)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1650" width="350" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== CRITICAL ABB DEPENDENCIES ==================== -->
+        <mxCell id="abb-section" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#003087;fillColor=#F0F4F8;arcSize=3;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="950" y="200" width="450" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="abb-title" value="Critical ABB Dependencies (Wave 1)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontStyle=1;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="965" y="210" width="300" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="abb-tier0" value="Tier 0 - Foundation (No Deps):" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="965" y="235" width="200" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="abb-t0-1" value="AB-096 Observability | AB-065 Audit Trail" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="965" y="250" width="280" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="abb-t0-2" value="AB-066 AI Gateway | AB-086 Model Registry" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="965" y="265" width="280" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="abb-tier1" value="Tier 1 - GenAI Foundation:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="965" y="285" width="200" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="abb-t1-1" value="AB-050 LLM Service (24/24 use cases)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="965" y="300" width="280" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="abb-t1-2" value="AB-051 Vector DB (18/24) | AB-052 Semantic Search" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="965" y="315" width="300" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="abb-tier2" value="Tier 2 - Inference &amp; Data:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="965" y="335" width="200" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="abb-t2-1" value="AB-072 Inference Engine (18/24 use cases)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="965" y="350" width="280" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="abb-t2-2" value="AB-037 Feature Store (14/24) | AB-001 Agent Orch" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="965" y="365" width="300" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="abb-t2-3" value="AB-097 Drift Detector | AB-075 Stream Processing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="965" y="380" width="300" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="abb-note" value="Wave 1 ABBs enable 70% reuse across all 24 use cases" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontStyle=3;fontColor=#00A651;" vertex="1" parent="1">
+          <mxGeometry x="965" y="410" width="350" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="abb-patterns" value="Mandatory Patterns: PT-001, PT-002, PT-003, PT-017, PT-018" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontStyle=3;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="965" y="430" width="400" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== USE CASE UNLOCK SECTION ==================== -->
+        <mxCell id="unlock-section" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00A651;fillColor=#F0F8F0;arcSize=3;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="200" width="420" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="unlock-title" value="Use Case Unlock Sequence" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontStyle=1;fontColor=#00A651;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="210" width="250" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="unlock-w1" value="After Wave 1 (Q3 FY25 - Jun 2025):" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="235" width="250" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="unlock-w1-1" value="UC-022 Learning Content (simplest RAG)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="250" width="280" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="unlock-w1-2" value="UC-010 SDLC (developer productivity)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="265" width="280" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="unlock-w2" value="Wave 2 Candidates (Q4 FY25 - Q1 FY26, Jun-Dec 2025):" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="285" width="350" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="unlock-w2-1" value="UC-007 Contact Centre (+Conv AI ABBs)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="300" width="280" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="unlock-w2-2" value="UC-005 Lending Ops (+IDP ABBs)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="315" width="280" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="unlock-w2-3" value="UC-004 Credit Risk (+Explainability ABBs)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="330" width="280" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="unlock-w2-4" value="UC-014 Onboarding (+Doc Processing)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="345" width="280" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="unlock-w2-5" value="UC-011 Fincrime (+Stream Processing)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="360" width="280" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="unlock-w2-6" value="UC-001 Partnership Banking (+Agents)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="375" width="280" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="unlock-w2-7" value="UC-006 HyperPersonalization (+ML Scoring)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="390" width="280" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="unlock-note" value="8 priority use cases in Wave 2; 16 more in Wave 3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontStyle=3;fontColor=#00A651;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="415" width="350" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="unlock-patterns" value="Patterns validated: PT-005, PT-007, PT-011, PT-013" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontStyle=3;fontColor=#FF6B35;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="435" width="350" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Footer -->
+        <mxCell id="footer" value="BNZ AI Platform Architecture | Wave 1: Foundation Build | Version 1.1 | Dec 2025 | Based on 24 Use Case Dependency Analysis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=10;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1720" width="2300" height="30" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,298 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram id="use-cases-dependencies" name="AI Use Cases Dependencies">
+    <mxGraphModel dx="2377" dy="1402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uc001" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="30" y="90" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc001-title" value="UC-001: FrontLine - Partnership Banking" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="40.19" y="94.67" width="271.81" height="57.33" as="geometry" />
+        </mxCell>
+        <mxCell id="uc001-ea" value="&lt;b&gt;EA:&lt;/b&gt; Shawn Cawood, Dan Barratt, Hugh Walcott, Sarah Amundsen" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003087;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="41.19383259911894" y="266" width="278.59030837004406" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc002" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="341.36563876651985" y="90" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc002-title" value="UC-002: Finance" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="349.5594713656388" y="101.66666666666666" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc002-desc" value="&lt;b&gt;Deps:&lt;/b&gt; Legacy Finance Data Stores, Enterprise Interfaces.&lt;br&gt;&lt;b&gt;Notes:&lt;/b&gt; Fabric ingestion needs TAF approval. S4HANA includes SAC (Oct 2026) for operational reporting. Would require data export from ODM to Fabric." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="349.5594713656388" y="145" width="278.59030837004406" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc002-ea" value="&lt;b&gt;EA:&lt;/b&gt; Brian Stapleton, Tracey Davis" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003087;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="349.5594713656388" y="265" width="278.59030837004406" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc003" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="652.7312775330397" y="90" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc003-title" value="UC-003: Analytics and Reporting" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="660.9251101321586" y="101.66666666666666" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc003-desc" value="&lt;b&gt;Deps:&lt;/b&gt; Data modernisation, Snowflake and Fivetran in place prior to acceleration. Or use against Hadoop." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="660.9251101321586" y="145" width="278.59030837004406" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc003-ea" value="&lt;b&gt;EA:&lt;/b&gt; Tracey Davis" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003087;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="660.9251101321586" y="265" width="278.59030837004406" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc004" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="964.0969162995596" y="90" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc004-title" value="UC-004: Credit Risk" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="972.2907488986785" y="101.66666666666666" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc004-desc" value="&lt;b&gt;Deps:&lt;/b&gt;&amp;nbsp;Not enough information was provided to make an informed determination.&lt;br&gt;&lt;b&gt;Notes:&lt;/b&gt; Need to clarify if limited to credit risk context or if data from other sources is required." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="972.2907488986785" y="145" width="278.59030837004406" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc004-ea" value="&lt;b&gt;EA:&lt;/b&gt; Paul Furkert" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003087;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="972.2907488986785" y="265" width="278.59030837004406" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc005" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1275.4625550660794" y="90" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc005-title" value="UC-005: Lending Ops" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1283.6563876651983" y="101.66666666666666" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc005-desc" value="&lt;b&gt;Deps:&lt;/b&gt;&amp;nbsp;Not enough information was provided to make an informed determination." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1283.6563876651983" y="145" width="278.59030837004406" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc005-ea" value="&lt;b&gt;EA:&lt;/b&gt; Paul Furkert, Angus Cotton" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003087;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="1283.6563876651983" y="265" width="278.59030837004406" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc006" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#666666;strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1586.8281938325993" y="90" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc006-title" value="UC-006: HyperPersonalization" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1595.0220264317181" y="101.66666666666666" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc006-desc" value="&lt;b&gt;Deps:&lt;/b&gt; LLM with data ingestion for NBA, Decisioning engine (Pega CDH?), CMS, A/B testing, Journey orchestration, Pricing Manager.&lt;br&gt;&lt;b&gt;Notes:&lt;/b&gt; Linked to UC-024. MarTech tool expected to provide many dependencies." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1595.0220264317181" y="145" width="278.59030837004406" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc006-ea" value="&lt;b&gt;EA:&lt;/b&gt; Corina Elama, Sarah Amundsen" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003087;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="1595.0220264317181" y="265" width="278.59030837004406" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc007" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="30" y="323.3333333333333" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc007-title" value="UC-007: Contact Centre" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="38.19383259911894" y="335" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc007-desc" value="&lt;b&gt;Deps:&lt;/b&gt; Customer self-service requires customer / account APIs and public knowledge articles. Uplift in Conversational platform operations team.&lt;br&gt;&lt;b&gt;Notes:&lt;/b&gt; Question: Why dependency on Customer self-service features?" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="38.19383259911894" y="378.3333333333333" width="278.59030837004406" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc007-ea" value="&lt;b&gt;EA:&lt;/b&gt; Dan Barratt" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003087;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="38.19383259911894" y="498.3333333333333" width="278.59030837004406" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc008" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="341.36563876651985" y="323.3333333333333" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc008-title" value="UC-008: Security AI" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="349.5594713656388" y="335" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc008-desc" value="&lt;b&gt;Deps:&lt;/b&gt; Security/Op Observability uplift, Next-Gen SIEM/SOAR, Threat Intel foundations, Detection patterns, Engineering Automation pipelines, DevOps model, Vulnerability mgmt overhaul.&lt;br&gt;&lt;b&gt;Notes:&lt;/b&gt; Wiz is only one component." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="349.5594713656388" y="378.3333333333333" width="278.59030837004406" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc008-ea" value="&lt;b&gt;EA:&lt;/b&gt; Francis Kaitano, Mike Thompson, John Marshall, Glenn Bellam, Tracey Hughes" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003087;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="349.5594713656388" y="498.3333333333333" width="278.59030837004406" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc009" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="652.7312775330397" y="323.3333333333333" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc009-title" value="UC-009: Data Products" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="660.9251101321586" y="335" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc009-desc" value="&lt;b&gt;Deps:&lt;/b&gt;&amp;nbsp;Need a data ingestion spreadsheet showing key subject areas.&lt;br&gt;&lt;b&gt;Notes:&lt;/b&gt; Is scope Snowflake Cortex only, or does it extend to enterprise agentic?" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="660.9251101321586" y="378.3333333333333" width="278.59030837004406" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc009-ea" value="&lt;b&gt;EA:&lt;/b&gt; Tracey Davis" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003087;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="660.9251101321586" y="498.3333333333333" width="278.59030837004406" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc010" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="964.0969162995596" y="323.3333333333333" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc010-title" value="UC-010: SDLC" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="972.2907488986785" y="335" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc010-desc" value="&lt;b&gt;Deps:&lt;/b&gt; GitHub Copilot, Golden paths, uplift in software design/requirements/testing practices.&lt;br&gt;&lt;b&gt;Notes:&lt;/b&gt; Huge impact - 500+ domain teams. Need software design lift. Consider AgentCore, Q, etc." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="972.2907488986785" y="378.3333333333333" width="278.59030837004406" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc010-ea" value="&lt;b&gt;EA:&lt;/b&gt; Glenn Bellam" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003087;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="972.2907488986785" y="498.3333333333333" width="278.59030837004406" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc011" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1275.4625550660794" y="323.3333333333333" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc011-title" value="UC-011: Fincrime" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1283.6563876651983" y="335" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc011-desc" value="&lt;b&gt;Deps:&lt;/b&gt; Enterprise data products &amp;amp; interfaces, BNZ GenAI over enterprise data in BDH, Fully productionised AWS Sagemaker.&lt;br&gt;&lt;b&gt;Notes:&lt;/b&gt; Uses Pega GenAI/AgenticAI. Assumes exiting Accenture AIDT. Name Screening AI post FY26." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1283.6563876651983" y="378.3333333333333" width="278.59030837004406" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc011-ea" value="&lt;b&gt;EA:&lt;/b&gt; Michael Lomas" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003087;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="1283.66" y="509" width="278.59" height="18.33" as="geometry" />
+        </mxCell>
+        <mxCell id="uc012" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#666666;strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1586.8281938325993" y="323.3333333333333" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc012-title" value="UC-012: QA / QC" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1595.0220264317181" y="335" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc012-desc" value="&lt;b&gt;Deps:&lt;/b&gt; Not explicitly specified.&lt;br&gt;&lt;b&gt;Notes:&lt;/b&gt; Need to clarify which QA/QC processes are in scope. QA/QC is homeless in PoP model. Is this Internal Audit or GRACE-related?" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1595.0220264317181" y="378.3333333333333" width="278.59030837004406" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc012-ea" value="&lt;b&gt;EA:&lt;/b&gt; Brian Stapleton, Michael Lomas" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003087;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="1595.0220264317181" y="498.3333333333333" width="278.59030837004406" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc013" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="30" y="556.6666666666666" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc013-title" value="UC-013: Fraud Ops" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="38.19383259911894" y="568.3333333333333" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc013-desc" value="&lt;b&gt;Deps:&lt;/b&gt; Successful Fraud Transformation programme - Investigations/Pega comes later. Enterprise data products &amp;amp; interfaces.&lt;br&gt;&lt;b&gt;Notes:&lt;/b&gt; Covered by FICO Enterprise Fraud Service (GenAI/AgenticAI enabled) + Pega for investigations." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="38.19383259911894" y="611.6666666666666" width="278.59030837004406" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc013-ea" value="&lt;b&gt;EA:&lt;/b&gt; Michael Lomas" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003087;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="38.19383259911894" y="731.6666666666666" width="278.59030837004406" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc014" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="341.36563876651985" y="556.6666666666666" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc014-title" value="UC-014: Onboarding" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="349.5594713656388" y="568.3333333333333" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc014-desc" value="&lt;b&gt;Deps:&lt;/b&gt; Fenergo/Fenx, Pega Workflow, Secure Document Exchange, GenAI Auto-Categorisation MicroService (EIM TSA).&lt;br&gt;&lt;b&gt;Notes:&lt;/b&gt; Backoffice verification focus (Ops CDD/KYC). Linked to UC-001. Fenergo demo for document data extraction." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="349.5594713656388" y="611.6666666666666" width="278.59030837004406" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc014-ea" value="&lt;b&gt;EA:&lt;/b&gt; Brett Allport" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003087;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="349.5594713656388" y="731.6666666666666" width="278.59030837004406" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc015" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="652.7312775330397" y="556.6666666666666" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc015-title" value="UC-015: Risk Functions" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="660.9251101321586" y="568.3333333333333" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc015-desc" value="&lt;b&gt;Deps:&lt;/b&gt; Not enough information was provided to make an informed determination." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="660.9251101321586" y="611.6666666666666" width="278.59030837004406" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc015-ea" value="&lt;b&gt;EA:&lt;/b&gt; GAP - scope unclear" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#FF6B35;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="660.9251101321586" y="731.6666666666666" width="278.59030837004406" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc016" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="964.0969162995596" y="556.6666666666666" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc016-title" value="UC-016: IT Operations" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="972.2907488986785" y="568.3333333333333" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc016-desc" value="&lt;b&gt;Deps:&lt;/b&gt; Not enough information was provided to make an informed determination." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="972.2907488986785" y="611.6666666666666" width="278.59030837004406" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc016-ea" value="&lt;b&gt;EA:&lt;/b&gt; John Marshall" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003087;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="972.2907488986785" y="731.6666666666666" width="278.59030837004406" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc017" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1275.4625550660794" y="556.6666666666666" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc017-title" value="UC-017: FrontLine - CIB" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1283.6563876651983" y="568.3333333333333" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc017-desc" value="&lt;b&gt;Deps:&lt;/b&gt; Trial and adoption of Salesforce Agentforce for customer relationship and sales insights.&lt;br&gt;&lt;b&gt;Notes:&lt;/b&gt; Requires same capabilities as UC-001 but different customer segment. C&amp;amp;IB data in C360, leverage Salesforce AgentForce." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1283.6563876651983" y="611.6666666666666" width="278.59030837004406" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc017-ea" value="&lt;b&gt;EA:&lt;/b&gt; Shawn Cawood, Dan Barratt" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003087;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="1283.66" y="740" width="278.59" height="21.67" as="geometry" />
+        </mxCell>
+        <mxCell id="uc018" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#666666;strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1586.8281938325993" y="556.6666666666666" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc018-title" value="UC-018: Procurement" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1595.0220264317181" y="568.3333333333333" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc018-desc" value="&lt;b&gt;Deps:&lt;/b&gt; Not enough information was provided to make an informed determination.&lt;br&gt;&lt;b&gt;Notes:&lt;/b&gt; Very nebulous. Cycle time constrained by processes not Coupa. Limited Coupa support during SAP replacement." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1595.02" y="611.67" width="265.78" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc018-ea" value="&lt;b&gt;EA:&lt;/b&gt; Brian Stapleton" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003087;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="1595.02" y="749" width="278.59" height="11.67" as="geometry" />
+        </mxCell>
+        <mxCell id="uc019" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="30" y="790" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc019-title" value="UC-019: Payment disputes" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="38.19383259911894" y="801.6666666666666" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc019-desc" value="&lt;b&gt;Deps:&lt;/b&gt; Card Issuing to revisit Pega Smart Dispute plan. FinCrime &amp;amp; Fraud to understand impact (60% disputes are fraud-related).&lt;br&gt;&lt;b&gt;Notes:&lt;/b&gt; Target is Pega Smart Dispute. GenAI/AgenticAI enabled. Desire to revisit timing.." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="38.19383259911894" y="845" width="278.59030837004406" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc019-ea" value="&lt;b&gt;EA:&lt;/b&gt; GAP" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#FF6B35;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="38.19383259911894" y="965" width="278.59030837004406" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc020" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="341.36563876651985" y="790" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc020-title" value="UC-020: Controls testing" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="349.5594713656388" y="801.6666666666666" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc020-desc" value="&lt;b&gt;Deps:&lt;/b&gt; Not enough information was provided to make an informed determination.&lt;br&gt;&lt;b&gt;Notes:&lt;/b&gt; Scope unclear. Does &quot;controls&quot; mean Risk Controls? Needs more information." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="349.5594713656388" y="845" width="278.59030837004406" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc020-ea" value="&lt;b&gt;EA:&lt;/b&gt; GAP - scope unclear" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#FF6B35;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="349.5594713656388" y="965" width="278.59030837004406" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc021" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="652.7312775330397" y="790" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc021-title" value="UC-021: Wholesale underwriting - CIB" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="660.9251101321586" y="801.6666666666666" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc021-desc" value="&lt;b&gt;Deps:&lt;/b&gt; Not enough information was provided to make an informed determination.&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="660.9251101321586" y="845" width="278.59030837004406" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc021-ea" value="&lt;b&gt;EA:&lt;/b&gt; Shawn Cawood, Lee Mauger" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003087;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="660.9251101321586" y="965" width="278.59030837004406" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc022" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="964.0969162995596" y="790" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc022-title" value="UC-022: Learning content production" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="972.29" y="801.67" width="278.59" height="48.33" as="geometry" />
+        </mxCell>
+        <mxCell id="uc022-desc" value="&lt;b&gt;Deps:&lt;/b&gt; Knowledge Platform CoE (as per EIM&#39;s Knowledge Management target state).&lt;br&gt;&lt;b&gt;Notes:&lt;/b&gt; Should also include creation of new knowledge articles, focused on content creation." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="972.2907488986785" y="849" width="278.59030837004406" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc022-ea" value="&lt;b&gt;EA:&lt;/b&gt; Hugh Walcott" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003087;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="972.2907488986785" y="965" width="278.59030837004406" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc023" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=light-dark(#787878, #ededed);strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1275.4625550660794" y="790" width="294.977973568282" height="209.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="uc023-title" value="UC-023: Collection Management" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1283.6563876651983" y="801.6666666666666" width="278.59030837004406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc023-desc" value="&lt;b&gt;Deps:&lt;/b&gt; Not enough information to make an informed determination.&lt;br&gt;&lt;b&gt;Notes:&lt;/b&gt; Arrangement hub?" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1283.6563876651983" y="845" width="278.59030837004406" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc023-ea" value="&lt;b&gt;EA:&lt;/b&gt; Paul Furkert" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003087;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="1283.6563876651983" y="965" width="278.59030837004406" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc024" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#666666;strokeWidth=2;arcSize=10;fontColor=#003300;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1586.83" y="790" width="294.98" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="uc024-title" value="UC-024: Front-end app personalisation" style="text;html=1;strokeColor=none;fillColor=light-dark(#dfd2de, #ededed);align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#003300;fontFamily=Helvetica;spacing=0;" parent="1" vertex="1">
+          <mxGeometry x="1599.02" y="801" width="270.98" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc024-desc" value="&lt;b&gt;Deps:&lt;/b&gt; CDH (Customer Data Hub).&lt;br&gt;&lt;b&gt;Notes:&lt;/b&gt; All 3 bullets covered by new MarTech tool (AI toggle on/off). CDH propensity model already in landscape. MarTech delivers personalised comms incl. mobile app." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1599.02" y="845" width="270.98" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uc024-ea" value="&lt;b&gt;EA:&lt;/b&gt; Corina Elama, Sarah Amundsen, Brett Allport" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003087;fontFamily=Helvetica;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="1599.02" y="965" width="270.98" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc001-desc" value="&lt;b&gt;Deps:&lt;/b&gt; GenAI Auto-Categorisation, Mongo Atlas vector DB (FY26), DocMan ingestion (FY27), SalesForce offboarding to EIM, Salesforce Agentforce trial, Salesforce-Te Kete integration.&amp;nbsp;&lt;b&gt;Notes:&lt;/b&gt; Includes Te Kete access. C360 dependencies. Requires semantic layer over customer repos." style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#003300;fontFamily=Helvetica;spacing=0;" parent="1" vertex="1">
+          <mxGeometry x="38.19" y="137" width="281.81" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

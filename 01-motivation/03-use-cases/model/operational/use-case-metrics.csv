@@ -1,0 +1,79 @@
+use_case_id,use_case_name,platform,data_sources,ai_type,deployment,estimated_users,abb_count,interface_count,layer_count,primary_pattern_id,primary_pattern_name,2025_pattern_metrics
+1,FrontLine - Partnership Banking,"Colleague Digital
+Conversational Banking
+Customer Engagment
+Enterprise Information Management","Customer profiles, transaction history, interaction logs, product holdings, financial statements, market data, relationship tenure, communication preferences, calendar/meeting data, CRM records",Embedded/Vendor AI (in commercial software),,0+ users,13,17,5,PT-005,Self-Reflective RAG,"2025 Metrics: RAG retrieval accuracy >90%. Feature Store latency <10ms. Agentic AI task completion >95%. Vector DB HNSW recall >95%."
+2,Finance,"Finance
+Data & Analytics
+Enterprise Reporting
+Regulatory Reporting","General ledger data, trial balance, chart of accounts, transaction records, budget data, prior period financials, cost center allocations, journal entries, reconciliation records, regulatory filings",,,0+ users,15,19,5,PT-007,Agentic AI Pattern,"2025 Metrics: Multi-Agent coordination >95%. Financial narrative accuracy >95%. Anomaly detection F1 >90%. Report generation <5min."
+3,Analytics and Reporting,"Data & Analytics
+Enterprise Reporting
+Regulatory Reporting
+Data & Information Protection","Historical transaction data, customer behavior patterns, product performance metrics, operational KPIs, market indicators, seasonal trends, external economic data, business rules, dimensional models",,,0+ users,19,27,5,PT-005,Self-Reflective RAG,"2025 Metrics: Text-to-SQL accuracy >90%. Query latency <3s. Prediction accuracy >85%. Self-service adoption >60%."
+4,Credit Risk,"Credit Modelling, Pricing & Decisioning
+Group Credit Risk","Credit applications, financial statements, credit bureau reports, payment history, debt-to-income ratios, collateral valuations, industry sector data, macroeconomic indicators, existing exposure data, behavioral data, credit policies",,,0+ users,19,26,5,PT-009,Real-Time ML Scoring,"2025 REGULATORY Metrics: Scoring latency <1s (p99). Model AUC >0.85. 100% explainability coverage. Drift detection <1hr. Feature Store <50ms."
+5,Lending Ops,"Lending origination
+Enterprise Information Management (DocMan)","Loan applications (PDFs/scans), identity documents, income verification documents, property valuations, legal contracts, compliance checklists, settlement documents, supporting financial records, email communications",,,0+ users,19,18,4,PT-011,Intelligent Document Processing,"2025 Metrics: IDP extraction accuracy >95%. Document classification >98%. STP rate >70%. Exception rate <30%."
+6,HyperPersonalization,"Customer Digital
+Customer Engagement
+Marketing & Campaign management","Customer demographics, transaction patterns, channel preferences, life events, product usage data, browsing behavior, campaign response history, sentiment analysis, external context (weather/events), real-time triggers",Generative AI (content creation),,0+ users,22,25,5,PT-006,Multi-Model Routing,"2025 Metrics: Real-time decisioning <100ms (p95). Feature Store <10ms. A/B lift >10%. Recommendation relevance >85%."
+7,Contact Centre,Conversational Banking,"Call transcripts, chat logs, customer history, IVR interactions, knowledge base articles, product documentation, agent notes, escalation records, sentiment signals, hold time data, resolution outcomes",Embedded/Vendor AI (in commercial software),Unclear at this time,0+ users,15,13,4,PT-013,Conversational AI Pattern,"2025 Metrics: Conversation accuracy >90%. First call resolution >75%. Agent assist usage >80%. CSAT improvement >10%."
+8,Security AI,"Cyber Threat Intelligence Detection and Response
+Enterprise Data and Information Protection
+Application & Infrastructure Protection
+Core Network Management","Network traffic logs, endpoint activity, authentication events, firewall logs, SIEM alerts, vulnerability scans, user behavior patterns, threat intelligence feeds, system configurations, access logs, email metadata, DNS queries",,,0+ users,16,15,5,PT-009,Real-Time ML Scoring,"2025 Metrics: Detection latency <100ms. False positive rate <20%. Threat detection rate >95%. MTTR <30min."
+9,Data Products,"Data & Analytics
+Enterprise Rerporting
+Regulatory Reporting","Business requirements, data source metadata, schema definitions, data quality rules, data lineage, existing data models, governance policies, user access patterns, data catalog content, technical documentation",Generative AI (content creation),,0+ users,14,13,4,PT-012,Data Mesh Pattern,"2025 Metrics: Data product TTM <2wks. Quality SLA >95%. Metadata coverage >90%. Consumer adoption >70%."
+10,SDLC,Engineering Automation & Software,"Source code repositories, user stories, requirements documents, design specifications, test cases, deployment logs, code review comments, security scan results, performance metrics, dependency manifests, architecture diagrams",Dev/Code AI,Real-time inference,0+ users,17,11,4,PT-007,Agentic AI Pattern,"2025 Metrics: Code suggestion acceptance >40%. Security detection >90%. Test coverage >80%. 100% human review compliance."
+11,Fincrime,"FinCrime & Fraud
+Customer Master
+Domestic Payments
+International Payments
+Transaction Switch","Customer names, transaction data, sanctions lists, PEP lists, adverse media sources, corporate registries, beneficial ownership data, transaction patterns, geographic risk data, customer due diligence questionnaires, relationship structures",,,0+ users,15,13,4,PT-009,Real-Time ML Scoring,"2025 REGULATORY Metrics: Detection rate >95%. False positive reduction >30%. SAR quality >95%. 100% explainability."
+12,QA/QC,"Process, Worklfow and Workforce Automation
+Governance, Operational Risk & Compliance
+Regulatory Reporting","Data sets to validate, business rules, regulatory requirements, historical error patterns, data quality metrics, schema definitions, reference data, audit logs, quality thresholds, analyst work products",,,0+ users,16,13,4,PT-014,Batch Prediction Pattern,"2025 Metrics: Test coverage >85%. Defect prediction accuracy >80%. Quality SLA >95%. Manual QA reduction >40%."
+13,Fraud Ops,"FinCrime & Fraud
+Customer Master
+Domestic Payments
+International Payments
+Transaction Switch
+Core Banking Ledger
+C360","Transaction history, customer profiles, account activity, device fingerprints, IP addresses, merchant data, fraud rules, historical fraud cases, behavioral patterns, channel data, geolocation data, contact information",,,0+ users,16,13,4,PT-009,Real-Time ML Scoring,"2025 Metrics: Detection latency <100ms. False positive rate <15%. Fraud loss prevention >90%. Investigation time <2hrs."
+14,Onboarding,"Customer Digital
+Customer & Party Lifecycle Management
+Customer & Party Master
+Enterprise Information Management","ID documents (passport/license), proof of address, customer application forms, biometric data, credit bureau reports, sanctions/PEP lists, corporate documents, beneficial ownership data, source of funds documentation, risk questionnaires",,,0+ users,18,11,4,PT-011,Intelligent Document Processing,"2025 REGULATORY Metrics: ID verification >99%. Liveness detection >99%. STP rate >80%. 100% explainability."
+15,"Risk functions- Risk Functions - Operational Risk, Market Risk, Liquidity Risk,Model Risk, Compliance Risk Assessment, Tech Risk, Risk Assurance, Enterprise Risk","Governance, Op Risk, Compliance
+Treasury Risk
+Group Credit Risk
+Regulatory Reporting","Loss event data, control test results, market prices, trading positions, liquidity metrics, model performance data, compliance incidents, system vulnerabilities, audit findings, risk registers, exposure data, regulatory requirements",,,0+ users,16,11,4,PT-004,ML Model Explainability,"2025 REGULATORY Metrics: Risk calculation accuracy >95%. Scenario coverage >90%. 100% explainability. Zero regulatory findings."
+16,IT Ops - IT Operations  -,"IT Asset, Assurance
+& Service Management
+Operational Observability","Incident tickets, service requests, system logs, monitoring alerts, CMDB data, historical resolution data, user feedback, SLA definitions, team availability, skill matrices, knowledge base articles, access requests, BCM scenarios",,,0+ users,17,11,4,PT-007,Agentic AI Pattern,"2025 Metrics: MTTR reduction >50%. Auto-remediation success >80%. Anomaly detection >95%. SLA compliance >99%."
+17,FrontLine - CIB,"Colleague Digital
+Conversational Banking
+Customer Engagment
+Enterprise Information Management
+Money Markets","Corporate client profiles, transaction volumes, product usage, financial statements, industry analysis, deal pipelines, market intelligence, relationship hierarchies, communication history, meeting notes, credit facilities",,,0+ users,16,13,4,PT-005,Self-Reflective RAG,"2025 Metrics: RAG intelligence accuracy >90%. Feature Store <10ms. Pitch quality >85%. Deal win rate lift >10%."
+18,Procurement,"Procurement
+Finance
+People & Culture","Purchase requisitions, supplier catalogs, contracts, pricing data, spend history, supplier performance metrics, inventory levels, invoices, goods receipts, approval workflows, budget allocations, compliance requirements",,,0+ users,16,13,4,PT-008,Multi-Agent Orchestration,"2025 Metrics: Multi-Agent coordination >95%. Contract extraction >95%. Vendor match quality >90%. Cycle time reduction >40%."
+19,Payment disputes,"Card Issuing
+FinCrime & Fraud
+Domestic Payments
+International Payments
+Transaction Switch
+Collections & Hardship","Dispute claims, transaction records, cardholder communications, merchant data, card scheme rules, supporting documentation, chargeback reason codes, historical dispute outcomes, customer account history, fraud indicators",,,0+ users,17,13,5,PT-007,Agentic AI Pattern,"2025 Metrics: Classification accuracy >95%. Evidence analysis >90%. Resolution time <48hrs. Win rate >85%."
+20,Controls testing - IT and business,tbc - not clear what the scope of this actually is,"Control frameworks, test procedures, control documentation, system configurations, access logs, transaction samples, previous test results, audit requirements, control matrices, risk assessments, policy documents",,,0+ users,17,13,5,PT-007,Agentic AI Pattern,"2025 Metrics: Test coverage >90%. Evidence completeness >95%. Finding accuracy >95%. Audit time reduction >30%."
+21,Wholesale underwriting transformation - CIB,"Money Market
+Core Banking Ledger","Financial statements, credit applications, industry benchmarks, collateral data, relationship history, market conditions, covenant terms, risk appetite policies, deal structures, regulatory requirements, external ratings",,,0+ users,19,13,4,PT-011,Intelligent Document Processing,"2025 REGULATORY Metrics: Financial extraction >95%. Credit AUC >0.85. Underwriting time <3 days. 100% explainability."
+22,Learning content prouction,"Enterprise Information Management (knowledge and IP content)
+People & Culture (awards and development tracking)","Subject matter documentation, training materials, competency frameworks, role requirements, learning objectives, existing course content, regulatory training requirements, learner performance data, industry best practices",,,0+ users,16,13,4,PT-007,Agentic AI Pattern,"2025 Metrics: Content quality rating >85%. Assessment validity >90%. Content creation <1week. Learner completion >80%."
+23,Collection Management,Collections & Hardship,"Delinquent accounts, payment history, customer financial data, contact history, communication preferences, economic indicators, behavioral patterns, collection strategies, account balances, hardship indicators, legal constraints",,,0+ users,17,11,4,PT-009,Real-Time ML Scoring,"2025 Metrics: Payment prediction >85%. Feature Store <10ms. Recovery rate lift >15%. Collection cost reduction >20%."
+24,Front-end app personalisation,"Customer Digital
+Customer Identity & Access Management
+Customer Engagement
+Marketing & Campaign Management","User profiles, app usage patterns, transaction history, location data, device information, micro-segment definitions, persona characteristics, image library metadata, campaign objectives, content guidelines, A/B test results, user feedback",,,0+ users,18,15,5,PT-006,Multi-Model Routing,"2025 Metrics: Feature Store <10ms. Real-time decisioning <100ms. A/B lift >15%. App engagement increase >30%."

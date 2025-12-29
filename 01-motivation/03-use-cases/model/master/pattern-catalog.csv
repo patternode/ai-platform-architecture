@@ -1,0 +1,19 @@
+pattern_id,name,category,description,use_case_count,maturity,documentation_status
+PT-001,Enterprise AI Governance,Governance,Comprehensive governance framework for AI systems,24,Defined,Complete
+PT-002,MLOps Level 2+,Operations,Automated ML pipeline with CI/CD and monitoring,12,Developing,Complete
+PT-003,Feature Store Dual-Store,Data,Online/offline feature serving with low latency,8,Defined,Complete
+PT-004,ML Model Explainability,Governance,SHAP/LIME explainability for regulatory compliance,7,Defined,Complete
+PT-005,Self-Reflective RAG,AI Pattern,RAG with reflection and hybrid search,8,Developing,Complete
+PT-006,Multi-Model Routing,AI Pattern,Intelligent routing across multiple LLMs,6,Initial,Complete
+PT-007,Agentic AI Pattern,AI Pattern,Autonomous agents with planning and reflection,12,Developing,Complete
+PT-008,Multi-Agent Orchestration,AI Pattern,Coordination of multiple specialized agents,2,Initial,Complete
+PT-009,Real-Time ML Scoring,Inference,Sub-second ML inference for production,10,Defined,Complete
+PT-010,Champion/Challenger Testing,Operations,A/B testing framework for model comparison,3,Developing,Complete
+PT-011,Intelligent Document Processing,AI Pattern,Multi-modal document extraction and processing,5,Developing,Complete
+PT-012,Data Mesh Pattern,Data,Federated data product ownership,4,Initial,Complete
+PT-013,Conversational AI,AI Pattern,Multi-turn dialogue management,2,Developing,Complete
+PT-014,Batch Prediction Pattern,Inference,Large-scale batch inference pipelines,4,Defined,Complete
+PT-015,Event-Driven Architecture,Integration,Real-time event streaming and processing,5,Defined,Complete
+PT-016,Stream Processing,Data,Continuous data stream processing,2,Developing,Complete
+PT-017,Observability and Monitoring,Operations,Full-stack observability with OpenTelemetry,24,Defined,Complete
+PT-018,Security and Privacy,Security,Privacy-preserving AI and security controls,8,Defined,Complete

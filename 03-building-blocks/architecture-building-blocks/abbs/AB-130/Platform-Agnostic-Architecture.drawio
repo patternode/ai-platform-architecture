@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2025-12-12T00:00:00.000Z" agent="Claude Code" version="21.0.0" type="device">
+  <diagram name="Platform-Agnostic Architecture" id="platform-agnostic-arch">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Main Background Container -->
+        <mxCell id="main-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#003087;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="1600" height="840" as="geometry"/>
+        </mxCell>
+
+        <!-- Title -->
+        <mxCell id="title" value="AI Agent - Logical Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=28;fontStyle=1;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="160" y="100" width="1600" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Title underline -->
+        <mxCell id="titleLine" value="" style="line;strokeWidth=2;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#FF6B35;" vertex="1" parent="1">
+          <mxGeometry x="200" y="150" width="1520" height="10" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== TOP LAYER: AGENT INSTANCES ==================== -->
+
+        <!-- Agent Instances Container -->
+        <mxCell id="agents-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=1;strokeDashArray=3 3;" vertex="1" parent="1">
+          <mxGeometry x="240" y="180" width="1440" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell id="agents-label" value="Agent Instances (Deployable Units)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="260" y="185" width="280" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Agent Instance 1: Python/LangGraph -->
+        <mxCell id="agent1-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="230" width="280" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="agent1-icon" value="🤖" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="425" y="240" width="50" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="agent1-title" value="Agent Instance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=18;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="285" width="280" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="agent1-subtitle" value="Python / TypeScript" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=#50E6FF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="315" width="280" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="agent1-framework" value="LangGraph • Strands • CrewAI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="320" y="345" width="280" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- Agent Instance 2: .NET/Semantic Kernel -->
+        <mxCell id="agent2-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="230" width="280" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="agent2-icon" value="🤖" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="795" y="240" width="50" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="agent2-title" value="Agent Instance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=18;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="680" y="285" width="280" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="agent2-subtitle" value="C# / .NET" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=#50E6FF;" vertex="1" parent="1">
+          <mxGeometry x="680" y="315" width="280" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="agent2-framework" value="Semantic Kernel • AutoGen" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="680" y="345" width="280" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- Agent Instance 3: Low-Code -->
+        <mxCell id="agent3-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="230" width="280" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="agent3-icon" value="🤖" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="240" width="50" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="agent3-title" value="Agent Instance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=18;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="285" width="280" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="agent3-subtitle" value="Low-Code / No-Code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=#50E6FF;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="315" width="280" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="agent3-framework" value="Copilot Studio • Bedrock Agents" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="345" width="280" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- More Agents Indicator -->
+        <mxCell id="more-agents" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=36;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="280" width="80" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== CONVERGENCE ARROWS ==================== -->
+
+        <!-- Arrow from Agent 1 to Platform -->
+        <mxCell id="arrow1" value="" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#FF6B35;entryX=0.3;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="platform-box">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="380" as="sourcePoint"/>
+            <mxPoint x="640" y="480" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Arrow from Agent 2 to Platform -->
+        <mxCell id="arrow2" value="" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#FF6B35;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="380" as="sourcePoint"/>
+            <mxPoint x="820" y="480" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Arrow from Agent 3 to Platform -->
+        <mxCell id="arrow3" value="" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#FF6B35;entryX=0.7;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="platform-box">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="380" as="sourcePoint"/>
+            <mxPoint x="1000" y="480" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Convergence Arrow Head -->
+        <mxCell id="arrow-converge" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#FF6B35;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="440" as="sourcePoint"/>
+            <mxPoint x="820" y="480" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ==================== MIDDLE LAYER: HOSTING PLATFORM ==================== -->
+
+        <!-- Platform Container -->
+        <mxCell id="platform-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#00A651;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="480" width="760" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="platform-icon" value="☁️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="795" y="485" width="50" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="platform-title" value="Agent Hosting Platform" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=22;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="530" width="760" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="platform-options" value="AWS AgentCore  •  Azure AI Agent Service  •  Copilot Studio  •  Kubernetes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="440" y="565" width="760" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== DISTRIBUTION ARROWS ==================== -->
+
+        <!-- Arrow from Platform to Services -->
+        <mxCell id="arrow-dist" value="" style="endArrow=none;html=1;strokeWidth=4;strokeColor=#FF6B35;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="600" as="sourcePoint"/>
+            <mxPoint x="820" y="660" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Distribution Branch Lines -->
+        <mxCell id="branch-line" value="" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#FF6B35;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="660" as="sourcePoint"/>
+            <mxPoint x="1240" y="660" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Arrow to Tool Registry -->
+        <mxCell id="arrow-tools" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF6B35;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="660" as="sourcePoint"/>
+            <mxPoint x="400" y="720" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Arrow to Memory System -->
+        <mxCell id="arrow-memory" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF6B35;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="660" as="sourcePoint"/>
+            <mxPoint x="820" y="720" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Arrow to LLM Service -->
+        <mxCell id="arrow-llm" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF6B35;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="660" as="sourcePoint"/>
+            <mxPoint x="1240" y="720" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ==================== BOTTOM LAYER: PLATFORM SERVICES ==================== -->
+
+        <!-- Services Container -->
+        <mxCell id="services-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeWidth=1;strokeDashArray=3 3;" vertex="1" parent="1">
+          <mxGeometry x="240" y="720" width="1440" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="services-label" value="Platform Services (Shared Infrastructure)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="260" y="725" width="300" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Tool Registry Service -->
+        <mxCell id="tools-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="765" width="320" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="tools-icon" value="🔧" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="415" y="770" width="50" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="tools-title" value="Tool Registry" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=18;fontStyle=1;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="280" y="805" width="320" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="tools-id" value="AB-002" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="280" y="835" width="320" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="tools-desc" value="Tool Discovery &amp; Invocation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="280" y="855" width="320" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Memory System Service -->
+        <mxCell id="memory-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="765" width="320" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="memory-icon" value="💾" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="795" y="770" width="50" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="memory-title" value="Memory System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=18;fontStyle=1;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="660" y="805" width="320" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="memory-id" value="AB-003" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="660" y="835" width="320" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="memory-desc" value="Short-term &amp; Long-term Memory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="660" y="855" width="320" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- LLM Service -->
+        <mxCell id="llm-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="765" width="320" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="llm-icon" value="🧠" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="1175" y="770" width="50" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="llm-title" value="LLM Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=18;fontStyle=1;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="805" width="320" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="llm-id" value="AB-050" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="835" width="320" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="llm-desc" value="Model Inference &amp; Reasoning" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="855" width="320" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== LEGEND ==================== -->
+
+        <!-- Legend Container on right side -->
+        <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="180" width="260" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontStyle=1;fontColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="185" width="260" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Legend Item 1: Agent Instance -->
+        <mxCell id="legend-agent" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#003087;strokeColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="225" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-agent-text" value="Agent Instance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="220" width="180" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Legend Item 2: Hosting Platform -->
+        <mxCell id="legend-platform" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A651;strokeColor=#00A651;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="260" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-platform-text" value="Hosting Platform" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="255" width="180" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Legend Item 3: Platform Service -->
+        <mxCell id="legend-service" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#50E6FF;strokeColor=#003087;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="295" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-service-text" value="Platform Service (ABB)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="290" width="180" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Legend Item 4: Data Flow -->
+        <mxCell id="legend-flow" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF6B35;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1500" y="340" as="sourcePoint"/>
+            <mxPoint x="1530" y="340" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-flow-text" value="Data / Control Flow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="325" width="180" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Legend Item 5: Logical Grouping -->
+        <mxCell id="legend-group" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;strokeDashArray=3 3;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="365" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-group-text" value="Logical Grouping" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="360" width="180" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- ABB Reference -->
+        <mxCell id="abb-ref" value="AB-130 AI Agent | Version 1.0.0" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="905" width="280" height="25" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
